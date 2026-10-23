@@ -1,0 +1,204 @@
+{
+ "kode": "dc-k7-054-r2",
+ "brand": "dentalcare",
+ "konsep": "K7",
+ "judul": "Tutorial bikin jadwal klinik bentrok ala Mbak Tari",
+ "pembuka": "k7-mau-gampang",
+ "pemeran": {
+  "utama": "dc-tari",
+  "pendukung": [
+   "dc-rina"
+  ]
+ },
+ "caption": "Membalas chat pasien sendiri memang cepat. Masalahnya, resepsionis tidak tahu jam itu sudah terisi. Tutorial ini sengaja gagal. Mau lihat demo jadwal DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #jadwalpasien #DentalCare",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Mau dua pasien rebutan satu kursi? Ikuti tiga langkah Mbak Tari, perawat gigi.",
+   "primitif": "tutorial-hook",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Cara bikin pasien",
+    "kunci": "REBUTAN",
+    "jumlah": 3
+   }
+  },
+  {
+   "teks": "Satu, balas chat Bu Lina: besok jam empat, bisa.",
+   "primitif": "langkah",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "yakin"
+    ],
+    "no": 1,
+    "total": 3,
+    "judul": "Balas chat\nDARI HP PRIBADI",
+    "prop": "dc-prop-ponsel",
+    "bubble": "jam 4 bisa, Bu"
+   }
+  },
+  {
+   "teks": "Dua, jangan kabari Mbak Rina, resepsionis pemegang jadwal.",
+   "primitif": "langkah",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ],
+    "no": 2,
+    "total": 3,
+    "judul": "Jangan kabari\nRESEPSIONIS",
+    "prop": "dc-prop-buku-antrean",
+    "bubble": "nanti saja"
+   }
+  },
+  {
+   "teks": "Tiga, lupakan. Toh sudah dibalas.",
+   "primitif": "langkah",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ],
+    "no": 3,
+    "total": 3,
+    "judul": "LUPAKAN",
+    "prop": "dc-prop-sticky-note",
+    "bubble": "beres!",
+    "cap": "BERHASIL ✓"
+   }
+  },
+  {
+   "teks": "Padahal jam itu diisi Mbak Rina untuk Bu Ani.",
+   "primitif": "bentrok",
+   "opsi": {
+    "tokoh": "dc-rina",
+    "pose": "panik",
+    "wajah": [
+     "kaget"
+    ],
+    "kiri": [
+     "16.00",
+     "Bu Lina"
+    ],
+    "kanan": [
+     "16.00",
+     "Bu Ani"
+    ],
+    "stempel": "BENTROK",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Dua pasien datang bersamaan, satu kursi.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "bingung",
+    "wajah": [
+     "bingung",
+     "kaget"
+    ],
+    "bubble": "duluan siapa?",
+    "stempel": "DUA PASIEN",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Bu Lina menunggu sejam. Ngilunya hilang, sabarnya juga.",
+   "primitif": "hitung",
+   "opsi": {
+    "pose": "bingung",
+    "wajah": [
+     "lelah"
+    ],
+    "judul": "BU LINA MENUNGGU",
+    "dari": 0,
+    "ke": 60,
+    "format": "menit",
+    "bubble": "maaf, Bu...",
+    "latar": "dc-latar-ruang-tunggu",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Bonus: catat janji langsung di jadwal DentalCare.",
+   "primitif": "langkah",
+   "opsi": {
+    "pose": "tunjuk-papan",
+    "wajah": [
+     "yakin"
+    ],
+    "no": 4,
+    "total": 3,
+    "judul": "Catat di\nJADWAL DENTALCARE",
+    "prop": "dc-prop-tablet",
+    "bonus": true
+   }
+  },
+  {
+   "teks": "Kini janji Mbak Tari muncul di layar Mbak Rina.",
+   "primitif": "layar",
+   "opsi": {
+    "tokoh": "dc-rina",
+    "pose": "buku",
+    "wajah": [
+     "lega"
+    ],
+    "stempel": "RAPI ✓",
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jadwal"
+     },
+     {
+      "ui": "dc-ui-antrean-rapi",
+      "judul": "Antrean"
+     }
+    ],
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Langkahnya bikin rebutan, bonusnya bikin klinik tenang.",
+   "primitif": "haru",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ],
+    "kartu": "Terima kasih, Mbak!",
+    "tag": "BONUS MENANG",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 9,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang.",
+  "naskah_hash": "e11e27da9051",
+  "waktu": "2026-10-23T04:15",
+  "model": "claude-opus-subagen",
+  "mode": "borongan-2"
+ }
+}
