@@ -1,0 +1,204 @@
+{
+ "kode": "dc-k4-040",
+ "brand": "dentalcare",
+ "konsep": "K4",
+ "pembuka": "k4-situasi",
+ "pemeran": {
+  "utama": "dc-sinta",
+  "pendukung": []
+ },
+ "judul": "Pasien chat tambalannya ngilu: klinikmu tipe yang mana?",
+ "caption": "Pasien chat: tambalan bulan lalu ngilu. Reaksi klinikmu tipe yang mana? Tulis di komentar. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "\"Dok, tambalan bulan lalu ngilu.\" Chat ini masuk ke klinikmu. Reaksimu yang mana?",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pasien tambal",
+    "sub": "chat masuk",
+    "pesan": [
+     {
+      "teks": "Dok, tambalan saya ngilu",
+      "sorot": true
+     },
+     {
+      "teks": "yang bulan lalu itu"
+     }
+    ],
+    "foto": "dc-maskot-odontogram-kaget",
+    "stempel": "???"
+   }
+  },
+  {
+   "teks": "Tipe satu, resepsionis si bongkar lemari. Mapnya ketemu, milik pasien lain.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Bongkar Lemari",
+    "rarity": "COMMON",
+    "foto": "dc-maskot-lemari-arsip-panik",
+    "stat": [
+     [
+      "SEMANGAT",
+      95
+     ],
+     [
+      "WAKTU CARI",
+      90
+     ],
+     [
+      "MAP BENAR",
+      5
+     ]
+    ],
+    "skill": "hafal letak laci",
+    "lemah": "map pasien lain",
+    "gag": {
+     "turun": 2,
+     "ke": 5
+    }
+   }
+  },
+  {
+   "teks": "Tipe dua, dokter si tanya balik: gigi yang mana, Bu? Pasien: kan Dokter yang tambal.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Tanya Balik",
+    "rarity": "RARE",
+    "foto": "dc-maskot-map-kaget",
+    "stat": [
+     [
+      "RAMAH",
+      90
+     ],
+     [
+      "CATATAN",
+      10
+     ],
+     [
+      "PERCAYA DIRI",
+      40
+     ]
+    ],
+    "skill": "sopan bertanya",
+    "lemah": "pasien ikut bingung",
+    "gag": {
+     "jenis": "chat",
+     "item": [
+      "gigi yang mana, Bu?",
+      "...",
+      "kan Dokter yg tambal"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Tipe tiga, admin si suruh datang. Pasiennya datang, catatannya yang tidak.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Suruh Datang",
+    "rarity": "EPIC",
+    "foto": "dc-maskot-odontogram-sedih",
+    "stat": [
+     [
+      "TEGAS",
+      85
+     ],
+     [
+      "NIAT BAIK",
+      90
+     ],
+     [
+      "CATATAN",
+      5
+     ]
+    ],
+    "skill": "pasien cepat datang",
+    "lemah": "catatannya absen",
+    "gag": {
+     "jenis": "lupa",
+     "item": [
+      "catatannya mana?",
+      "tambal yang mana?"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Tipe empat, seperti dokter Sinta: buka odontogram di DentalCare.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Si Buka DentalCare",
+    "rarity": "LEGENDARY",
+    "foto": "dc-sinta-foto",
+    "stat": [
+     [
+      "CEPAT",
+      100
+     ],
+     [
+      "TENANG",
+      100
+     ],
+     [
+      "DATA LENGKAP",
+      100
+     ]
+    ],
+    "skill": "riwayat di DentalCare",
+    "lemah": "tidak ada (sejauh ini)",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "Odontogram terbuka",
+      "Gigi tambal jelas",
+      "Kontrol terjadwal"
+     ],
+     "stempel": "TENANG"
+    }
+   }
+  },
+  {
+   "teks": "Balasannya: geraham kanan bawah, tambalan bulan lalu. Kontrol Kamis, lebih awal bila makin ngilu.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-odontogram-rapi",
+      "judul": "Odontogram"
+     },
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jadwal Kontrol"
+     }
+    ],
+    "stempel": "TERJAWAB ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Klinikmu tipe berapa? Tulis di komentar.",
+   "primitif": "tipe-pilih",
+   "opsi": {
+    "komentar": "Klinikku tipe ..."
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

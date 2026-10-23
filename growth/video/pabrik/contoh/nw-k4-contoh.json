@@ -1,0 +1,32 @@
+{
+ "kode": "nw-k4-contoh",
+ "brand": "nusawebsite",
+ "konsep": "K4",
+ "judul": "4 tipe pemilik usaha soal stok barang",
+ "caption": "Soal stok barang, kamu tipe yang mana? Si hitung manual, si feeling, si tanya grup, atau si sudah pakai aplikasi? Tulis nomornya di komentar ya. Mau aplikasi stok yang pas untuk usahamu, tanya lewat WhatsApp di profil. #umkm #stokbarang #aplikasibisnis #nusawebsite",
+ "musik": "ceria",
+ "adegan": [
+  {"teks": "Ada empat tipe pemilik usaha soal stok barang. Kamu yang mana?", "primitif": "tipe-hook",
+   "opsi": {"jumlah": 4, "judul": "PEMILIK USAHA", "sub": "soal stok barang", "tanya": "Kamu yang mana?"}},
+  {"teks": "Tipe satu, si hitung manual. Rajin mencatat, tapi angka di buku sering beda dengan rak.", "primitif": "kartu-tipe",
+   "opsi": {"no": 1, "nama": "Si Hitung Manual", "rarity": "COMMON", "foto": "nw-f-foto-bingung-hp",
+    "stat": [["RAJIN", 95], ["KERAPIAN", 70], ["COCOK RAK", 60], ["WAKTU LUANG", 20]],
+    "skill": "buku stok selalu dibawa", "lemah": "angka buku beda dengan rak", "gag": {"turun": 2, "ke": 8, "kata": "beda"}}},
+  {"teks": "Tipe dua, si feeling. Sekali lihat, merasa stok masih banyak. Ternyata habis.", "primitif": "kartu-tipe",
+   "opsi": {"no": 2, "nama": "Si Feeling", "rarity": "RARE", "foto": "nw-f-foto-menguap-hp",
+    "stat": [["PERCAYA DIRI", 99], ["KECEPATAN", 90], ["AKURASI", 70], ["STOK AMAN", 50]],
+    "skill": "cukup lihat sekilas", "lemah": "suatu hari stok habis", "gag": {"jenis": "lupa", "item": ["masih banyak", "aman kok", "nanti saja", "cukup lah"], "kata": "habis"}}},
+  {"teks": "Tipe tiga, si tanya grup. Cek stok lewat chat ke gudang, jawabannya besok.", "primitif": "kartu-tipe",
+   "opsi": {"no": 3, "nama": "Si Tanya Grup", "rarity": "EPIC", "foto": "nw-f-foto-takut-hp",
+    "stat": [["CHAT TERKIRIM", 99], ["SABAR", 85], ["JAWABAN CEPAT", 10], ["BATERAI HP", 15]],
+    "skill": "satu grup untuk semua", "lemah": "balasan baru besok", "gag": {"jenis": "chat", "item": ["Gudang, stok kaos?", "📦📦📦", "[stiker]", "Sebentar kak", "Besok dicek ya", "Pagi semua ☀️", "Siap!", "[stiker]"], "kata": "besok"}}},
+  {"teks": "Tipe empat, langka. Stok berkurang otomatis tiap ada pesanan. Tidurnya nyenyak.", "primitif": "kartu-tipe",
+   "opsi": {"no": 4, "nama": "Si Pakai Aplikasi", "rarity": "LEGENDARY", "foto": "nw-f-foto-laptop-jempol",
+    "stat": [["STOK AKURAT", 100], ["PESANAN RAPI", 100], ["LAPORAN", 100], ["JAM TIDUR", 100]],
+    "skill": "stok terhitung otomatis", "lemah": "tidak ada (sejauh ini)", "gag": {"jenis": "notif", "item": ["Pesanan baru masuk", "Stok dikurangi otomatis", "Stok menipis: kaos M"], "stempel": "TIDUR NYENYAK", "kata": "otomatis"}}},
+  {"teks": "Kamu tipe yang mana? Tulis di komentar.", "primitif": "tipe-pilih",
+   "opsi": {"komentar": "Aku tipe nomor ..."}},
+  {"teks": "Mau aplikasi stok seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.", "primitif": "cta",
+   "opsi": {"ajakan": "Mau aplikasi stok\nuntuk usahamu?", "pose": "jalan-laptop", "wajah": ["senang"]}}
+ ]
+}

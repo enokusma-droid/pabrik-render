@@ -1,0 +1,300 @@
+{
+ "kode": "nw-k4-053",
+ "brand": "nusawebsite",
+ "konsep": "K4",
+ "pembuka": "k4-pengakuan",
+ "pemeran": {
+  "utama": "nw-f",
+  "pendukung": []
+ },
+ "judul": "4 tipe pemilik toko kosmetik saat reseller minta rekap bulan ini",
+ "caption": "Reseller minta rekap, pemilik toko minta waktu tiga hari. Ada si screenshot, si kalkulator, si nanti ya, dan si aplikasi. Sari mengaku dulu tipe kalkulator, sampai reseller terbesarnya menemukan selisih enam lipstik. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "adegan": [
+  {
+   "teks": "Sari mengaku: satu rekap reseller, tiga hari, tiga angka beda.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "duduk-catat",
+    "wajah": [
+     "bingung",
+     "lelah"
+    ],
+    "judul": "Sari",
+    "sub": "pemilik toko kosmetik",
+    "bubble": "46? 49? 44?",
+    "stempel": "3 HARI"
+   }
+  },
+  {
+   "teks": "Tipe satu, si screenshot: empat puluh gambar, HP penuh.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Screenshot",
+    "rarity": "COMMON",
+    "foto": "nw-hp-chat-banjir",
+    "stat": [
+     [
+      "JUMLAH FOTO",
+      100
+     ],
+     [
+      "CEPAT KIRIM",
+      95
+     ],
+     [
+      "RAPI",
+      5
+     ],
+     [
+      "JELAS",
+      10
+     ]
+    ],
+    "skill": "kirim 40 tangkapan layar",
+    "lemah": "HP reseller penuh",
+    "gag": {
+     "jenis": "chat",
+     "item": [
+      "[gambar 1]",
+      "[gambar 2]",
+      "[gambar 3]",
+      "...",
+      "[gambar 40]",
+      "HP-ku penuh, Kak"
+     ],
+     "kata": "gambar"
+    }
+   }
+  },
+  {
+   "teks": "Tipe dua, si kalkulator: tiga kali hitung, tiga hasil.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Kalkulator",
+    "rarity": "RARE",
+    "foto": "nw-maskot-kalkulator-bingung",
+    "stat": [
+     [
+      "NIAT",
+      99
+     ],
+     [
+      "TELITI",
+      90
+     ],
+     [
+      "HASIL SAMA",
+      5
+     ],
+     [
+      "SABAR",
+      40
+     ]
+    ],
+    "skill": "hitung ulang nota tiga malam",
+    "lemah": "tiap hitung hasil beda",
+    "gag": {
+     "jenis": "lupa",
+     "item": [
+      "lipstik 46",
+      "eh, 49?",
+      "kok 44?",
+      "yang mana?"
+     ],
+     "kata": "hasil"
+    }
+   }
+  },
+  {
+   "teks": "Tipe tiga, si nanti ya: besok, besok, lupa.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Nanti Ya",
+    "rarity": "EPIC",
+    "foto": "um-kalender-lembar-sobek",
+    "stat": [
+     [
+      "JANJI MANIS",
+      99
+     ],
+     [
+      "SANTAI",
+      95
+     ],
+     [
+      "REKAP JADI",
+      3
+     ],
+     [
+      "INGAT",
+      20
+     ]
+    ],
+    "skill": "balas nanti ya kak",
+    "lemah": "besoknya tak pernah datang",
+    "gag": {
+     "turun": 3,
+     "ke": 0,
+     "kata": "lupa"
+    }
+   }
+  },
+  {
+   "teks": "Tipe empat, si aplikasi: rekap sekali klik.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Si Aplikasi",
+    "rarity": "LEGENDARY",
+    "foto": "nw-ui-laporan",
+    "stat": [
+     [
+      "REKAP RAPI",
+      100
+     ],
+     [
+      "CEPAT",
+      100
+     ],
+     [
+      "AKURAT",
+      100
+     ],
+     [
+      "TEPAT JANJI",
+      100
+     ]
+    ],
+    "skill": "rekap per reseller sekali klik",
+    "lemah": "tak punya alasan menunda",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "Rekap 3 reseller siap",
+      "Dipisah per reseller",
+      "Terkirim 16.02"
+     ],
+     "stempel": "BERES",
+     "kata": "klik"
+    }
+   }
+  },
+  {
+   "teks": "Sari sendiri tipe dua.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "panik",
+    "wajah": [
+     "kaget",
+     "bingung"
+    ],
+    "judul": "Sari",
+    "sub": "pemilik toko kosmetik",
+    "bubble": "46 atau 49?",
+    "stempel": "TIPE 2"
+   }
+  },
+  {
+   "teks": "Sampai Dewi, reseller terbesarnya, protes: lipstiknya kurang enam.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Dewi (reseller)",
+    "sub": "rekap Oktober",
+    "pesan": [
+     {
+      "teks": "Kak, rekap ambilanku kurang"
+     },
+     {
+      "teks": "lipstik di catatanku 52",
+      "sorot": true
+     },
+     {
+      "teks": "di rekap Kakak 46"
+     }
+    ],
+    "pose": "pusing-hp",
+    "wajah": [
+     "panik"
+    ],
+    "stempel": "KURANG 6"
+   }
+  },
+  {
+   "teks": "Malu, Sari pindah aplikasi. Nota diketik ulang: Dewi benar.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "DEWI BENAR",
+    "kiri": "nw-tumpukan-nota",
+    "label": "NOTA OKTOBER",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Bulan depannya rekap lima menit. Dewi curiga: kok cepat, salah lagi?",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Rekap Reseller Nov",
+     "baris": [
+      [
+       "Dewi",
+       "Lipstik 48, Serum 27",
+       "Terkirim"
+      ],
+      [
+       "Nina",
+       "Lipstik 18, Bedak 12",
+       "Siap kirim"
+      ],
+      [
+       "Ayu",
+       "Serum 9, Toner 7",
+       "Siap kirim"
+      ]
+     ]
+    },
+    "stempel": "5 MENIT",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Kamu tipe berapa?",
+   "primitif": "tipe-pilih",
+   "opsi": {
+    "komentar": "Aku tipe nomor ..."
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jalan-laptop",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.4,
+  "catatan": "Alur nyambung: Sari tipe kalkulator, salah hitung, Dewi protes, Sari pindah aplikasi. Kelemahan: adegan 9 berhenti di kecurigaan Dewi tanpa penutup. Tambahkan 1 kalimat, mis. 'Dicek ulang: pas, Dewi minta maaf' (bisa juga 'Dewi pesan dua kali lipat'). Adegan 5: kartu 'Si Aplikasi' bukan tipe orang, ganti jadi 'si sudah pakai aplikasi'. Adegan 1: pembuka 'mengaku' agak datar, buka dengan '46, 49, 44: lipstik yang mana yang benar?'",
+  "naskah_hash": "926a76dbb71c",
+  "waktu": "2026-10-22T12:32"
+ }
+}

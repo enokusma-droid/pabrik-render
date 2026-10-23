@@ -1,0 +1,151 @@
+{
+ "kode": "dc-k0-004",
+ "brand": "dentalcare",
+ "konsep": "K0",
+ "judul": "Kenalin, drg. Sinta (dan lemari arsip yang menderita)",
+ "caption": "Dokter yang teliti merawat pasien, tapi mencari berkas lama bisa dua puluh menit. Yang paling menderita? Lemari arsipnya. Mau lihat demo DentalCare, tanya lewat WhatsApp di profil. #klinikgigi #rekammedis #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Kenalin, ini dokter Sinta.",
+   "primitif": "koran",
+   "opsi": {
+    "koran": "KABAR KLINIK",
+    "judul": "Kenalin, ini drg. Sinta",
+    "sub": "dokter gigi teliti kesayangan pasien",
+    "foto": "dc-sinta-foto"
+   }
+  },
+  {
+   "teks": "Tangannya teliti, pasien anak pun berhenti menangis di kursinya.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "presentasi",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "drg. Sinta",
+    "stempel": "TELITI ✓",
+    "prop": "dc-kartun-pasien-anak-senang"
+   }
+  },
+  {
+   "teks": "Tapi soal mencari berkas pasien lama, skillnya langsung anjlok.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "SKILL MERAWAT",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "SKILL CARI BERKAS",
+      "dari": 100,
+      "ke": 5,
+      "kata": "anjlok"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Satu berkas bisa dicari dua puluh menit, sambil pasien menunggu.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "CARI BERKAS...",
+    "ke": 20,
+    "format": "menit",
+    "terbang": true,
+    "prop": "dc-prop-lemari-arsip"
+   }
+  },
+  {
+   "teks": "Dan kamu tahu siapa yang paling menderita?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa yang paling menderita?",
+    "bayangan": "dc-maskot-lemari-arsip-sedih"
+   }
+  },
+  {
+   "teks": "Iya, aku. Lemari arsipnya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "dc-maskot-lemari-arsip-panik",
+    "label": "LEMARI ARSIP",
+    "teks": "IYA, AKU."
+   }
+  },
+  {
+   "teks": "Laciku ditarik kencang, diisi map sampai macet, kadang ketumpahan kopi.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "dc-maskot-lemari-arsip-sedih",
+    "label": "LEMARI ARSIP",
+    "item": [
+     "DITARIK!",
+     "MACET",
+     "KETUMPAHAN KOPI"
+    ],
+    "prop": [
+     "dc-prop-kopi-tumpah"
+    ]
+   }
+  },
+  {
+   "teks": "Sampai akhirnya klinik ini pindah ke DentalCare.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "kiri": "dc-maskot-lemari-arsip-lega",
+    "label": "LEMARI ARSIP",
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Data pasien dan rekam medis tersimpan rapi, dicari cukup beberapa detik.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-pasien-detail-rapi",
+      "judul": "Data Pasien"
+     },
+     {
+      "ui": "dc-ui-soap-rapi",
+      "judul": "Rekam Medis"
+     }
+    ],
+    "stempel": "RAPI ✓"
+   }
+  },
+  {
+   "teks": "Aku pun pensiun dengan tenang.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terima kasih, Dok!",
+    "tag": "PENSIUN TENANG",
+    "maskot": "dc-maskot-lemari-arsip-lega",
+    "label": "LEMARI ARSIP"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

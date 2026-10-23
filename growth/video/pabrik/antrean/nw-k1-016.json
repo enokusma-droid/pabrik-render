@@ -1,0 +1,177 @@
+{
+ "kode": "nw-k1-016",
+ "brand": "nusawebsite",
+ "konsep": "K1",
+ "judul": "Sehari mengurus reseller tanpa aplikasi",
+ "caption": "Sehari mengurus reseller: chat stok bertubi-tubi, rebutan stok terakhir, rekap sampai malam. Besoknya toko ini pakai aplikasi reseller sendiri. Tanya lewat WhatsApp di profil. #umkm #reseller #aplikasibisnis",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Tujuh pagi. Lima reseller menanyakan stok produk yang sama.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "07.00",
+    "pose": "ketik-hp",
+    "wajah": [
+     "senang",
+     "kaget"
+    ],
+    "ganti": "sama",
+    "judul": "pesan reseller",
+    "stempel": "LIMA CHAT!",
+    "prop": "nw-hp-chat-banjir"
+   }
+  },
+  {
+   "teks": "Sembilan pagi. Reseller bertanya, kak, kiriman saya bulan ini berapa dus?",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "09.00",
+    "judul": "GRUP RESELLER",
+    "sub": "reseller",
+    "pesan": [
+     {
+      "teks": "kiriman saya berapa dus?",
+      "sorot": true
+     },
+     {
+      "teks": "sebentar dicek ya",
+      "keluar": true
+     },
+     {
+      "teks": "kok beda sama catatan?"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung",
+     "cemas"
+    ],
+    "stempel": "???"
+   }
+  },
+  {
+   "teks": "Sebelas siang. Dua reseller mengambil stok terakhir di waktu yang sama.",
+   "primitif": "bentrok",
+   "opsi": {
+    "jam": "11.00",
+    "kiri": [
+     "11.00",
+     "Kak Mira"
+    ],
+    "kanan": [
+     "11.00",
+     "Kak Lia"
+    ],
+    "stempel": "REBUTAN!",
+    "pose": "panik",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Sore. Catatan pengambilan reseller menumpuk di buku dan chat.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "jam": "16.00",
+    "prop": "nw-buku-coretan",
+    "kartu": "siapa ambil apa??",
+    "tag": "MENUMPUK",
+    "pose": "duduk-catat",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Malam. Rekap per reseller belum selesai, semangat tinggal sisa.",
+   "primitif": "meter",
+   "opsi": {
+    "jam": "22.00",
+    "suasana": "malam",
+    "meter": [
+     {
+      "judul": "SEMANGAT",
+      "dari": 100,
+      "ke": 5,
+      "kata": "sisa"
+     }
+    ],
+    "pose": "lelah",
+    "wajah": [
+     "lelah",
+     "sedih"
+    ]
+   }
+  },
+  {
+   "teks": "Besoknya, toko ini memakai aplikasi reseller sendiri.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "07.00"
+   }
+  },
+  {
+   "teks": "Tujuh pagi. Stok dan jatah tiap reseller terlihat jelas di layar.",
+   "primitif": "layar",
+   "opsi": {
+    "jam": "07.00",
+    "app": {
+     "judul": "Data Reseller",
+     "baris": [
+      [
+       "Kak Mira",
+       "Ambil 12 dus",
+       "Tercatat"
+      ],
+      [
+       "Kak Lia",
+       "Ambil 8 dus",
+       "Tercatat"
+      ],
+      [
+       "Kak Rina",
+       "Ambil 5 dus",
+       "Dikirim ✓"
+      ]
+     ]
+    },
+    "stempel": "JELAS ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Tidak ada lagi rebutan stok, rekap reseller muncul otomatis setiap malam.",
+   "primitif": "daftar",
+   "opsi": {
+    "jam": "21.00",
+    "judul": "Malam Ini",
+    "item": [
+     "Stok terbagi rapi",
+     "Rekap reseller otomatis",
+     "Tidur lebih cepat"
+    ],
+    "stempel": "BERES ✓",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi reseller untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "aturan": "Owner 22 Okt 2026 (anti-template). Spec WAJIB punya field `pembuka` = id pola di bawah (sesuai konsep). Gerbang (lib/anti-template.mjs): id sama tidak boleh dipakai di 10 video terakhir brand itu; keluarga sama tidak boleh di 3 video terakhir brand itu; teks pembuka yang cocok `regex` pola lain yang sedang dilarang juga ditolak. Video lama tanpa field `pembuka` dikenali lewat `regex`. Contoh = arah, JANGAN disalin kata per kata (5 kata pertama VO tidak boleh sama dengan 20 video terakhir, 3 kata pertama tidak boleh sama dengan 10 terakhir).",
+ "keluarga": {
+  "kenalin": "memperkenalkan tokoh/narator di kalimat pertama",
+  "masalah": "langsung ke masalah konkret yang terlihat",
+  "benda": "benda/maskot bicara sebagai aku",
+  "tanya": "dibuka pertanyaan ke penonton",
+  "angka": "dibuka angka/hitungan konkret (ditulis kata)",
+  "kejadian": "in medias res: kejadian sedang berlangsung",
+  "kutipan": "dibuka kalimat yang diucapkan tokoh (dalam tanda kutip)",
+  "pernyataan": "pernyataan tegas/pengumuman/parodi format",
+  "waktu": "dibuka jam/hari/waktu",
+  "akhir-dulu": "akhir cerita ditunjukkan dulu, lalu mundur",
+  "bunyi": "dibuka bunyi (dering, ketukan, alarm)",
+  "pengakuan": "pengakuan jujur orang pertama",
+  "perintah": "ajakan/tantangan langsung ke penonton",
+  "berita": "format pembuka berita"
+ },
+ "pola": {
+  "K0": [
+   {"id": "k0-kenalin", "keluarga": "kenalin", "pola": "Kenalin, ini <tokoh>, <keunggulan>.", "contoh": "Kenalin, ini drg. Sinta, dokter gigi paling telaten.", "awal": ["koran", "tokoh"], "regex": "^kenalin"},
+   {"id": "k0-masalah", "keluarga": "masalah", "pola": "Masalah konkret tokoh yang sedang terjadi, tanpa perkenalan dulu.", "contoh": "Pasien ketiga hari ini sudah menunggu empat puluh menit, dan berkasnya belum ketemu.", "awal": ["tumpuk", "hitung", "tokoh"]},
+   {"id": "k0-benda-bicara", "keluarga": "benda", "pola": "Benda narator langsung bicara (twist dibuka di depan).", "contoh": "Aku map rekam medis. Dan bosku orang paling baik sedunia, kecuali padaku.", "awal": ["reveal", "derita"], "regex": "^aku\\b"},
+   {"id": "k0-tanya", "keluarga": "tanya", "pola": "Pertanyaan relate tentang kebiasaan tokoh.", "contoh": "Pernah lihat dokter gigi mencari satu kertas selama lima belas menit?", "awal": ["kartu-tanya", "hitung"]},
+   {"id": "k0-angka", "keluarga": "angka", "pola": "Angka kontras pembuka.", "contoh": "Tiga puluh pasien sehari. Satu buku tulis. Satu orang yang hafal semuanya.", "awal": ["hitung", "tumpuk"]},
+   {"id": "k0-kejadian", "keluarga": "kejadian", "pola": "Kejadian lucu sedang berlangsung, baru kemudian tokoh dikenalkan.", "contoh": "Brak! Tumpukan map jatuh tepat saat pasien masuk ruangan.", "awal": ["tumpuk", "tokoh"]},
+   {"id": "k0-pujian-terbalik", "keluarga": "pernyataan", "pola": "Pujian berlebihan lalu 'kecuali satu hal'.", "contoh": "Ini resepsionis paling ramah se-kecamatan. Kecuali soal satu hal.", "awal": ["tokoh", "meter"], "regex": "kecuali"},
+   {"id": "k0-kesaksian", "keluarga": "kutipan", "pola": "Kesaksian orang lain tentang tokoh.", "contoh": "Kata pasiennya, Mbak Rina itu bisa mengingat semua wajah. Tapi bukan semua jam.", "awal": ["tokoh", "chat"], "regex": "^kata\\b"},
+   {"id": "k0-akhir-dulu", "keluarga": "akhir-dulu", "pola": "Hasil akhir dulu (benda pensiun), lalu 'begini ceritanya'.", "contoh": "Hari ini buku jadwal resmi pensiun. Begini ceritanya.", "awal": ["haru", "poster"]}
+  ],
+  "K1": [
+   {"id": "k1-jam-kejadian", "keluarga": "waktu", "pola": "<jam>. <kejadian>. (pola lama, maksimal sesekali)", "contoh": "Tujuh pagi. Pasien baru datang, formulir kertas sudah habis.", "awal": ["tokoh"], "regex": "^(jam\\s)?(enam|tujuh|delapan|sembilan|sepuluh|sebelas|dua belas)\\s(pagi|siang)\\b"},
+   {"id": "k1-bunyi-alarm", "keluarga": "bunyi", "pola": "Bunyi dering/alarm sebelum hari dimulai.", "contoh": "Kriiing. Klinik belum buka, telepon sudah berdering.", "awal": ["chat", "tokoh"]},
+   {"id": "k1-kenalin-hari", "keluarga": "kenalin", "pola": "Perkenalkan tokoh + hari yang akan diikuti.", "contoh": "Ini hari Senin Mbak Rina, resepsionis klinik. Ikuti dia seharian.", "awal": ["tokoh", "kalender"]},
+   {"id": "k1-akhir-dulu", "keluarga": "akhir-dulu", "pola": "Malam/akhir hari dulu, lalu mundur ke pagi.", "contoh": "Jam sembilan malam, dia baru pulang. Kita mundur ke pagi tadi.", "awal": ["tokoh", "hitung"]},
+   {"id": "k1-angka", "keluarga": "angka", "pola": "Hitungan beban hari itu.", "contoh": "Dua puluh pasien, satu resepsionis, dan satu buku jadwal.", "awal": ["hitung", "tumpuk"]},
+   {"id": "k1-kutipan", "keluarga": "kutipan", "pola": "Kalimat pertama yang didengar tokoh pagi itu.", "contoh": "\"Mbak, jadwal saya jam berapa ya?\" Pertanyaan pertama pagi ini.", "awal": ["chat", "tokoh"]},
+   {"id": "k1-tanya", "keluarga": "tanya", "pola": "Pertanyaan: seperti apa sehari jadi <peran>?", "contoh": "Pernah penasaran, seperti apa sehari jadi perawat gigi?", "awal": ["kartu-tanya", "tokoh"]},
+   {"id": "k1-benda", "keluarga": "benda", "pola": "Hari dilihat dari benda yang dipakai sejak pagi.", "contoh": "Buku antrean ini dibuka pertama kali jam tujuh pagi.", "awal": ["tumpuk", "poster"]},
+   {"id": "k1-awal-bulan", "keluarga": "masalah", "pola": "Hari khusus (awal bulan, Senin, sebelum libur) yang membawa masalah.", "contoh": "Hari pertama bulan baru. Rekap bulan lalu belum juga selesai.", "awal": ["kalender", "tumpuk"]}
+  ],
+  "K2": [
+   {"id": "k2-yang-sama", "keluarga": "pernyataan", "pola": "<X> yang sama, <Y> yang sama. Kiri dulu, kanan sekarang. (pola lama)", "contoh": "Toko yang sama, hari yang sama. Yang kiri dulu, yang kanan sekarang.", "awal": ["banding"], "regex": "yang sama"},
+   {"id": "k2-tanya-beda", "keluarga": "tanya", "pola": "Pertanyaan apa bedanya, jawab lewat satu detail.", "contoh": "Apa bedanya klinik yang pulang jam lima dan yang pulang jam sembilan?", "awal": ["banding", "kartu-tanya"]},
+   {"id": "k2-angka", "keluarga": "angka", "pola": "Dua angka berhadapan untuk tugas yang sama.", "contoh": "Lima belas menit lawan sepuluh detik, untuk mencari satu berkas.", "awal": ["banding", "hitung"]},
+   {"id": "k2-kutipan", "keluarga": "kutipan", "pola": "Kalimat khas yang hanya terdengar di sisi lama.", "contoh": "\"Sebentar ya Bu, saya carikan dulu.\" Kalimat ini cuma terdengar di sebelah kiri.", "awal": ["banding", "chat"]},
+   {"id": "k2-akhir-dulu", "keluarga": "akhir-dulu", "pola": "Hasil akhir kedua sisi dulu, lalu diputar ulang.", "contoh": "Di kanan, semua sudah pulang. Di kiri, lampu masih menyala.", "awal": ["banding"]},
+   {"id": "k2-tebak", "keluarga": "perintah", "pola": "Ajak penonton menebak sisi mana yang menang.", "contoh": "Tebak, siapa yang lebih dulu selesai melayani pasien yang sama.", "awal": ["banding"]},
+   {"id": "k2-benda", "keluarga": "benda", "pola": "Benda lama memperkenalkan diri sebagai sisi kiri.", "contoh": "Aku buku antrean. Dulu, aku pusat klinik ini.", "awal": ["reveal", "banding"]},
+   {"id": "k2-ironi", "keluarga": "pernyataan", "pola": "Dua saksi yang bertentangan: catatan lama vs kenyataan.", "contoh": "Buku stok bilang sisa satu. Kardusnya bilang lain.", "awal": ["chat", "tumpuk", "banding"]},
+   {"id": "k2-kejadian", "keluarga": "kejadian", "pola": "Kejadian yang sama menimpa dua sisi bersamaan.", "contoh": "Pasien yang sama menelepon dua klinik pada jam yang sama.", "awal": ["banding", "chat"]}
+  ],
+  "K3": [
+   {"id": "k3-berita-terkini", "keluarga": "berita", "pola": "Berita terkini. <kejadian>. (pola lama)", "contoh": "Berita terkini. Ruang arsip sebuah klinik dilaporkan sunyi.", "awal": ["studio"], "regex": "^berita"},
+   {"id": "k3-kutipan-saksi", "keluarga": "kutipan", "pola": "Dibuka kutipan saksi, baru studio.", "contoh": "\"Saya sudah menunggu dua jam,\" kata seorang pasien pagi ini.", "awal": ["wawancara"]},
+   {"id": "k3-laporan-langsung", "keluarga": "kejadian", "pola": "Reporter melapor langsung dari lokasi.", "contoh": "Kami melaporkan langsung dari ruang tunggu sebuah klinik gigi.", "awal": ["studio", "wawancara"], "regex": "^kami melaporkan"},
+   {"id": "k3-angka", "keluarga": "angka", "pola": "Angka mengejutkan sebagai judul berita.", "contoh": "Empat puluh tiga panggilan sebelum jam sembilan pagi. Itu rekor klinik ini.", "awal": ["hitung", "studio"]},
+   {"id": "k3-prakiraan", "keluarga": "pernyataan", "pola": "Parodi prakiraan cuaca untuk kondisi usaha.", "contoh": "Prakiraan hari ini: ruang tunggu padat, antrean berawan.", "awal": ["studio"], "regex": "^prakiraan"},
+   {"id": "k3-tanya", "keluarga": "tanya", "pola": "Pertanyaan investigasi.", "contoh": "Apa yang sebenarnya terjadi di meja resepsionis klinik ini?", "awal": ["studio", "kartu-tanya"]},
+   {"id": "k3-kabar-lanjutan", "keluarga": "berita", "pola": "Kabar lanjutan dari kasus kemarin.", "contoh": "Kabar terbaru dari toko yang kemarin kehilangan nota pelanggan.", "awal": ["studio"], "regex": "^kabar"},
+   {"id": "k3-bunyi", "keluarga": "bunyi", "pola": "Bunyi yang jadi berita.", "contoh": "Telepon toko ini berdering tanpa henti sejak subuh.", "awal": ["chat", "studio"]}
+  ],
+  "K4": [
+   {"id": "k4-ada-n-tipe", "keluarga": "pernyataan", "pola": "Ada <n> tipe <audiens>. Kamu yang mana? (pola lama)", "contoh": "Ada empat tipe staf klinik soal jam pulang. Kamu yang mana?", "awal": ["tipe-hook"], "regex": "^ada (\\w+ )?(dua|tiga|empat|lima|[0-9]) tipe"},
+   {"id": "k4-situasi", "keluarga": "kejadian", "pola": "Satu situasi pemicu, lalu 'reaksimu?'.", "contoh": "Pasien membatalkan janji lima menit sebelum datang. Reaksimu yang mana?", "awal": ["chat", "tipe-hook"]},
+   {"id": "k4-pasti-salah-satu", "keluarga": "pernyataan", "pola": "Klaim tegas: kamu pasti salah satunya.", "contoh": "Setiap pemilik toko pasti salah satu dari mereka.", "awal": ["tipe-hook"], "regex": "pasti salah satu"},
+   {"id": "k4-pengakuan", "keluarga": "pengakuan", "pola": "Narator mengaku dulu tipe tertentu.", "contoh": "Jujur, aku dulu tipe yang menulis jadwal di telapak tangan.", "awal": ["tokoh", "tipe-hook"]},
+   {"id": "k4-angka-langka", "keluarga": "angka", "pola": "Hanya satu tipe yang selamat.", "contoh": "Dari semua tipe ini, cuma satu yang pulang tepat waktu.", "awal": ["tipe-hook"]},
+   {"id": "k4-kutipan", "keluarga": "kutipan", "pola": "Kalimat khas salah satu tipe.", "contoh": "\"Nanti saya catat,\" kata tipe pertama. Lalu dia lupa.", "awal": ["kartu-tipe", "chat"]},
+   {"id": "k4-langsung-kartu", "keluarga": "kejadian", "pola": "Langsung kartu tipe pertama tanpa pengantar.", "contoh": "Tipe pertama: si pengingat sakti, hafal semua janji tanpa catatan.", "awal": ["kartu-tipe"], "regex": "^tipe (pertama|satu|nomor satu)"},
+   {"id": "k4-tantangan", "keluarga": "perintah", "pola": "Tantangan komentar/tag teman di depan.", "contoh": "Sebelum mulai, siapkan nama temanmu yang paling mirip tipe ketiga.", "awal": ["tipe-hook"]}
+  ],
+  "K5": [
+   {"id": "k5-hilang-lagi", "keluarga": "masalah", "pola": "<Benda> nomor <x>. Hilang. Lagi. (pola lama)", "contoh": "Odontogram pasien nomor tiga puluh satu. Hilang. Lagi.", "awal": ["berkas-kasus"], "regex": "\\blagi\\.?\\s*$"},
+   {"id": "k5-laporan", "keluarga": "kejadian", "pola": "Jam + siapa melapor + apa yang lenyap.", "contoh": "Pukul sembilan, Mbak Rina melapor. Satu jadwal pasien lenyap.", "awal": ["penyelidikan", "chat"]},
+   {"id": "k5-detektif-bicara", "keluarga": "kenalin", "pola": "Detektif memperkenalkan diri dan kasusnya.", "contoh": "Namaku Detektif Ana. Kasus kali ini kecil, tapi bikin satu klinik panik.", "awal": ["penyelidikan"], "regex": "^namaku"},
+   {"id": "k5-tkp", "keluarga": "pernyataan", "pola": "Gaya laporan TKP: lokasi + barang bukti.", "contoh": "Lokasi kejadian, meja resepsionis. Barang bukti, satu buku basah.", "awal": ["berkas-kasus", "poster"], "regex": "^lokasi"},
+   {"id": "k5-tanya", "keluarga": "tanya", "pola": "Pertanyaan siapa pelakunya.", "contoh": "Siapa yang terakhir memegang buku jadwal kemarin sore?", "awal": ["benang", "kartu-tanya"]},
+   {"id": "k5-angka", "keluarga": "angka", "pola": "Tersangka, barang hilang, batas waktu.", "contoh": "Tiga tersangka. Satu jadwal hilang. Dua puluh menit sebelum pasien datang.", "awal": ["hitung", "benang"]},
+   {"id": "k5-kutipan", "keluarga": "kutipan", "pola": "Kalimat semua saksi yang sama.", "contoh": "\"Tadi masih di sini,\" kata semua orang di klinik.", "awal": ["penyelidikan", "chat"]},
+   {"id": "k5-akhir-dulu", "keluarga": "akhir-dulu", "pola": "Kasus selesai dulu, lalu mundur.", "contoh": "Kasus ini ditutup dalam sepuluh detik. Tapi sebelumnya, kacau.", "awal": ["vonis", "poster"]},
+   {"id": "k5-bunyi", "keluarga": "bunyi", "pola": "Telepon/bel yang membuka kasus.", "contoh": "Telepon berdering. Pasien menanyakan jadwalnya. Jadwal itu tidak ada.", "awal": ["chat"]}
+  ],
+  "K6": [
+   {"id": "k6-surat-terbuka", "keluarga": "benda", "pola": "Surat terbuka untuk <tokoh>, dari aku, <benda>. (pola lama)", "contoh": "Surat terbuka untuk dokter Sinta, dari aku, kalender dinding.", "awal": ["surat-buka"], "regex": "^surat terbuka"},
+   {"id": "k6-sapaan", "keluarga": "kenalin", "pola": "Sapaan akrab: Hai <tokoh>, ini aku <benda>.", "contoh": "Hai Mbak Rina, ini aku, buku jadwal di laci kiri.", "awal": ["surat", "surat-buka"], "regex": "^(hai|halo)\\b"},
+   {"id": "k6-pengakuan", "keluarga": "pengakuan", "pola": "Pengakuan yang lama dipendam.", "contoh": "Aku belum pernah bilang ini, tapi aku sudah lelah.", "awal": ["surat"]},
+   {"id": "k6-terima-kasih", "keluarga": "pernyataan", "pola": "Ucapan terima kasih yang ternyata pamit.", "contoh": "Terima kasih sudah memakaiku selama sepuluh tahun.", "awal": ["surat", "haru"], "regex": "^terima kasih"},
+   {"id": "k6-pamit", "keluarga": "akhir-dulu", "pola": "Sebelum pensiun, ada yang ingin kusampaikan.", "contoh": "Sebelum aku pensiun, ada satu hal yang ingin kusampaikan.", "awal": ["surat", "poster"], "regex": "^sebelum aku"},
+   {"id": "k6-angka", "keluarga": "angka", "pola": "Angka pengabdian benda.", "contoh": "Seribu dua ratus halaman. Itu yang sudah kamu tulis di tubuhku.", "awal": ["surat"]},
+   {"id": "k6-kutipan", "keluarga": "kutipan", "pola": "Kalimat tokoh yang selalu didengar benda.", "contoh": "\"Nanti saya catat di buku,\" katamu setiap hari.", "awal": ["surat"]},
+   {"id": "k6-tanya", "keluarga": "tanya", "pola": "Pertanyaan nostalgia.", "contoh": "Kamu masih ingat hari pertama kita bertemu?", "awal": ["surat", "haru"]}
+  ],
+  "K7": [
+   {"id": "k7-mau-gampang", "keluarga": "tanya", "pola": "Mau <hal> kacau? Gampang. Ikuti <n> langkah. (pola lama)", "contoh": "Mau laporan akhir bulanmu kacau? Gampang. Ikuti empat langkah ini.", "awal": ["tutorial-hook"], "regex": "(gampang|ikuti (dua|tiga|empat|lima|[0-9]) langkah|(dua|tiga|empat|lima) langkah)"},
+   {"id": "k7-langkah-langsung", "keluarga": "perintah", "pola": "Langsung langkah pertama tanpa pengantar.", "contoh": "Langkah pertama: simpan semua jadwal di satu buku saja.", "awal": ["langkah"], "regex": "^langkah"},
+   {"id": "k7-sapaan-host", "keluarga": "kenalin", "pola": "Host menyapa kelas parodi.", "contoh": "Halo, selamat datang di kelas klinik berantakan bersama Kak Vira.", "awal": ["tutorial-hook", "tokoh"], "regex": "^(halo|hai|selamat datang)"},
+   {"id": "k7-hasil-dulu", "keluarga": "akhir-dulu", "pola": "Tunjukkan hasil kacau dulu, lalu 'ini caranya'.", "contoh": "Ini toko yang pelanggannya kabur semua. Caranya ternyata sederhana.", "awal": ["tokoh", "poster"]},
+   {"id": "k7-pengakuan", "keluarga": "pengakuan", "pola": "Ahli kekacauan membagi rahasia.", "contoh": "Aku ahli bikin jadwal bentrok. Hari ini aku bagi rahasianya.", "awal": ["tokoh", "tutorial-hook"]},
+   {"id": "k7-angka", "keluarga": "angka", "pola": "Hitungan hasil kacau.", "contoh": "Tiga kebiasaan, tiga puluh hari, nol pasien kontrol yang datang.", "awal": ["hitung", "tutorial-hook"]},
+   {"id": "k7-resep", "keluarga": "pernyataan", "pola": "Parodi resep masak: bahan-bahan kekacauan.", "contoh": "Bahan yang dibutuhkan: satu buku jadwal, dua pulpen macet, satu resepsionis.", "awal": ["daftar"], "regex": "^bahan"},
+   {"id": "k7-kutipan", "keluarga": "kutipan", "pola": "Kalimat yang jadi langkah pertama menuju kacau.", "contoh": "\"Nanti saja dicatat.\" Itu awal dari semua kekacauan.", "awal": ["tokoh", "chat"]}
+  ],
+  "K8": [
+   {"id": "k8-malam-itu", "keluarga": "waktu", "pola": "Malam itu, <bencana kecil>. (pola lama)", "contoh": "Malam itu, klinik sudah sepi.", "awal": ["horor"], "regex": "^malam itu"},
+   {"id": "k8-ketukan", "keluarga": "bunyi", "pola": "Bunyi misterius (yang nanti terjelaskan logis).", "contoh": "Tok. Tok. Ada yang mengetuk pintu klinik setelah tutup.", "awal": ["horor"]},
+   {"id": "k8-rekaman", "keluarga": "pernyataan", "pola": "Rekaman CCTV jam tertentu.", "contoh": "Rekaman kamera ruang arsip, pukul sebelas malam.", "awal": ["horor"], "regex": "^rekaman"},
+   {"id": "k8-telepon-malam", "keluarga": "kejadian", "pola": "Telepon/chat tengah malam yang membawa kabar buruk.", "contoh": "Jam sebelas malam, chat pasien masuk: besok saya jadi datang, kan?", "awal": ["chat", "horor"]},
+   {"id": "k8-kutipan", "keluarga": "kutipan", "pola": "Peringatan dari tokoh.", "contoh": "\"Jangan buka laci itu,\" bisik Mbak Rina.", "awal": ["horor"]},
+   {"id": "k8-tanya", "keluarga": "tanya", "pola": "Pertanyaan menegangkan.", "contoh": "Pernah merasa ada yang hilang, tapi tidak tahu apa?", "awal": ["kartu-tanya", "horor"]},
+   {"id": "k8-tenggat", "keluarga": "angka", "pola": "Hitung mundur tenggat.", "contoh": "Tiga jam sebelum klinik buka. Satu buku jadwal belum ditemukan.", "awal": ["hitung", "horor"]},
+   {"id": "k8-konon", "keluarga": "pernyataan", "pola": "Legenda urban kantor (dibantah logis di akhir).", "contoh": "Konon, di toko ini ada nota yang selalu hilang setiap Senin.", "awal": ["horor"], "regex": "^konon"}
+  ]
+ }
+}

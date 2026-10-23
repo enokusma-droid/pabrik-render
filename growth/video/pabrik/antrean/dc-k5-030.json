@@ -1,0 +1,142 @@
+{
+ "kode": "dc-k5-030",
+ "brand": "dentalcare",
+ "konsep": "K5",
+ "judul": "Detektif: kasus satu pasien dengan dua berkas",
+ "caption": "Satu pasien, dua berkas, riwayatnya terbelah. Detektif kami memeriksa resepsionis, formulir, dan lemari arsip. Pelakunya? Pendaftaran tanpa pengecekan data lama. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #datapasien #DentalCare",
+ "musik": "tegang",
+ "adegan": [
+  {
+   "teks": "Pasien bernama Bu Nita. Berkasnya ada dua. Lagi.",
+   "primitif": "berkas-kasus",
+   "opsi": {
+    "nomor": "Berkas ganda Bu Nita",
+    "gambar": "dc-foto-pasien-ibu",
+    "label": "Bu Nita",
+    "stempel": [
+     {
+      "teks": "GANDA",
+      "kata": "dua"
+     },
+     {
+      "teks": "LAGI.",
+      "kata": "lagi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Riwayat perawatannya terbelah di dua map. Penyelidikan dimulai.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "BERKAS KE-",
+    "jumlah": 2,
+    "sub": "satu pasien",
+    "pita": "PENYELIDIKAN"
+   }
+  },
+  {
+   "teks": "Tersangka pertama, resepsionis. Alibinya kuat, pasien mengaku pasien baru.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "dc-resepsionis-foto",
+    "label": "resepsionis",
+    "catatan": "katanya\npasien baru",
+    "stempel": [
+     {
+      "teks": "ALIBI KUAT ✓",
+      "kata": "alibinya"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka kedua, formulir pendaftaran. Tidak ada kolom cek data lama.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "dc-prop-clipboard",
+    "label": "formulir daftar",
+    "stempel": [
+     {
+      "teks": "TANPA CEK",
+      "kata": "cek"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka ketiga, lemari arsip. Map lama tersimpan di laci lain.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "dc-prop-lemari-arsip",
+    "label": "lemari arsip",
+    "stempel": [
+     {
+      "teks": "LACI LAIN",
+      "kata": "lain"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Semua petunjuk mengarah ke satu pelaku.",
+   "primitif": "benang",
+   "opsi": {
+    "gambar": [
+     "dc-resepsionis-foto",
+     "dc-prop-clipboard",
+     "dc-prop-lemari-arsip"
+    ]
+   }
+  },
+  {
+   "teks": "Pelakunya, pendaftaran tanpa pencarian data pasien.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "dc-prop-tumpukan-berkas",
+    "label": "PELAKU",
+    "stempel": {
+     "teks": "DATA GANDA",
+     "kata": "pendaftaran"
+    }
+   }
+  },
+  {
+   "teks": "Vonisnya, pindah ke DentalCare. Nama pasien dicari dulu sebelum didaftarkan.",
+   "primitif": "vonis",
+   "opsi": {
+    "ui": "dc-ui-pasien-daftar-rapi",
+    "judul": "Data Pasien",
+    "cari": "Bu Nita",
+    "detik": 2,
+    "ok": "SATU DATA ✓"
+   }
+  },
+  {
+   "teks": "Kasus ditutup. Satu pasien, satu riwayat lengkap.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Satu pasien, satu data",
+    "tag": "KASUS DITUTUP",
+    "maskot": "dc-maskot-map-terharu",
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "presentasi",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

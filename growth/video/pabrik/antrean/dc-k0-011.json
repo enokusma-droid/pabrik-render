@@ -1,0 +1,152 @@
+{
+ "kode": "dc-k0-011",
+ "brand": "dentalcare",
+ "konsep": "K0",
+ "judul": "Kenalin, drg. Sinta (dan map rekam medis yang menderita)",
+ "caption": "Dokter paling sabar, tapi tulisan tangannya di rekam medis sulit dibaca. Yang paling menderita? Map rekam medisnya. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #rekammedis #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Kenalin, ini dokter Sinta, dokter gigi paling sabar.",
+   "primitif": "koran",
+   "opsi": {
+    "koran": "WARTA GIGI",
+    "judul": "Kenalin, ini drg. Sinta",
+    "sub": "dokter gigi paling sabar sekecamatan",
+    "foto": "dc-sinta-foto"
+   }
+  },
+  {
+   "teks": "Pasien bapak bapak yang takut pun pulang sambil tersenyum.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "presentasi",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "drg. Sinta",
+    "stempel": "SABAR ✓",
+    "prop": "dc-kartun-pasien-bapak-lega"
+   }
+  },
+  {
+   "teks": "Tapi soal tulisan tangan di rekam medis, skornya anjlok.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "SKILL MERAWAT",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "TULISAN TERBACA",
+      "dari": 100,
+      "ke": 4,
+      "kata": "anjlok"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Perawat butuh sepuluh menit membaca satu catatan.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "BACA CATATAN...",
+    "ke": 10,
+    "format": "menit",
+    "prop": "dc-prop-clipboard",
+    "tokoh": "dc-kartun-perawat-papan",
+    "bubble": "ini huruf apa?"
+   }
+  },
+  {
+   "teks": "Dan kamu tahu siapa yang paling menderita?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa yang paling menderita?",
+    "bayangan": "dc-maskot-map-lelah"
+   }
+  },
+  {
+   "teks": "Iya, aku. Map rekam medisnya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "dc-maskot-map-kaget",
+    "label": "REKAM MEDIS",
+    "teks": "IYA, AKU."
+   }
+  },
+  {
+   "teks": "Isiku dicoret, ditimpa catatan baru, sulit dibaca siapa pun.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "dc-maskot-map-lelah",
+    "label": "REKAM MEDIS",
+    "item": [
+     "DICORET!",
+     "DITIMPA",
+     "SULIT DIBACA"
+    ],
+    "prop": [
+     "dc-prop-bola-kertas"
+    ]
+   }
+  },
+  {
+   "teks": "Sampai suatu hari, dokter Sinta mulai memakai DentalCare.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "AKHIRNYA!",
+    "kiri": "dc-maskot-map-yakin",
+    "label": "REKAM MEDIS",
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Catatan klinis diketik rapi, siapa pun di klinik bisa membacanya.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-soap-rapi",
+      "judul": "Catatan Klinis"
+     },
+     {
+      "ui": "dc-ui-pasien-detail-rapi",
+      "judul": "Data Pasien"
+     }
+    ],
+    "stempel": "TERBACA ✓"
+   }
+  },
+  {
+   "teks": "Aku pun lega, tidak dicoret lagi.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terima kasih, Dok!",
+    "tag": "LEGA SEKALI",
+    "maskot": "dc-maskot-map-terharu",
+    "label": "REKAM MEDIS"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "kode": "nw-k0-013",
+ "brand": "nusawebsite",
+ "konsep": "K0",
+ "judul": "Kenalin, Kak Sari (dan laptop kasir yang menderita)",
+ "durasi": 42.37,
+ "LUFS": -14.0,
+ "TP": -1.3,
+ "cocok_vo_%": 93,
+ "cocok_ketat_%": 90,
+ "transkrip_15dtk": "Kenalin, ini Kak Sari. Ramah, hafal nama pelanggan, tokonya selalu rame. Tapi soal data toko, semuanya tersebar di puluhan file. Cari satu catetan stok saja bisa membuka 12 file berbeda.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/nw-k0-013.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k0-013.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T02:19+07:00",
+ "catatan_bangun": [
+  "pose \"presentasi\" untuk nw-f tidak ada → pakai nw-f-jempol"
+ ],
+ "directus_id": "59be2a4d-a4c2-402e-b0bc-c1c1ab9a2deb",
+ "directus_url": "https://directus.nusawebsite.com/assets/59be2a4d-a4c2-402e-b0bc-c1c1ab9a2deb",
+ "directus_poster_id": "d7a926b2-8a25-4a85-83e6-21d4244477c3",
+ "directus_poster_url": "https://directus.nusawebsite.com/assets/d7a926b2-8a25-4a85-83e6-21d4244477c3"
+}

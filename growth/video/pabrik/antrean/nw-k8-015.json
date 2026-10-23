@@ -1,0 +1,129 @@
+{
+ "kode": "nw-k8-015",
+ "brand": "nusawebsite",
+ "konsep": "K8",
+ "judul": "Horor H-2 lebaran: HP berisi semua pesanan mati",
+ "caption": "Malam itu, dua hari sebelum lebaran, HP berisi semua pesanan hampers mati total. Sebelum terlambat, simpan pesanan di aplikasi sendiri. Tanya lewat WhatsApp di profil. #umkm #hampers #aplikasibisnis",
+ "musik": "horor",
+ "adegan": [
+  {
+   "teks": "Malam itu, dua hari sebelum lebaran. Pesanan hampers menumpuk di pojok toko.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "H-2 LEBARAN",
+     "TOKO SEPI..."
+    ],
+    "gambar": "nw-kardus-tumpuk",
+    "latar": "nw-latar-toko-gelap"
+   }
+  },
+  {
+   "teks": "Tiba tiba, HP yang berisi semua pesanan mati total.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "HP MATI TOTAL",
+     "SEMUA PESANAN?"
+    ],
+    "pose": "foto-takut-hp"
+   }
+  },
+  {
+   "teks": "Daftar alamat, jumlah hampers, semuanya hanya ada di chat.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "ALAMAT?",
+     "JUMLAH?"
+    ],
+    "gambar": "nw-hp-chat-banjir"
+   }
+  },
+  {
+   "teks": "Lalu, layar HP tiba tiba menyala sendiri!",
+   "primitif": "kejut",
+   "opsi": {
+    "subjek": "nw-hp-berdering",
+    "teks": "...cuma dicas",
+    "stempel": "FIUH!"
+   }
+  },
+  {
+   "teks": "Ternyata cuma kehabisan baterai. Tapi rasa takutnya masih terasa.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "CUMA BATERAI",
+     "TAPI TETAP TAKUT"
+    ],
+    "pose": "foto-jerit"
+   }
+  },
+  {
+   "teks": "Sebelum terlambat, toko ini memindahkan semua pesanan ke aplikasi sendiri.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Pesanan, alamat, dan status kirim tersimpan aman, tidak tergantung satu HP.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Pesanan Hampers",
+     "lencana": "62 PO",
+     "baris": [
+      [
+       "Bu Rina",
+       "Hampers B x3",
+       "Dikemas"
+      ],
+      [
+       "Kantor Maju",
+       "Hampers A x20",
+       "Siap kirim"
+      ],
+      [
+       "Kak Sari",
+       "Hampers C",
+       "Dikirim ✓"
+      ]
+     ]
+    },
+    "stempel": "AMAN ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Malam lebaran pun tenang, semua hampers sampai tepat waktu.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Semua sampai!",
+    "tag": "TIDAK SERAM LAGI",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

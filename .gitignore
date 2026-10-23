@@ -1,0 +1,10 @@
+.env
+*.env
+.env.*
+__pycache__/
+node_modules/
+growth/video/pabrik/kerja/
+growth/video/pabrik/_aset/
+growth/video/_musik/kandidat/*/
+growth/video/_sfx/*.wav
+_art/

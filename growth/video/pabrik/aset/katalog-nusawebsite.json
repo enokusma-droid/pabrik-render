@@ -1,0 +1,2221 @@
+[
+ {
+  "id": "nw-f-duduk-catat",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "meja",
+   "menulis",
+   "hp",
+   "duduk",
+   "manual"
+  ],
+  "ket": "Model F duduk di meja menulis buku sambil pegang HP (meja ikut)",
+  "pose": "duduk-catat",
+  "tokoh": "nw-f",
+  "w": 380,
+  "h": 769,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-duduk-catat.png",
+  "kepala": {
+   "x": 137,
+   "y": 9,
+   "w": 182,
+   "h": 191
+  }
+ },
+ {
+  "id": "nw-f-pusing-hp",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "pusing",
+   "hp",
+   "stres"
+  ],
+  "ket": "Model F berdiri pusing memegang kepala sambil lihat HP",
+  "pose": "pusing-hp",
+  "tokoh": "nw-f",
+  "w": 337,
+  "h": 899,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-pusing-hp.png",
+  "kepala": {
+   "x": 46,
+   "y": 10,
+   "w": 136,
+   "h": 181
+  }
+ },
+ {
+  "id": "nw-f-duduk-laptop",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "laptop",
+   "duduk",
+   "kerja",
+   "aplikasi"
+  ],
+  "ket": "Model F duduk di meja mengetik laptop (meja ikut)",
+  "pose": "duduk-laptop",
+  "tokoh": "nw-f",
+  "w": 417,
+  "h": 763,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-duduk-laptop.png",
+  "kepala": {
+   "x": 79,
+   "y": 9,
+   "w": 174,
+   "h": 190
+  }
+ },
+ {
+  "id": "nw-f-jalan-laptop",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "jalan",
+   "laptop",
+   "santai"
+  ],
+  "ket": "Model F berjalan santai menenteng laptop",
+  "pose": "jalan-laptop",
+  "tokoh": "nw-f",
+  "w": 393,
+  "h": 897,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-jalan-laptop.png",
+  "kepala": {
+   "x": 63,
+   "y": 9,
+   "w": 190,
+   "h": 177
+  }
+ },
+ {
+  "id": "nw-f-tunjuk",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "tunjuk",
+   "ajak",
+   "cta"
+  ],
+  "ket": "Model F kartun menunjuk ke penonton, tangan kiri di pinggang",
+  "pose": "tunjuk",
+  "tokoh": "nw-f",
+  "w": 423,
+  "h": 976,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-tunjuk.png",
+  "kepala": {
+   "x": 142,
+   "y": 10,
+   "w": 180,
+   "h": 188
+  }
+ },
+ {
+  "id": "nw-f-panik",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "panik",
+   "pusing",
+   "stres"
+  ],
+  "ket": "Model F kartun panik memegang kepala dengan dua tangan",
+  "pose": "panik",
+  "tokoh": "nw-f",
+  "w": 324,
+  "h": 949,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-panik.png",
+  "kepala": {
+   "x": 67,
+   "y": 10,
+   "w": 184,
+   "h": 234
+  }
+ },
+ {
+  "id": "nw-f-yakin",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "yakin",
+   "tangan-silang",
+   "percaya-diri"
+  ],
+  "ket": "Model F kartun berdiri tegak tangan bersilang, yakin",
+  "pose": "yakin",
+  "tokoh": "nw-f",
+  "w": 390,
+  "h": 985,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-yakin.png",
+  "kepala": {
+   "x": 63,
+   "y": 10,
+   "w": 169,
+   "h": 190
+  }
+ },
+ {
+  "id": "nw-f-lelah",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "lelah",
+   "lembur",
+   "kopi"
+  ],
+  "ket": "Model F kartun lelah membungkuk membawa cangkir kopi",
+  "pose": "lelah",
+  "tokoh": "nw-f",
+  "w": 350,
+  "h": 942,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-lelah.png",
+  "kepala": {
+   "x": 16,
+   "y": 9,
+   "w": 191,
+   "h": 220
+  }
+ },
+ {
+  "id": "nw-f-bawa-paket",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "paket",
+   "kardus",
+   "kirim"
+  ],
+  "ket": "Model F kartun membawa tumpukan 3 kardus paket",
+  "pose": "bawa-paket",
+  "tokoh": "nw-f",
+  "w": 439,
+  "h": 963,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-bawa-paket.png",
+  "kepala": {
+   "x": 139,
+   "y": 10,
+   "w": 185,
+   "h": 187
+  }
+ },
+ {
+  "id": "nw-f-jempol",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "jempol",
+   "senang",
+   "beres"
+  ],
+  "ket": "Model F kartun mengacungkan jempol",
+  "pose": "jempol",
+  "tokoh": "nw-f",
+  "w": 391,
+  "h": 960,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-jempol.png",
+  "kepala": {
+   "x": 60,
+   "y": 10,
+   "w": 180,
+   "h": 190
+  }
+ },
+ {
+  "id": "nw-f-bingung",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "bingung",
+   "angkat-bahu"
+  ],
+  "ket": "Model F kartun mengangkat bahu bingung, telapak terbuka",
+  "pose": "bingung",
+  "tokoh": "nw-f",
+  "w": 436,
+  "h": 926,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-bingung.png",
+  "kepala": {
+   "x": 128,
+   "y": 11,
+   "w": 181,
+   "h": 182
+  }
+ },
+ {
+  "id": "nw-f-jalan-hp",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "jalan",
+   "hp",
+   "sibuk"
+  ],
+  "ket": "Model F kartun berjalan cepat sambil melihat HP",
+  "pose": "jalan-hp",
+  "tokoh": "nw-f",
+  "w": 462,
+  "h": 925,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-jalan-hp.png",
+  "kepala": {
+   "x": 123,
+   "y": 10,
+   "w": 197,
+   "h": 179
+  }
+ },
+ {
+  "id": "nw-f-lega",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "lega",
+   "senang",
+   "rentang-tangan",
+   "solusi"
+  ],
+  "ket": "Model F kartun lega merentangkan dua tangan lebar",
+  "pose": "lega",
+  "tokoh": "nw-f",
+  "w": 553,
+  "h": 879,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-lega.png",
+  "kepala": {
+   "x": 199,
+   "y": 10,
+   "w": 180,
+   "h": 168
+  }
+ },
+ {
+  "id": "nw-f-ketik-hp",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "hp",
+   "chat",
+   "balas-pesan"
+  ],
+  "ket": "Model F kartun berdiri mengetik di HP dengan dua jempol",
+  "pose": "ketik-hp",
+  "tokoh": "nw-f",
+  "w": 274,
+  "h": 875,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-ketik-hp.png",
+  "kepala": {
+   "x": 37,
+   "y": 10,
+   "w": 177,
+   "h": 205
+  }
+ },
+ {
+  "id": "nw-f-lesehan-laptop",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "laptop",
+   "duduk",
+   "lantai"
+  ],
+  "ket": "Model F kartun duduk bersila di lantai dengan laptop di pangkuan",
+  "pose": "lesehan-laptop",
+  "tokoh": "nw-f",
+  "w": 409,
+  "h": 503,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-lesehan-laptop.png",
+  "kepala": {
+   "x": 120,
+   "y": 10,
+   "w": 187,
+   "h": 183
+  }
+ },
+ {
+  "id": "nw-f-telepon",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "telepon",
+   "hp",
+   "bicara"
+  ],
+  "ket": "Model F kartun menelepon, satu tangan bergerak menjelaskan",
+  "pose": "telepon",
+  "tokoh": "nw-f",
+  "w": 330,
+  "h": 872,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-telepon.png",
+  "kepala": {
+   "x": 43,
+   "y": 11,
+   "w": 175,
+   "h": 166
+  }
+ },
+ {
+  "id": "nw-f-foto-bingung-hp",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "foto",
+   "stiker",
+   "hp",
+   "bingung"
+  ],
+  "ket": "Foto model F setengah badan (tepi stiker putih): garuk kepala bingung menatap HP",
+  "pose": "foto-bingung-hp",
+  "ekspresi": "bingung",
+  "tokoh": "nw-f",
+  "w": 1151,
+  "h": 1353,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-foto-bingung-hp.png"
+ },
+ {
+  "id": "nw-f-foto-laptop-jempol",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "foto",
+   "stiker",
+   "laptop",
+   "jempol",
+   "solusi"
+  ],
+  "ket": "Foto model F setengah badan (tepi stiker putih): senyum lega memegang laptop + jempol",
+  "pose": "foto-laptop-jempol",
+  "ekspresi": "senang",
+  "tokoh": "nw-f",
+  "w": 1085,
+  "h": 1370,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-foto-laptop-jempol.png"
+ },
+ {
+  "id": "nw-f-foto-menguap-hp",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "foto",
+   "stiker",
+   "hp",
+   "lelah",
+   "malam",
+   "lembur"
+  ],
+  "ket": "Foto model F setengah badan (tepi stiker putih): menguap lelah scroll HP tengah malam",
+  "pose": "foto-menguap-hp",
+  "ekspresi": "lelah",
+  "tokoh": "nw-f",
+  "w": 998,
+  "h": 1366,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-foto-menguap-hp.png"
+ },
+ {
+  "id": "nw-f-foto-baca-surat",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "foto",
+   "stiker",
+   "surat",
+   "terharu",
+   "K6"
+  ],
+  "ket": "Foto model F setengah badan (tepi stiker putih): membaca surat, terharu",
+  "pose": "foto-baca-surat",
+  "ekspresi": "terharu",
+  "tokoh": "nw-f",
+  "w": 975,
+  "h": 1385,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-foto-baca-surat.png"
+ },
+ {
+  "id": "nw-f-foto-jerit",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "foto",
+   "stiker",
+   "panik",
+   "kaget",
+   "K8"
+  ],
+  "ket": "Foto model F setengah badan (tepi stiker putih): menjerit panik dua tangan terangkat",
+  "pose": "foto-jerit",
+  "ekspresi": "panik",
+  "tokoh": "nw-f",
+  "w": 1137,
+  "h": 1370,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-foto-jerit.png"
+ },
+ {
+  "id": "nw-f-foto-lega",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "foto",
+   "stiker",
+   "lega",
+   "tangan-di-dada"
+  ],
+  "ket": "Foto model F setengah badan (tepi stiker putih): lega tangan di dada, tersenyum",
+  "pose": "foto-lega",
+  "ekspresi": "lega",
+  "tokoh": "nw-f",
+  "w": 1070,
+  "h": 1383,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-foto-lega.png"
+ },
+ {
+  "id": "nw-f-foto-takut-hp",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "foto",
+   "stiker",
+   "takut",
+   "hp",
+   "malam",
+   "K8"
+  ],
+  "ket": "Foto model F setengah badan (tepi stiker putih): ketakutan menatap HP menyala dalam gelap",
+  "pose": "foto-takut-hp",
+  "ekspresi": "takut",
+  "tokoh": "nw-f",
+  "w": 1114,
+  "h": 1388,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-f-foto-takut-hp.png"
+ },
+ {
+  "id": "nw-f-potret",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto-utama",
+   "kantor",
+   "tunjuk"
+  ],
+  "ket": "Foto potret model F di kantor menunjuk (latar asli, untuk koran/polaroid/kartu)",
+  "tokoh": "nw-f",
+  "w": 703,
+  "h": 941,
+  "g3": "pabrik/aset/nusawebsite/tokoh-pendukung/nw-f-potret.jpg"
+ },
+ {
+  "id": "nw-f-wajah-cemas",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "cemas"
+  ],
+  "ket": "Wajah foto model F (cemas), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "cemas",
+  "tokoh": "nw-f",
+  "w": 350,
+  "h": 370,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-cemas.png"
+ },
+ {
+  "id": "nw-f-wajah-kaget",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "kaget"
+  ],
+  "ket": "Wajah foto model F (kaget), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "kaget",
+  "tokoh": "nw-f",
+  "w": 351,
+  "h": 369,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-kaget.png"
+ },
+ {
+  "id": "nw-f-wajah-tenang",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "tenang"
+  ],
+  "ket": "Wajah foto model F (tenang), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "tenang",
+  "tokoh": "nw-f",
+  "w": 349,
+  "h": 373,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-tenang.png"
+ },
+ {
+  "id": "nw-f-wajah-senang",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "senang"
+  ],
+  "ket": "Wajah foto model F (senang), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "senang",
+  "tokoh": "nw-f",
+  "w": 355,
+  "h": 372,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-senang.png"
+ },
+ {
+  "id": "nw-f-wajah-bingung",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "bingung"
+  ],
+  "ket": "Wajah foto model F (bingung), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "bingung",
+  "tokoh": "nw-f",
+  "w": 360,
+  "h": 331,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-bingung.png"
+ },
+ {
+  "id": "nw-f-wajah-lelah",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "lelah"
+  ],
+  "ket": "Wajah foto model F (lelah), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "lelah",
+  "tokoh": "nw-f",
+  "w": 360,
+  "h": 330,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-lelah.png"
+ },
+ {
+  "id": "nw-f-wajah-lega",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "lega"
+  ],
+  "ket": "Wajah foto model F (lega), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "lega",
+  "tokoh": "nw-f",
+  "w": 346,
+  "h": 337,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-lega.png"
+ },
+ {
+  "id": "nw-f-wajah-yakin",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "yakin"
+  ],
+  "ket": "Wajah foto model F (yakin), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "yakin",
+  "tokoh": "nw-f",
+  "w": 363,
+  "h": 339,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-yakin.png"
+ },
+ {
+  "id": "nw-f-wajah-sedih",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "sedih"
+  ],
+  "ket": "Wajah foto model F (sedih), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "sedih",
+  "tokoh": "nw-f",
+  "w": 366,
+  "h": 333,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-sedih.png"
+ },
+ {
+  "id": "nw-f-wajah-sebal",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "sebal"
+  ],
+  "ket": "Wajah foto model F (sebal), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "sebal",
+  "tokoh": "nw-f",
+  "w": 371,
+  "h": 334,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-sebal.png"
+ },
+ {
+  "id": "nw-f-wajah-mikir",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "mikir"
+  ],
+  "ket": "Wajah foto model F (mikir), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "mikir",
+  "tokoh": "nw-f",
+  "w": 369,
+  "h": 335,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-mikir.png"
+ },
+ {
+  "id": "nw-f-wajah-tertawa",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "tertawa"
+  ],
+  "ket": "Wajah foto model F (tertawa), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "tertawa",
+  "tokoh": "nw-f",
+  "w": 372,
+  "h": 337,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-tertawa.png"
+ },
+ {
+  "id": "nw-f-wajah-panik",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "panik"
+  ],
+  "ket": "Wajah foto model F (panik), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "panik",
+  "tokoh": "nw-f",
+  "w": 371,
+  "h": 341,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-panik.png"
+ },
+ {
+  "id": "nw-f-wajah-terharu",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "terharu"
+  ],
+  "ket": "Wajah foto model F (terharu), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "terharu",
+  "tokoh": "nw-f",
+  "w": 374,
+  "h": 337,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-terharu.png"
+ },
+ {
+  "id": "nw-f-wajah-curiga",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "curiga"
+  ],
+  "ket": "Wajah foto model F (curiga), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "curiga",
+  "tokoh": "nw-f",
+  "w": 372,
+  "h": 342,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-curiga.png"
+ },
+ {
+  "id": "nw-f-wajah-kesal",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "foto",
+   "stiker",
+   "kesal"
+  ],
+  "ket": "Wajah foto model F (kesal), stiker tepi putih, untuk ditempel di badan kartun",
+  "ekspresi": "kesal",
+  "tokoh": "nw-f",
+  "w": 361,
+  "h": 344,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-f-wajah-kesal.png"
+ },
+ {
+  "id": "nw-pelanggan-online",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto",
+   "stiker",
+   "pelanggan",
+   "hp",
+   "kesal",
+   "nunggu"
+  ],
+  "ket": "Pelanggan toko online wanita ±40 memegang HP, tidak sabar",
+  "tokoh": "pelanggan",
+  "w": 436,
+  "h": 832,
+  "g3": "pabrik/aset/nusawebsite/tokoh-pendukung/nw-pelanggan-online.png"
+ },
+ {
+  "id": "nw-kurir",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto",
+   "stiker",
+   "kurir",
+   "paket",
+   "kirim"
+  ],
+  "ket": "Kurir pria jaket hijau polos membawa paket",
+  "tokoh": "kurir",
+  "w": 509,
+  "h": 892,
+  "g3": "pabrik/aset/nusawebsite/tokoh-pendukung/nw-kurir.png"
+ },
+ {
+  "id": "nw-staf-gudang",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto",
+   "stiker",
+   "gudang",
+   "stok",
+   "clipboard"
+  ],
+  "ket": "Staf gudang wanita celemek gelap memegang clipboard",
+  "tokoh": "staf-gudang",
+  "w": 437,
+  "h": 831,
+  "g3": "pabrik/aset/nusawebsite/tokoh-pendukung/nw-staf-gudang.png"
+ },
+ {
+  "id": "nw-admin-cs",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto",
+   "stiker",
+   "admin",
+   "cs",
+   "headset"
+  ],
+  "ket": "Admin/CS toko wanita memakai headset, tersenyum",
+  "tokoh": "admin",
+  "w": 449,
+  "h": 837,
+  "g3": "pabrik/aset/nusawebsite/tokoh-pendukung/nw-admin-cs.png"
+ },
+ {
+  "id": "nw-pemilik-toko-hijab",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto",
+   "stiker",
+   "pemilik-toko",
+   "umkm",
+   "bangga"
+  ],
+  "ket": "Pemilik toko lain wanita berhijab marun, celemek, bangga",
+  "tokoh": "pemilik-toko-lain",
+  "w": 422,
+  "h": 877,
+  "g3": "pabrik/aset/nusawebsite/tokoh-pendukung/nw-pemilik-toko-hijab.png"
+ },
+ {
+  "id": "nw-pemilik-toko-pria",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto",
+   "stiker",
+   "pemilik-toko",
+   "bingung",
+   "pria"
+  ],
+  "ket": "Pemilik toko pria batik, garuk kepala bingung",
+  "tokoh": "pemilik-toko-pria",
+  "w": 505,
+  "h": 898,
+  "g3": "pabrik/aset/nusawebsite/tokoh-pendukung/nw-pemilik-toko-pria.png"
+ },
+ {
+  "id": "nw-host-tutorial",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto",
+   "stiker",
+   "host",
+   "tutorial",
+   "K7",
+   "presentasi"
+  ],
+  "ket": "Host tutorial wanita kardigan kuning pastel, menjelaskan",
+  "tokoh": "host",
+  "w": 425,
+  "h": 868,
+  "g3": "pabrik/aset/nusawebsite/tokoh-pendukung/nw-host-tutorial.png"
+ },
+ {
+  "id": "nw-maskot-grup-wa-senang",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "grup-wa",
+   "whatsapp",
+   "pesanan",
+   "chat",
+   "K6",
+   "senang"
+  ],
+  "ket": "Maskot grup WhatsApp pesanan (gelembung hijau): menulis surat dengan pena",
+  "ekspresi": "senang",
+  "tokoh": "grup-wa",
+  "w": 373,
+  "h": 457,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-grup-wa-senang.png"
+ },
+ {
+  "id": "nw-maskot-grup-wa-lelah",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "grup-wa",
+   "whatsapp",
+   "pesanan",
+   "chat",
+   "K6",
+   "lelah"
+  ],
+  "ket": "Maskot grup WhatsApp pesanan (gelembung hijau): terkubur tumpukan pesan",
+  "ekspresi": "lelah",
+  "tokoh": "grup-wa",
+  "w": 484,
+  "h": 470,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-grup-wa-lelah.png"
+ },
+ {
+  "id": "nw-maskot-grup-wa-terharu",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "grup-wa",
+   "whatsapp",
+   "pesanan",
+   "chat",
+   "K6",
+   "terharu"
+  ],
+  "ket": "Maskot grup WhatsApp pesanan (gelembung hijau): menangis terharu",
+  "ekspresi": "terharu",
+  "tokoh": "grup-wa",
+  "w": 340,
+  "h": 459,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-grup-wa-terharu.png"
+ },
+ {
+  "id": "nw-maskot-grup-wa-lega",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "grup-wa",
+   "whatsapp",
+   "pesanan",
+   "chat",
+   "K6",
+   "lega"
+  ],
+  "ket": "Maskot grup WhatsApp pesanan (gelembung hijau): pensiun bertopi + koper melambai",
+  "ekspresi": "lega",
+  "tokoh": "grup-wa",
+  "w": 437,
+  "h": 500,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-grup-wa-lega.png"
+ },
+ {
+  "id": "nw-maskot-laptop-senang",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "laptop",
+   "kasir",
+   "aplikasi",
+   "senang"
+  ],
+  "ket": "Maskot laptop kasir: melambai ceria",
+  "ekspresi": "senang",
+  "tokoh": "laptop-kasir",
+  "w": 368,
+  "h": 393,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-laptop-senang.png"
+ },
+ {
+  "id": "nw-maskot-laptop-panik",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "laptop",
+   "kasir",
+   "aplikasi",
+   "panik"
+  ],
+  "ket": "Maskot laptop kasir: kepanasan, keringat, uap",
+  "ekspresi": "panik",
+  "tokoh": "laptop-kasir",
+  "w": 360,
+  "h": 477,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-laptop-panik.png"
+ },
+ {
+  "id": "nw-maskot-laptop-lelah",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "laptop",
+   "kasir",
+   "aplikasi",
+   "lelah"
+  ],
+  "ket": "Maskot laptop kasir: mati/pingsan layar X",
+  "ekspresi": "lelah",
+  "tokoh": "laptop-kasir",
+  "w": 427,
+  "h": 330,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-laptop-lelah.png"
+ },
+ {
+  "id": "nw-maskot-laptop-yakin",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "laptop",
+   "kasir",
+   "aplikasi",
+   "yakin"
+  ],
+  "ket": "Maskot laptop kasir: bangga jempol, berkilau",
+  "ekspresi": "yakin",
+  "tokoh": "laptop-kasir",
+  "w": 372,
+  "h": 387,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-laptop-yakin.png"
+ },
+ {
+  "id": "nw-maskot-kalkulator-yakin",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "kalkulator",
+   "hitung",
+   "rekap",
+   "yakin"
+  ],
+  "ket": "Maskot kalkulator: sombong tangan bersilang",
+  "ekspresi": "yakin",
+  "tokoh": "kalkulator",
+  "w": 302,
+  "h": 642,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-kalkulator-yakin.png"
+ },
+ {
+  "id": "nw-maskot-kalkulator-bingung",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "kalkulator",
+   "hitung",
+   "rekap",
+   "bingung"
+  ],
+  "ket": "Maskot kalkulator: pusing terlilit kertas struk",
+  "ekspresi": "bingung",
+  "tokoh": "kalkulator",
+  "w": 427,
+  "h": 653,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-kalkulator-bingung.png"
+ },
+ {
+  "id": "nw-maskot-kalkulator-kaget",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "kalkulator",
+   "hitung",
+   "rekap",
+   "kaget"
+  ],
+  "ket": "Maskot kalkulator: kaget tangan di pipi",
+  "ekspresi": "kaget",
+  "tokoh": "kalkulator",
+  "w": 300,
+  "h": 649,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-kalkulator-kaget.png"
+ },
+ {
+  "id": "nw-maskot-kalkulator-lega",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "kalkulator",
+   "hitung",
+   "rekap",
+   "lega"
+  ],
+  "ket": "Maskot kalkulator: lega tangan terbuka",
+  "ekspresi": "lega",
+  "tokoh": "kalkulator",
+  "w": 438,
+  "h": 642,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-kalkulator-lega.png"
+ },
+ {
+  "id": "nw-maskot-buku-tenang",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "buku",
+   "catatan",
+   "pesanan",
+   "manual",
+   "tenang"
+  ],
+  "ket": "Maskot buku pesanan: menjelaskan",
+  "ekspresi": "tenang",
+  "tokoh": "buku-pesanan",
+  "w": 407,
+  "h": 586,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-buku-tenang.png"
+ },
+ {
+  "id": "nw-maskot-buku-panik",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "buku",
+   "catatan",
+   "pesanan",
+   "manual",
+   "panik"
+  ],
+  "ket": "Maskot buku pesanan: kewalahan, halaman beterbangan",
+  "ekspresi": "panik",
+  "tokoh": "buku-pesanan",
+  "w": 446,
+  "h": 633,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-buku-panik.png"
+ },
+ {
+  "id": "nw-maskot-buku-sedih",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "buku",
+   "catatan",
+   "pesanan",
+   "manual",
+   "sedih"
+  ],
+  "ket": "Maskot buku pesanan: menangis",
+  "ekspresi": "sedih",
+  "tokoh": "buku-pesanan",
+  "w": 347,
+  "h": 580,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-buku-sedih.png"
+ },
+ {
+  "id": "nw-maskot-buku-lega",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "buku",
+   "catatan",
+   "pesanan",
+   "manual",
+   "lega"
+  ],
+  "ket": "Maskot buku pesanan: lega memeluk diri",
+  "ekspresi": "lega",
+  "tokoh": "buku-pesanan",
+  "w": 340,
+  "h": 581,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-buku-lega.png"
+ },
+ {
+  "id": "nw-maskot-nota-senang",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "nota",
+   "struk",
+   "kertas",
+   "rekap",
+   "senang"
+  ],
+  "ket": "Maskot tumpukan nota: melambai",
+  "ekspresi": "senang",
+  "tokoh": "tumpukan-nota",
+  "w": 339,
+  "h": 440,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-nota-senang.png"
+ },
+ {
+  "id": "nw-maskot-nota-lelah",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "nota",
+   "struk",
+   "kertas",
+   "rekap",
+   "lelah"
+  ],
+  "ket": "Maskot tumpukan nota: kusut lelah",
+  "ekspresi": "lelah",
+  "tokoh": "tumpukan-nota",
+  "w": 370,
+  "h": 423,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-nota-lelah.png"
+ },
+ {
+  "id": "nw-maskot-nota-kaget",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "nota",
+   "struk",
+   "kertas",
+   "rekap",
+   "kaget"
+  ],
+  "ket": "Maskot tumpukan nota: kaget kertas beterbangan",
+  "ekspresi": "kaget",
+  "tokoh": "tumpukan-nota",
+  "w": 373,
+  "h": 556,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-nota-kaget.png"
+ },
+ {
+  "id": "nw-maskot-nota-yakin",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "nota",
+   "struk",
+   "kertas",
+   "rekap",
+   "yakin"
+  ],
+  "ket": "Maskot tumpukan nota: rapi bangga jempol",
+  "ekspresi": "yakin",
+  "tokoh": "tumpukan-nota",
+  "w": 333,
+  "h": 439,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-nota-yakin.png"
+ },
+ {
+  "id": "nw-maskot-excel-yakin",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "excel",
+   "spreadsheet",
+   "rekap",
+   "file",
+   "yakin"
+  ],
+  "ket": "Maskot file excel: sombong tangan di pinggang",
+  "ekspresi": "yakin",
+  "tokoh": "file-excel",
+  "w": 407,
+  "h": 573,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-excel-yakin.png"
+ },
+ {
+  "id": "nw-maskot-excel-bingung",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "excel",
+   "spreadsheet",
+   "rekap",
+   "file",
+   "bingung"
+  ],
+  "ket": "Maskot file excel: bingung, sel merah",
+  "ekspresi": "bingung",
+  "tokoh": "file-excel",
+  "w": 389,
+  "h": 564,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-excel-bingung.png"
+ },
+ {
+  "id": "nw-maskot-excel-sedih",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "excel",
+   "spreadsheet",
+   "rekap",
+   "file",
+   "sedih"
+  ],
+  "ket": "Maskot file excel: retak menangis",
+  "ekspresi": "sedih",
+  "tokoh": "file-excel",
+  "w": 336,
+  "h": 550,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-excel-sedih.png"
+ },
+ {
+  "id": "nw-maskot-excel-senang",
+  "brand": "nusawebsite",
+  "jenis": "maskot",
+  "tag": [
+   "excel",
+   "spreadsheet",
+   "rekap",
+   "file",
+   "senang"
+  ],
+  "ket": "Maskot file excel: pamit melambai",
+  "ekspresi": "senang",
+  "tokoh": "file-excel",
+  "w": 421,
+  "h": 563,
+  "g3": "pabrik/aset/nusawebsite/maskot/nw-maskot-excel-senang.png"
+ },
+ {
+  "id": "nw-buku-coretan",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "buku",
+   "catatan",
+   "manual",
+   "berantakan"
+  ],
+  "ket": "Buku catatan terbuka penuh coretan",
+  "w": 454,
+  "h": 390,
+  "g3": "pabrik/aset/nusawebsite/props/nw-buku-coretan.png"
+ },
+ {
+  "id": "nw-kardus-tumpuk",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "kardus",
+   "paket",
+   "numpuk"
+  ],
+  "ket": "Tumpukan kardus paket berantakan",
+  "w": 415,
+  "h": 604,
+  "g3": "pabrik/aset/nusawebsite/props/nw-kardus-tumpuk.png"
+ },
+ {
+  "id": "nw-kalkulator-struk",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "kalkulator",
+   "struk",
+   "rekap"
+  ],
+  "ket": "Kalkulator dengan gulungan struk panjang",
+  "w": 379,
+  "h": 518,
+  "g3": "pabrik/aset/nusawebsite/props/nw-kalkulator-struk.png"
+ },
+ {
+  "id": "nw-hp-chat-banjir",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "hp",
+   "chat",
+   "whatsapp",
+   "pesanan",
+   "banjir"
+  ],
+  "ket": "HP dengan gelembung chat hijau berhamburan",
+  "w": 336,
+  "h": 526,
+  "g3": "pabrik/aset/nusawebsite/props/nw-hp-chat-banjir.png"
+ },
+ {
+  "id": "nw-laptop-rusak",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "laptop",
+   "rusak",
+   "asap",
+   "K8"
+  ],
+  "ket": "Laptop lama rusak berasap (stiker)",
+  "w": 1234,
+  "h": 1059,
+  "g3": "pabrik/aset/nusawebsite/props/nw-laptop-rusak.png"
+ },
+ {
+  "id": "nw-laptop",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "laptop",
+   "aplikasi",
+   "layar-kosong"
+  ],
+  "ket": "Laptop terbuka, layar biru muda kosong",
+  "w": 417,
+  "h": 346,
+  "g3": "pabrik/aset/nusawebsite/props/nw-laptop.png"
+ },
+ {
+  "id": "nw-rak-stok",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "rak",
+   "stok",
+   "gudang",
+   "kardus"
+  ],
+  "ket": "Rak stok besi berisi kardus",
+  "w": 328,
+  "h": 490,
+  "g3": "pabrik/aset/nusawebsite/props/nw-rak-stok.png"
+ },
+ {
+  "id": "nw-timbangan",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "timbangan",
+   "paket",
+   "kirim"
+  ],
+  "ket": "Timbangan paket digital (layar kosong)",
+  "w": 319,
+  "h": 204,
+  "g3": "pabrik/aset/nusawebsite/props/nw-timbangan.png"
+ },
+ {
+  "id": "nw-motor-kurir",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "motor",
+   "kurir",
+   "kirim"
+  ],
+  "ket": "Motor kurir merah dengan box paket",
+  "w": 363,
+  "h": 376,
+  "g3": "pabrik/aset/nusawebsite/props/nw-motor-kurir.png"
+ },
+ {
+  "id": "nw-struk",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "struk",
+   "nota",
+   "kertas"
+  ],
+  "ket": "Struk belanja panjang melengkung",
+  "w": 304,
+  "h": 573,
+  "g3": "pabrik/aset/nusawebsite/props/nw-struk.png"
+ },
+ {
+  "id": "nw-bantalan-tinta",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "stempel",
+   "tinta"
+  ],
+  "ket": "Bantalan tinta merah",
+  "w": 333,
+  "h": 171,
+  "g3": "pabrik/aset/nusawebsite/props/nw-bantalan-tinta.png"
+ },
+ {
+  "id": "nw-stempel-kayu",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "stempel",
+   "kantor"
+  ],
+  "ket": "Stempel kayu",
+  "w": 251,
+  "h": 354,
+  "g3": "pabrik/aset/nusawebsite/props/nw-stempel-kayu.png"
+ },
+ {
+  "id": "nw-gelembung-putih",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "chat",
+   "gelembung",
+   "pesan"
+  ],
+  "ket": "Gelembung chat putih kosong",
+  "w": 264,
+  "h": 182,
+  "g3": "pabrik/aset/nusawebsite/props/nw-gelembung-putih.png"
+ },
+ {
+  "id": "nw-gelembung-hijau",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "chat",
+   "gelembung",
+   "whatsapp"
+  ],
+  "ket": "Gelembung chat hijau kosong",
+  "w": 264,
+  "h": 185,
+  "g3": "pabrik/aset/nusawebsite/props/nw-gelembung-hijau.png"
+ },
+ {
+  "id": "nw-gelembung-oranye",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "chat",
+   "gelembung",
+   "pesan"
+  ],
+  "ket": "Gelembung chat oranye kosong",
+  "w": 264,
+  "h": 188,
+  "g3": "pabrik/aset/nusawebsite/props/nw-gelembung-oranye.png"
+ },
+ {
+  "id": "nw-kardus-label",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "kardus",
+   "paket",
+   "label",
+   "kirim"
+  ],
+  "ket": "Kardus paket tersegel dengan label kosong (tulis resi di HTML)",
+  "w": 455,
+  "h": 454,
+  "g3": "pabrik/aset/nusawebsite/props/nw-kardus-label.png"
+ },
+ {
+  "id": "nw-sticky-tumpuk",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "sticky-note",
+   "catatan"
+  ],
+  "ket": "Tumpukan sticky note kuning-pink-biru",
+  "w": 323,
+  "h": 321,
+  "g3": "pabrik/aset/nusawebsite/props/nw-sticky-tumpuk.png"
+ },
+ {
+  "id": "nw-tumpukan-nota",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "nota",
+   "kertas",
+   "berantakan",
+   "rekap"
+  ],
+  "ket": "Tumpukan nota/formulir tinggi berantakan",
+  "w": 395,
+  "h": 459,
+  "g3": "pabrik/aset/nusawebsite/props/nw-tumpukan-nota.png"
+ },
+ {
+  "id": "nw-mug-kopi",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "kopi",
+   "lembur",
+   "pagi"
+  ],
+  "ket": "Mug kopi putih mengepul",
+  "w": 323,
+  "h": 441,
+  "g3": "pabrik/aset/nusawebsite/props/nw-mug-kopi.png"
+ },
+ {
+  "id": "nw-hp-berdering",
+  "brand": "nusawebsite",
+  "jenis": "props",
+  "tag": [
+   "hp",
+   "notifikasi",
+   "berdering",
+   "pesanan"
+  ],
+  "ket": "HP berdering, layar putih menyala",
+  "w": 280,
+  "h": 403,
+  "g3": "pabrik/aset/nusawebsite/props/nw-hp-berdering.png"
+ },
+ {
+  "id": "nw-latar-toko-rumahan",
+  "brand": "nusawebsite",
+  "jenis": "latar",
+  "tag": [
+   "toko",
+   "siang",
+   "rumahan",
+   "online-shop"
+  ],
+  "ket": "Diorama toko online rumahan siang, lantai tengah kosong",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/latar/nw-latar-toko-rumahan.jpg"
+ },
+ {
+  "id": "nw-latar-gudang",
+  "brand": "nusawebsite",
+  "jenis": "latar",
+  "tag": [
+   "gudang",
+   "stok",
+   "siang"
+  ],
+  "ket": "Diorama gudang kecil rak kardus, lantai tengah kosong",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/latar/nw-latar-gudang.jpg"
+ },
+ {
+  "id": "nw-latar-toko-malam",
+  "brand": "nusawebsite",
+  "jenis": "latar",
+  "tag": [
+   "toko",
+   "malam",
+   "lembur",
+   "K6"
+  ],
+  "ket": "Diorama pojok toko online malam, lampu meja hangat",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/latar/nw-latar-toko-malam.jpg"
+ },
+ {
+  "id": "nw-latar-toko-gelap",
+  "brand": "nusawebsite",
+  "jenis": "latar",
+  "tag": [
+   "toko",
+   "malam",
+   "gelap",
+   "horor",
+   "K8"
+  ],
+  "ket": "Toko gelap tengah malam (horor-komedi)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/latar/nw-latar-toko-gelap.jpg"
+ },
+ {
+  "id": "nw-latar-kotak-oranye",
+  "brand": "nusawebsite",
+  "jenis": "latar",
+  "tag": [
+   "promo",
+   "kolase",
+   "oranye",
+   "polos"
+  ],
+  "ket": "Kotak-kotak oranye (promo kolase)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/latar/nw-latar-kotak-oranye.jpg"
+ },
+ {
+  "id": "nw-latar-navy-grid",
+  "brand": "nusawebsite",
+  "jenis": "latar",
+  "tag": [
+   "polos",
+   "navy",
+   "teknologi",
+   "cta"
+  ],
+  "ket": "Gradasi navy + grid tipis",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/latar/nw-latar-navy-grid.jpg"
+ },
+ {
+  "id": "nw-logo",
+  "brand": "nusawebsite",
+  "jenis": "ui",
+  "tag": [
+   "logo"
+  ],
+  "ket": "Logo Nusawebsite (PNG transparan, mendatar)",
+  "w": 986,
+  "h": 127,
+  "g3": "pabrik/aset/nusawebsite/ui/nw-logo.png"
+ },
+ {
+  "id": "nw-ui-dashboard",
+  "brand": "nusawebsite",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "hp",
+   "layar",
+   "dashboard",
+   "ringkasan"
+  ],
+  "ket": "Layar aplikasi HP 1080x1920 (contoh 'Toko Sinar', palet oranye-navy): Dashboard toko: kartu pesanan hari ini, grafik 7 hari, pesanan terbaru",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/ui/nw-ui-dashboard.jpg"
+ },
+ {
+  "id": "nw-ui-pesanan",
+  "brand": "nusawebsite",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "hp",
+   "layar",
+   "pesanan",
+   "pesanan-masuk",
+   "whatsapp"
+  ],
+  "ket": "Layar aplikasi HP 1080x1920 (contoh 'Toko Sinar', palet oranye-navy): Daftar pesanan masuk (WA/IG/web jadi satu)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/ui/nw-ui-pesanan.jpg"
+ },
+ {
+  "id": "nw-ui-stok",
+  "brand": "nusawebsite",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "hp",
+   "layar",
+   "stok",
+   "gudang",
+   "inventori"
+  ],
+  "ket": "Layar aplikasi HP 1080x1920 (contoh 'Toko Sinar', palet oranye-navy): Stok barang dengan bar sisa + status menipis",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/ui/nw-ui-stok.jpg"
+ },
+ {
+  "id": "nw-ui-laporan",
+  "brand": "nusawebsite",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "hp",
+   "layar",
+   "laporan",
+   "penjualan",
+   "grafik"
+  ],
+  "ket": "Layar aplikasi HP 1080x1920 (contoh 'Toko Sinar', palet oranye-navy): Laporan penjualan bulanan: total pesanan, tren, terlaris (tanpa rupiah)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/ui/nw-ui-laporan.jpg"
+ },
+ {
+  "id": "nw-ui-kasir",
+  "brand": "nusawebsite",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "hp",
+   "layar",
+   "kasir",
+   "pos"
+  ],
+  "ket": "Layar aplikasi HP 1080x1920 (contoh 'Toko Sinar', palet oranye-navy): Kasir/POS: grid produk + keranjang (tanpa harga)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/ui/nw-ui-kasir.jpg"
+ },
+ {
+  "id": "nw-ui-pelanggan",
+  "brand": "nusawebsite",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "hp",
+   "layar",
+   "pelanggan",
+   "crm"
+  ],
+  "ket": "Layar aplikasi HP 1080x1920 (contoh 'Toko Sinar', palet oranye-navy): Daftar pelanggan dengan riwayat pesanan",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/ui/nw-ui-pelanggan.jpg"
+ },
+ {
+  "id": "nw-ui-notifikasi",
+  "brand": "nusawebsite",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "hp",
+   "layar",
+   "notifikasi",
+   "pesanan-baru"
+  ],
+  "ket": "Layar aplikasi HP 1080x1920 (contoh 'Toko Sinar', palet oranye-navy): Notifikasi: toast pesanan baru + daftar notifikasi",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/ui/nw-ui-notifikasi.jpg"
+ },
+ {
+  "id": "nw-ui-invoice",
+  "brand": "nusawebsite",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "hp",
+   "layar",
+   "invoice",
+   "otomatis"
+  ],
+  "ket": "Layar aplikasi HP 1080x1920 (contoh 'Toko Sinar', palet oranye-navy): Invoice otomatis terkirim ke WhatsApp (tanpa nominal)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/ui/nw-ui-invoice.jpg"
+ },
+ {
+  "id": "nw-ui-jadwal",
+  "brand": "nusawebsite",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "hp",
+   "layar",
+   "jadwal",
+   "pengiriman",
+   "kurir"
+  ],
+  "ket": "Layar aplikasi HP 1080x1920 (contoh 'Toko Sinar', palet oranye-navy): Jadwal kirim hari ini (timeline jemput kurir)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/ui/nw-ui-jadwal.jpg"
+ },
+ {
+  "id": "nw-ui-login",
+  "brand": "nusawebsite",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "hp",
+   "layar",
+   "login",
+   "masuk"
+  ],
+  "ket": "Layar aplikasi HP 1080x1920 (contoh 'Toko Sinar', palet oranye-navy): Halaman login aplikasi toko",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/ui/nw-ui-login.jpg"
+ },
+ {
+  "id": "nw-ui-desk-dashboard",
+  "brand": "nusawebsite",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "layar",
+   "dashboard",
+   "desktop"
+  ],
+  "ket": "Layar aplikasi desktop (palet oranye-navy): Dashboard desktop 1920x1200 dengan sidebar",
+  "w": 1920,
+  "h": 1200,
+  "g3": "pabrik/aset/nusawebsite/ui/nw-ui-desk-dashboard.jpg"
+ },
+ {
+  "id": "nw-ui-desk-pesanan",
+  "brand": "nusawebsite",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "layar",
+   "pesanan",
+   "desktop",
+   "tabel"
+  ],
+  "ket": "Layar aplikasi desktop (palet oranye-navy): Tabel pesanan desktop 1920x1200",
+  "w": 1920,
+  "h": 1200,
+  "g3": "pabrik/aset/nusawebsite/ui/nw-ui-desk-pesanan.jpg"
+ },
+ {
+  "id": "nw-latar-meja-kasir",
+  "brand": "nusawebsite",
+  "jenis": "latar",
+  "tag": [
+   "kasir",
+   "toko",
+   "siang",
+   "pos"
+  ],
+  "ket": "Diorama meja kasir minimarket dari sisi pelanggan",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/latar/nw-latar-meja-kasir.jpg"
+ },
+ {
+  "id": "nw-latar-kafe",
+  "brand": "nusawebsite",
+  "jenis": "latar",
+  "tag": [
+   "kafe",
+   "umkm",
+   "sore"
+  ],
+  "ket": "Diorama kafe UMKM sore, lantai tengah kosong",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/latar/nw-latar-kafe.jpg"
+ },
+ {
+  "id": "nw-latar-kantor-kecil",
+  "brand": "nusawebsite",
+  "jenis": "latar",
+  "tag": [
+   "kantor",
+   "siang",
+   "startup"
+  ],
+  "ket": "Diorama kantor kecil siang, lantai tengah kosong",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/latar/nw-latar-kantor-kecil.jpg"
+ },
+ {
+  "id": "nw-latar-lembur-malam",
+  "brand": "nusawebsite",
+  "jenis": "latar",
+  "tag": [
+   "malam",
+   "lembur",
+   "laptop",
+   "meja"
+  ],
+  "ket": "Diorama kantor rumah malam lembur, laptop menyala",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/nusawebsite/latar/nw-latar-lembur-malam.jpg"
+ },
+ {
+  "id": "nw-laras-cemas-hp",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "kedai-kopi",
+   "umkm",
+   "hp",
+   "cemas",
+   "pusing",
+   "masalah"
+  ],
+  "ket": "Mbak Laras pemilik kedai kopi kartun cemas menatap HP, tangan di dahi",
+  "pose": "cemas-hp",
+  "tokoh": "nw-laras",
+  "w": 310,
+  "h": 918,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-laras-cemas-hp.png",
+  "kepala": {
+   "x": 70,
+   "y": 12,
+   "w": 131,
+   "h": 122
+  }
+ },
+ {
+  "id": "nw-laras-catat",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "kedai-kopi",
+   "umkm",
+   "catat",
+   "menulis",
+   "manual",
+   "buku"
+  ],
+  "ket": "Mbak Laras pemilik kedai kopi kartun menulis di buku catatan kecil",
+  "pose": "catat",
+  "tokoh": "nw-laras",
+  "w": 271,
+  "h": 916,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-laras-catat.png",
+  "kepala": {
+   "x": 102,
+   "y": 10,
+   "w": 127,
+   "h": 127
+  }
+ },
+ {
+  "id": "nw-laras-baki",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "kedai-kopi",
+   "umkm",
+   "kopi",
+   "baki",
+   "senang",
+   "melayani"
+  ],
+  "ket": "Mbak Laras pemilik kedai kopi kartun membawa baki berisi dua cangkir kopi, tersenyum",
+  "pose": "baki",
+  "tokoh": "nw-laras",
+  "w": 306,
+  "h": 919,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-laras-baki.png",
+  "kepala": {
+   "x": 81,
+   "y": 11,
+   "w": 125,
+   "h": 126
+  }
+ },
+ {
+  "id": "nw-laras-lega",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik-toko",
+   "kedai-kopi",
+   "umkm",
+   "lega",
+   "sorak",
+   "senang",
+   "solusi"
+  ],
+  "ket": "Mbak Laras pemilik kedai kopi kartun merentangkan dua tangan lega dan gembira",
+  "pose": "lega",
+  "tokoh": "nw-laras",
+  "w": 557,
+  "h": 906,
+  "g3": "pabrik/aset/nusawebsite/tokoh-badan/nw-laras-lega.png",
+  "kepala": {
+   "x": 225,
+   "y": 19,
+   "w": 132,
+   "h": 173
+  }
+ },
+ {
+  "id": "nw-laras-wajah-senang",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik-toko",
+   "senang",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Laras pemilik kedai kopi ekspresi senang (stiker bingkai putih)",
+  "ekspresi": "senang",
+  "tokoh": "nw-laras",
+  "w": 281,
+  "h": 335,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-laras-wajah-senang.png"
+ },
+ {
+  "id": "nw-laras-wajah-kaget",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik-toko",
+   "kaget",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Laras pemilik kedai kopi ekspresi kaget (stiker bingkai putih)",
+  "ekspresi": "kaget",
+  "tokoh": "nw-laras",
+  "w": 274,
+  "h": 336,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-laras-wajah-kaget.png"
+ },
+ {
+  "id": "nw-laras-wajah-panik",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik-toko",
+   "panik",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Laras pemilik kedai kopi ekspresi panik (stiker bingkai putih)",
+  "ekspresi": "panik",
+  "tokoh": "nw-laras",
+  "w": 282,
+  "h": 337,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-laras-wajah-panik.png"
+ },
+ {
+  "id": "nw-laras-wajah-bingung",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik-toko",
+   "bingung",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Laras pemilik kedai kopi ekspresi bingung (stiker bingkai putih)",
+  "ekspresi": "bingung",
+  "tokoh": "nw-laras",
+  "w": 286,
+  "h": 337,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-laras-wajah-bingung.png"
+ },
+ {
+  "id": "nw-laras-wajah-lega",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik-toko",
+   "lega",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Laras pemilik kedai kopi ekspresi lega (stiker bingkai putih)",
+  "ekspresi": "lega",
+  "tokoh": "nw-laras",
+  "w": 256,
+  "h": 328,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-laras-wajah-lega.png"
+ },
+ {
+  "id": "nw-laras-wajah-kesal",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik-toko",
+   "kesal",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Laras pemilik kedai kopi ekspresi kesal (stiker bingkai putih)",
+  "ekspresi": "kesal",
+  "tokoh": "nw-laras",
+  "w": 253,
+  "h": 331,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-laras-wajah-kesal.png"
+ },
+ {
+  "id": "nw-laras-wajah-lelah",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik-toko",
+   "lelah",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Laras pemilik kedai kopi ekspresi lelah (stiker bingkai putih)",
+  "ekspresi": "lelah",
+  "tokoh": "nw-laras",
+  "w": 264,
+  "h": 332,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-laras-wajah-lelah.png"
+ },
+ {
+  "id": "nw-laras-wajah-yakin",
+  "brand": "nusawebsite",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik-toko",
+   "yakin",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Laras pemilik kedai kopi ekspresi yakin (stiker bingkai putih)",
+  "ekspresi": "yakin",
+  "tokoh": "nw-laras",
+  "w": 259,
+  "h": 331,
+  "g3": "pabrik/aset/nusawebsite/wajah/nw-laras-wajah-yakin.png"
+ },
+ {
+  "id": "nw-laras-foto",
+  "brand": "nusawebsite",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto-utama",
+   "potret",
+   "pemilik-toko"
+  ],
+  "ket": "Foto potret setengah badan Mbak Laras pemilik kedai kopi (latar studio abu) untuk koran/polaroid/kartu",
+  "tokoh": "nw-laras",
+  "w": 768,
+  "h": 1024,
+  "g3": "pabrik/aset/nusawebsite/tokoh-pendukung/nw-laras-foto.jpg"
+ }
+]

@@ -1,0 +1,109 @@
+{
+ "kode": "dc-k3-019",
+ "brand": "dentalcare",
+ "konsep": "K3",
+ "judul": "Berita: ruang arsip klinik gigi sudah tidak muat",
+ "caption": "Berita terkini: ruang arsip sebuah klinik gigi penuh sampai menutupi jendela, pasien pulang sebelum berkasnya ditemukan. Update: klinik pindah ke DentalCare. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #rekammedis #DentalCare",
+ "ticker": "RUANG ARSIP KLINIK PENUH • PASIEN PULANG SEBELUM BERKAS DITEMUKAN • KLINIK PINDAH KE DENTALCARE",
+ "adegan": [
+  {
+   "teks": "Berita terkini. Ruang arsip sebuah klinik gigi dilaporkan sudah tidak muat lagi.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "dc-reporter-mic",
+    "judul": "Ruang arsip klinik penuh",
+    "label": "BERITA TERKINI",
+    "nama": "Dinda Lestari",
+    "jabatan": "Reporter, langsung di lokasi"
+   }
+  },
+  {
+   "teks": "Di lokasi, map pasien menumpuk sampai menutupi jendela ruangan arsip.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "prop": "dc-prop-tumpukan-berkas",
+    "kartu": "jendelanya mana??",
+    "tag": "MENUMPUK",
+    "pose": "pusing",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Resepsionis mengaku butuh waktu sangat lama hanya untuk mencari satu berkas.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "dc-foto-resepsionis-telepon",
+    "nama": "Mbak Tari",
+    "ket": "Resepsionis klinik",
+    "kutipan": "Satu berkas bisa setengah jam",
+    "stempel": "LAMA"
+   }
+  },
+  {
+   "teks": "Seorang pasien bahkan sempat pulang lebih dulu sebelum berkasnya ditemukan.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "dc-foto-pasien-ibu",
+    "nama": "Bu Wati",
+    "ket": "Pasien klinik",
+    "kutipan": "Saya pulang dulu saja",
+    "stempel": "PULANG"
+   }
+  },
+  {
+   "teks": "Update terbaru. Klinik ini akhirnya memindahkan data pasien ke DentalCare.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "dc-reporter-tunjuk",
+    "judul": "Klinik pindah ke DentalCare",
+    "label": "UPDATE",
+    "nama": "Dinda Lestari",
+    "jabatan": "Reporter"
+   }
+  },
+  {
+   "teks": "Data pasien dan rekam medis kini tersimpan rapi, dicari dalam hitungan detik.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-pasien-daftar-rapi",
+      "judul": "Data Pasien"
+     },
+     {
+      "ui": "dc-ui-soap-rapi",
+      "judul": "Rekam Medis"
+     }
+    ],
+    "stempel": "RAPI ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Dokter Sinta menyebut ruang arsip kini bisa dipakai untuk ruang tunggu yang lebih nyaman.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "dc-sinta-foto",
+    "nama": "drg. Sinta",
+    "ket": "Dokter gigi",
+    "kutipan": "Ruangannya jadi lega!",
+    "stempel": "LEGA ✓"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

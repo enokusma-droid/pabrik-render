@@ -1,0 +1,164 @@
+{
+ "kode": "nw-k2-005-r2",
+ "brand": "nusawebsite",
+ "konsep": "K2",
+ "judul": "Dulu vs sekarang: mengingat pelanggan setia",
+ "caption": "Toko yang sama, hari yang sama. Kiri mencari pelanggan di ribuan chat, kanan langsung tahu riwayat belanjanya. Kamu masih di kiri atau sudah di kanan? Tanya lewat WhatsApp di profil. #umkm #tokoonline #aplikasibisnis",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Toko yang sama, hari yang sama. Yang kiri dulu, yang kanan sekarang.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "bingung",
+     "wajah": [
+      "bingung"
+     ],
+     "bubble": "siapa ya?"
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "halo Bu Rina!"
+    }
+   }
+  },
+  {
+   "teks": "Pelanggan lama chat lagi. Kiri bingung mencari namanya di ribuan pesan.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "ketik-hp",
+     "wajah": [
+      "panik"
+     ],
+     "prop": "nw-hp-chat-banjir",
+     "stempel": "TENGGELAM"
+    },
+    "kanan": {
+     "pose": "duduk-laptop",
+     "wajah": [
+      "tenang"
+     ],
+     "stempel": "KETEMU ✓"
+    }
+   }
+  },
+  {
+   "teks": "Kanan langsung tahu riwayat belanjanya, bahkan ukuran favoritnya.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "bingung",
+     "wajah": [
+      "bingung"
+     ],
+     "bubble": "ukuran apa ya?"
+    },
+    "kanan": {
+     "pose": "yakin",
+     "wajah": [
+      "yakin"
+     ],
+     "bubble": "M seperti biasa?"
+    }
+   }
+  },
+  {
+   "teks": "Kiri juga lupa menyapa pelanggan yang sudah lama tidak belanja.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "lelah",
+     "wajah": [
+      "lelah"
+     ],
+     "stempel": "LUPA"
+    },
+    "kanan": {
+     "pose": "ketik-hp",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "Kak, apa kabar?"
+    }
+   }
+  },
+  {
+   "teks": "Akhir bulan, kiri merekap pelanggan di buku. Kanan tinggal buka laporan.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "duduk-catat",
+     "wajah": [
+      "lelah"
+     ],
+     "prop": "nw-buku-coretan"
+    },
+    "kanan": {
+     "pose": "jalan-laptop",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "BERES ✓"
+    }
+   }
+  },
+  {
+   "teks": "Bedanya cuma satu, yang kanan pakai aplikasi data pelanggan buatan sendiri.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Data Pelanggan",
+     "baris": [
+      [
+       "Bu Rina",
+       "Kaos M, 8x belanja",
+       "Setia ✓"
+      ],
+      [
+       "Kak Sari",
+       "Hijab, 3x belanja",
+       "Aktif"
+      ],
+      [
+       "Mbak Dewi",
+       "Gamis L, 5x belanja",
+       "Aktif"
+      ]
+     ]
+    },
+    "stempel": "RAPI ✓"
+   }
+  },
+  {
+   "teks": "Dan akhirnya, si kiri pun ikut menyeberang ke kanan. Lega sekali.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "lega",
+    "wajah": [
+     "kaget",
+     "senang"
+    ],
+    "ganti": "menyeberang",
+    "judul": "pindah juga!",
+    "stempel": "AKHIRNYA ✓",
+    "bintang": true,
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk tokomu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

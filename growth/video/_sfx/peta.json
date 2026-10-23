@@ -1,0 +1,210 @@
+{
+ "whoosh": [
+  {
+   "file": "whoosh-1.wav",
+   "mixkit_id": 1490,
+   "judul": "Fast whoosh transition",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/1490/1490.wav"
+  },
+  {
+   "file": "whoosh-2.wav",
+   "mixkit_id": 3115,
+   "judul": "Fast transitions swoosh",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/3115/3115.wav"
+  }
+ ],
+ "pop": [
+  {
+   "file": "pop-1.wav",
+   "mixkit_id": 731,
+   "judul": "Cartoon bubble pop",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/731/731.wav"
+  },
+  {
+   "file": "pop-2.wav",
+   "mixkit_id": 3069,
+   "judul": "Game balloon or bubble pop",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/3069/3069.wav"
+  }
+ ],
+ "ding": [
+  {
+   "file": "ding-1.wav",
+   "mixkit_id": 2870,
+   "judul": "Correct answer tone",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/2870/2870.wav"
+  },
+  {
+   "file": "ding-2.wav",
+   "mixkit_id": 600,
+   "judul": "Achievement bell",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/600/600.wav"
+  }
+ ],
+ "stamp": [
+  {
+   "file": "stamp-1.wav",
+   "mixkit_id": 2182,
+   "judul": "Wood hard hit",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/2182/2182.wav"
+  }
+ ],
+ "thud": [
+  {
+   "file": "thud-1.wav",
+   "mixkit_id": 2151,
+   "judul": "Soft quick punch",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/2151/2151.wav"
+  }
+ ],
+ "boing": [
+  {
+   "file": "boing-1.wav",
+   "mixkit_id": 2894,
+   "judul": "Boing hit sound",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/2894/2894.wav"
+  }
+ ],
+ "kertas": [
+  {
+   "file": "kertas-1.wav",
+   "mixkit_id": 1530,
+   "judul": "Paper slide",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/1530/1530.wav"
+  },
+  {
+   "file": "kertas-2.wav",
+   "mixkit_id": 2380,
+   "judul": "Paper quick movement",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/2380/2380.wav"
+  }
+ ],
+ "spidol": [
+  {
+   "file": "spidol-1.wav",
+   "mixkit_id": 2369,
+   "judul": "Writing scribble on paper",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/2369/2369.wav"
+  }
+ ],
+ "turun": [
+  {
+   "file": "turun-1.wav",
+   "mixkit_id": 744,
+   "judul": "Trombone disappoint",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/744/744.wav"
+  }
+ ],
+ "tumpuk": [
+  {
+   "file": "tumpuk-1.wav",
+   "mixkit_id": 2381,
+   "judul": "Pile of paper trash",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/2381/2381.wav"
+  }
+ ],
+ "tik": [
+  {
+   "file": "tik-1.wav",
+   "mixkit_id": 1063,
+   "judul": "Fast wall clock ticking",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/1063/1063.wav"
+  }
+ ],
+ "tegang": [
+  {
+   "file": "tegang-1.wav",
+   "mixkit_id": 674,
+   "judul": "Cartoon suspense",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/674/674.wav"
+  }
+ ],
+ "boom": [
+  {
+   "file": "boom-1.wav",
+   "mixkit_id": 3082,
+   "judul": "Magic sparkle poof hit",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/3082/3082.wav"
+  }
+ ],
+ "byur": [
+  {
+   "file": "byur-1.wav",
+   "mixkit_id": 2884,
+   "judul": "Funny cartoon splash",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/2884/2884.wav"
+  }
+ ],
+ "sobek": [
+  {
+   "file": "sobek-1.wav",
+   "mixkit_id": 2384,
+   "judul": "Paper quick slice",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/2384/2384.wav"
+  }
+ ],
+ "kaget": [
+  {
+   "file": "kaget-1.wav",
+   "mixkit_id": 967,
+   "judul": "Cartoon surprise gasp",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/967/967.wav"
+  }
+ ],
+ "sparkle": [
+  {
+   "file": "sparkle-1.wav",
+   "mixkit_id": 3083,
+   "judul": "Magic sparkle touch",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/3083/3083.wav"
+  }
+ ],
+ "pintu": [
+  {
+   "file": "pintu-1.wav",
+   "mixkit_id": 195,
+   "judul": "Creaky door open",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/195/195.wav"
+  }
+ ],
+ "meong": [
+  {
+   "file": "meong-1.wav",
+   "mixkit_id": 91,
+   "judul": "Cartoon little cat meow",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/91/91.wav"
+  }
+ ],
+ "jantung": [
+  {
+   "file": "jantung-1.wav",
+   "mixkit_id": 494,
+   "judul": "Slow heartbeat",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/494/494.wav"
+  }
+ ],
+ "horor": [
+  {
+   "file": "horor-1.wav",
+   "mixkit_id": 773,
+   "judul": "Horror impact",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/773/773.wav"
+  }
+ ],
+ "korslet": [
+  {
+   "file": "korslet-1.wav",
+   "mixkit_id": 2595,
+   "judul": "Small electric glitch",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/2595/2595.wav"
+  }
+ ],
+ "seram": [
+  {
+   "file": "seram-1.wav",
+   "mixkit_id": 2482,
+   "judul": "Horror ambience",
+   "sumber": "https://assets.mixkit.co/active_storage/sfx/2482/2482.wav"
+  }
+ ]
+}

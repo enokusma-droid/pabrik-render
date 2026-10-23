@@ -1,0 +1,28 @@
+{
+ "kode": "nw-k5-018",
+ "brand": "nusawebsite",
+ "konsep": "K5",
+ "judul": "Detektif: kasus susu kafe yang selalu habis",
+ "durasi": 45.2,
+ "LUFS": -14.2,
+ "TP": -1.4,
+ "cocok_vo_%": 100,
+ "cocok_ketat_%": 91,
+ "transkrip_15dtk": "Susu untuk kopi pesanan pagi, habis lagi. Ini kehabisan ketiga minggu ini. Penyelidikan dimulai. Teresangka pertama, barista. Kalibinya kuat, sibuk membuat pesanan.",
+ "lulus_qc": true,
+ "musik": "tegang",
+ "g3": "konten/pabrik/hasil/nw-k5-018.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k5-018.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T02:58+07:00",
+ "catatan_bangun": [
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-tunjuk",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-jalan-berkas",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-kaca-pembesar"
+ ],
+ "directus_id": "0b906ae6-0355-4e8d-98d9-f2dd15ffff08",
+ "directus_url": "https://directus.nusawebsite.com/assets/0b906ae6-0355-4e8d-98d9-f2dd15ffff08",
+ "directus_poster_id": "952c3850-e576-453b-8391-3e425bc11492",
+ "directus_poster_url": "https://directus.nusawebsite.com/assets/952c3850-e576-453b-8391-3e425bc11492"
+}

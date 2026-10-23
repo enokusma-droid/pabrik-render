@@ -1,0 +1,30 @@
+{
+ "kode": "rb-k5-002",
+ "brand": "ratu-bawang",
+ "konsep": "K5",
+ "judul": "Kasus bawang yang sudah lunas tapi jadi buron",
+ "durasi": 42.3,
+ "LUFS": -14.2,
+ "TP": -1.5,
+ "cocok_vo_%": 100,
+ "cocok_ketat_%": 90,
+ "transkrip_15dtk": "Mana bawang yang sudah lunas? Uangnya sampai bawangnya buron? Aku Detektif Ana. Pemasuk lama Chef Ayu pemilik restor kemahalan. Ia cari di grup WhatsApp. Transfer lunas. Centang satu. Menusambal ditutup.",
+ "lulus_qc": true,
+ "musik": "tegang",
+ "g3": "konten/pabrik/hasil/rb-k5-002.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k5-002.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T11:49+07:00",
+ "catatan_bangun": [
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-jalan-berkas",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-kaca-pembesar",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-tangan-silang"
+ ],
+ "phash_awal": [
+  "3060e8ecf0f0ec3c",
+  "7030b0c4f0f0e82c",
+  "7068a8c6f0f0e82c"
+ ],
+ "mirip_awal": []
+}

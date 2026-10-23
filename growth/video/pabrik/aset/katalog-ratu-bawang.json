@@ -1,0 +1,1028 @@
+[
+ {
+  "id": "rb-ayu-keranjang-kosong",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "koki",
+   "resto",
+   "hijab-marun",
+   "panik",
+   "keranjang",
+   "kosong",
+   "habis",
+   "masalah"
+  ],
+  "ket": "Chef Ayu pemilik resto kartun panik memegang keranjang bambu kosong terbalik",
+  "pose": "keranjang-kosong",
+  "tokoh": "rb-ayu",
+  "w": 360,
+  "h": 926,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-ayu-keranjang-kosong.png",
+  "kepala": {
+   "x": 150,
+   "y": 30,
+   "w": 144,
+   "h": 170
+  }
+ },
+ {
+  "id": "rb-ayu-masak",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "koki",
+   "resto",
+   "hijab-marun",
+   "masak",
+   "wajan",
+   "sibuk",
+   "yakin"
+  ],
+  "ket": "Chef Ayu pemilik resto kartun memasak dengan wajan dan sutil, fokus",
+  "pose": "masak",
+  "tokoh": "rb-ayu",
+  "w": 430,
+  "h": 933,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-ayu-masak.png",
+  "kepala": {
+   "x": 178,
+   "y": 17,
+   "w": 151,
+   "h": 181
+  }
+ },
+ {
+  "id": "rb-ayu-telepon",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "koki",
+   "resto",
+   "hijab-marun",
+   "telepon",
+   "hp",
+   "cemas",
+   "pemasok"
+  ],
+  "ket": "Chef Ayu pemilik resto kartun menelepon cemas, tangan di dahi",
+  "pose": "telepon",
+  "tokoh": "rb-ayu",
+  "w": 345,
+  "h": 929,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-ayu-telepon.png",
+  "kepala": {
+   "x": 86,
+   "y": 20,
+   "w": 137,
+   "h": 181
+  }
+ },
+ {
+  "id": "rb-ayu-karung-jempol",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "koki",
+   "resto",
+   "hijab-marun",
+   "jempol",
+   "karung",
+   "senang",
+   "solusi",
+   "lega",
+   "cta"
+  ],
+  "ket": "Chef Ayu pemilik resto kartun memeluk karung kecil bawang merah sambil acungkan jempol",
+  "pose": "karung-jempol",
+  "tokoh": "rb-ayu",
+  "w": 331,
+  "h": 934,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-ayu-karung-jempol.png",
+  "kepala": {
+   "x": 54,
+   "y": 19,
+   "w": 134,
+   "h": 186
+  }
+ },
+ {
+  "id": "rb-ayu-wajah-senang",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "koki",
+   "senang",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Chef Ayu pemilik resto ekspresi senang (stiker bingkai putih)",
+  "ekspresi": "senang",
+  "tokoh": "rb-ayu",
+  "w": 303,
+  "h": 332,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-ayu-wajah-senang.png"
+ },
+ {
+  "id": "rb-ayu-wajah-kaget",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "koki",
+   "kaget",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Chef Ayu pemilik resto ekspresi kaget (stiker bingkai putih)",
+  "ekspresi": "kaget",
+  "tokoh": "rb-ayu",
+  "w": 301,
+  "h": 333,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-ayu-wajah-kaget.png"
+ },
+ {
+  "id": "rb-ayu-wajah-panik",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "koki",
+   "panik",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Chef Ayu pemilik resto ekspresi panik (stiker bingkai putih)",
+  "ekspresi": "panik",
+  "tokoh": "rb-ayu",
+  "w": 307,
+  "h": 339,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-ayu-wajah-panik.png"
+ },
+ {
+  "id": "rb-ayu-wajah-bingung",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "koki",
+   "bingung",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Chef Ayu pemilik resto ekspresi bingung (stiker bingkai putih)",
+  "ekspresi": "bingung",
+  "tokoh": "rb-ayu",
+  "w": 323,
+  "h": 337,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-ayu-wajah-bingung.png"
+ },
+ {
+  "id": "rb-ayu-wajah-lega",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "koki",
+   "lega",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Chef Ayu pemilik resto ekspresi lega (stiker bingkai putih)",
+  "ekspresi": "lega",
+  "tokoh": "rb-ayu",
+  "w": 290,
+  "h": 327,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-ayu-wajah-lega.png"
+ },
+ {
+  "id": "rb-ayu-wajah-kesal",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "koki",
+   "kesal",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Chef Ayu pemilik resto ekspresi kesal (stiker bingkai putih)",
+  "ekspresi": "kesal",
+  "tokoh": "rb-ayu",
+  "w": 285,
+  "h": 327,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-ayu-wajah-kesal.png"
+ },
+ {
+  "id": "rb-ayu-wajah-lelah",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "koki",
+   "lelah",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Chef Ayu pemilik resto ekspresi lelah (stiker bingkai putih)",
+  "ekspresi": "lelah",
+  "tokoh": "rb-ayu",
+  "w": 290,
+  "h": 333,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-ayu-wajah-lelah.png"
+ },
+ {
+  "id": "rb-ayu-wajah-yakin",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "koki",
+   "yakin",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Chef Ayu pemilik resto ekspresi yakin (stiker bingkai putih)",
+  "ekspresi": "yakin",
+  "tokoh": "rb-ayu",
+  "w": 297,
+  "h": 334,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-ayu-wajah-yakin.png"
+ },
+ {
+  "id": "rb-ayu-foto",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto-utama",
+   "potret",
+   "koki"
+  ],
+  "ket": "Foto potret setengah badan Chef Ayu pemilik resto (latar studio abu) untuk koran/polaroid/kartu",
+  "tokoh": "rb-ayu",
+  "w": 768,
+  "h": 1024,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-pendukung/rb-ayu-foto.jpg"
+ },
+ {
+  "id": "rb-sekar-lari-belanja",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "staf-dapur",
+   "resto",
+   "lari",
+   "pasar",
+   "belanja",
+   "buru-buru"
+  ],
+  "ket": "Mbak Sekar staf dapur kartun berlari buru-buru menenteng kantong plastik bawang merah",
+  "pose": "lari-belanja",
+  "tokoh": "rb-sekar",
+  "w": 458,
+  "h": 945,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-sekar-lari-belanja.png",
+  "kepala": {
+   "x": 108,
+   "y": 38,
+   "w": 142,
+   "h": 130
+  }
+ },
+ {
+  "id": "rb-sekar-kupas-nangis",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "staf-dapur",
+   "resto",
+   "kupas",
+   "nangis",
+   "sedih",
+   "bawang"
+  ],
+  "ket": "Mbak Sekar staf dapur kartun mengupas bawang merah sambil menangis",
+  "pose": "kupas-nangis",
+  "tokoh": "rb-sekar",
+  "w": 345,
+  "h": 969,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-sekar-kupas-nangis.png",
+  "kepala": {
+   "x": 63,
+   "y": 12,
+   "w": 150,
+   "h": 198
+  }
+ },
+ {
+  "id": "rb-sekar-bingung",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "staf-dapur",
+   "resto",
+   "bingung",
+   "angkat-bahu",
+   "masalah"
+  ],
+  "ket": "Mbak Sekar staf dapur kartun mengangkat bahu bingung, telapak terbuka",
+  "pose": "bingung",
+  "tokoh": "rb-sekar",
+  "w": 447,
+  "h": 964,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-sekar-bingung.png",
+  "kepala": {
+   "x": 131,
+   "y": 10,
+   "w": 143,
+   "h": 201
+  }
+ },
+ {
+  "id": "rb-sekar-jempol",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "staf-dapur",
+   "resto",
+   "jempol",
+   "senang",
+   "beres",
+   "solusi"
+  ],
+  "ket": "Mbak Sekar staf dapur kartun acungkan jempol tersenyum",
+  "pose": "jempol",
+  "tokoh": "rb-sekar",
+  "w": 383,
+  "h": 971,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-sekar-jempol.png",
+  "kepala": {
+   "x": 90,
+   "y": 11,
+   "w": 156,
+   "h": 198
+  }
+ },
+ {
+  "id": "rb-sekar-wajah-senang",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "staf-dapur",
+   "senang",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Sekar staf dapur ekspresi senang (stiker bingkai putih)",
+  "ekspresi": "senang",
+  "tokoh": "rb-sekar",
+  "w": 286,
+  "h": 329,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-sekar-wajah-senang.png"
+ },
+ {
+  "id": "rb-sekar-wajah-kaget",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "staf-dapur",
+   "kaget",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Sekar staf dapur ekspresi kaget (stiker bingkai putih)",
+  "ekspresi": "kaget",
+  "tokoh": "rb-sekar",
+  "w": 274,
+  "h": 331,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-sekar-wajah-kaget.png"
+ },
+ {
+  "id": "rb-sekar-wajah-panik",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "staf-dapur",
+   "panik",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Sekar staf dapur ekspresi panik (stiker bingkai putih)",
+  "ekspresi": "panik",
+  "tokoh": "rb-sekar",
+  "w": 284,
+  "h": 340,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-sekar-wajah-panik.png"
+ },
+ {
+  "id": "rb-sekar-wajah-bingung",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "staf-dapur",
+   "bingung",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Sekar staf dapur ekspresi bingung (stiker bingkai putih)",
+  "ekspresi": "bingung",
+  "tokoh": "rb-sekar",
+  "w": 308,
+  "h": 331,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-sekar-wajah-bingung.png"
+ },
+ {
+  "id": "rb-sekar-foto",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto-utama",
+   "potret",
+   "staf-dapur"
+  ],
+  "ket": "Foto potret setengah badan Mbak Sekar staf dapur (latar studio abu) untuk koran/polaroid/kartu",
+  "tokoh": "rb-sekar",
+  "w": 768,
+  "h": 1024,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-pendukung/rb-sekar-foto.jpg"
+ },
+ {
+  "id": "rb-wening-wajah-senang",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "kurir",
+   "senang",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Wening kurir Ratu Bawang ekspresi senang (stiker bingkai putih)",
+  "ekspresi": "senang",
+  "tokoh": "rb-wening",
+  "w": 288,
+  "h": 330,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-wening-wajah-senang.png"
+ },
+ {
+  "id": "rb-wening-wajah-kaget",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "kurir",
+   "kaget",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Wening kurir Ratu Bawang ekspresi kaget (stiker bingkai putih)",
+  "ekspresi": "kaget",
+  "tokoh": "rb-wening",
+  "w": 282,
+  "h": 332,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-wening-wajah-kaget.png"
+ },
+ {
+  "id": "rb-wening-wajah-lega",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "kurir",
+   "lega",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Wening kurir Ratu Bawang ekspresi lega (stiker bingkai putih)",
+  "ekspresi": "lega",
+  "tokoh": "rb-wening",
+  "w": 286,
+  "h": 333,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-wening-wajah-lega.png"
+ },
+ {
+  "id": "rb-wening-wajah-yakin",
+  "brand": "ratu-bawang",
+  "jenis": "wajah",
+  "tag": [
+   "kurir",
+   "yakin",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Wening kurir Ratu Bawang ekspresi yakin (stiker bingkai putih)",
+  "ekspresi": "yakin",
+  "tokoh": "rb-wening",
+  "w": 301,
+  "h": 333,
+  "g3": "pabrik/aset/ratu-bawang/wajah/rb-wening-wajah-yakin.png"
+ },
+ {
+  "id": "rb-wening-foto",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto-utama",
+   "potret",
+   "kurir"
+  ],
+  "ket": "Foto potret setengah badan Mbak Wening kurir Ratu Bawang (latar studio abu) untuk koran/polaroid/kartu",
+  "tokoh": "rb-wening",
+  "w": 768,
+  "h": 1024,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-pendukung/rb-wening-foto.jpg"
+ },
+ {
+  "id": "rb-ayu-foto-panik",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "koki",
+   "foto",
+   "panik",
+   "kaget",
+   "masalah"
+  ],
+  "ket": "Chef Ayu foto setengah badan kaget dua tangan di pipi (stiker)",
+  "pose": "foto-panik",
+  "ekspresi": "kaget",
+  "tokoh": "rb-ayu",
+  "w": 798,
+  "h": 1406,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-ayu-foto-panik.png"
+ },
+ {
+  "id": "rb-ayu-foto-nangis",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "koki",
+   "foto",
+   "nangis",
+   "keranjang",
+   "kosong",
+   "habis",
+   "masalah"
+  ],
+  "ket": "Chef Ayu foto setengah badan menangis memegang keranjang bambu kosong (stiker)",
+  "pose": "foto-nangis",
+  "ekspresi": "sedih",
+  "tokoh": "rb-ayu",
+  "w": 999,
+  "h": 1406,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-ayu-foto-nangis.png"
+ },
+ {
+  "id": "rb-ayu-foto-tunjuk",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "koki",
+   "foto",
+   "tunjuk",
+   "ajak",
+   "cta"
+  ],
+  "ket": "Chef Ayu foto setengah badan menunjuk ke atas, tersenyum (stiker)",
+  "pose": "foto-tunjuk",
+  "ekspresi": "yakin",
+  "tokoh": "rb-ayu",
+  "w": 1045,
+  "h": 1387,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-ayu-foto-tunjuk.png"
+ },
+ {
+  "id": "rb-ayu-foto-karung",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "koki",
+   "foto",
+   "karung",
+   "peluk",
+   "solusi",
+   "senang"
+  ],
+  "ket": "Chef Ayu foto setengah badan memeluk karung bawang merah (stiker)",
+  "pose": "foto-karung",
+  "ekspresi": "senang",
+  "tokoh": "rb-ayu",
+  "w": 937,
+  "h": 1406,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-ayu-foto-karung.png"
+ },
+ {
+  "id": "rb-ayu-foto-lega-hp",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "koki",
+   "foto",
+   "hp",
+   "lega",
+   "pesan",
+   "solusi"
+  ],
+  "ket": "Chef Ayu foto setengah badan lega memegang HP, tangan di dada (stiker)",
+  "pose": "foto-lega-hp",
+  "ekspresi": "lega",
+  "tokoh": "rb-ayu",
+  "w": 914,
+  "h": 1405,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-ayu-foto-lega-hp.png"
+ },
+ {
+  "id": "rb-ayu-foto-jempol",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "koki",
+   "foto",
+   "jempol",
+   "senang",
+   "cta"
+  ],
+  "ket": "Chef Ayu foto setengah badan acungkan jempol (stiker)",
+  "pose": "foto-jempol",
+  "ekspresi": "senang",
+  "tokoh": "rb-ayu",
+  "w": 945,
+  "h": 1409,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-ayu-foto-jempol.png"
+ },
+ {
+  "id": "rb-maskot-karung-senang",
+  "brand": "ratu-bawang",
+  "jenis": "maskot",
+  "tag": [
+   "karung",
+   "bawang",
+   "stok",
+   "K0",
+   "K6",
+   "senang"
+  ],
+  "ket": "Maskot karung bawang merah: penuh dan bangga, tangan di pinggang",
+  "ekspresi": "senang",
+  "tokoh": "karung-bawang",
+  "w": 386,
+  "h": 591,
+  "g3": "pabrik/aset/ratu-bawang/maskot/rb-maskot-karung-senang.png"
+ },
+ {
+  "id": "rb-maskot-karung-lelah",
+  "brand": "ratu-bawang",
+  "jenis": "maskot",
+  "tag": [
+   "karung",
+   "bawang",
+   "stok",
+   "K0",
+   "K6",
+   "lelah"
+  ],
+  "ket": "Maskot karung bawang merah: hampir KOSONG, kempis lemas dan sedih",
+  "ekspresi": "lelah",
+  "tokoh": "karung-bawang",
+  "w": 295,
+  "h": 503,
+  "g3": "pabrik/aset/ratu-bawang/maskot/rb-maskot-karung-lelah.png"
+ },
+ {
+  "id": "rb-maskot-karung-kaget",
+  "brand": "ratu-bawang",
+  "jenis": "maskot",
+  "tag": [
+   "karung",
+   "bawang",
+   "stok",
+   "K0",
+   "K6",
+   "kaget"
+  ],
+  "ket": "Maskot karung bawang merah: kaget, tangan di pipi",
+  "ekspresi": "kaget",
+  "tokoh": "karung-bawang",
+  "w": 299,
+  "h": 584,
+  "g3": "pabrik/aset/ratu-bawang/maskot/rb-maskot-karung-kaget.png"
+ },
+ {
+  "id": "rb-maskot-karung-lega",
+  "brand": "ratu-bawang",
+  "jenis": "maskot",
+  "tag": [
+   "karung",
+   "bawang",
+   "stok",
+   "K0",
+   "K6",
+   "lega"
+  ],
+  "ket": "Maskot karung bawang merah: penuh lagi, lega merentangkan tangan",
+  "ekspresi": "lega",
+  "tokoh": "karung-bawang",
+  "w": 485,
+  "h": 594,
+  "g3": "pabrik/aset/ratu-bawang/maskot/rb-maskot-karung-lega.png"
+ },
+ {
+  "id": "rb-bawang-merah",
+  "brand": "ratu-bawang",
+  "jenis": "props",
+  "tag": [
+   "bawang-merah",
+   "bawang",
+   "stok"
+  ],
+  "ket": "Tumpukan bawang merah",
+  "w": 1224,
+  "h": 916,
+  "g3": "pabrik/aset/ratu-bawang/props/rb-bawang-merah.png"
+ },
+ {
+  "id": "rb-bawang-putih",
+  "brand": "ratu-bawang",
+  "jenis": "props",
+  "tag": [
+   "bawang-putih",
+   "bawang"
+  ],
+  "ket": "Bawang putih",
+  "w": 1128,
+  "h": 1006,
+  "g3": "pabrik/aset/ratu-bawang/props/rb-bawang-putih.png"
+ },
+ {
+  "id": "rb-bawang-bombay",
+  "brand": "ratu-bawang",
+  "jenis": "props",
+  "tag": [
+   "bawang-bombay",
+   "bawang"
+  ],
+  "ket": "Bawang bombay utuh dan terbelah",
+  "w": 1209,
+  "h": 1057,
+  "g3": "pabrik/aset/ratu-bawang/props/rb-bawang-bombay.png"
+ },
+ {
+  "id": "rb-karung-bawang",
+  "brand": "ratu-bawang",
+  "jenis": "props",
+  "tag": [
+   "karung",
+   "bawang",
+   "grosir",
+   "stok"
+  ],
+  "ket": "Karung goni penuh bawang merah",
+  "w": 1058,
+  "h": 1213,
+  "g3": "pabrik/aset/ratu-bawang/props/rb-karung-bawang.png"
+ },
+ {
+  "id": "rb-keranjang-bawang",
+  "brand": "ratu-bawang",
+  "jenis": "props",
+  "tag": [
+   "keranjang",
+   "bawang",
+   "ecer"
+  ],
+  "ket": "Keranjang bambu berisi bawang merah dan bawang putih",
+  "w": 1233,
+  "h": 1054,
+  "g3": "pabrik/aset/ratu-bawang/props/rb-keranjang-bawang.png"
+ },
+ {
+  "id": "rb-motor-antar",
+  "brand": "ratu-bawang",
+  "jenis": "props",
+  "tag": [
+   "motor",
+   "antar",
+   "kirim",
+   "ongkir"
+  ],
+  "ket": "Motor skuter merah dengan kotak antar",
+  "w": 393,
+  "h": 406,
+  "g3": "pabrik/aset/ratu-bawang/props/rb-motor-antar.png"
+ },
+ {
+  "id": "rb-nota",
+  "brand": "ratu-bawang",
+  "jenis": "props",
+  "tag": [
+   "nota",
+   "struk",
+   "bayar"
+  ],
+  "ket": "Gulungan nota/struk kosong",
+  "w": 334,
+  "h": 603,
+  "g3": "pabrik/aset/ratu-bawang/props/rb-nota.png"
+ },
+ {
+  "id": "rb-timbangan",
+  "brand": "ratu-bawang",
+  "jenis": "props",
+  "tag": [
+   "timbangan",
+   "bawang",
+   "grosir"
+  ],
+  "ket": "Timbangan merah berisi bawang merah",
+  "w": 893,
+  "h": 1234,
+  "g3": "pabrik/aset/ratu-bawang/props/rb-timbangan.png"
+ },
+ {
+  "id": "rb-tumpuk-nota",
+  "brand": "ratu-bawang",
+  "jenis": "props",
+  "tag": [
+   "nota",
+   "tumpuk",
+   "utang",
+   "manual"
+  ],
+  "ket": "Tumpukan nota kertas berantakan",
+  "w": 425,
+  "h": 489,
+  "g3": "pabrik/aset/ratu-bawang/props/rb-tumpuk-nota.png"
+ },
+ {
+  "id": "rb-latar-dapur-resto",
+  "brand": "ratu-bawang",
+  "jenis": "latar",
+  "tag": [
+   "dapur",
+   "resto",
+   "siang"
+  ],
+  "ket": "Diorama dapur resto Indonesia, lantai tengah kosong",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/ratu-bawang/latar/rb-latar-dapur-resto.jpg"
+ },
+ {
+  "id": "rb-latar-pasar-bawang",
+  "brand": "ratu-bawang",
+  "jenis": "latar",
+  "tag": [
+   "pasar",
+   "bawang",
+   "pagi"
+  ],
+  "ket": "Diorama pasar tradisional lapak bawang pagi, jalan tengah kosong",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/ratu-bawang/latar/rb-latar-pasar-bawang.jpg"
+ },
+ {
+  "id": "rb-latar-gudang-bawang",
+  "brand": "ratu-bawang",
+  "jenis": "latar",
+  "tag": [
+   "gudang",
+   "bawang",
+   "petani",
+   "tangan-pertama"
+  ],
+  "ket": "Diorama gudang pemasok bawang, karung bertumpuk, sawah di luar",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/ratu-bawang/latar/rb-latar-gudang-bawang.jpg"
+ },
+ {
+  "id": "rb-latar-dapur-hotel",
+  "brand": "ratu-bawang",
+  "jenis": "latar",
+  "tag": [
+   "dapur",
+   "hotel",
+   "siang"
+  ],
+  "ket": "Diorama dapur hotel modern stainless, lantai tengah kosong",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/ratu-bawang/latar/rb-latar-dapur-hotel.jpg"
+ },
+ {
+  "id": "rb-logo",
+  "brand": "ratu-bawang",
+  "jenis": "ui",
+  "tag": [
+   "logo"
+  ],
+  "ket": "Logo Ratu Bawang Jogja mendatar (latar ivory #FAF9F5)",
+  "w": 1170,
+  "h": 320,
+  "g3": "pabrik/aset/ratu-bawang/ui/rb-logo.png"
+ },
+ {
+  "id": "rb-logo-ikon",
+  "brand": "ratu-bawang",
+  "jenis": "ui",
+  "tag": [
+   "logo",
+   "ikon",
+   "watermark"
+  ],
+  "ket": "Ikon bawang bermahkota emas Ratu Bawang (latar ivory) untuk watermark",
+  "w": 195,
+  "h": 190,
+  "g3": "pabrik/aset/ratu-bawang/ui/rb-logo-ikon.png"
+ },
+ {
+  "id": "rb-wening-pikul-karung",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "kurir",
+   "antar",
+   "antar",
+   "karung",
+   "jalan",
+   "kirim"
+  ],
+  "ket": "Mbak Wening kurir Ratu Bawang kartun berjalan memikul karung bawang di bahu",
+  "pose": "pikul-karung",
+  "tokoh": "rb-wening",
+  "w": 406,
+  "h": 884,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-wening-pikul-karung.png",
+  "kepala": {
+   "x": 181,
+   "y": 9,
+   "w": 136,
+   "h": 204
+  }
+ },
+ {
+  "id": "rb-wening-serah-karung",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "kurir",
+   "antar",
+   "serah",
+   "antar",
+   "sampai",
+   "senang",
+   "solusi"
+  ],
+  "ket": "Mbak Wening kurir Ratu Bawang kartun menyerahkan karung bawang dengan dua tangan, tersenyum",
+  "pose": "serah-karung",
+  "tokoh": "rb-wening",
+  "w": 285,
+  "h": 899,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-wening-serah-karung.png",
+  "kepala": {
+   "x": 59,
+   "y": 9,
+   "w": 134,
+   "h": 201
+  }
+ },
+ {
+  "id": "rb-wening-cek-hp",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "kurir",
+   "antar",
+   "hp",
+   "pesanan",
+   "cek"
+  ],
+  "ket": "Mbak Wening kurir Ratu Bawang kartun mengecek pesanan di HP",
+  "pose": "cek-hp",
+  "tokoh": "rb-wening",
+  "w": 338,
+  "h": 901,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-wening-cek-hp.png",
+  "kepala": {
+   "x": 68,
+   "y": 10,
+   "w": 143,
+   "h": 205
+  }
+ },
+ {
+  "id": "rb-wening-lambai",
+  "brand": "ratu-bawang",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "kurir",
+   "antar",
+   "lambai",
+   "sapa",
+   "senang"
+  ],
+  "ket": "Mbak Wening kurir Ratu Bawang kartun melambai ceria",
+  "pose": "lambai",
+  "tokoh": "rb-wening",
+  "w": 400,
+  "h": 875,
+  "g3": "pabrik/aset/ratu-bawang/tokoh-badan/rb-wening-lambai.png",
+  "kepala": {
+   "x": 92,
+   "y": 9,
+   "w": 141,
+   "h": 198
+  }
+ }
+]

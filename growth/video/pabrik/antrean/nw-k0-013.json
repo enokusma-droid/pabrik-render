@@ -1,0 +1,169 @@
+{
+ "kode": "nw-k0-013",
+ "brand": "nusawebsite",
+ "konsep": "K0",
+ "judul": "Kenalin, Kak Sari (dan laptop kasir yang menderita)",
+ "caption": "Ramah dan hafal nama pelanggan, tapi data tokonya tersebar di puluhan file. Yang paling menderita? Laptop kasirnya. Tanya lewat WhatsApp di profil. #umkm #tokosembako #aplikasibisnis",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Kenalin, ini Kak Sari.",
+   "primitif": "koran",
+   "opsi": {
+    "koran": "KABAR UMKM",
+    "judul": "Kenalin, ini Kak Sari",
+    "sub": "pemilik toko sembako paling ramah sekampung",
+    "foto": "nw-f-potret"
+   }
+  },
+  {
+   "teks": "Ramah, hafal nama pelanggan, tokonya selalu ramai.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "yakin",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Kak Sari",
+    "stempel": "RAMAH ✓",
+    "prop": "nw-rak-stok"
+   }
+  },
+  {
+   "teks": "Tapi soal data toko, semuanya tersebar di puluhan file.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "SKILL MELAYANI",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "DATA RAPI",
+      "dari": 100,
+      "ke": 6,
+      "kata": "tersebar"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Cari satu catatan stok saja bisa membuka dua belas file berbeda.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "FILE DIBUKA",
+    "ke": 12,
+    "format": "angka",
+    "terbang": true,
+    "prop": "nw-laptop",
+    "pose": "pusing-hp",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Dan kamu tahu siapa yang paling menderita?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa yang paling menderita?",
+    "bayangan": "nw-maskot-laptop-lelah"
+   }
+  },
+  {
+   "teks": "Iya, aku. Laptop kasirnya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "nw-maskot-laptop-panik",
+    "label": "LAPTOP KASIR",
+    "teks": "IYA, AKU."
+   }
+  },
+  {
+   "teks": "Aku kepanasan, memoriku penuh, kadang pingsan saat toko ramai.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "nw-maskot-laptop-lelah",
+    "label": "LAPTOP KASIR",
+    "item": [
+     "KEPANASAN!",
+     "MEMORI PENUH",
+     "PINGSAN"
+    ],
+    "prop": [
+     "nw-mug-kopi"
+    ]
+   }
+  },
+  {
+   "teks": "Sampai akhirnya Kak Sari pakai aplikasi toko berbasis web.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "AKHIRNYA!",
+    "kiri": "nw-maskot-laptop-yakin",
+    "label": "LAPTOP KASIR",
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Stok, penjualan, dan pelanggan ada di satu tempat, bisa dibuka lewat HP.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Toko Kak Sari",
+     "baris": [
+      [
+       "Stok beras",
+       "Gudang depan",
+       "Aman ✓"
+      ],
+      [
+       "Penjualan",
+       "56 transaksi",
+       "Hari ini"
+      ],
+      [
+       "Pelanggan",
+       "Bu Rina, Bu Ani",
+       "Setia"
+      ]
+     ]
+    },
+    "stempel": "SATU TEMPAT",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Aku pun bisa beristirahat dengan tenang.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terima kasih, Kak!",
+    "tag": "ISTIRAHAT TENANG",
+    "maskot": "nw-maskot-laptop-senang",
+    "label": "LAPTOP KASIR"
+   }
+  },
+  {
+   "teks": "Mau aplikasi toko untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

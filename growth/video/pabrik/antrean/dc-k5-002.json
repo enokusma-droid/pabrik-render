@@ -1,0 +1,146 @@
+{
+ "kode": "dc-k5-002",
+ "brand": "dentalcare",
+ "konsep": "K5",
+ "judul": "Detektif: kasus odontogram yang hilang",
+ "caption": "Odontogram pasien hilang lagi saat pasien sudah duduk di kursi. Detektif kami memeriksa tiga tersangka, dan pelakunya ternyata kertas. Pernah mengalami? Mau lihat demo DentalCare, tanya lewat WhatsApp di profil. #klinikgigi #odontogram #DentalCare",
+ "musik": "tegang",
+ "adegan": [
+  {
+   "teks": "Odontogram pasien nomor tiga puluh satu. Hilang. Lagi.",
+   "primitif": "berkas-kasus",
+   "opsi": {
+    "nomor": "Odontogram pasien 031",
+    "gambar": "dc-maskot-odontogram-sedih",
+    "label": "Pasien 031",
+    "stempel": [
+     {
+      "teks": "HILANG",
+      "kata": "hilang"
+     },
+     {
+      "teks": "LAGI.",
+      "kata": "lagi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kasus ketiga minggu ini. Pasien sudah duduk, riwayat giginya belum ketemu.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "KASUS KE-",
+    "jumlah": 3,
+    "sub": "minggu ini",
+    "pita": "PENYELIDIKAN"
+   }
+  },
+  {
+   "teks": "Tersangka pertama, perawat. Alibinya kuat, sedang menyiapkan alat.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "dc-kartun-perawat-papan",
+    "label": "perawat",
+    "catatan": "sibuk\nsiapkan alat",
+    "stempel": [
+     {
+      "teks": "ALIBI KUAT ✓",
+      "kata": "alibinya"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka kedua, map rekam medis. Isinya tercampur dengan pasien lain.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "dc-maskot-map-kaget",
+    "label": "map rekam medis",
+    "stempel": [
+     {
+      "teks": "TERCAMPUR",
+      "kata": "tercampur"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka ketiga, kardus arsip. Penuh, berdebu, tanpa label.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "dc-prop-kardus-berkas",
+    "label": "kardus arsip",
+    "stempel": [
+     {
+      "teks": "BERDEBU",
+      "kata": "berdebu"
+     },
+     {
+      "teks": "TANPA LABEL",
+      "kata": "label"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Semua petunjuk mengarah ke satu pelaku.",
+   "primitif": "benang",
+   "opsi": {
+    "gambar": [
+     "dc-kartun-perawat-papan",
+     "dc-maskot-map-kaget",
+     "dc-prop-kardus-berkas"
+    ]
+   }
+  },
+  {
+   "teks": "Pelakunya, odontogram yang masih digambar di kertas.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "dc-maskot-odontogram-kaget",
+    "label": "PELAKU",
+    "stempel": {
+     "teks": "KERTAS MANUAL",
+     "kata": "kertas"
+    }
+   }
+  },
+  {
+   "teks": "Vonisnya, pindah ke DentalCare. Odontogram tersimpan digital, dibuka dalam hitungan detik.",
+   "primitif": "vonis",
+   "opsi": {
+    "ui": "dc-ui-odontogram-rapi",
+    "judul": "Odontogram",
+    "cari": "pasien 031",
+    "detik": 3,
+    "ok": "KETEMU ✓"
+   }
+  },
+  {
+   "teks": "Kasus ditutup. Riwayat gigi pasien selalu siap.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Selalu siap!",
+    "tag": "KASUS DITUTUP",
+    "maskot": "dc-maskot-odontogram-senang",
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "presentasi",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

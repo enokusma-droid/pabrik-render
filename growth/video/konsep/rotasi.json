@@ -1,0 +1,904 @@
+{
+ "aturan": "skill video-kolase-cerita bagian rotasi: konsep sama tidak boleh dipakai 2 video terakhir brand yang sama",
+ "riwayat": [
+  {
+   "tanggal": "2026-10-21",
+   "brand": "dentalcare",
+   "konsep": "K0",
+   "judul": "Map Rekam Medis (roasting + twist)",
+   "file": "hasil/video-uji/dentalcare-cerita-map-rekam-medis-musik_hyperframes.mp4"
+  },
+  {
+   "tanggal": "2026-10-21",
+   "brand": "dentalcare",
+   "konsep": "K1",
+   "judul": "Sehari di klinik kertas",
+   "file": "hasil/video-uji/konsep/K1-sehari-klinik_hyperframes.mp4",
+   "catatan": "video contoh/uji, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-21",
+   "brand": "nusawebsite",
+   "konsep": "K2",
+   "judul": "Dulu vs Sekarang catat pesanan",
+   "file": "hasil/video-uji/konsep/K2-dulu-sekarang_hyperframes.mp4",
+   "catatan": "video contoh/uji, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-21",
+   "brand": "dentalcare",
+   "konsep": "K3",
+   "judul": "Berita: resepsionis 3 hari tidak pulang",
+   "file": "hasil/video-uji/konsep/K3-berita_hyperframes.mp4",
+   "catatan": "video contoh/uji, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-21",
+   "brand": "nusawebsite",
+   "konsep": "K4",
+   "judul": "4 tipe pemilik bisnis",
+   "file": "hasil/video-uji/konsep/K4-tipe_hyperframes.mp4",
+   "catatan": "video contoh/uji, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-21",
+   "brand": "dentalcare",
+   "konsep": "K5",
+   "judul": "Detektif berkas 0412",
+   "file": "hasil/video-uji/konsep/K5-detektif_hyperframes.mp4",
+   "catatan": "video contoh/uji, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-21",
+   "brand": "nusawebsite",
+   "konsep": "K6",
+   "judul": "Surat terbuka grup WA pesanan",
+   "file": "hasil/video-uji/konsep/K6-surat-grup-wa_hyperframes.mp4",
+   "catatan": "video contoh/uji, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-21",
+   "brand": "dentalcare",
+   "konsep": "K7",
+   "judul": "Tutorial bikin klinik kacau",
+   "file": "hasil/video-uji/konsep/K7-tutorial-salah_hyperframes.mp4",
+   "catatan": "video contoh/uji, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-21",
+   "brand": "nusawebsite",
+   "konsep": "K8",
+   "judul": "Horor laptop kasir mati",
+   "file": "hasil/video-uji/konsep/K8-horor-terlambat_hyperframes.mp4",
+   "catatan": "video contoh/uji, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-21",
+   "brand": "dentalcare",
+   "konsep": "K5",
+   "judul": "Detektif: kasus pasien kontrol yang tidak datang",
+   "kode": "dc-k5-uji01",
+   "file": "g3:konten/pabrik/hasil/dc-k5-uji01.mp4",
+   "catatan": "uji pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-21",
+   "brand": "nusawebsite",
+   "konsep": "K4",
+   "judul": "4 tipe pemilik usaha soal stok barang",
+   "kode": "nw-k4-uji01",
+   "file": "g3:konten/pabrik/hasil/nw-k4-uji01.mp4",
+   "catatan": "uji pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-21",
+   "brand": "dentalcare",
+   "konsep": "K7",
+   "judul": "Tutorial: cara bikin pasien kabur dalam 4 langkah",
+   "kode": "dc-k7-uji01",
+   "file": "g3:konten/pabrik/hasil/dc-k7-uji01.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K7",
+   "judul": "Tutorial: cara bikin pasien kabur dalam 4 langkah",
+   "kode": "dc-k7-uji01-r2",
+   "file": "g3:konten/pabrik/hasil/dc-k7-uji01-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K0",
+   "judul": "Kenalin, drg. Sinta (dan lemari arsip yang menderita)",
+   "kode": "dc-k0-004",
+   "file": "g3:konten/pabrik/hasil/dc-k0-004.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K1",
+   "judul": "Sehari di klinik: antrean dobel sampai pasien pulang",
+   "kode": "dc-k1-001",
+   "file": "g3:konten/pabrik/hasil/dc-k1-001.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K4",
+   "judul": "4 tipe klinik soal catatan obat",
+   "kode": "dc-k4-005",
+   "file": "g3:konten/pabrik/hasil/dc-k4-005.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K5",
+   "judul": "Detektif: kasus odontogram yang hilang",
+   "kode": "dc-k5-002",
+   "file": "g3:konten/pabrik/hasil/dc-k5-002.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K6",
+   "judul": "Surat terbuka dari kalender dinding ruang praktik",
+   "kode": "dc-k6-003",
+   "file": "g3:konten/pabrik/hasil/dc-k6-003.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K1",
+   "judul": "Sehari jadi pemilik toko online tanpa sistem",
+   "kode": "nw-k1-001",
+   "file": "g3:konten/pabrik/hasil/nw-k1-001.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K2",
+   "judul": "Dulu vs sekarang: mengingat pelanggan setia",
+   "kode": "nw-k2-005",
+   "file": "g3:konten/pabrik/hasil/nw-k2-005.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K5",
+   "judul": "Detektif: kasus pesanan yang belum dikirim",
+   "kode": "nw-k5-003",
+   "file": "g3:konten/pabrik/hasil/nw-k5-003.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K6",
+   "judul": "Surat terbuka dari kalkulator di meja kasir",
+   "kode": "nw-k6-004",
+   "file": "g3:konten/pabrik/hasil/nw-k6-004.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K7",
+   "judul": "Tutorial: cara bikin laporan akhir bulan kacau",
+   "kode": "nw-k7-002",
+   "file": "g3:konten/pabrik/hasil/nw-k7-002.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K1",
+   "judul": "Sehari di meja pendaftaran klinik",
+   "kode": "dc-k1-007",
+   "file": "g3:konten/pabrik/hasil/dc-k1-007.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K4",
+   "judul": "4 tipe klinik soal catatan obat",
+   "kode": "dc-k4-005-r2",
+   "file": "g3:konten/pabrik/hasil/dc-k4-005-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K5",
+   "judul": "Detektif: kasus nomor HP pasien yang salah",
+   "kode": "dc-k5-009",
+   "file": "g3:konten/pabrik/hasil/dc-k5-009.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K6",
+   "judul": "Surat terbuka dari nota tagihan tulis tangan",
+   "kode": "dc-k6-010",
+   "file": "g3:konten/pabrik/hasil/dc-k6-010.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K7",
+   "judul": "Tutorial: cara bikin dokter lembur setiap malam",
+   "kode": "dc-k7-006",
+   "file": "g3:konten/pabrik/hasil/dc-k7-006.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K0",
+   "judul": "Kenalin, Mbak Rani (dan buku pesanan yang menderita)",
+   "kode": "nw-k0-007",
+   "file": "g3:konten/pabrik/hasil/nw-k0-007.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K1",
+   "judul": "Sehari mengurus gudang tanpa aplikasi stok",
+   "kode": "nw-k1-008",
+   "file": "g3:konten/pabrik/hasil/nw-k1-008.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K2",
+   "judul": "Dulu vs sekarang: mengingat pelanggan setia",
+   "kode": "nw-k2-005-r2",
+   "file": "g3:konten/pabrik/hasil/nw-k2-005-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K4",
+   "judul": "4 tipe pemilik toko soal membalas chat pelanggan",
+   "kode": "nw-k4-006",
+   "file": "g3:konten/pabrik/hasil/nw-k4-006.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K7",
+   "judul": "Tutorial: cara bikin pelanggan tokomu kabur",
+   "kode": "nw-k7-009",
+   "file": "g3:konten/pabrik/hasil/nw-k7-009.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K0",
+   "judul": "Kenalin, drg. Sinta (dan map rekam medis yang menderita)",
+   "kode": "dc-k0-011",
+   "file": "g3:konten/pabrik/hasil/dc-k0-011.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K4",
+   "judul": "4 tipe staf klinik soal jam pulang",
+   "kode": "dc-k4-012",
+   "file": "g3:konten/pabrik/hasil/dc-k4-012.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K6",
+   "judul": "Surat terbuka dari nota tagihan tulis tangan",
+   "kode": "dc-k6-010-r2",
+   "file": "g3:konten/pabrik/hasil/dc-k6-010-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K7",
+   "judul": "Tutorial: cara bikin klinikmu sulit ditemukan pasien baru",
+   "kode": "dc-k7-013",
+   "file": "g3:konten/pabrik/hasil/dc-k7-013.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K8",
+   "judul": "Horor tengah malam di ruang arsip klinik",
+   "kode": "dc-k8-008",
+   "file": "g3:konten/pabrik/hasil/dc-k8-008.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K0",
+   "judul": "Kenalin, Kak Sari (dan laptop kasir yang menderita)",
+   "kode": "nw-k0-013",
+   "file": "g3:konten/pabrik/hasil/nw-k0-013.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K3",
+   "judul": "Berita: laundry kehilangan nota pelanggan lagi",
+   "kode": "nw-k3-011",
+   "file": "g3:konten/pabrik/hasil/nw-k3-011.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K4",
+   "judul": "4 tipe pemilik toko saat membuka pre-order",
+   "kode": "nw-k4-014",
+   "file": "g3:konten/pabrik/hasil/nw-k4-014.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K5",
+   "judul": "Detektif: kasus katering yang selalu terlambat",
+   "kode": "nw-k5-010",
+   "file": "g3:konten/pabrik/hasil/nw-k5-010.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K6",
+   "judul": "Surat terbuka dari file Excel absensi karyawan",
+   "kode": "nw-k6-012",
+   "file": "g3:konten/pabrik/hasil/nw-k6-012.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K1",
+   "judul": "Sehari: dokter lupa tindakan terakhir pasien",
+   "kode": "dc-k1-014",
+   "file": "g3:konten/pabrik/hasil/dc-k1-014.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K2",
+   "judul": "Dulu vs sekarang: menyiapkan jadwal pasien besok",
+   "kode": "dc-k2-015",
+   "file": "g3:konten/pabrik/hasil/dc-k2-015.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K5",
+   "judul": "Detektif: kasus pasien yang datang di hari yang salah",
+   "kode": "dc-k5-016",
+   "file": "g3:konten/pabrik/hasil/dc-k5-016.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K6",
+   "judul": "Surat terbuka dari kursi dental",
+   "kode": "dc-k6-017",
+   "file": "g3:konten/pabrik/hasil/dc-k6-017.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K7",
+   "judul": "Tutorial: cara bikin klinikmu sulit ditemukan pasien baru",
+   "kode": "dc-k7-013-r2",
+   "file": "g3:konten/pabrik/hasil/dc-k7-013-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K1",
+   "judul": "Sehari mengurus reseller tanpa aplikasi",
+   "kode": "nw-k1-016",
+   "file": "g3:konten/pabrik/hasil/nw-k1-016.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K3",
+   "judul": "Berita: laundry kehilangan nota pelanggan lagi",
+   "kode": "nw-k3-011-r2",
+   "file": "g3:konten/pabrik/hasil/nw-k3-011-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K5",
+   "judul": "Detektif: kasus susu kafe yang selalu habis",
+   "kode": "nw-k5-018",
+   "file": "g3:konten/pabrik/hasil/nw-k5-018.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K6",
+   "judul": "Surat terbuka dari buku booking salon",
+   "kode": "nw-k6-019",
+   "file": "g3:konten/pabrik/hasil/nw-k6-019.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K7",
+   "judul": "Tutorial: cara bikin jadwal shift karyawan kacau",
+   "kode": "nw-k7-017",
+   "file": "g3:konten/pabrik/hasil/nw-k7-017.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K0",
+   "judul": "Kenalin, drg. Sinta (dan buku antrean yang menderita)",
+   "kode": "dc-k0-020",
+   "file": "g3:konten/pabrik/hasil/dc-k0-020.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K3",
+   "judul": "Berita: ruang arsip klinik gigi sudah tidak muat",
+   "kode": "dc-k3-019",
+   "file": "g3:konten/pabrik/hasil/dc-k3-019.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K4",
+   "judul": "4 tipe pasien soal jadwal kontrol",
+   "kode": "dc-k4-018",
+   "file": "g3:konten/pabrik/hasil/dc-k4-018.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K6",
+   "judul": "Surat terbuka dari kursi dental",
+   "kode": "dc-k6-017-r2",
+   "file": "g3:konten/pabrik/hasil/dc-k6-017-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K7",
+   "judul": "Tutorial: cara bikin resepsionis baru bingung",
+   "kode": "dc-k7-021",
+   "file": "g3:konten/pabrik/hasil/dc-k7-021.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K0",
+   "judul": "Kenalin, Kak Ayu (dan nota pesanan bunga yang menderita)",
+   "kode": "nw-k0-020",
+   "file": "g3:konten/pabrik/hasil/nw-k0-020.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K4",
+   "judul": "4 tipe pemilik toko saat pelanggan komplain",
+   "kode": "nw-k4-021",
+   "file": "g3:konten/pabrik/hasil/nw-k4-021.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K5",
+   "judul": "Detektif: kasus meja pesanan yang salah ukuran",
+   "kode": "nw-k5-023",
+   "file": "g3:konten/pabrik/hasil/nw-k5-023.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K7",
+   "judul": "Tutorial: cara bikin website tokomu dicurigai pembeli",
+   "kode": "nw-k7-022",
+   "file": "g3:konten/pabrik/hasil/nw-k7-022.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K8",
+   "judul": "Horor H-2 lebaran: HP berisi semua pesanan mati",
+   "kode": "nw-k8-015",
+   "file": "g3:konten/pabrik/hasil/nw-k8-015.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K0",
+   "judul": "Kenalin, drg. Sinta (dan odontogram kertas yang menderita)",
+   "kode": "dc-k0-024",
+   "file": "g3:konten/pabrik/hasil/dc-k0-024.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K1",
+   "judul": "Sehari: catatan resep tulis tangan",
+   "kode": "dc-k1-025",
+   "file": "g3:konten/pabrik/hasil/dc-k1-025.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K5",
+   "judul": "Detektif: kasus kartu berobat yang tertinggal",
+   "kode": "dc-k5-022",
+   "file": "g3:konten/pabrik/hasil/dc-k5-022.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K6",
+   "judul": "Surat terbuka dari tumpukan rekap bulanan",
+   "kode": "dc-k6-026",
+   "file": "g3:konten/pabrik/hasil/dc-k6-026.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K8",
+   "judul": "Horor malam hujan: buku jadwal besok hilang",
+   "kode": "dc-k8-023",
+   "file": "g3:konten/pabrik/hasil/dc-k8-023.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K0",
+   "judul": "Kenalin, Kak Dewi (dan grup WA pesanan yang menderita)",
+   "kode": "nw-k0-025",
+   "file": "g3:konten/pabrik/hasil/nw-k0-025.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K1",
+   "judul": "Sehari mengurus usaha percetakan",
+   "kode": "nw-k1-026",
+   "file": "g3:konten/pabrik/hasil/nw-k1-026.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K2",
+   "judul": "Dulu vs sekarang: membuat invoice pelanggan grosir",
+   "kode": "nw-k2-024",
+   "file": "g3:konten/pabrik/hasil/nw-k2-024.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K4",
+   "judul": "4 tipe pemilik usaha saat ada pesanan besar mendadak",
+   "kode": "nw-k4-027",
+   "file": "g3:konten/pabrik/hasil/nw-k4-027.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K6",
+   "judul": "Surat terbuka dari HP toko yang memorinya penuh",
+   "kode": "nw-k6-028",
+   "file": "g3:konten/pabrik/hasil/nw-k6-028.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K2",
+   "judul": "Dulu vs sekarang: pasien anak kontrol gigi",
+   "kode": "dc-k2-028",
+   "file": "g3:konten/pabrik/hasil/dc-k2-028.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K4",
+   "judul": "4 tipe klinik saat dokternya cuti",
+   "kode": "dc-k4-027",
+   "file": "g3:konten/pabrik/hasil/dc-k4-027.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K5",
+   "judul": "Detektif: kasus satu pasien dengan dua berkas",
+   "kode": "dc-k5-030",
+   "file": "g3:konten/pabrik/hasil/dc-k5-030.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K7",
+   "judul": "Tutorial: cara bikin pasien lupa jadwal kontrol",
+   "kode": "dc-k7-029",
+   "file": "g3:konten/pabrik/hasil/dc-k7-029.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K3",
+   "judul": "Berita: toko oleh-oleh kewalahan pesanan musim liburan",
+   "kode": "nw-k3-029",
+   "file": "g3:konten/pabrik/hasil/nw-k3-029.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K7",
+   "judul": "Tutorial: cara bikin karyawan baru bingung di toko",
+   "kode": "nw-k7-030",
+   "file": "g3:konten/pabrik/hasil/nw-k7-030.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K4",
+   "judul": "4 tipe klinik saat dokternya libur",
+   "kode": "dc-k4-027-r2",
+   "file": "g3:konten/pabrik/hasil/dc-k4-027-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K3",
+   "judul": "Berita: toko oleh-oleh kewalahan pesanan musim liburan",
+   "kode": "nw-k3-029-r2",
+   "file": "g3:konten/pabrik/hasil/nw-k3-029-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K0",
+   "judul": "Mbak Rina hafal tiga ratus wajah pasien, tapi bukan jam janjinya",
+   "kode": "dc-k0-031",
+   "file": "g3:konten/pabrik/hasil/dc-k0-031.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K1",
+   "judul": "Bu Wati tertidur di kursi dental menunggu satu map",
+   "kode": "dc-k1-032",
+   "file": "g3:konten/pabrik/hasil/dc-k1-032.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K8",
+   "judul": "Byur! Gelas kumur tumpah ke map riwayat pasien",
+   "kode": "dc-k8-033",
+   "file": "g3:konten/pabrik/hasil/dc-k8-033.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K6",
+   "judul": "Surat dari buku pesanan kedai kopi Mbak Laras",
+   "kode": "nw-k6-031",
+   "file": "g3:konten/pabrik/hasil/nw-k6-031.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K5",
+   "judul": "Kemeja hijau terakhir yang terjual dua kali",
+   "kode": "nw-k5-032",
+   "file": "g3:konten/pabrik/hasil/nw-k5-032.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K1",
+   "judul": "Bu Wati tertidur di kursi dental menunggu satu map",
+   "kode": "dc-k1-032-r2",
+   "file": "g3:konten/pabrik/hasil/dc-k1-032-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "ratu-bawang",
+   "konsep": "K0",
+   "judul": "Karung bawang yang selalu kosong di dapur Chef Ayu",
+   "kode": "rb-k0-001",
+   "file": "g3:konten/pabrik/hasil/rb-k0-001.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "ratu-bawang",
+   "konsep": "K1",
+   "judul": "Sehari Chef Ayu: butuh delapan kilo, disuruh ambil lima puluh",
+   "kode": "rb-k1-003",
+   "file": "g3:konten/pabrik/hasil/rb-k1-003.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "ratu-bawang",
+   "konsep": "K5",
+   "judul": "Kasus bawang yang sudah lunas tapi jadi buron",
+   "kode": "rb-k5-002",
+   "file": "g3:konten/pabrik/hasil/rb-k5-002.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "ratu-bawang",
+   "konsep": "K1",
+   "judul": "Sehari Chef Ayu: butuh delapan kilo, disuruh ambil lima puluh",
+   "kode": "rb-k1-003-r2",
+   "file": "g3:konten/pabrik/hasil/rb-k1-003-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "ratu-bawang",
+   "konsep": "K5",
+   "judul": "Kasus bawang yang sudah lunas tapi jadi buron",
+   "kode": "rb-k5-002-r2",
+   "file": "g3:konten/pabrik/hasil/rb-k5-002-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "dentalcare",
+   "konsep": "K6",
+   "judul": "Surat dari lembar odontogram yang disalin sambil menguap",
+   "kode": "dc-k6-036",
+   "file": "g3:konten/pabrik/hasil/dc-k6-036.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K0",
+   "judul": "Kue Sari tidak pernah miring, notanya lain cerita",
+   "kode": "nw-k0-033",
+   "file": "g3:konten/pabrik/hasil/nw-k0-033.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K0",
+   "judul": "Dua rombongan, satu meja pojok, satu buku reservasi yang ketetesan gula aren",
+   "kode": "nw-k0-044",
+   "file": "g3:konten/pabrik/hasil/nw-k0-044.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K3",
+   "judul": "Berita: tiga pelanggan setia membelot demi kopi susu",
+   "kode": "nw-k3-039",
+   "file": "g3:konten/pabrik/hasil/nw-k3-039.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K0",
+   "judul": "Dua rombongan, satu meja pojok, satu buku reservasi yang ketetesan gula aren",
+   "kode": "nw-k0-044-r2",
+   "file": "g3:konten/pabrik/hasil/nw-k0-044-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K3",
+   "judul": "Berita: tiga pelanggan setia membelot demi kopi susu",
+   "kode": "nw-k3-039-r2",
+   "file": "g3:konten/pabrik/hasil/nw-k3-039-r2.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K3",
+   "judul": "Investigasi: dua nota nomor 17 di laundry Sari",
+   "kode": "nw-k3-048",
+   "file": "g3:konten/pabrik/hasil/nw-k3-048.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K7",
+   "judul": "Tutorial salah: cara bikin kaos arisan satu RT tidak pas",
+   "kode": "nw-k7-040",
+   "file": "g3:konten/pabrik/hasil/nw-k7-040.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  },
+  {
+   "tanggal": "2026-10-22",
+   "brand": "nusawebsite",
+   "konsep": "K7",
+   "judul": "Resep pre-order kopi bubuk paling kacau ala kedai Laras",
+   "kode": "nw-k7-051",
+   "file": "g3:konten/pabrik/hasil/nw-k7-051.mp4",
+   "catatan": "pabrik reels, belum terbit"
+  }
+ ]
+}

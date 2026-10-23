@@ -1,0 +1,117 @@
+{
+ "kode": "dc-k8-008",
+ "brand": "dentalcare",
+ "konsep": "K8",
+ "judul": "Horor tengah malam di ruang arsip klinik",
+ "caption": "Malam itu ruang arsip klinik terasa seram. Berkas pasien hilang, laci kosong, lalu sesuatu jatuh dari atas lemari. Sebelum terlambat, simpan data pasien dengan aman. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #rekammedis #DentalCare",
+ "musik": "horor",
+ "adegan": [
+  {
+   "teks": "Malam itu, klinik sudah sepi. Lampu ruang arsip berkedip sendiri tanpa sebab.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "KLINIK SEPI...",
+     "LAMPU BERKEDIP"
+    ],
+    "gambar": "dc-prop-lemari-arsip"
+   }
+  },
+  {
+   "teks": "Dokter Sinta mencari rekam medis pasien untuk jadwal besok pagi.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "CARI REKAM MEDIS",
+     "UNTUK BESOK"
+    ],
+    "pose": "bawa-berkas",
+    "wajah": [
+     "mikir",
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Laci dibuka pelan pelan. Kosong melompong. Berkasnya tidak ada.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "LACI DIBUKA...",
+     "KOSONG."
+    ],
+    "gambar": "dc-maskot-lemari-arsip-panik"
+   }
+  },
+  {
+   "teks": "Tiba tiba, sesuatu jatuh dari atas lemari!",
+   "primitif": "kejut",
+   "opsi": {
+    "subjek": "um-kucing-hitam",
+    "teks": "...cuma kucing",
+    "stempel": "MEONG!"
+   }
+  },
+  {
+   "teks": "Ternyata berkasnya terselip di kardus bekas, basah kena hujan semalam.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "TERSELIP",
+     "BASAH KENA HUJAN"
+    ],
+    "gambar": "dc-prop-kardus-berkas"
+   }
+  },
+  {
+   "teks": "Sebelum terlambat, dokter Sinta memindahkan data pasien ke DentalCare.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "pose": "sorak",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Rekam medis tersimpan aman, dicari cukup dengan mengetik nama pasien.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-pasien-daftar-rapi",
+      "judul": "Data Pasien"
+     },
+     {
+      "ui": "dc-ui-soap-rapi",
+      "judul": "Rekam Medis"
+     }
+    ],
+    "stempel": "AMAN ✓"
+   }
+  },
+  {
+   "teks": "Malam berikutnya, klinik tetap sepi. Tapi dokter Sinta tidur nyenyak.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Tidur nyenyak",
+    "tag": "TIDAK SERAM LAGI",
+    "pose": "yakin",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

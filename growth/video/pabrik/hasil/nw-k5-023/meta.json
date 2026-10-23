@@ -1,0 +1,28 @@
+{
+ "kode": "nw-k5-023",
+ "brand": "nusawebsite",
+ "konsep": "K5",
+ "judul": "Detektif: kasus meja pesanan yang salah ukuran",
+ "durasi": 45.37,
+ "LUFS": -14.2,
+ "TP": -1.5,
+ "cocok_vo_%": 100,
+ "cocok_ketat_%": 96,
+ "transkrip_15dtk": "Meja pesanan Burina, ukurannya salah. Lagi, ini salah ukur kedua bulan ini. Penyelidikan dimulai. Tersangka pertama, tukang kayu. Alibinya kuat, dia mengikuti catatan. Tersangka kedua,",
+ "lulus_qc": true,
+ "musik": "tegang",
+ "g3": "konten/pabrik/hasil/nw-k5-023.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k5-023.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T03:35+07:00",
+ "catatan_bangun": [
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-tunjuk",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-jalan-berkas",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-kaca-pembesar"
+ ],
+ "directus_id": "8b7f70c3-5193-4015-8af8-a6ce2cc5c64f",
+ "directus_url": "https://directus.nusawebsite.com/assets/8b7f70c3-5193-4015-8af8-a6ce2cc5c64f",
+ "directus_poster_id": "bb807482-26b5-46c6-9490-18452a813210",
+ "directus_poster_url": "https://directus.nusawebsite.com/assets/bb807482-26b5-46c6-9490-18452a813210"
+}

@@ -1,0 +1,31 @@
+{
+ "kode": "nw-k3-039-r2",
+ "brand": "nusawebsite",
+ "konsep": "K3",
+ "judul": "Berita: tiga pelanggan setia membelot demi kopi susu",
+ "durasi": 45.43,
+ "LUFS": -14.2,
+ "TP": -1.4,
+ "cocok_vo_%": 100,
+ "cocok_ketat_%": 97,
+ "transkrip_15dtk": "Tiga pelanggan setiap kedai laras membelot ke kedai sebelah, demi kopi susu. Mega melaporkan, susu habis, kopi susu mereka ditolak. Laras pemilik kedai menghitung susu dari pesanan di buku. Sisa lima liter.",
+ "lulus_qc": true,
+ "musik": "tegang",
+ "g3": "konten/pabrik/hasil/nw-k3-039-r2.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k3-039-r2.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/mafiaterkakap-prog/pabrik-render/actions/runs/39777546418",
+ "waktu": "2026-10-22T19:44+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "81f69e9c90f069e8",
+  "81b69e9c90f069e8",
+  "81969e9c90f068e8"
+ ],
+ "mirip_awal": [
+  {
+   "kode": "nw-k3-039",
+   "jarak": 0.7
+  }
+ ]
+}

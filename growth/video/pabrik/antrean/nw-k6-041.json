@@ -1,0 +1,178 @@
+{
+ "kode": "nw-k6-041",
+ "brand": "nusawebsite",
+ "konsep": "K6",
+ "pembuka": "k6-pengakuan",
+ "pemeran": {
+  "utama": "nw-laras",
+  "pendukung": []
+ },
+ "judul": "Pengakuan nota pesanan antar: tiga kali dihitung, tiga angka beda",
+ "caption": "Nota pesanan antar kedai kopi Laras dihitung tiga kali, hasilnya tiga angka beda. Kantor sebelah protes. Surat pengakuan dari nota untuk Mbak Laras. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "adegan": [
+  {
+   "teks": "Delapan puluh empat, delapan puluh enam, sembilan puluh satu. Itu ulahku.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "judul": "Pengakuanku",
+    "untuk": "Laras, bosku",
+    "dari": "nota pesanan antar",
+    "maskot": "nw-maskot-nota-kaget"
+   }
+  },
+  {
+   "teks": "Aku nota antar kedaimu, Laras, ke kantor sebelah.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "1 gelas antar",
+     "1 coretan di aku"
+    ],
+    "pose": "catat",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Pesanan batal tak dicoret, coretan baru menimpa yang lama.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "batal tak dicoret",
+     "coretan saling timpa"
+    ],
+    "gambar": "nw-maskot-nota-kaget",
+    "stempel": "NUMPUK"
+   }
+  },
+  {
+   "teks": "Akhir bulan, kamu menghitungku sampai larut.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Akhir bulan",
+     "hitung sampai larut"
+    ],
+    "pose": "catat",
+    "wajah": [
+     "lelah"
+    ],
+    "stempel": "JAM 01.00"
+   }
+  },
+  {
+   "teks": "Tiga hitungan, tiga hasil. Kamu bangga melingkari yang tengah.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "84, 86, 91",
+     "dilingkari: 86"
+    ],
+    "pose": "catat",
+    "wajah": [
+     "yakin",
+     "senang"
+    ],
+    "stempel": "ADIL?"
+   }
+  },
+  {
+   "teks": "Kantor sebelah protes, catatan mereka delapan puluh dua.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Catatan kantor: 82",
+     "Nota Laras: 86"
+    ],
+    "pose": "cemas-hp",
+    "wajah": [
+     "kaget"
+    ],
+    "stempel": "PROTES"
+   }
+  },
+  {
+   "teks": "Kamu cocokkan aku dengan chat kantor. Ketahuan: empat batal masih kuhitung.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "cocokkan dengan chat",
+     "4 batal tak dicoret"
+    ],
+    "gambar": "nw-maskot-nota-kaget",
+    "stempel": "KETAHUAN"
+   }
+  },
+  {
+   "teks": "Sejak protes itu, kamu pakai aplikasi. Batal tinggal ditandai.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Antar Kantor Sebelah",
+     "lencana": "Nov: 79",
+     "baris": [
+      [
+       "Minggu 1",
+       "21 gelas",
+       "Cocok"
+      ],
+      [
+       "Minggu 2",
+       "20 gelas jadi",
+       "2 batal"
+      ],
+      [
+       "Minggu 3",
+       "19 gelas",
+       "Cocok"
+      ],
+      [
+       "Minggu 4",
+       "19 gelas",
+       "Cocok"
+      ]
+     ]
+    },
+    "stempel": "BATAL JELAS",
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "November cocok dengan catatan kantor. Aku pensiun.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam satu angka,",
+    "ttd": "Nota pesanan antar",
+    "maskot": "nw-maskot-nota-yakin",
+    "stempel": "COCOK"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "baki",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.4,
+  "catatan": "Alur nyambung (86-4=82; aplikasi 21+20+19+19=79). Masalah: A2 kalimat kaku, ganti 'Aku nota pesanan antar kedaimu ke kantor sebelah, Laras.' A3 'coretan menimpa' kabur, perjelas 'angka baru ditulis di atas angka lama' agar selisih 84-91 masuk akal. A9 tampilkan 'Kantor: 79 = Aplikasi: 79' supaya 'cocok' terbukti. A1 tambah teks '3 hitungan, 3 hasil' agar angka pembuka langsung dipahami.",
+  "naskah_hash": "bd50eb8c5c0f",
+  "waktu": "2026-10-22T12:35"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "kode": "nw-k0-007",
+ "brand": "nusawebsite",
+ "konsep": "K0",
+ "judul": "Kenalin, Mbak Rani (dan buku pesanan yang menderita)",
+ "durasi": 38.27,
+ "LUFS": -14.1,
+ "TP": -1.6,
+ "cocok_vo_%": 97,
+ "cocok_ketat_%": 86,
+ "transkrip_15dtk": "Kenalin, ini mbak Rani. Kuenya enak, pelangganya setia, dan pesanan dateng hampir setiap hari. Tapi soal mencatat pesanan, skillnya langsung anjulah. Satu pesanan ulang tahun bisa dicari setengah jam ditumpukan cat. Dan kamu tahu siapa yang paling...",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/nw-k0-007.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k0-007.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T01:39+07:00",
+ "catatan_bangun": [
+  "pose \"presentasi\" untuk nw-f tidak ada → pakai nw-f-jempol"
+ ],
+ "directus_id": "9461ddc8-b1f9-4226-8988-d18cb6310584",
+ "directus_url": "https://directus.nusawebsite.com/assets/9461ddc8-b1f9-4226-8988-d18cb6310584",
+ "directus_poster_id": "c46db58e-a4d5-48bc-8eb0-5553ac1e55fb",
+ "directus_poster_url": "https://directus.nusawebsite.com/assets/c46db58e-a4d5-48bc-8eb0-5553ac1e55fb"
+}

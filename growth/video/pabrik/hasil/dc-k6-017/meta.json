@@ -1,0 +1,20 @@
+{
+ "kode": "dc-k6-017",
+ "brand": "dentalcare",
+ "konsep": "K6",
+ "judul": "Surat terbuka dari kursi dental",
+ "durasi": 42.2,
+ "LUFS": -14.0,
+ "TP": -1.2,
+ "cocok_vo_%": 100,
+ "cocok_ketat_%": 97,
+ "transkrip_15dtk": "Surat terbuka untuk doktor sinta, dari aku kursi dental di ruang praktik. Setiap hari aku menemani pasien yang gugup dari pagi sampai sore hari. Tapi pasien sering duduk lama di atasku menunggu catatan.",
+ "lulus_qc": true,
+ "musik": "haru",
+ "g3": "konten/pabrik/hasil/dc-k6-017.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/dc-k6-017.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T02:58+07:00",
+ "catatan_bangun": []
+}

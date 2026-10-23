@@ -1,0 +1,178 @@
+{
+ "kode": "dc-k1-041",
+ "brand": "dentalcare",
+ "konsep": "K1",
+ "pembuka": "k1-kenalin-hari",
+ "pemeran": {
+  "utama": "dc-rina",
+  "pendukung": [
+   "dc-tari"
+  ]
+ },
+ "judul": "Selasa Mbak Rina: satu sticky note di bawah gelas teh",
+ "caption": "Janji jam empat dicatat di sticky note, buku jadwal dibawa ke ruang praktik. Hari kedua beda cerita. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Ikuti Selasa Mbak Rina, resepsionis, sejak telepon pertama.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "07.30",
+    "pose": "telepon",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Mbak Rina",
+    "sub": "resepsionis klinik",
+    "bubble": "halo, klinik!",
+    "latar": "dc-latar-resepsionis"
+   }
+  },
+  {
+   "teks": "Seorang ibu memesan jam empat sore. Rina mencatatnya di sticky note.",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "07.31",
+    "judul": "Telepon pertama",
+    "sub": "ibu pasien anak",
+    "pesan": [
+     {
+      "teks": "Jam empat sore bisa?",
+      "sorot": true
+     },
+     {
+      "teks": "Bisa, Bu! Saya catat",
+      "keluar": true
+     }
+    ],
+    "pose": "telepon",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Buku jadwal sedang dipegang Mbak Tari, perawat gigi, di ruang praktik.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "jam": "07.35",
+    "tokoh": "dc-tari",
+    "prop": "dc-prop-buku-antrean",
+    "kartu": "buku jadwal di sini",
+    "tag": "RUANG PRAKTIK",
+    "pose": "bawa-berkas",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Jam sepuluh, ibu lain chat Tari. Di buku, jam empat kosong.",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "10.00",
+    "tokoh": "dc-tari",
+    "judul": "Chat masuk",
+    "sub": "ibu pasien anak",
+    "pesan": [
+     {
+      "teks": "Jam empat sore kosong?",
+      "sorot": true
+     },
+     {
+      "teks": "Kosong, Bu!",
+      "keluar": true
+     }
+    ],
+    "pose": "bawa-berkas",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Jam empat sore, dua anak datang untuk satu kursi.",
+   "primitif": "bentrok",
+   "opsi": {
+    "jam": "16.00",
+    "kiri": [
+     "16.00",
+     "Anak 1"
+    ],
+    "kanan": [
+     "16.00",
+     "Anak 2"
+    ],
+    "stempel": "BENTROK",
+    "pose": "panik",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Sticky note Rina ketemu, di bawah gelas teh.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "jam": "16.10",
+    "prop": "dc-prop-sticky-note",
+    "kartu": "16.00 anak Bu ...",
+    "tag": "DI BAWAH GELAS",
+    "pose": "panik",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Malamnya, dokter setuju usul Rina: jadwal pindah ke DentalCare.",
+   "primitif": "logo",
+   "opsi": {
+    "jam": "19.00",
+    "stempel": "SETUJU!",
+    "kiri": "dc-maskot-kalender-lega",
+    "label": "JADWAL",
+    "pose": "jempol",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Hari kedua.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "07.30"
+   }
+  },
+  {
+   "teks": "Kini Rina mengisi jam empat di meja depan, Tari langsung melihatnya terisi.",
+   "primitif": "layar",
+   "opsi": {
+    "jam": "10.00",
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jadwal Bersama"
+     }
+    ],
+    "stempel": "TERISI ✓",
+    "pose": "telepon",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

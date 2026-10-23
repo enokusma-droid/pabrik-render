@@ -1,0 +1,170 @@
+{
+ "kode": "nw-k0-020",
+ "brand": "nusawebsite",
+ "konsep": "K0",
+ "judul": "Kenalin, Kak Ayu (dan nota pesanan bunga yang menderita)",
+ "caption": "Rangkaian bunganya cantik, pesanan wisuda dan pernikahan datang terus, tapi detail pesanan ditulis di nota kecil. Yang paling menderita? Notanya. Tanya lewat WhatsApp di profil. #umkm #florist #aplikasibisnis",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Kenalin, ini Kak Ayu, florist paling kreatif di kotanya.",
+   "primitif": "koran",
+   "opsi": {
+    "koran": "KABAR UMKM",
+    "judul": "Kenalin, ini Kak Ayu",
+    "sub": "florist rumahan paling kreatif di kota",
+    "foto": "nw-f-potret"
+   }
+  },
+  {
+   "teks": "Rangkaiannya cantik, pesanan wisuda dan pernikahan datang terus.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Kak Ayu",
+    "stempel": "KREATIF ✓",
+    "prop": "nw-kardus-label"
+   }
+  },
+  {
+   "teks": "Tapi soal mencatat pesanan khusus, skillnya anjlok.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "SKILL MERANGKAI",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "SKILL MENCATAT",
+      "dari": 100,
+      "ke": 6,
+      "kata": "anjlok"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Warna pita, ucapan kartu, jam antar, semua ditulis di nota.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "NOTA KECIL",
+    "ke": 46,
+    "format": "angka",
+    "terbang": true,
+    "prop": "nw-tumpukan-nota",
+    "pose": "pusing-hp",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Dan kamu tahu siapa yang paling menderita?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa yang paling menderita?",
+    "bayangan": "nw-maskot-nota-lelah"
+   }
+  },
+  {
+   "teks": "Iya, aku. Tumpukan notanya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "nw-maskot-nota-kaget",
+    "label": "NOTA PESANAN",
+    "teks": "IYA, AKU."
+   }
+  },
+  {
+   "teks": "Aku basah kena air bunga, sobek, ucapannya sering tertukar.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "nw-maskot-nota-lelah",
+    "label": "NOTA PESANAN",
+    "item": [
+     "BASAH!",
+     "SOBEK",
+     "UCAPAN TERTUKAR"
+    ],
+    "prop": [
+     "nw-struk"
+    ]
+   }
+  },
+  {
+   "teks": "Sampai akhirnya Kak Ayu pakai aplikasi pesanan sendiri.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "AKHIRNYA!",
+    "kiri": "nw-maskot-nota-yakin",
+    "label": "NOTA PESANAN",
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Warna, ucapan, dan jam antar tiap pesanan tersimpan rapi.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Pesanan Bunga",
+     "lencana": "6 hari ini",
+     "baris": [
+      [
+       "Bu Rina",
+       "Buket wisuda, pita biru",
+       "09.00"
+      ],
+      [
+       "Kak Sari",
+       "Papan bunga nikah",
+       "13.00"
+      ],
+      [
+       "Mbak Dewi",
+       "Buket mawar, ucapan",
+       "16.00"
+      ]
+     ]
+    },
+    "stempel": "RAPI ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Aku pun pensiun dengan tenang, dan wangi.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terima kasih, Kak!",
+    "tag": "PENSIUN TENANG",
+    "maskot": "nw-maskot-nota-senang",
+    "label": "NOTA PESANAN"
+   }
+  },
+  {
+   "teks": "Mau aplikasi pesanan untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

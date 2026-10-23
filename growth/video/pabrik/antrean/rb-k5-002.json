@@ -1,0 +1,167 @@
+{
+ "kode": "rb-k5-002",
+ "brand": "ratu-bawang",
+ "konsep": "K5",
+ "pembuka": "k5-tanya",
+ "pemeran": {
+  "utama": "detektif",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Kasus bawang yang sudah lunas tapi jadi buron",
+ "caption": "Transfer lunas, bawang tak pernah datang, pemasoknya jadi hantu. Detektif Ana menemukan otaknya: bayar dulu, barang nanti. Di Ratu Bawang bawang tangan pertama, murah, dicek dulu baru dibayar saat sampai, gratis ongkir Jogja, ecer atau grosir. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #restojogja",
+ "adegan": [
+  {
+   "teks": "Ke mana bawang yang sudah lunas? Uangnya sampai, bawangnya buron.",
+   "primitif": "berkas-kasus",
+   "opsi": {
+    "judul": "BERKAS KASUS",
+    "nomor": "KASUS #002 DAPUR AYU",
+    "gambar": "rb-nota",
+    "label": "TRANSFER",
+    "stempel": [
+     "LUNAS",
+     "BURON"
+    ]
+   }
+  },
+  {
+   "teks": "Aku Detektif Ana. Pemasok lama Chef Ayu, pemilik resto, kemahalan. Ia cari di grup WhatsApp.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "KASUS #002",
+    "jumlah": 1,
+    "sub": "korban: Ayu",
+    "pita": "PENYELIDIKAN",
+    "pose": "kaca-pembesar"
+   }
+  },
+  {
+   "teks": "Transfer lunas, centang satu, menu sambal ditutup. Hantu lebih sering membalas.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok Grup",
+    "sub": "lama tak aktif",
+    "pesan": [
+     {
+      "teks": "Sudah transfer ya",
+      "keluar": true
+     },
+     {
+      "teks": "Bawangnya kapan dikirim?",
+      "keluar": true,
+      "sorot": true
+     }
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "kesal"
+    ],
+    "stempel": "HANTU"
+   }
+  },
+  {
+   "teks": "Tersangka pertama, rekening: aku cuma dipinjam nama!",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "rb-nota",
+    "label": "REKENING",
+    "catatan": "cuma dipinjam nama!",
+    "stempel": [
+     "MENCURIGAKAN"
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka kedua, postingan grup: murahnya cuma di ketikan!",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "um-sticky-note-kuning",
+    "label": "POSTINGAN GRUP",
+    "catatan": "murah cuma di ketikan",
+    "stempel": [
+     "TERLALU MURAH"
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka ketiga, foto bawang: aku comotan internet!",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "rb-bawang-merah",
+    "label": "FOTO BAWANG",
+    "catatan": "comotan internet!",
+    "stempel": [
+     "PALSU"
+    ]
+   }
+  },
+  {
+   "teks": "Ketiganya kaki tangan. Otaknya: bayar dulu, barang nanti.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "rb-nota",
+    "label": "BAYAR DULU",
+    "stempel": "OTAKNYA"
+   }
+  },
+  {
+   "teks": "Kapok, Chef Ayu pindah ke Ratu Bawang: tangan pertama, murah, dicek dulu baru dibayar.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "tokoh": "rb-ayu",
+    "pose": "karung-jempol",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Kasus ditutup, sambal dibuka lagi.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "Ratu Bawang",
+    "item": [
+     "Bayar saat sampai",
+     "Tangan pertama, murah",
+     "Gratis ongkir Jogja",
+     "Ecer & grosir"
+    ],
+    "stempel": "KASUS DITUTUP",
+    "tokoh": "rb-ayu",
+    "pose": "karung-jempol",
+    "wajah": [
+     "senang"
+    ],
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "tokoh": "rb-ayu",
+    "pose": "foto-tunjuk"
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang, tapi ada yang perlu dirapikan. Adegan 2 terlalu padat: pisahkan perkenalan Ana dan alasan Ayu pindah karena pemasok lama kemahalan. Adegan 4 kurang jelas, ganti jadi 'rekening atas nama orang lain'. Adegan 8 'murah' terdengar seperti janji harga, ganti 'harga tangan pertama'. Adegan 3 perlu 1 teks layar soal kerugian dapur (sambal batal tersaji).",
+  "naskah_hash": "33986358ebaa",
+  "waktu": "2026-10-22T04:25"
+ }
+}

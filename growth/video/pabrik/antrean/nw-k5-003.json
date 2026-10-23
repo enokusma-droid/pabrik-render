@@ -1,0 +1,159 @@
+{
+ "kode": "nw-k5-003",
+ "brand": "nusawebsite",
+ "konsep": "K5",
+ "judul": "Detektif: kasus pesanan yang belum dikirim",
+ "caption": "Pesanan nomor dua belas belum dikirim lagi. Detektif kami memeriksa kurir, admin, dan buku catatan. Pelakunya? Catatan manual. Pernah mengalami kasus serupa? Tanya lewat WhatsApp di profil. #umkm #tokoonline #aplikasibisnis",
+ "musik": "tegang",
+ "adegan": [
+  {
+   "teks": "Pesanan nomor dua belas. Belum dikirim. Lagi.",
+   "primitif": "berkas-kasus",
+   "opsi": {
+    "nomor": "Pesanan #012",
+    "gambar": "nw-pelanggan-online",
+    "label": "Pesanan 012",
+    "stempel": [
+     {
+      "teks": "TERTUNDA",
+      "kata": "belum"
+     },
+     {
+      "teks": "LAGI.",
+      "kata": "lagi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pelanggan sudah menunggu tiga hari. Penyelidikan dimulai.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "HARI KE-",
+    "jumlah": 3,
+    "sub": "menunggu",
+    "pita": "PENYELIDIKAN"
+   }
+  },
+  {
+   "teks": "Tersangka pertama, kurir. Alibinya kuat, paket lain terkirim tepat waktu.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "nw-kurir",
+    "label": "kurir",
+    "catatan": "paket lain\nsampai semua",
+    "stempel": [
+     {
+      "teks": "ALIBI KUAT ✓",
+      "kata": "alibinya"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka kedua, admin. Pesanannya tertimbun ratusan chat.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "nw-admin-cs",
+    "label": "admin",
+    "stempel": [
+     {
+      "teks": "TERTIMBUN",
+      "kata": "tertimbun"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka ketiga, buku catatan. Halamannya robek kena kopi.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "nw-buku-coretan",
+    "label": "buku catatan",
+    "stempel": [
+     {
+      "teks": "ROBEK",
+      "kata": "robek"
+     },
+     {
+      "teks": "KENA KOPI",
+      "kata": "kopi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Semua benang merah mengarah ke satu pelaku.",
+   "primitif": "benang",
+   "opsi": {
+    "gambar": [
+     "nw-kurir",
+     "nw-admin-cs",
+     "nw-buku-coretan"
+    ]
+   }
+  },
+  {
+   "teks": "Pelakunya, pesanan yang dicatat lewat chat dan kertas.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "nw-hp-chat-banjir",
+    "label": "PELAKU",
+    "stempel": {
+     "teks": "CATAT MANUAL",
+     "kata": "kertas"
+    }
+   }
+  },
+  {
+   "teks": "Vonisnya, pakai aplikasi pesanan sendiri. Status tiap pesanan ketemu dalam hitungan detik.",
+   "primitif": "vonis",
+   "opsi": {
+    "app": {
+     "judul": "Pesanan",
+     "baris": [
+      [
+       "#012 Bu Rina",
+       "Kaos M x2",
+       "Dikirim ✓"
+      ],
+      [
+       "#013 Kak Sari",
+       "Hijab x1",
+       "Dikemas"
+      ]
+     ]
+    },
+    "judul": "Cari Pesanan",
+    "cari": "#012",
+    "detik": 2,
+    "ok": "KETEMU ✓"
+   }
+  },
+  {
+   "teks": "Kasus ditutup. Pelanggan senang, pesanan berikutnya datang lagi.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Paketnya sampai!",
+    "tag": "KASUS DITUTUP",
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk tokomu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "kode": "nw-k4-021",
+ "brand": "nusawebsite",
+ "konsep": "K4",
+ "judul": "4 tipe pemilik toko saat pelanggan komplain",
+ "caption": "Ada empat tipe pemilik toko saat pelanggan komplain barang. Dari si cari bukti sampai si pakai aplikasi. Kamu tipe nomor berapa? Tulis di komentar. Tanya lewat WhatsApp di profil. #umkm #tokoonline #aplikasibisnis",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Ada empat tipe pemilik toko saat pelanggan komplain barang. Kamu yang mana?",
+   "primitif": "tipe-hook",
+   "opsi": {
+    "jumlah": 4,
+    "judul": "PEMILIK TOKO",
+    "sub": "saat pelanggan komplain",
+    "tanya": "Kamu yang mana?"
+   }
+  },
+  {
+   "teks": "Tipe satu, si cari bukti. Komplain masuk, tapi pesanan aslinya tidak ketemu.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Cari Bukti",
+    "rarity": "COMMON",
+    "foto": "nw-f-foto-bingung-hp",
+    "stat": [
+     [
+      "NIAT BANTU",
+      95
+     ],
+     [
+      "SABAR",
+      70
+     ],
+     [
+      "BUKTI KETEMU",
+      10
+     ],
+     [
+      "WAKTU",
+      30
+     ]
+    ],
+    "skill": "membalas dengan sopan",
+    "lemah": "pesanan lama hilang",
+    "gag": {
+     "jenis": "lupa",
+     "item": [
+      "pesan kapan ya?",
+      "ukuran apa?",
+      "dikirim kapan?",
+      "ada fotonya?"
+     ],
+     "kata": "ketemu"
+    }
+   }
+  },
+  {
+   "teks": "Tipe dua, si panik. Langsung kirim ulang, padahal barangnya sudah benar.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Panik",
+    "rarity": "RARE",
+    "foto": "nw-f-foto-jerit",
+    "stat": [
+     [
+      "CEPAT",
+      99
+     ],
+     [
+      "PANIK",
+      95
+     ],
+     [
+      "TELITI",
+      15
+     ],
+     [
+      "STOK",
+      40
+     ]
+    ],
+    "skill": "respons super cepat",
+    "lemah": "kirim ulang tanpa cek",
+    "gag": {
+     "turun": 2,
+     "ke": 5,
+     "kata": "padahal"
+    }
+   }
+  },
+  {
+   "teks": "Tipe tiga, si debat panjang. Chat komplain berlanjut sampai malam.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Debat Panjang",
+    "rarity": "EPIC",
+    "foto": "nw-f-foto-takut-hp",
+    "stat": [
+     [
+      "SEMANGAT",
+      90
+     ],
+     [
+      "CHAT TERKIRIM",
+      99
+     ],
+     [
+      "SELESAI",
+      10
+     ],
+     [
+      "JAM TIDUR",
+      15
+     ]
+    ],
+    "skill": "argumen kuat",
+    "lemah": "lupa cari solusi",
+    "gag": {
+     "jenis": "chat",
+     "item": [
+      "kak, barangnya beda",
+      "ini fotonya",
+      "[stiker]",
+      "kok gitu kak?",
+      "saya kecewa",
+      "kak?"
+     ],
+     "kata": "malam"
+    }
+   }
+  },
+  {
+   "teks": "Tipe empat, langka. Riwayat pesanan dicek di aplikasi, komplain beres dalam lima menit.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Si Pakai Aplikasi",
+    "rarity": "LEGENDARY",
+    "foto": "nw-f-foto-laptop-jempol",
+    "stat": [
+     [
+      "RIWAYAT JELAS",
+      100
+     ],
+     [
+      "SOLUSI CEPAT",
+      100
+     ],
+     [
+      "PELANGGAN PUAS",
+      100
+     ],
+     [
+      "JAM TIDUR",
+      100
+     ]
+    ],
+    "skill": "riwayat pesanan lengkap",
+    "lemah": "tidak ada (sejauh ini)",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "Pesanan #231 ditemukan",
+      "Retur dicatat",
+      "Komplain selesai ✓"
+     ],
+     "stempel": "BERES ✓",
+     "kata": "aplikasi"
+    }
+   }
+  },
+  {
+   "teks": "Pesanan lama, ukuran, foto barang, dan status retur ada di satu layar.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Riwayat Pesanan",
+     "baris": [
+      [
+       "#231 Bu Rina",
+       "Kaos M, hitam",
+       "Retur ✓"
+      ],
+      [
+       "#198 Kak Sari",
+       "Hijab krem",
+       "Selesai"
+      ],
+      [
+       "#176 Mbak Dewi",
+       "Gamis L",
+       "Selesai"
+      ]
+     ]
+    },
+    "stempel": "JELAS ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Kamu tipe yang mana? Tulis nomornya di komentar.",
+   "primitif": "tipe-pilih",
+   "opsi": {
+    "komentar": "Aku tipe nomor ..."
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk tokomu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jalan-laptop",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

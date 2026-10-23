@@ -1,0 +1,115 @@
+{
+ "kode": "nw-k6-004",
+ "brand": "nusawebsite",
+ "konsep": "K6",
+ "judul": "Surat terbuka dari kalkulator di meja kasir",
+ "caption": "Surat terbuka dari kalkulator kasir yang setiap hari ditekan ratusan kali. Warungmu masih menghitung manual? Tanya lewat WhatsApp di profil. #umkm #warung #aplikasikasir",
+ "musik": "haru",
+ "adegan": [
+  {
+   "teks": "Surat terbuka untuk pemilik warung, dari aku, kalkulator di meja kasir.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "untuk": "pemilik warung",
+    "dari": "kalkulator kasir",
+    "maskot": "nw-maskot-kalkulator-yakin"
+   }
+  },
+  {
+   "teks": "Setiap hari kamu menekan tombolku ratusan kali. Pagi sampai warung tutup.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Tombolku ditekan...",
+     "ratusan kali!"
+    ],
+    "angka": 500,
+    "gambar": "nw-kalkulator-struk"
+   }
+  },
+  {
+   "teks": "Saat pembeli antre panjang, kamu menghitung sambil panik.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "prop": "nw-tumpukan-nota",
+    "kartu": "antre panjang!",
+    "tag": "KASIR RAMAI",
+    "pose": "panik",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Kadang angkaku salah, kembalian kurang, lalu aku yang disalahkan.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Angkaku salah...",
+     "aku disalahkan"
+    ],
+    "gambar": "nw-maskot-kalkulator-bingung",
+    "stempel": "SALAH"
+   }
+  },
+  {
+   "teks": "Malamnya kamu merekap struk satu per satu. Aku sampai kehabisan baterai.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Rekap struk malam...",
+     "bateraiku habis"
+    ],
+    "gambar": "nw-maskot-kalkulator-kaget"
+   }
+  },
+  {
+   "teks": "Sekarang warungmu pakai aplikasi kasir sendiri. Hitungan tepat, rekap harian muncul otomatis.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Kasir Warung",
+     "lencana": "Hari ini",
+     "baris": [
+      [
+       "Kopi susu",
+       "x2",
+       "Lunas ✓"
+      ],
+      [
+       "Nasi goreng",
+       "x1",
+       "Lunas ✓"
+      ],
+      [
+       "Rekap harian",
+       "38 transaksi",
+       "Siap ✓"
+      ]
+     ]
+    },
+    "stempel": "TEPAT ✓"
+   }
+  },
+  {
+   "teks": "Akhirnya aku bisa pensiun dengan tenang. Salam hormat, kalkulator kasirmu.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam hormat,",
+    "ttd": "kalkulator kasirmu",
+    "maskot": "nw-maskot-kalkulator-lega",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Mau aplikasi kasir untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

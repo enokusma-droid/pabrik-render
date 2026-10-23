@@ -1,0 +1,114 @@
+{
+ "kode": "nw-k6-028",
+ "brand": "nusawebsite",
+ "konsep": "K6",
+ "judul": "Surat terbuka dari HP toko yang memorinya penuh",
+ "caption": "Surat terbuka dari HP toko yang menyimpan ribuan foto pesanan dan tangkapan layar. Sekarang pesanan tersimpan di aplikasi sendiri. Tanya lewat WhatsApp di profil. #umkm #tokoonline #aplikasibisnis",
+ "musik": "haru",
+ "adegan": [
+  {
+   "teks": "Surat terbuka untuk pemilik toko, dari aku, HP toko yang setiap hari kamu genggam.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "untuk": "pemilik toko",
+    "dari": "HP tokomu",
+    "maskot": "nw-hp-berdering"
+   }
+  },
+  {
+   "teks": "Setiap hari kamu menyimpan ribuan foto pesanan dan tangkapan layar di dalamku.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Ribuan foto pesanan...",
+     "tangkapan layar"
+    ],
+    "angka": 4800,
+    "gambar": "nw-hp-chat-banjir"
+   }
+  },
+  {
+   "teks": "Kalau pelanggan bertanya, kamu menggulir galeriku sampai jempolmu pegal.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Galeriku digulir...",
+     "sampai jempol pegal"
+    ],
+    "gambar": "nw-gelembung-hijau",
+    "stempel": "PEGAL"
+   }
+  },
+  {
+   "teks": "Lalu suatu pagi, layarku menulis memori penuh.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Suatu pagi...",
+     "MEMORI PENUH"
+    ],
+    "gambar": "nw-hp-berdering",
+    "stempel": "PENUH"
+   }
+  },
+  {
+   "teks": "Aku panas, lambat, dan takut semua pesananmu hilang bersamaku.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Aku panas...",
+     "takut pesananmu hilang"
+    ],
+    "gambar": "nw-maskot-laptop-panik"
+   }
+  },
+  {
+   "teks": "Sekarang tokomu pakai aplikasi pesanan sendiri. Semua tersimpan aman, tidak tergantung satu HP.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Pesanan Toko",
+     "lencana": "Tersimpan",
+     "baris": [
+      [
+       "Bu Rina",
+       "Kaos M x2",
+       "Dikirim ✓"
+      ],
+      [
+       "Kak Sari",
+       "Hijab x1",
+       "Dikemas"
+      ],
+      [
+       "Mbak Dewi",
+       "Gamis L",
+       "Baru"
+      ]
+     ]
+    },
+    "stempel": "AMAN ✓"
+   }
+  },
+  {
+   "teks": "Akhirnya aku bisa bernapas lega. Salam sayang, HP tokomu.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam sayang,",
+    "ttd": "HP tokomu",
+    "maskot": "nw-hp-berdering",
+    "stempel": "LEGA"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

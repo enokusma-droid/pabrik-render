@@ -1,0 +1,30 @@
+{
+ "kode": "nw-k5-032",
+ "brand": "nusawebsite",
+ "konsep": "K5",
+ "judul": "Kemeja hijau terakhir yang terjual dua kali",
+ "durasi": 48.17,
+ "LUFS": -14.2,
+ "TP": -1.5,
+ "cocok_vo_%": 79,
+ "cocok_ketat_%": 71,
+ "transkrip_15dtk": "Kemeja terakhir kaksari terjual dua kali. Detektif Ena bertindak. Satu laku dikasih kaksari. Satu dibayar burat naonline. Ter sangka pertama, rak gudang. Aku cuma rak. Kemejanya diambil kasir.",
+ "lulus_qc": false,
+ "musik": "tegang",
+ "g3": "konten/pabrik/hasil/nw-k5-032.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k5-032.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T09:14+07:00",
+ "catatan_bangun": [
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-tunjuk",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-jalan-berkas",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-kaca-pembesar"
+ ],
+ "phash_awal": [
+  "80f0f0a888fcf8ff",
+  "80f0f0a888fcf8ff",
+  "80f0b0a888fcf8ff"
+ ],
+ "mirip_awal": []
+}

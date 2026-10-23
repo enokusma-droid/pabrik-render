@@ -1,0 +1,8 @@
+{
+ "kode": "nw-k6-041",
+ "gagal": true,
+ "lulus_qc": false,
+ "run": "https://github.com/mafiaterkakap-prog/pabrik-render/actions/runs/39777546418",
+ "waktu": "2026-10-22T19:44+07:00",
+ "pesan": "job video gagal; buka run untuk log (langkah Produksi). Perbaiki spec lalu kirim dengan kode revisi baru (mis. -r2)."
+}

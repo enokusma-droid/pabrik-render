@@ -1,0 +1,117 @@
+{
+ "kode": "dc-k8-023",
+ "brand": "dentalcare",
+ "konsep": "K8",
+ "judul": "Horor malam hujan: buku jadwal besok hilang",
+ "caption": "Malam itu hujan deras, dan buku jadwal pasien besok tidak ada di mana pun. Sebelum terlambat, simpan jadwal pasien di DentalCare. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #jadwalpasien #DentalCare",
+ "musik": "horor",
+ "adegan": [
+  {
+   "teks": "Malam itu, hujan deras. Buku jadwal besok ternyata tidak ada.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "MALAM ITU...",
+     "BUKU JADWAL?"
+    ],
+    "gambar": "dc-prop-buku-antrean",
+    "latar": "dc-latar-horor"
+   }
+  },
+  {
+   "teks": "Laci dicari, tas dibongkar, meja diperiksa. Tetap tidak ada.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "LACI KOSONG",
+     "TAS KOSONG"
+    ],
+    "tokoh": "dc-kartun-resepsionis-telepon"
+   }
+  },
+  {
+   "teks": "Besok ada dua puluh pasien. Jam berapa saja, tidak ada yang ingat.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "20 PASIEN",
+     "JAM BERAPA?"
+    ],
+    "pose": "pusing",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Tiba tiba, terdengar bunyi keras dari dinding!",
+   "primitif": "kejut",
+   "opsi": {
+    "subjek": "dc-prop-jam-dinding",
+    "teks": "...cuma jam dinding",
+    "stempel": "TENG!"
+   }
+  },
+  {
+   "teks": "Bukunya ternyata tertinggal di angkot. Basah dan robek.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "DI ANGKOT",
+     "ROBEK..."
+    ],
+    "gambar": "dc-prop-bola-kertas"
+   }
+  },
+  {
+   "teks": "Sebelum terlambat, klinik ini menyimpan jadwal pasien di DentalCare.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "pose": "sorak",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Jadwal besok bisa dibuka kapan saja, tidak tergantung satu buku.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jadwal Besok"
+     },
+     {
+      "ui": "dc-ui-antrean-rapi",
+      "judul": "Antrean"
+     }
+    ],
+    "stempel": "AMAN ✓"
+   }
+  },
+  {
+   "teks": "Malam berikutnya hujan lagi, tapi semua orang di klinik tidur nyenyak.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Tidur nyenyak",
+    "tag": "TIDAK SERAM LAGI",
+    "pose": "yakin",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

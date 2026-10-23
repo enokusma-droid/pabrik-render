@@ -1,0 +1,110 @@
+{
+ "kode": "dc-k6-026",
+ "brand": "dentalcare",
+ "konsep": "K6",
+ "judul": "Surat terbuka dari tumpukan rekap bulanan",
+ "caption": "Surat terbuka dari tumpukan rekap bulanan yang dihitung manual setiap akhir bulan. Sekarang rekap pasien muncul sendiri. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #rekapklinik #DentalCare",
+ "musik": "haru",
+ "adegan": [
+  {
+   "teks": "Surat terbuka untuk dokter Sinta, dari aku, tumpukan rekap bulanan di sudut meja.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "untuk": "drg. Sinta",
+    "dari": "tumpukan rekap",
+    "maskot": "dc-prop-tumpukan-berkas"
+   }
+  },
+  {
+   "teks": "Setiap akhir bulan, kamu menghitung jumlah pasien dari lembar demi lembar.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Akhir bulan...",
+     "hitung lembar demi lembar"
+    ],
+    "gambar": "dc-prop-kalkulator"
+   }
+  },
+  {
+   "teks": "Kadang hitunganmu beda dengan hitungan perawat, lalu diulang dari awal.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Hitungan beda...",
+     "ulang dari awal"
+    ],
+    "gambar": "dc-kartun-perawat-papan",
+    "stempel": "ULANG"
+   }
+  },
+  {
+   "teks": "Kamu bekerja sampai larut malam, dengan kopi yang sudah dingin.",
+   "primitif": "meter",
+   "opsi": {
+    "suasana": "malam",
+    "meter": [
+     {
+      "judul": "KOPI HANGAT",
+      "dari": 100,
+      "ke": 3,
+      "kata": "dingin"
+     }
+    ],
+    "pose": "lelah",
+    "wajah": [
+     "lelah"
+    ]
+   }
+  },
+  {
+   "teks": "Aku makin tebal, makin berat, dan sering jatuh dari meja kerjamu.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Makin tebal...",
+     "sering jatuh"
+    ],
+    "gambar": "dc-prop-kardus-berkas",
+    "stempel": "BRAK"
+   }
+  },
+  {
+   "teks": "Sekarang data pasien tercatat di DentalCare, rekap bulanan tinggal dibuka.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "Rekap Bulan Ini",
+    "item": [
+     "Data pasien lengkap",
+     "Tindakan tercatat",
+     "Rekap siap dibuka"
+    ],
+    "stempel": "BERES ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Akhirnya aku bisa pensiun dengan ringan. Salam hormat, tumpukan rekapmu.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam hormat,",
+    "ttd": "tumpukan rekapmu",
+    "maskot": "dc-maskot-map-terharu",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

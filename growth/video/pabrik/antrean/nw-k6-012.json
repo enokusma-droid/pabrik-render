@@ -1,0 +1,130 @@
+{
+ "kode": "nw-k6-012",
+ "brand": "nusawebsite",
+ "konsep": "K6",
+ "judul": "Surat terbuka dari file Excel absensi karyawan",
+ "caption": "Surat terbuka dari file Excel absensi: diisi tiap pagi, disalin jadi final dua, rumusnya rusak. Sekarang tokonya punya aplikasi absensi sendiri. Tanya lewat WhatsApp di profil. #umkm #absensi #aplikasibisnis",
+ "musik": "haru",
+ "adegan": [
+  {
+   "teks": "Surat terbuka untuk pemilik toko, dari aku, file Excel absensi karyawan.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "untuk": "pemilik toko",
+    "dari": "file Excel absensi",
+    "maskot": "nw-maskot-excel-yakin"
+   }
+  },
+  {
+   "teks": "Setiap pagi kamu mengisi jam masuk karyawan di badanku, satu per satu.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Setiap pagi kamu isi...",
+     "jam masuk karyawan"
+    ],
+    "gambar": "nw-laptop"
+   }
+  },
+  {
+   "teks": "Lalu kamu membuat salinanku. Absensi final, final dua, final banget.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Absensi final",
+     "final dua",
+     "final banget"
+    ],
+    "gambar": "nw-maskot-excel-bingung",
+    "stempel": "SALINAN"
+   }
+  },
+  {
+   "teks": "Karyawan bertanya, Kak, kemarin saya tercatat masuk atau tidak?",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "GRUP KARYAWAN",
+    "sub": "8 anggota",
+    "pesan": [
+     {
+      "teks": "Kak, kemarin saya masuk?",
+      "sorot": true
+     },
+     {
+      "teks": "Sebentar dicek dulu",
+      "keluar": true
+     },
+     {
+      "teks": "Kok saya alpa ya?"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung",
+     "cemas"
+    ],
+    "stempel": "???"
+   }
+  },
+  {
+   "teks": "Rumusku rusak, selku merah semua, dan aku hampir menangis setiap malam.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Rumusku rusak...",
+     "selku merah semua"
+    ],
+    "gambar": "nw-maskot-excel-sedih",
+    "stempel": "ERROR"
+   }
+  },
+  {
+   "teks": "Sekarang tokomu pakai aplikasi absensi sendiri. Jam masuk tercatat, rekap bulanan langsung jadi.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Absensi Hari Ini",
+     "lencana": "8 hadir",
+     "baris": [
+      [
+       "Tari",
+       "Masuk 07.58",
+       "Hadir ✓"
+      ],
+      [
+       "Dewi",
+       "Masuk 08.02",
+       "Hadir ✓"
+      ],
+      [
+       "Sari",
+       "Izin sakit",
+       "Izin"
+      ]
+     ]
+    },
+    "stempel": "RAPI ✓"
+   }
+  },
+  {
+   "teks": "Akhirnya aku bisa pamit tenang. Salam sayang, file Excel absensimu.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam sayang,",
+    "ttd": "file Excel absensimu",
+    "maskot": "nw-maskot-excel-senang",
+    "stempel": "PAMIT"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

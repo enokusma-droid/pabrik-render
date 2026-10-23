@@ -1,0 +1,120 @@
+{
+ "kode": "nw-k3-029-r2",
+ "brand": "nusawebsite",
+ "konsep": "K3",
+ "judul": "Berita: toko oleh-oleh kewalahan pesanan musim liburan",
+ "caption": "Berita terkini: toko oleh-oleh kewalahan pesanan musim liburan, pesanan tertukar dan pembeli menunggu. Update: toko ini akhirnya punya aplikasi pesanan sendiri. Tanya lewat WhatsApp di profil. #umkm #oleholeh #aplikasibisnis",
+ "ticker": "TOKO OLEH-OLEH KEWALAHAN • PESANAN TERTUKAR • PEMILIK MENEMUKAN SOLUSI",
+ "adegan": [
+  {
+   "teks": "Berita terkini. Sebuah toko oleh oleh kewalahan menerima pesanan di musim liburan.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-mic",
+    "judul": "Toko oleh-oleh kewalahan",
+    "label": "BERITA TERKINI",
+    "nama": "Dinda Lestari",
+    "jabatan": "Reporter, langsung di lokasi"
+   }
+  },
+  {
+   "teks": "Di lokasi, kardus pesanan menumpuk sampai ke depan pintu toko yang sempit itu.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "prop": "nw-kardus-tumpuk",
+    "kartu": "pesanan siapa??",
+    "tag": "MENUMPUK",
+    "pose": "bawa-paket",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Seorang pembeli mengaku pesanannya tertukar dengan pembeli lain.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "nw-pelanggan-online",
+    "nama": "Bu Rina",
+    "ket": "Pembeli oleh-oleh",
+    "kutipan": "Ini bukan pesanan saya",
+    "stempel": "TERTUKAR"
+   }
+  },
+  {
+   "teks": "Pemilik toko menjelaskan, semua pesanan dicatat dari chat ke buku.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "nw-f-foto-bingung-hp",
+    "nama": "Kak Rani",
+    "ket": "Pemilik toko oleh-oleh",
+    "kutipan": "Chatnya terlalu banyak",
+    "stempel": "PUSING"
+   }
+  },
+  {
+   "teks": "Update terbaru. Toko ini akhirnya memakai aplikasi pesanan buatan sendiri.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-tunjuk",
+    "judul": "Toko pakai aplikasi sendiri",
+    "label": "UPDATE",
+    "nama": "Dinda Lestari",
+    "jabatan": "Reporter"
+   }
+  },
+  {
+   "teks": "Setiap pesanan punya nomor, isi paket, dan jadwal ambil yang jelas.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Pesanan Oleh-oleh",
+     "lencana": "35 baru",
+     "baris": [
+      [
+       "#O21 Bu Rina",
+       "Bakpia x3, keripik",
+       "Siap ambil"
+      ],
+      [
+       "#O22 Kak Sari",
+       "Dodol x5",
+       "Dikemas"
+      ],
+      [
+       "#O23 Mbak Lia",
+       "Paket campur",
+       "Baru"
+      ]
+     ]
+    },
+    "stempel": "JELAS ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Staf toko kini cukup mencari nomor pesanan, paket pembeli langsung ketemu.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "nw-admin-cs",
+    "nama": "Mbak Tari",
+    "ket": "Staf toko",
+    "kutipan": "Tinggal cari nomornya!",
+    "stempel": "KETEMU ✓"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

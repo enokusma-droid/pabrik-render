@@ -1,0 +1,143 @@
+{
+ "kode": "dc-k5-009",
+ "brand": "dentalcare",
+ "konsep": "K5",
+ "judul": "Detektif: kasus nomor HP pasien yang salah",
+ "caption": "Nomor HP pasien tidak bisa dihubungi lagi. Detektif kami memeriksa resepsionis, formulir, dan kertas tempel. Pelakunya? Data yang ditulis tangan dan tersebar. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #datapasien #DentalCare",
+ "musik": "tegang",
+ "adegan": [
+  {
+   "teks": "Nomor HP pasien Bu Wati. Tidak aktif. Lagi.",
+   "primitif": "berkas-kasus",
+   "opsi": {
+    "nomor": "Kontak pasien Bu Wati",
+    "gambar": "dc-foto-pasien-ibu",
+    "label": "Bu Wati",
+    "stempel": [
+     {
+      "teks": "SALAH",
+      "kata": "tidak"
+     },
+     {
+      "teks": "LAGI.",
+      "kata": "lagi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pasien kelima minggu ini yang tidak bisa dihubungi. Penyelidikan dimulai.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "PASIEN KE-",
+    "jumlah": 5,
+    "sub": "minggu ini",
+    "pita": "PENYELIDIKAN"
+   }
+  },
+  {
+   "teks": "Tersangka pertama, resepsionis. Alibinya kuat, sedang melayani antrean.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "dc-resepsionis-foto",
+    "label": "resepsionis",
+    "catatan": "sibuk\nlayani antrean",
+    "stempel": [
+     {
+      "teks": "ALIBI KUAT ✓",
+      "kata": "alibinya"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka kedua, formulir kertas. Angka tujuh dan satu mirip.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "dc-prop-clipboard",
+    "label": "formulir kertas",
+    "catatan": "7 atau 1?",
+    "stempel": [
+     {
+      "teks": "MIRIP",
+      "kata": "mirip"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka ketiga, kertas tempel. Nomor baru dicatat, lalu hilang.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "dc-prop-sticky-note",
+    "label": "kertas tempel",
+    "stempel": [
+     {
+      "teks": "HILANG",
+      "kata": "hilang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Semua petunjuk menunjuk ke satu pelaku.",
+   "primitif": "benang",
+   "opsi": {
+    "gambar": [
+     "dc-resepsionis-foto",
+     "dc-prop-clipboard",
+     "dc-prop-sticky-note"
+    ]
+   }
+  },
+  {
+   "teks": "Pelakunya, data pasien yang ditulis tangan dan tersebar.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "dc-prop-tumpukan-berkas",
+    "label": "PELAKU",
+    "stempel": {
+     "teks": "DATA TERSEBAR",
+     "kata": "tersebar"
+    }
+   }
+  },
+  {
+   "teks": "Vonisnya, pindah ke DentalCare. Data pasien tersimpan rapi, mudah diperbarui.",
+   "primitif": "vonis",
+   "opsi": {
+    "ui": "dc-ui-pasien-detail-rapi",
+    "judul": "Data Pasien",
+    "cari": "Bu Wati",
+    "detik": 2,
+    "ok": "KETEMU ✓"
+   }
+  },
+  {
+   "teks": "Kasus ditutup. Pasien kembali mudah dihubungi.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Tersambung!",
+    "tag": "KASUS DITUTUP",
+    "maskot": "dc-maskot-map-terharu",
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "yakin",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  }
+ ]
+}

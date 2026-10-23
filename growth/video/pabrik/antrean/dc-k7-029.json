@@ -1,0 +1,109 @@
+{
+ "kode": "dc-k7-029",
+ "brand": "dentalcare",
+ "konsep": "K7",
+ "judul": "Tutorial: cara bikin pasien lupa jadwal kontrol",
+ "caption": "Tutorial (salah) bikin pasien lupa jadwal kontrol: tidak dicatat, kartu kertas, andalkan ingatan. Jangan ditiru ya! Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #jadwalkontrol #DentalCare",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Supaya pasienmu lupa jadwal kontrol, lakukan saja empat langkah mudah ini.",
+   "primitif": "tutorial-hook",
+   "opsi": {
+    "judul": "Cara bikin pasien",
+    "kunci": "LUPA",
+    "jumlah": 4,
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Langkah satu, jangan catat jadwal kontrol. Cukup bilang, nanti kabari ya.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "judul": "Jangan catat\nJADWAL KONTROL",
+    "prop": "dc-maskot-kalender-sedih",
+    "pose": "presentasi",
+    "bubble": "nanti kabari!"
+   }
+  },
+  {
+   "teks": "Langkah dua, tulis tanggal di kartu kertas kecil yang mudah hilang.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "judul": "Kartu kertas\nMUDAH HILANG",
+    "prop": "dc-prop-sticky-note",
+    "pose": "yakin",
+    "bubble": "simpan ya!"
+   }
+  },
+  {
+   "teks": "Langkah tiga, andalkan ingatan pasien. Pasti ingat, katanya.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "judul": "Andalkan\nINGATAN PASIEN",
+    "prop": "dc-kartun-pasien-ibu-tunggu",
+    "pose": "jempol",
+    "cap": "BERHASIL ✓"
+   }
+  },
+  {
+   "teks": "Langkah empat, ingatkan lewat telepon kalau sempat, satu per satu.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "judul": "Telepon\nKALAU SEMPAT",
+    "prop": "dc-kartun-resepsionis-telepon",
+    "pose": "lari",
+    "wajah": [
+     "senang",
+     "panik"
+    ],
+    "ganti": "sempat"
+   }
+  },
+  {
+   "teks": "Atau, langkah bonus. Pakai DentalCare. Jadwal kontrol tercatat di kalender klinik, mudah dicek kapan saja.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 5,
+    "bonus": true,
+    "judul": "Pakai DentalCare",
+    "prop": "dc-maskot-kalender-lega",
+    "pose": "sorak"
+   }
+  },
+  {
+   "teks": "Pasien datang sesuai jadwal, dan gigi mereka pun terawat dengan baik.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jadwal Kontrol"
+     }
+    ],
+    "stempel": "TEPAT ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

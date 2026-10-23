@@ -1,0 +1,170 @@
+{
+ "kode": "nw-k0-025",
+ "brand": "nusawebsite",
+ "konsep": "K0",
+ "judul": "Kenalin, Kak Dewi (dan grup WA pesanan yang menderita)",
+ "caption": "Frozen food-nya laris, pelanggan setia, semua pesanan masuk lewat satu grup WhatsApp. Yang paling menderita? Grup pesanannya. Tanya lewat WhatsApp di profil. #umkm #frozenfood #aplikasibisnis",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Kenalin, ini Kak Dewi, penjual frozen food paling laris.",
+   "primitif": "koran",
+   "opsi": {
+    "koran": "KABAR UMKM",
+    "judul": "Kenalin, ini Kak Dewi",
+    "sub": "penjual frozen food paling laris di perumahan",
+    "foto": "nw-f-potret"
+   }
+  },
+  {
+   "teks": "Dagangannya enak, pelanggannya setia, pesanan datang setiap jam.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "bawa-paket",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Kak Dewi",
+    "stempel": "LARIS ✓",
+    "prop": "nw-kardus-tumpuk"
+   }
+  },
+  {
+   "teks": "Tapi soal merekap pesanan dari grup, skillnya anjlok.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "SKILL JUALAN",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "SKILL REKAP",
+      "dari": 100,
+      "ke": 5,
+      "kata": "anjlok"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Sehari bisa masuk tiga ratus chat, campur stiker dan foto.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "CHAT MASUK",
+    "ke": 300,
+    "format": "angka",
+    "terbang": true,
+    "prop": "nw-hp-chat-banjir",
+    "pose": "pusing-hp",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Dan kamu tahu siapa yang paling menderita?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa yang paling menderita?",
+    "bayangan": "nw-maskot-grup-wa-lelah"
+   }
+  },
+  {
+   "teks": "Iya, aku. Grup pesanannya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "nw-maskot-grup-wa-senang",
+    "label": "GRUP PESANAN",
+    "teks": "IYA, AKU."
+   }
+  },
+  {
+   "teks": "Memoriku penuh, pesanan tenggelam, aku digulir setiap malam.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "nw-maskot-grup-wa-lelah",
+    "label": "GRUP PESANAN",
+    "item": [
+     "MEMORI PENUH",
+     "TENGGELAM",
+     "DIGULIR TERUS"
+    ],
+    "prop": [
+     "nw-gelembung-hijau"
+    ]
+   }
+  },
+  {
+   "teks": "Sampai akhirnya Kak Dewi pakai aplikasi pesanan sendiri.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "AKHIRNYA!",
+    "kiri": "nw-maskot-grup-wa-lega",
+    "label": "GRUP PESANAN",
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Pesanan, alamat, dan jadwal antar tersusun rapi tanpa menggulir chat.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Pesanan Frozen",
+     "lencana": "14 baru",
+     "baris": [
+      [
+       "Bu Rina",
+       "Nugget x3, Blok A",
+       "Diantar"
+      ],
+      [
+       "Kak Sari",
+       "Dimsum x2, Blok C",
+       "Dikemas"
+      ],
+      [
+       "Mbak Lia",
+       "Sosis x5, Blok B",
+       "Baru"
+      ]
+     ]
+    },
+    "stempel": "RAPI ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Aku pun pensiun dengan tenang.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terima kasih, Kak!",
+    "tag": "PENSIUN TENANG",
+    "maskot": "nw-maskot-grup-wa-terharu",
+    "label": "GRUP PESANAN"
+   }
+  },
+  {
+   "teks": "Mau aplikasi pesanan untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

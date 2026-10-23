@@ -1,0 +1,236 @@
+{
+ "kode": "nw-k1-050",
+ "brand": "nusawebsite",
+ "konsep": "K1",
+ "pembuka": "k1-benda",
+ "pemeran": {
+  "utama": "nw-f",
+  "pendukung": []
+ },
+ "judul": "Sehari di grosir sembako Sari: buku bilang dua belas, gudang tiga",
+ "caption": "Catatan stok di tutup kardus, di telapak tangan, lalu tercuci. Sehari di grosir sembako Sari sebelum dan sesudah stok tercatat sendiri. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "adegan": [
+  {
+   "teks": "Buku stok grosir Sari dibuka paling pagi, paling akhir tahu kebenaran.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "jam": "07.00",
+    "prop": "nw-buku-coretan",
+    "kartu": "MINYAK GORENG: 12 dus",
+    "tag": "BUKU STOK",
+    "pose": "duduk-catat",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Jam sembilan, lima dus keluar, dicatat di tutup kardus.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "09.00",
+    "pose": "bawa-paket",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Sari",
+    "sub": "pemilik grosir sembako",
+    "prop": "nw-kardus-label",
+    "bubble": "tulis di tutup",
+    "stempel": "-5 DUS"
+   }
+  },
+  {
+   "teks": "Kardusnya dibawa pulang reseller.",
+   "primitif": "poster",
+   "opsi": {
+    "jam": "09.10",
+    "judul": "DICARI",
+    "gambar": "nw-kardus-label",
+    "label": "TUTUP KARDUS",
+    "keterangan": "catatan 5 dus minyak",
+    "stempel": "HILANG",
+    "tag": "dibawa pulang reseller"
+   }
+  },
+  {
+   "teks": "Jam satu, empat dus, dicatat di tangan.",
+   "primitif": "hitung",
+   "opsi": {
+    "jam": "13.00",
+    "judul": "MINYAK KELUAR",
+    "dari": 5,
+    "ke": 9,
+    "format": "angka",
+    "bubble": "catat di tangan",
+    "pose": "yakin",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Sari cuci tangan.",
+   "primitif": "meter",
+   "opsi": {
+    "jam": "13.30",
+    "meter": [
+     {
+      "judul": "CATATAN DI TANGAN",
+      "dari": 100,
+      "ke": 0,
+      "kata": "luntur"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "kaget"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Jam empat, reseller terbesar pesan sepuluh dus.",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "16.00",
+    "judul": "RESELLER BESAR",
+    "pesan": [
+     {
+      "teks": "Kak, minyak 10 dus ya",
+      "sorot": true
+     },
+     {
+      "teks": "saya ambil sore ini"
+     },
+     {
+      "teks": "siap, di buku ada 12",
+      "keluar": true
+     }
+    ],
+    "pose": "ketik-hp",
+    "wajah": [
+     "senang"
+    ],
+    "stempel": "10 DUS"
+   }
+  },
+  {
+   "teks": "Buku bilang dua belas, gudang tiga; reseller batal.",
+   "primitif": "bentrok",
+   "opsi": {
+    "jam": "16.10",
+    "latar": "nw-latar-gudang",
+    "kiri": [
+     "BUKU",
+     "12 dus"
+    ],
+    "kanan": [
+     "GUDANG",
+     "3 dus"
+    ],
+    "stempel": "BATAL",
+    "pose": "panik",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Malu, malamnya Sari memesan aplikasi stok.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "20.00",
+    "suasana": "malam",
+    "pose": "duduk-laptop",
+    "wajah": [
+     "yakin"
+    ],
+    "bubble": "stok wajib pas",
+    "stempel": "PESAN!"
+   }
+  },
+  {
+   "teks": "Beberapa minggu kemudian: hari kedua.",
+   "primitif": "kalender",
+   "opsi": {
+    "dari": "HARI 1",
+    "ke": "HARI 2",
+    "logo": true,
+    "kata": "beberapa minggu",
+    "hari": 2,
+    "jam": "07.00"
+   }
+  },
+  {
+   "teks": "Tiap dus keluar, Sari ketik di ponsel, sisanya langsung terhitung.",
+   "primitif": "layar",
+   "opsi": {
+    "jam": "13.00",
+    "app": {
+     "judul": "Stok Grosir Sari",
+     "lencana": "Minyak",
+     "baris": [
+      [
+       "07.00 Stok awal",
+       "Minyak goreng",
+       "12 dus"
+      ],
+      [
+       "09.00 Reseller",
+       "keluar 5 dus",
+       "sisa 7"
+      ],
+      [
+       "13.00 Reseller",
+       "keluar 4 dus",
+       "sisa 3 !"
+      ]
+     ]
+    },
+    "stempel": "MENIPIS",
+    "pose": "ketik-hp",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Sisa tiga, Sari restok; sore, sepuluh dus siap.",
+   "primitif": "daftar",
+   "opsi": {
+    "jam": "16.00",
+    "judul": "Hari 2, Sore Ini",
+    "item": [
+     {
+      "teks": "13.10 Restok: +10 dus",
+      "kata": "restok"
+     },
+     {
+      "teks": "16.00 Reseller: 10 dus",
+      "kata": "sepuluh"
+     },
+     {
+      "teks": "Sisa di aplikasi: 3 dus",
+      "kata": "siap"
+     }
+    ],
+    "stempel": "PAS",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

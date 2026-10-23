@@ -1,0 +1,241 @@
+{
+ "kode": "nw-k2-043",
+ "brand": "nusawebsite",
+ "konsep": "K2",
+ "pembuka": "k2-tebak",
+ "pemeran": {
+  "utama": "nw-f",
+  "pendukung": []
+ },
+ "judul": "Sari tahun lalu vs Sari hari ini: ukuran seragam anak pelanggan",
+ "caption": "Pelanggan langganan minta seragam baru untuk anaknya. Sari tahun lalu mencari di buku ukur penuh coretan, Sari hari ini membuka data ukuran per anak lengkap dengan tanggal ukurnya. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "adegan": [
+  {
+   "teks": "Anak pelanggan naik kelas, buku ukur Sari belum. Tebak, siapa menang?",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "bingung",
+     "wajah": [
+      "bingung"
+     ],
+     "bubble": "tahun lalu",
+     "prop": "nw-buku-coretan",
+     "stempel": "KELAS 1"
+    },
+    "kanan": {
+     "pose": "duduk-laptop",
+     "wajah": [
+      "yakin"
+     ],
+     "bubble": "hari ini"
+    },
+    "label_kiri": "DULU",
+    "label_kanan": "SEKARANG"
+   }
+  },
+  {
+   "teks": "Bu Wulan, langganan jahit Sari, pesan seragam Nadia, anaknya.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Bu Wulan",
+    "sub": "pelanggan langganan",
+    "pesan": [
+     {
+      "teks": "Sari, jahitkan seragam lagi"
+     },
+     {
+      "teks": "untuk Nadia, ukuran biasa",
+      "sorot": true
+     },
+     {
+      "teks": "Siap Bu, saya cek ukurnya",
+      "keluar": true
+     }
+    ],
+    "pose": "ketik-hp",
+    "wajah": [
+     "senang"
+    ],
+    "stempel": "PESANAN"
+   }
+  },
+  {
+   "teks": "Sari tahun lalu membuka buku ukur.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "duduk-catat",
+     "wajah": [
+      "bingung"
+     ],
+     "prop": "nw-buku-coretan",
+     "stempel": "CORETAN"
+    },
+    "kanan": {
+     "pose": "duduk-laptop",
+     "wajah": [
+      "tenang"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Sari hari ini mengetik Nadia, ukurannya muncul.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "pusing-hp",
+     "wajah": [
+      "panik"
+     ],
+     "bubble": "halaman berapa?"
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "MUNCUL"
+    }
+   }
+  },
+  {
+   "teks": "Sari tahun lalu ketemu di halaman tiga puluh tujuh.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "lega",
+     "wajah": [
+      "lega"
+     ],
+     "prop": "nw-buku-coretan",
+     "stempel": "KELAS 1",
+     "bubble": "tanggalnya?"
+    },
+    "kanan": {
+     "pose": "duduk-laptop",
+     "wajah": [
+      "mikir"
+     ],
+     "stempel": "TGL UKUR"
+    }
+   }
+  },
+  {
+   "teks": "Sari hari ini melihat tanggal ukurnya, Nadia diukur ulang.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "duduk-catat",
+     "wajah": [
+      "yakin"
+     ],
+     "stempel": "POTONG KAIN"
+    },
+    "kanan": {
+     "pose": "telepon",
+     "wajah": [
+      "yakin"
+     ],
+     "bubble": "ukur ulang ya Bu",
+     "stempel": "UKUR ULANG"
+    }
+   }
+  },
+  {
+   "teks": "Seragam Sari tahun lalu sesiku, Sari hari ini pas.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "panik",
+     "wajah": [
+      "kaget"
+     ],
+     "stempel": "SESIKU",
+     "bubble": "aduh, maaf Bu"
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "PAS",
+     "bubble": "pas kan, Bu?"
+    }
+   }
+  },
+  {
+   "teks": "Bu Wulan protes, Sari tahun lalu pindah ke aplikasi.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "lega",
+    "wajah": [
+     "lelah",
+     "lega"
+    ],
+    "ganti": "menyeberang",
+    "judul": "pindah juga!",
+    "stempel": "AKHIRNYA",
+    "bintang": true,
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Ukuran tiap anak tersimpan bertanggal.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Ukuran Seragam Sari",
+     "lencana": "Pelanggan",
+     "baris": [
+      [
+       "Nadia (Bu Wulan)",
+       "Dada 68, lengan 45",
+       "Ukur 20 Okt"
+      ],
+      [
+       "Salsa (Bu Tini)",
+       "Dada 64, lengan 42",
+       "Ukur 3 Jul"
+      ],
+      [
+       "Kirana (Bu Ani)",
+       "Dada 70, lengan 47",
+       "Ukur 12 Agu"
+      ]
+     ]
+    },
+    "stempel": "PAS",
+    "pose": "duduk-laptop",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Buku ukurnya? Tetap kelas satu.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "yakin",
+    "wajah": [
+     "tertawa"
+    ],
+    "prop": "nw-buku-coretan",
+    "judul": "buku ukur",
+    "stempel": "KELAS 1",
+    "suasana": "hangat"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

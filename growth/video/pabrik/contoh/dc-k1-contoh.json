@@ -1,0 +1,116 @@
+{
+ "kode": "dc-k1-contoh",
+ "brand": "dentalcare",
+ "konsep": "K1",
+ "judul": "Sehari di klinik kertas",
+ "caption": "Sehari di klinik. Tanya lewat WhatsApp di profil.",
+ "adegan": [
+  {
+   "teks": "Tujuh lima belas. Pasien pertama datang. Berkasnya entah di mana. Dokter mulai panik.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "07.15",
+    "pose": "bawa-berkas",
+    "wajah": [
+     "senang",
+     "kaget"
+    ],
+    "ganti": "entah",
+    "judul": "pasien pertama",
+    "stempel": "HILANG!"
+   }
+  },
+  {
+   "teks": "Sembilan pagi. Dua pasien terjadwal di jam yang sama. Semua bingung.",
+   "primitif": "bentrok",
+   "opsi": {
+    "jam": "09.00",
+    "kiri": [
+     "09.00",
+     "Bu Rina"
+    ],
+    "kanan": [
+     "09.00",
+     "Bu Dewi"
+    ],
+    "stempel": "BENTROK!"
+   }
+  },
+  {
+   "teks": "Sebelas siang. Cari satu berkas lama, lima belas menit. Pasien sampai ketiduran.",
+   "primitif": "hitung",
+   "opsi": {
+    "jam": "11.00",
+    "judul": "CARI BERKAS...",
+    "ke": 15,
+    "format": "menit",
+    "terbang": true,
+    "prop": "dc-prop-lemari-arsip"
+   }
+  },
+  {
+   "teks": "Malam hari. Energi tinggal sisa, rekap belum selesai. Kopi sudah dingin.",
+   "primitif": "meter",
+   "opsi": {
+    "jam": "21.00",
+    "suasana": "malam",
+    "meter": [
+     {
+      "judul": "ENERGI",
+      "dari": 100,
+      "ke": 4,
+      "kata": "sisa"
+     }
+    ],
+    "pose": "duduk-menulis",
+    "wajah": [
+     "lelah",
+     "kesal"
+    ]
+   }
+  },
+  {
+   "teks": "Besoknya, klinik ini pindah ke DentalCare.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "07.00"
+   }
+  },
+  {
+   "teks": "Tujuh lima belas. Data pasien langsung terbuka.",
+   "primitif": "layar",
+   "opsi": {
+    "jam": "07.15",
+    "layar": [
+     {
+      "ui": "dc-ui-pasien-daftar",
+      "judul": "Data Pasien"
+     }
+    ],
+    "stempel": "TERBUKA ✓"
+   }
+  },
+  {
+   "teks": "Sembilan pagi. Jadwal tersusun, tidak ada yang bentrok. Dokter pulang tepat waktu.",
+   "primitif": "daftar",
+   "opsi": {
+    "jam": "09.00",
+    "judul": "Jadwal Hari Ini",
+    "item": [
+     "09.00  Bu Rina",
+     "09.30  Bu Dewi",
+     "10.00  Bu Maya"
+    ],
+    "stempel": "RAPI ✓"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "sorak"
+   }
+  }
+ ]
+}

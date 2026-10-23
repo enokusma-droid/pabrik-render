@@ -1,0 +1,175 @@
+{
+ "kode": "dc-k1-032",
+ "brand": "dentalcare",
+ "konsep": "K1",
+ "pembuka": "k1-akhir-dulu",
+ "pemeran": {
+  "utama": "dc-tari",
+  "pendukung": [
+   "pasien-ibu"
+  ]
+ },
+ "judul": "Bu Wati tertidur di kursi dental menunggu satu map",
+ "caption": "Pasien sampai tertidur di kursi dental, menunggu satu map yang terselip. Sehari Mbak Tari, perawat gigi, sebelum dan sesudah DentalCare. Mau lihat demo DentalCare, tanya lewat WhatsApp di profil. #perawatgigi #klinikgigi #DentalCare",
+ "adegan": [
+  {
+   "teks": "Bu Wati tertidur di kursi dental. Mundur ke pagi.",
+   "primitif": "poster",
+   "opsi": {
+    "jam": "08.25",
+    "judul": "TERTIDUR",
+    "gambar": "dc-kartun-pasien-ibu-tunggu",
+    "keterangan": "menunggu satu map",
+    "stempel": "Zzz..."
+   }
+  },
+  {
+   "teks": "Jam delapan, Bu Wati datang. Mbak Tari, perawat gigi, mencari map.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "jam": "08.00",
+    "prop": "dc-prop-lemari-arsip",
+    "kartu": "Wati? Wanti?",
+    "tag": "CARI MAP",
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ]
+   }
+  },
+  {
+   "teks": "Dokter sudah menunggu riwayat tambalannya.",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "08.10",
+    "judul": "Dokter",
+    "sub": "ruang praktik",
+    "pesan": [
+     {
+      "teks": "Tari, map Bu Wati mana?",
+      "sorot": true
+     },
+     {
+      "teks": "Sebentar, Dok!",
+      "keluar": true
+     }
+    ],
+    "pose": "bawa-berkas",
+    "wajah": [
+     "panik"
+    ],
+    "stempel": "CEPAT!"
+   }
+  },
+  {
+   "teks": "Mapnya dicari dua puluh lima menit.",
+   "primitif": "hitung",
+   "opsi": {
+    "jam": "08.25",
+    "judul": "CARI MAP",
+    "dari": 0,
+    "ke": 25,
+    "format": "menit",
+    "terbang": true,
+    "pose": "bawa-berkas",
+    "wajah": [
+     "lelah"
+    ],
+    "bubble": "di mana ya?"
+   }
+  },
+  {
+   "teks": "Ketemu di map Bu Wanti. Bu Wati terbangun: sudah, Mbak?",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "dc-maskot-map-kaget",
+    "label": "MAP BU WATI",
+    "teks": "KETEMU!",
+    "stempel": "SUDAH, MBAK?"
+   }
+  },
+  {
+   "teks": "Pasien berikutnya sudah lewat jamnya, tambalan Bu Wati digeser. Sorenya Mbak Tari memasukkan riwayatnya ke DentalCare.",
+   "primitif": "logo",
+   "opsi": {
+    "jam": "17.30",
+    "stempel": "PINDAH!",
+    "pose": "tunjuk-papan",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Hari kedua.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "08.00"
+   }
+  },
+  {
+   "teks": "Sekali ketik, data lengkapnya tampil. Wati dan Wanti tak tertukar.",
+   "primitif": "layar",
+   "opsi": {
+    "jam": "08.05",
+    "layar": [
+     {
+      "ui": "dc-ui-pasien-daftar-rapi",
+      "judul": "Data Pasien"
+     },
+     {
+      "ui": "dc-ui-pasien-detail-rapi",
+      "judul": "Detail Pasien"
+     }
+    ],
+    "stempel": "KETEMU ✓",
+    "pose": "tunjuk-papan",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Bu Wati kembali, riwayatnya langsung ada. Kali ini tidak sempat tidur.",
+   "primitif": "daftar",
+   "opsi": {
+    "jam": "08.10",
+    "judul": "Bu Wati Kembali",
+    "item": [
+     "Map tidak dicari",
+     "Riwayat langsung ada",
+     "Tambalan lanjut"
+    ],
+    "stempel": "CEPAT ✓",
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "lega"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang, tapi ada 3 celah kecil. Adegan 6: alasan tambalan digeser masih samar, ganti dengan jadwal pasien jam setengah sembilan sudah mundur. Adegan 8: tambahkan cek tanggal lahir supaya klaim Wati/Wanti tak tertukar masuk akal. Adegan 7-8: jam 08.05 itu Tari menyiapkan data sebelum pasien datang, tulis kata siapkan.",
+  "naskah_hash": "0f5f60cdd327",
+  "waktu": "2026-10-22T01:01"
+ }
+}

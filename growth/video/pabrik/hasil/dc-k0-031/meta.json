@@ -1,0 +1,28 @@
+{
+ "kode": "dc-k0-031",
+ "brand": "dentalcare",
+ "konsep": "K0",
+ "judul": "Mbak Rina hafal tiga ratus wajah pasien, tapi bukan jam janjinya",
+ "durasi": 45.07,
+ "LUFS": -14.1,
+ "TP": -1.6,
+ "cocok_vo_%": 89,
+ "cocok_ketat_%": 81,
+ "transkrip_15dtk": "300 wajah pasien, Mbak Rina Haval. Jam janjengnya, tanya buku. Jadwal yang diganti, dia tim 4 tip X sampai menggembung. Nama Bu Ani tertutup coretannya. Bu Wati ditulis di jam 10 juga. Nama cucu Bu Ani.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/dc-k0-031.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/dc-k0-031.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T08:51+07:00",
+ "catatan_bangun": [
+  "pose \"presentasi\" untuk dc-rina tidak ada → pakai dc-rina-telepon"
+ ],
+ "phash_awal": [
+  "9a363d3b363dd3b6",
+  "b2343932343d93b6",
+  "b66c3b323d39b324"
+ ],
+ "mirip_awal": []
+}

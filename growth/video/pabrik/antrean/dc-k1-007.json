@@ -1,0 +1,152 @@
+{
+ "kode": "dc-k1-007",
+ "brand": "dentalcare",
+ "konsep": "K1",
+ "judul": "Sehari di meja pendaftaran klinik",
+ "caption": "Sehari di meja pendaftaran: formulir habis, pasien lama isi data ulang, berkas tertukar. Besoknya semua berubah. Klinikmu pernah begini? Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #datapasien #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Tujuh pagi. Pasien baru datang, formulir kertas sudah habis.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "07.00",
+    "pose": "bingung",
+    "wajah": [
+     "senang",
+     "kaget"
+    ],
+    "ganti": "habis",
+    "judul": "meja daftar",
+    "stempel": "HABIS!",
+    "prop": "dc-prop-clipboard"
+   }
+  },
+  {
+   "teks": "Delapan pagi. Pasien lama diminta mengisi data diri lagi dari awal, padahal sudah sering datang.",
+   "primitif": "hitung",
+   "opsi": {
+    "jam": "08.00",
+    "judul": "ISI FORMULIR",
+    "ke": 10,
+    "format": "menit",
+    "prop": "dc-kartun-pasien-ibu-tunggu",
+    "bubble": "lagi, Dok?",
+    "pose": "presentasi",
+    "wajah": [
+     "senang",
+     "bingung"
+    ]
+   }
+  },
+  {
+   "teks": "Sepuluh pagi. Dua pasien bernama sama, berkasnya tertukar.",
+   "primitif": "bentrok",
+   "opsi": {
+    "jam": "10.00",
+    "kiri": [
+     "10.00",
+     "Bu Rina"
+    ],
+    "kanan": [
+     "10.00",
+     "Bu Rina"
+    ],
+    "stempel": "TERTUKAR!",
+    "pose": "bingung",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Siang. Formulir menumpuk di meja, belum sempat diketik.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "jam": "13.00",
+    "prop": "dc-prop-tumpukan-berkas",
+    "kartu": "kapan diketik??",
+    "tag": "MENUMPUK",
+    "pose": "pusing",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Malam. Data pasien hari ini belum lengkap, tenaga tinggal sisa.",
+   "primitif": "meter",
+   "opsi": {
+    "jam": "20.00",
+    "suasana": "malam",
+    "meter": [
+     {
+      "judul": "TENAGA",
+      "dari": 100,
+      "ke": 6,
+      "kata": "sisa"
+     }
+    ],
+    "pose": "lelah",
+    "wajah": [
+     "lelah",
+     "sedih"
+    ]
+   }
+  },
+  {
+   "teks": "Besoknya, pendaftaran klinik ini pindah ke DentalCare.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "07.00"
+   }
+  },
+  {
+   "teks": "Tujuh pagi. Data pasien lama langsung muncul, cukup ketik nama.",
+   "primitif": "layar",
+   "opsi": {
+    "jam": "07.00",
+    "layar": [
+     {
+      "ui": "dc-ui-pasien-daftar-rapi",
+      "judul": "Data Pasien"
+     }
+    ],
+    "stempel": "MUNCUL ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Pasien tidak perlu mengisi ulang, dan berkas tidak pernah tertukar lagi.",
+   "primitif": "daftar",
+   "opsi": {
+    "jam": "09.00",
+    "judul": "Meja Daftar",
+    "item": [
+     "Data pasien tersimpan",
+     "Tidak isi ulang",
+     "Tidak tertukar"
+    ],
+    "stempel": "RAPI ✓",
+    "pose": "yakin",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

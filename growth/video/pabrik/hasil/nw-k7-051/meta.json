@@ -1,0 +1,28 @@
+{
+ "kode": "nw-k7-051",
+ "brand": "nusawebsite",
+ "konsep": "K7",
+ "judul": "Resep pre-order kopi bubuk paling kacau ala kedai Laras",
+ "durasi": 42.87,
+ "LUFS": -14.1,
+ "TP": -1.6,
+ "cocok_vo_%": 82,
+ "cocok_ketat_%": 82,
+ "transkrip_15dtk": "Bahan yang dibutuhkan 20 bungkus kopi 3 catatan dan laras pemilik kedai Langkah 1 pesanan lewat komentar Instagram Langkah 2 pesanan lewat grup WhatsApp Langkah 3 pembeli kedai",
+ "lulus_qc": true,
+ "musik": "ceria2",
+ "g3": "konten/pabrik/hasil/nw-k7-051.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k7-051.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/mafiaterkakap-prog/pabrik-render/actions/runs/39777546418",
+ "waktu": "2026-10-22T19:44+07:00",
+ "catatan_bangun": [
+  "kata \"dua kali\" tidak ada di VO adegan 6"
+ ],
+ "phash_awal": [
+  "7a113979c18033f0",
+  "7a113979c08033f1",
+  "7a099979f0ca7bb1"
+ ],
+ "mirip_awal": []
+}

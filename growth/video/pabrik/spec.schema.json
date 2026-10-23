@@ -1,0 +1,130 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Spec video pabrik reels (satu Reel 9:16, 40-45 dtk)",
+ "description": "Detail opsi tiap primitif ada di PRIMITIF.md; gerbang lengkap = node growth/video/pabrik/bangun.mjs <spec> --periksa",
+ "type": "object",
+ "required": [
+  "kode",
+  "brand",
+  "konsep",
+  "judul",
+  "pembuka",
+  "pemeran",
+  "caption",
+  "adegan",
+  "juri"
+ ],
+ "properties": {
+  "kode": {
+   "type": "string",
+   "pattern": "^[a-z0-9][a-z0-9-]{2,40}$",
+   "description": "unik; nama berkas = <kode>.json; pola disarankan dc-k5-007 / nw-k4-012"
+  },
+  "brand": {
+   "enum": [
+    "dentalcare",
+    "nusawebsite",
+    "ratu-bawang"
+   ]
+  },
+  "konsep": {
+   "enum": [
+    "K0",
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K5",
+    "K6",
+    "K7",
+    "K8"
+   ]
+  },
+  "pembuka": {
+   "type": "string",
+   "description": "id pola pembuka dari pembuka.json (konsep sama); gerbang anti-template (owner 22 Okt 2026)"
+  },
+  "pemeran": {
+   "type": "object",
+   "required": [
+    "utama"
+   ],
+   "properties": {
+    "utama": {
+     "type": "string",
+     "description": "id pemeran dari pemeran.json (utama:true)"
+    },
+    "pendukung": {
+     "type": "array",
+     "maxItems": 1,
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "description": "maks 2 tokoh manusia; selain utama wajib diperkenalkan di VO/teks layar"
+  },
+  "judul": {
+   "type": "string",
+   "maxLength": 80
+  },
+  "caption": {
+   "type": "string",
+   "maxLength": 2000,
+   "description": "caption IG/TikTok, CTA sopan, tanpa harga"
+  },
+  "musik": {
+   "enum": [
+    "ceria",
+    "ceria2",
+    "tegang",
+    "horor",
+    "haru",
+    "promo"
+   ],
+   "description": "kosong = default konsep"
+  },
+  "ticker": {
+   "type": "string",
+   "description": "K3: teks ticker berita"
+  },
+  "adegan": {
+   "type": "array",
+   "minItems": 7,
+   "maxItems": 16,
+   "description": "1 adegan = 1 blok VO; total 75-85 kata; adegan terakhir primitif cta",
+   "items": {
+    "type": "object",
+    "required": [
+     "teks",
+     "primitif"
+    ],
+    "properties": {
+     "teks": {
+      "type": "string",
+      "description": "kalimat VO (Fola) untuk adegan ini; angka ditulis sebagai kata bila ingin dibaca"
+     },
+     "primitif": {
+      "type": "string",
+      "description": "nama primitif dari PRIMITIF.md"
+     },
+     "opsi": {
+      "type": "object",
+      "description": "kolom primitif + suasana/latar/jam/hari"
+     },
+     "aset": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "description": "opsional: id aset katalog tambahan (validasi saja)"
+     }
+    }
+   }
+  },
+  "juri": {
+   "type": "object",
+   "description": "diisi cloud.sh nilai dari sub-agent JURI independen: {skor:{logika,pembuka,tokoh,relevansi,humor}, rata, catatan, naskah_hash, waktu}; tiap butir >= 8"
+  }
+ }
+}

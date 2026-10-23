@@ -1,0 +1,155 @@
+{
+ "kode": "dc-k0-020",
+ "brand": "dentalcare",
+ "konsep": "K0",
+ "judul": "Kenalin, drg. Sinta (dan buku antrean yang menderita)",
+ "caption": "Kliniknya ramai, teleponnya berdering tiap menit, janji temu ditulis cepat di buku. Yang paling menderita? Buku antreannya. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #janjitemu #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Kenalin, ini dokter Sinta, pemilik klinik yang selalu ramai.",
+   "primitif": "koran",
+   "opsi": {
+    "koran": "KABAR KLINIK",
+    "judul": "Kenalin, ini drg. Sinta",
+    "sub": "pemilik klinik gigi paling ramai di kota",
+    "foto": "dc-sinta-foto"
+   }
+  },
+  {
+   "teks": "Pasien suka, perawatnya rapi, teleponnya berdering tiap menit.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "yakin",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "drg. Sinta",
+    "stempel": "RAMAI ✓",
+    "prop": "dc-prop-ponsel"
+   }
+  },
+  {
+   "teks": "Tapi soal mencatat janji lewat telepon, skillnya anjlok.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "SKILL MERAWAT",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "CATAT TELEPON",
+      "dari": 100,
+      "ke": 5,
+      "kata": "anjlok"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Dalam sehari ada tiga puluh janji ditulis cepat di buku.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "JANJI DITULIS",
+    "ke": 30,
+    "format": "angka",
+    "terbang": true,
+    "prop": "dc-prop-buku-antrean",
+    "pose": "duduk-menulis",
+    "wajah": [
+     "lelah"
+    ]
+   }
+  },
+  {
+   "teks": "Dan kamu tahu siapa yang paling menderita?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa yang paling menderita?",
+    "bayangan": "dc-maskot-buku-antrean-sedih"
+   }
+  },
+  {
+   "teks": "Iya, aku. Buku antreannya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "dc-maskot-buku-antrean-panik",
+    "label": "BUKU ANTREAN",
+    "teks": "IYA, AKU."
+   }
+  },
+  {
+   "teks": "Halamanku penuh nomor telepon, dicoret, lalu ditulis ulang.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "dc-maskot-buku-antrean-sedih",
+    "label": "BUKU ANTREAN",
+    "item": [
+     "PENUH NOMOR",
+     "DICORET!",
+     "DITULIS ULANG"
+    ],
+    "prop": [
+     "dc-prop-sticky-note"
+    ]
+   }
+  },
+  {
+   "teks": "Sampai akhirnya klinik ini mencatat janji temu di DentalCare.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "AKHIRNYA!",
+    "kiri": "dc-maskot-buku-antrean-lega",
+    "label": "BUKU ANTREAN",
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Setiap janji dari telepon langsung masuk jadwal.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Janji Temu"
+     },
+     {
+      "ui": "dc-ui-antrean-rapi",
+      "judul": "Antrean"
+     }
+    ],
+    "stempel": "MASUK ✓"
+   }
+  },
+  {
+   "teks": "Aku pun akhirnya bisa istirahat dengan tenang.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terima kasih, Dok!",
+    "tag": "ISTIRAHAT TENANG",
+    "maskot": "dc-maskot-buku-antrean-tenang",
+    "label": "BUKU ANTREAN"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "kode": "nw-k6-031",
+ "brand": "nusawebsite",
+ "konsep": "K6",
+ "pembuka": "k6-kutipan",
+ "pemeran": {
+  "utama": "nw-laras",
+  "pendukung": []
+ },
+ "judul": "Surat dari buku pesanan kedai kopi Mbak Laras",
+ "caption": "Satu gelas es kopi tumpah, satu halaman pesanan luntur, tiga puluh gelas pesanan kantor terlambat. Surat dari buku pesanan untuk pemilik kedai. Mau aplikasi pesanan untuk usahamu, tanya lewat WhatsApp di profil. #umkm #kedaikopi #aplikasicustom",
+ "adegan": [
+  {
+   "teks": "\"Nanti saya catat di buku,\" katamu tiap pagi, Mbak Laras.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Nanti saya catat...",
+     "katamu tiap pagi"
+    ],
+    "gambar": "nw-maskot-buku-tenang"
+   }
+  },
+  {
+   "teks": "Ini suratku, buku pesanan kedaimu.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "untuk": "Mbak Laras",
+    "dari": "buku pesananmu",
+    "maskot": "nw-maskot-buku-tenang"
+   }
+  },
+  {
+   "teks": "Semua pesanan kamu tulis di halamanku.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Semua pesanan",
+     "ditulis di sini"
+    ],
+    "pose": "catat",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Suatu siang, es kopi tumpah. Kopinya untuk pelanggan, basahnya untukku.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Es kopi tumpah...",
+     "di halaman hari itu"
+    ],
+    "gambar": "nw-maskot-buku-sedih",
+    "stempel": "BASAH"
+   }
+  },
+  {
+   "teks": "Tinta jam antar pesanan tiga puluh gelas kantor sebelah luntur, tak terbaca.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Jam antar 30 gelas",
+     "LUNTUR"
+    ],
+    "angka": 30,
+    "pose": "cemas-hp",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Kamu menebak jamnya, kopinya terlambat sejam. Kudengar kamu bergumam: tidak boleh terulang.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Jam ditebak...",
+     "terlambat sejam"
+    ],
+    "pose": "cemas-hp",
+    "wajah": [
+     "yakin"
+    ],
+    "stempel": "TEKAD"
+   }
+  },
+  {
+   "teks": "Besoknya kamu pesan aplikasi khusus kedai. Kini tiap pesanan tersimpan lengkap jam antar.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Kedai Laras",
+     "lencana": "Hari ini",
+     "baris": [
+      [
+       "Kantor Sebelah",
+       "30 es kopi",
+       "10.00"
+      ],
+      [
+       "Meja 4",
+       "2 latte",
+       "Diantar ✓"
+      ],
+      [
+       "Pesan Antar",
+       "5 kopi susu",
+       "Baru"
+      ]
+     ]
+    },
+    "stempel": "TERCATAT ✓",
+    "pose": "baki",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Es kopimu masih suka tumpah, tapi pesananmu aman.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam lega,",
+    "ttd": "Buku pesananmu",
+    "maskot": "nw-maskot-buku-lega",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang. Sebab-akibatnya runtut: kopi tumpah, tinta luntur, jam antar ditebak, pesanan terlambat, lalu pesan aplikasi. Adegan 3 datar, ganti dengan keluhan lucu, mis. halamanku penuh coretan dan noda gula. Adegan 7 Besoknya kamu pesan aplikasi... Kini terkesan aplikasi langsung jadi; tulis Minggu itu kamu pesan aplikasi khusus kedai. Adegan 6 bisa diberi akibat ringan.",
+  "naskah_hash": "044b8eec6513",
+  "waktu": "2026-10-22T00:50"
+ }
+}

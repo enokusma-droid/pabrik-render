@@ -1,0 +1,144 @@
+{
+ "kode": "dc-k6-036",
+ "brand": "dentalcare",
+ "konsep": "K6",
+ "pembuka": "k6-kutipan",
+ "pemeran": {
+  "utama": "dc-tari",
+  "pendukung": []
+ },
+ "judul": "Surat dari lembar odontogram yang disalin sambil menguap",
+ "caption": "\"Nanti saya salin rapi.\" Lembar odontogram kertas akhirnya menulis surat untuk Mbak Tari. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "musik": "haru",
+ "adegan": [
+  {
+   "teks": "\"Nanti saya salin rapi,\" katamu tiap sore, Mbak Tari. Ini aku, lembar odontogram.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "\"Nanti saya salin rapi\"",
+     "kata Mbak Tari, tiap sore"
+    ],
+    "gambar": "dc-maskot-odontogram-sedih"
+   }
+  },
+  {
+   "teks": "Saat dokter memeriksa, kamu mencatat kilat pakai pensil.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "dokter memeriksa...",
+     "kamu mencatat kilat"
+    ],
+    "pose": "bawa-berkas",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Jam delapan malam, kamu menyalinku ke map sambil menguap.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "prop": "dc-prop-tumpukan-berkas",
+    "kartu": "salin... hoaaam",
+    "tag": "JAM 8 MALAM",
+    "pose": "bawa-berkas",
+    "wajah": [
+     "lelah"
+    ],
+    "suasana": "malam"
+   }
+  },
+  {
+   "teks": "Kiri-kanan tertukar. Geraham sehat, di map sudah dicabut.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "kiri-kanan tertukar",
+     "sehat, tapi dicabut?"
+    ],
+    "gambar": "dc-maskot-odontogram-kaget",
+    "stempel": "UPS"
+   }
+  },
+  {
+   "teks": "Bulan berikutnya, pasiennya yang membetulkan: yang dicabut kan yang kanan, Dok.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "kata pasien:",
+     "yang kanan, Dok"
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "kaget"
+    ],
+    "stempel": "LHO"
+   }
+  },
+  {
+   "teks": "Malu dikoreksi pasien, kamu mengusulkan: catat langsung di DentalCare.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "USUL!",
+    "kiri": "dc-maskot-odontogram-yakin",
+    "label": "ODONTOGRAM",
+    "pose": "tunjuk-papan",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Kini odontogram diisi saat diperiksa. Tak ada salinan, tak ada salah salin.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-odontogram-rapi",
+      "judul": "Odontogram"
+     }
+    ],
+    "stempel": "JELAS ✓",
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Aku pensiun, tak lagi mencabut gigi diam-diam. Salam, odontogrammu.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam,",
+    "ttd": "odontogrammu",
+    "maskot": "dc-maskot-odontogram-senang",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang, tapi alasan menyalin belum jelas. A2: sebut tempat catatan kilatnya, mis. di kertas coretan pakai pensil, supaya jelas mengapa harus disalin ke map. A5: taruh di kunjungan kontrol. A6: tambah akibat nyata, jangan hanya malu. A7 sudah tepat.",
+  "naskah_hash": "2792ad87de87",
+  "waktu": "2026-10-22T10:34"
+ }
+}

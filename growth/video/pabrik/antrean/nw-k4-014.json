@@ -1,0 +1,227 @@
+{
+ "kode": "nw-k4-014",
+ "brand": "nusawebsite",
+ "konsep": "K4",
+ "judul": "4 tipe pemilik toko saat membuka pre-order",
+ "caption": "Ada empat tipe pemilik toko saat membuka pre-order. Dari si catat di story sampai si pakai aplikasi. Kamu tipe nomor berapa? Tulis di komentar. Tanya lewat WhatsApp di profil. #umkm #preorder #aplikasibisnis",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Ada empat tipe pemilik toko saat membuka pre-order. Kamu yang mana?",
+   "primitif": "tipe-hook",
+   "opsi": {
+    "jumlah": 4,
+    "judul": "PEMILIK TOKO",
+    "sub": "saat buka pre-order",
+    "tanya": "Kamu yang mana?"
+   }
+  },
+  {
+   "teks": "Tipe satu, si catat di story. Pesanan dikumpulkan dari balasan story, lalu bingung sendiri.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Catat di Story",
+    "rarity": "COMMON",
+    "foto": "nw-f-foto-bingung-hp",
+    "stat": [
+     [
+      "SEMANGAT",
+      95
+     ],
+     [
+      "PESANAN MASUK",
+      90
+     ],
+     [
+      "TERCATAT",
+      20
+     ],
+     [
+      "TENANG",
+      15
+     ]
+    ],
+    "skill": "pesanan dari story",
+    "lemah": "bingung siapa pesan apa",
+    "gag": {
+     "jenis": "chat",
+     "item": [
+      "kak PO 2",
+      "aku 1 ya",
+      "[stiker]",
+      "ukuran L kak",
+      "yang biru 1",
+      "kak?"
+     ],
+     "kata": "story"
+    }
+   }
+  },
+  {
+   "teks": "Tipe dua, si formulir. Pesanan rapi di formulir, tapi stok lupa dibatasi.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Formulir",
+    "rarity": "RARE",
+    "foto": "nw-f-foto-menguap-hp",
+    "stat": [
+     [
+      "RAPI",
+      85
+     ],
+     [
+      "CEPAT",
+      80
+     ],
+     [
+      "BATAS STOK",
+      10
+     ],
+     [
+      "JAM TIDUR",
+      40
+     ]
+    ],
+    "skill": "semua isi formulir",
+    "lemah": "stok lupa dibatasi",
+    "gag": {
+     "turun": 2,
+     "ke": 5,
+     "kata": "lupa"
+    }
+   }
+  },
+  {
+   "teks": "Tipe tiga, si rekap manual. Pesanan dipindah ke buku sampai subuh.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Rekap Manual",
+    "rarity": "EPIC",
+    "foto": "nw-f-foto-takut-hp",
+    "stat": [
+     [
+      "TEKUN",
+      99
+     ],
+     [
+      "TELITI",
+      70
+     ],
+     [
+      "KECEPATAN",
+      15
+     ],
+     [
+      "JAM TIDUR",
+      5
+     ]
+    ],
+    "skill": "rekap sampai tuntas",
+    "lemah": "begadang tiap PO",
+    "gag": {
+     "jenis": "lupa",
+     "item": [
+      "PO siapa ini?",
+      "ukuran apa?",
+      "sudah dikirim?",
+      "alamat mana?"
+     ],
+     "kata": "subuh"
+    }
+   }
+  },
+  {
+   "teks": "Tipe empat, langka. Pesanan masuk aplikasi, stok terkunci otomatis saat habis.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Si Pakai Aplikasi",
+    "rarity": "LEGENDARY",
+    "foto": "nw-f-foto-laptop-jempol",
+    "stat": [
+     [
+      "PESANAN RAPI",
+      100
+     ],
+     [
+      "STOK AMAN",
+      100
+     ],
+     [
+      "REKAP",
+      100
+     ],
+     [
+      "JAM TIDUR",
+      100
+     ]
+    ],
+    "skill": "PO tercatat otomatis",
+    "lemah": "tidak ada (sejauh ini)",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "PO baru: Kak Sari",
+      "Stok tersisa 3",
+      "PO ditutup otomatis"
+     ],
+     "stempel": "TIDUR NYENYAK",
+     "kata": "otomatis"
+    }
+   }
+  },
+  {
+   "teks": "Daftar pesanan, ukuran, dan alamat tersusun rapi tanpa salin ulang.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Pre-order Batch 3",
+     "lencana": "48 PO",
+     "baris": [
+      [
+       "Kak Sari",
+       "Hoodie L, Biru",
+       "Tercatat"
+      ],
+      [
+       "Bu Rina",
+       "Hoodie M, Krem",
+       "Tercatat"
+      ],
+      [
+       "Mbak Dewi",
+       "Hoodie XL",
+       "Dikemas"
+      ]
+     ]
+    },
+    "stempel": "RAPI ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Kamu tipe yang mana? Tulis nomornya di komentar.",
+   "primitif": "tipe-pilih",
+   "opsi": {
+    "komentar": "Aku tipe nomor ..."
+   }
+  },
+  {
+   "teks": "Mau aplikasi pre-order untuk tokomu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Mau aplikasi pre-order\nuntuk tokomu?",
+    "pose": "jalan-laptop",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

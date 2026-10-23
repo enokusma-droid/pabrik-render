@@ -1,0 +1,172 @@
+{
+ "kode": "dc-k0-031",
+ "brand": "dentalcare",
+ "konsep": "K0",
+ "pembuka": "k0-angka",
+ "pemeran": {
+  "utama": "dc-rina",
+  "pendukung": [
+   "pasien-ibu"
+  ]
+ },
+ "judul": "Mbak Rina hafal tiga ratus wajah pasien, tapi bukan jam janjinya",
+ "caption": "Resepsionis paling ramah pun bisa kewalahan kalau jam janji pasien masih ditulis tangan di satu buku. Yang paling menderita? Bukunya sendiri. Mau lihat demo DentalCare, tanya lewat WhatsApp di profil. #klinikgigi #resepsionisklinik #DentalCare",
+ "adegan": [
+  {
+   "teks": "Tiga ratus wajah pasien, Mbak Rina hafal. Jam janjinya? Tanya buku.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "telepon",
+    "wajah": [
+     "senang",
+     "bingung"
+    ],
+    "ganti": "buku",
+    "judul": "Mbak Rina",
+    "sub": "resepsionis klinik",
+    "stempel": "HAFAL 300"
+   }
+  },
+  {
+   "teks": "Jadwal yang diganti dia timpa tip-ex sampai menggembung.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "buku",
+    "wajah": [
+     "yakin"
+    ],
+    "sisi": "kiri",
+    "prop": "dc-prop-buku-antrean",
+    "bubble": "tip-ex lagi..."
+   }
+  },
+  {
+   "teks": "Nama Bu Ani tertutup coretannya. Bu Wati ditulis di jam sepuluh juga.",
+   "primitif": "bentrok",
+   "opsi": {
+    "kiri": [
+     "10.00",
+     "Bu Ani"
+    ],
+    "kanan": [
+     "10.00",
+     "Bu Wati"
+    ],
+    "stempel": "BENTROK",
+    "pose": "telepon",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Nama cucu Bu Wati, Rina hafal. Jam Bu Wati? Ditimpa Bu Ani, menunggu sejam.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "dc-kartun-pasien-ibu-tunggu",
+    "judul": "Bu Wati",
+    "sub": "pasien kontrol",
+    "bubble": "sejam, lho!",
+    "stempel": "MENUNGGU",
+    "latar": "dc-latar-ruang-tunggu"
+   }
+  },
+  {
+   "teks": "Siapa yang paling menderita?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa yang paling menderita?",
+    "bayangan": "dc-maskot-buku-antrean-sedih"
+   }
+  },
+  {
+   "teks": "Iya, aku. Bukunya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "dc-maskot-buku-antrean-panik",
+    "label": "BUKU ANTREAN",
+    "teks": "IYA, AKU."
+   }
+  },
+  {
+   "teks": "Berbulan-bulan dicoret, ditimpa tip-ex, sampulku sampai lepas.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "dc-maskot-buku-antrean-sedih",
+    "label": "BUKU ANTREAN",
+    "item": [
+     "DICORET",
+     "DITIMPA TIP-EX",
+     "SAMPUL LEPAS"
+    ]
+   }
+  },
+  {
+   "teks": "Malu dikomplain, Mbak Rina memindahkan jadwal ke DentalCare.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "AKHIRNYA!",
+    "kiri": "dc-maskot-buku-antrean-lega",
+    "label": "BUKU ANTREAN",
+    "pose": "jempol",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Di DentalCare, jam yang sudah terisi kelihatan, tidak tertutup coretan.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jadwal"
+     },
+     {
+      "ui": "dc-ui-antrean-rapi",
+      "judul": "Antrean"
+     }
+    ],
+    "stempel": "RAPI ✓",
+    "pose": "telepon",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Aku pun pensiun tenang.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terima kasih, Mbak Rina!",
+    "tag": "PENSIUN TENANG",
+    "maskot": "dc-maskot-buku-antrean-lega",
+    "label": "BUKU ANTREAN"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 9,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang, tapi adegan 3-4 agak membingungkan. Adg4: Ditimpa Bu Ani ambigu, ganti Bu Ani datang duluan, Bu Wati menunggu sejam. Adg8: sebut siapa yang komplain. Adg2: rapikan jadi Tiap jadwal ganti, ditimpa tip-ex sampai menggembung. Bu Ani cukup disebut sebagai nama, jangan ditampilkan.",
+  "naskah_hash": "7e0b79bbc618",
+  "waktu": "2026-10-22T00:57"
+ }
+}

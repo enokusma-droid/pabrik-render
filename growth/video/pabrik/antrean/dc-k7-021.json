@@ -1,0 +1,109 @@
+{
+ "kode": "dc-k7-021",
+ "brand": "dentalcare",
+ "konsep": "K7",
+ "judul": "Tutorial: cara bikin resepsionis baru bingung",
+ "caption": "Tutorial (salah) bikin resepsionis baru bingung di hari pertama: tiga buku catatan, jadwal di kepala senior, lemari tanpa label. Jangan ditiru ya! Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #stafklinik #DentalCare",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Ada resepsionis baru di klinikmu? Ini cara bikin dia bingung. Empat langkah saja.",
+   "primitif": "tutorial-hook",
+   "opsi": {
+    "judul": "Cara bikin staf baru",
+    "kunci": "BINGUNG",
+    "jumlah": 4,
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Langkah satu, serahkan tiga buku catatan berbeda tanpa penjelasan.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "judul": "Tiga buku\nTANPA PENJELASAN",
+    "prop": "dc-prop-buku-antrean",
+    "pose": "presentasi",
+    "bubble": "pelajari ya!"
+   }
+  },
+  {
+   "teks": "Langkah dua, simpan jadwal dokter di kepala senior saja.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "judul": "Jadwal di\nKEPALA SENIOR",
+    "prop": "dc-maskot-kalender-panik",
+    "pose": "yakin",
+    "bubble": "tanya saya!"
+   }
+  },
+  {
+   "teks": "Langkah tiga, biarkan dia mencari berkas pasien di lemari tanpa label.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "judul": "Lemari\nTANPA LABEL",
+    "prop": "dc-prop-lemari-arsip",
+    "pose": "bawa-berkas",
+    "cap": "BERHASIL ✓"
+   }
+  },
+  {
+   "teks": "Langkah empat, saat senior cuti, semua informasi ikut cuti.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "judul": "Senior cuti,\nINFO IKUT CUTI",
+    "prop": "dc-kartun-resepsionis-telepon",
+    "pose": "pusing",
+    "wajah": [
+     "senang",
+     "panik"
+    ],
+    "ganti": "informasi"
+   }
+  },
+  {
+   "teks": "Atau, langkah bonus. Pakai DentalCare. Jadwal, antrean, dan data pasien bisa dipelajari dari satu aplikasi.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 5,
+    "bonus": true,
+    "judul": "Pakai DentalCare",
+    "prop": "dc-maskot-buku-antrean-lega",
+    "pose": "sorak"
+   }
+  },
+  {
+   "teks": "Hari pertama pun lancar, staf baru langsung bisa membantu pasien dengan tenang.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "Hari Pertama",
+    "item": [
+     "Jadwal terlihat",
+     "Data pasien jelas",
+     "Langsung membantu"
+    ],
+    "stempel": "LANCAR ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

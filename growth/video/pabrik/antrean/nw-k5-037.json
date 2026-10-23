@@ -1,0 +1,155 @@
+{
+ "kode": "nw-k5-037",
+ "brand": "nusawebsite",
+ "konsep": "K5",
+ "pembuka": "k5-tanya",
+ "pemeran": {
+  "utama": "detektif",
+  "pendukung": [
+   "nw-f"
+  ]
+ },
+ "judul": "Kasus kardus siap kirim tanpa nama pembeli",
+ "caption": "Satu kardus tanpa label, tiga pembeli gamis beda warna. Detektif Ana menginterogasi tersangka di toko Sari. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "adegan": [
+  {
+   "teks": "Kardus ini kehilangan nama pembeli. Siapa pelakunya?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Kardus ini kehilangan nama. Siapa?",
+    "bayangan": "nw-kardus-label"
+   }
+  },
+  {
+   "teks": "Sari, pemilik toko gamis: tiga kardus, satu tanpa label.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "nw-f",
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "judul": "Sari",
+    "sub": "toko gamis online",
+    "bubble": "1 tanpa label!"
+   }
+  },
+  {
+   "teks": "Detektif Ana cek pesanan: Ratna dongker, Lia merah, Dita hijau.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "3 PEMBELI",
+    "jumlah": 3,
+    "sub": "3 warna gamis",
+    "pita": "PENYELIDIKAN",
+    "pose": "kaca-pembesar"
+   }
+  },
+  {
+   "teks": "HP toko: itu tulisan tangan, bukan aku!",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "nw-hp-chat-banjir",
+    "label": "HP TOKO",
+    "catatan": "itu tulisan tangan, bukan aku",
+    "stempel": [
+     "ALIBI KUAT"
+    ]
+   }
+  },
+  {
+   "teks": "Buku catatan: maaf, sibuk jadi tatakan kopi.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "nw-buku-coretan",
+    "label": "BUKU CATATAN",
+    "catatan": "sibuk jadi tatakan kopi",
+    "stempel": [
+     "NODA KOPI"
+    ]
+   }
+  },
+  {
+   "teks": "Timbangan: aku cuma tahu dia gendut.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "nw-timbangan",
+    "label": "TIMBANGAN",
+    "catatan": "cuma tahu dia gendut",
+    "stempel": [
+     "ALIBI KUAT"
+    ]
+   }
+  },
+  {
+   "teks": "Kertas tempel di lantai: Ratna. Sudut robek: dongker.",
+   "primitif": "benang",
+   "opsi": {
+    "gambar": [
+     "nw-sticky-tumpuk",
+     "nw-kardus-label",
+     "nw-hp-chat-banjir"
+    ],
+    "tanya": "?",
+    "ganti": "Ratna: dongker"
+   }
+  },
+  {
+   "teks": "Pelakunya: label tempel lepas.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "nw-sticky-tumpuk",
+    "label": "PELAKU",
+    "stempel": "LABEL LEPAS"
+   }
+  },
+  {
+   "teks": "Sari pakai aplikasi: label tercetak dari pesanan, nomor plus nama.",
+   "primitif": "vonis",
+   "opsi": {
+    "vonis": "LABEL",
+    "cari": "Ratna",
+    "detik": 3,
+    "ok": "TERCETAK",
+    "app": {
+     "judul": "Label Pesanan",
+     "baris": [
+      [
+       "#12 Ratna",
+       "Gamis dongker",
+       "Dicetak"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Paket Ratna terkirim tanpa tebak-tebakan.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "nw-f",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ],
+    "judul": "Sari",
+    "sub": "paket Ratna terkirim",
+    "bubble": "terkirim!"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "tokoh": "nw-f",
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

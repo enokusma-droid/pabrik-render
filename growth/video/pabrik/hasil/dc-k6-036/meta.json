@@ -1,0 +1,26 @@
+{
+ "kode": "dc-k6-036",
+ "brand": "dentalcare",
+ "konsep": "K6",
+ "judul": "Surat dari lembar odontogram yang disalin sambil menguap",
+ "durasi": 44.37,
+ "LUFS": -14.1,
+ "TP": -1.4,
+ "cocok_vo_%": 90,
+ "cocok_ketat_%": 83,
+ "transkrip_15dtk": "Nanti saya salin rapi, kata muti absoremba tari. Ini aku, lembar odontogram. Saat dokter memeriksa, kamu mencatat kilat pake pensil. Jemdelapan malam, kamu menyalinku ke map sambil menguap. Kiri, kanan,",
+ "lulus_qc": true,
+ "musik": "haru",
+ "g3": "konten/pabrik/hasil/dc-k6-036.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/dc-k6-036.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/mafiaterkakap-prog/pabrik-render/actions/runs/39765839685",
+ "waktu": "2026-10-22T18:22+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "f2a44d92a66cd8b2",
+  "f2a4cd92a46ddab0",
+  "f0e4cd922cc9d2b4"
+ ],
+ "mirip_awal": []
+}

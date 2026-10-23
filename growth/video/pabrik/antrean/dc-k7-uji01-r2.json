@@ -1,0 +1,92 @@
+{
+ "kode": "dc-k7-uji01-r2",
+ "brand": "dentalcare",
+ "konsep": "K7",
+ "judul": "Tutorial: cara bikin pasien kabur dalam 4 langkah",
+ "caption": "Tutorial (salah) bikin pasien kabur dari klinik. Jangan ditiru ya! Klinikmu pernah mengalami langkah nomor berapa? Mau lihat demo DentalCare, tanya lewat WhatsApp di profil. #klinikgigi #dokter #DentalCare",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Mau pasien klinikmu kabur? Gampang sekali. Ikuti empat langkah ini.",
+   "primitif": "tutorial-hook",
+   "opsi": {
+    "judul": "Cara bikin pasien",
+    "kunci": "KABUR",
+    "jumlah": 4,
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Langkah satu, biarkan antrean ditulis di buku. Nomornya dobel, tidak apa-apa.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "judul": "Antrean ditulis\ndi BUKU",
+    "prop": "dc-maskot-buku-antrean-panik",
+    "pose": "presentasi",
+    "bubble": "dobel? santai!"
+   }
+  },
+  {
+   "teks": "Langkah dua, minta data pasien ulang setiap kali datang. Biar makin akrab, katanya.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "judul": "Tanya data\nULANG TERUS",
+    "prop": "dc-kartun-pasien-ibu-tunggu",
+    "pose": "tablet",
+    "bubble": "biar akrab!"
+   }
+  },
+  {
+   "teks": "Langkah tiga, catat jadwal kontrol di kalender dinding. Kalau sobek, ya sudah, lupakan.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "judul": "Jadwal di\nKALENDER DINDING",
+    "prop": "dc-maskot-kalender-sedih",
+    "pose": "jempol",
+    "cap": "BERHASIL ✓"
+   }
+  },
+  {
+   "teks": "Langkah empat, cari rekam medis lama pas pasien sudah duduk di kursi.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "judul": "Cari rekam medis\nsaat pasien DUDUK",
+    "prop": "dc-maskot-lemari-arsip-panik",
+    "pose": "lari",
+    "wajah": [
+     "senang",
+     "panik"
+    ],
+    "ganti": "duduk"
+   }
+  },
+  {
+   "teks": "Atau, langkah bonus. Pakai DentalCare saja. Antrean, data pasien, dan jadwal kontrol rapi di satu aplikasi.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 5,
+    "bonus": true,
+    "judul": "Pakai DentalCare",
+    "prop": "dc-maskot-buku-antrean-lega",
+    "pose": "sorak"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

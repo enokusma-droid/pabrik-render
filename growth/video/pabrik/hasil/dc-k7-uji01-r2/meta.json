@@ -1,0 +1,20 @@
+{
+ "kode": "dc-k7-uji01-r2",
+ "brand": "dentalcare",
+ "konsep": "K7",
+ "judul": "Tutorial: cara bikin pasien kabur dalam 4 langkah",
+ "durasi": 40.97,
+ "LUFS": -14.1,
+ "TP": -1.6,
+ "cocok_vo_%": 90,
+ "cocok_ketat_%": 81,
+ "transkrip_15dtk": "Mau pasien klinik mukabur? Gampang sekali, ikuti 4 langkah ini. Langkah 1, biarkan anterian ditulis di buku. Nomornya dobel, tidak apa-apa. Langkah 2, minta data pasien ulang setiap kali datang.",
+ "lulus_qc": true,
+ "musik": "ceria2",
+ "g3": "konten/pabrik/hasil/dc-k7-uji01-r2.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/dc-k7-uji01-r2.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T00:11+07:00",
+ "catatan_bangun": []
+}

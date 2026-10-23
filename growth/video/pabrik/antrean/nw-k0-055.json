@@ -1,0 +1,187 @@
+{
+ "kode": "nw-k0-055",
+ "brand": "nusawebsite",
+ "konsep": "K0",
+ "pembuka": "k0-benda-bicara",
+ "pemeran": {
+  "utama": "nw-f",
+  "pendukung": []
+ },
+ "judul": "Kalkulator yang tombol delapannya botak gara-gara rekap akhir bulan",
+ "caption": "Tiap akhir bulan Sari merekap ratusan nota grosir alat sekolahnya, hasilnya tidak pernah cocok dengan gudang. Cerita dari sudut pandang kalkulator di mejanya. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "adegan": [
+  {
+   "teks": "Aku kalkulator Sari. Dia sayang aku, sampai tombolku botak.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "nw-maskot-kalkulator-yakin",
+    "label": "KALKULATOR",
+    "teks": "TOMBOL BOTAK",
+    "stempel": "SAYANG?"
+   }
+  },
+  {
+   "teks": "Sari, pemilik grosir perlengkapan sekolah.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "yakin",
+    "wajah": [
+     "yakin"
+    ],
+    "judul": "Sari",
+    "sub": "grosir alat sekolah",
+    "stempel": "BOS GROSIR"
+   }
+  },
+  {
+   "teks": "Tiap akhir bulan, dia merekap ratusan nota.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "prop": "nw-tumpukan-nota",
+    "kartu": "rekap akhir bulan",
+    "tag": "312 NOTA",
+    "pose": "duduk-catat",
+    "wajah": [
+     "lelah"
+    ]
+   }
+  },
+  {
+   "teks": "Tombol delapanku aus, kadang tidak masuk.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "nw-maskot-kalkulator-bingung",
+    "label": "KALKULATOR",
+    "item": [
+     "TOMBOL 8 AUS",
+     "KADANG MACET",
+     "ANGKA HILANG"
+    ]
+   }
+  },
+  {
+   "teks": "Rekap buku tulis selisih lima puluh pak dari gudang.",
+   "primitif": "bentrok",
+   "opsi": {
+    "kiri": [
+     "430",
+     "Rekap nota"
+    ],
+    "kanan": [
+     "480",
+     "Gudang"
+    ],
+    "stempel": "SELISIH 50",
+    "pose": "bingung",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Sari malah menuduh tikus gudang.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "curiga"
+    ],
+    "bubble": "Tikus belajar?",
+    "stempel": "TERSANGKA?"
+   }
+  },
+  {
+   "teks": "Tiga malam rekap ulang, hasilnya beda terus.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "MALAM REKAP",
+    "dari": 0,
+    "ke": 3,
+    "format": "angka",
+    "prop": "nw-kalkulator-struk",
+    "bubble": "Beda lagi!",
+    "pose": "lelah",
+    "wajah": [
+     "lelah"
+    ]
+   }
+  },
+  {
+   "teks": "Sari memutuskan rekap pindah ke aplikasi.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "kiri": "nw-maskot-kalkulator-kaget",
+    "label": "KALKULATOR",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Kini tiap nota dicatat saat jual, terjumlah per barang.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Terjual per Barang",
+     "lencana": "Oktober",
+     "baris": [
+      [
+       "Buku tulis",
+       "480 pak",
+       "Cocok gudang"
+      ],
+      [
+       "Pensil 2B",
+       "120 lusin",
+       "Cocok gudang"
+      ],
+      [
+       "Penghapus",
+       "75 kotak",
+       "Cocok gudang"
+      ]
+     ]
+    },
+    "stempel": "COCOK",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Angkanya cocok, tikus pun bebas tuduhan.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "lega",
+    "wajah": [
+     "tertawa"
+    ],
+    "bubble": "Maaf, tikus!",
+    "stempel": "BEBAS"
+   }
+  },
+  {
+   "teks": "Aku pensiun, kini menghitung pekerjaan rumah anak Sari.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terima kasih, Sari!",
+    "tag": "ALAT HITUNG PR",
+    "maskot": "nw-maskot-kalkulator-lega",
+    "label": "KALKULATOR"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

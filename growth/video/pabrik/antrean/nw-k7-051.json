@@ -1,0 +1,201 @@
+{
+ "kode": "nw-k7-051",
+ "brand": "nusawebsite",
+ "konsep": "K7",
+ "pembuka": "k7-resep",
+ "pemeran": {
+  "utama": "nw-laras",
+  "pendukung": []
+ },
+ "judul": "Resep pre-order kopi bubuk paling kacau ala kedai Laras",
+ "caption": "Pesanan di komentar Instagram, grup WhatsApp, dan kertas kasir yang merangkap alas gelas. Hasilnya satu pemesan ambil dua kali, satu lagi kehabisan. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "adegan": [
+  {
+   "teks": "Bahan yang dibutuhkan: dua puluh bungkus kopi, tiga catatan, dan Laras, pemilik kedai.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "RESEP PRE-ORDER KACAU",
+    "item": [
+     {
+      "teks": "20 bungkus kopi bubuk",
+      "kata": "bungkus"
+     },
+     {
+      "teks": "3 catatan terpisah",
+      "kata": "catatan"
+     },
+     {
+      "teks": "1 Laras, pemilik kedai",
+      "kata": "pemilik"
+     }
+    ],
+    "stempel": "RESEP",
+    "pose": "catat",
+    "wajah": [
+     "senang"
+    ],
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Langkah satu, pesanan lewat komentar Instagram.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "total": 4,
+    "judul": "Pesanan di\nKOMENTAR IG",
+    "prop": "nw-hp-chat-banjir",
+    "pose": "cemas-hp",
+    "wajah": [
+     "senang"
+    ],
+    "bubble": "PO satu, Kak!"
+   }
+  },
+  {
+   "teks": "Langkah dua, pesanan lewat grup WhatsApp.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "total": 4,
+    "judul": "Pesanan di\nGRUP WHATSAPP",
+    "prop": "nw-maskot-grup-wa-lelah",
+    "pose": "catat",
+    "wajah": [
+     "senang"
+    ],
+    "bubble": "ketimbun stiker"
+   }
+  },
+  {
+   "teks": "Langkah tiga, pembeli kedai dicatat di kertas kasir, yang jadi alas gelas.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "total": 4,
+    "judul": "Tulis di\nKERTAS KASIR",
+    "prop": "nw-struk",
+    "pose": "baki",
+    "wajah": [
+     "senang"
+    ],
+    "cap": "BERHASIL"
+   }
+  },
+  {
+   "teks": "Langkah empat, jangan tandai siapa yang sudah ambil.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "total": 4,
+    "judul": "Sudah ambil?\nJANGAN DITANDAI",
+    "prop": "nw-sticky-tumpuk",
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ],
+    "cap": "BERHASIL"
+   }
+  },
+  {
+   "teks": "Hasilnya, satu pemesan ambil dua kali.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "AMBIL KOPI",
+    "dari": 0,
+    "ke": 2,
+    "format": "angka",
+    "kata": "dua kali",
+    "bubble": "lho, dua?",
+    "pose": "cemas-hp",
+    "wajah": [
+     "kaget"
+    ],
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Pemesan terakhir kehabisan. Namanya ada di bawah noda gelas.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "cemas-hp",
+    "wajah": [
+     "panik"
+    ],
+    "prop": "nw-struk",
+    "bubble": "maaf, habis...",
+    "stempel": "NODA GELAS",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Ditegur pemesan yang kehabisan, Laras ambil langkah bonus: aplikasi pre-order.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 5,
+    "bonus": true,
+    "judul": "Pre-order di\naplikasi sendiri",
+    "prop": "nw-maskot-laptop-yakin",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Semua pemesan satu daftar, yang sudah ambil dicentang.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "PO Kopi Bubuk Laras",
+     "lencana": "20 pemesan",
+     "baris": [
+      [
+       "Mbak Lia",
+       "Kopi bubuk 1",
+       "Sudah ambil"
+      ],
+      [
+       "Pak Hadi",
+       "Kopi bubuk 1",
+       "Sudah ambil"
+      ],
+      [
+       "Bu Wina",
+       "Kopi bubuk 1",
+       "Belum ambil"
+      ]
+     ]
+    },
+    "stempel": "DICENTANG",
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang. Adegan 1: tiga catatan perlu dikaitkan jelas ke IG, WA, kertas kasir; sticky note adegan 5 bisa terkesan catatan keempat. Adegan 6: sebab ambil dua kali bisa disebut. Adegan 8-9: jelaskan pemesan isi lewat satu link.",
+  "naskah_hash": "1d4a9a6c0ae9",
+  "waktu": "2026-10-22T10:37"
+ }
+}

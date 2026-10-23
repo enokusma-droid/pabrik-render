@@ -1,0 +1,209 @@
+{
+ "kode": "dc-k4-018",
+ "brand": "dentalcare",
+ "konsep": "K4",
+ "judul": "4 tipe pasien soal jadwal kontrol",
+ "caption": "Ada empat tipe pasien soal jadwal kontrol. Dari si lupa total sampai si tepat waktu. Pasienmu kebanyakan tipe yang mana? Tulis di komentar. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #jadwalkontrol #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Ada empat tipe pasien soal jadwal kontrol. Pasienmu yang mana?",
+   "primitif": "tipe-hook",
+   "opsi": {
+    "jumlah": 4,
+    "judul": "PASIEN KLINIK",
+    "sub": "soal jadwal kontrol",
+    "tanya": "Pasienmu tipe apa?"
+   }
+  },
+  {
+   "teks": "Tipe satu, si lupa total. Kartu kontrolnya hilang, jadwalnya pun ikut terlupakan.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Lupa Total",
+    "rarity": "COMMON",
+    "foto": "dc-foto-pasien-ibu",
+    "stat": [
+     [
+      "NIAT KONTROL",
+      80
+     ],
+     [
+      "INGATAN",
+      15
+     ],
+     [
+      "KARTU AMAN",
+      10
+     ],
+     [
+      "DATANG",
+      20
+     ]
+    ],
+    "skill": "rajin sikat gigi",
+    "lemah": "kartu kontrol hilang",
+    "gag": {
+     "jenis": "lupa",
+     "item": [
+      "kontrol kapan ya?",
+      "kartu di mana?",
+      "bulan ini?",
+      "minggu depan?"
+     ],
+     "kata": "terlupakan"
+    }
+   }
+  },
+  {
+   "teks": "Tipe dua, si datang mendadak. Muncul tanpa janji temu saat antrean sedang penuh.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Datang Mendadak",
+    "rarity": "RARE",
+    "foto": "dc-kartun-pasien-ibu-tunggu",
+    "stat": [
+     [
+      "SEMANGAT",
+      95
+     ],
+     [
+      "SPONTAN",
+      99
+     ],
+     [
+      "JANJI TEMU",
+      5
+     ],
+     [
+      "SABAR",
+      30
+     ]
+    ],
+    "skill": "selalu datang sendiri",
+    "lemah": "tanpa janji temu",
+    "gag": {
+     "turun": 2,
+     "ke": 3,
+     "kata": "tanpa"
+    }
+   }
+  },
+  {
+   "teks": "Tipe tiga, si takut kontrol. Jadwal sudah ada, tapi terus ditunda.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Takut Kontrol",
+    "rarity": "EPIC",
+    "foto": "dc-kartun-pasien-anak-nangis",
+    "stat": [
+     [
+      "NIAT",
+      70
+     ],
+     [
+      "BERANI",
+      10
+     ],
+     [
+      "ALASAN",
+      99
+     ],
+     [
+      "DATANG",
+      15
+     ]
+    ],
+    "skill": "pandai mencari alasan",
+    "lemah": "takut kursi dental",
+    "gag": {
+     "jenis": "lupa",
+     "item": [
+      "besok saja",
+      "minggu depan",
+      "nanti dulu",
+      "masih takut"
+     ],
+     "kata": "ditunda"
+    }
+   }
+  },
+  {
+   "teks": "Tipe empat, langka. Datang tepat waktu karena jadwalnya tercatat rapi di klinik.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Si Tepat Waktu",
+    "rarity": "LEGENDARY",
+    "foto": "dc-kartun-pasien-anak-senang",
+    "stat": [
+     [
+      "TEPAT WAKTU",
+      100
+     ],
+     [
+      "JADWAL JELAS",
+      100
+     ],
+     [
+      "GIGI SEHAT",
+      100
+     ],
+     [
+      "SENYUM",
+      100
+     ]
+    ],
+    "skill": "jadwal di DentalCare",
+    "lemah": "tidak ada (sejauh ini)",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "Jadwal kontrol: Selasa",
+      "Pasien datang ✓",
+      "Kontrol selesai"
+     ],
+     "stempel": "TEPAT WAKTU",
+     "kata": "tercatat"
+    }
+   }
+  },
+  {
+   "teks": "Dengan DentalCare, klinik bisa melihat semua jadwal kontrol pasien di satu kalender.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jadwal Kontrol"
+     }
+    ],
+    "stempel": "TERCATAT ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Pasienmu kebanyakan tipe yang mana? Tulis nomornya di kolom komentar.",
+   "primitif": "tipe-pilih",
+   "opsi": {
+    "komentar": "Kebanyakan tipe ..."
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "kode": "dc-k2-028",
+ "brand": "dentalcare",
+ "konsep": "K2",
+ "judul": "Dulu vs sekarang: pasien anak kontrol gigi",
+ "caption": "Klinik yang sama, pasien anak yang sama. Kiri lupa gigi mana yang ditambal bulan lalu, kanan langsung membuka odontogram. Klinikmu di kiri atau kanan? Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #gigianak #DentalCare",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Pasien anak yang sama, kontrol yang sama. Yang kiri dulu, yang kanan sekarang.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "bingung",
+     "wajah": [
+      "bingung"
+     ],
+     "bubble": "gigi yang mana?"
+    },
+    "kanan": {
+     "pose": "tablet",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "halo, Dek!"
+    }
+   }
+  },
+  {
+   "teks": "Kiri lupa gigi mana yang ditambal bulan lalu, lalu membuka map satu per satu.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "bawa-berkas",
+     "wajah": [
+      "panik"
+     ],
+     "prop": "dc-prop-tumpukan-berkas",
+     "stempel": "LUPA"
+    },
+    "kanan": {
+     "pose": "yakin",
+     "wajah": [
+      "yakin"
+     ],
+     "stempel": "INGAT ✓"
+    }
+   }
+  },
+  {
+   "teks": "Kanan langsung membuka odontogram, tambalan bulan lalu langsung terlihat jelas.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "pusing",
+     "wajah": [
+      "panik"
+     ],
+     "bubble": "kiri atau kanan?"
+    },
+    "kanan": {
+     "pose": "tablet",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "yang ini!"
+    }
+   }
+  },
+  {
+   "teks": "Di kiri, anaknya mulai menangis karena menunggu terlalu lama di kursi.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "lelah",
+     "wajah": [
+      "lelah"
+     ],
+     "prop": "dc-kartun-pasien-anak-nangis"
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "prop": "dc-kartun-pasien-anak-senang"
+    }
+   }
+  },
+  {
+   "teks": "Di kanan, anaknya pulang sambil tersenyum lebar dan melambai ke dokter.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "duduk-menulis",
+     "wajah": [
+      "lelah"
+     ],
+     "stempel": "MENULIS"
+    },
+    "kanan": {
+     "pose": "sorak",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "dadah, Dok!"
+    }
+   }
+  },
+  {
+   "teks": "Bedanya cuma satu, yang kanan sudah memakai odontogram di DentalCare.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-odontogram-rapi",
+      "judul": "Odontogram"
+     }
+    ],
+    "stempel": "JELAS ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Dan akhirnya, si kiri pun ikut menyeberang ke kanan. Lega sekali.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "kaget",
+     "senang"
+    ],
+    "ganti": "menyeberang",
+    "judul": "pindah juga!",
+    "stempel": "AKHIRNYA ✓",
+    "bintang": true,
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+# PABRIK REELS (repo publik pabrik-render). Spec masuk ke growth/video/pabrik/antrean/<kode>.json (dikirim dari repo induk) →
+# workflow memproduksi spec yang belum punya growth/video/pabrik/hasil/<kode>/meta.json (VO, waktu kata, bangun, render, watermark,
+# SFX+musik, QC, unggah G3) lalu commit balik hasil ringan (qc.jpg + meta.json + konsep/rotasi.json) dan memperbarui galeri.
+# Secret: S3_ENDPOINT, S3_ACCESS_KEY, S3_SECRET, S3_REGION, KONTEN_API_KEY, MD_PUSH_TOKEN. Log repo ini PUBLIK: jangan echo secret/URL presigned.
+# Tidak ada pemicu pull_request: kode dari fork tidak pernah dijalankan dan tidak pernah melihat secret.
+name: pabrik-reels
+on:
+  push:
+    branches: [main]
+    paths: ["growth/video/pabrik/antrean/*.json"]
+  workflow_dispatch:
+    inputs:
+      kode: { description: "kode dipisah koma (kosong = semua spec antrean yang belum punya hasil)", required: false, default: "" }
+      kualitas: { description: "draft|standard|high", default: "high" }
+permissions:
+  contents: write
+concurrency:
+  group: pabrik-reels-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  siapkan:
+    runs-on: ubuntu-latest
+    outputs: { matrix: "${{ steps.m.outputs.matrix }}", daftar: "${{ steps.m.outputs.daftar }}" }
+    steps:
+      # checkout UJUNG branch (bukan commit pemicu): run yang antre di belakang run lain melihat hasil/*/meta.json run sebelumnya → tidak render ulang.
+      # Run pending yang lebih lama dibatalkan GitHub (concurrency), tapi run terbaru tetap memproses SEMUA spec yang belum punya hasil.
+      - uses: actions/checkout@v4
+        with: { ref: "${{ github.ref_name }}" }
+      - id: m
+        env: { MINTA: "${{ inputs.kode }}" }
+        run: |
+          python3 - <<'PY'
+          import glob, json, os
+          minta = [k.strip() for k in os.environ.get("MINTA", "").split(",") if k.strip()]
+          ada = lambda k: os.path.exists(f"growth/video/pabrik/hasil/{k}/meta.json")
+          semua = sorted(os.path.basename(f)[:-5] for f in glob.glob("growth/video/pabrik/antrean/*.json"))
+          kode = [k for k in semua if k in minta] if minta else [k for k in semua if not ada(k)]
+          kode = kode[:20]  # maks 20 per run (repo publik); sisanya diproses run berikutnya
+          print("diproses:", kode)
+          with open(os.environ["GITHUB_OUTPUT"], "a") as o:
+              o.write(f"matrix={json.dumps(kode)}\n"); o.write(f"daftar={','.join(kode)}\n")
+          PY
+  video:
+    needs: siapkan
+    if: needs.siapkan.outputs.daftar != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix: { kode: "${{ fromJson(needs.siapkan.outputs.matrix) }}" }
+    env:
+      S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+      S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
+      S3_SECRET: ${{ secrets.S3_SECRET }}
+      S3_REGION: ${{ secrets.S3_REGION }}
+      KONTEN_API_KEY: ${{ secrets.KONTEN_API_KEY }}
+      KUALITAS: ${{ inputs.kualitas || 'high' }}
+      PY: python3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip", cache-dependency-path: growth/video/pabrik/ci/requirements.txt }
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/huggingface, key: whisper-small-v1 }
+      - name: Pasang alat
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-core fonts-noto-color-emoji > /dev/null
+          pip install -q -r growth/video/pabrik/ci/requirements.txt
+          npm i -g hyperframes@0.8.20 > /dev/null
+          hyperframes browser ensure
+      - name: Produksi ${{ matrix.kode }}
+        env: { SPEC: "growth/video/pabrik/antrean/${{ matrix.kode }}.json" }
+        run: |
+          bash growth/video/pabrik/ci/proses.sh "${{ matrix.kode }}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: qc-${{ matrix.kode }}
+          path: |
+            growth/video/pabrik/kerja/${{ matrix.kode }}/qc.jpg
+            growth/video/pabrik/kerja/${{ matrix.kode }}/hasil.json
+          retention-days: 7
+          if-no-files-found: warn
+  balik:
+    needs: [siapkan, video]
+    if: always() && needs.siapkan.outputs.daftar != ''
+    runs-on: ubuntu-latest
+    concurrency: { group: pabrik-reels-balik, cancel-in-progress: false }
+    env:
+      S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+      S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
+      S3_SECRET: ${{ secrets.S3_SECRET }}
+      S3_REGION: ${{ secrets.S3_REGION }}
+      MD_PUSH_TOKEN: ${{ secrets.MD_PUSH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - uses: actions/download-artifact@v4
+        with: { path: _art, pattern: "qc-*" }
+      - name: Tulis hasil + rotasi + galeri, commit balik
+        run: |
+          pip install -q boto3 pillow
+          git pull -q --rebase origin "${{ github.ref_name }}" || true
+          python3 growth/video/pabrik/ci/balik.py _art "${{ needs.siapkan.outputs.daftar }}" "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          git config user.name "pabrik-render[bot]"; git config user.email "pabrik-render@users.noreply.github.com"
+          for k in $(echo "${{ needs.siapkan.outputs.daftar }}" | tr ',' ' '); do git add -f "growth/video/pabrik/hasil/$k/meta.json"; [ -f "growth/video/pabrik/hasil/$k/qc.jpg" ] && git add -f "growth/video/pabrik/hasil/$k/qc.jpg"; done
+          git add growth/video/konsep/rotasi.json
+          git commit -qm "pabrik: hasil ${{ needs.siapkan.outputs.daftar }} (run ${{ github.run_id }})" || { echo "tidak ada perubahan"; exit 0; }
+          for i in 1 2 3 4 5; do git pull -q --rebase origin "${{ github.ref_name }}" && git push -q origin "HEAD:${{ github.ref_name }}" && exit 0; sleep $((i * 5)); done
+          echo "::error::push hasil gagal"; exit 1

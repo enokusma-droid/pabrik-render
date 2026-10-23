@@ -1,0 +1,26 @@
+{
+ "kode": "rb-k1-003",
+ "brand": "ratu-bawang",
+ "konsep": "K1",
+ "judul": "Sehari Chef Ayu: butuh delapan kilo, disuruh ambil lima puluh",
+ "durasi": 44.77,
+ "LUFS": -14.2,
+ "TP": -1.6,
+ "cocok_vo_%": 87,
+ "cocok_ketat_%": 87,
+ "transkrip_15dtk": "Mulai hari ini minimal 50 kilo bu, HP Chef Ayu jatuh. Butuh 8 sehari, sisanya bertunas. Pagi itu ke pasar sendiri. Ojeknya oleng, karungnya duduk lebih nyaman. Jam 9.00.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/rb-k1-003.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k1-003.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T11:49+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "92366d785a12caa6",
+  "92246d7c5a128aa6",
+  "b62d697c58588a24"
+ ],
+ "mirip_awal": []
+}

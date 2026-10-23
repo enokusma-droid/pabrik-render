@@ -1,0 +1,123 @@
+{
+ "kode": "nw-k7-017",
+ "brand": "nusawebsite",
+ "konsep": "K7",
+ "judul": "Tutorial: cara bikin jadwal shift karyawan kacau",
+ "caption": "Tutorial (salah) bikin jadwal shift karyawan kacau balau dalam empat langkah. Jangan ditiru ya! Tokomu pernah kasirnya kosong saat ramai? Tanya lewat WhatsApp di profil. #umkm #karyawan #aplikasibisnis",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Ingin jadwal shift karyawanmu kacau balau? Mudah. Ikuti empat langkah ini.",
+   "primitif": "tutorial-hook",
+   "opsi": {
+    "judul": "Cara bikin jadwal shift",
+    "kunci": "KACAU",
+    "jumlah": 4,
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Langkah satu, tulis jadwal shift di kertas, tempel di dinding dapur.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "judul": "Jadwal di\nKERTAS DAPUR",
+    "prop": "nw-sticky-tumpuk",
+    "pose": "duduk-catat",
+    "bubble": "praktis kan?"
+   }
+  },
+  {
+   "teks": "Langkah dua, ubah jadwal mendadak lewat chat pribadi, satu per satu.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "judul": "Ubah jadwal\nLEWAT CHAT",
+    "prop": "nw-hp-chat-banjir",
+    "pose": "ketik-hp",
+    "bubble": "sudah dikabari?"
+   }
+  },
+  {
+   "teks": "Langkah tiga, lupa siapa yang libur, lalu dua orang datang bersamaan.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "judul": "Lupa siapa\nyang LIBUR",
+    "prop": "nw-staf-gudang",
+    "pose": "bingung",
+    "cap": "BERHASIL ✓"
+   }
+  },
+  {
+   "teks": "Langkah empat, saat toko ramai, baru sadar tidak ada yang jaga kasir.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "judul": "Kasir\nKOSONG",
+    "prop": "nw-maskot-laptop-panik",
+    "pose": "panik",
+    "wajah": [
+     "senang",
+     "panik"
+    ],
+    "ganti": "sadar"
+   }
+  },
+  {
+   "teks": "Atau, langkah bonus. Pakai aplikasi jadwal karyawan sendiri. Shift tersusun, semua orang tahu jadwalnya.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 5,
+    "bonus": true,
+    "judul": "Pakai aplikasi\nsendiri",
+    "prop": "nw-maskot-laptop-yakin",
+    "pose": "lega"
+   }
+  },
+  {
+   "teks": "Toko ramai pun tetap terjaga.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Shift Minggu Ini",
+     "baris": [
+      [
+       "Senin pagi",
+       "Tari, Dewi",
+       "Siap ✓"
+      ],
+      [
+       "Senin sore",
+       "Sari, Mira",
+       "Siap ✓"
+      ],
+      [
+       "Selasa pagi",
+       "Lia, Tari",
+       "Siap ✓"
+      ]
+     ]
+    },
+    "stempel": "TERJAGA ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

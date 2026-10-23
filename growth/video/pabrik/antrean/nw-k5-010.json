@@ -1,0 +1,156 @@
+{
+ "kode": "nw-k5-010",
+ "brand": "nusawebsite",
+ "konsep": "K5",
+ "judul": "Detektif: kasus katering yang selalu terlambat",
+ "caption": "Pesanan katering terlambat lagi. Detektif kami memeriksa kurir, kertas tempel, dan grup chat. Pelakunya? Jadwal antar yang tercecer. Tanya lewat WhatsApp di profil. #umkm #katering #aplikasibisnis",
+ "musik": "tegang",
+ "adegan": [
+  {
+   "teks": "Pesanan katering jam sebelas. Terlambat. Lagi.",
+   "primitif": "berkas-kasus",
+   "opsi": {
+    "nomor": "Katering kantor 11.00",
+    "gambar": "nw-pelanggan-online",
+    "label": "Jam 11.00",
+    "stempel": [
+     {
+      "teks": "TERLAMBAT",
+      "kata": "terlambat"
+     },
+     {
+      "teks": "LAGI.",
+      "kata": "lagi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ini keterlambatan keempat bulan ini. Penyelidikan dimulai.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "TELAT KE-",
+    "jumlah": 4,
+    "sub": "bulan ini",
+    "pita": "PENYELIDIKAN"
+   }
+  },
+  {
+   "teks": "Tersangka pertama, kurir. Alibinya kuat, motornya siap sejak pagi.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "nw-kurir",
+    "label": "kurir",
+    "catatan": "siap\nsejak pagi",
+    "stempel": [
+     {
+      "teks": "ALIBI KUAT ✓",
+      "kata": "alibinya"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka kedua, kertas tempel. Jam antarnya tertulis jam satu.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "nw-sticky-tumpuk",
+    "label": "kertas tempel",
+    "catatan": "jam 11\natau jam 1?",
+    "stempel": [
+     {
+      "teks": "SALAH TULIS",
+      "kata": "tertulis"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka ketiga, grup chat. Jadwal baru tenggelam di bawah stiker.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "nw-hp-chat-banjir",
+    "label": "grup chat",
+    "stempel": [
+     {
+      "teks": "TENGGELAM",
+      "kata": "tenggelam"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Semua benang merah mengarah ke satu pelaku.",
+   "primitif": "benang",
+   "opsi": {
+    "gambar": [
+     "nw-kurir",
+     "nw-sticky-tumpuk",
+     "nw-hp-chat-banjir"
+    ]
+   }
+  },
+  {
+   "teks": "Pelakunya, jadwal antar yang dicatat di mana mana.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "nw-buku-coretan",
+    "label": "PELAKU",
+    "stempel": {
+     "teks": "JADWAL TERCECER",
+     "kata": "mana"
+    }
+   }
+  },
+  {
+   "teks": "Vonisnya, pakai aplikasi jadwal antar sendiri. Semua jam terlihat dalam hitungan detik.",
+   "primitif": "vonis",
+   "opsi": {
+    "app": {
+     "judul": "Jadwal Antar",
+     "baris": [
+      [
+       "11.00 Kantor A",
+       "Nasi kotak x40",
+       "Siap ✓"
+      ],
+      [
+       "13.00 Bu Rina",
+       "Tumpeng mini",
+       "Dimasak"
+      ]
+     ]
+    },
+    "judul": "Cari Jadwal",
+    "cari": "katering 11.00",
+    "detik": 2,
+    "ok": "KETEMU ✓"
+   }
+  },
+  {
+   "teks": "Kasus ditutup. Katering datang tepat waktu.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Tepat waktu!",
+    "tag": "KASUS DITUTUP",
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

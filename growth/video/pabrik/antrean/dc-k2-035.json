@@ -1,0 +1,180 @@
+{
+ "kode": "dc-k2-035",
+ "brand": "dentalcare",
+ "konsep": "K2",
+ "pembuka": "k2-tanya-beda",
+ "pemeran": {
+  "utama": "dc-rina",
+  "pendukung": [
+   "pasien-ibu"
+  ]
+ },
+ "judul": "Satu pertanyaan, dua nasib: kontrol saya hari apa, Mbak?",
+ "caption": "Bu Wati cuma tanya satu hal. Rina tahun lalu dan Rina sekarang menjawab dengan cara berbeda. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Satu pertanyaan, dua nasib. Bu Wati, pasien kontrol: kontrol saya hari apa, Mbak?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Kontrol hari apa?",
+    "bayangan": "dc-maskot-buku-antrean-sedih",
+    "latar": "dc-latar-resepsionis"
+   }
+  },
+  {
+   "teks": "Kiri, Mbak Rina si resepsionis tahun lalu. Kanan, sekarang.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "SEKARANG",
+    "kiri": {
+     "pose": "telepon",
+     "wajah": [
+      "bingung"
+     ],
+     "bubble": "hari apa ya..."
+    },
+    "kanan": {
+     "pose": "telepon",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "sebentar, Bu"
+    }
+   }
+  },
+  {
+   "teks": "Rina tahun lalu membalik buku: dua Bu Wati, beda alamat.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "SEKARANG",
+    "kiri": {
+     "pose": "buku",
+     "wajah": [
+      "panik"
+     ],
+     "prop": "dc-prop-buku-antrean",
+     "stempel": "2 BU WATI?"
+    },
+    "kanan": {
+     "pose": "telepon",
+     "wajah": [
+      "yakin"
+     ],
+     "bubble": "ketik nama..."
+    }
+   }
+  },
+  {
+   "teks": "Rina sekarang mengetik nama Bu Wati. Kamis jam sepuluh, terjawab.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "SEKARANG",
+    "kiri": {
+     "pose": "buku",
+     "wajah": [
+      "bingung"
+     ],
+     "bubble": "yang mana ya?"
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "KAMIS 10.00"
+    }
+   }
+  },
+  {
+   "teks": "Sisanya, Rina kanan sempat mendengar cerita cucu Bu Wati.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "SEKARANG",
+    "kiri": {
+     "pose": "panik",
+     "wajah": [
+      "lelah"
+     ],
+     "stempel": "MASIH CARI"
+    },
+    "kanan": {
+     "pose": "telepon",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "lucunya, Bu!"
+    }
+   }
+  },
+  {
+   "teks": "Rina tahun lalu janji menelepon balik. Lalu lupa.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "SEKARANG",
+    "kiri": {
+     "pose": "panik",
+     "wajah": [
+      "panik"
+     ],
+     "stempel": "NANTI YA..."
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "sampai Kamis!"
+    }
+   }
+  },
+  {
+   "teks": "Bu Wati kiri menebak Rabu. Klinik tutup, pulang naik ojek lagi.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "dc-kartun-pasien-ibu-tunggu",
+    "judul": "Bu Wati",
+    "sub": "pasien kontrol",
+    "bubble": "kok tutup?",
+    "stempel": "RABU LIBUR",
+    "latar": "dc-latar-ruang-tunggu"
+   }
+  },
+  {
+   "teks": "Bedanya: Rina kanan mencari pasien di DentalCare, jadwal kontrolnya langsung tampil.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-pasien-daftar-rapi",
+      "judul": "Cari Pasien"
+     },
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jadwal Kontrol"
+     }
+    ],
+    "stempel": "5 DETIK ✓",
+    "pose": "telepon",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

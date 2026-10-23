@@ -1,0 +1,20 @@
+{
+ "kode": "dc-k4-005",
+ "brand": "dentalcare",
+ "konsep": "K4",
+ "judul": "4 tipe klinik soal catatan obat",
+ "durasi": 35.23,
+ "LUFS": -14.2,
+ "TP": -1.5,
+ "cocok_vo_%": 91,
+ "cocok_ketat_%": 82,
+ "transkrip_15dtk": "Ada 4 tipe klinik soal catatan obat. Kamu yang mana? Tipa 1, si buku turis. Rajin mencatat tapi tulisannya sulit dibaca sendiri. Tipa 2, si ingatan kuat. Yakin obat masih ada, ternyata tinggal kotaknya.",
+ "lulus_qc": false,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/dc-k4-005.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/dc-k4-005.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T00:59+07:00",
+ "catatan_bangun": []
+}

@@ -1,0 +1,113 @@
+{
+ "kode": "dc-k3-037",
+ "brand": "dentalcare",
+ "konsep": "K3",
+ "pembuka": "k3-prakiraan",
+ "pemeran": {
+  "utama": "dc-sinta",
+  "pendukung": [
+   "reporter"
+  ]
+ },
+ "judul": "Prakiraan klinik: catatan berawan, Ka atau Ki?",
+ "caption": "Prakiraan hari ini: catatan dokter berawan, nyaris tak terbaca. Pasiennya sampai hafal langit-langit. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "musik": "tegang",
+ "ticker": "WASPADA TULISAN DOKTER, JARAK PANDANG 10 CM • KA ATAU KI? • PASIEN HAFAL LANGIT-LANGIT • KLINIK PINDAH KE DENTALCARE",
+ "adegan": [
+  {
+   "teks": "Prakiraan hari ini dari Reporter Mega: di klinik dokter Sinta, catatan berawan, tulisan nyaris tak terbaca.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "KETERBACAAN",
+      "dari": 100,
+      "ke": 8
+     }
+    ],
+    "tokoh": "dc-kartun-reporter-kartun",
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Catatan itu ditulis bulan lalu, di sela tiga pasien.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "dc-reporter-mic",
+    "judul": "Jarak pandang 10 cm",
+    "label": "BERITA TERKINI",
+    "nama": "Reporter Mega",
+    "jabatan": "Langsung dari klinik"
+   }
+  },
+  {
+   "teks": "Hari ini pasiennya kontrol. Dokter Sinta sendiri menebak: Ka atau Ki?",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "dc-sinta-foto",
+    "nama": "drg. Sinta",
+    "ket": "Penulis catatan",
+    "kutipan": "Ka atau Ki, ya?",
+    "stempel": "MENEBAK"
+   }
+  },
+  {
+   "teks": "Tak berani menebak, dokter memeriksa ulang semua geraham. Pasiennya sampai hafal langit-langit.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "pusing",
+    "wajah": [
+     "bingung",
+     "lelah"
+    ],
+    "ganti": "langit",
+    "prop": "dc-prop-kaca-mulut",
+    "bubble": "cek semua...",
+    "stempel": "CEK ULANG",
+    "latar": "dc-latar-praktik"
+   }
+  },
+  {
+   "teks": "Update terbaru. Hari itu juga, dokter Sinta pindah menulis catatan di DentalCare.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "dc-reporter-tunjuk",
+    "judul": "Klinik pindah ke DentalCare",
+    "label": "UPDATE",
+    "nama": "Reporter Mega",
+    "jabatan": "Langsung dari klinik"
+   }
+  },
+  {
+   "teks": "Kontrol bulan depan, catatan hari ini terbuka di odontogram, kanan tertulis kanan. Prakiraan: cerah.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-odontogram-rapi",
+      "judul": "Odontogram"
+     },
+     {
+      "ui": "dc-ui-soap-rapi",
+      "judul": "Catatan Klinis"
+     }
+    ],
+    "stempel": "CERAH ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "tertawa"
+    ]
+   }
+  }
+ ]
+}

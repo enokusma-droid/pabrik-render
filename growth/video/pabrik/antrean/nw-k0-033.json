@@ -1,0 +1,199 @@
+{
+ "kode": "nw-k0-033",
+ "brand": "nusawebsite",
+ "konsep": "K0",
+ "pembuka": "k0-pujian-terbalik",
+ "pemeran": {
+  "utama": "nw-f",
+  "pendukung": []
+ },
+ "judul": "Kue Sari tidak pernah miring, notanya lain cerita",
+ "caption": "Kuenya rapi, notanya jatuh ke kolong kulkas. Cerita dari sudut pandang nota pesanan toko kue Sari. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "adegan": [
+  {
+   "teks": "Kue di toko Sari tidak pernah miring. Notanya, lain cerita.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "yakin",
+    "wajah": [
+     "yakin"
+    ],
+    "judul": "Sari",
+    "sub": "pemilik toko kue",
+    "stempel": "RAPI"
+   }
+  },
+  {
+   "teks": "Soal mencatat pesanan, nilai Sari anjlok.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "KUE RAPI",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "CATATAN PESANAN",
+      "dari": 100,
+      "ke": 8,
+      "kata": "anjlok"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Semua pesanan ditulis di nota, ditempel di pintu kulkas.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "prop": "nw-tumpukan-nota",
+    "kartu": "nota di pintu kulkas",
+    "tag": "23 NOTA",
+    "pose": "duduk-catat",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Tiap kulkas dibuka, satu nota jatuh. Tebak siapa?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa yang jatuh ke kolong?",
+    "bayangan": "nw-maskot-nota-kaget"
+   }
+  },
+  {
+   "teks": "Iya, aku. Nota pesanannya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "nw-maskot-nota-kaget",
+    "label": "NOTA PESANAN",
+    "teks": "IYA, AKU.",
+    "stempel": "JATUH LAGI"
+   }
+  },
+  {
+   "teks": "Aku kena krim, kena tepung, tiga hari di kolong.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "nw-maskot-nota-lelah",
+    "label": "NOTA PESANAN",
+    "item": [
+     "KENA KRIM",
+     "KENA TEPUNG",
+     "3 HARI DI KOLONG"
+    ]
+   }
+  },
+  {
+   "teks": "Akibatnya, Bu Ratna datang mengambil kue yang belum dibuat.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Bu Ratna",
+    "sub": "pelanggan",
+    "pesan": [
+     {
+      "teks": "Kak, saya sudah di depan",
+      "sorot": true
+     },
+     {
+      "teks": "ambil kue ulang tahun"
+     },
+     {
+      "teks": "eh... pesanan yang mana?",
+      "keluar": true
+     }
+    ],
+    "pose": "panik",
+    "wajah": [
+     "kaget"
+    ],
+    "stempel": "LUPA!"
+   }
+  },
+  {
+   "teks": "Malam itu Sari memutuskan, pesanan pindah ke aplikasi sendiri.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "kiri": "nw-maskot-nota-yakin",
+    "label": "NOTA PESANAN",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Kini tiap pesanan tercatat dengan tanggal ambilnya.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Pesanan Kue Sari",
+     "lencana": "Besok 3",
+     "baris": [
+      [
+       "Bu Ratna",
+       "Kue cokelat, nama Dita",
+       "Ambil 10.00"
+      ],
+      [
+       "Kantor Maju",
+       "Tart buah besar",
+       "Ambil 14.00"
+      ],
+      [
+       "Mbak Lia",
+       "Kue keju kecil",
+       "Ambil 16.00"
+      ]
+     ]
+    },
+    "stempel": "RAPI",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Aku pensiun. Sekarang cuma ditempel magnet, jadi kenangan.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terima kasih, Sari!",
+    "tag": "PENSIUN TENANG",
+    "maskot": "nw-maskot-nota-senang",
+    "label": "NOTA PESANAN"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 9,
+   "tokoh": 8,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.4,
+  "catatan": "Layak tayang. Adegan 10: nota pensiun tapi ditempel magnet di kulkas, rancu. Adegan 7: VO datang tapi visual chat. Adegan 4-5: tumpukan 23 nota vs satu nota.",
+  "naskah_hash": "db389958d10a",
+  "waktu": "2026-10-22T10:30"
+ }
+}

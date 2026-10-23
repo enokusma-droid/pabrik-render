@@ -1,0 +1,113 @@
+{
+ "kode": "dc-k7-006",
+ "brand": "dentalcare",
+ "konsep": "K7",
+ "judul": "Tutorial: cara bikin dokter lembur setiap malam",
+ "caption": "Tutorial (salah) bikin dokter lembur setiap malam: tulis tangan, gambar manual, salin ulang. Jangan ditiru ya! Langkah nomor berapa yang masih kamu lakukan? Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #doktergigi #DentalCare",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Ini cara paling ampuh bikin dokter lembur setiap malam. Cukup empat langkah.",
+   "primitif": "tutorial-hook",
+   "opsi": {
+    "judul": "Cara bikin dokter",
+    "kunci": "LEMBUR",
+    "jumlah": 4,
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Langkah satu, tulis catatan pemeriksaan dengan tangan. Makin panjang makin bagus.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "judul": "Catatan periksa\nTULIS TANGAN",
+    "prop": "dc-prop-clipboard",
+    "pose": "duduk-menulis",
+    "bubble": "makin bagus!"
+   }
+  },
+  {
+   "teks": "Langkah dua, gambar odontogram di kertas untuk setiap pasien.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "judul": "Gambar odontogram\ndi KERTAS",
+    "prop": "dc-maskot-odontogram-sedih",
+    "pose": "presentasi",
+    "bubble": "seni banget!"
+   }
+  },
+  {
+   "teks": "Langkah tiga, salin semua catatan ke buku rekap sesudah praktik.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "judul": "Salin ke\nBUKU REKAP",
+    "prop": "dc-prop-tumpukan-berkas",
+    "pose": "lelah",
+    "cap": "BERHASIL ✓"
+   }
+  },
+  {
+   "teks": "Langkah empat, cari resep obat lama yang entah terselip di mana.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "judul": "Cari resep\nyang TERSELIP",
+    "prop": "dc-prop-bola-kertas",
+    "pose": "lari",
+    "wajah": [
+     "senang",
+     "panik"
+    ],
+    "ganti": "terselip"
+   }
+  },
+  {
+   "teks": "Atau, langkah bonus. Pakai DentalCare. Catatan klinis, odontogram, dan obat tersimpan di satu tempat.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 5,
+    "bonus": true,
+    "judul": "Pakai DentalCare",
+    "prop": "dc-maskot-odontogram-senang",
+    "pose": "sorak"
+   }
+  },
+  {
+   "teks": "Selesai praktik, semua catatan sudah rapi, dokter bisa langsung pulang.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-soap-rapi",
+      "judul": "Catatan Klinis"
+     },
+     {
+      "ui": "dc-ui-odontogram-rapi",
+      "judul": "Odontogram"
+     }
+    ],
+    "stempel": "PULANG ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

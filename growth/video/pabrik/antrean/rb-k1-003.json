@@ -1,0 +1,217 @@
+{
+ "kode": "rb-k1-003",
+ "brand": "ratu-bawang",
+ "konsep": "K1",
+ "pembuka": "k1-kutipan",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": [
+   "rb-wening"
+  ]
+ },
+ "judul": "Sehari Chef Ayu: butuh delapan kilo, disuruh ambil lima puluh",
+ "caption": "Pemasok minta minimal lima puluh kilo, padahal Chef Ayu butuh delapan. Belanja eceran ke pasar makan dua jam dan lebih mahal. Hari kedua, Mbak Wening dari Ratu Bawang datang: ecer dilayani, ditimbang di depan, bayar saat sampai, gratis ongkir Jogja. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #kafejogja",
+ "adegan": [
+  {
+   "teks": "\"Mulai hari ini minimal lima puluh kilo, Bu.\" HP Chef Ayu jatuh.",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "05.30",
+    "judul": "Pengepul Langganan",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Pesan 8 kilo ya",
+      "keluar": true
+     },
+     {
+      "teks": "Minimal 50 kilo, Bu",
+      "sorot": true
+     }
+    ],
+    "pose": "telepon",
+    "wajah": [
+     "kaget"
+    ],
+    "stempel": "50 KILO?!"
+   }
+  },
+  {
+   "teks": "Butuh delapan sehari. Sisanya bertunas.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "05.35",
+    "pose": "keranjang-kosong",
+    "wajah": [
+     "bingung"
+    ],
+    "judul": "Chef Ayu",
+    "sub": "pemilik resto",
+    "bubble": "butuh 8 kilo!",
+    "prop": "rb-karung-bawang",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Pagi itu ke pasar sendiri. Ojeknya oleng, karungnya duduk lebih nyaman.",
+   "primitif": "hitung",
+   "opsi": {
+    "jam": "06.00",
+    "judul": "90 MENIT PP",
+    "dari": 0,
+    "ke": 90,
+    "format": "angka",
+    "pose": "foto-nangis",
+    "bubble": "pelan, Pak!",
+    "latar": "rb-latar-pasar-bawang"
+   }
+  },
+  {
+   "teks": "Jam sembilan pulang. Cabai menunggu bawang, tamu menunggu sambal.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "jam": "09.00",
+    "prop": "rb-keranjang-bawang",
+    "kartu": "sambal belum ada",
+    "tag": "SAMBAL TELAT",
+    "pose": "masak",
+    "wajah": [
+     "lelah"
+    ],
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Grup chef menyarankan Ratu Bawang.",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "14.00",
+    "judul": "Grup Chef Jogja",
+    "sub": "32 anggota",
+    "pesan": [
+     {
+      "teks": "Coba Ratu Bawang, ecer bisa",
+      "sorot": true
+     },
+     {
+      "teks": "Ongkir Jogja gratis"
+     }
+    ],
+    "pose": "foto-lega-hp",
+    "stempel": "CATAT!"
+   }
+  },
+  {
+   "teks": "Sorenya pesan delapan kilo, bayar saat sampai.",
+   "primitif": "logo",
+   "opsi": {
+    "jam": "16.00",
+    "stempel": "PESAN!",
+    "pose": "telepon",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Hari kedua.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "06.00"
+   }
+  },
+  {
+   "teks": "Jam enam. Kemarin karung yang duduk nyaman, kini Chef Ayu.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "06.05",
+    "pose": "foto-lega-hp",
+    "stempel": "SEMPAT NGOPI",
+    "suasana": "solusi",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Paginya Mbak Wening, kurir Ratu Bawang, datang.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "07.00",
+    "tokoh": "rb-wening",
+    "pose": "serah-karung",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Mbak Wening",
+    "sub": "kurir Ratu Bawang",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Pas delapan, bumbu jalan.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "Pesanan Chef Ayu",
+    "item": [
+     "Pas 8 kilo, ecer",
+     "Tangan pertama dari petani",
+     "Bayar saat sampai",
+     "Gratis ongkir Jogja"
+    ],
+    "stempel": "PAS ✓",
+    "pose": "karung-jempol",
+    "wajah": [
+     "senang"
+    ],
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Jam delapan sambal siap. Baru sempat buka chat: lima puluhnya buat Bapak saja.",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "08.00",
+    "judul": "Pengepul Langganan",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Minimal 50 kilo, Bu"
+     },
+     {
+      "teks": "50-nya buat Bapak saja",
+      "keluar": true,
+      "sorot": true
+     }
+    ],
+    "pose": "masak",
+    "wajah": [
+     "yakin"
+    ],
+    "stempel": "SUDAH BERES"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "karung-jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Layak, tapi ada 3 hal. Adegan 11 paling lemah: Chef Ayu baru membalas pengepul sehari kemudian, dan '50-nya buat Bapak saja' terdengar ketus. Ganti: 'Maaf Pak, sekarang ada yang bisa ecer 8 kilo.' Adegan 3: ojek di 'pelan, Pak!' jadi tokoh ketiga; tulis sebagai benda saja. Adegan 6/9: sebut 'diantar besok pagi' supaya kedatangan jam 07.00 tidak terasa kebetulan.",
+  "naskah_hash": "0ac6ed34eb84",
+  "waktu": "2026-10-22T04:27"
+ }
+}

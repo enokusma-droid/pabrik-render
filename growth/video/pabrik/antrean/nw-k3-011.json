@@ -1,0 +1,120 @@
+{
+ "kode": "nw-k3-011",
+ "brand": "nusawebsite",
+ "konsep": "K3",
+ "judul": "Berita: laundry kehilangan nota pelanggan lagi",
+ "caption": "Berita terkini dari sebuah laundry: nota pelanggan hilang lagi, cucian dicari dua jam. Update terbaru, laundry ini akhirnya punya aplikasi pencatat cucian sendiri. Tanya lewat WhatsApp di profil. #umkm #laundry #aplikasibisnis",
+ "ticker": "LAUNDRY KEHILANGAN NOTA LAGI • PELANGGAN MENUNGGU DUA JAM • PEMILIK MENEMUKAN SOLUSI",
+ "adegan": [
+  {
+   "teks": "Berita terkini. Sebuah laundry kehilangan nota pelanggan untuk ketiga kalinya minggu ini.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-mic",
+    "judul": "Laundry kehilangan nota lagi",
+    "label": "BERITA TERKINI",
+    "nama": "Dinda Lestari",
+    "jabatan": "Reporter, langsung di lokasi"
+   }
+  },
+  {
+   "teks": "Seorang pelanggan mengaku sudah dua jam menunggu cuciannya dicari.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "nw-pelanggan-online",
+    "nama": "Bu Rina",
+    "ket": "Pelanggan laundry",
+    "kutipan": "Cucian saya yang mana ya?",
+    "stempel": "2 JAM"
+   }
+  },
+  {
+   "teks": "Di lokasi, tumpukan cucian dan nota kertas terlihat menggunung sampai ke pintu.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "prop": "nw-tumpukan-nota",
+    "kartu": "nota yang mana??",
+    "tag": "MENGGUNUNG",
+    "pose": "panik",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Pemilik laundry menjelaskan, semua nota ditulis tangan dan mudah tercecer.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "nw-f-foto-bingung-hp",
+    "nama": "Kak Nadia",
+    "ket": "Pemilik laundry",
+    "kutipan": "Notanya sering terselip",
+    "stempel": "TERCECER"
+   }
+  },
+  {
+   "teks": "Update terbaru. Laundry ini akhirnya memakai aplikasi pencatat cucian sendiri.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-tunjuk",
+    "judul": "Laundry pakai aplikasi sendiri",
+    "label": "UPDATE",
+    "nama": "Dinda Lestari",
+    "jabatan": "Reporter"
+   }
+  },
+  {
+   "teks": "Setiap cucian punya nomor, status cuci, dan jadwal ambil yang jelas.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Cucian Masuk",
+     "lencana": "8 hari ini",
+     "baris": [
+      [
+       "#L021 Bu Rina",
+       "Kiloan tiga kilo",
+       "Siap ambil"
+      ],
+      [
+       "#L022 Kak Sari",
+       "Bedcover",
+       "Dicuci"
+      ],
+      [
+       "#L023 Mbak Dewi",
+       "Kiloan lima kilo",
+       "Disetrika"
+      ]
+     ]
+    },
+    "stempel": "JELAS ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Staf laundry kini cukup mengetik nomor nota, cucian pelanggan langsung ketemu.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "nw-admin-cs",
+    "nama": "Mbak Tari",
+    "ket": "Staf laundry",
+    "kutipan": "Tinggal ketik nomor nota!",
+    "stempel": "KETEMU ✓"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

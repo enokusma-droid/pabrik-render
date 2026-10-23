@@ -1,0 +1,203 @@
+{
+ "kode": "nw-k3-048",
+ "brand": "nusawebsite",
+ "konsep": "K3",
+ "pembuka": "k3-tanya",
+ "pemeran": {
+  "utama": "nw-f",
+  "pendukung": [
+   "reporter"
+  ]
+ },
+ "judul": "Investigasi: dua nota nomor 17 di laundry Sari",
+ "caption": "Dua pelanggan memegang nota nomor 17 yang sama, cucian pun tertukar. Liputan dari laundry kiloan Kak Sari. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "ticker": "DUA NOTA NOMOR 17 DI SATU LAUNDRY • KEMEJA KANTOR BERUBAH JADI DASTER BUNGA • SAKSI KUNCI: NOTA JILID BARU MULAI DARI SATU",
+ "adegan": [
+  {
+   "teks": "Bagaimana kemeja kantor pulang menjadi daster? Reporter Mega menyelidiki.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-mic",
+    "judul": "Kemeja pulang jadi daster",
+    "label": "INVESTIGASI",
+    "nama": "Mega",
+    "jabatan": "Reporter"
+   }
+  },
+  {
+   "teks": "Sari, pemilik laundry kiloan, mencatat nota manual.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "nw-f-potret",
+    "nama": "Sari",
+    "ket": "Pemilik laundry kiloan",
+    "kutipan": "Tulisan saya rapi, kok",
+    "stempel": "MANUAL"
+   }
+  },
+  {
+   "teks": "Pemilik kemeja malah menerima daster.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pelanggan nota 17",
+    "sub": "pemilik kemeja",
+    "pesan": [
+     {
+      "teks": "Kak, kok isinya daster?",
+      "sorot": true
+     },
+     {
+      "teks": "besok saya rapat, Kak!"
+     }
+    ],
+    "pose": "panik",
+    "wajah": [
+     "kaget"
+    ],
+    "stempel": "TERTUKAR"
+   }
+  },
+  {
+   "teks": "Pemilik daster heran, sejak kapan dasternya berkerah?",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Nota 17 yang lain",
+    "sub": "pemilik daster",
+    "pesan": [
+     {
+      "teks": "Kak, ini kemeja siapa?",
+      "sorot": true
+     },
+     {
+      "teks": "daster saya kok berkerah?"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "stempel": "???"
+   }
+  },
+  {
+   "teks": "Ternyata keduanya memegang nota tujuh belas.",
+   "primitif": "bentrok",
+   "opsi": {
+    "kiri": [
+     "No.17",
+     "Kemeja"
+    ],
+    "kanan": [
+     "No.17",
+     "Daster"
+    ],
+    "stempel": "KEMBAR!",
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ]
+   }
+  },
+  {
+   "teks": "Nota jilid baru mulai dari satu, padahal jilid lama belum diambil.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "nw-maskot-nota-kaget",
+    "nama": "Nota Jilid Baru",
+    "ket": "Saksi kunci, di meja kasir",
+    "kutipan": "Saya mulai lagi dari 1",
+    "stempel": "NO. 17"
+   }
+  },
+  {
+   "teks": "Sari pun memutuskan pindah ke aplikasi laundry.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "kiri": "nw-maskot-nota-yakin",
+    "label": "NOTA OTOMATIS",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Nomor nota otomatis, tak pernah berulang, plus nama pelanggan.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Laundry Sari",
+     "lencana": "Hari ini",
+     "baris": [
+      [
+       "LDR-0117",
+       "Bu Ani, kemeja 4 kg",
+       "Siap ambil"
+      ],
+      [
+       "LDR-0118",
+       "Mbak Tia, daster 3 kg",
+       "Dicuci"
+      ],
+      [
+       "LDR-0119",
+       "Bu Rini, sprei 5 kg",
+       "Disetrika"
+      ]
+     ]
+    },
+    "stempel": "TAK KEMBAR",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Reporter Mega melaporkan: daster kembali ke dapur, kemeja kembali ke kantor.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-tunjuk",
+    "judul": "Kemeja kembali ke kantor",
+    "label": "UPDATE",
+    "nama": "Mega",
+    "jabatan": "Reporter"
+   }
+  },
+  {
+   "teks": "Nota jilid pensiun, tujuh belas kini tunggal.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "nw-maskot-nota-senang",
+    "nama": "Nota Jilid",
+    "ket": "Saksi kunci, kini pensiun",
+    "kutipan": "No. 17 kini cuma satu",
+    "stempel": "SATU SAJA"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Layak tayang, sebab nota kembar jelas di adegan 6. Saran: adegan 2 kutipan beri petunjuk sebab; adegan 3-4 sebut salah serah kantong; adegan 8 label nomor di kantong; adegan 9 daster kembali ke pemiliknya.",
+  "naskah_hash": "93c51305bcb3",
+  "waktu": "2026-10-22T10:39"
+ }
+}

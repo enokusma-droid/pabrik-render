@@ -1,0 +1,170 @@
+{
+ "kode": "nw-k0-007",
+ "brand": "nusawebsite",
+ "konsep": "K0",
+ "judul": "Kenalin, Mbak Rani (dan buku pesanan yang menderita)",
+ "caption": "Kuenya laris, pelanggannya setia, tapi mencatat pesanan bikin pusing. Yang paling menderita? Buku pesanannya. Tanya lewat WhatsApp di profil. #umkm #tokokue #aplikasibisnis",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Kenalin, ini Mbak Rani.",
+   "primitif": "koran",
+   "opsi": {
+    "koran": "KABAR UMKM",
+    "judul": "Kenalin, ini Mbak Rani",
+    "sub": "pemilik toko kue rumahan paling laris",
+    "foto": "nw-f-potret"
+   }
+  },
+  {
+   "teks": "Kuenya enak, pelanggannya setia, dan pesanan datang hampir setiap hari.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Mbak Rani",
+    "stempel": "LARIS ✓",
+    "prop": "nw-kardus-label"
+   }
+  },
+  {
+   "teks": "Tapi soal mencatat pesanan, skillnya langsung anjlok.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "SKILL MEMBUAT KUE",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "SKILL MENCATAT",
+      "dari": 100,
+      "ke": 5,
+      "kata": "anjlok"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Satu pesanan ulang tahun bisa dicari setengah jam di tumpukan chat.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "CARI PESANAN...",
+    "ke": 30,
+    "format": "menit",
+    "terbang": true,
+    "prop": "nw-hp-chat-banjir",
+    "pose": "pusing-hp",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Dan kamu tahu siapa yang paling menderita?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa yang paling menderita?",
+    "bayangan": "nw-maskot-buku-sedih"
+   }
+  },
+  {
+   "teks": "Iya, aku. Buku pesanannya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "nw-maskot-buku-panik",
+    "label": "BUKU PESANAN",
+    "teks": "IYA, AKU."
+   }
+  },
+  {
+   "teks": "Halamanku dirobek, dicoret coret, kadang malah kena adonan kue.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "nw-maskot-buku-sedih",
+    "label": "BUKU PESANAN",
+    "item": [
+     "DIROBEK!",
+     "DICORET",
+     "KENA ADONAN"
+    ],
+    "prop": [
+     "nw-buku-coretan"
+    ]
+   }
+  },
+  {
+   "teks": "Sampai akhirnya toko ini pakai aplikasi pesanan sendiri.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "AKHIRNYA!",
+    "kiri": "nw-maskot-buku-lega",
+    "label": "BUKU PESANAN",
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Pesanan, tanggal ambil, dan catatan khusus tiap kue tersimpan rapi.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Pesanan Kue",
+     "lencana": "4 baru",
+     "baris": [
+      [
+       "Bu Rina",
+       "Tart coklat, Sabtu",
+       "Dibuat"
+      ],
+      [
+       "Kak Sari",
+       "Brownies x2, Minggu",
+       "Baru"
+      ],
+      [
+       "Mbak Dewi",
+       "Nastar, Senin",
+       "Siap ✓"
+      ]
+     ]
+    },
+    "stempel": "RAPI ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Aku pun akhirnya pensiun dengan tenang.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terima kasih, Mbak!",
+    "tag": "PENSIUN TENANG",
+    "maskot": "nw-maskot-buku-lega",
+    "label": "BUKU PESANAN"
+   }
+  },
+  {
+   "teks": "Mau aplikasi pesanan untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

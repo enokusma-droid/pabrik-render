@@ -1,0 +1,30 @@
+{
+ "kode": "dc-k5-contoh",
+ "brand": "dentalcare",
+ "konsep": "K5",
+ "judul": "Detektif: kasus pasien kontrol yang tidak datang",
+ "caption": "Pasien kontrol tidak datang lagi? Detektif kami menyelidiki tiga tersangka, dan pelakunya ternyata jadwal yang masih dicatat manual. Kamu pernah mengalami kasus serupa di klinik? Mau lihat demo DentalCare, tanya lewat WhatsApp di profil. #klinikgigi #dokter gigi #DentalCare",
+ "musik": "tegang",
+ "adegan": [
+  {"teks": "Pasien kontrol jam sepuluh. Tidak datang. Lagi.", "primitif": "berkas-kasus",
+   "opsi": {"nomor": "Pasien kontrol jam 10.00", "gambar": "dc-foto-pasien-ibu", "label": "Jam 10.00", "stempel": [{"teks": "MANGKIR", "kata": "tidak"}, {"teks": "LAGI.", "kata": "lagi"}]}},
+  {"teks": "Ini kasus keempat bulan ini. Saatnya penyelidikan dimulai.", "primitif": "penyelidikan",
+   "opsi": {"catatan": "KASUS KE-", "jumlah": 4, "sub": "bulan ini", "pita": "PENYELIDIKAN"}},
+  {"teks": "Tersangka pertama, resepsionis. Alibinya kuat, sibuk mengangkat telepon.", "primitif": "tersangka",
+   "opsi": {"no": 1, "gambar": "dc-resepsionis-foto", "label": "resepsionis", "catatan": "telepon\nterus\nberdering!", "stempel": [{"teks": "ALIBI KUAT ✓", "kata": "alibinya"}]}},
+  {"teks": "Tersangka kedua, kertas tempel pengingat. Ditemukan jatuh di kolong meja.", "primitif": "tersangka",
+   "opsi": {"no": 2, "gambar": "dc-prop-sticky-note", "label": "kertas tempel", "catatan": "copot\nsendiri?", "stempel": [{"teks": "JATUH", "kata": "jatuh"}]}},
+  {"teks": "Tersangka ketiga, lemari arsip. Kartu jadwal nyelip di laci salah.", "primitif": "tersangka",
+   "opsi": {"no": 3, "gambar": "dc-prop-lemari-arsip", "label": "lemari arsip", "stempel": [{"teks": "NYELIP", "kata": "nyelip"}, {"teks": "LACI SALAH", "kata": "salah"}]}},
+  {"teks": "Semua benang merah mengarah ke satu pelaku.", "primitif": "benang",
+   "opsi": {"gambar": ["dc-resepsionis-foto", "dc-prop-sticky-note", "dc-prop-lemari-arsip"]}},
+  {"teks": "Pelakunya, jadwal kontrol yang masih dicatat manual.", "primitif": "pelaku",
+   "opsi": {"gambar": "dc-prop-tumpukan-berkas", "label": "PELAKU", "stempel": {"teks": "CATATAN MANUAL", "kata": "manual"}}},
+  {"teks": "Vonisnya, pindah ke DentalCare. Jadwal kontrol tersusun rapi, dicek dalam hitungan detik.", "primitif": "vonis",
+   "opsi": {"ui": "dc-ui-jadwal", "judul": "Jadwal Kontrol", "cari": "kontrol 10.00", "detik": 3, "ok": "TERJADWAL ✓"}},
+  {"teks": "Kasus ditutup. Pasien datang tepat waktu.", "primitif": "haru",
+   "opsi": {"kartu": "Tepat waktu!", "tag": "KASUS DITUTUP", "maskot": "dc-maskot-map-terharu", "pose": "sorak", "wajah": ["senang"]}},
+  {"teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.", "primitif": "cta",
+   "opsi": {"pose": "presentasi", "wajah": ["senang"]}}
+ ]
+}

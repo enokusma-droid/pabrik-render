@@ -1,0 +1,194 @@
+{
+ "kode": "nw-k0-044-r2",
+ "brand": "nusawebsite",
+ "konsep": "K0",
+ "pembuka": "k0-masalah",
+ "pemeran": {
+  "utama": "nw-laras",
+  "pendukung": []
+ },
+ "judul": "Dua rombongan, satu meja pojok, satu buku reservasi yang ketetesan gula aren",
+ "caption": "Arisan RT dan rapat PKK datang di jam yang sama untuk meja pojok kedai kopi Laras. Cerita dari sudut pandang buku reservasinya. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "adegan": [
+  {
+   "teks": "Arisan RT dan rapat PKK, satu meja pojok kedai kopi Laras, dua-duanya merasa pesan duluan.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "prop": "nw-buku-coretan",
+    "kartu": "Meja pojok, Sabtu 16.00",
+    "tag": "2 ROMBONGAN",
+    "pose": "baki",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Kopinya juara, catatannya jangan ditanya.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "KOPI RACIKAN",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "CATATAN RESERVASI",
+      "dari": 100,
+      "ke": 9,
+      "kata": "jangan"
+     }
+    ],
+    "pose": "cemas-hp",
+    "wajah": [
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Siapa biang bentroknya?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa biang bentroknya?",
+    "bayangan": "nw-maskot-buku-panik"
+   }
+  },
+  {
+   "teks": "Iya, aku. Buku reservasinya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "nw-maskot-buku-panik",
+    "label": "BUKU RESERVASI",
+    "teks": "IYA, AKU.",
+    "stempel": "LENGKET!"
+   }
+  },
+  {
+   "teks": "Arisan RT sudah kucatat jam empat, lalu tetesan gula aren Laras menutupinya.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "nw-maskot-buku-sedih",
+    "label": "BUKU RESERVASI",
+    "item": [
+     "ARISAN RT 16.00",
+     "TETES GULA AREN",
+     "TULISAN TERTUTUP"
+    ],
+    "prop": [
+     "nw-mug-kopi"
+    ]
+   }
+  },
+  {
+   "teks": "Laras kira noda kopi, lalu mencatat PKK.",
+   "primitif": "bentrok",
+   "opsi": {
+    "kiri": [
+     "16.00",
+     "Arisan RT"
+    ],
+    "kanan": [
+     "16.00",
+     "Rapat PKK"
+    ],
+    "stempel": "BENTROK!",
+    "pose": "catat",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Rapat PKK soal tertib administrasi pun digelar dekat wastafel.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "cemas-hp",
+    "wajah": [
+     "lelah"
+    ],
+    "bubble": "Maaf ya, Bu...",
+    "stempel": "TERTIB ADMIN?"
+   }
+  },
+  {
+   "teks": "Ibu-ibu PKK mengancam pindah kedai, Laras beralih ke aplikasi.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "kiri": "nw-maskot-buku-tenang",
+    "label": "BUKU RESERVASI",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Kini jam terisi langsung ditolak.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Reservasi Meja Pojok",
+     "lencana": "Sabtu",
+     "baris": [
+      [
+       "Arisan RT",
+       "Meja pojok, 16.00",
+       "Terisi"
+      ],
+      [
+       "Rapat PKK",
+       "Minta 16.00",
+       "Ditolak"
+      ],
+      [
+       "Rapat PKK",
+       "Pindah ke 19.00",
+       "Terisi"
+      ]
+     ]
+    },
+    "stempel": "ANTI DOBEL",
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Aku pensiun, jadi alas gelas es kopi gula aren.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terima kasih, Laras!",
+    "tag": "PENSIUN MANIS",
+    "maskot": "nw-maskot-buku-lega",
+    "label": "BUKU RESERVASI"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "baki",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Layak tayang. Adegan 2 pujian tipis. Adegan 5 jelaskan kenapa tetesan menutupi tulisan. Adegan 7-8 sisipkan akibat tegas sebelum ancaman pindah kedai.",
+  "naskah_hash": "a1b795813253",
+  "waktu": "2026-10-22T10:39"
+ }
+}

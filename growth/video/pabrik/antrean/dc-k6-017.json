@@ -1,0 +1,105 @@
+{
+ "kode": "dc-k6-017",
+ "brand": "dentalcare",
+ "konsep": "K6",
+ "judul": "Surat terbuka dari kursi dental",
+ "caption": "Surat terbuka dari kursi dental yang setiap hari menemani pasien menunggu catatannya ditemukan. Sekarang catatan pasien sudah siap sebelum pasien duduk. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #pasiennyaman #DentalCare",
+ "musik": "haru",
+ "adegan": [
+  {
+   "teks": "Surat terbuka untuk dokter Sinta, dari aku, kursi dental di ruang praktik.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "untuk": "drg. Sinta",
+    "dari": "kursi dental",
+    "maskot": "dc-prop-kursi-dental"
+   }
+  },
+  {
+   "teks": "Setiap hari aku menemani pasien yang gugup, dari pagi sampai sore hari.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Aku menemani pasien...",
+     "dari pagi sampai sore"
+    ],
+    "gambar": "dc-kartun-pasien-anak-nangis"
+   }
+  },
+  {
+   "teks": "Tapi pasien sering duduk lama di atasku, menunggu catatannya ditemukan.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Pasien duduk lama...",
+     "menunggu catatan"
+    ],
+    "gambar": "dc-kartun-pasien-ibu-tunggu",
+    "stempel": "MENUNGGU"
+   }
+  },
+  {
+   "teks": "Pernah sampai lima belas menit, pasien sampai hampir tertidur di atasku.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "MENUNGGU...",
+    "ke": 15,
+    "format": "menit",
+    "prop": "dc-prop-kursi-dental",
+    "pose": "bawa-berkas",
+    "wajah": [
+     "panik"
+    ],
+    "bubble": "sebentar ya Bu!"
+   }
+  },
+  {
+   "teks": "Aku ikut malu, karena pasien jadi tambah gugup dan tidak nyaman.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Aku ikut malu...",
+     "pasien tambah gugup"
+    ],
+    "gambar": "dc-prop-lampu-dental"
+   }
+  },
+  {
+   "teks": "Sekarang catatan pasien sudah terbuka di DentalCare sebelum pasien duduk.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-pasien-detail-rapi",
+      "judul": "Data Pasien"
+     },
+     {
+      "ui": "dc-ui-odontogram-rapi",
+      "judul": "Odontogram"
+     }
+    ],
+    "stempel": "SIAP ✓"
+   }
+  },
+  {
+   "teks": "Pasien lebih tenang, aku pun ikut senang. Salam hangat, kursi dentalmu.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam hangat,",
+    "ttd": "kursi dentalmu",
+    "maskot": "dc-prop-kursi-dental",
+    "stempel": "TERIMA KASIH"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

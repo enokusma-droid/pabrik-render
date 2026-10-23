@@ -1,0 +1,120 @@
+{
+ "kode": "nw-k6-019",
+ "brand": "nusawebsite",
+ "konsep": "K6",
+ "judul": "Surat terbuka dari buku booking salon",
+ "caption": "Surat terbuka dari buku booking salon yang penuh coretan dan jadwal bentrok. Sekarang salonnya punya aplikasi booking sendiri. Tanya lewat WhatsApp di profil. #umkm #salon #aplikasibisnis",
+ "musik": "haru",
+ "adegan": [
+  {
+   "teks": "Surat terbuka untuk pemilik salon, dari aku, buku booking di meja depan.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "untuk": "pemilik salon",
+    "dari": "buku booking",
+    "maskot": "nw-maskot-buku-tenang"
+   }
+  },
+  {
+   "teks": "Setiap hari kamu menulis nama pelanggan dan jam perawatan di halamanku, rapat sekali.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Nama pelanggan...",
+     "jam perawatan"
+    ],
+    "gambar": "nw-buku-coretan"
+   }
+  },
+  {
+   "teks": "Kadang dua pelanggan kamu tulis di jam yang sama.",
+   "primitif": "bentrok",
+   "opsi": {
+    "kiri": [
+     "14.00",
+     "Kak Mira"
+    ],
+    "kanan": [
+     "14.00",
+     "Bu Rina"
+    ],
+    "stempel": "BENTROK!",
+    "pose": "bingung",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Pelanggan menunggu lama, lalu pulang dengan wajah kecewa sekali.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Pelanggan menunggu...",
+     "lalu pulang"
+    ],
+    "gambar": "nw-pelanggan-online",
+    "stempel": "KECEWA"
+   }
+  },
+  {
+   "teks": "Halamanku sekarang penuh coretan, sobek, dan pernah ketumpahan cat kuku.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Penuh coretan...",
+     "ketumpahan cat kuku"
+    ],
+    "gambar": "nw-maskot-buku-sedih"
+   }
+  },
+  {
+   "teks": "Sekarang salonmu pakai aplikasi booking sendiri. Jadwal tersusun, pelanggan dapat jam yang pasti.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Booking Hari Ini",
+     "lencana": "9 jadwal",
+     "baris": [
+      [
+       "13.00 Kak Mira",
+       "Creambath",
+       "Datang ✓"
+      ],
+      [
+       "14.00 Bu Rina",
+       "Potong rambut",
+       "Terjadwal"
+      ],
+      [
+       "15.00 Kak Lia",
+       "Manikur",
+       "Terjadwal"
+      ]
+     ]
+    },
+    "stempel": "TERSUSUN ✓"
+   }
+  },
+  {
+   "teks": "Akhirnya aku bisa pensiun dengan tenang. Salam cantik, buku bookingmu.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam cantik,",
+    "ttd": "buku bookingmu",
+    "maskot": "nw-maskot-buku-lega",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Mau aplikasi booking untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

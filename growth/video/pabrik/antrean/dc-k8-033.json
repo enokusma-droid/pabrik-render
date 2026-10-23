@@ -1,0 +1,147 @@
+{
+ "kode": "dc-k8-033",
+ "brand": "dentalcare",
+ "konsep": "K8",
+ "pembuka": "k8-ketukan",
+ "pemeran": {
+  "utama": "dc-sinta",
+  "pendukung": [
+   "pasien-ibu"
+  ]
+ },
+ "judul": "Byur! Gelas kumur tumpah ke map riwayat pasien",
+ "caption": "Gelas kumur tumpah ke map riwayat pasien, catatan tambalan lama luntur. Ditanya, pasiennya sedang berkumur. Mau lihat demo DentalCare, tanya lewat WhatsApp di profil. #dokterGigi #klinikgigi #DentalCare",
+ "adegan": [
+  {
+   "teks": "Byur! Map Bu Wati, pasien tambal ulang, terbuka di samping kursi. Siku dokter Sinta menyenggol gelas.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "pusing",
+    "wajah": [
+     "kaget",
+     "panik"
+    ],
+    "ganti": "tumpah",
+    "judul": "BYUR!",
+    "sub": "ruang praktik",
+    "prop": "dc-prop-tumpukan-berkas",
+    "suasana": "gelap",
+    "latar": "dc-latar-praktik"
+   }
+  },
+  {
+   "teks": "Tanggal dan bahan tambalnya luntur.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "TINTA LUNTUR",
+     "TAK TERBACA"
+    ],
+    "gambar": "dc-maskot-map-kaget"
+   }
+  },
+  {
+   "teks": "Dokter Sinta bertanya: dulu ditambal pakai apa, Bu?",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "PAKAI APA?",
+     "KAPAN?"
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "mikir"
+    ]
+   }
+  },
+  {
+   "teks": "Hening, jam berdetak. Dari kursi, Bu Wati mencondongkan wajah ke kamera: yang warna putih, Dok?",
+   "primitif": "kejut",
+   "opsi": {
+    "subjek": "dc-kartun-pasien-ibu-tunggu",
+    "teks": "...yang putih, Dok?",
+    "stempel": "HAAH?"
+   }
+  },
+  {
+   "teks": "Diperiksa ulang, antrean molor dua puluh menit.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "CEK ULANG",
+     "ANTREAN MOLOR"
+    ],
+    "gambar": "dc-maskot-odontogram-sedih"
+   }
+  },
+  {
+   "teks": "Malamnya, sambil menjemur map, dokter Sinta memilih DentalCare.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "kiri": "dc-maskot-odontogram-yakin",
+    "label": "ODONTOGRAM",
+    "pose": "tablet",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Tambalan Bu Wati dicatat dari hasil cek ulang, kini tersimpan dan tidak luntur kena air.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-odontogram-rapi",
+      "judul": "Odontogram"
+     },
+     {
+      "ui": "dc-ui-soap-rapi",
+      "judul": "Riwayat"
+     }
+    ],
+    "stempel": "JELAS ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Bulan depan, riwayat Bu Wati langsung terbuka.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Riwayat sudah tercatat",
+    "tag": "TIDAK SERAM",
+    "pose": "jempol",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.4,
+  "catatan": "Layak tayang. Adegan 1 urutannya terbalik (BYUR dulu, baru siku menyenggol) dan VO padat; visual adegan 1 sebaiknya map terbuka, bukan tumpukan map tinggi. Adegan 5: sebut sebabnya, gigi diperiksa ulang dari awal. Adegan 4: tambahkan jeda sebelum punchline.",
+  "naskah_hash": "405765e267ab",
+  "waktu": "2026-10-22T01:13"
+ }
+}

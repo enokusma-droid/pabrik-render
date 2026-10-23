@@ -1,0 +1,138 @@
+{
+ "kode": "dc-k7-039",
+ "brand": "dentalcare",
+ "konsep": "K7",
+ "pembuka": "k7-angka",
+ "pemeran": {
+  "utama": "dc-tari",
+  "pendukung": []
+ },
+ "judul": "Tutorial: rekor empat catatan pasien hilang sehari",
+ "caption": "Mbak Tari membagi rahasia rekor catatan pasien hilang. Jangan ditiru. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Tiga tahun latihan, rekorku: empat catatan pasien hilang sehari. Aku Tari, perawat gigi.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "CATATAN HILANG",
+    "dari": 0,
+    "ke": 4,
+    "format": "angka",
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ],
+    "bubble": "rekor baru!",
+    "latar": "dc-latar-pastel"
+   }
+  },
+  {
+   "teks": "Langkah satu, catat tindakan di sticky note. Kecil, kuning, praktis.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "total": 3,
+    "judul": "Catat di\nSTICKY NOTE",
+    "prop": "dc-prop-sticky-note",
+    "pose": "bawa-berkas",
+    "bubble": "praktis!"
+   }
+  },
+  {
+   "teks": "Langkah dua, pakai singkatan rahasia. Misalnya, C.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "total": 3,
+    "judul": "Pakai\nSINGKATAN RAHASIA",
+    "prop": "um-sticky-note-pink",
+    "pose": "tunjuk-papan",
+    "bubble": "C. Jelas, kan?"
+   }
+  },
+  {
+   "teks": "Langkah tiga, tempel empat note pasien di monitor. Kipas angin menerbangkan semuanya.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "total": 3,
+    "judul": "Tempel di\nMONITOR",
+    "prop": "um-sticky-kusut",
+    "pose": "sorak",
+    "bubble": "wusss...",
+    "cap": "BERHASIL ✓"
+   }
+  },
+  {
+   "teks": "Yang ketemu cuma satu, lecek di kolong meja. Isinya cuma C.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "bingung",
+    "wajah": [
+     "kaget"
+    ],
+    "prop": "um-sticky-kusut",
+    "bubble": "C...?",
+    "stempel": "KOLONG MEJA",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Dokter Sinta bertanya: C itu cabut atau cek? Aku lupa. Ditunda.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "bingung",
+    "wajah": [
+     "panik"
+    ],
+    "bubble": "cabut? cek?",
+    "stempel": "DITUNDA",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Langkah bonus: catat tindakan langsung di DentalCare.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "total": 3,
+    "bonus": true,
+    "judul": "Catat di DentalCare",
+    "prop": "dc-maskot-map-yakin",
+    "pose": "tunjuk-papan"
+   }
+  },
+  {
+   "teks": "Riwayat tindakan tiap pasien tersimpan utuh, tanpa singkatan rahasia.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-soap-rapi",
+      "judul": "Riwayat Tindakan"
+     },
+     {
+      "ui": "dc-ui-odontogram-rapi",
+      "judul": "Odontogram"
+     }
+    ],
+    "stempel": "UTUH ✓",
+    "pose": "sorak",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

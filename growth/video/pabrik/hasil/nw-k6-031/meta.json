@@ -1,0 +1,26 @@
+{
+ "kode": "nw-k6-031",
+ "brand": "nusawebsite",
+ "konsep": "K6",
+ "judul": "Surat dari buku pesanan kedai kopi Mbak Laras",
+ "durasi": 42.87,
+ "LUFS": -14.2,
+ "TP": -1.7,
+ "cocok_vo_%": 100,
+ "cocok_ketat_%": 100,
+ "transkrip_15dtk": "nanti saya catat di buku katamu tiap pagi mbak laras ini suratku buku pesanan kedaimu semua pesanan kamu tulis di halamanku suatu siang es kopi tumpah kopinya untuk pelanggan basahnya untukku",
+ "lulus_qc": true,
+ "musik": "haru",
+ "g3": "konten/pabrik/hasil/nw-k6-031.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k6-031.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T08:51+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "f2a44d96866cd8f0",
+  "f0e4cf9606c9d2f4",
+  "f46c8e9644d992e4"
+ ],
+ "mirip_awal": []
+}

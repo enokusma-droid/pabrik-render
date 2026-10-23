@@ -1,0 +1,28 @@
+{
+ "kode": "dc-k8-033",
+ "brand": "dentalcare",
+ "konsep": "K8",
+ "judul": "Byur! Gelas kumur tumpah ke map riwayat pasien",
+ "durasi": 43.23,
+ "LUFS": -14.2,
+ "TP": -1.4,
+ "cocok_vo_%": 90,
+ "cocok_ketat_%": 83,
+ "transkrip_15dtk": "Biur, map buati pasien tambal ulang terbuka di samping kursi. Siku Dr. Sinta menyenggol gelas. Tanggal dan bahan tambalnya luntur. Dr. Sinta bertanya, dulu ditambal pakai apa bu? Henning?",
+ "lulus_qc": true,
+ "musik": "horor",
+ "g3": "konten/pabrik/hasil/dc-k8-033.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/dc-k8-033.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T08:51+07:00",
+ "catatan_bangun": [
+  "kata \"tumpah\" tidak ada di VO adegan 1"
+ ],
+ "phash_awal": [
+  "7bcf373f3e34e7e3",
+  "7bdf373f3e34e7e3",
+  "7bdf37373e34e7e3"
+ ],
+ "mirip_awal": []
+}

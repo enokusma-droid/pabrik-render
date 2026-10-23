@@ -1,0 +1,174 @@
+{
+ "kode": "nw-k5-052",
+ "brand": "nusawebsite",
+ "konsep": "K5",
+ "pembuka": "k5-akhir-dulu",
+ "pemeran": {
+  "utama": "detektif",
+  "pendukung": [
+   "nw-laras"
+  ]
+ },
+ "judul": "Kasus dua puluh kopi rapat yang terlupa di kedai Laras",
+ "caption": "Kantor sebelah memesan dua puluh kopi untuk rapat jam sembilan, kopinya tak pernah dibuat. Detektif Ana menemukan buktinya di bawah tumpukan nampan kedai Laras. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "adegan": [
+  {
+   "teks": "Kasus kopi rapat ditutup. Pelakunya tak punya kaki.",
+   "primitif": "poster",
+   "opsi": {
+    "judul": "TERUNGKAP",
+    "gambar": "nw-mug-kopi",
+    "label": "KASUS KOPI",
+    "keterangan": "rapat jam 09.00",
+    "stempel": "DITUTUP",
+    "tag": "pelaku tanpa kaki"
+   }
+  },
+  {
+   "teks": "Kantor menelepon Laras, pemilik kedai kopi: kopi rapat mana?",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "nw-laras",
+    "pose": "cemas-hp",
+    "wajah": [
+     "panik"
+    ],
+    "judul": "Laras",
+    "sub": "pemilik kedai kopi",
+    "bubble": "20 kopi mana?",
+    "latar": "nw-latar-kafe"
+   }
+  },
+  {
+   "teks": "Laras memanggilku, Detektif Ana.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "KASUS #052",
+    "jumlah": 20,
+    "sub": "kopi terlupa",
+    "pita": "PENYELIDIKAN",
+    "pose": "kaca-pembesar"
+   }
+  },
+  {
+   "teks": "Tersangka satu, buku pesanan: alibinya kuat, di laci.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "nw-buku-coretan",
+    "label": "BUKU PESANAN",
+    "catatan": "di laci, alibi kuat",
+    "stempel": [
+     "ALIBI KUAT"
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka dua, nampan, kuinterogasi sampai berkeringat.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "nw-laras-baki",
+    "label": "NAMPAN",
+    "catatan": "berkeringat, bungkam",
+    "stempel": [
+     "BUNGKAM"
+    ]
+   }
+  },
+  {
+   "teks": "Kuangkat nampannya. Terselip kertas dua puluh kopi.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "um-sticky-kusut",
+    "label": "BAWAH NAMPAN",
+    "catatan": "20 kopi, kantor, jam 9",
+    "stempel": [
+     "BUKTI"
+    ]
+   }
+  },
+  {
+   "teks": "Telepon masuk, buku di laci, dicatat di kertas lepas, lalu tertimpa.",
+   "primitif": "modus",
+   "opsi": {
+    "judul": "KRONOLOGI",
+    "panel": [
+     {
+      "teks": "Telepon masuk",
+      "kata": "telepon"
+     },
+     {
+      "teks": "Kertas lepas",
+      "kata": "lepas"
+     },
+     {
+      "teks": "Nampan menimpa",
+      "kata": "tertimpa"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pelakunya: kertas lepas.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "um-sticky-kusut",
+    "label": "PELAKU",
+    "stempel": "KERTAS LEPAS"
+   }
+  },
+  {
+   "teks": "Laras pindah ke aplikasi pesanan berpengingat jam antar.",
+   "primitif": "vonis",
+   "opsi": {
+    "vonis": "PESANAN",
+    "judul": "Pesanan Kedai",
+    "cari": "kantor",
+    "detik": 2,
+    "ok": "DIINGATKAN",
+    "app": {
+     "judul": "Pesanan Kedai Laras",
+     "lencana": "Pekan ini",
+     "baris": [
+      [
+       "Kantor sebelah",
+       "20 kopi",
+       "Antar 09.00"
+      ],
+      [
+       "Pengingat",
+       "Jam 08.00",
+       "Aktif"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Kini pengingat bunyi jam delapan, kopi siap tepat waktu.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Pengingat 08.00 bunyi",
+    "tag": "KASUS DITUTUP",
+    "tokoh": "nw-laras",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "tokoh": "nw-laras",
+    "pose": "baki",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

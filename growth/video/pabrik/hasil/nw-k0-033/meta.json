@@ -1,0 +1,33 @@
+{
+ "kode": "nw-k0-033",
+ "brand": "nusawebsite",
+ "konsep": "K0",
+ "judul": "Kue Sari tidak pernah miring, notanya lain cerita",
+ "durasi": 44.47,
+ "LUFS": -14.1,
+ "TP": -1.3,
+ "cocok_vo_%": 100,
+ "cocok_ketat_%": 97,
+ "transkrip_15dtk": "Kue di Toko Sari tidak pernah miring, notanya lain cerita. Soal mencatat pesanan, nilai Sari Angelok. Semua pesanan ditulis di nota, ditempel di pintu kulkas. Tiap kulkas dibuka, satu nota jatuh.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/nw-k0-033.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k0-033.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/mafiaterkakap-prog/pabrik-render/actions/runs/39765839685",
+ "waktu": "2026-10-22T18:22+07:00",
+ "catatan_bangun": [
+  "pose \"presentasi\" untuk nw-f tidak ada → pakai nw-f-ketik-hp"
+ ],
+ "phash_awal": [
+  "9a363d3b163dd9b1",
+  "b6243992143d91b4",
+  "366d3b9a1c199124"
+ ],
+ "mirip_awal": [
+  {
+   "kode": "dc-k0-031",
+   "jarak": 7.7
+  }
+ ]
+}

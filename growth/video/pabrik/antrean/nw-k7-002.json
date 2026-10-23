@@ -1,0 +1,119 @@
+{
+ "kode": "nw-k7-002",
+ "brand": "nusawebsite",
+ "konsep": "K7",
+ "judul": "Tutorial: cara bikin laporan akhir bulan kacau",
+ "caption": "Tutorial (salah) bikin laporan akhir bulan kacau dalam empat langkah. Jangan ditiru ya! Kamu pernah melakukan langkah nomor berapa? Tanya lewat WhatsApp di profil. #umkm #laporanpenjualan #aplikasibisnis",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Mau laporan akhir bulanmu kacau? Gampang. Ikuti empat langkah ini.",
+   "primitif": "tutorial-hook",
+   "opsi": {
+    "judul": "Cara bikin laporan",
+    "kunci": "KACAU",
+    "jumlah": 4,
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Langkah satu, catat penjualan di nota kertas. Biarkan berserakan di laci.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "judul": "Catat di\nNOTA KERTAS",
+    "prop": "nw-tumpukan-nota",
+    "pose": "duduk-catat",
+    "bubble": "praktis!"
+   }
+  },
+  {
+   "teks": "Langkah dua, salin nota ke Excel satu per satu, malam hari.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "judul": "Salin ke\nEXCEL MALAM",
+    "prop": "nw-maskot-excel-bingung",
+    "pose": "duduk-laptop",
+    "bubble": "seru kan?"
+   }
+  },
+  {
+   "teks": "Langkah tiga, hitung ulang pakai kalkulator. Kalau beda, ulangi lagi.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "judul": "Hitung ulang\nKALKULATOR",
+    "prop": "nw-maskot-kalkulator-bingung",
+    "pose": "bingung",
+    "cap": "BERHASIL ✓"
+   }
+  },
+  {
+   "teks": "Langkah empat, cari nota yang hilang saat laporan sudah ditunggu.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "judul": "Cari nota\nyang HILANG",
+    "prop": "nw-maskot-nota-kaget",
+    "pose": "panik",
+    "wajah": [
+     "senang",
+     "panik"
+    ],
+    "ganti": "hilang"
+   }
+  },
+  {
+   "teks": "Atau, langkah bonus. Pakai aplikasi penjualan sendiri. Laporan tersusun otomatis setiap hari.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 5,
+    "bonus": true,
+    "judul": "Pakai aplikasi\nsendiri",
+    "prop": "nw-maskot-nota-yakin",
+    "pose": "lega"
+   }
+  },
+  {
+   "teks": "Penjualan, produk laris, dan stok rapi di satu layar.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Laporan Hari Ini",
+     "baris": [
+      [
+       "Penjualan",
+       "42 transaksi",
+       "Naik ✓"
+      ],
+      [
+       "Produk laris",
+       "Kopi susu",
+       "Top"
+      ],
+      [
+       "Stok menipis",
+       "Gula aren",
+       "Cek"
+      ]
+     ]
+    },
+    "stempel": "RAPI ✓"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk bisnismu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "kode": "nw-k7-022",
+ "brand": "nusawebsite",
+ "konsep": "K7",
+ "judul": "Tutorial: cara bikin website tokomu dicurigai pembeli",
+ "caption": "Tutorial (salah) bikin website toko dicurigai pembeli: foto buram, tanpa kontak, produk kosong, lambat di HP. Jangan ditiru ya! Mau website toko yang rapi? Tanya lewat WhatsApp di profil. #umkm #websitetoko #nusawebsite",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Mau website tokomu tidak dipercaya pembeli? Gampang sekali. Ikuti empat langkah ini.",
+   "primitif": "tutorial-hook",
+   "opsi": {
+    "judul": "Cara bikin website",
+    "kunci": "DICURIGAI",
+    "jumlah": 4,
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Langkah satu, pakai foto produk buram yang diambil malam hari.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "judul": "Foto produk\nBURAM",
+    "prop": "nw-laptop",
+    "pose": "duduk-laptop",
+    "bubble": "estetik kan?"
+   }
+  },
+  {
+   "teks": "Langkah dua, jangan cantumkan alamat dan nomor yang bisa dihubungi.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "judul": "Tanpa alamat,\nTANPA KONTAK",
+    "prop": "nw-gelembung-putih",
+    "pose": "bingung",
+    "bubble": "misterius!"
+   }
+  },
+  {
+   "teks": "Langkah tiga, biarkan halaman produk kosong, stoknya entah masih ada atau sudah tidak.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "judul": "Halaman produk\nKOSONG",
+    "prop": "nw-rak-stok",
+    "pose": "yakin",
+    "cap": "BERHASIL ✓"
+   }
+  },
+  {
+   "teks": "Langkah empat, buat website yang sangat lambat dibuka di HP.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "judul": "LAMBAT\ndibuka di HP",
+    "prop": "nw-maskot-laptop-lelah",
+    "pose": "jalan-hp",
+    "wajah": [
+     "senang",
+     "panik"
+    ],
+    "ganti": "lambat"
+   }
+  },
+  {
+   "teks": "Atau, langkah bonus. Buat website toko yang rapi, cepat, dan stoknya selalu terbaru.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 5,
+    "bonus": true,
+    "judul": "Website toko\nyang rapi",
+    "prop": "nw-maskot-laptop-yakin",
+    "pose": "lega"
+   }
+  },
+  {
+   "teks": "Hasilnya, pembeli lebih percaya dan pesanan pun berdatangan.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Toko Sinar",
+     "lencana": "Buka",
+     "baris": [
+      [
+       "Kaos Polos",
+       "Stok tersedia",
+       "Pesan"
+      ],
+      [
+       "Hoodie Krem",
+       "Stok 4",
+       "Pesan"
+      ],
+      [
+       "Topi Rajut",
+       "Habis",
+       "Segera"
+      ]
+     ]
+    },
+    "stempel": "PERCAYA ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau website toko seperti ini? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

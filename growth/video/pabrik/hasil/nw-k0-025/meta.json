@@ -1,0 +1,26 @@
+{
+ "kode": "nw-k0-025",
+ "brand": "nusawebsite",
+ "konsep": "K0",
+ "judul": "Kenalin, Kak Dewi (dan grup WA pesanan yang menderita)",
+ "durasi": 41.67,
+ "LUFS": -14.1,
+ "TP": -1.4,
+ "cocok_vo_%": 97,
+ "cocok_ketat_%": 84,
+ "transkrip_15dtk": "Kenalin, ini Kak Dewi, penjual frozen food paling laris. Dagangannya enak, pelangganya setia, pesanan datang setiap jam. Tapi soal mereka pesanan dari grup skillnya Anjulak. Sehari bisa masuk 300 chat, campur stik.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/nw-k0-025.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k0-025.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T04:13+07:00",
+ "catatan_bangun": [
+  "pose \"presentasi\" untuk nw-f tidak ada → pakai nw-f-jempol"
+ ],
+ "directus_id": "5cbbbf4a-a37d-4e6c-a7a3-1f5f657b38c1",
+ "directus_url": "https://directus.nusawebsite.com/assets/5cbbbf4a-a37d-4e6c-a7a3-1f5f657b38c1",
+ "directus_poster_id": "d3a473f7-21c0-4c9b-b11b-f00b7f9fc008",
+ "directus_poster_url": "https://directus.nusawebsite.com/assets/d3a473f7-21c0-4c9b-b11b-f00b7f9fc008"
+}

@@ -1,0 +1,20 @@
+{
+ "kode": "dc-k6-010",
+ "brand": "dentalcare",
+ "konsep": "K6",
+ "judul": "Surat terbuka dari nota tagihan tulis tangan",
+ "durasi": 44.47,
+ "LUFS": -14.2,
+ "TP": -1.4,
+ "cocok_vo_%": 94,
+ "cocok_ketat_%": 90,
+ "transkrip_15dtk": "Surat terbuka untuk Receptionist Clinic. Dari aku, nota tagihan tulis tangan. Setiap pasien selesai, kamu menulisku buru-buru sambil menghitung semua tindakan. Kadang satu tindakan terlewat, kadang tulisanku sendiri tidak tahu.",
+ "lulus_qc": true,
+ "musik": "haru",
+ "g3": "konten/pabrik/hasil/dc-k6-010.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/dc-k6-010.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T01:39+07:00",
+ "catatan_bangun": []
+}

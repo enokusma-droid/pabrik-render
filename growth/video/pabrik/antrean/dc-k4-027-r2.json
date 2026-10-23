@@ -1,0 +1,210 @@
+{
+ "kode": "dc-k4-027-r2",
+ "brand": "dentalcare",
+ "konsep": "K4",
+ "judul": "4 tipe klinik saat dokternya libur",
+ "caption": "Ada empat tipe klinik saat dokternya libur. Dari si titip catatan sampai si pakai aplikasi. Klinikmu tipe nomor berapa? Tulis di komentar. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #doktergigi #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Ada empat tipe klinik saat dokternya sedang libur. Klinikmu yang mana?",
+   "primitif": "tipe-hook",
+   "opsi": {
+    "jumlah": 4,
+    "judul": "KLINIK GIGI",
+    "sub": "saat dokternya libur",
+    "tanya": "Klinikmu tipe apa?"
+   }
+  },
+  {
+   "teks": "Tipe satu, si titip catatan. Pesan untuk dokter pengganti ditulis di kertas, lalu hilang.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Titip Catatan",
+    "rarity": "COMMON",
+    "foto": "dc-resepsionis-foto",
+    "stat": [
+     [
+      "NIAT BAIK",
+      95
+     ],
+     [
+      "RAPI",
+      50
+     ],
+     [
+      "CATATAN AMAN",
+      10
+     ],
+     [
+      "TENANG",
+      30
+     ]
+    ],
+    "skill": "catatan untuk semua",
+    "lemah": "kertasnya hilang",
+    "gag": {
+     "turun": 2,
+     "ke": 5,
+     "kata": "hilang"
+    }
+   }
+  },
+  {
+   "teks": "Tipe dua, si telepon dokter. Dokter yang sedang libur ditelepon setiap ada pasien.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Telepon Dokter",
+    "rarity": "RARE",
+    "foto": "dc-kartun-resepsionis-telepon",
+    "stat": [
+     [
+      "SIGAP",
+      99
+     ],
+     [
+      "RAMAH",
+      85
+     ],
+     [
+      "LIBUR DOKTER",
+      5
+     ],
+     [
+      "BATERAI HP",
+      15
+     ]
+    ],
+    "skill": "selalu bisa dihubungi",
+    "lemah": "dokter tak bisa libur",
+    "gag": {
+     "jenis": "chat",
+     "item": [
+      "Dok, maaf ganggu",
+      "pasien ini kenapa?",
+      "obatnya apa ya?",
+      "[stiker]",
+      "Dok?"
+     ],
+     "kata": "ditelepon"
+    }
+   }
+  },
+  {
+   "teks": "Tipe tiga, si tutup saja. Daripada bingung, klinik ditutup sampai dokter kembali.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Tutup Saja",
+    "rarity": "EPIC",
+    "foto": "dc-kartun-perawat-papan",
+    "stat": [
+     [
+      "PRAKTIS",
+      90
+     ],
+     [
+      "SANTAI",
+      95
+     ],
+     [
+      "DILAYANI",
+      5
+     ],
+     [
+      "JADWAL MUNDUR",
+      99
+     ]
+    ],
+    "skill": "tidak pernah salah",
+    "lemah": "pasien pindah klinik",
+    "gag": {
+     "jenis": "lupa",
+     "item": [
+      "buka kapan?",
+      "dokter ke mana?",
+      "jadwal saya?",
+      "pindah klinik?"
+     ],
+     "kata": "ditutup"
+    }
+   }
+  },
+  {
+   "teks": "Tipe empat, langka. Riwayat pasien ada di DentalCare, dokter pengganti tinggal membuka.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Si Pakai Aplikasi",
+    "rarity": "LEGENDARY",
+    "foto": "dc-foto-staf-pulang",
+    "stat": [
+     [
+      "DATA LENGKAP",
+      100
+     ],
+     [
+      "PASIEN TENANG",
+      100
+     ],
+     [
+      "LIBUR TENANG",
+      100
+     ],
+     [
+      "JADWAL RAPI",
+      100
+     ]
+    ],
+    "skill": "riwayat di DentalCare",
+    "lemah": "tidak ada (sejauh ini)",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "Riwayat pasien terbuka",
+      "Jadwal tetap jalan",
+      "Dokter libur tenang"
+     ],
+     "stempel": "TENANG",
+     "kata": "membuka"
+    }
+   }
+  },
+  {
+   "teks": "Dokter pengganti bisa membaca catatan pemeriksaan sebelumnya dengan jelas.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-soap-rapi",
+      "judul": "Catatan Klinis"
+     }
+    ],
+    "stempel": "JELAS ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Klinikmu tipe yang mana? Tulis nomornya di kolom komentar.",
+   "primitif": "tipe-pilih",
+   "opsi": {
+    "komentar": "Klinikku tipe ..."
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

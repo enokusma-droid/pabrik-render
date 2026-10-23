@@ -1,0 +1,159 @@
+{
+ "kode": "nw-k5-018",
+ "brand": "nusawebsite",
+ "konsep": "K5",
+ "judul": "Detektif: kasus susu kafe yang selalu habis",
+ "caption": "Susu untuk kopi pagi habis lagi. Detektif kami memeriksa barista, kertas tempel, dan nota belanja. Pelakunya? Stok bahan baku tanpa catatan. Tanya lewat WhatsApp di profil. #umkm #kafe #aplikasibisnis",
+ "musik": "tegang",
+ "adegan": [
+  {
+   "teks": "Susu untuk kopi pesanan pagi. Habis. Lagi.",
+   "primitif": "berkas-kasus",
+   "opsi": {
+    "nomor": "Bahan baku: susu segar",
+    "gambar": "nw-mug-kopi",
+    "label": "Kopi susu",
+    "stempel": [
+     {
+      "teks": "HABIS",
+      "kata": "habis"
+     },
+     {
+      "teks": "LAGI.",
+      "kata": "lagi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ini kehabisan ketiga minggu ini. Penyelidikan dimulai.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "HABIS KE-",
+    "jumlah": 3,
+    "sub": "minggu ini",
+    "pita": "PENYELIDIKAN"
+   }
+  },
+  {
+   "teks": "Tersangka pertama, barista. Alibinya kuat, sibuk membuat pesanan.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "nw-staf-gudang",
+    "label": "barista",
+    "catatan": "sibuk\nbikin kopi",
+    "stempel": [
+     {
+      "teks": "ALIBI KUAT ✓",
+      "kata": "alibinya"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka kedua, kertas tempel. Tulisannya luntur kena air.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "nw-sticky-tumpuk",
+    "label": "kertas tempel",
+    "stempel": [
+     {
+      "teks": "LUNTUR",
+      "kata": "luntur"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka ketiga, nota belanja. Terselip di laci, belum direkap.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "nw-struk",
+    "label": "nota belanja",
+    "stempel": [
+     {
+      "teks": "TERSELIP",
+      "kata": "terselip"
+     },
+     {
+      "teks": "BELUM REKAP",
+      "kata": "direkap"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Semua benang merah mengarah ke satu pelaku.",
+   "primitif": "benang",
+   "opsi": {
+    "gambar": [
+     "nw-staf-gudang",
+     "nw-sticky-tumpuk",
+     "nw-struk"
+    ]
+   }
+  },
+  {
+   "teks": "Pelakunya, stok bahan baku yang tidak pernah tercatat.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "nw-rak-stok",
+    "label": "PELAKU",
+    "stempel": {
+     "teks": "TANPA CATATAN",
+     "kata": "tercatat"
+    }
+   }
+  },
+  {
+   "teks": "Vonisnya, pakai aplikasi stok kafe sendiri. Bahan menipis langsung terlihat.",
+   "primitif": "vonis",
+   "opsi": {
+    "app": {
+     "judul": "Stok Bahan",
+     "baris": [
+      [
+       "Susu segar",
+       "Sisa 2 liter",
+       "Menipis"
+      ],
+      [
+       "Biji kopi",
+       "Sisa 3 kilo",
+       "Aman ✓"
+      ]
+     ]
+    },
+    "judul": "Cek Stok",
+    "cari": "susu segar",
+    "detik": 2,
+    "ok": "KETEMU ✓"
+   }
+  },
+  {
+   "teks": "Kasus ditutup. Kopi susu pagi kembali tersedia.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Susu tersedia!",
+    "tag": "KASUS DITUTUP",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

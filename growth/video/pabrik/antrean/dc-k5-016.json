@@ -1,0 +1,142 @@
+{
+ "kode": "dc-k5-016",
+ "brand": "dentalcare",
+ "konsep": "K5",
+ "judul": "Detektif: kasus pasien yang datang di hari yang salah",
+ "caption": "Janji temu hari Selasa, pasien datang hari Rabu. Detektif kami memeriksa pasien, kartu janji, dan kalender dinding. Pelakunya? Janji temu yang dicatat di banyak tempat. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #janjitemu #DentalCare",
+ "musik": "tegang",
+ "adegan": [
+  {
+   "teks": "Pasien janji temu hari Selasa. Datang hari Rabu. Lagi.",
+   "primitif": "berkas-kasus",
+   "opsi": {
+    "nomor": "Janji temu Bu Lina",
+    "gambar": "dc-kartun-pasien-ibu-tunggu",
+    "label": "Bu Lina",
+    "stempel": [
+     {
+      "teks": "SALAH HARI",
+      "kata": "rabu"
+     },
+     {
+      "teks": "LAGI.",
+      "kata": "lagi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Salah jadwal kedua minggu ini. Penyelidikan dimulai.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "SALAH KE-",
+    "jumlah": 2,
+    "sub": "minggu ini",
+    "pita": "PENYELIDIKAN"
+   }
+  },
+  {
+   "teks": "Tersangka pertama, pasien. Alibinya kuat, kartu janjinya bertulis Rabu.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "dc-foto-pasien-ibu",
+    "label": "pasien",
+    "catatan": "tertulis:\nRABU",
+    "stempel": [
+     {
+      "teks": "ALIBI KUAT ✓",
+      "kata": "alibinya"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka kedua, kartu janji. Tanggal dan harinya tidak cocok.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "dc-prop-clipboard",
+    "label": "kartu janji",
+    "stempel": [
+     {
+      "teks": "TIDAK COCOK",
+      "kata": "cocok"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka ketiga, kalender dinding. Lembarnya sudah disobek bulan lalu.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "dc-maskot-kalender-sedih",
+    "label": "kalender dinding",
+    "stempel": [
+     {
+      "teks": "DISOBEK",
+      "kata": "disobek"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Semua petunjuk mengarah ke satu pelaku.",
+   "primitif": "benang",
+   "opsi": {
+    "gambar": [
+     "dc-foto-pasien-ibu",
+     "dc-prop-clipboard",
+     "dc-maskot-kalender-sedih"
+    ]
+   }
+  },
+  {
+   "teks": "Pelakunya, janji temu yang dicatat di banyak tempat.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "dc-prop-sticky-note",
+    "label": "PELAKU",
+    "stempel": {
+     "teks": "CATATAN GANDA",
+     "kata": "banyak"
+    }
+   }
+  },
+  {
+   "teks": "Vonisnya, pindah ke DentalCare. Janji temu tercatat di satu kalender.",
+   "primitif": "vonis",
+   "opsi": {
+    "ui": "dc-ui-jadwal-rapi",
+    "judul": "Janji Temu",
+    "cari": "Bu Lina",
+    "detik": 2,
+    "ok": "SELASA ✓"
+   }
+  },
+  {
+   "teks": "Kasus ditutup. Pasien datang di hari yang tepat.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Hari yang tepat!",
+    "tag": "KASUS DITUTUP",
+    "maskot": "dc-maskot-kalender-lega",
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "presentasi",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

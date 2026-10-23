@@ -1,0 +1,109 @@
+{
+ "kode": "dc-k7-013-r2",
+ "brand": "dentalcare",
+ "konsep": "K7",
+ "judul": "Tutorial: cara bikin klinikmu sulit ditemukan pasien baru",
+ "caption": "Tutorial (salah) bikin klinik sulit ditemukan pasien baru: tanpa halaman web, nomor lama, jam praktik rahasia. Jangan ditiru ya! Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #pasienbaru #DentalCare",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Pengin klinikmu sulit ditemukan pasien baru? Gampang. Cukup empat langkah.",
+   "primitif": "tutorial-hook",
+   "opsi": {
+    "judul": "Cara bikin klinikmu",
+    "kunci": "SEPI",
+    "jumlah": 4,
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Langkah satu, jangan punya halaman web klinik. Biar jadi misteri besar.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "judul": "Tanpa halaman\nWEB KLINIK",
+    "prop": "dc-prop-ponsel",
+    "pose": "presentasi",
+    "bubble": "biar misteri!"
+   }
+  },
+  {
+   "teks": "Langkah dua, pasang nomor telepon lama di spanduk depan klinik.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "judul": "Nomor LAMA\ndi spanduk",
+    "prop": "dc-kartun-resepsionis-telepon",
+    "pose": "bingung",
+    "bubble": "nomor mati?"
+   }
+  },
+  {
+   "teks": "Langkah tiga, jam praktik cukup diingat sendiri, tidak usah diumumkan ke siapa pun.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "judul": "Jam praktik\nRAHASIA",
+    "prop": "dc-prop-jam-dinding",
+    "pose": "yakin",
+    "cap": "BERHASIL ✓"
+   }
+  },
+  {
+   "teks": "Langkah empat, biarkan pasien bertanya lewat DM, lalu balas minggu depan.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "judul": "Balas DM\nMINGGU DEPAN",
+    "prop": "dc-prop-ponsel",
+    "pose": "bingung",
+    "wajah": [
+     "senang",
+     "kaget"
+    ],
+    "ganti": "minggu"
+   }
+  },
+  {
+   "teks": "Atau, langkah bonus. Pakai DentalCare. Klinikmu punya halaman web yang rapi di HP.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 5,
+    "bonus": true,
+    "judul": "Pakai DentalCare",
+    "prop": "dc-maskot-kalender-senang",
+    "pose": "sorak"
+   }
+  },
+  {
+   "teks": "Hasilnya, pasien baru mudah menemukan klinikmu, lalu datang dengan tenang.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "Web Klinik di HP",
+    "item": [
+     "Mudah ditemukan",
+     "Info klinik jelas",
+     "Pasien baru datang"
+    ],
+    "stempel": "KETEMU ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

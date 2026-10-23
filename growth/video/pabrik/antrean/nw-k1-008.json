@@ -1,0 +1,173 @@
+{
+ "kode": "nw-k1-008",
+ "brand": "nusawebsite",
+ "konsep": "K1",
+ "judul": "Sehari mengurus gudang tanpa aplikasi stok",
+ "caption": "Sehari di gudang: stok tidak jelas, pesanan terlanjur diterima, hitung ulang ratusan barang. Besoknya gudang ini pakai aplikasi stok sendiri. Tanya lewat WhatsApp di profil. #umkm #stokbarang #aplikasibisnis",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Tujuh pagi. Gudang dibuka, stok kaos ukuran M entah tinggal berapa.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "07.00",
+    "pose": "bingung",
+    "wajah": [
+     "senang",
+     "bingung"
+    ],
+    "ganti": "entah",
+    "judul": "cek gudang",
+    "stempel": "BERAPA?",
+    "prop": "nw-rak-stok"
+   }
+  },
+  {
+   "teks": "Sembilan pagi. Pelanggan bertanya, kak, ukuran M masih ada?",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "09.00",
+    "judul": "PESANAN TOKO",
+    "sub": "pelanggan",
+    "pesan": [
+     {
+      "teks": "kak, ukuran M ada?",
+      "sorot": true
+     },
+     {
+      "teks": "ada kak!",
+      "keluar": true
+     },
+     {
+      "teks": "oke saya pesan 5"
+     }
+    ],
+    "pose": "ketik-hp",
+    "wajah": [
+     "senang",
+     "kaget"
+    ],
+    "stempel": "ADA?"
+   }
+  },
+  {
+   "teks": "Siang. Ternyata stoknya habis, pesanan sudah terlanjur diterima.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "jam": "12.00",
+    "prop": "nw-kardus-tumpuk",
+    "kartu": "stok habis!!",
+    "tag": "TERLANJUR",
+    "pose": "panik",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Sore. Menghitung ulang isi rak satu per satu, ratusan barang.",
+   "primitif": "hitung",
+   "opsi": {
+    "jam": "15.00",
+    "judul": "BARANG DIHITUNG",
+    "ke": 340,
+    "format": "angka",
+    "prop": "nw-rak-stok",
+    "pose": "bingung",
+    "wajah": [
+     "lelah",
+     "kesal"
+    ]
+   }
+  },
+  {
+   "teks": "Malam. Catatan stok di buku tetap beda dengan rak.",
+   "primitif": "meter",
+   "opsi": {
+    "jam": "21.00",
+    "suasana": "malam",
+    "meter": [
+     {
+      "judul": "COCOK DENGAN RAK",
+      "dari": 100,
+      "ke": 12,
+      "kata": "beda"
+     }
+    ],
+    "pose": "duduk-catat",
+    "wajah": [
+     "lelah",
+     "kesal"
+    ]
+   }
+  },
+  {
+   "teks": "Besoknya, gudang ini mulai memakai aplikasi stok sendiri.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "07.00"
+   }
+  },
+  {
+   "teks": "Tujuh pagi. Sisa stok tiap ukuran langsung terlihat jelas di layar.",
+   "primitif": "layar",
+   "opsi": {
+    "jam": "07.00",
+    "app": {
+     "judul": "Stok Gudang",
+     "baris": [
+      [
+       "Kaos M",
+       "Rak A2",
+       "Sisa 12"
+      ],
+      [
+       "Kaos L",
+       "Rak A3",
+       "Sisa 4"
+      ],
+      [
+       "Hoodie M",
+       "Rak B1",
+       "Habis"
+      ]
+     ]
+    },
+    "stempel": "AKURAT ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Stok berkurang otomatis tiap pesanan, peringatan muncul sebelum habis.",
+   "primitif": "daftar",
+   "opsi": {
+    "jam": "12.00",
+    "judul": "Siang Ini",
+    "item": [
+     "Stok terhitung otomatis",
+     "Peringatan stok menipis",
+     "Pelanggan tidak kecewa"
+    ],
+    "stempel": "AMAN ✓",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi stok untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

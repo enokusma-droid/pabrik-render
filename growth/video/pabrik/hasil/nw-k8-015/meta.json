@@ -1,0 +1,27 @@
+{
+ "kode": "nw-k8-015",
+ "brand": "nusawebsite",
+ "konsep": "K8",
+ "judul": "Horor H-2 lebaran: HP berisi semua pesanan mati",
+ "durasi": 43.8,
+ "LUFS": -14.1,
+ "TP": -2.1,
+ "cocok_vo_%": 97,
+ "cocok_ketat_%": 93,
+ "transkrip_15dtk": "Malam itu, dua hari sebelum lebaran, pesaran hampers menumpuk di pojok toko. Tiba-tiba, hape yang berisi semua pesanan mati total. Daftar alamat, jumlah hampers, semuanya hanya ada di chat.",
+ "lulus_qc": true,
+ "musik": "horor",
+ "g3": "konten/pabrik/hasil/nw-k8-015.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k8-015.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T03:35+07:00",
+ "catatan_bangun": [
+  "ekspresi \"takut\" untuk nw-f tidak ada → pakai nw-f-wajah-cemas",
+  "ekspresi \"takut\" untuk nw-f tidak ada → pakai nw-f-wajah-cemas"
+ ],
+ "directus_id": "c9cab7fc-851e-413d-8902-1136c1075809",
+ "directus_url": "https://directus.nusawebsite.com/assets/c9cab7fc-851e-413d-8902-1136c1075809",
+ "directus_poster_id": "075c6674-9d91-47ec-af49-a5cf73396d27",
+ "directus_poster_url": "https://directus.nusawebsite.com/assets/075c6674-9d91-47ec-af49-a5cf73396d27"
+}

@@ -1,0 +1,178 @@
+{
+ "kode": "nw-k1-026",
+ "brand": "nusawebsite",
+ "konsep": "K1",
+ "judul": "Sehari mengurus usaha percetakan",
+ "caption": "Sehari di usaha percetakan: file desain masuk dari mana-mana, antrean cetak tertukar, pelanggan menunggu. Besoknya semua berubah. Tanya lewat WhatsApp di profil. #umkm #percetakan #aplikasibisnis",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Delapan pagi. File desain masuk dari chat, email, dan flashdisk sekaligus.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "08.00",
+    "pose": "duduk-laptop",
+    "wajah": [
+     "senang",
+     "kaget"
+    ],
+    "ganti": "sekaligus",
+    "judul": "file masuk",
+    "stempel": "BANJIR!",
+    "prop": "nw-hp-chat-banjir"
+   }
+  },
+  {
+   "teks": "Sepuluh pagi. Pelanggan bertanya, kak, spanduk saya sudah dicetak?",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "10.00",
+    "judul": "PESANAN CETAK",
+    "sub": "pelanggan",
+    "pesan": [
+     {
+      "teks": "kak, spanduk saya sudah?",
+      "sorot": true
+     },
+     {
+      "teks": "sebentar kak dicek",
+      "keluar": true
+     },
+     {
+      "teks": "saya sudah di depan"
+     }
+    ],
+    "pose": "ketik-hp",
+    "wajah": [
+     "bingung",
+     "cemas"
+    ],
+    "stempel": "???"
+   }
+  },
+  {
+   "teks": "Siang. Dua pesanan tertukar, nama di undangan salah orang.",
+   "primitif": "bentrok",
+   "opsi": {
+    "jam": "12.00",
+    "kiri": [
+     "12.00",
+     "Undangan A"
+    ],
+    "kanan": [
+     "12.00",
+     "Undangan B"
+    ],
+    "stempel": "TERTUKAR!",
+    "pose": "panik",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Sore. Daftar antrean cetak menumpuk di kertas tempel.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "jam": "16.00",
+    "prop": "nw-sticky-tumpuk",
+    "kartu": "yang mana dulu??",
+    "tag": "ANTRE",
+    "pose": "bingung",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Malam. Mesin sudah mati, tenaga pemiliknya pun tinggal sisa sedikit.",
+   "primitif": "meter",
+   "opsi": {
+    "jam": "21.00",
+    "suasana": "malam",
+    "meter": [
+     {
+      "judul": "TENAGA",
+      "dari": 100,
+      "ke": 5,
+      "kata": "sisa"
+     }
+    ],
+    "pose": "lelah",
+    "wajah": [
+     "lelah",
+     "sedih"
+    ]
+   }
+  },
+  {
+   "teks": "Besoknya, percetakan ini memakai aplikasi pesanan sendiri.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "08.00"
+   }
+  },
+  {
+   "teks": "Delapan pagi. Setiap pesanan punya nomor, file, dan status cetak.",
+   "primitif": "layar",
+   "opsi": {
+    "jam": "08.00",
+    "app": {
+     "judul": "Antrean Cetak",
+     "lencana": "9 hari ini",
+     "baris": [
+      [
+       "#C11 Bu Rina",
+       "Spanduk 3 meter",
+       "Dicetak"
+      ],
+      [
+       "#C12 Kak Sari",
+       "Undangan 200",
+       "Antre"
+      ],
+      [
+       "#C13 Toko Maju",
+       "Stiker label",
+       "Selesai ✓"
+      ]
+     ]
+    },
+    "stempel": "URUT ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Tidak ada lagi pesanan tertukar, pelanggan datang saat cetakannya siap.",
+   "primitif": "daftar",
+   "opsi": {
+    "jam": "15.00",
+    "judul": "Sore Ini",
+    "item": [
+     "Antrean urut",
+     "Tidak tertukar",
+     "Pelanggan tepat waktu"
+    ],
+    "stempel": "BERES ✓",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

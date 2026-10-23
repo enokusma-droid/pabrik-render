@@ -1,0 +1,28 @@
+{
+ "kode": "nw-k0-044",
+ "brand": "nusawebsite",
+ "konsep": "K0",
+ "judul": "Dua rombongan, satu meja pojok, satu buku reservasi yang ketetesan gula aren",
+ "durasi": 46.0,
+ "LUFS": -14.1,
+ "TP": -1.2,
+ "cocok_vo_%": 96,
+ "cocok_ketat_%": 96,
+ "transkrip_15dtk": "Arisan RT dan rapat PKK. Satu meja pojok kedai kopi laras, dua-duanya merasa pesan duluan. Kopinya juara, catatannya, jangan ditanya. Siapa biang bentroknya? Iya aku, buku resi.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/nw-k0-044.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k0-044.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/mafiaterkakap-prog/pabrik-render/actions/runs/39765839685",
+ "waktu": "2026-10-22T18:22+07:00",
+ "catatan_bangun": [
+  "pose \"presentasi\" untuk nw-laras tidak ada → pakai nw-laras-catat"
+ ],
+ "phash_awal": [
+  "9a366165755d9bb6",
+  "9236616575559bb6",
+  "b666616575559ab6"
+ ],
+ "mirip_awal": []
+}

@@ -1,0 +1,173 @@
+{
+ "kode": "nw-k3-061",
+ "brand": "nusawebsite",
+ "konsep": "K3",
+ "pembuka": "k3-laporan-langsung",
+ "pemeran": {
+  "utama": "nw-laras",
+  "pendukung": [
+   "reporter"
+  ]
+ },
+ "judul": "Laporan langsung: roti bakar meja 9 nyasar ke meja 5 saat nobar",
+ "caption": "Malam nonton bareng, dua belas meja penuh dan pesanan ditulis di tisu. Satu tetesan es, roti bakar pun nyasar ke meja lain. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "ticker": "NOBAR MALAM INI: 12 MEJA PENUH • TISU MEJA 9 LUNTUR KENA ES • ROTI BAKAR NYASAR KE MEJA 5",
+ "adegan": [
+  {
+   "teks": "Kami melaporkan langsung dari kedai kopi Laras, sehelai tisu jadi saksi kunci.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "um-kertas-remas",
+    "nama": "Tisu Meja Sembilan",
+    "ket": "Saksi kunci, kedai kopi Laras",
+    "kutipan": "Saya tahu ke mana roti itu",
+    "stempel": "SAKSI"
+   }
+  },
+  {
+   "teks": "Reporter Mega mencatat dua belas meja penuh.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-mic",
+    "judul": "Nobar: 12 meja penuh",
+    "label": "LANGSUNG",
+    "nama": "Mega",
+    "jabatan": "Reporter"
+   }
+  },
+  {
+   "teks": "Buku pesanan habis, pesanan ditulis di tisu.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "prop": "um-kertas-remas",
+    "kartu": "Meja 9: roti bakar",
+    "tag": "PESANAN DI TISU",
+    "pose": "catat",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Tisu meja sembilan kena tetesan es, angkanya mirip lima.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "um-kertas-remas",
+    "nama": "Tisu Meja Sembilan",
+    "ket": "Saksi kunci, kena tetesan es",
+    "kutipan": "Angka 9 saya luntur jadi 5",
+    "stempel": "LUNTUR"
+   }
+  },
+  {
+   "teks": "Roti bakar meja sembilan pun mendarat di meja lima.",
+   "primitif": "bentrok",
+   "opsi": {
+    "kiri": [
+     "Meja 5",
+     "Dapat roti"
+    ],
+    "kanan": [
+     "Meja 9",
+     "Menunggu"
+    ],
+    "stempel": "NYASAR!",
+    "pose": "cemas-hp",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Meja sembilan menunggu rotinya satu babak penuh.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "MEJA 9 MENUNGGU",
+    "dari": 0,
+    "ke": 45,
+    "format": "menit",
+    "kata": "satu babak",
+    "pose": "cemas-hp",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Besoknya, Laras memesan aplikasi pesanan per nomor meja.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "label": "PESANAN MEJA",
+    "pose": "lega",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Nobar pekan berikutnya, pesanan tercatat per nomor meja.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Kedai Laras",
+     "lencana": "Nobar",
+     "baris": [
+      [
+       "Meja 5",
+       "2 kopi susu",
+       "Diantar"
+      ],
+      [
+       "Meja 9",
+       "Roti bakar",
+       "Diantar"
+      ],
+      [
+       "Meja 12",
+       "1 es teh",
+       "Dibuat"
+      ]
+     ]
+    },
+    "stempel": "PER MEJA",
+    "pose": "baki",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Reporter Mega melaporkan: roti tiba sebelum gol.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-tunjuk",
+    "judul": "Roti tiba sebelum gol",
+    "label": "UPDATE",
+    "nama": "Mega",
+    "jabatan": "Reporter"
+   }
+  },
+  {
+   "teks": "Tisu kembali bertugas mengelap meja.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "um-kertas-remas",
+    "nama": "Tisu Meja Sembilan",
+    "ket": "Kembali ke tugas asal",
+    "kutipan": "Lega, kini cuma mengelap meja",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

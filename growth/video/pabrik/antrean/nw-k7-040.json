@@ -1,0 +1,184 @@
+{
+ "kode": "nw-k7-040",
+ "brand": "nusawebsite",
+ "konsep": "K7",
+ "pembuka": "k7-hasil-dulu",
+ "pemeran": {
+  "utama": "nw-f",
+  "pendukung": []
+ },
+ "judul": "Tutorial salah: cara bikin kaos arisan satu RT tidak pas",
+ "caption": "Terima ukuran lewat pesan suara, salin sambil melayani pembeli, tempel di samping tinta. Tutorial yang sudah dipraktikkan Sari, sampai Pak RT dapat kaos selutut. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Kaos arisan Pak RT sampai selutut, separuh RT protes.",
+   "primitif": "poster",
+   "opsi": {
+    "judul": "PROTES!",
+    "gambar": "um-sticky-kusut",
+    "label": "KAOS ARISAN",
+    "keterangan": "separuh salah ukuran",
+    "stempel": "SELUTUT",
+    "tag": "separuh RT protes"
+   }
+  },
+  {
+   "teks": "Pembuatnya Sari, pemilik sablon. Mau hasil begini? Ikuti.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "yakin",
+    "wajah": [
+     "yakin"
+    ],
+    "judul": "Sari",
+    "sub": "pemilik usaha sablon",
+    "stempel": "TELADAN"
+   }
+  },
+  {
+   "teks": "Langkah satu, terima ukuran lewat pesan suara berisik motor.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "total": 4,
+    "judul": "Ukuran lewat\nPESAN SUARA",
+    "prop": "nw-hp-berdering",
+    "pose": "telepon",
+    "wajah": [
+     "senang"
+    ],
+    "bubble": "brem brem!"
+   }
+  },
+  {
+   "teks": "Langkah dua, salin sambil melayani pembeli lain.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "total": 4,
+    "judul": "Salin ukuran\nSAMBIL MELAYANI",
+    "prop": "nw-buku-coretan",
+    "pose": "duduk-catat",
+    "wajah": [
+     "senang"
+    ],
+    "bubble": "sebentar ya!"
+   }
+  },
+  {
+   "teks": "Langkah tiga, tempel catatannya di samping bantalan tinta.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "total": 4,
+    "judul": "Tempel di\nSAMPING TINTA",
+    "prop": "nw-sticky-tumpuk",
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Langkah empat, separuh catatan ternoda tinta? Tebak saja, sama-sama kaos.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "total": 4,
+    "judul": "Catatan ternoda?\nTEBAK SAJA",
+    "prop": "nw-bantalan-tinta",
+    "pose": "bingung",
+    "wajah": [
+     "senang",
+     "bingung"
+    ],
+    "ganti": "tebak",
+    "cap": "BERHASIL"
+   }
+  },
+  {
+   "teks": "Hasilnya, Pak RT yang mungil dapat kaos jumbo.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "panik",
+    "wajah": [
+     "kaget",
+     "panik"
+    ],
+    "ganti": "XXL",
+    "bubble": "kok jadi daster?",
+    "stempel": "KEDODORAN"
+   }
+  },
+  {
+   "teks": "Diprotes separuh RT, Sari pindah ke langkah bonus: aplikasi.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 5,
+    "bonus": true,
+    "judul": "LANGKAH BONUS:\npakai aplikasi",
+    "prop": "nw-ui-pesanan",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Kini anggota isi ukuran sendiri lewat tautan, tanpa motor, tanpa tinta.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Kaos Arisan RT 5",
+     "lencana": "30 anggota",
+     "baris": [
+      [
+       "Pak RT",
+       "Ukuran S",
+       "Terisi"
+      ],
+      [
+       "Bu Ratna",
+       "Ukuran M",
+       "Terisi"
+      ],
+      [
+       "Pak Joko",
+       "Ukuran XL",
+       "Belum"
+      ]
+     ]
+    },
+    "stempel": "TERCATAT",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang. Adegan 3 pesan suara berisik bisa diberi akibat. Adegan 7 bisa tambah gambar kaos jumbo. Adegan 6 teks BERHASIL bisa diganti PASTI PAS. Adegan 9 bagus, Pak RT ukuran S menutup lelucon awal.",
+  "naskah_hash": "00fb115d0c32",
+  "waktu": "2026-10-22T10:40"
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "kode": "nw-k2-024",
+ "brand": "nusawebsite",
+ "konsep": "K2",
+ "judul": "Dulu vs sekarang: membuat invoice pelanggan grosir",
+ "caption": "Toko grosir yang sama, pesanan yang sama. Kiri menulis invoice dengan tangan, kanan cukup sekali klik. Kamu masih di kiri? Tanya lewat WhatsApp di profil. #umkm #grosir #aplikasibisnis",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Toko grosir yang sama, pelanggan yang sama. Yang kiri dulu, yang kanan sekarang.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "bingung",
+     "wajah": [
+      "bingung"
+     ],
+     "bubble": "invoice lagi?"
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "siap kirim!"
+    }
+   }
+  },
+  {
+   "teks": "Pesanan dua puluh dus masuk. Kiri menulis invoice dengan tangan, baris demi baris.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "duduk-catat",
+     "wajah": [
+      "lelah"
+     ],
+     "prop": "nw-buku-coretan",
+     "stempel": "MENULIS"
+    },
+    "kanan": {
+     "pose": "duduk-laptop",
+     "wajah": [
+      "tenang"
+     ],
+     "stempel": "SEKALI KLIK"
+    }
+   }
+  },
+  {
+   "teks": "Kanan cukup memilih pesanan, invoice langsung jadi dan rapi.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "pusing-hp",
+     "wajah": [
+      "panik"
+     ],
+     "bubble": "salah tulis!"
+    },
+    "kanan": {
+     "pose": "yakin",
+     "wajah": [
+      "yakin"
+     ],
+     "bubble": "jadi!"
+    }
+   }
+  },
+  {
+   "teks": "Kiri lupa invoice mana yang sudah dikirim ke pelanggan.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "bingung",
+     "wajah": [
+      "bingung"
+     ],
+     "stempel": "LUPA"
+    },
+    "kanan": {
+     "pose": "ketik-hp",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "sudah terkirim"
+    }
+   }
+  },
+  {
+   "teks": "Akhir bulan, kiri mencari salinan invoice di tumpukan map. Kanan tinggal buka daftar.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "lelah",
+     "wajah": [
+      "lelah"
+     ],
+     "prop": "nw-tumpukan-nota"
+    },
+    "kanan": {
+     "pose": "jalan-laptop",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "BERES ✓"
+    }
+   }
+  },
+  {
+   "teks": "Bedanya cuma satu, yang kanan pakai aplikasi invoice buatan sendiri.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Invoice Grosir",
+     "baris": [
+      [
+       "INV-021 Maju",
+       "Kirim 20 dus",
+       "Terkirim ✓"
+      ],
+      [
+       "INV-022 Rina",
+       "Kirim 8 dus",
+       "Dibuat"
+      ],
+      [
+       "INV-023 Sari",
+       "Kirim 12 dus",
+       "Terkirim ✓"
+      ]
+     ]
+    },
+    "stempel": "RAPI ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Dan akhirnya, si kiri pun ikut menyeberang ke kanan. Lega sekali.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "lega",
+    "wajah": [
+     "kaget",
+     "senang"
+    ],
+    "ganti": "menyeberang",
+    "judul": "pindah juga!",
+    "stempel": "AKHIRNYA ✓",
+    "bintang": true,
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

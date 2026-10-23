@@ -1,0 +1,174 @@
+{
+ "kode": "nw-k1-001",
+ "brand": "nusawebsite",
+ "konsep": "K1",
+ "judul": "Sehari jadi pemilik toko online tanpa sistem",
+ "caption": "Dari jam enam pagi HP berdering sampai rekap tengah malam. Besoknya toko ini pakai aplikasi pesanan sendiri. Kamu pernah mengalami hari seperti ini? Tanya lewat WhatsApp di profil. #umkm #tokoonline #aplikasibisnis",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Enam pagi. HP sudah berdering, pesanan masuk dari tiga grup sekaligus.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "06.00",
+    "pose": "jalan-hp",
+    "wajah": [
+     "senang",
+     "kaget"
+    ],
+    "ganti": "tiga",
+    "judul": "pesanan pagi",
+    "stempel": "RAMAI!",
+    "prop": "nw-hp-berdering"
+   }
+  },
+  {
+   "teks": "Sembilan pagi. Pelanggan bertanya, kak, pesanan saya sudah dikirim belum?",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "09.00",
+    "judul": "PESANAN TOKO",
+    "sub": "pelanggan",
+    "pesan": [
+     {
+      "teks": "kak, pesan 3 ya"
+     },
+     {
+      "teks": "sudah dikirim belum?",
+      "sorot": true
+     },
+     {
+      "teks": "sebentar kak dicek",
+      "keluar": true
+     },
+     {
+      "teks": "kok lama kak?"
+     }
+    ],
+    "pose": "ketik-hp",
+    "wajah": [
+     "bingung",
+     "cemas"
+    ],
+    "stempel": "???"
+   }
+  },
+  {
+   "teks": "Siang hari. Kardus menumpuk, catatan alamat entah terselip di mana.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "jam": "12.00",
+    "prop": "nw-kardus-tumpuk",
+    "kartu": "alamatnya di mana??",
+    "tag": "MENUMPUK",
+    "pose": "bawa-paket",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Sore. Tiga paket salah alamat, harus dikirim ulang.",
+   "primitif": "hitung",
+   "opsi": {
+    "jam": "16.00",
+    "judul": "SALAH ALAMAT",
+    "ke": 3,
+    "format": "angka",
+    "bubble": "kok ketuker?",
+    "prop": "nw-kardus-label",
+    "pose": "bingung",
+    "wajah": [
+     "kaget",
+     "kesal"
+    ]
+   }
+  },
+  {
+   "teks": "Malam. Rekap penjualan belum selesai, energi tinggal sisa.",
+   "primitif": "meter",
+   "opsi": {
+    "jam": "22.00",
+    "suasana": "malam",
+    "meter": [
+     {
+      "judul": "ENERGI",
+      "dari": 100,
+      "ke": 5,
+      "kata": "sisa"
+     }
+    ],
+    "pose": "lelah",
+    "wajah": [
+     "lelah",
+     "sedih"
+    ]
+   }
+  },
+  {
+   "teks": "Besoknya, toko ini memakai aplikasi pesanan sendiri.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "06.00"
+   }
+  },
+  {
+   "teks": "Enam pagi. Semua pesanan tercatat di satu daftar.",
+   "primitif": "layar",
+   "opsi": {
+    "jam": "06.00",
+    "app": {
+     "judul": "Pesanan Masuk",
+     "lencana": "12 baru",
+     "baris": [
+      [
+       "Bu Rina",
+       "Kaos M x2",
+       "Dikemas"
+      ],
+      [
+       "Mbak Dewi",
+       "Gamis L",
+       "Dikirim"
+      ],
+      [
+       "Kak Sari",
+       "Hijab x3",
+       "Selesai ✓"
+      ]
+     ]
+    },
+    "stempel": "RAPI ✓"
+   }
+  },
+  {
+   "teks": "Alamat tercatat, status kiriman jelas, rekap muncul sendiri.",
+   "primitif": "daftar",
+   "opsi": {
+    "jam": "16.00",
+    "judul": "Sore Ini",
+    "item": [
+     "Alamat tercatat",
+     "Status kiriman jelas",
+     "Rekap otomatis"
+    ],
+    "stempel": "BERES ✓",
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk tokomu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

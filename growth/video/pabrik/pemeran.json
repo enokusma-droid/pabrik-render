@@ -1,0 +1,38 @@
+{
+ "aturan": "Owner 22 Okt 2026: DAFTAR PEMERAN TETAP per brand. Spec WAJIB punya `pemeran: {utama: <id>, pendukung: [<id>]}`. Maks 2 tokoh manusia per video (utama + 1). Tokoh selain utama WAJIB diperkenalkan: salah satu `kunci` muncul di VO adegan tempat ia pertama tampil atau sebelumnya, atau di teks layar adegan itu (mis. \"ini Mbak Rina, resepsionis klinik\"). Utama tidak boleh sama dengan video sebelumnya di brand itu dan maks 5 dari 10 video terakhir. Tokoh di luar daftar ditolak. Tokoh manusia default WANITA (pria hanya bila cerita butuh). `id` = nilai field `tokoh` di katalog aset; pakai di opsi adegan sebagai `\"tokoh\": \"<id>\"` (pose/wajah dicari otomatis).",
+ "dentalcare": [
+  {"id": "dc-sinta", "nama": "drg. Sinta", "peran": "dokter gigi pemilik klinik", "kunci": ["sinta"], "utama": true, "pose": "presentasi bawa-berkas duduk-menulis sorak tunjuk pusing yakin lelah tablet jempol bingung lari"},
+  {"id": "dc-rina", "nama": "Mbak Rina", "peran": "resepsionis klinik (berhijab hitam, seragam navy)", "kunci": ["rina"], "utama": true, "pose": "telepon panik buku jempol"},
+  {"id": "dc-tari", "nama": "Mbak Tari", "peran": "perawat gigi / asisten dokter (scrub ungu, kuncir kuda)", "kunci": ["tari"], "utama": true, "pose": "bawa-berkas bingung tunjuk-papan sorak"},
+  {"id": "detektif", "nama": "Detektif Ana", "peran": "detektif narator (khusus K5)", "kunci": ["detektif", "ana"], "utama": true, "konsep": ["K5"], "pose": "kaca-pembesar lipat-tangan tunjuk jalan"},
+  {"id": "reporter", "nama": "Reporter Mega", "peran": "reporter berita (khusus K3)", "kunci": ["reporter", "mega", "melaporkan", "berita"], "utama": false, "konsep": ["K3"]},
+  {"id": "pasien-ibu", "nama": "Bu Wati", "peran": "pasien wanita berhijab", "kunci": ["wati"], "utama": false},
+  {"id": "pasien-anak", "nama": "Dek Nara", "peran": "pasien anak perempuan", "kunci": ["nara"], "utama": false},
+  {"id": "pasien-bapak", "nama": "Pak Darto", "peran": "pasien bapak berkumis (pria, hanya bila perlu)", "kunci": ["darto"], "utama": false, "pria": true},
+  {"id": "pakar", "nama": "Bu Siska", "peran": "pakar/analis (K3)", "kunci": ["siska", "pakar"], "utama": false},
+  {"id": "tetangga", "nama": "Bu Endang", "peran": "tetangga penggosip", "kunci": ["endang", "tetangga"], "utama": false}
+ ],
+ "nusawebsite": [
+  {"id": "nw-f", "nama": "Kak Sari", "peran": "pemilik usaha/toko (blazer oranye, bob)", "kunci": ["sari"], "utama": true},
+  {"id": "nw-laras", "nama": "Mbak Laras", "peran": "pemilik kedai kopi (celemek hijau, rambut dicepol)", "kunci": ["laras"], "utama": true, "pose": "cemas-hp catat baki lega"},
+  {"id": "detektif", "nama": "Detektif Ana", "peran": "detektif narator (khusus K5)", "kunci": ["detektif", "ana"], "utama": true, "konsep": ["K5"]},
+  {"id": "reporter", "nama": "Reporter Mega", "peran": "reporter berita (khusus K3)", "kunci": ["reporter", "mega", "melaporkan", "berita"], "utama": false, "konsep": ["K3"]},
+  {"id": "admin", "nama": "Mbak Dini", "peran": "admin/CS toko (headset)", "kunci": ["dini", "admin"], "utama": false},
+  {"id": "staf-gudang", "nama": "Mbak Yuni", "peran": "staf gudang", "kunci": ["yuni"], "utama": false},
+  {"id": "pelanggan", "nama": "Bu Ratna", "peran": "pelanggan toko online", "kunci": ["ratna", "pelanggan"], "utama": false},
+  {"id": "pemilik-toko-lain", "nama": "Bu Hana", "peran": "pemilik toko sebelah (berhijab marun)", "kunci": ["hana"], "utama": false},
+  {"id": "host", "nama": "Kak Vira", "peran": "host tutorial (K7)", "kunci": ["vira", "host"], "utama": false},
+  {"id": "karyawan", "nama": "Mbak Wulan", "peran": "karyawan baru", "kunci": ["wulan", "karyawan"], "utama": false},
+  {"id": "kurir", "nama": "Mas Joko", "peran": "kurir (pria, hanya bila perlu)", "kunci": ["joko", "kurir"], "utama": false, "pria": true},
+  {"id": "pakar", "nama": "Bu Siska", "peran": "pakar/analis (K3)", "kunci": ["siska", "pakar"], "utama": false},
+  {"id": "tetangga", "nama": "Bu Endang", "peran": "tetangga penggosip", "kunci": ["endang", "tetangga"], "utama": false}
+ ],
+ "ratu-bawang": [
+  {"id": "rb-ayu", "nama": "Chef Ayu", "peran": "pemilik + kepala koki resto (hijab marun, jaket chef putih kancing emas, apron marun)", "kunci": ["ayu", "chef"], "utama": true, "pose": "keranjang-kosong masak telepon karung-jempol foto-panik foto-nangis foto-tunjuk foto-karung foto-lega-hp foto-jempol"},
+  {"id": "detektif", "nama": "Detektif Ana", "peran": "detektif narator (khusus K5)", "kunci": ["detektif", "ana"], "utama": true, "konsep": ["K5"]},
+  {"id": "rb-sekar", "nama": "Mbak Sekar", "peran": "staf dapur resto Chef Ayu (kemeja abu, apron hitam, kuncir kuda)", "kunci": ["sekar"], "utama": true, "pose": "lari-belanja kupas-nangis bingung jempol"},
+  {"id": "rb-wening", "nama": "Mbak Wening", "peran": "kurir Ratu Bawang (hijab hitam, polo marun)", "kunci": ["wening", "kurir"], "utama": true, "pose": "pikul-karung serah-karung cek-hp lambai"},
+  {"id": "reporter", "nama": "Reporter Mega", "peran": "reporter berita (khusus K3)", "kunci": ["reporter", "mega", "melaporkan", "berita"], "utama": false, "konsep": ["K3"]}
+ ],
+ "bukan_pemeran": "Tokoh katalog lama yang TIDAK boleh dipakai lagi (wajah beda dari pemeran tetap): resepsionis (dc-resepsionis-foto, dc-foto-resepsionis-telepon, dc-kartun-resepsionis-telepon → pakai dc-rina), perawat (dc-kartun-perawat-papan → pakai dc-tari), staf (dc-foto-staf-pulang), penunggu (um-wanita-hijab-kesal), pemilik-toko-pria, bapak."
+}

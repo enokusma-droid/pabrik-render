@@ -1,0 +1,210 @@
+{
+ "kode": "dc-k4-012",
+ "brand": "dentalcare",
+ "konsep": "K4",
+ "judul": "4 tipe staf klinik soal jam pulang",
+ "caption": "Ada empat tipe staf klinik soal jam pulang. Dari si lembur rekap sampai si pulang tepat waktu. Kamu tipe nomor berapa? Tulis di komentar. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #stafklinik #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Ada empat tipe staf klinik soal jam pulang. Kamu yang mana?",
+   "primitif": "tipe-hook",
+   "opsi": {
+    "jumlah": 4,
+    "judul": "STAF KLINIK",
+    "sub": "soal jam pulang",
+    "tanya": "Kamu yang mana?"
+   }
+  },
+  {
+   "teks": "Tipe satu, si lembur rekap. Praktik selesai, rekap harian baru dimulai.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Lembur Rekap",
+    "rarity": "COMMON",
+    "foto": "dc-foto-resepsionis-telepon",
+    "stat": [
+     [
+      "RAJIN",
+      95
+     ],
+     [
+      "TELITI",
+      80
+     ],
+     [
+      "JAM PULANG",
+      15
+     ],
+     [
+      "ENERGI",
+      25
+     ]
+    ],
+    "skill": "rekap semua manual",
+    "lemah": "pulang paling akhir",
+    "gag": {
+     "turun": 2,
+     "ke": 5,
+     "kata": "dimulai"
+    }
+   }
+  },
+  {
+   "teks": "Tipe dua, si telepon terus. Mengingatkan jadwal pasien satu per satu lewat telepon.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Telepon Terus",
+    "rarity": "RARE",
+    "foto": "dc-kartun-resepsionis-telepon",
+    "stat": [
+     [
+      "RAMAH",
+      99
+     ],
+     [
+      "SABAR",
+      90
+     ],
+     [
+      "SUARA",
+      30
+     ],
+     [
+      "BATERAI HP",
+      10
+     ]
+    ],
+    "skill": "hafal semua nomor",
+    "lemah": "telepon tak berhenti",
+    "gag": {
+     "jenis": "chat",
+     "item": [
+      "Bu, besok kontrol ya",
+      "Jam berapa Mbak?",
+      "Bisa diundur?",
+      "[stiker]",
+      "Oke Mbak"
+     ],
+     "kata": "telepon"
+    }
+   }
+  },
+  {
+   "teks": "Tipe tiga, si cari berkas. Pasien terakhir sudah pulang, berkasnya belum ketemu.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Cari Berkas",
+    "rarity": "EPIC",
+    "foto": "dc-kartun-perawat-papan",
+    "stat": [
+     [
+      "SEMANGAT",
+      90
+     ],
+     [
+      "KECEPATAN",
+      40
+     ],
+     [
+      "BERKAS KETEMU",
+      10
+     ],
+     [
+      "JAM PULANG",
+      20
+     ]
+    ],
+    "skill": "kenal semua lemari",
+    "lemah": "berkas suka hilang",
+    "gag": {
+     "jenis": "lupa",
+     "item": [
+      "di laci mana?",
+      "map biru?",
+      "kardus lama?",
+      "di meja dokter?"
+     ],
+     "kata": "ketemu"
+    }
+   }
+  },
+  {
+   "teks": "Tipe empat, langka. Semua data di DentalCare, pulang tepat waktu setiap hari.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Si Pulang Tepat",
+    "rarity": "LEGENDARY",
+    "foto": "dc-foto-staf-pulang",
+    "stat": [
+     [
+      "DATA RAPI",
+      100
+     ],
+     [
+      "JADWAL JELAS",
+      100
+     ],
+     [
+      "SANTAI",
+      100
+     ],
+     [
+      "JAM PULANG",
+      100
+     ]
+    ],
+    "skill": "semua data di DentalCare",
+    "lemah": "tidak ada (sejauh ini)",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "Jadwal besok tersusun",
+      "Data pasien tersimpan",
+      "Waktunya pulang"
+     ],
+     "stempel": "PULANG TEPAT",
+     "kata": "pulang"
+    }
+   }
+  },
+  {
+   "teks": "Jadwal besok dan data pasien sudah siap sebelum klinik tutup.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jadwal Besok"
+     }
+    ],
+    "stempel": "SIAP ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Kamu tipe yang mana? Tulis nomornya di komentar.",
+   "primitif": "tipe-pilih",
+   "opsi": {
+    "komentar": "Aku tipe nomor ..."
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

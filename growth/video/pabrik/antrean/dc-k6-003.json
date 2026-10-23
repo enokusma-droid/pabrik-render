@@ -1,0 +1,106 @@
+{
+ "kode": "dc-k6-003",
+ "brand": "dentalcare",
+ "konsep": "K6",
+ "judul": "Surat terbuka dari kalender dinding ruang praktik",
+ "caption": "Surat terbuka dari kalender dinding yang setiap hari dicoret jadwal kontrol pasien. Kalender di klinikmu masih penuh coretan? Mau lihat demo DentalCare, tanya lewat WhatsApp di profil. #klinikgigi #jadwalpasien #DentalCare",
+ "musik": "haru",
+ "adegan": [
+  {
+   "teks": "Surat terbuka untuk dokter Sinta, dari aku, kalender dinding di ruang praktik.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "untuk": "drg. Sinta",
+    "dari": "kalender dinding",
+    "maskot": "dc-maskot-kalender-senang"
+   }
+  },
+  {
+   "teks": "Setiap hari kamu menulis jadwal kontrol pasien di badanku. Kecil kecil, penuh coretan.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Tiap hari kamu menulis...",
+     "jadwal kontrol",
+     "penuh coretan"
+    ],
+    "gambar": "dc-prop-kalender-sobek"
+   }
+  },
+  {
+   "teks": "Kadang dua pasien kamu tulis di jam yang sama.",
+   "primitif": "bentrok",
+   "opsi": {
+    "kiri": [
+     "10.00",
+     "Bu Maya"
+    ],
+    "kanan": [
+     "10.00",
+     "Pak Joko"
+    ],
+    "stempel": "BENTROK!",
+    "pose": "bingung",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu akhir bulan, lembarku disobek. Jadwal bulan depan ikut hilang.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Lembarku disobek...",
+     "jadwal ikut hilang"
+    ],
+    "gambar": "dc-maskot-kalender-sedih",
+    "stempel": "SOBEK"
+   }
+  },
+  {
+   "teks": "Aku sedih melihat pasien lupa kontrol, padahal giginya perlu dirawat.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Pasien lupa kontrol...",
+     "aku sedih"
+    ],
+    "gambar": "dc-kartun-pasien-bapak-sakit"
+   }
+  },
+  {
+   "teks": "Sekarang jadwal kontrol tersimpan di DentalCare. Rapi, tidak bentrok, mudah dicek.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jadwal Kontrol"
+     }
+    ],
+    "stempel": "RAPI ✓"
+   }
+  },
+  {
+   "teks": "Akhirnya aku bisa pensiun tenang. Salam hangat, kalender dindingmu.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam hangat,",
+    "ttd": "kalender dindingmu",
+    "maskot": "dc-maskot-kalender-lega",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

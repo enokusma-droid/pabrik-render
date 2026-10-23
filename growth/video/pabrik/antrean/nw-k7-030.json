@@ -1,0 +1,123 @@
+{
+ "kode": "nw-k7-030",
+ "brand": "nusawebsite",
+ "konsep": "K7",
+ "judul": "Tutorial: cara bikin karyawan baru bingung di toko",
+ "caption": "Tutorial (salah) bikin karyawan baru bingung di hari pertama: daftar produk di kepala pemilik, stok tanpa catatan, aturan lewat lisan. Jangan ditiru ya! Tanya lewat WhatsApp di profil. #umkm #karyawan #aplikasibisnis",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Punya karyawan baru di toko? Begini cara bikin dia bingung. Cukup empat langkah.",
+   "primitif": "tutorial-hook",
+   "opsi": {
+    "judul": "Cara bikin karyawan",
+    "kunci": "BINGUNG",
+    "jumlah": 4,
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Langkah satu, simpan daftar produk di kepala pemilik saja.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "judul": "Daftar produk\nDI KEPALA",
+    "prop": "nw-rak-stok",
+    "pose": "yakin",
+    "bubble": "hafalkan ya!"
+   }
+  },
+  {
+   "teks": "Langkah dua, biarkan stok dicatat di tiga buku yang berbeda.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "judul": "Stok di\nTIGA BUKU",
+    "prop": "nw-buku-coretan",
+    "pose": "duduk-catat",
+    "bubble": "pilih satu!"
+   }
+  },
+  {
+   "teks": "Langkah tiga, sampaikan semua aturan toko lewat lisan, sekali saja.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "judul": "Aturan\nSEKALI BILANG",
+    "prop": "nw-staf-gudang",
+    "pose": "telepon",
+    "cap": "BERHASIL ✓"
+   }
+  },
+  {
+   "teks": "Langkah empat, saat dia bertanya, jawab dengan, biasanya sih begitu.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "judul": "Jawab\nBIASANYA SIH",
+    "prop": "nw-gelembung-oranye",
+    "pose": "bingung",
+    "wajah": [
+     "senang",
+     "bingung"
+    ],
+    "ganti": "biasanya"
+   }
+  },
+  {
+   "teks": "Atau, langkah bonus. Pakai aplikasi toko sendiri. Produk, stok, dan pesanan bisa dipelajari dari satu layar.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 5,
+    "bonus": true,
+    "judul": "Pakai aplikasi\nsendiri",
+    "prop": "nw-maskot-laptop-yakin",
+    "pose": "lega"
+   }
+  },
+  {
+   "teks": "Hari pertama pun lancar, karyawan baru langsung bisa melayani pembeli.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Panduan Toko",
+     "baris": [
+      [
+       "Daftar produk",
+       "48 barang",
+       "Lengkap ✓"
+      ],
+      [
+       "Stok hari ini",
+       "Rak A dan B",
+       "Update ✓"
+      ],
+      [
+       "Pesanan masuk",
+       "6 baru",
+       "Proses"
+      ]
+     ]
+    },
+    "stempel": "LANCAR ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

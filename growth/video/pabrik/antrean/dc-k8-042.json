@@ -1,0 +1,123 @@
+{
+ "kode": "dc-k8-042",
+ "brand": "dentalcare",
+ "konsep": "K8",
+ "pembuka": "k8-rekaman",
+ "pemeran": {
+  "utama": "dc-tari",
+  "pendukung": [
+   "pasien-ibu"
+  ]
+ },
+ "judul": "Rekaman ruang arsip: sepuluh menit sebelum pasien behel datang",
+ "caption": "Rekaman ruang arsip pukul tujuh lima puluh. Coretan dokter belum disalin, lalu ada wajah di pintu. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "musik": "horor",
+ "adegan": [
+  {
+   "teks": "Rekaman kamera arsip, tujuh lima puluh. Rak bergoyang sendiri. Ternyata Mbak Tari, perawat gigi.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "REC 07.50",
+     "RAK BERGOYANG"
+    ],
+    "pose": "bawa-berkas",
+    "wajah": [
+     "panik"
+    ],
+    "latar": "dc-latar-arsip"
+   }
+  },
+  {
+   "teks": "Sepuluh menit lagi pasien behel datang. Mapnya ditumpuk tanpa abjad.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "SISA WAKTU",
+    "dari": 10,
+    "ke": 0,
+    "format": "menit",
+    "pose": "bingung",
+    "wajah": [
+     "panik"
+    ],
+    "bubble": "A? B? Z?",
+    "suasana": "gelap"
+   }
+  },
+  {
+   "teks": "Ketemu di menit kesembilan. Coretan dokter belum disalin Tari, halamannya kosong.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "HALAMAN KOSONG",
+     "BELUM DISALIN"
+    ],
+    "gambar": "dc-maskot-map-kaget"
+   }
+  },
+  {
+   "teks": "Wajah muncul di pintu: Bu Wati, pasien behel. Dia mengira Tari hantu arsip.",
+   "primitif": "kejut",
+   "opsi": {
+    "subjek": "dc-kartun-pasien-ibu-tunggu",
+    "teks": "Hantu arsip?!",
+    "stempel": "KYAAA!"
+   }
+  },
+  {
+   "teks": "Tari menjawab Bu Wati: catatannya belum tercatat, Bu. Kontrol molor setengah jam.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "CEK ULANG KAWAT",
+     "MOLOR 30 MENIT"
+    ],
+    "gambar": "dc-maskot-odontogram-sedih"
+   }
+  },
+  {
+   "teks": "Sorenya, Tari mengusulkan catatan behel langsung diketik di DentalCare.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "kiri": "dc-maskot-map-yakin",
+    "label": "CATATAN",
+    "pose": "tunjuk-papan",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Bulan berikutnya, riwayat kawat terakhir terbuka sebelum Bu Wati duduk.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-soap-rapi",
+      "judul": "Riwayat Kawat"
+     },
+     {
+      "ui": "dc-ui-pasien-detail-rapi",
+      "judul": "Data Pasien"
+     }
+    ],
+    "stempel": "SIAP ✓",
+    "pose": "sorak",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

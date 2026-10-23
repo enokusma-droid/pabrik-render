@@ -1,0 +1,155 @@
+{
+ "kode": "nw-k5-032",
+ "brand": "nusawebsite",
+ "konsep": "K5",
+ "pembuka": "k5-laporan",
+ "pemeran": {
+  "utama": "detektif",
+  "pendukung": [
+   "nw-f"
+  ]
+ },
+ "judul": "Kemeja hijau terakhir yang terjual dua kali",
+ "caption": "Buku stok bilang masih ada satu, pembeli sudah transfer, kardusnya kosong. Detektif Ana menyelidiki tiga tersangka di toko Kak Sari. Mau aplikasi stok untuk usahamu, tanya lewat WhatsApp di profil. #tokoonline #stokbarang #aplikasicustom",
+ "adegan": [
+  {
+   "teks": "Kemeja terakhir Kak Sari terjual dua kali. Detektif Ana bertindak.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "KASUS #032",
+    "jumlah": 1,
+    "sub": "terjual 2 kali",
+    "pita": "PENYELIDIKAN",
+    "pose": "kaca-pembesar"
+   }
+  },
+  {
+   "teks": "Satu laku di kasir Kak Sari, satu dibayar Bu Ratna online.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "nw-f",
+    "pose": "pusing-hp",
+    "wajah": [
+     "bingung",
+     "panik"
+    ],
+    "ganti": "kasir",
+    "judul": "Kak Sari",
+    "sub": "toko baju online & kasir",
+    "bubble": "stok 1, laku 2?"
+   }
+  },
+  {
+   "teks": "Tersangka pertama, rak gudang: aku cuma rak! Kemejanya diambil kasir.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "nw-rak-stok",
+    "label": "RAK GUDANG",
+    "catatan": "aku cuma rak!",
+    "stempel": [
+     "ALIBI KUAT"
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka kedua, HP toko: buku bilang stok satu, ya kujual online!",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "nw-hp-chat-banjir",
+    "label": "HP TOKO",
+    "catatan": "buku bilang 1, kujual!",
+    "stempel": [
+     "SALAH INFO"
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka ketiga, buku stok: antre, lupa ditulis.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "nw-maskot-buku-panik",
+    "label": "BUKU STOK",
+    "catatan": "antre panjang, lupa ditulis",
+    "stempel": [
+     "MENCURIGAKAN"
+    ]
+   }
+  },
+  {
+   "teks": "Buku menangis: aku kertas, bukan notifikasi! Vonis: catatan manual.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "nw-maskot-buku-sedih",
+    "label": "PELAKU",
+    "stempel": "CATATAN MANUAL"
+   }
+  },
+  {
+   "teks": "Kini satu aplikasi: laku di kasir, stok online langsung habis.",
+   "primitif": "vonis",
+   "opsi": {
+    "vonis": "STOK",
+    "judul": "Stok Toko Sari",
+    "cari": "hijau L",
+    "detik": 3,
+    "ok": "TERCATAT ✓",
+    "app": {
+     "judul": "Stok Toko Sari",
+     "lencana": "Hari ini",
+     "baris": [
+      [
+       "Kemeja Hijau L",
+       "Laku di kasir",
+       "Online habis"
+      ],
+      [
+       "PO Pemasok",
+       "Tiba Kamis",
+       "Dipesan"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Kak Sari mengabari Bu Ratna: kemeja dari pemasok tiba Kamis.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Kasus ditutup",
+    "tag": "KASUS DITUTUP",
+    "pose": "lega",
+    "tokoh": "nw-f",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "tokoh": "nw-f",
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Layak tayang. A2: kasir Kak Sari ambigu, tulis Kak Sari jual di kasir. A4: HP toko berjualan sendiri, ganti jadi admin online pakai HP toko atau pertahankan sebagai tersangka benda yang jelas. A7: PO Pemasok muncul tanpa sebab di VO, tambahkan stok habis, aplikasi ingatkan pesan ke pemasok. Humor aku kertas, bukan notifikasi kuat, pertahankan.",
+  "naskah_hash": "a1c2ed37b476",
+  "waktu": "2026-10-22T01:21"
+ }
+}

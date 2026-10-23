@@ -1,0 +1,193 @@
+{
+ "kode": "nw-k6-060",
+ "brand": "nusawebsite",
+ "konsep": "K6",
+ "pembuka": "k6-terima-kasih",
+ "pemeran": {
+  "utama": "nw-f",
+  "pendukung": []
+ },
+ "judul": "Surat pamit file Excel stok: final, FINAL, revisi tiga, sepatu laku dua kali",
+ "caption": "Satu file Excel dibuka tiga orang, lahirlah stok_final_FINAL_revisi3. Sepatu putih terakhir pun laku dua kali. Surat pamit dari file Excel stok untuk Kak Sari. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "adegan": [
+  {
+   "teks": "Terima kasih, Sari, untuk tiga tahun ini. Aku pamit.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terima kasih, Sari",
+    "tag": "AKU PAMIT",
+    "label": "stok.xlsx",
+    "maskot": "nw-maskot-excel-senang"
+   }
+  },
+  {
+   "teks": "Aku file Excel stok toko sepatu onlinemu.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "judul": "Surat Pamit",
+    "untuk": "Sari, pemilik toko sepatu",
+    "dari": "file Excel stok",
+    "maskot": "nw-maskot-excel-yakin"
+   }
+  },
+  {
+   "teks": "Kamu, admin, gudang, membukaku bergantian.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Sari, admin, gudang",
+     "buka bergantian"
+    ],
+    "pose": "duduk-laptop",
+    "wajah": [
+     "senang"
+    ],
+    "stempel": "GILIRAN"
+   }
+  },
+  {
+   "teks": "Tiap orang simpan salinan. Namaku final, final, revisi tiga.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "stok_final.xlsx",
+     "stok_final_FINAL.xlsx",
+     "stok_final_FINAL_revisi3"
+    ],
+    "gambar": "nw-maskot-excel-bingung",
+    "stempel": "BERANAK"
+   }
+  },
+  {
+   "teks": "Sabtu, admin menjual sepatu putih terakhir.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Sabtu, salinan admin",
+     "Sepatu putih 38: sisa 1",
+     "terjual, jadi 0"
+    ],
+    "gambar": "nw-kardus-label",
+    "stempel": "TERJUAL"
+   }
+  },
+  {
+   "teks": "Stoknya cuma berkurang di salinan admin.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "salinan admin: 0",
+     "salinan Sari: masih 1"
+    ],
+    "gambar": "nw-maskot-excel-sedih",
+    "stempel": "BEDA"
+   }
+  },
+  {
+   "teks": "Sorenya kamu menjualnya lagi.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Sore, salinan Sari",
+     "Sepatu putih 38: sisa 1",
+     "terjual lagi"
+    ],
+    "pose": "ketik-hp",
+    "wajah": [
+     "senang"
+    ],
+    "stempel": "LAKU 2X"
+   }
+  },
+  {
+   "teks": "Gudang cuma menemukan sepasang. Pembeli kedua dapat maaf, bukan sepatu.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pembeli kedua",
+    "sub": "Sepatu putih 38",
+    "pesan": [
+     {
+      "teks": "Sepatu putih 38 saya mana?"
+     },
+     {
+      "teks": "Maaf kak, ternyata habis",
+      "sorot": true
+     }
+    ],
+    "pose": "ketik-hp",
+    "wajah": [
+     "sedih"
+    ],
+    "stempel": "MAAF",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Malamnya kamu putuskan, stok pindah ke aplikasi bersama.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "mulai Senin:",
+     "satu stok, satu aplikasi"
+    ],
+    "pose": "yakin",
+    "wajah": [
+     "yakin"
+    ],
+    "stempel": "CUKUP"
+   }
+  },
+  {
+   "teks": "Kini kalian bertiga melihat angka yang sama.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Stok Sepatu Sari",
+     "lencana": "3 akun",
+     "baris": [
+      [
+       "Sepatu putih 38",
+       "Stok 0",
+       "Habis"
+      ],
+      [
+       "Sneaker hitam 40",
+       "Stok 6",
+       "Ada"
+      ],
+      [
+       "Sandal krem 37",
+       "Stok 2",
+       "Ada"
+      ]
+     ]
+    },
+    "stempel": "SATU STOK",
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Kini aku pensiun, mengurus jadwal arisan. Versinya satu.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Versiku kini satu,",
+    "ttd": "Excel jadwal arisan",
+    "maskot": "nw-maskot-excel-senang",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

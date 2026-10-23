@@ -1,0 +1,155 @@
+{
+ "kode": "dc-k2-015",
+ "brand": "dentalcare",
+ "konsep": "K2",
+ "judul": "Dulu vs sekarang: menyiapkan jadwal pasien besok",
+ "caption": "Klinik yang sama, malam yang sama. Kiri menyalin jadwal besok satu per satu, kanan sudah pulang sejak sore. Klinikmu masih di kiri? Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #jadwalpasien #DentalCare",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Klinik yang sama, malam yang sama. Yang kiri dulu, yang kanan sekarang.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "lelah",
+     "wajah": [
+      "lelah"
+     ],
+     "bubble": "besok siapa ya?"
+    },
+    "kanan": {
+     "pose": "tablet",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "sudah siap!"
+    }
+   }
+  },
+  {
+   "teks": "Kiri menyalin nama pasien besok dari buku ke kertas, satu per satu.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "duduk-menulis",
+     "wajah": [
+      "lelah"
+     ],
+     "prop": "dc-prop-buku-antrean",
+     "stempel": "MENYALIN"
+    },
+    "kanan": {
+     "pose": "yakin",
+     "wajah": [
+      "yakin"
+     ],
+     "stempel": "OTOMATIS ✓"
+    }
+   }
+  },
+  {
+   "teks": "Sementara itu, kanan cukup membuka jadwal besok, semua pasien sudah tersusun rapi.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "bingung",
+     "wajah": [
+      "bingung"
+     ],
+     "bubble": "jam berapa ini?"
+    },
+    "kanan": {
+     "pose": "tablet",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "rapi semua!"
+    }
+   }
+  },
+  {
+   "teks": "Kiri juga lupa menyiapkan alat untuk pasien cabut gigi besok pagi.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "pusing",
+     "wajah": [
+      "panik"
+     ],
+     "stempel": "LUPA"
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "prop": "dc-prop-kaca-mulut",
+     "stempel": "SIAP ✓"
+    }
+   }
+  },
+  {
+   "teks": "Malamnya, kiri baru tidur larut sekali. Kanan sudah pulang sejak sore.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "lelah",
+     "wajah": [
+      "lelah"
+     ],
+     "prop": "dc-prop-kopi-tumpah"
+    },
+    "kanan": {
+     "pose": "sorak",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "pulang!"
+    }
+   }
+  },
+  {
+   "teks": "Bedanya cuma satu, yang kanan sudah memakai jadwal pasien di DentalCare.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jadwal Besok"
+     }
+    ],
+    "stempel": "SIAP ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Dan akhirnya, si kiri pun ikut menyeberang ke kanan. Lega sekali.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "kaget",
+     "senang"
+    ],
+    "ganti": "menyeberang",
+    "judul": "pindah juga!",
+    "stempel": "AKHIRNYA ✓",
+    "bintang": true,
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

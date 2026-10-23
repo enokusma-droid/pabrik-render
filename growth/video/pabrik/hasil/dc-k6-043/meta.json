@@ -1,0 +1,8 @@
+{
+ "kode": "dc-k6-043",
+ "gagal": true,
+ "lulus_qc": false,
+ "run": "https://github.com/mafiaterkakap-prog/pabrik-render/actions/runs/39765839685",
+ "waktu": "2026-10-22T18:22+07:00",
+ "pesan": "job video gagal; buka run untuk log (langkah Produksi). Perbaiki spec lalu kirim dengan kode revisi baru (mis. -r2)."
+}

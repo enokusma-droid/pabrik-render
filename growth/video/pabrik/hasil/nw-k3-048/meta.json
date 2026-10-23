@@ -1,0 +1,26 @@
+{
+ "kode": "nw-k3-048",
+ "brand": "nusawebsite",
+ "konsep": "K3",
+ "judul": "Investigasi: dua nota nomor 17 di laundry Sari",
+ "durasi": 42.37,
+ "LUFS": -14.1,
+ "TP": -1.4,
+ "cocok_vo_%": 100,
+ "cocok_ketat_%": 83,
+ "transkrip_15dtk": "Bagaimana kemeja kantor pulang menjadi duster? Reporter mega menyelidiki. Sari pemilik laundry kiloan mencatat nota manual. Pemilik kemeja malah menerima duster. Pemilik duster heran. Sejak kapan dusternya bergerah? Ternyata...",
+ "lulus_qc": true,
+ "musik": "tegang",
+ "g3": "konten/pabrik/hasil/nw-k3-048.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k3-048.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/mafiaterkakap-prog/pabrik-render/actions/runs/39777546418",
+ "waktu": "2026-10-22T19:44+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "81b2cae0f0f0f6b8",
+  "81b2cee0f0f0f6b8",
+  "8433ebe0f0f0feb8"
+ ],
+ "mirip_awal": []
+}

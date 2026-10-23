@@ -1,0 +1,1237 @@
+[
+ {
+  "id": "um-reporter-mic",
+  "brand": "umum",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "reporter",
+   "berita",
+   "K3",
+   "foto"
+  ],
+  "ket": "Reporter wanita blazer merah memegang mikrofon (seluruh badan)",
+  "tokoh": "reporter",
+  "w": 400,
+  "h": 978,
+  "g3": "pabrik/aset/umum/tokoh-pendukung/um-reporter-mic.png"
+ },
+ {
+  "id": "um-reporter-tunjuk",
+  "brand": "umum",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "reporter",
+   "berita",
+   "K3",
+   "foto",
+   "tunjuk"
+  ],
+  "ket": "Reporter wanita menunjuk ke samping (seluruh badan)",
+  "tokoh": "reporter",
+  "w": 593,
+  "h": 975,
+  "g3": "pabrik/aset/umum/tokoh-pendukung/um-reporter-tunjuk.png"
+ },
+ {
+  "id": "um-wanita-hijab-kesal",
+  "brand": "umum",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "kartun",
+   "kesal",
+   "duduk",
+   "nunggu",
+   "pelanggan"
+  ],
+  "ket": "Wanita berhijab kartun duduk kesal menunggu",
+  "tokoh": "penunggu",
+  "w": 359,
+  "h": 609,
+  "g3": "pabrik/aset/umum/tokoh-pendukung/um-wanita-hijab-kesal.png"
+ },
+ {
+  "id": "um-detektif-kaca-pembesar",
+  "brand": "umum",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "detektif",
+   "K5",
+   "kartun",
+   "jas-hujan",
+   "selidik",
+   "kaca-pembesar"
+  ],
+  "ket": "Detektif wanita kartun jas hujan krem memeriksa dengan kaca pembesar",
+  "pose": "kaca-pembesar",
+  "tokoh": "detektif",
+  "w": 393,
+  "h": 866,
+  "g3": "pabrik/aset/umum/tokoh-pendukung/um-detektif-kaca-pembesar.png"
+ },
+ {
+  "id": "um-detektif-tangan-silang",
+  "brand": "umum",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "detektif",
+   "K5",
+   "kartun",
+   "jas-hujan",
+   "serius",
+   "yakin"
+  ],
+  "ket": "Detektif wanita kartun jas hujan krem berdiri tangan bersilang serius",
+  "pose": "tangan-silang",
+  "tokoh": "detektif",
+  "w": 309,
+  "h": 911,
+  "g3": "pabrik/aset/umum/tokoh-pendukung/um-detektif-tangan-silang.png"
+ },
+ {
+  "id": "um-detektif-tunjuk",
+  "brand": "umum",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "detektif",
+   "K5",
+   "kartun",
+   "jas-hujan",
+   "tunjuk",
+   "tuduh"
+  ],
+  "ket": "Detektif wanita kartun jas hujan krem menunjuk tersangka",
+  "pose": "tunjuk",
+  "tokoh": "detektif",
+  "w": 364,
+  "h": 894,
+  "g3": "pabrik/aset/umum/tokoh-pendukung/um-detektif-tunjuk.png"
+ },
+ {
+  "id": "um-detektif-jalan-berkas",
+  "brand": "umum",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "detektif",
+   "K5",
+   "kartun",
+   "jas-hujan",
+   "jalan",
+   "berkas"
+  ],
+  "ket": "Detektif wanita kartun jas hujan krem berjalan membawa map",
+  "pose": "jalan-berkas",
+  "tokoh": "detektif",
+  "w": 406,
+  "h": 897,
+  "g3": "pabrik/aset/umum/tokoh-pendukung/um-detektif-jalan-berkas.png"
+ },
+ {
+  "id": "um-tumpukan-map",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "map",
+   "berkas",
+   "numpuk",
+   "arsip"
+  ],
+  "ket": "Tumpukan map/berkas tinggi",
+  "w": 367,
+  "h": 737,
+  "g3": "pabrik/aset/umum/props/um-tumpukan-map.png"
+ },
+ {
+  "id": "um-lemari-arsip",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "arsip",
+   "lemari",
+   "berkas"
+  ],
+  "ket": "Lemari arsip besi laci terbuka",
+  "w": 392,
+  "h": 503,
+  "g3": "pabrik/aset/umum/props/um-lemari-arsip.png"
+ },
+ {
+  "id": "um-kopi-tumpah",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "kopi",
+   "tumpah",
+   "musibah"
+  ],
+  "ket": "Mug kopi tumpah",
+  "w": 274,
+  "h": 393,
+  "g3": "pabrik/aset/umum/props/um-kopi-tumpah.png"
+ },
+ {
+  "id": "um-kardus-berkas",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "kardus",
+   "berkas",
+   "berantakan"
+  ],
+  "ket": "Kardus penuh berkas berantakan",
+  "w": 449,
+  "h": 571,
+  "g3": "pabrik/aset/umum/props/um-kardus-berkas.png"
+ },
+ {
+  "id": "um-kalkulator-jadul",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "kalkulator",
+   "struk"
+  ],
+  "ket": "Kalkulator jadul dengan struk",
+  "w": 386,
+  "h": 566,
+  "g3": "pabrik/aset/umum/props/um-kalkulator-jadul.png"
+ },
+ {
+  "id": "um-sticky-kusut",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "sticky-note",
+   "berantakan",
+   "kusut"
+  ],
+  "ket": "Sticky note kuning berserakan dan diremas",
+  "w": 344,
+  "h": 429,
+  "g3": "pabrik/aset/umum/props/um-sticky-kusut.png"
+ },
+ {
+  "id": "um-kucing-hitam",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "kucing",
+   "horor",
+   "K8",
+   "lucu"
+  ],
+  "ket": "Kucing hitam duduk (stiker)",
+  "w": 889,
+  "h": 1144,
+  "g3": "pabrik/aset/umum/props/um-kucing-hitam.png"
+ },
+ {
+  "id": "um-polaroid-foto",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "polaroid",
+   "foto",
+   "K5"
+  ],
+  "ket": "Polaroid kosong (foto)",
+  "w": 281,
+  "h": 384,
+  "g3": "pabrik/aset/umum/props/um-polaroid-foto.png"
+ },
+ {
+  "id": "um-sticky-foto",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "sticky-note",
+   "kosong"
+  ],
+  "ket": "Sticky note kuning kosong (foto)",
+  "w": 279,
+  "h": 287,
+  "g3": "pabrik/aset/umum/props/um-sticky-foto.png"
+ },
+ {
+  "id": "um-kertas-sobek-foto",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "kertas",
+   "sobek"
+  ],
+  "ket": "Strip kertas krem sobek (foto)",
+  "w": 414,
+  "h": 173,
+  "g3": "pabrik/aset/umum/props/um-kertas-sobek-foto.png"
+ },
+ {
+  "id": "um-benang-merah-pin",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "benang-merah",
+   "pin",
+   "K5",
+   "detektif"
+  ],
+  "ket": "Benang merah dengan dua paku pin",
+  "w": 323,
+  "h": 127,
+  "g3": "pabrik/aset/umum/props/um-benang-merah-pin.png"
+ },
+ {
+  "id": "um-kalender-sobek-foto",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "kalender",
+   "sobek",
+   "K1"
+  ],
+  "ket": "Lembar kalender sobek kosong (foto)",
+  "w": 347,
+  "h": 433,
+  "g3": "pabrik/aset/umum/props/um-kalender-sobek-foto.png"
+ },
+ {
+  "id": "um-kertas-remas",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "kertas",
+   "remas",
+   "gagal"
+  ],
+  "ket": "Gumpalan kertas diremas",
+  "w": 309,
+  "h": 305,
+  "g3": "pabrik/aset/umum/props/um-kertas-remas.png"
+ },
+ {
+  "id": "um-selotip",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "selotip",
+   "tempel"
+  ],
+  "ket": "Potongan selotip kertas",
+  "w": 299,
+  "h": 151,
+  "g3": "pabrik/aset/umum/props/um-selotip.png"
+ },
+ {
+  "id": "um-kartu-sobek",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "kertas",
+   "kartu",
+   "sobek"
+  ],
+  "ket": "Kartu putih kosong tepi kiri sobek",
+  "w": 380,
+  "h": 315,
+  "g3": "pabrik/aset/umum/props/um-kartu-sobek.png"
+ },
+ {
+  "id": "um-garis-polisi",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "garis-polisi",
+   "K5",
+   "detektif"
+  ],
+  "ket": "Pita kuning GARIS POLISI DILARANG MELINTAS (2600x170, ulang/potong)",
+  "w": 2616,
+  "h": 186,
+  "g3": "pabrik/aset/umum/props/um-garis-polisi.png"
+ },
+ {
+  "id": "um-benang-merah-lurus",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "benang-merah",
+   "K5"
+  ],
+  "ket": "Benang merah lurus 1600 px (rentang & putar di HTML)",
+  "w": 1616,
+  "h": 30,
+  "g3": "pabrik/aset/umum/props/um-benang-merah-lurus.png"
+ },
+ {
+  "id": "um-jam-muka",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "jam",
+   "K1",
+   "waktu"
+  ],
+  "ket": "Muka jam analog tanpa jarum",
+  "w": 697,
+  "h": 697,
+  "g3": "pabrik/aset/umum/props/um-jam-muka.png"
+ },
+ {
+  "id": "um-jam-jarum-pendek",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "jam",
+   "jarum"
+  ],
+  "ket": "Jarum jam pendek (pivot = tengah gambar)",
+  "w": 60,
+  "h": 400,
+  "g3": "pabrik/aset/umum/props/um-jam-jarum-pendek.png"
+ },
+ {
+  "id": "um-jam-jarum-panjang",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "jam",
+   "jarum"
+  ],
+  "ket": "Jarum menit oranye (pivot = tengah gambar)",
+  "w": 60,
+  "h": 560,
+  "g3": "pabrik/aset/umum/props/um-jam-jarum-panjang.png"
+ },
+ {
+  "id": "um-kalender-pad",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "kalender",
+   "K1"
+  ],
+  "ket": "Blok kalender kosong (tulis HARI di HTML)",
+  "w": 606,
+  "h": 708,
+  "g3": "pabrik/aset/umum/props/um-kalender-pad.png"
+ },
+ {
+  "id": "um-kalender-lembar-sobek",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "kalender",
+   "sobek",
+   "K1"
+  ],
+  "ket": "Lembar kalender tersobek kosong",
+  "w": 685,
+  "h": 740,
+  "g3": "pabrik/aset/umum/props/um-kalender-lembar-sobek.png"
+ },
+ {
+  "id": "um-sticky-note-kuning",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "sticky-note",
+   "kosong"
+  ],
+  "ket": "Sticky note kuning kosong",
+  "w": 632,
+  "h": 662,
+  "g3": "pabrik/aset/umum/props/um-sticky-note-kuning.png"
+ },
+ {
+  "id": "um-sticky-note-pink",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "sticky-note",
+   "kosong"
+  ],
+  "ket": "Sticky note pink kosong",
+  "w": 626,
+  "h": 648,
+  "g3": "pabrik/aset/umum/props/um-sticky-note-pink.png"
+ },
+ {
+  "id": "um-sticky-note-biru",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "sticky-note",
+   "kosong"
+  ],
+  "ket": "Sticky note biru kosong",
+  "w": 632,
+  "h": 662,
+  "g3": "pabrik/aset/umum/props/um-sticky-note-biru.png"
+ },
+ {
+  "id": "um-kertas-sobek-1",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "kertas",
+   "sobek",
+   "teks"
+  ],
+  "ket": "Strip kertas krem sobek lebar (untuk teks)",
+  "w": 1416,
+  "h": 353,
+  "g3": "pabrik/aset/umum/props/um-kertas-sobek-1.png"
+ },
+ {
+  "id": "um-kertas-sobek-2",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "kertas",
+   "sobek",
+   "teks"
+  ],
+  "ket": "Lembar kertas krem sobek atas-bawah",
+  "w": 1016,
+  "h": 509,
+  "g3": "pabrik/aset/umum/props/um-kertas-sobek-2.png"
+ },
+ {
+  "id": "um-polaroid-kosong",
+  "brand": "umum",
+  "jenis": "props",
+  "tag": [
+   "polaroid",
+   "K5",
+   "foto"
+  ],
+  "ket": "Bingkai polaroid kosong (area foto x54..594 y54..594 sebelum rotasi -3°)",
+  "w": 702,
+  "h": 814,
+  "g3": "pabrik/aset/umum/props/um-polaroid-kosong.png"
+ },
+ {
+  "id": "um-baterai-000",
+  "brand": "umum",
+  "jenis": "ui",
+  "tag": [
+   "baterai",
+   "meter",
+   "energi",
+   "kosong"
+  ],
+  "ket": "Baterai kosong (merah)",
+  "w": 503,
+  "h": 249,
+  "g3": "pabrik/aset/umum/ui/um-baterai-000.png"
+ },
+ {
+  "id": "um-baterai-025",
+  "brand": "umum",
+  "jenis": "ui",
+  "tag": [
+   "baterai",
+   "meter",
+   "energi"
+  ],
+  "ket": "Baterai 25%",
+  "w": 503,
+  "h": 249,
+  "g3": "pabrik/aset/umum/ui/um-baterai-025.png"
+ },
+ {
+  "id": "um-baterai-050",
+  "brand": "umum",
+  "jenis": "ui",
+  "tag": [
+   "baterai",
+   "meter",
+   "energi"
+  ],
+  "ket": "Baterai 50%",
+  "w": 503,
+  "h": 249,
+  "g3": "pabrik/aset/umum/ui/um-baterai-050.png"
+ },
+ {
+  "id": "um-baterai-075",
+  "brand": "umum",
+  "jenis": "ui",
+  "tag": [
+   "baterai",
+   "meter",
+   "energi"
+  ],
+  "ket": "Baterai 75%",
+  "w": 503,
+  "h": 249,
+  "g3": "pabrik/aset/umum/ui/um-baterai-075.png"
+ },
+ {
+  "id": "um-baterai-100",
+  "brand": "umum",
+  "jenis": "ui",
+  "tag": [
+   "baterai",
+   "meter",
+   "energi",
+   "penuh"
+  ],
+  "ket": "Baterai penuh (hijau)",
+  "w": 503,
+  "h": 249,
+  "g3": "pabrik/aset/umum/ui/um-baterai-100.png"
+ },
+ {
+  "id": "um-meteran-muka",
+  "brand": "umum",
+  "jenis": "ui",
+  "tag": [
+   "meteran",
+   "gauge",
+   "meter"
+  ],
+  "ket": "Muka meteran setengah lingkaran merah-kuning-hijau",
+  "w": 857,
+  "h": 444,
+  "g3": "pabrik/aset/umum/ui/um-meteran-muka.png"
+ },
+ {
+  "id": "um-meteran-jarum",
+  "brand": "umum",
+  "jenis": "ui",
+  "tag": [
+   "meteran",
+   "jarum"
+  ],
+  "ket": "Jarum meteran (pivot = tengah lingkaran bawah, 30,330)",
+  "w": 60,
+  "h": 360,
+  "g3": "pabrik/aset/umum/ui/um-meteran-jarum.png"
+ },
+ {
+  "id": "um-kartu-jam",
+  "brand": "umum",
+  "jenis": "ui",
+  "tag": [
+   "jam",
+   "K1",
+   "kartu"
+  ],
+  "ket": "Kartu jam pojok navy + ikon jam, kotak kosong untuk teks jam",
+  "w": 633,
+  "h": 245,
+  "g3": "pabrik/aset/umum/ui/um-kartu-jam.png"
+ },
+ {
+  "id": "um-stempel-beres",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "stempel",
+   "beres"
+  ],
+  "ket": "Stempel tinta BERES (miring -8°, tekstur grunge)",
+  "w": 638,
+  "h": 371,
+  "g3": "pabrik/aset/umum/efek/um-stempel-beres.png"
+ },
+ {
+  "id": "um-stempel-rapi",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "stempel",
+   "rapi"
+  ],
+  "ket": "Stempel tinta RAPI (miring -8°, tekstur grunge)",
+  "w": 524,
+  "h": 355,
+  "g3": "pabrik/aset/umum/efek/um-stempel-rapi.png"
+ },
+ {
+  "id": "um-stempel-selesai",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "stempel",
+   "selesai"
+  ],
+  "ket": "Stempel tinta SELESAI (miring -8°, tekstur grunge)",
+  "w": 750,
+  "h": 387,
+  "g3": "pabrik/aset/umum/efek/um-stempel-selesai.png"
+ },
+ {
+  "id": "um-stempel-revisi",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "stempel",
+   "revisi"
+  ],
+  "ket": "Stempel tinta REVISI (miring -8°, tekstur grunge)",
+  "w": 663,
+  "h": 375,
+  "g3": "pabrik/aset/umum/efek/um-stempel-revisi.png"
+ },
+ {
+  "id": "um-stempel-hilang",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "stempel",
+   "hilang"
+  ],
+  "ket": "Stempel tinta HILANG (miring -8°, tekstur grunge)",
+  "w": 710,
+  "h": 381,
+  "g3": "pabrik/aset/umum/efek/um-stempel-hilang.png"
+ },
+ {
+  "id": "um-stempel-dicari",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "stempel",
+   "dicari"
+  ],
+  "ket": "Stempel tinta DICARI (miring -8°, tekstur grunge)",
+  "w": 693,
+  "h": 379,
+  "g3": "pabrik/aset/umum/efek/um-stempel-dicari.png"
+ },
+ {
+  "id": "um-stempel-pindah",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "stempel",
+   "pindah"
+  ],
+  "ket": "Stempel tinta PINDAH (miring -8°, tekstur grunge)",
+  "w": 732,
+  "h": 385,
+  "g3": "pabrik/aset/umum/efek/um-stempel-pindah.png"
+ },
+ {
+  "id": "um-stempel-urgent",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "stempel",
+   "urgent"
+  ],
+  "ket": "Stempel tinta URGENT (miring -8°, tekstur grunge)",
+  "w": 754,
+  "h": 387,
+  "g3": "pabrik/aset/umum/efek/um-stempel-urgent.png"
+ },
+ {
+  "id": "um-stempel-baru",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "stempel",
+   "baru"
+  ],
+  "ket": "Stempel tinta BARU (miring -8°, tekstur grunge)",
+  "w": 582,
+  "h": 363,
+  "g3": "pabrik/aset/umum/efek/um-stempel-baru.png"
+ },
+ {
+  "id": "um-garis-kecepatan-hitam",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "garis-kecepatan",
+   "kaget",
+   "fokus"
+  ],
+  "ket": "Garis kecepatan radial hitam 1080x1920 (overlay)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/efek/um-garis-kecepatan-hitam.png"
+ },
+ {
+  "id": "um-garis-kecepatan-putih",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "garis-kecepatan",
+   "kaget",
+   "fokus"
+  ],
+  "ket": "Garis kecepatan radial putih 1080x1920 (overlay)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/efek/um-garis-kecepatan-putih.png"
+ },
+ {
+  "id": "um-garis-gerak-horizontal",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "garis-gerak",
+   "lari",
+   "cepat"
+  ],
+  "ket": "Garis gerak horizontal (di belakang objek yang meluncur)",
+  "w": 1573,
+  "h": 542,
+  "g3": "pabrik/aset/umum/efek/um-garis-gerak-horizontal.png"
+ },
+ {
+  "id": "um-ledakan",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "ledakan",
+   "pow",
+   "kaget"
+  ],
+  "ket": "Ledakan komik kuning-merah kosong (tulis POW/DUAR di HTML)",
+  "w": 664,
+  "h": 551,
+  "g3": "pabrik/aset/umum/efek/um-ledakan.png"
+ },
+ {
+  "id": "um-ledakan-pow",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "ledakan",
+   "pow",
+   "kaget"
+  ],
+  "ket": "Ledakan komik dengan tulisan POW!",
+  "w": 664,
+  "h": 551,
+  "g3": "pabrik/aset/umum/efek/um-ledakan-pow.png"
+ },
+ {
+  "id": "um-ledakan-duar",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "ledakan",
+   "duar",
+   "kaget"
+  ],
+  "ket": "Ledakan komik dengan tulisan DUAR!",
+  "w": 664,
+  "h": 551,
+  "g3": "pabrik/aset/umum/efek/um-ledakan-duar.png"
+ },
+ {
+  "id": "um-ledakan-brak",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "ledakan",
+   "brak",
+   "jatuh"
+  ],
+  "ket": "Ledakan komik dengan tulisan BRAK!",
+  "w": 664,
+  "h": 551,
+  "g3": "pabrik/aset/umum/efek/um-ledakan-brak.png"
+ },
+ {
+  "id": "um-tanda-seru",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "tanda-seru",
+   "kaget",
+   "penting"
+  ],
+  "ket": "Tanda seru merah",
+  "w": 151,
+  "h": 402,
+  "g3": "pabrik/aset/umum/efek/um-tanda-seru.png"
+ },
+ {
+  "id": "um-tanda-tanya",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "tanda-tanya",
+   "bingung"
+  ],
+  "ket": "Tanda tanya biru",
+  "w": 264,
+  "h": 401,
+  "g3": "pabrik/aset/umum/efek/um-tanda-tanya.png"
+ },
+ {
+  "id": "um-keringat",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "keringat",
+   "panik",
+   "gugup"
+  ],
+  "ket": "Tiga tetes keringat",
+  "w": 288,
+  "h": 387,
+  "g3": "pabrik/aset/umum/efek/um-keringat.png"
+ },
+ {
+  "id": "um-bintang",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "bintang",
+   "senang",
+   "berhasil"
+  ],
+  "ket": "Tiga bintang kuning",
+  "w": 312,
+  "h": 308,
+  "g3": "pabrik/aset/umum/efek/um-bintang.png"
+ },
+ {
+  "id": "um-pusing-bintang",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "pusing",
+   "bintang",
+   "spiral"
+  ],
+  "ket": "Lingkaran bintang pusing",
+  "w": 402,
+  "h": 264,
+  "g3": "pabrik/aset/umum/efek/um-pusing-bintang.png"
+ },
+ {
+  "id": "um-gelembung-ledak",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "gelembung",
+   "teriak",
+   "kosong"
+  ],
+  "ket": "Gelembung teriakan putih bergerigi kosong",
+  "w": 429,
+  "h": 324,
+  "g3": "pabrik/aset/umum/efek/um-gelembung-ledak.png"
+ },
+ {
+  "id": "um-urat-marah",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "marah",
+   "kesal"
+  ],
+  "ket": "Simbol urat marah merah",
+  "w": 256,
+  "h": 273,
+  "g3": "pabrik/aset/umum/efek/um-urat-marah.png"
+ },
+ {
+  "id": "um-spidol-lingkaran",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "spidol",
+   "lingkaran",
+   "sorot"
+  ],
+  "ket": "Lingkaran spidol merah",
+  "w": 330,
+  "h": 328,
+  "g3": "pabrik/aset/umum/efek/um-spidol-lingkaran.png"
+ },
+ {
+  "id": "um-spidol-panah-lengkung",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "spidol",
+   "panah"
+  ],
+  "ket": "Panah lengkung spidol merah ke kanan",
+  "w": 363,
+  "h": 171,
+  "g3": "pabrik/aset/umum/efek/um-spidol-panah-lengkung.png"
+ },
+ {
+  "id": "um-spidol-panah-bawah",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "spidol",
+   "panah"
+  ],
+  "ket": "Panah spidol merah ke bawah",
+  "w": 177,
+  "h": 342,
+  "g3": "pabrik/aset/umum/efek/um-spidol-panah-bawah.png"
+ },
+ {
+  "id": "um-spidol-silang",
+  "brand": "umum",
+  "jenis": "efek",
+  "tag": [
+   "spidol",
+   "silang",
+   "salah"
+  ],
+  "ket": "Tanda silang X spidol merah",
+  "w": 291,
+  "h": 294,
+  "g3": "pabrik/aset/umum/efek/um-spidol-silang.png"
+ },
+ {
+  "id": "um-latar-studio-tv",
+  "brand": "umum",
+  "jenis": "latar",
+  "tag": [
+   "K3",
+   "berita",
+   "studio",
+   "tv"
+  ],
+  "ket": "Studio berita TV biru",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/latar/um-latar-studio-tv.jpg"
+ },
+ {
+  "id": "um-latar-papan-detektif",
+  "brand": "umum",
+  "jenis": "latar",
+  "tag": [
+   "K5",
+   "detektif",
+   "papan-gabus",
+   "gelap"
+  ],
+  "ket": "Papan gabus detektif (foto, gelap tepi)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/latar/um-latar-papan-detektif.jpg"
+ },
+ {
+  "id": "um-latar-pintu-gelap",
+  "brand": "umum",
+  "jenis": "latar",
+  "tag": [
+   "K8",
+   "horor",
+   "malam",
+   "gelap",
+   "pintu"
+  ],
+  "ket": "Lorong gelap pintu terbuka berkas cahaya",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/latar/um-latar-pintu-gelap.jpg"
+ },
+ {
+  "id": "um-latar-koran",
+  "brand": "umum",
+  "jenis": "latar",
+  "tag": [
+   "koran",
+   "K0",
+   "berita"
+  ],
+  "ket": "Halaman koran (blok teks abu, tanpa huruf; judul ditulis di HTML)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/latar/um-latar-koran.jpg"
+ },
+ {
+  "id": "um-latar-kertas-surat",
+  "brand": "umum",
+  "jenis": "latar",
+  "tag": [
+   "K6",
+   "surat",
+   "kertas"
+  ],
+  "ket": "Kertas surat bergaris + margin merah",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/latar/um-latar-kertas-surat.jpg"
+ },
+ {
+  "id": "um-latar-pastel-pink",
+  "brand": "umum",
+  "jenis": "latar",
+  "tag": [
+   "K7",
+   "tutorial",
+   "pastel"
+  ],
+  "ket": "Pastel pink-krem bertitik (tutorial)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/latar/um-latar-pastel-pink.jpg"
+ },
+ {
+  "id": "um-latar-pastel-mint",
+  "brand": "umum",
+  "jenis": "latar",
+  "tag": [
+   "K7",
+   "tutorial",
+   "pastel"
+  ],
+  "ket": "Pastel mint-lavender bertitik (tutorial)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/latar/um-latar-pastel-mint.jpg"
+ },
+ {
+  "id": "um-latar-horor-gelap",
+  "brand": "umum",
+  "jenis": "latar",
+  "tag": [
+   "K8",
+   "horor",
+   "gelap",
+   "malam"
+  ],
+  "ket": "Gelap biru tua, sorot tengah, noise",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/latar/um-latar-horor-gelap.jpg"
+ },
+ {
+  "id": "um-latar-arena-ungu",
+  "brand": "umum",
+  "jenis": "latar",
+  "tag": [
+   "K4",
+   "arena",
+   "kartu",
+   "ungu"
+  ],
+  "ket": "Arena kartu ungu: sinar + lantai grid",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/latar/um-latar-arena-ungu.jpg"
+ },
+ {
+  "id": "um-latar-kertas-krem",
+  "brand": "umum",
+  "jenis": "latar",
+  "tag": [
+   "kertas",
+   "krem",
+   "K0",
+   "polos"
+  ],
+  "ket": "Kertas krem bertekstur (gaya cerita)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/latar/um-latar-kertas-krem.jpg"
+ },
+ {
+  "id": "um-latar-kertas-tirai",
+  "brand": "umum",
+  "jenis": "latar",
+  "tag": [
+   "kertas",
+   "krem",
+   "K0",
+   "tirai"
+  ],
+  "ket": "Kertas krem + bayangan tirai",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/latar/um-latar-kertas-tirai.jpg"
+ },
+ {
+  "id": "um-latar-papan-gabus",
+  "brand": "umum",
+  "jenis": "latar",
+  "tag": [
+   "K5",
+   "papan-gabus",
+   "detektif"
+  ],
+  "ket": "Papan gabus polos berbingkai (prosedural)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/umum/latar/um-latar-papan-gabus.jpg"
+ },
+ {
+  "id": "um-pakar",
+  "brand": "umum",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto",
+   "stiker",
+   "pakar",
+   "analis",
+   "berita",
+   "K3"
+  ],
+  "ket": "Pakar/analis wanita berkacamata blazer navy",
+  "tokoh": "pakar",
+  "w": 940,
+  "h": 1387,
+  "g3": "pabrik/aset/umum/tokoh-pendukung/um-pakar.png"
+ },
+ {
+  "id": "um-tetangga-gosip",
+  "brand": "umum",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto",
+   "stiker",
+   "tetangga",
+   "gosip",
+   "saksi",
+   "K3"
+  ],
+  "ket": "Ibu tetangga daster batik bergosip",
+  "tokoh": "tetangga",
+  "w": 977,
+  "h": 1367,
+  "g3": "pabrik/aset/umum/tokoh-pendukung/um-tetangga-gosip.png"
+ },
+ {
+  "id": "um-karyawan-stres",
+  "brand": "umum",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto",
+   "stiker",
+   "karyawan",
+   "kantor",
+   "stres",
+   "kertas"
+  ],
+  "ket": "Karyawan muda wanita stres membawa tumpukan kertas",
+  "tokoh": "karyawan",
+  "w": 807,
+  "h": 1281,
+  "g3": "pabrik/aset/umum/tokoh-pendukung/um-karyawan-stres.png"
+ },
+ {
+  "id": "um-bapak-kaget",
+  "brand": "umum",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto",
+   "stiker",
+   "saksi",
+   "kaget",
+   "orang-tua"
+  ],
+  "ket": "Bapak tua berpeci kaget",
+  "tokoh": "bapak",
+  "w": 845,
+  "h": 1324,
+  "g3": "pabrik/aset/umum/tokoh-pendukung/um-bapak-kaget.png"
+ }
+]

@@ -1,0 +1,142 @@
+{
+ "kode": "dc-k5-022",
+ "brand": "dentalcare",
+ "konsep": "K5",
+ "judul": "Detektif: kasus kartu berobat yang tertinggal",
+ "caption": "Kartu berobat pasien tertinggal lagi, nomor rekam medis tidak diketahui. Detektif kami memeriksa pasien, buku induk, dan lemari arsip. Pelakunya? Data yang hanya bisa dicari lewat kartu. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #datapasien #DentalCare",
+ "musik": "tegang",
+ "adegan": [
+  {
+   "teks": "Kartu berobat pasien Bu Maya. Tertinggal di rumah. Lagi.",
+   "primitif": "berkas-kasus",
+   "opsi": {
+    "nomor": "Kartu berobat Bu Maya",
+    "gambar": "dc-kartun-pasien-ibu-tunggu",
+    "label": "Bu Maya",
+    "stempel": [
+     {
+      "teks": "TERTINGGAL",
+      "kata": "tertinggal"
+     },
+     {
+      "teks": "LAGI.",
+      "kata": "lagi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tanpa kartu, nomor rekam medisnya tidak diketahui. Penyelidikan dimulai.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "KARTU HILANG",
+    "jumlah": 6,
+    "sub": "bulan ini",
+    "pita": "PENYELIDIKAN"
+   }
+  },
+  {
+   "teks": "Tersangka pertama, pasien. Alibinya kuat, kartunya kecil.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "dc-foto-pasien-ibu",
+    "label": "pasien",
+    "catatan": "kartunya\nkecil sekali",
+    "stempel": [
+     {
+      "teks": "ALIBI KUAT ✓",
+      "kata": "alibinya"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka kedua, buku induk pasien. Halamannya ratusan, urutannya acak.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "dc-prop-buku-antrean",
+    "label": "buku induk",
+    "stempel": [
+     {
+      "teks": "ACAK",
+      "kata": "acak"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka ketiga, lemari arsip. Map disusun pakai nomor kartu.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "dc-prop-lemari-arsip",
+    "label": "lemari arsip",
+    "stempel": [
+     {
+      "teks": "BUTUH NOMOR",
+      "kata": "nomor"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Semua petunjuk mengarah ke satu pelaku.",
+   "primitif": "benang",
+   "opsi": {
+    "gambar": [
+     "dc-foto-pasien-ibu",
+     "dc-prop-buku-antrean",
+     "dc-prop-lemari-arsip"
+    ]
+   }
+  },
+  {
+   "teks": "Pelakunya, data pasien yang hanya bisa dicari lewat kartu.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "dc-prop-tumpukan-berkas",
+    "label": "PELAKU",
+    "stempel": {
+     "teks": "BERGANTUNG KARTU",
+     "kata": "kartu"
+    }
+   }
+  },
+  {
+   "teks": "Vonisnya, pindah ke DentalCare. Pasien cukup dicari pakai nama.",
+   "primitif": "vonis",
+   "opsi": {
+    "ui": "dc-ui-pasien-daftar-rapi",
+    "judul": "Data Pasien",
+    "cari": "Bu Maya",
+    "detik": 2,
+    "ok": "KETEMU ✓"
+   }
+  },
+  {
+   "teks": "Kasus ditutup. Kartu tertinggal pun tidak masalah.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Tanpa kartu pun bisa!",
+    "tag": "KASUS DITUTUP",
+    "maskot": "dc-maskot-map-yakin",
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "yakin",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  }
+ ]
+}

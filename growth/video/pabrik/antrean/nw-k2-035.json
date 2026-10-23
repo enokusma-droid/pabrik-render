@@ -1,0 +1,199 @@
+{
+ "kode": "nw-k2-035",
+ "brand": "nusawebsite",
+ "konsep": "K2",
+ "pembuka": "k2-kutipan",
+ "pemeran": {
+  "utama": "nw-f",
+  "pendukung": []
+ },
+ "judul": "Sari tahun lalu vs Sari hari ini: menjawab pertanyaan resi",
+ "caption": "Pembeli menagih resi sampai chat ketiga. Sari tahun lalu mencari di buku lalu di galeri, Sari hari ini cukup mengetik nama. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "\"Kak, resiku mana? Ini chat ketiga.\" Chat ketiga cuma untuk Sari tahun lalu, pemilik toko baju online.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pembeli",
+    "sub": "tahun lalu",
+    "pesan": [
+     {
+      "teks": "Kak, resiku mana?"
+     },
+     {
+      "teks": "Kak??"
+     },
+     {
+      "teks": "Ini chat ketiga ya",
+      "sorot": true
+     }
+    ],
+    "pose": "pusing-hp",
+    "wajah": [
+     "cemas"
+    ],
+    "stempel": "CHAT KETIGA"
+   }
+  },
+  {
+   "teks": "Sari tahun lalu mencari tanggal kirim di buku, lalu di galeri.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "duduk-catat",
+     "wajah": [
+      "bingung"
+     ],
+     "prop": "nw-buku-coretan",
+     "stempel": "CARI TANGGAL",
+     "bubble": "galeri, mana ya?"
+    },
+    "kanan": {
+     "pose": "duduk-laptop",
+     "wajah": [
+      "tenang"
+     ]
+    },
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "HARI INI"
+   }
+  },
+  {
+   "teks": "Sari hari ini mengetik nama, resi yang dicatat saat kirim muncul.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "pusing-hp",
+     "wajah": [
+      "bingung"
+     ]
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "KETEMU"
+    }
+   }
+  },
+  {
+   "teks": "Foto resi Sari tahun lalu buram, jempolnya malah lebih jelas.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "bingung",
+     "wajah": [
+      "kaget"
+     ],
+     "stempel": "JEMPOL JELAS",
+     "bubble": "resinya mana?"
+    },
+    "kanan": {
+     "pose": "ketik-hp",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "resi terkirim"
+    }
+   }
+  },
+  {
+   "teks": "Sari hari ini sudah mengemas pesanan berikutnya.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "lelah",
+     "wajah": [
+      "lelah"
+     ],
+     "stempel": "MASIH CARI"
+    },
+    "kanan": {
+     "pose": "bawa-paket",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "DIKEMAS"
+    }
+   }
+  },
+  {
+   "teks": "Pembeli Sari tahun lalu kesal, batal order ulang.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "panik",
+     "wajah": [
+      "kaget"
+     ],
+     "stempel": "BATAL ORDER"
+    },
+    "kanan": {
+     "pose": "jalan-laptop",
+     "wajah": [
+      "senang"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Itulah kenapa Sari beralih ke aplikasi pesanan.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "lega",
+    "wajah": [
+     "yakin"
+    ],
+    "judul": "Sari",
+    "sub": "pemilik toko baju online",
+    "stempel": "BERALIH",
+    "bintang": true,
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Kini resinya tercatat, tanpa bonus jempol.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Resi Toko Sari",
+     "lencana": "Cari nama",
+     "baris": [
+      [
+       "Bu Ratna",
+       "Gamis biru",
+       "JNT 8812"
+      ],
+      [
+       "Mbak Lia",
+       "Kemeja putih",
+       "SiCepat 41"
+      ],
+      [
+       "Kak Dita",
+       "Rok plisket",
+       "Dikemas"
+      ]
+     ]
+    },
+    "stempel": "TANPA JEMPOL",
+    "pose": "duduk-laptop",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "kode": "dc-k1-001",
+ "brand": "dentalcare",
+ "konsep": "K1",
+ "judul": "Sehari di klinik: antrean dobel sampai pasien pulang",
+ "caption": "Sehari di klinik dengan buku antrean: nomor dobel, pasien bertanya terus, ruang tunggu penuh. Besoknya semua berubah. Klinikmu pernah begini? Mau lihat demo DentalCare, tanya lewat WhatsApp di profil. #klinikgigi #doktergigi #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Delapan pagi. Ruang tunggu sudah penuh, buku antrean mulai dicoret coret.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "08.00",
+    "pose": "bingung",
+    "wajah": [
+     "senang",
+     "kaget"
+    ],
+    "ganti": "dicoret",
+    "judul": "ruang tunggu",
+    "stempel": "PENUH!",
+    "prop": "dc-prop-buku-antrean"
+   }
+  },
+  {
+   "teks": "Delapan lewat sepuluh. Dua pasien memegang nomor antrean yang sama.",
+   "primitif": "bentrok",
+   "opsi": {
+    "jam": "08.10",
+    "kiri": [
+     "No. 7",
+     "Bu Rina"
+    ],
+    "kanan": [
+     "No. 7",
+     "Bu Ani"
+    ],
+    "stempel": "DOBEL!"
+   }
+  },
+  {
+   "teks": "Sepuluh pagi. Pasien terus bertanya, sudah sampai nomor berapa.",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "10.00",
+    "judul": "INFO KLINIK",
+    "sub": "pasien",
+    "pesan": [
+     {
+      "teks": "Dok, sudah nomor berapa?"
+     },
+     {
+      "teks": "Saya masih lama ya?",
+      "sorot": true
+     },
+     {
+      "teks": "Sebentar ya Bu",
+      "keluar": true
+     }
+    ],
+    "pose": "pusing",
+    "wajah": [
+     "bingung",
+     "kesal"
+    ],
+    "stempel": "???"
+   }
+  },
+  {
+   "teks": "Siang hari. Pasien yang bosan menunggu, satu per satu pulang.",
+   "primitif": "hitung",
+   "opsi": {
+    "jam": "13.00",
+    "judul": "PASIEN PULANG",
+    "ke": 5,
+    "format": "angka",
+    "bubble": "kok lama?",
+    "prop": "dc-kartun-pasien-ibu-tunggu"
+   }
+  },
+  {
+   "teks": "Sore. Kesabaran resepsionis tinggal sedikit, dokter pun ikut lelah.",
+   "primitif": "meter",
+   "opsi": {
+    "jam": "17.00",
+    "meter": [
+     {
+      "judul": "KESABARAN",
+      "dari": 100,
+      "ke": 6,
+      "kata": "sedikit"
+     }
+    ],
+    "pose": "lelah",
+    "wajah": [
+     "lelah",
+     "kesal"
+    ]
+   }
+  },
+  {
+   "teks": "Besoknya, klinik ini memakai DentalCare.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "08.00"
+   }
+  },
+  {
+   "teks": "Delapan pagi. Antrean tercatat di aplikasi, nomor tidak ada yang dobel.",
+   "primitif": "layar",
+   "opsi": {
+    "jam": "08.00",
+    "layar": [
+     {
+      "ui": "dc-ui-antrean-rapi",
+      "judul": "Antrean Hari Ini"
+     }
+    ],
+    "stempel": "URUT ✓"
+   }
+  },
+  {
+   "teks": "Pasien tahu gilirannya, ruang tunggu tenang, dokter bisa fokus merawat.",
+   "primitif": "daftar",
+   "opsi": {
+    "jam": "10.00",
+    "judul": "Pagi Ini",
+    "item": [
+     "Antrean urut",
+     "Pasien tenang",
+     "Dokter fokus merawat"
+    ],
+    "stempel": "RAPI ✓"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

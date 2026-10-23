@@ -1,0 +1,28 @@
+{
+ "kode": "rb-k0-001",
+ "brand": "ratu-bawang",
+ "konsep": "K0",
+ "judul": "Karung bawang yang selalu kosong di dapur Chef Ayu",
+ "durasi": 42.83,
+ "LUFS": -14.0,
+ "TP": -1.4,
+ "cocok_vo_%": 97,
+ "cocok_ketat_%": 87,
+ "transkrip_15dtk": "20 meja terisi, wajan sudah panas, karung bawang chef ayu, kesong. Sampelnya juara, tapi soal stok bawang selalu lupa. Mbak Sekar, staff dapurnya lari ke pasar, terpaksa beli eceran dadakan.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/rb-k0-001.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k0-001.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T11:49+07:00",
+ "catatan_bangun": [
+  "pose \"presentasi\" untuk rb-ayu tidak ada → pakai rb-ayu-karung-jempol"
+ ],
+ "phash_awal": [
+  "bc7c78a4b48a8ca8",
+  "bc7c78acb48a8ca8",
+  "bc7c78b4b48a98a8"
+ ],
+ "mirip_awal": []
+}

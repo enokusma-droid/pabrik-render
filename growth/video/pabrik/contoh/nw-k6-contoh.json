@@ -1,0 +1,118 @@
+{
+ "kode": "nw-k6-contoh",
+ "brand": "nusawebsite",
+ "konsep": "K6",
+ "judul": "Surat dari grup WA pesanan",
+ "caption": "Surat terbuka dari grup WA pesananmu. Tanya lewat WhatsApp di profil.",
+ "adegan": [
+  {
+   "teks": "Surat terbuka untuk pemilik toko, dari aku, grup WhatsApp pesananmu.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "untuk": "pemilik toko",
+    "dari": "grup WA pesananmu",
+    "maskot": "nw-maskot-grup-wa-senang"
+   }
+  },
+  {
+   "teks": "Setiap hari kamu menitipkan ratusan pesanan padaku. Pagi, siang, sampai tengah malam. Tanpa libur.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Setiap hari kamu titip...",
+     "pesanan!"
+    ],
+    "angka": 347,
+    "gambar": "nw-hp-chat-banjir"
+   }
+  },
+  {
+   "teks": "Lalu pelanggan bertanya, kak, yang kemarin ya.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "PESANAN TOKO",
+    "sub": "247 anggota",
+    "pesan": [
+     {
+      "teks": "kak, pesan 2 ya"
+     },
+     {
+      "teks": "kak, yang kemarin ya",
+      "sorot": true
+     },
+     {
+      "teks": "yang mana ya kak?",
+      "keluar": true
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung",
+     "cemas"
+    ],
+    "stempel": "???"
+   }
+  },
+  {
+   "teks": "Aku lelah, memoriku penuh, pesananmu tenggelam di antara stiker. Aku sampai lupa siapa memesan apa.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Aku lelah...",
+     "memoriku penuh",
+     "pesanan tenggelam"
+    ],
+    "gambar": "nw-maskot-grup-wa-lelah",
+    "stempel": "PENUH"
+   }
+  },
+  {
+   "teks": "Sekarang tokomu pakai aplikasi pesanan sendiri. Semua tercatat rapi. Pembeli senang, kamu pun tenang.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Pesanan Masuk",
+     "lencana": "3 baru",
+     "baris": [
+      [
+       "Bu Rina",
+       "Jl. Melati 5",
+       "Dikemas"
+      ],
+      [
+       "Mbak Dewi",
+       "Perum Asri B2",
+       "Dikirim"
+      ],
+      [
+       "Kak Sari",
+       "Jl. Kaliurang",
+       "Selesai ✓"
+      ]
+     ]
+    },
+    "stempel": "RAPI ✓"
+   }
+  },
+  {
+   "teks": "Akhirnya aku bisa pensiun dengan tenang. Salam sayang, grup pesananmu.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam sayang,",
+    "ttd": "grup pesananmu",
+    "maskot": "nw-maskot-grup-wa-terharu",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk bisnismu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "kode": "nw-k5-023",
+ "brand": "nusawebsite",
+ "konsep": "K5",
+ "judul": "Detektif: kasus meja pesanan yang salah ukuran",
+ "caption": "Meja pesanan custom salah ukuran lagi. Detektif kami memeriksa tukang kayu, kertas tempel, dan chat pelanggan. Pelakunya? Detail pesanan yang tercecer. Tanya lewat WhatsApp di profil. #umkm #furniture #aplikasibisnis",
+ "musik": "tegang",
+ "adegan": [
+  {
+   "teks": "Meja pesanan Bu Rina. Ukurannya salah. Lagi.",
+   "primitif": "berkas-kasus",
+   "opsi": {
+    "nomor": "Pesanan meja custom #07",
+    "gambar": "nw-pelanggan-online",
+    "label": "Bu Rina",
+    "stempel": [
+     {
+      "teks": "SALAH UKUR",
+      "kata": "salah"
+     },
+     {
+      "teks": "LAGI.",
+      "kata": "lagi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ini salah ukur kedua bulan ini. Penyelidikan dimulai.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "SALAH KE-",
+    "jumlah": 2,
+    "sub": "bulan ini",
+    "pita": "PENYELIDIKAN"
+   }
+  },
+  {
+   "teks": "Tersangka pertama, tukang kayu. Alibinya kuat, dia mengikuti catatan.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "nw-staf-gudang",
+    "label": "tukang kayu",
+    "catatan": "sesuai\ncatatan",
+    "stempel": [
+     {
+      "teks": "ALIBI KUAT ✓",
+      "kata": "alibinya"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka kedua, kertas tempel. Angkanya terbaca dua belas.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "nw-sticky-tumpuk",
+    "label": "kertas tempel",
+    "catatan": "120 atau 12?",
+    "stempel": [
+     {
+      "teks": "TERBACA SALAH",
+      "kata": "terbaca"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka ketiga, chat pelanggan. Revisi ukuran tenggelam.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "nw-hp-chat-banjir",
+    "label": "chat pelanggan",
+    "stempel": [
+     {
+      "teks": "TENGGELAM",
+      "kata": "tenggelam"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Semua benang merah mengarah ke satu pelaku.",
+   "primitif": "benang",
+   "opsi": {
+    "gambar": [
+     "nw-staf-gudang",
+     "nw-sticky-tumpuk",
+     "nw-hp-chat-banjir"
+    ]
+   }
+  },
+  {
+   "teks": "Pelakunya, detail pesanan yang tersebar di kertas dan chat.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "nw-buku-coretan",
+    "label": "PELAKU",
+    "stempel": {
+     "teks": "DETAIL TERCECER",
+     "kata": "tersebar"
+    }
+   }
+  },
+  {
+   "teks": "Vonisnya, pakai aplikasi pesanan sendiri. Ukuran dan revisi tercatat jelas.",
+   "primitif": "vonis",
+   "opsi": {
+    "app": {
+     "judul": "Pesanan Custom",
+     "baris": [
+      [
+       "#07 Bu Rina",
+       "Meja 120 x 60 cm",
+       "Revisi ✓"
+      ],
+      [
+       "#08 Kak Sari",
+       "Rak buku 3 susun",
+       "Produksi"
+      ]
+     ]
+    },
+    "judul": "Cari Pesanan",
+    "cari": "#07",
+    "detik": 2,
+    "ok": "KETEMU ✓"
+   }
+  },
+  {
+   "teks": "Kasus ditutup. Mejanya pas di ruang makan.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Pas sekali!",
+    "tag": "KASUS DITUTUP",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

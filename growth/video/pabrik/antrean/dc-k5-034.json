@@ -1,0 +1,133 @@
+{
+ "kode": "dc-k5-034",
+ "brand": "dentalcare",
+ "konsep": "K5",
+ "pembuka": "k5-laporan",
+ "pemeran": {
+  "utama": "detektif",
+  "pendukung": [
+   "dc-rina"
+  ]
+ },
+ "judul": "Detektif: dua pasien memegang nomor antrean tujuh",
+ "caption": "Nomor tujuh dipanggil, dua pasien maju dengan kartu kembar. Detektif Ana menyelidiki. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "musik": "tegang",
+ "adegan": [
+  {
+   "teks": "Mbak Rina, resepsionis, memanggil nomor tujuh. Dua pasien maju, kartunya kembar.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "dc-rina",
+    "pose": "panik",
+    "wajah": [
+     "kaget"
+    ],
+    "judul": "NOMOR 7!",
+    "sub": "Mbak Rina, resepsionis",
+    "stempel": "DUA?!",
+    "latar": "dc-latar-ruang-tunggu"
+   }
+  },
+  {
+   "teks": "Namaku Detektif Ana.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "NOMOR 7",
+    "jumlah": 2,
+    "sub": "dua pemegang",
+    "pita": "PENYELIDIKAN",
+    "pose": "kaca-pembesar",
+    "wajah": [
+     "curiga"
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka pertama, Mbak Rina: saya cuma menulis! Eh, lupa menarik kartu kemarin.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "dc-rina-foto",
+    "label": "Mbak Rina",
+    "catatan": "\"saya cuma menulis!\"",
+    "stempel": [
+     "EH, LUPA"
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka kedua, kartu tanpa tanggal: empat puluh pasien, tak pernah ditanya.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "um-kartu-sobek",
+    "label": "kartu antrean",
+    "catatan": "\"40 pasien,\naman-aman saja\"",
+    "stempel": [
+     "TANPA TANGGAL"
+    ]
+   }
+  },
+  {
+   "teks": "Kartu kemarin terbawa pasien saluran akar, yang kontrol hari ini.",
+   "primitif": "modus",
+   "opsi": {
+    "judul": "KRONOLOGI",
+    "panel": [
+     {
+      "teks": "Kemarin: no 7"
+     },
+     {
+      "teks": "Kartu terbawa"
+     },
+     {
+      "teks": "Hari ini: 7"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pelakunya, kartu tanpa tanggal. Pasien itu didaftar ulang.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "um-kartu-sobek",
+    "label": "PELAKU",
+    "stempel": "TANPA TANGGAL"
+   }
+  },
+  {
+   "teks": "Rina lalu mencatat antrean di DentalCare: nomor harian, beserta nama.",
+   "primitif": "vonis",
+   "opsi": {
+    "vonis": "PINDAH",
+    "ui": "dc-ui-antrean-rapi",
+    "judul": "Antrean Hari Ini",
+    "cari": "nomor 7",
+    "detik": 2,
+    "ok": "1 NAMA ✓"
+   }
+  },
+  {
+   "teks": "Kasus ditutup. Kartu kertas pensiun jadi pembatas buku.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Satu nomor, satu nama",
+    "tag": "KASUS DITUTUP",
+    "pose": "lipat-tangan",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  }
+ ]
+}

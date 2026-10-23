@@ -1,0 +1,119 @@
+{
+ "kode": "dc-k6-043",
+ "brand": "dentalcare",
+ "konsep": "K6",
+ "pembuka": "k6-pengakuan",
+ "pemeran": {
+  "utama": "dc-sinta",
+  "pendukung": []
+ },
+ "judul": "Pengakuan lemari arsip: lututmu lebih sering menyentuhku",
+ "caption": "Lemari arsip di pojok akhirnya mengaku kepada dokter Sinta. Delapan tahun, satu laci macet. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "musik": "haru",
+ "adegan": [
+  {
+   "teks": "Dokter Sinta, aku harus mengaku: lututmu lebih sering menyentuhku daripada pasienmu.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "judul": "Pengakuan",
+    "untuk": "drg. Sinta",
+    "dari": "lemari arsipmu",
+    "maskot": "dc-maskot-lemari-arsip-sedih"
+   }
+  },
+  {
+   "teks": "Tiap hari kamu menjejalkan satu map lagi, lalu menutupku pakai lutut.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "satu map lagi...",
+     "ditutup pakai lutut"
+    ],
+    "pose": "bawa-berkas",
+    "wajah": [
+     "yakin"
+    ],
+    "stempel": "PENUH"
+   }
+  },
+  {
+   "teks": "Kemarin laci ketigaku macet, pas pasien lama menunggu riwayatnya.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "laci ketiga macet",
+     "pasien lama menunggu"
+    ],
+    "gambar": "dc-maskot-lemari-arsip-panik",
+    "stempel": "MACET"
+   }
+  },
+  {
+   "teks": "Kamu menarik sekuat tenaga. Gagangnya lepas, lacinya tetap macet.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "ditarik sekuat tenaga",
+     "gagang lepas, laci diam"
+    ],
+    "pose": "pusing",
+    "wajah": [
+     "panik"
+    ],
+    "stempel": "KRAK"
+   }
+  },
+  {
+   "teks": "Sepuluh menit terasa sejam. Pasiennya kesal, riwayatnya ditanyakan ulang.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "10 menit = sejam",
+     "riwayat ditanya ulang"
+    ],
+    "gambar": "dc-maskot-lemari-arsip-sedih"
+   }
+  },
+  {
+   "teks": "Malam itu kamu mulai DentalCare. Riwayat pasien lama diinput dulu, mulai yang kontrol minggu ini.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-pasien-daftar-rapi",
+      "judul": "Data Pasien"
+     },
+     {
+      "ui": "dc-ui-pasien-detail-rapi",
+      "judul": "Riwayat"
+     }
+    ],
+    "stempel": "BERTAHAP ✓",
+    "pose": "tablet",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Map yang sudah diinput pindah ke gudang. Aku pensiun jadi lemari alat.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam lega,",
+    "ttd": "lemari arsipmu",
+    "maskot": "dc-maskot-lemari-arsip-lega",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

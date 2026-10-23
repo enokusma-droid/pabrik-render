@@ -1,0 +1,28 @@
+{
+ "kode": "nw-k5-003",
+ "brand": "nusawebsite",
+ "konsep": "K5",
+ "judul": "Detektif: kasus pesanan yang belum dikirim",
+ "durasi": 46.47,
+ "LUFS": -14.2,
+ "TP": -1.4,
+ "cocok_vo_%": 92,
+ "cocok_ketat_%": 88,
+ "transkrip_15dtk": "Fesanan nomor 12. Belum dikirim, lagi, pelanggan sudah menunggu 3 hari, penyelidikan dimulai. Tersangka pertama, kurir, alibinya kuat, paket lain terkirim tepat waktu. Tersangka kedua,",
+ "lulus_qc": true,
+ "musik": "tegang",
+ "g3": "konten/pabrik/hasil/nw-k5-003.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k5-003.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T00:59+07:00",
+ "catatan_bangun": [
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-tunjuk",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-jalan-berkas",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-kaca-pembesar"
+ ],
+ "directus_id": "ccac7ede-70c3-49c0-896f-44f61e635bd7",
+ "directus_url": "https://directus.nusawebsite.com/assets/ccac7ede-70c3-49c0-896f-44f61e635bd7",
+ "directus_poster_id": "d5cb10b6-858d-4c23-841a-c4da64020de1",
+ "directus_poster_url": "https://directus.nusawebsite.com/assets/d5cb10b6-858d-4c23-841a-c4da64020de1"
+}

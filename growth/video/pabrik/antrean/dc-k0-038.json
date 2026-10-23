@@ -1,0 +1,145 @@
+{
+ "kode": "dc-k0-038",
+ "brand": "dentalcare",
+ "konsep": "K0",
+ "pembuka": "k0-masalah",
+ "pemeran": {
+  "utama": "dc-rina",
+  "pendukung": [
+   "pasien-ibu"
+  ]
+ },
+ "judul": "Jam sebelas datang, jadwalnya ternyata jam lima sore",
+ "caption": "Bu Wati datang jam sebelas, namanya tak ada di jadwal. Penyebabnya angka tujuh yang mirip satu. Kalender dindingnya paling menderita. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Jam sebelas, Bu Wati, pasien tambal, datang. Namanya tak ada di jadwal.",
+   "primitif": "poster",
+   "opsi": {
+    "judul": "11.00?",
+    "gambar": "dc-kartun-pasien-ibu-tunggu",
+    "label": "Bu Wati",
+    "keterangan": "nama tak ada",
+    "stempel": "???",
+    "tag": "pasien tambal",
+    "latar": "dc-latar-ruang-tunggu"
+   }
+  },
+  {
+   "teks": "Kemarin Mbak Rina, resepsionis yang hafal nama cucu pasien, mengingatkan jadwalnya.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "telepon",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Mbak Rina",
+    "sub": "hafal nama cucu pasien",
+    "bubble": "halo, Bu Wati!",
+    "stempel": "RAMAH 100%"
+   }
+  },
+  {
+   "teks": "Di kalender dia menulis tujuh belas. Saat menelepon, dia membacanya sebelas.",
+   "primitif": "bentrok",
+   "opsi": {
+    "kiri": [
+     "17.00",
+     "ditulis"
+    ],
+    "kanan": [
+     "11.00",
+     "dibaca"
+    ],
+    "stempel": "7 ATAU 1?",
+    "pose": "buku",
+    "wajah": [
+     "bingung"
+    ]
+   }
+  },
+  {
+   "teks": "Tulisan sendiri tak terbaca. Bu Wati menunggu sampai jam lima, makan bekal.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "dc-kartun-pasien-ibu-tunggu",
+    "judul": "Bu Wati",
+    "sub": "menunggu 6 jam",
+    "bubble": "bawa bekal...",
+    "stempel": "MANYUN",
+    "latar": "dc-latar-ruang-tunggu"
+   }
+  },
+  {
+   "teks": "Rina menunjuk kalender. Yang disalahkan siapa?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Yang disalahkan siapa?",
+    "bayangan": "dc-maskot-kalender-panik"
+   }
+  },
+  {
+   "teks": "Iya, aku. Kalender dindingnya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "dc-maskot-kalender-panik",
+    "label": "KALENDER",
+    "teks": "IYA, AKU."
+   }
+  },
+  {
+   "teks": "Dicoret, ditimpa, dilingkari.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "dc-maskot-kalender-sedih",
+    "label": "KALENDER",
+    "item": [
+     "DICORET",
+     "DITIMPA",
+     "DILINGKARI"
+    ]
+   }
+  },
+  {
+   "teks": "Malu, Mbak Rina memindahkan semua janji ke DentalCare.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "kiri": "dc-maskot-kalender-lega",
+    "label": "KALENDER",
+    "pose": "jempol",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Jam diketik, tujuh tetap tujuh, terbaca sama oleh semua. Aku pensiun jadi hiasan.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jadwal"
+     }
+    ],
+    "stempel": "PENSIUN ✓",
+    "pose": "telepon",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

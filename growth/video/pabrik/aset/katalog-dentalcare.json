@@ -1,0 +1,2870 @@
+[
+ {
+  "id": "dc-sinta-presentasi",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "dokter",
+   "presentasi",
+   "jelaskan"
+  ],
+  "ket": "drg. Sinta berdiri, satu tangan terbuka menjelaskan",
+  "pose": "presentasi",
+  "tokoh": "dc-sinta",
+  "w": 396,
+  "h": 887,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-sinta-presentasi.png",
+  "kepala": {
+   "x": 140,
+   "y": 9,
+   "w": 189,
+   "h": 200
+  }
+ },
+ {
+  "id": "dc-sinta-bawa-berkas",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "dokter",
+   "berkas",
+   "sibuk",
+   "jalan"
+  ],
+  "ket": "drg. Sinta berjalan membawa tumpukan map berkas",
+  "pose": "bawa-berkas",
+  "tokoh": "dc-sinta",
+  "w": 325,
+  "h": 870,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-sinta-bawa-berkas.png",
+  "kepala": {
+   "x": 113,
+   "y": 9,
+   "w": 188,
+   "h": 194
+  }
+ },
+ {
+  "id": "dc-sinta-duduk-menulis",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "dokter",
+   "meja",
+   "menulis",
+   "duduk"
+  ],
+  "ket": "drg. Sinta duduk di meja kerja menulis manual (meja ikut)",
+  "pose": "duduk-menulis",
+  "tokoh": "dc-sinta",
+  "w": 422,
+  "h": 734,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-sinta-duduk-menulis.png",
+  "kepala": {
+   "x": 132,
+   "y": 11,
+   "w": 189,
+   "h": 201
+  }
+ },
+ {
+  "id": "dc-sinta-sorak",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "dokter",
+   "lega",
+   "senang",
+   "sorak"
+  ],
+  "ket": "drg. Sinta melompat merentangkan tangan lega",
+  "pose": "sorak",
+  "tokoh": "dc-sinta",
+  "w": 403,
+  "h": 866,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-sinta-sorak.png",
+  "kepala": {
+   "x": 97,
+   "y": 30,
+   "w": 184,
+   "h": 185
+  }
+ },
+ {
+  "id": "dc-sinta-tunjuk",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "dokter",
+   "tunjuk",
+   "hook"
+  ],
+  "ket": "drg. Sinta menunjuk ke penonton, tangan di pinggang",
+  "pose": "tunjuk",
+  "tokoh": "dc-sinta",
+  "w": 411,
+  "h": 968,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-sinta-tunjuk.png",
+  "kepala": {
+   "x": 61,
+   "y": 11,
+   "w": 219,
+   "h": 198
+  }
+ },
+ {
+  "id": "dc-sinta-pusing",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "dokter",
+   "panik",
+   "pusing",
+   "masalah"
+  ],
+  "ket": "drg. Sinta kedua tangan memegang kepala, panik/pusing",
+  "pose": "pusing",
+  "tokoh": "dc-sinta",
+  "w": 389,
+  "h": 936,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-sinta-pusing.png",
+  "kepala": {
+   "x": 81,
+   "y": 12,
+   "w": 216,
+   "h": 213
+  }
+ },
+ {
+  "id": "dc-sinta-yakin",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "dokter",
+   "yakin",
+   "solusi"
+  ],
+  "ket": "drg. Sinta berdiri tegap melipat tangan, percaya diri",
+  "pose": "yakin",
+  "tokoh": "dc-sinta",
+  "w": 354,
+  "h": 978,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-sinta-yakin.png",
+  "kepala": {
+   "x": 34,
+   "y": 12,
+   "w": 222,
+   "h": 208
+  }
+ },
+ {
+  "id": "dc-sinta-lelah",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "dokter",
+   "lelah",
+   "lembur",
+   "kopi"
+  ],
+  "ket": "drg. Sinta bahu lunglai membawa mug kopi, lelah",
+  "pose": "lelah",
+  "tokoh": "dc-sinta",
+  "w": 356,
+  "h": 899,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-sinta-lelah.png",
+  "kepala": {
+   "x": 13,
+   "y": 9,
+   "w": 229,
+   "h": 239
+  }
+ },
+ {
+  "id": "dc-sinta-tablet",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "dokter",
+   "tablet",
+   "aplikasi",
+   "solusi"
+  ],
+  "ket": "drg. Sinta memegang tablet di depan dada",
+  "pose": "tablet",
+  "tokoh": "dc-sinta",
+  "w": 312,
+  "h": 878,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-sinta-tablet.png",
+  "kepala": {
+   "x": 60,
+   "y": 9,
+   "w": 182,
+   "h": 172
+  }
+ },
+ {
+  "id": "dc-sinta-jempol",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "dokter",
+   "jempol",
+   "cta",
+   "senang"
+  ],
+  "ket": "drg. Sinta acungkan jempol",
+  "pose": "jempol",
+  "tokoh": "dc-sinta",
+  "w": 287,
+  "h": 881,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-sinta-jempol.png",
+  "kepala": {
+   "x": 48,
+   "y": 9,
+   "w": 173,
+   "h": 171
+  }
+ },
+ {
+  "id": "dc-sinta-bingung",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "dokter",
+   "bingung",
+   "masalah"
+  ],
+  "ket": "drg. Sinta mengangkat bahu, kedua telapak terbuka bingung",
+  "pose": "bingung",
+  "tokoh": "dc-sinta",
+  "w": 422,
+  "h": 864,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-sinta-bingung.png",
+  "kepala": {
+   "x": 113,
+   "y": 9,
+   "w": 182,
+   "h": 172
+  }
+ },
+ {
+  "id": "dc-sinta-lari",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "dokter",
+   "lari",
+   "buru-buru",
+   "berkas"
+  ],
+  "ket": "drg. Sinta berlari tergesa membawa map",
+  "pose": "lari",
+  "tokoh": "dc-sinta",
+  "w": 475,
+  "h": 832,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-sinta-lari.png",
+  "kepala": {
+   "x": 190,
+   "y": 9,
+   "w": 200,
+   "h": 166
+  }
+ },
+ {
+  "id": "dc-sinta-wajah-kesal",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "dokter",
+   "kesal",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto drg. Sinta ekspresi kesal (stiker bingkai putih)",
+  "ekspresi": "kesal",
+  "tokoh": "dc-sinta",
+  "w": 350,
+  "h": 345,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-sinta-wajah-kesal.png"
+ },
+ {
+  "id": "dc-sinta-wajah-lelah",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "dokter",
+   "lelah",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto drg. Sinta ekspresi lelah (stiker bingkai putih)",
+  "ekspresi": "lelah",
+  "tokoh": "dc-sinta",
+  "w": 346,
+  "h": 345,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-sinta-wajah-lelah.png"
+ },
+ {
+  "id": "dc-sinta-wajah-kaget",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "dokter",
+   "kaget",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto drg. Sinta ekspresi kaget (stiker bingkai putih)",
+  "ekspresi": "kaget",
+  "tokoh": "dc-sinta",
+  "w": 344,
+  "h": 349,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-sinta-wajah-kaget.png"
+ },
+ {
+  "id": "dc-sinta-wajah-senang",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "dokter",
+   "senang",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto drg. Sinta ekspresi senang (stiker bingkai putih)",
+  "ekspresi": "senang",
+  "tokoh": "dc-sinta",
+  "w": 356,
+  "h": 347,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-sinta-wajah-senang.png"
+ },
+ {
+  "id": "dc-sinta-wajah-bingung",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "dokter",
+   "bingung",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto drg. Sinta ekspresi bingung (stiker bingkai putih)",
+  "ekspresi": "bingung",
+  "tokoh": "dc-sinta",
+  "w": 388,
+  "h": 357,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-sinta-wajah-bingung.png"
+ },
+ {
+  "id": "dc-sinta-wajah-panik",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "dokter",
+   "panik",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto drg. Sinta ekspresi panik (stiker bingkai putih)",
+  "ekspresi": "panik",
+  "tokoh": "dc-sinta",
+  "w": 374,
+  "h": 360,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-sinta-wajah-panik.png"
+ },
+ {
+  "id": "dc-sinta-wajah-lega",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "dokter",
+   "lega",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto drg. Sinta ekspresi lega (stiker bingkai putih)",
+  "ekspresi": "lega",
+  "tokoh": "dc-sinta",
+  "w": 379,
+  "h": 359,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-sinta-wajah-lega.png"
+ },
+ {
+  "id": "dc-sinta-wajah-yakin",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "dokter",
+   "yakin",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto drg. Sinta ekspresi yakin (stiker bingkai putih)",
+  "ekspresi": "yakin",
+  "tokoh": "dc-sinta",
+  "w": 377,
+  "h": 360,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-sinta-wajah-yakin.png"
+ },
+ {
+  "id": "dc-sinta-wajah-sedih",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "dokter",
+   "sedih",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto drg. Sinta ekspresi sedih (stiker bingkai putih)",
+  "ekspresi": "sedih",
+  "tokoh": "dc-sinta",
+  "w": 353,
+  "h": 349,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-sinta-wajah-sedih.png"
+ },
+ {
+  "id": "dc-sinta-wajah-sebal",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "dokter",
+   "sebal",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto drg. Sinta ekspresi sebal (stiker bingkai putih)",
+  "ekspresi": "sebal",
+  "tokoh": "dc-sinta",
+  "w": 346,
+  "h": 350,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-sinta-wajah-sebal.png"
+ },
+ {
+  "id": "dc-sinta-wajah-mikir",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "dokter",
+   "mikir",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto drg. Sinta ekspresi mikir (stiker bingkai putih)",
+  "ekspresi": "mikir",
+  "tokoh": "dc-sinta",
+  "w": 357,
+  "h": 356,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-sinta-wajah-mikir.png"
+ },
+ {
+  "id": "dc-sinta-wajah-tertawa",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "dokter",
+   "tertawa",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto drg. Sinta ekspresi tertawa (stiker bingkai putih)",
+  "ekspresi": "tertawa",
+  "tokoh": "dc-sinta",
+  "w": 362,
+  "h": 360,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-sinta-wajah-tertawa.png"
+ },
+ {
+  "id": "dc-sinta-foto",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto-utama",
+   "dokter",
+   "potret"
+  ],
+  "ket": "Foto potret setengah badan drg. Sinta tersenyum (latar klinik) untuk koran/polaroid/kartu",
+  "tokoh": "dc-sinta",
+  "w": 502,
+  "h": 583,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-sinta-foto.jpg"
+ },
+ {
+  "id": "dc-detektif-kaca-pembesar",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "detektif",
+   "K5",
+   "trench-coat"
+  ],
+  "ket": "Detektif wanita jas trench krem memegang kaca pembesar menyelidiki",
+  "pose": "kaca-pembesar",
+  "tokoh": "detektif",
+  "w": 393,
+  "h": 866,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-detektif-kaca-pembesar.png",
+  "kepala": {
+   "x": 90,
+   "y": 11,
+   "w": 179,
+   "h": 135
+  }
+ },
+ {
+  "id": "dc-detektif-lipat-tangan",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "detektif",
+   "K5",
+   "trench-coat"
+  ],
+  "ket": "Detektif wanita jas trench krem melipat tangan curiga",
+  "pose": "lipat-tangan",
+  "tokoh": "detektif",
+  "w": 309,
+  "h": 911,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-detektif-lipat-tangan.png",
+  "kepala": {
+   "x": 80,
+   "y": 11,
+   "w": 130,
+   "h": 127
+  }
+ },
+ {
+  "id": "dc-detektif-tunjuk",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "detektif",
+   "K5",
+   "trench-coat"
+  ],
+  "ket": "Detektif wanita jas trench krem menunjuk tersangka",
+  "pose": "tunjuk",
+  "tokoh": "detektif",
+  "w": 364,
+  "h": 894,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-detektif-tunjuk.png",
+  "kepala": {
+   "x": 127,
+   "y": 11,
+   "w": 141,
+   "h": 126
+  }
+ },
+ {
+  "id": "dc-detektif-jalan",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "detektif",
+   "K5",
+   "trench-coat"
+  ],
+  "ket": "Detektif wanita jas trench krem berjalan membawa map",
+  "pose": "jalan",
+  "tokoh": "detektif",
+  "w": 406,
+  "h": 897,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-detektif-jalan.png",
+  "kepala": {
+   "x": 106,
+   "y": 11,
+   "w": 173,
+   "h": 140
+  }
+ },
+ {
+  "id": "dc-detektif-wajah-curiga",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "detektif",
+   "K5",
+   "curiga",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto detektif wanita ekspresi curiga",
+  "ekspresi": "curiga",
+  "tokoh": "detektif",
+  "w": 289,
+  "h": 317,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-detektif-wajah-curiga.png"
+ },
+ {
+  "id": "dc-detektif-wajah-serius",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "detektif",
+   "K5",
+   "serius",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto detektif wanita ekspresi serius",
+  "ekspresi": "serius",
+  "tokoh": "detektif",
+  "w": 291,
+  "h": 315,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-detektif-wajah-serius.png"
+ },
+ {
+  "id": "dc-detektif-wajah-kaget",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "detektif",
+   "K5",
+   "kaget",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto detektif wanita ekspresi kaget",
+  "ekspresi": "kaget",
+  "tokoh": "detektif",
+  "w": 294,
+  "h": 320,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-detektif-wajah-kaget.png"
+ },
+ {
+  "id": "dc-detektif-wajah-yakin",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "detektif",
+   "K5",
+   "yakin",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto detektif wanita ekspresi yakin",
+  "ekspresi": "yakin",
+  "tokoh": "detektif",
+  "w": 292,
+  "h": 317,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-detektif-wajah-yakin.png"
+ },
+ {
+  "id": "dc-reporter-mic",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "reporter",
+   "K3",
+   "berita",
+   "foto"
+  ],
+  "ket": "Foto potong reporter wanita blazer merah memegang mikrofon",
+  "pose": "mic",
+  "tokoh": "reporter",
+  "w": 400,
+  "h": 978,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-reporter-mic.png"
+ },
+ {
+  "id": "dc-reporter-tunjuk",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "reporter",
+   "K3",
+   "berita",
+   "foto"
+  ],
+  "ket": "Foto potong reporter wanita blazer merah menunjuk ke samping",
+  "pose": "tunjuk",
+  "tokoh": "reporter",
+  "w": 593,
+  "h": 975,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-reporter-tunjuk.png"
+ },
+ {
+  "id": "dc-resepsionis-foto",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "resepsionis",
+   "K5",
+   "foto",
+   "polaroid",
+   "saksi"
+  ],
+  "ket": "Foto resepsionis klinik seragam navy memegang telepon + map (latar papan tinggi badan, cocok polaroid saksi)",
+  "tokoh": "resepsionis",
+  "w": 1122,
+  "h": 1402,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-resepsionis-foto.jpg"
+ },
+ {
+  "id": "dc-foto-pasien-ibu",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "pasien",
+   "K3",
+   "foto-adegan",
+   "saksi",
+   "ruang-tunggu"
+  ],
+  "ket": "Foto adegan ibu pasien kesal menunggu di ruang tunggu memegang kertas antrean",
+  "tokoh": "pasien-ibu",
+  "w": 1024,
+  "h": 1536,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-foto-pasien-ibu.jpg"
+ },
+ {
+  "id": "dc-foto-resepsionis-telepon",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "resepsionis",
+   "K3",
+   "foto-adegan",
+   "sibuk"
+  ],
+  "ket": "Foto adegan resepsionis scrub tosca menelepon di meja penuh berkas",
+  "tokoh": "resepsionis",
+  "w": 1024,
+  "h": 1536,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-foto-resepsionis-telepon.jpg"
+ },
+ {
+  "id": "dc-foto-staf-pulang",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "staf",
+   "K3",
+   "foto-adegan",
+   "pulang",
+   "senang"
+  ],
+  "ket": "Foto adegan staf klinik scrub tosca melambai pulang tepat waktu (sore)",
+  "tokoh": "staf",
+  "w": 1024,
+  "h": 1536,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-foto-staf-pulang.jpg"
+ },
+ {
+  "id": "dc-kartun-resepsionis-telepon",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "resepsionis",
+   "kartun"
+  ],
+  "ket": "Kartun penuh resepsionis seragam navy menelepon, stres",
+  "tokoh": "resepsionis",
+  "w": 333,
+  "h": 967,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-kartun-resepsionis-telepon.png"
+ },
+ {
+  "id": "dc-kartun-pasien-anak-nangis",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "pasien-anak",
+   "kartun"
+  ],
+  "ket": "Kartun penuh pasien anak perempuan memegang pipi menangis",
+  "tokoh": "pasien-anak",
+  "w": 276,
+  "h": 687,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-kartun-pasien-anak-nangis.png"
+ },
+ {
+  "id": "dc-kartun-pasien-ibu-tunggu",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "pasien-ibu",
+   "kartun"
+  ],
+  "ket": "Kartun penuh pasien wanita berhijab biru melihat jam tangan, tidak sabar",
+  "tokoh": "pasien-ibu",
+  "w": 399,
+  "h": 967,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-kartun-pasien-ibu-tunggu.png"
+ },
+ {
+  "id": "dc-kartun-pasien-bapak-sakit",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "pasien-bapak",
+   "kartun"
+  ],
+  "ket": "Kartun penuh pasien bapak berkumis batik memegang pipi bengkak",
+  "tokoh": "pasien-bapak",
+  "w": 376,
+  "h": 974,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-kartun-pasien-bapak-sakit.png"
+ },
+ {
+  "id": "dc-kartun-perawat-papan",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "perawat",
+   "kartun"
+  ],
+  "ket": "Kartun penuh perawat scrub biru muda memegang clipboard",
+  "tokoh": "perawat",
+  "w": 361,
+  "h": 971,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-kartun-perawat-papan.png"
+ },
+ {
+  "id": "dc-kartun-reporter-kartun",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "reporter",
+   "kartun"
+  ],
+  "ket": "Kartun penuh reporter wanita blazer merah memegang mikrofon menunjuk",
+  "tokoh": "reporter",
+  "w": 382,
+  "h": 945,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-kartun-reporter-kartun.png"
+ },
+ {
+  "id": "dc-kartun-pasien-anak-senang",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "pasien-anak",
+   "kartun"
+  ],
+  "ket": "Kartun penuh pasien anak perempuan senang melambai",
+  "tokoh": "pasien-anak",
+  "w": 335,
+  "h": 698,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-kartun-pasien-anak-senang.png"
+ },
+ {
+  "id": "dc-kartun-pasien-bapak-lega",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "pasien-bapak",
+   "kartun"
+  ],
+  "ket": "Kartun penuh pasien bapak berkumis lega acung jempol",
+  "tokoh": "pasien-bapak",
+  "w": 396,
+  "h": 967,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-kartun-pasien-bapak-lega.png"
+ },
+ {
+  "id": "dc-maskot-map-yakin",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "map",
+   "rekam-medis",
+   "narator",
+   "yakin"
+  ],
+  "ket": "Maskot map rekam medis ekspresi yakin (label putih kosong di atas)",
+  "ekspresi": "yakin",
+  "tokoh": "map",
+  "w": 461,
+  "h": 554,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-map-yakin.png",
+  "label": {
+   "x": 143,
+   "y": 94,
+   "w": 173,
+   "h": 47
+  }
+ },
+ {
+  "id": "dc-maskot-map-lelah",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "map",
+   "rekam-medis",
+   "narator",
+   "lelah"
+  ],
+  "ket": "Maskot map rekam medis ekspresi lelah (label putih kosong di atas)",
+  "ekspresi": "lelah",
+  "tokoh": "map",
+  "w": 343,
+  "h": 553,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-map-lelah.png"
+ },
+ {
+  "id": "dc-maskot-map-kaget",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "map",
+   "rekam-medis",
+   "narator",
+   "kaget"
+  ],
+  "ket": "Maskot map rekam medis ekspresi kaget (label putih kosong di atas)",
+  "ekspresi": "kaget",
+  "tokoh": "map",
+  "w": 328,
+  "h": 552,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-map-kaget.png",
+  "label": {
+   "x": 81,
+   "y": 89,
+   "w": 173,
+   "h": 48
+  }
+ },
+ {
+  "id": "dc-maskot-map-terharu",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "map",
+   "rekam-medis",
+   "narator",
+   "terharu"
+  ],
+  "ket": "Maskot map rekam medis ekspresi terharu (label putih kosong di atas)",
+  "ekspresi": "terharu",
+  "tokoh": "map",
+  "w": 325,
+  "h": 553,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-map-terharu.png",
+  "label": {
+   "x": 82,
+   "y": 88,
+   "w": 174,
+   "h": 56
+  }
+ },
+ {
+  "id": "dc-maskot-lemari-arsip-bangga",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "lemari-arsip",
+   "narator",
+   "bangga"
+  ],
+  "ket": "Maskot lemari arsip besi ekspresi bangga",
+  "ekspresi": "bangga",
+  "tokoh": "lemari-arsip",
+  "w": 362,
+  "h": 547,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-lemari-arsip-bangga.png"
+ },
+ {
+  "id": "dc-maskot-lemari-arsip-panik",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "lemari-arsip",
+   "narator",
+   "panik"
+  ],
+  "ket": "Maskot lemari arsip besi ekspresi panik",
+  "ekspresi": "panik",
+  "tokoh": "lemari-arsip",
+  "w": 441,
+  "h": 657,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-lemari-arsip-panik.png"
+ },
+ {
+  "id": "dc-maskot-lemari-arsip-sedih",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "lemari-arsip",
+   "narator",
+   "sedih"
+  ],
+  "ket": "Maskot lemari arsip besi ekspresi sedih",
+  "ekspresi": "sedih",
+  "tokoh": "lemari-arsip",
+  "w": 331,
+  "h": 557,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-lemari-arsip-sedih.png"
+ },
+ {
+  "id": "dc-maskot-lemari-arsip-lega",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "lemari-arsip",
+   "narator",
+   "lega"
+  ],
+  "ket": "Maskot lemari arsip besi ekspresi lega",
+  "ekspresi": "lega",
+  "tokoh": "lemari-arsip",
+  "w": 405,
+  "h": 541,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-lemari-arsip-lega.png"
+ },
+ {
+  "id": "dc-maskot-kalender-senang",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "kalender",
+   "narator",
+   "senang"
+  ],
+  "ket": "Maskot kalender jadwal dinding ekspresi senang",
+  "ekspresi": "senang",
+  "tokoh": "kalender",
+  "w": 404,
+  "h": 553,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-kalender-senang.png"
+ },
+ {
+  "id": "dc-maskot-kalender-panik",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "kalender",
+   "narator",
+   "panik"
+  ],
+  "ket": "Maskot kalender jadwal dinding ekspresi panik",
+  "ekspresi": "panik",
+  "tokoh": "kalender",
+  "w": 375,
+  "h": 546,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-kalender-panik.png"
+ },
+ {
+  "id": "dc-maskot-kalender-sedih",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "kalender",
+   "narator",
+   "sedih"
+  ],
+  "ket": "Maskot kalender jadwal dinding ekspresi sedih",
+  "ekspresi": "sedih",
+  "tokoh": "kalender",
+  "w": 341,
+  "h": 540,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-kalender-sedih.png"
+ },
+ {
+  "id": "dc-maskot-kalender-lega",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "kalender",
+   "narator",
+   "lega"
+  ],
+  "ket": "Maskot kalender jadwal dinding ekspresi lega",
+  "ekspresi": "lega",
+  "tokoh": "kalender",
+  "w": 429,
+  "h": 546,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-kalender-lega.png"
+ },
+ {
+  "id": "dc-maskot-odontogram-senang",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "odontogram",
+   "narator",
+   "senang"
+  ],
+  "ket": "Maskot kertas odontogram ekspresi senang",
+  "ekspresi": "senang",
+  "tokoh": "odontogram",
+  "w": 391,
+  "h": 563,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-odontogram-senang.png"
+ },
+ {
+  "id": "dc-maskot-odontogram-sedih",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "odontogram",
+   "narator",
+   "sedih"
+  ],
+  "ket": "Maskot kertas odontogram ekspresi sedih",
+  "ekspresi": "sedih",
+  "tokoh": "odontogram",
+  "w": 340,
+  "h": 560,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-odontogram-sedih.png"
+ },
+ {
+  "id": "dc-maskot-odontogram-kaget",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "odontogram",
+   "narator",
+   "kaget"
+  ],
+  "ket": "Maskot kertas odontogram ekspresi kaget",
+  "ekspresi": "kaget",
+  "tokoh": "odontogram",
+  "w": 341,
+  "h": 587,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-odontogram-kaget.png"
+ },
+ {
+  "id": "dc-maskot-odontogram-yakin",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "odontogram",
+   "narator",
+   "yakin"
+  ],
+  "ket": "Maskot kertas odontogram ekspresi yakin",
+  "ekspresi": "yakin",
+  "tokoh": "odontogram",
+  "w": 359,
+  "h": 566,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-odontogram-yakin.png"
+ },
+ {
+  "id": "dc-maskot-buku-antrean-tenang",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "buku-antrean",
+   "narator",
+   "tenang"
+  ],
+  "ket": "Maskot buku antrean biru ekspresi tenang",
+  "ekspresi": "tenang",
+  "tokoh": "buku-antrean",
+  "w": 402,
+  "h": 551,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-buku-antrean-tenang.png"
+ },
+ {
+  "id": "dc-maskot-buku-antrean-panik",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "buku-antrean",
+   "narator",
+   "panik"
+  ],
+  "ket": "Maskot buku antrean biru ekspresi panik",
+  "ekspresi": "panik",
+  "tokoh": "buku-antrean",
+  "w": 454,
+  "h": 577,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-buku-antrean-panik.png"
+ },
+ {
+  "id": "dc-maskot-buku-antrean-sedih",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "buku-antrean",
+   "narator",
+   "sedih"
+  ],
+  "ket": "Maskot buku antrean biru ekspresi sedih",
+  "ekspresi": "sedih",
+  "tokoh": "buku-antrean",
+  "w": 332,
+  "h": 544,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-buku-antrean-sedih.png"
+ },
+ {
+  "id": "dc-maskot-buku-antrean-lega",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "buku-antrean",
+   "narator",
+   "lega"
+  ],
+  "ket": "Maskot buku antrean biru ekspresi lega",
+  "ekspresi": "lega",
+  "tokoh": "buku-antrean",
+  "w": 327,
+  "h": 556,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-buku-antrean-lega.png"
+ },
+ {
+  "id": "dc-maskot-struk-invoice-senang",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "struk-invoice",
+   "narator",
+   "senang"
+  ],
+  "ket": "Maskot struk/invoice kertas ekspresi senang",
+  "ekspresi": "senang",
+  "tokoh": "struk-invoice",
+  "w": 366,
+  "h": 771,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-struk-invoice-senang.png"
+ },
+ {
+  "id": "dc-maskot-struk-invoice-lelah",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "struk-invoice",
+   "narator",
+   "lelah"
+  ],
+  "ket": "Maskot struk/invoice kertas ekspresi lelah",
+  "ekspresi": "lelah",
+  "tokoh": "struk-invoice",
+  "w": 258,
+  "h": 725,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-struk-invoice-lelah.png"
+ },
+ {
+  "id": "dc-maskot-struk-invoice-kaget",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "struk-invoice",
+   "narator",
+   "kaget"
+  ],
+  "ket": "Maskot struk/invoice kertas ekspresi kaget",
+  "ekspresi": "kaget",
+  "tokoh": "struk-invoice",
+  "w": 378,
+  "h": 763,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-struk-invoice-kaget.png"
+ },
+ {
+  "id": "dc-maskot-struk-invoice-lega",
+  "brand": "dentalcare",
+  "jenis": "maskot",
+  "tag": [
+   "struk-invoice",
+   "narator",
+   "lega"
+  ],
+  "ket": "Maskot struk/invoice kertas ekspresi lega",
+  "ekspresi": "lega",
+  "tokoh": "struk-invoice",
+  "w": 388,
+  "h": 776,
+  "g3": "pabrik/aset/dentalcare/maskot/dc-maskot-struk-invoice-lega.png"
+ },
+ {
+  "id": "dc-prop-tumpukan-berkas",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "berkas",
+   "kertas",
+   "masalah"
+  ],
+  "ket": "Props tumpukan map berkas tinggi",
+  "w": 367,
+  "h": 737,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-tumpukan-berkas.png"
+ },
+ {
+  "id": "dc-prop-lemari-arsip",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "arsip",
+   "lemari",
+   "berkas"
+  ],
+  "ket": "Props lemari arsip besi terbuka penuh map",
+  "w": 392,
+  "h": 503,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-lemari-arsip.png"
+ },
+ {
+  "id": "dc-prop-kopi-tumpah",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "kopi",
+   "tumpah",
+   "lembur"
+  ],
+  "ket": "Props mug kopi tumpah",
+  "w": 274,
+  "h": 393,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-kopi-tumpah.png"
+ },
+ {
+  "id": "dc-prop-kursi-dental-anak",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "kursi-dental",
+   "pasien-anak",
+   "menangis"
+  ],
+  "ket": "Props kursi dental dengan anak menangis",
+  "w": 379,
+  "h": 606,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-kursi-dental-anak.png"
+ },
+ {
+  "id": "dc-prop-kardus-berkas",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "kardus",
+   "berkas",
+   "arsip"
+  ],
+  "ket": "Props kardus penuh berkas berantakan",
+  "w": 449,
+  "h": 571,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-kardus-berkas.png"
+ },
+ {
+  "id": "dc-prop-kalkulator",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "kalkulator",
+   "hitung",
+   "invoice"
+  ],
+  "ket": "Props kalkulator dengan struk panjang",
+  "w": 386,
+  "h": 566,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-kalkulator.png"
+ },
+ {
+  "id": "dc-prop-sticky-note",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "sticky-note",
+   "catatan",
+   "berantakan"
+  ],
+  "ket": "Props tumpukan sticky note kuning",
+  "w": 344,
+  "h": 429,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-sticky-note.png"
+ },
+ {
+  "id": "dc-prop-lampu-dental",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "lampu-dental"
+  ],
+  "ket": "Props lampu periksa dental",
+  "w": 495,
+  "h": 686,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-lampu-dental.png"
+ },
+ {
+  "id": "dc-prop-ponsel",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "ponsel"
+  ],
+  "ket": "Props ponsel layar kosong (tempel UI)",
+  "w": 219,
+  "h": 414,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-ponsel.png",
+  "layar": {
+   "x": 22,
+   "y": 21,
+   "w": 174,
+   "h": 371
+  }
+ },
+ {
+  "id": "dc-prop-tablet",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "tablet"
+  ],
+  "ket": "Props tablet layar kosong (tempel UI)",
+  "w": 352,
+  "h": 487,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-tablet.png",
+  "layar": {
+   "x": 31,
+   "y": 40,
+   "w": 289,
+   "h": 393
+  }
+ },
+ {
+  "id": "dc-prop-kaca-mulut",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "kaca-mulut"
+  ],
+  "ket": "Props kaca mulut + sonde",
+  "w": 313,
+  "h": 569,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-kaca-mulut.png"
+ },
+ {
+  "id": "dc-prop-stempel",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "stempel"
+  ],
+  "ket": "Props stempel + bantalan tinta",
+  "w": 413,
+  "h": 356,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-stempel.png"
+ },
+ {
+  "id": "dc-prop-model-gigi",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "model-gigi"
+  ],
+  "ket": "Props model rahang gigi",
+  "w": 349,
+  "h": 411,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-model-gigi.png"
+ },
+ {
+  "id": "dc-prop-clipboard",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "clipboard"
+  ],
+  "ket": "Props clipboard formulir kosong",
+  "w": 330,
+  "h": 468,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-clipboard.png"
+ },
+ {
+  "id": "dc-prop-bola-kertas",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "bola-kertas"
+  ],
+  "ket": "Props tumpukan bola kertas remuk",
+  "w": 362,
+  "h": 359,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-bola-kertas.png"
+ },
+ {
+  "id": "dc-prop-kursi-dental",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "kursi-dental"
+  ],
+  "ket": "Props kursi dental kosong",
+  "w": 434,
+  "h": 435,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-kursi-dental.png"
+ },
+ {
+  "id": "dc-prop-jam-dinding",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "jam-dinding"
+  ],
+  "ket": "Props jam dinding",
+  "w": 325,
+  "h": 333,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-jam-dinding.png"
+ },
+ {
+  "id": "dc-prop-buku-antrean",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "buku-antrean"
+  ],
+  "ket": "Props buku antrean terbuka penuh coretan",
+  "w": 422,
+  "h": 336,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-buku-antrean.png"
+ },
+ {
+  "id": "dc-prop-kalender-sobek",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "kalender-sobek"
+  ],
+  "ket": "Props kalender sobek harian",
+  "w": 295,
+  "h": 358,
+  "g3": "pabrik/aset/dentalcare/props/dc-prop-kalender-sobek.png"
+ },
+ {
+  "id": "dc-latar-klinik-minimal",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "klinik",
+   "siang",
+   "terang"
+  ],
+  "ket": "Latar 9:16 klinik krem terang minimalis, kursi dental kiri bawah",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-klinik-minimal.jpg"
+ },
+ {
+  "id": "dc-latar-klinik-malam",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "klinik",
+   "malam",
+   "lembur"
+  ],
+  "ket": "Latar 9:16 ruang praktik malam lembur, jendela bulan",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-klinik-malam.jpg"
+ },
+ {
+  "id": "dc-latar-meja-kayu",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "meja",
+   "kayu",
+   "atas"
+  ],
+  "ket": "Latar 9:16 permukaan meja kayu dari atas",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-meja-kayu.jpg"
+ },
+ {
+  "id": "dc-latar-papan-gabus",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "K5",
+   "detektif",
+   "papan-gabus"
+  ],
+  "ket": "Latar 9:16 papan gabus detektif",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-papan-gabus.jpg"
+ },
+ {
+  "id": "dc-latar-studio-tv",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "K3",
+   "berita",
+   "studio"
+  ],
+  "ket": "Latar 9:16 studio TV berita",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-studio-tv.jpg"
+ },
+ {
+  "id": "dc-latar-arsip-berantakan",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "K3",
+   "arsip",
+   "berantakan",
+   "klinik"
+  ],
+  "ket": "Latar 9:16 ruang arsip/resepsionis berantakan penuh kertas (foto)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-arsip-berantakan.jpg"
+ },
+ {
+  "id": "dc-latar-resepsionis",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "klinik",
+   "siang",
+   "resepsionis"
+  ],
+  "ket": "Latar 9:16 meja resepsionis klinik siang (diorama)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-resepsionis.jpg"
+ },
+ {
+  "id": "dc-latar-praktik",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "klinik",
+   "siang",
+   "praktik"
+  ],
+  "ket": "Latar 9:16 ruang praktik dental siang (diorama)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-praktik.jpg"
+ },
+ {
+  "id": "dc-latar-arsip",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "klinik",
+   "arsip"
+  ],
+  "ket": "Latar 9:16 ruang arsip rak map (diorama)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-arsip.jpg"
+ },
+ {
+  "id": "dc-latar-ruang-tunggu",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "klinik",
+   "siang",
+   "ruang-tunggu"
+  ],
+  "ket": "Latar 9:16 ruang tunggu klinik (diorama)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-ruang-tunggu.jpg"
+ },
+ {
+  "id": "dc-latar-horor",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "K8",
+   "malam",
+   "gelap",
+   "klinik"
+  ],
+  "ket": "Latar 9:16 lorong klinik gelap tengah malam (horor-komedi)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-horor.jpg"
+ },
+ {
+  "id": "dc-latar-koran",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "K0",
+   "koran",
+   "umum"
+  ],
+  "ket": "Latar 9:16 halaman koran krem (headline kosong di atas)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-koran.jpg"
+ },
+ {
+  "id": "dc-latar-kertas-surat",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "K6",
+   "surat",
+   "umum"
+  ],
+  "ket": "Latar 9:16 kertas surat bergaris",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-kertas-surat.jpg"
+ },
+ {
+  "id": "dc-latar-pastel",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "K7",
+   "tutorial",
+   "umum"
+  ],
+  "ket": "Latar 9:16 pastel mint-peach doodle tepi",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-pastel.jpg"
+ },
+ {
+  "id": "dc-latar-krem-tirai",
+  "brand": "dentalcare",
+  "jenis": "latar",
+  "tag": [
+   "K0",
+   "kertas",
+   "umum"
+  ],
+  "ket": "Latar 9:16 kertas krem bayangan tirai",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/latar/dc-latar-krem-tirai.jpg"
+ },
+ {
+  "id": "dc-ui-soap",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "soap",
+   "rekam-medis"
+  ],
+  "ket": "Screenshot asli DentalCare: Catatan klinis SOAP",
+  "w": 2064,
+  "h": 2400,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-soap.jpg"
+ },
+ {
+  "id": "dc-ui-odontogram",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "odontogram"
+  ],
+  "ket": "Screenshot asli DentalCare: Odontogram",
+  "w": 2400,
+  "h": 2264,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-odontogram.jpg"
+ },
+ {
+  "id": "dc-ui-pasien-detail",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "pasien",
+   "rekam-medis"
+  ],
+  "ket": "Screenshot asli DentalCare: Detail data pasien",
+  "w": 2064,
+  "h": 2400,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-pasien-detail.jpg"
+ },
+ {
+  "id": "dc-ui-invoice",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "invoice",
+   "ada-rupiah"
+  ],
+  "ket": "Screenshot asli DentalCare: Invoice pembayaran (memuat angka Rp: jangan tampil besar/zoom)",
+  "w": 2064,
+  "h": 2400,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-invoice.jpg"
+ },
+ {
+  "id": "dc-ui-obat",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "ada-rupiah",
+   "app",
+   "obat",
+   "farmasi"
+  ],
+  "ket": "Screenshot asli DentalCare: Daftar obat/farmasi",
+  "w": 2064,
+  "h": 2400,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-obat.jpg"
+ },
+ {
+  "id": "dc-ui-kondisi-gigi",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "odontogram",
+   "kondisi-gigi"
+  ],
+  "ket": "Screenshot asli DentalCare: Master kondisi gigi",
+  "w": 2064,
+  "h": 2400,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-kondisi-gigi.jpg"
+ },
+ {
+  "id": "dc-ui-antrean",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "antrean"
+  ],
+  "ket": "Screenshot asli DentalCare: Antrean hari ini",
+  "w": 2400,
+  "h": 1350,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-antrean.jpg"
+ },
+ {
+  "id": "dc-ui-jadwal",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "jadwal",
+   "appointment"
+  ],
+  "ket": "Screenshot asli DentalCare: Kalender janji temu",
+  "w": 2400,
+  "h": 1350,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-jadwal.jpg"
+ },
+ {
+  "id": "dc-ui-dashboard",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "dashboard",
+   "ada-rupiah"
+  ],
+  "ket": "Screenshot asli DentalCare: Dashboard ringkasan (memuat angka Rp)",
+  "w": 2400,
+  "h": 1350,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-dashboard.jpg"
+ },
+ {
+  "id": "dc-ui-pasien-daftar",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "pasien"
+  ],
+  "ket": "Screenshot asli DentalCare: Daftar pasien",
+  "w": 2400,
+  "h": 1350,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-pasien-daftar.jpg"
+ },
+ {
+  "id": "dc-ui-tindakan",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "ada-rupiah",
+   "app",
+   "tindakan",
+   "rekam-medis"
+  ],
+  "ket": "Screenshot asli DentalCare: Daftar tindakan pemeriksaan",
+  "w": 2400,
+  "h": 1350,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-tindakan.jpg"
+ },
+ {
+  "id": "dc-ui-invoice-daftar",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "invoice",
+   "ada-rupiah"
+  ],
+  "ket": "Screenshot asli DentalCare: Daftar invoice (memuat angka Rp)",
+  "w": 2400,
+  "h": 1350,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-invoice-daftar.jpg"
+ },
+ {
+  "id": "dc-ui-landing-hp",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "landing",
+   "hp",
+   "web-klinik"
+  ],
+  "ket": "Screenshot asli DentalCare: Halaman web klinik versi HP",
+  "w": 1109,
+  "h": 2400,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-landing-hp.jpg"
+ },
+ {
+  "id": "dc-ui-soap-rapi",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "rapi",
+   "soap",
+   "rekam-medis"
+  ],
+  "ket": "Screenshot asli DentalCare RAPI (tanpa pita MODE DEMO, tanpa sidebar): Catatan klinis SOAP",
+  "w": 2064,
+  "h": 2220,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-soap-rapi.jpg"
+ },
+ {
+  "id": "dc-ui-odontogram-rapi",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "rapi",
+   "odontogram"
+  ],
+  "ket": "Screenshot asli DentalCare RAPI (tanpa pita MODE DEMO, tanpa sidebar): Odontogram",
+  "w": 1920,
+  "h": 2264,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-odontogram-rapi.jpg"
+ },
+ {
+  "id": "dc-ui-pasien-detail-rapi",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "rapi",
+   "pasien",
+   "rekam-medis"
+  ],
+  "ket": "Screenshot asli DentalCare RAPI (tanpa pita MODE DEMO, tanpa sidebar): Detail data pasien",
+  "w": 2064,
+  "h": 2220,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-pasien-detail-rapi.jpg"
+ },
+ {
+  "id": "dc-ui-invoice-rapi",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "rapi",
+   "invoice",
+   "ada-rupiah"
+  ],
+  "ket": "Screenshot asli DentalCare RAPI (tanpa pita MODE DEMO, tanpa sidebar): Invoice pembayaran (memuat angka Rp)",
+  "w": 2064,
+  "h": 2220,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-invoice-rapi.jpg"
+ },
+ {
+  "id": "dc-ui-obat-rapi",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "ada-rupiah",
+   "app",
+   "rapi",
+   "obat",
+   "farmasi"
+  ],
+  "ket": "Screenshot asli DentalCare RAPI (tanpa pita MODE DEMO, tanpa sidebar): Daftar obat",
+  "w": 2064,
+  "h": 2220,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-obat-rapi.jpg"
+ },
+ {
+  "id": "dc-ui-kondisi-gigi-rapi",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "rapi",
+   "odontogram",
+   "kondisi-gigi"
+  ],
+  "ket": "Screenshot asli DentalCare RAPI (tanpa pita MODE DEMO, tanpa sidebar): Master kondisi gigi",
+  "w": 2064,
+  "h": 2220,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-kondisi-gigi-rapi.jpg"
+ },
+ {
+  "id": "dc-ui-antrean-rapi",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "rapi",
+   "antrean"
+  ],
+  "ket": "Screenshot asli DentalCare RAPI (tanpa pita MODE DEMO, tanpa sidebar): Antrean hari ini",
+  "w": 1920,
+  "h": 1246,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-antrean-rapi.jpg"
+ },
+ {
+  "id": "dc-ui-jadwal-rapi",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "rapi",
+   "jadwal",
+   "appointment"
+  ],
+  "ket": "Screenshot asli DentalCare RAPI (tanpa pita MODE DEMO, tanpa sidebar): Kalender janji temu",
+  "w": 2080,
+  "h": 1279,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-jadwal-rapi.jpg"
+ },
+ {
+  "id": "dc-ui-dashboard-rapi",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "rapi",
+   "dashboard",
+   "ada-rupiah"
+  ],
+  "ket": "Screenshot asli DentalCare RAPI (tanpa pita MODE DEMO, tanpa sidebar): Dashboard (memuat angka Rp)",
+  "w": 2080,
+  "h": 1279,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-dashboard-rapi.jpg"
+ },
+ {
+  "id": "dc-ui-pasien-daftar-rapi",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "rapi",
+   "pasien"
+  ],
+  "ket": "Screenshot asli DentalCare RAPI (tanpa pita MODE DEMO, tanpa sidebar): Daftar pasien",
+  "w": 2080,
+  "h": 1279,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-pasien-daftar-rapi.jpg"
+ },
+ {
+  "id": "dc-ui-tindakan-rapi",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "ada-rupiah",
+   "app",
+   "rapi",
+   "tindakan",
+   "rekam-medis"
+  ],
+  "ket": "Screenshot asli DentalCare RAPI (tanpa pita MODE DEMO, tanpa sidebar): Daftar tindakan",
+  "w": 1920,
+  "h": 1246,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-tindakan-rapi.jpg"
+ },
+ {
+  "id": "dc-ui-invoice-daftar-rapi",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "app",
+   "rapi",
+   "invoice",
+   "ada-rupiah"
+  ],
+  "ket": "Screenshot asli DentalCare RAPI (tanpa pita MODE DEMO, tanpa sidebar): Daftar invoice (memuat angka Rp)",
+  "w": 2080,
+  "h": 1279,
+  "g3": "pabrik/aset/dentalcare/ui/dc-ui-invoice-daftar-rapi.jpg"
+ },
+ {
+  "id": "dc-efek-ledakan-komik",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "ledakan",
+   "boom",
+   "kaget"
+  ],
+  "ket": "Efek komik prosedural: ledakan komik merah-kuning",
+  "w": 606,
+  "h": 595,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-ledakan-komik.png"
+ },
+ {
+  "id": "dc-efek-ledakan-tosca",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "ledakan",
+   "reveal",
+   "brand"
+  ],
+  "ket": "Efek komik prosedural: ledakan komik tosca-putih (warna brand)",
+  "w": 616,
+  "h": 590,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-ledakan-tosca.png"
+ },
+ {
+  "id": "dc-efek-kilau",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "sparkle",
+   "bersih",
+   "berhasil"
+  ],
+  "ket": "Efek komik prosedural: kilau bintang 4 sudut",
+  "w": 562,
+  "h": 523,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-kilau.png"
+ },
+ {
+  "id": "dc-efek-garis-fokus",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "fokus",
+   "dramatis",
+   "lapisan-penuh"
+  ],
+  "ket": "Efek komik prosedural: garis fokus manga 1080x1920 (tengah kosong)",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-garis-fokus.png"
+ },
+ {
+  "id": "dc-efek-garis-lari",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "gerak",
+   "lari",
+   "cepat"
+  ],
+  "ket": "Efek komik prosedural: garis gerak horizontal",
+  "w": 612,
+  "h": 348,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-garis-lari.png"
+ },
+ {
+  "id": "dc-efek-keringat",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "keringat",
+   "panik",
+   "lelah"
+  ],
+  "ket": "Efek komik prosedural: tetes keringat",
+  "w": 277,
+  "h": 307,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-keringat.png"
+ },
+ {
+  "id": "dc-efek-tanya",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "bingung",
+   "tanya"
+  ],
+  "ket": "Efek komik prosedural: tanda tanya kuning",
+  "w": 232,
+  "h": 481,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-tanya.png"
+ },
+ {
+  "id": "dc-efek-seru",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "kaget",
+   "peringatan"
+  ],
+  "ket": "Efek komik prosedural: tanda seru merah",
+  "w": 136,
+  "h": 488,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-seru.png"
+ },
+ {
+  "id": "dc-efek-panah-merah",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "panah",
+   "tunjuk"
+  ],
+  "ket": "Efek komik prosedural: panah merah tebal",
+  "w": 678,
+  "h": 257,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-panah-merah.png"
+ },
+ {
+  "id": "dc-efek-lingkar-spidol",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "lingkar",
+   "sorot",
+   "spidol"
+  ],
+  "ket": "Efek komik prosedural: lingkaran spidol merah (sorot foto/elemen)",
+  "w": 661,
+  "h": 410,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-lingkar-spidol.png"
+ },
+ {
+  "id": "dc-efek-centang-hijau",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "centang",
+   "beres",
+   "berhasil"
+  ],
+  "ket": "Efek komik prosedural: centang hijau besar",
+  "w": 499,
+  "h": 408,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-centang-hijau.png"
+ },
+ {
+  "id": "dc-efek-silang-merah",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "silang",
+   "salah",
+   "gagal"
+  ],
+  "ket": "Efek komik prosedural: silang merah besar",
+  "w": 441,
+  "h": 442,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-silang-merah.png"
+ },
+ {
+  "id": "dc-efek-gelembung-bicara",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "gelembung",
+   "bicara",
+   "dialog"
+  ],
+  "ket": "Efek komik prosedural: gelembung bicara kosong",
+  "w": 678,
+  "h": 503,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-gelembung-bicara.png"
+ },
+ {
+  "id": "dc-efek-gelembung-pikir",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "gelembung",
+   "pikir"
+  ],
+  "ket": "Efek komik prosedural: gelembung pikiran kosong",
+  "w": 708,
+  "h": 562,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-gelembung-pikir.png"
+ },
+ {
+  "id": "dc-efek-konfeti",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "konfeti",
+   "rayakan",
+   "lapisan-penuh"
+  ],
+  "ket": "Efek komik prosedural: konfeti 1080x1920",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-konfeti.png"
+ },
+ {
+  "id": "dc-efek-hati",
+  "brand": "dentalcare",
+  "jenis": "props",
+  "tag": [
+   "efek",
+   "umum",
+   "hati",
+   "terharu",
+   "suka"
+  ],
+  "ket": "Efek komik prosedural: hati merah",
+  "w": 472,
+  "h": 428,
+  "g3": "pabrik/aset/dentalcare/props/dc-efek-hati.png"
+ },
+ {
+  "id": "dc-logo",
+  "brand": "dentalcare",
+  "jenis": "ui",
+  "tag": [
+   "logo"
+  ],
+  "ket": "Logo DentalCare transparan",
+  "w": 892,
+  "h": 244,
+  "g3": "pabrik/aset/dentalcare/ui/dc-logo.png"
+ },
+ {
+  "id": "dc-rina-telepon",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "resepsionis",
+   "klinik",
+   "hijab",
+   "telepon",
+   "bicara",
+   "sibuk"
+  ],
+  "ket": "Mbak Rina resepsionis kartun menelepon dengan gagang telepon meja, tangan lain menjelaskan",
+  "pose": "telepon",
+  "tokoh": "dc-rina",
+  "w": 424,
+  "h": 933,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-rina-telepon.png",
+  "kepala": {
+   "x": 125,
+   "y": 9,
+   "w": 176,
+   "h": 332
+  }
+ },
+ {
+  "id": "dc-rina-panik",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "resepsionis",
+   "klinik",
+   "hijab",
+   "panik",
+   "pusing",
+   "masalah"
+  ],
+  "ket": "Mbak Rina resepsionis kartun panik memegang kepala dengan dua tangan",
+  "pose": "panik",
+  "tokoh": "dc-rina",
+  "w": 354,
+  "h": 914,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-rina-panik.png",
+  "kepala": {
+   "x": 96,
+   "y": 9,
+   "w": 148,
+   "h": 283
+  }
+ },
+ {
+  "id": "dc-rina-buku",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "resepsionis",
+   "klinik",
+   "hijab",
+   "buku",
+   "jadwal",
+   "antrean",
+   "baca",
+   "manual"
+  ],
+  "ket": "Mbak Rina resepsionis kartun membaca buku jadwal cokelat yang terbuka",
+  "pose": "buku",
+  "tokoh": "dc-rina",
+  "w": 351,
+  "h": 934,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-rina-buku.png",
+  "kepala": {
+   "x": 73,
+   "y": 9,
+   "w": 172,
+   "h": 282
+  }
+ },
+ {
+  "id": "dc-rina-jempol",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "resepsionis",
+   "klinik",
+   "hijab",
+   "jempol",
+   "senang",
+   "cta",
+   "beres"
+  ],
+  "ket": "Mbak Rina resepsionis kartun acungkan jempol sambil mengedip",
+  "pose": "jempol",
+  "tokoh": "dc-rina",
+  "w": 293,
+  "h": 932,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-rina-jempol.png",
+  "kepala": {
+   "x": 54,
+   "y": 9,
+   "w": 158,
+   "h": 240
+  }
+ },
+ {
+  "id": "dc-rina-wajah-senang",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "resepsionis",
+   "senang",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Rina resepsionis ekspresi senang (stiker bingkai putih)",
+  "ekspresi": "senang",
+  "tokoh": "dc-rina",
+  "w": 292,
+  "h": 332,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-rina-wajah-senang.png"
+ },
+ {
+  "id": "dc-rina-wajah-kaget",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "resepsionis",
+   "kaget",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Rina resepsionis ekspresi kaget (stiker bingkai putih)",
+  "ekspresi": "kaget",
+  "tokoh": "dc-rina",
+  "w": 290,
+  "h": 332,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-rina-wajah-kaget.png"
+ },
+ {
+  "id": "dc-rina-wajah-panik",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "resepsionis",
+   "panik",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Rina resepsionis ekspresi panik (stiker bingkai putih)",
+  "ekspresi": "panik",
+  "tokoh": "dc-rina",
+  "w": 286,
+  "h": 338,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-rina-wajah-panik.png"
+ },
+ {
+  "id": "dc-rina-wajah-bingung",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "resepsionis",
+   "bingung",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Rina resepsionis ekspresi bingung (stiker bingkai putih)",
+  "ekspresi": "bingung",
+  "tokoh": "dc-rina",
+  "w": 319,
+  "h": 337,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-rina-wajah-bingung.png"
+ },
+ {
+  "id": "dc-rina-wajah-lega",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "resepsionis",
+   "lega",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Rina resepsionis ekspresi lega (stiker bingkai putih)",
+  "ekspresi": "lega",
+  "tokoh": "dc-rina",
+  "w": 271,
+  "h": 319,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-rina-wajah-lega.png"
+ },
+ {
+  "id": "dc-rina-wajah-kesal",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "resepsionis",
+   "kesal",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Rina resepsionis ekspresi kesal (stiker bingkai putih)",
+  "ekspresi": "kesal",
+  "tokoh": "dc-rina",
+  "w": 267,
+  "h": 320,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-rina-wajah-kesal.png"
+ },
+ {
+  "id": "dc-rina-wajah-lelah",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "resepsionis",
+   "lelah",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Rina resepsionis ekspresi lelah (stiker bingkai putih)",
+  "ekspresi": "lelah",
+  "tokoh": "dc-rina",
+  "w": 278,
+  "h": 329,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-rina-wajah-lelah.png"
+ },
+ {
+  "id": "dc-rina-wajah-yakin",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "resepsionis",
+   "yakin",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Rina resepsionis ekspresi yakin (stiker bingkai putih)",
+  "ekspresi": "yakin",
+  "tokoh": "dc-rina",
+  "w": 274,
+  "h": 327,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-rina-wajah-yakin.png"
+ },
+ {
+  "id": "dc-rina-foto",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto-utama",
+   "potret",
+   "resepsionis"
+  ],
+  "ket": "Foto potret setengah badan Mbak Rina resepsionis (latar studio abu) untuk koran/polaroid/kartu",
+  "tokoh": "dc-rina",
+  "w": 768,
+  "h": 1024,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-rina-foto.jpg"
+ },
+ {
+  "id": "dc-tari-bawa-berkas",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "perawat",
+   "asisten",
+   "klinik",
+   "berkas",
+   "map",
+   "jalan",
+   "sibuk"
+  ],
+  "ket": "Mbak Tari perawat gigi kartun berjalan memeluk tumpukan map pasien",
+  "pose": "bawa-berkas",
+  "tokoh": "dc-tari",
+  "w": 358,
+  "h": 922,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-tari-bawa-berkas.png",
+  "kepala": {
+   "x": 119,
+   "y": 11,
+   "w": 180,
+   "h": 311
+  }
+ },
+ {
+  "id": "dc-tari-bingung",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "perawat",
+   "asisten",
+   "klinik",
+   "bingung",
+   "angkat-bahu",
+   "masalah"
+  ],
+  "ket": "Mbak Tari perawat gigi kartun mengangkat bahu bingung, telapak terbuka",
+  "pose": "bingung",
+  "tokoh": "dc-tari",
+  "w": 464,
+  "h": 918,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-tari-bingung.png",
+  "kepala": {
+   "x": 167,
+   "y": 10,
+   "w": 162,
+   "h": 237
+  }
+ },
+ {
+  "id": "dc-tari-tunjuk-papan",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "perawat",
+   "asisten",
+   "klinik",
+   "tunjuk",
+   "papan",
+   "jelaskan",
+   "presentasi"
+  ],
+  "ket": "Mbak Tari perawat gigi kartun menunjuk papan klip di tangannya, menjelaskan",
+  "pose": "tunjuk-papan",
+  "tokoh": "dc-tari",
+  "w": 405,
+  "h": 928,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-tari-tunjuk-papan.png",
+  "kepala": {
+   "x": 68,
+   "y": 10,
+   "w": 156,
+   "h": 210
+  }
+ },
+ {
+  "id": "dc-tari-sorak",
+  "brand": "dentalcare",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "perawat",
+   "asisten",
+   "klinik",
+   "sorak",
+   "lega",
+   "senang",
+   "solusi"
+  ],
+  "ket": "Mbak Tari perawat gigi kartun melompat bersorak dua tangan terangkat",
+  "pose": "sorak",
+  "tokoh": "dc-tari",
+  "w": 397,
+  "h": 939,
+  "g3": "pabrik/aset/dentalcare/tokoh-badan/dc-tari-sorak.png",
+  "kepala": {
+   "x": 99,
+   "y": 90,
+   "w": 175,
+   "h": 154
+  }
+ },
+ {
+  "id": "dc-tari-wajah-senang",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "perawat",
+   "senang",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Tari perawat gigi ekspresi senang (stiker bingkai putih)",
+  "ekspresi": "senang",
+  "tokoh": "dc-tari",
+  "w": 284,
+  "h": 333,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-tari-wajah-senang.png"
+ },
+ {
+  "id": "dc-tari-wajah-kaget",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "perawat",
+   "kaget",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Tari perawat gigi ekspresi kaget (stiker bingkai putih)",
+  "ekspresi": "kaget",
+  "tokoh": "dc-tari",
+  "w": 272,
+  "h": 330,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-tari-wajah-kaget.png"
+ },
+ {
+  "id": "dc-tari-wajah-panik",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "perawat",
+   "panik",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Tari perawat gigi ekspresi panik (stiker bingkai putih)",
+  "ekspresi": "panik",
+  "tokoh": "dc-tari",
+  "w": 281,
+  "h": 337,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-tari-wajah-panik.png"
+ },
+ {
+  "id": "dc-tari-wajah-bingung",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "perawat",
+   "bingung",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Tari perawat gigi ekspresi bingung (stiker bingkai putih)",
+  "ekspresi": "bingung",
+  "tokoh": "dc-tari",
+  "w": 292,
+  "h": 338,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-tari-wajah-bingung.png"
+ },
+ {
+  "id": "dc-tari-wajah-lega",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "perawat",
+   "lega",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Tari perawat gigi ekspresi lega (stiker bingkai putih)",
+  "ekspresi": "lega",
+  "tokoh": "dc-tari",
+  "w": 268,
+  "h": 325,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-tari-wajah-lega.png"
+ },
+ {
+  "id": "dc-tari-wajah-kesal",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "perawat",
+   "kesal",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Tari perawat gigi ekspresi kesal (stiker bingkai putih)",
+  "ekspresi": "kesal",
+  "tokoh": "dc-tari",
+  "w": 270,
+  "h": 328,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-tari-wajah-kesal.png"
+ },
+ {
+  "id": "dc-tari-wajah-lelah",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "perawat",
+   "lelah",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Tari perawat gigi ekspresi lelah (stiker bingkai putih)",
+  "ekspresi": "lelah",
+  "tokoh": "dc-tari",
+  "w": 287,
+  "h": 340,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-tari-wajah-lelah.png"
+ },
+ {
+  "id": "dc-tari-wajah-yakin",
+  "brand": "dentalcare",
+  "jenis": "wajah",
+  "tag": [
+   "perawat",
+   "yakin",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Tari perawat gigi ekspresi yakin (stiker bingkai putih)",
+  "ekspresi": "yakin",
+  "tokoh": "dc-tari",
+  "w": 276,
+  "h": 331,
+  "g3": "pabrik/aset/dentalcare/wajah/dc-tari-wajah-yakin.png"
+ },
+ {
+  "id": "dc-tari-foto",
+  "brand": "dentalcare",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto-utama",
+   "potret",
+   "perawat"
+  ],
+  "ket": "Foto potret setengah badan Mbak Tari perawat gigi (latar studio abu) untuk koran/polaroid/kartu",
+  "tokoh": "dc-tari",
+  "w": 768,
+  "h": 1024,
+  "g3": "pabrik/aset/dentalcare/tokoh-pendukung/dc-tari-foto.jpg"
+ }
+]

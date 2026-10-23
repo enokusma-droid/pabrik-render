@@ -1,0 +1,109 @@
+{
+ "kode": "dc-k6-010",
+ "brand": "dentalcare",
+ "konsep": "K6",
+ "judul": "Surat terbuka dari nota tagihan tulis tangan",
+ "caption": "Surat terbuka dari nota tagihan yang ditulis buru-buru setiap pasien selesai. Di klinikmu tagihan masih tulis tangan? Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #invoice #DentalCare",
+ "musik": "haru",
+ "adegan": [
+  {
+   "teks": "Surat terbuka untuk resepsionis klinik, dari aku, nota tagihan tulis tangan.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "untuk": "resepsionis klinik",
+    "dari": "nota tagihan",
+    "maskot": "dc-maskot-struk-invoice-senang"
+   }
+  },
+  {
+   "teks": "Setiap pasien selesai, kamu menulisku buru buru sambil menghitung semua tindakan.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Kamu menulisku...",
+     "buru buru"
+    ],
+    "gambar": "dc-prop-kalkulator"
+   }
+  },
+  {
+   "teks": "Kadang satu tindakan terlewat, kadang tulisanku sendiri tidak terbaca olehmu.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Tindakan terlewat...",
+     "tulisan tak terbaca"
+    ],
+    "gambar": "dc-maskot-struk-invoice-kaget",
+    "stempel": "TERLEWAT"
+   }
+  },
+  {
+   "teks": "Lalu pasien bertanya, ini tindakan apa saja ya, Mbak?",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "PASIEN",
+    "sub": "meja kasir",
+    "pesan": [
+     {
+      "teks": "Ini tindakan apa saja?",
+      "sorot": true
+     },
+     {
+      "teks": "Sebentar, saya cek",
+      "keluar": true
+     },
+     {
+      "teks": "Kok beda ya Mbak?"
+     }
+    ],
+    "foto": "dc-foto-resepsionis-telepon",
+    "stempel": "???"
+   }
+  },
+  {
+   "teks": "Di akhir hari, aku dikumpulkan dalam kardus bekas, kusut, lelah, dan terlupakan.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Dikumpulkan di kardus",
+     "kusut dan lelah"
+    ],
+    "gambar": "dc-maskot-struk-invoice-lelah"
+   }
+  },
+  {
+   "teks": "Sekarang tagihan dibuat dari tindakan yang tercatat di DentalCare. Rapi, jelas, dan mudah dicek.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-tindakan-rapi",
+      "judul": "Tindakan Pasien"
+     }
+    ],
+    "stempel": "JELAS ✓"
+   }
+  },
+  {
+   "teks": "Akhirnya aku bisa pensiun dengan lega. Salam manis, nota tagihanmu.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam manis,",
+    "ttd": "nota tagihanmu",
+    "maskot": "dc-maskot-struk-invoice-lega",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

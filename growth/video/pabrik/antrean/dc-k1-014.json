@@ -1,0 +1,162 @@
+{
+ "kode": "dc-k1-014",
+ "brand": "dentalcare",
+ "konsep": "K1",
+ "judul": "Sehari: dokter lupa tindakan terakhir pasien",
+ "caption": "Sehari di klinik saat riwayat tindakan masih di kertas: lupa gigi mana yang ditambal, membalik catatan lama, odontogram penuh coretan. Besoknya semua berubah. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #rekammedis #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Delapan pagi. Pasien kontrol lanjutan datang, dokter lupa tindakan terakhir yang dilakukan.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "08.00",
+    "pose": "bingung",
+    "wajah": [
+     "senang",
+     "kaget"
+    ],
+    "ganti": "lupa",
+    "judul": "kontrol lanjutan",
+    "stempel": "LUPA!",
+    "prop": "dc-kartun-pasien-bapak-sakit"
+   }
+  },
+  {
+   "teks": "Sembilan pagi. Perawat bertanya di grup, gigi mana yang kemarin ditambal?",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "09.00",
+    "judul": "GRUP KLINIK",
+    "sub": "perawat dan dokter",
+    "pesan": [
+     {
+      "teks": "Gigi mana yang ditambal?",
+      "sorot": true
+     },
+     {
+      "teks": "Sebentar, saya ingat dulu",
+      "keluar": true
+     },
+     {
+      "teks": "Catatannya di map biru?"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "mikir"
+    ],
+    "stempel": "???"
+   }
+  },
+  {
+   "teks": "Sebelas siang. Membalik catatan lama, halaman demi halaman, tanpa hasil.",
+   "primitif": "hitung",
+   "opsi": {
+    "jam": "11.00",
+    "judul": "HALAMAN DIBALIK",
+    "ke": 48,
+    "format": "angka",
+    "terbang": true,
+    "prop": "dc-prop-tumpukan-berkas",
+    "pose": "bawa-berkas",
+    "wajah": [
+     "lelah"
+    ]
+   }
+  },
+  {
+   "teks": "Siang. Odontogram kertas sudah penuh coretan, sulit dibaca.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "jam": "13.00",
+    "prop": "dc-maskot-odontogram-sedih",
+    "kartu": "gigi nomor berapa??",
+    "tag": "PENUH CORETAN",
+    "pose": "pusing",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Malam. Catatan hari ini belum disalin, fokus tinggal sedikit.",
+   "primitif": "meter",
+   "opsi": {
+    "jam": "20.00",
+    "suasana": "malam",
+    "meter": [
+     {
+      "judul": "FOKUS",
+      "dari": 100,
+      "ke": 8,
+      "kata": "sedikit"
+     }
+    ],
+    "pose": "lelah",
+    "wajah": [
+     "lelah",
+     "sedih"
+    ]
+   }
+  },
+  {
+   "teks": "Besoknya, catatan klinik ini pindah ke DentalCare.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "08.00"
+   }
+  },
+  {
+   "teks": "Delapan pagi. Riwayat tindakan dan odontogram pasien terlihat lengkap.",
+   "primitif": "layar",
+   "opsi": {
+    "jam": "08.00",
+    "layar": [
+     {
+      "ui": "dc-ui-odontogram-rapi",
+      "judul": "Odontogram"
+     },
+     {
+      "ui": "dc-ui-soap-rapi",
+      "judul": "Riwayat Tindakan"
+     }
+    ],
+    "stempel": "LENGKAP ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Dokter langsung tahu harus mulai dari mana, pasien pun merasa diperhatikan.",
+   "primitif": "daftar",
+   "opsi": {
+    "jam": "09.00",
+    "judul": "Kontrol Lanjutan",
+    "item": [
+     "Riwayat terbuka",
+     "Tindakan jelas",
+     "Pasien diperhatikan"
+    ],
+    "stempel": "TENANG ✓",
+    "pose": "yakin",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

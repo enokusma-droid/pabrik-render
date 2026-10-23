@@ -1,0 +1,20 @@
+/* Paper cutout kit (HyperFrames) — dipakai inline oleh generator. Lihat ../RESEP.md */
+@font-face { font-family: "Spartan"; src: url("assets/spartan.woff2") format("woff2"); font-weight: 100 900; }
+@font-face { font-family: "InterL"; src: url("assets/inter.woff2") format("woff2"); font-weight: 100 900; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: #F3E7D3; }
+#root { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: "InterL", sans-serif; color: #1B2A4A; }
+.full { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+.layer { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+/* .it = posisi + gerak utama (GSAP), .b = isi; .b-j = ikut "boil" stop-motion */
+.it { position: absolute; transform-origin: 50% 50%; }
+.b { position: relative; width: 100%; height: 100%; }
+/* potongan kertas: filter #paper = tepi kasar + serat + bayangan */
+.pp { position: absolute; left: 0; top: 0; width: 100%; height: 100%; filter: url(#paper); }
+.ppH { filter: url(#paperHi); }
+.tx { position: relative; filter: url(#paperTx); }
+.cream { background: #F3E7D3; } .white { background: #FFFDF8; } .orange { background: #FF6A1A; }
+.navy { background: #1B2A4A; } .navy2 { background: #2C4270; } .peach { background: #FFC8A3; } .cream2 { background: #E9D7B9; }
+.strip { display: flex; align-items: center; justify-content: center; }
+.strip .tx { font-family: "Spartan"; font-weight: 900; line-height: 1; padding-top: 0.12em; white-space: nowrap; }
+.kw { color: #D9480F; } .kwL { color: #FF9A5C; }

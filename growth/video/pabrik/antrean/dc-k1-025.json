@@ -1,0 +1,157 @@
+{
+ "kode": "dc-k1-025",
+ "brand": "dentalcare",
+ "konsep": "K1",
+ "judul": "Sehari: catatan resep tulis tangan",
+ "caption": "Sehari di klinik saat resep dan catatan obat masih tulis tangan: sulit dibaca, ditanya ulang, disalin malam hari. Besoknya semua berubah. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #resep #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Sembilan pagi. Resep pertama ditulis tangan dengan cepat sekali.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "09.00",
+    "pose": "duduk-menulis",
+    "wajah": [
+     "yakin",
+     "kaget"
+    ],
+    "ganti": "cepat",
+    "judul": "resep pertama",
+    "stempel": "KILAT!",
+    "prop": "dc-prop-clipboard"
+   }
+  },
+  {
+   "teks": "Sepuluh pagi. Perawat bertanya di grup, ini obat apa, Dok?",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "10.00",
+    "judul": "GRUP KLINIK",
+    "sub": "perawat dan dokter",
+    "pesan": [
+     {
+      "teks": "Dok, ini obat apa ya?",
+      "sorot": true
+     },
+     {
+      "teks": "Sebentar, saya lihat",
+      "keluar": true
+     },
+     {
+      "teks": "Tulisannya kurang jelas"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "mikir"
+    ],
+    "stempel": "???"
+   }
+  },
+  {
+   "teks": "Siang. Pasien kembali lagi ke meja depan, bertanya aturan minum obatnya.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "13.00",
+    "tokoh": "dc-kartun-pasien-ibu-tunggu",
+    "judul": "pasien kembali",
+    "bubble": "diminum kapan?",
+    "stempel": "LUPA"
+   }
+  },
+  {
+   "teks": "Sore. Catatan resep menumpuk, belum disalin ke buku.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "jam": "16.00",
+    "prop": "dc-prop-sticky-note",
+    "kartu": "ini resep siapa??",
+    "tag": "MENUMPUK",
+    "pose": "pusing",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Malam. Menyalin semua resep satu per satu, mata tinggal sedikit terbuka.",
+   "primitif": "meter",
+   "opsi": {
+    "jam": "21.00",
+    "suasana": "malam",
+    "meter": [
+     {
+      "judul": "MATA TERBUKA",
+      "dari": 100,
+      "ke": 10,
+      "kata": "sedikit"
+     }
+    ],
+    "pose": "lelah",
+    "wajah": [
+     "lelah",
+     "sedih"
+    ]
+   }
+  },
+  {
+   "teks": "Besoknya, catatan klinik ini pindah ke DentalCare.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "09.00"
+   }
+  },
+  {
+   "teks": "Sembilan pagi. Catatan pemeriksaan dan obat diketik rapi di aplikasi.",
+   "primitif": "layar",
+   "opsi": {
+    "jam": "09.00",
+    "layar": [
+     {
+      "ui": "dc-ui-soap-rapi",
+      "judul": "Catatan Klinis"
+     },
+     {
+      "ui": "dc-ui-pasien-detail-rapi",
+      "judul": "Data Pasien"
+     }
+    ],
+    "stempel": "TERBACA ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Perawat tidak bertanya ulang, dan malamnya tidak perlu menyalin apa pun lagi.",
+   "primitif": "daftar",
+   "opsi": {
+    "jam": "17.00",
+    "judul": "Sore Ini",
+    "item": [
+     "Catatan terbaca",
+     "Tidak tanya ulang",
+     "Pulang tepat waktu"
+    ],
+    "stempel": "RAPI ✓",
+    "pose": "yakin",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

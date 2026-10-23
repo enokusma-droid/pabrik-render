@@ -1,0 +1,28 @@
+{
+ "kode": "nw-k7-040",
+ "brand": "nusawebsite",
+ "konsep": "K7",
+ "judul": "Tutorial salah: cara bikin kaos arisan satu RT tidak pas",
+ "durasi": 43.6,
+ "LUFS": -14.1,
+ "TP": -1.4,
+ "cocok_vo_%": 94,
+ "cocok_ketat_%": 84,
+ "transkrip_15dtk": "Kaos arisan Pak RT sampai selutu, separo RT protest. Pembuatnya sari, pemilik sablon. Mau hasil begini? Ikuti. Langkah 1. Terima ukuran lewat pesan suara berisik motor. Langkah 2. Salin sambil melayani...",
+ "lulus_qc": true,
+ "musik": "ceria2",
+ "g3": "konten/pabrik/hasil/nw-k7-040.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k7-040.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/mafiaterkakap-prog/pabrik-render/actions/runs/39777546418",
+ "waktu": "2026-10-22T19:44+07:00",
+ "catatan_bangun": [
+  "kata \"XXL\" tidak ada di VO adegan 7"
+ ],
+ "phash_awal": [
+  "781694e2062e0696",
+  "7854d4f0062e0616",
+  "78169696060e1716"
+ ],
+ "mirip_awal": []
+}

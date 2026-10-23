@@ -1,0 +1,209 @@
+{
+ "kode": "nw-k2-056",
+ "brand": "nusawebsite",
+ "konsep": "K2",
+ "pembuka": "k2-ironi",
+ "pemeran": {
+  "utama": "nw-laras",
+  "pendukung": []
+ },
+ "judul": "Laras tahun lalu vs Laras hari ini: biji kopi habis saat menggiling",
+ "caption": "Buku stok bilang tiga kilo, toplesnya tinggal dua sendok. Laras tahun lalu lari ke pemasok pagi-pagi, Laras hari ini sudah diingatkan aplikasi stok dua hari sebelumnya. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "adegan": [
+  {
+   "teks": "Buku stok kedai Laras tahun lalu bilang biji tiga kilo. Toplesnya bilang lain.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "prop": "nw-buku-coretan",
+    "kartu": "stok biji kopi: 3 kilo",
+    "tag": "TOPLES: KOSONG",
+    "pose": "catat",
+    "wajah": [
+     "yakin",
+     "kaget"
+    ],
+    "latar": "nw-latar-kafe"
+   }
+  },
+  {
+   "teks": "Laras tahun lalu, pemilik kedai, lupa catat pemakaian.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "baki",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "nanti dicatat",
+     "stempel": "LUPA"
+    },
+    "kanan": {
+     "pose": "catat",
+     "wajah": [
+      "yakin"
+     ],
+     "bubble": "tercatat"
+    },
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "HARI INI"
+   }
+  },
+  {
+   "teks": "Laras hari ini diingatkan aplikasi dua hari sebelumnya.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "catat",
+     "wajah": [
+      "yakin"
+     ],
+     "prop": "nw-buku-coretan",
+     "stempel": "3 KILO"
+    },
+    "kanan": {
+     "pose": "cemas-hp",
+     "wajah": [
+      "yakin"
+     ],
+     "bubble": "habis 2 hari",
+     "stempel": "PENGINGAT"
+    }
+   }
+  },
+  {
+   "teks": "Pagi itu toples Laras tahun lalu tinggal dua sendok.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "cemas-hp",
+     "wajah": [
+      "kaget"
+     ],
+     "bubble": "lho, 2 sendok?",
+     "stempel": "KOSONG"
+    },
+    "kanan": {
+     "pose": "baki",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "BUKA"
+    }
+   }
+  },
+  {
+   "teks": "Laras tahun lalu lari ke pemasok, bersandal jepit.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "cemas-hp",
+     "wajah": [
+      "panik"
+     ],
+     "bubble": "tunggu ya!",
+     "stempel": "LARI!"
+    },
+    "kanan": {
+     "pose": "lega",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "SANTAI"
+    }
+   }
+  },
+  {
+   "teks": "Biji Laras hari ini sudah datang kemarin sore.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "cemas-hp",
+     "wajah": [
+      "lelah"
+     ],
+     "stempel": "TELAT BUKA"
+    },
+    "kanan": {
+     "pose": "baki",
+     "wajah": [
+      "yakin"
+     ],
+     "bubble": "stok aman",
+     "stempel": "DATANG"
+    }
+   }
+  },
+  {
+   "teks": "Malam itu, Laras tahun lalu memutuskan pakai aplikasi.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "lega",
+    "wajah": [
+     "kesal",
+     "lega"
+    ],
+    "judul": "Laras",
+    "sub": "pemilik kedai kopi",
+    "stempel": "PINDAH!",
+    "bintang": true,
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Stok Laras hari ini berkurang tiap cangkir terjual.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Stok Kedai Laras",
+     "lencana": "Ingat 1",
+     "baris": [
+      [
+       "Biji arabika",
+       "Sisa 1 kilo",
+       "Habis 2 hari"
+      ],
+      [
+       "Biji robusta",
+       "Sisa 3 kilo",
+       "Aman"
+      ],
+      [
+       "Susu segar",
+       "Sisa 8 liter",
+       "Aman"
+      ]
+     ]
+    },
+    "stempel": "AMAN",
+    "pose": "cemas-hp",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Buku stok Laras tahun lalu? Tetap tiga kilo.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "catat",
+    "wajah": [
+     "senang"
+    ],
+    "prop": "nw-buku-coretan",
+    "judul": "buku stok",
+    "stempel": "3 KILO",
+    "suasana": "hangat"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

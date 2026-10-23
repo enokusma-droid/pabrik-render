@@ -1,0 +1,26 @@
+{
+ "kode": "dc-k1-032",
+ "brand": "dentalcare",
+ "konsep": "K1",
+ "judul": "Bu Wati tertidur di kursi dental menunggu satu map",
+ "durasi": 43.8,
+ "LUFS": -14.1,
+ "TP": -1.5,
+ "cocok_vo_%": 81,
+ "cocok_ketat_%": 81,
+ "transkrip_15dtk": "Buati tertidur di Kursi Dental. Mundur ke pagi. Jam 8, Buati datang. Bahtari perawat gigi mencari map. Dokter sudah menunggu riwayat tambalannya. Mapnya dicari 25 menit.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/dc-k1-032.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/dc-k1-032.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T08:51+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "92366d9b96932336",
+  "b62c49921693a326",
+  "366ddbb6264f8e26"
+ ],
+ "mirip_awal": []
+}

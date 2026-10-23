@@ -1,0 +1,28 @@
+{
+ "kode": "nw-k5-010",
+ "brand": "nusawebsite",
+ "konsep": "K5",
+ "judul": "Detektif: kasus katering yang selalu terlambat",
+ "durasi": 43.87,
+ "LUFS": -14.1,
+ "TP": -1.4,
+ "cocok_vo_%": 96,
+ "cocok_ketat_%": 88,
+ "transkrip_15dtk": "Pesenan catering jam 11. Terlambat. Lagi. Ini keterlambatan keempat bulan ini. Penyelidikan dimulai. Tersangka pertama. Kurir. Alibinya kuat. Motornya siap sejak pagi. Tersangka kedua. Kertas tempel.",
+ "lulus_qc": true,
+ "musik": "tegang",
+ "g3": "konten/pabrik/hasil/nw-k5-010.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k5-010.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T02:19+07:00",
+ "catatan_bangun": [
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-tunjuk",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-jalan-berkas",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-kaca-pembesar"
+ ],
+ "directus_id": "88347136-825e-46c5-a981-104b93f1630a",
+ "directus_url": "https://directus.nusawebsite.com/assets/88347136-825e-46c5-a981-104b93f1630a",
+ "directus_poster_id": "48947018-3e58-412b-b27b-847450a50f86",
+ "directus_poster_url": "https://directus.nusawebsite.com/assets/48947018-3e58-412b-b27b-847450a50f86"
+}

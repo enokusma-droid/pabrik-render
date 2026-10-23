@@ -1,0 +1,169 @@
+{
+ "kode": "nw-k3-039",
+ "brand": "nusawebsite",
+ "konsep": "K3",
+ "pembuka": "k3-angka",
+ "pemeran": {
+  "utama": "nw-laras",
+  "pendukung": [
+   "reporter"
+  ]
+ },
+ "judul": "Berita: tiga pelanggan setia membelot demi kopi susu",
+ "caption": "Tiga pelanggan setia membelot ke kedai sebelah, padahal hitungan dari buku pesanan bilang susu masih lima liter. Liputan dari kedai Mbak Laras. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "ticker": "TIGA PELANGGAN SETIA MEMBELOT KE KEDAI SEBELAH • HITUNGAN BUKU: SUSU LIMA LITER, KULKAS: NOL • SAKSI KUNCI: BUKU PESANAN HANYA DIISI SENIN",
+ "adegan": [
+  {
+   "teks": "Tiga pelanggan setia kedai Laras membelot ke kedai sebelah, demi kopi susu.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "MEMBELOT",
+    "dari": 0,
+    "ke": 3,
+    "format": "angka",
+    "prop": "nw-mug-kopi",
+    "pose": "cemas-hp",
+    "wajah": [
+     "panik"
+    ],
+    "bubble": "kopi susunya mana?"
+   }
+  },
+  {
+   "teks": "Mega melaporkan, susu habis, kopi susu mereka ditolak.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-mic",
+    "judul": "Kedai Laras kehabisan susu",
+    "label": "BERITA TERKINI",
+    "nama": "Mega",
+    "jabatan": "Reporter"
+   }
+  },
+  {
+   "teks": "Laras, pemilik kedai, menghitung susu dari pesanan di buku: sisa lima liter.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "nw-laras-foto",
+    "nama": "Laras",
+    "ket": "Pemilik kedai kopi",
+    "kutipan": "Harusnya sisa lima liter",
+    "stempel": "KULKAS: NOL"
+   }
+  },
+  {
+   "teks": "Saksi kunci, buku pesanan, mengaku: saya cuma diisi tiap Senin.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "nw-maskot-buku-sedih",
+    "nama": "Buku Pesanan",
+    "ket": "Saksi kunci, di laci kasir",
+    "kutipan": "Saya cuma diisi tiap Senin",
+    "stempel": "SENIN"
+   }
+  },
+  {
+   "teks": "Laras memutuskan, pesanan dicatat aplikasi kasir yang menghitung susu.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "nw-laras-foto",
+    "nama": "Laras",
+    "ket": "Pemilik kedai kopi",
+    "kutipan": "Pesanan pindah ke aplikasi",
+    "stempel": "PUTUS!"
+   }
+  },
+  {
+   "teks": "Tiap gelas terjual, stok susu berkurang, ada pengingat belanja.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Kasir Kedai Laras",
+     "lencana": "Hari ini",
+     "baris": [
+      [
+       "Kopi susu",
+       "Terjual 24 gelas",
+       "Tercatat"
+      ],
+      [
+       "Susu segar",
+       "Sisa 3 liter",
+       "Belanja!"
+      ],
+      [
+       "Gula aren",
+       "Sisa 4 botol",
+       "Aman"
+      ]
+     ]
+    },
+    "stempel": "TERPANTAU",
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Lewat WhatsApp, Laras mengabari ketiga pelanggan. Mereka kembali.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pelanggan Setia",
+    "sub": "3 anggota",
+    "pesan": [
+     {
+      "teks": "Kopi susu siap lagi!",
+      "keluar": true,
+      "sorot": true
+     },
+     {
+      "teks": "Otw, Mbak!"
+     },
+     {
+      "teks": "Saya balik, pesan dua"
+     }
+    ],
+    "pose": "lega",
+    "wajah": [
+     "senang"
+    ],
+    "stempel": "KEMBALI"
+   }
+  },
+  {
+   "teks": "Buku pesanan cemburu: aplikasi dibuka tiap hari, saya jadi ganjal meja.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "nw-maskot-buku-sedih",
+    "nama": "Buku Pesanan",
+    "ket": "Saksi kunci, kini pensiun",
+    "kutipan": "Sekarang saya jadi ganjal meja",
+    "stempel": "CEMBURU"
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "baki",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Alur nyambung. Adegan 1: demi kopi susu ambigu. Adegan 3: jelaskan lima liter hitungan buku bolong. Reporter Mega bisa muncul lagi di penutup. Adegan 7: grup WA pelanggan disebut sebelumnya.",
+  "naskah_hash": "103ab2a04de9",
+  "waktu": "2026-10-22T10:41"
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "kode": "dc-k4-005",
+ "brand": "dentalcare",
+ "konsep": "K4",
+ "judul": "4 tipe klinik soal catatan obat",
+ "caption": "Ada empat tipe klinik soal catatan obat. Dari buku tulis sampai yang sudah pakai aplikasi. Kamu tipe nomor berapa? Tulis di komentar. Mau lihat demo DentalCare, tanya lewat WhatsApp di profil. #klinikgigi #doktergigi #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Ada empat tipe klinik soal catatan obat. Kamu yang mana?",
+   "primitif": "tipe-hook",
+   "opsi": {
+    "jumlah": 4,
+    "judul": "KLINIK GIGI",
+    "sub": "soal catatan obat",
+    "tanya": "Kamu yang mana?"
+   }
+  },
+  {
+   "teks": "Tipe satu, si buku tulis. Rajin mencatat, tapi tulisannya sulit dibaca sendiri.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Buku Tulis",
+    "rarity": "COMMON",
+    "foto": "dc-resepsionis-foto",
+    "stat": [
+     [
+      "RAJIN",
+      95
+     ],
+     [
+      "KERAPIAN",
+      60
+     ],
+     [
+      "TERBACA",
+      15
+     ],
+     [
+      "WAKTU LUANG",
+      30
+     ]
+    ],
+    "skill": "catat semua di buku",
+    "lemah": "tulisan sulit dibaca",
+    "gag": {
+     "turun": 2,
+     "ke": 8,
+     "kata": "sulit"
+    }
+   }
+  },
+  {
+   "teks": "Tipe dua, si ingatan kuat. Yakin obat masih ada, ternyata tinggal kotaknya.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Ingatan Kuat",
+    "rarity": "RARE",
+    "foto": "dc-kartun-perawat-papan",
+    "stat": [
+     [
+      "PERCAYA DIRI",
+      99
+     ],
+     [
+      "KECEPATAN",
+      85
+     ],
+     [
+      "AKURASI",
+      40
+     ],
+     [
+      "STOK AMAN",
+      20
+     ]
+    ],
+    "skill": "hafal tanpa catatan",
+    "lemah": "suatu hari lupa",
+    "gag": {
+     "jenis": "lupa",
+     "item": [
+      "masih ada kok",
+      "aman",
+      "nanti saja",
+      "cukup lah"
+     ],
+     "kata": "kotaknya"
+    }
+   }
+  },
+  {
+   "teks": "Tipe tiga, si tanya grup. Cek obat lewat chat, balasannya baru sore.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Tanya Grup",
+    "rarity": "EPIC",
+    "foto": "dc-foto-resepsionis-telepon",
+    "stat": [
+     [
+      "CHAT TERKIRIM",
+      99
+     ],
+     [
+      "SABAR",
+      80
+     ],
+     [
+      "JAWABAN CEPAT",
+      10
+     ],
+     [
+      "BATERAI HP",
+      20
+     ]
+    ],
+    "skill": "satu grup untuk semua",
+    "lemah": "balasan baru sore",
+    "gag": {
+     "jenis": "chat",
+     "item": [
+      "Obat bius masih?",
+      "Sebentar ya",
+      "[stiker]",
+      "Dicek nanti",
+      "Pagi semua",
+      "Siap!"
+     ],
+     "kata": "sore"
+    }
+   }
+  },
+  {
+   "teks": "Tipe empat, langka. Daftar obat tercatat rapi di aplikasi, mudah dicek kapan saja.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Si Pakai Aplikasi",
+    "rarity": "LEGENDARY",
+    "foto": "dc-sinta-foto",
+    "stat": [
+     [
+      "DATA OBAT",
+      100
+     ],
+     [
+      "KERAPIAN",
+      100
+     ],
+     [
+      "CEPAT DICEK",
+      100
+     ],
+     [
+      "JAM TIDUR",
+      100
+     ]
+    ],
+    "skill": "daftar obat di DentalCare",
+    "lemah": "tidak ada (sejauh ini)",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "Data obat diperbarui",
+      "Daftar obat rapi",
+      "Siap dipakai"
+     ],
+     "stempel": "TENANG",
+     "kata": "aplikasi"
+    }
+   }
+  },
+  {
+   "teks": "Begini tampilan daftar obatnya, rapi dan mudah dicari.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-obat-rapi",
+      "judul": "Daftar Obat"
+     }
+    ],
+    "stempel": "RAPI ✓"
+   }
+  },
+  {
+   "teks": "Kamu tipe yang mana? Tulis nomornya di komentar.",
+   "primitif": "tipe-pilih",
+   "opsi": {
+    "komentar": "Aku tipe nomor ..."
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "kode": "nw-k7-009",
+ "brand": "nusawebsite",
+ "konsep": "K7",
+ "judul": "Tutorial: cara bikin pelanggan tokomu kabur",
+ "caption": "Tutorial (salah) bikin pelanggan kabur dalam empat langkah. Jangan ditiru ya! Pernah tanpa sengaja melakukan langkah nomor berapa? Tanya lewat WhatsApp di profil. #umkm #tokoonline #aplikasibisnis",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Tutorial hari ini, cara bikin pelanggan tokomu kabur. Hanya empat langkah.",
+   "primitif": "tutorial-hook",
+   "opsi": {
+    "judul": "Cara bikin pelanggan",
+    "kunci": "KABUR",
+    "jumlah": 4,
+    "pose": "tunjuk",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Langkah satu, balas chat pelanggan besok saja. Biar mereka penasaran.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "judul": "Balas chat\nBESOK SAJA",
+    "prop": "nw-hp-chat-banjir",
+    "pose": "jalan-hp",
+    "bubble": "biar penasaran!"
+   }
+  },
+  {
+   "teks": "Langkah dua, tanya ulang alamatnya setiap kali dia pesan lagi.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "judul": "Tanya alamat\nULANG TERUS",
+    "prop": "nw-kardus-label",
+    "pose": "ketik-hp",
+    "bubble": "alamatnya kak?"
+   }
+  },
+  {
+   "teks": "Langkah tiga, lupa catat pesanan, lalu kirim barang yang salah ke pelanggan.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "judul": "Kirim barang\nyang SALAH",
+    "prop": "nw-kardus-tumpuk",
+    "pose": "bawa-paket",
+    "cap": "BERHASIL ✓"
+   }
+  },
+  {
+   "teks": "Langkah empat, saat ditanya status paket, jawab saja masih dicek.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "judul": "Status paket\nMASIH DICEK",
+    "prop": "nw-hp-berdering",
+    "pose": "telepon",
+    "wajah": [
+     "senang",
+     "panik"
+    ],
+    "ganti": "dicek"
+   }
+  },
+  {
+   "teks": "Atau, langkah bonus. Pakai aplikasi pesanan sendiri. Alamat, pesanan, dan status kiriman tercatat rapi.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 5,
+    "bonus": true,
+    "judul": "Pakai aplikasi\nsendiri",
+    "prop": "nw-maskot-laptop-yakin",
+    "pose": "lega"
+   }
+  },
+  {
+   "teks": "Hasilnya, pelanggan senang dan belanja lagi minggu depan.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Status Kiriman",
+     "baris": [
+      [
+       "Bu Rina",
+       "Jl. Melati 5",
+       "Dikirim"
+      ],
+      [
+       "Kak Sari",
+       "Perum Asri B2",
+       "Sampai ✓"
+      ],
+      [
+       "Mbak Dewi",
+       "Jl. Kaliurang",
+       "Dikemas"
+      ]
+     ]
+    },
+    "stempel": "SENANG ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk tokomu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

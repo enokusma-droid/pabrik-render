@@ -1,0 +1,26 @@
+{
+ "kode": "nw-k0-020",
+ "brand": "nusawebsite",
+ "konsep": "K0",
+ "judul": "Kenalin, Kak Ayu (dan nota pesanan bunga yang menderita)",
+ "durasi": 41.63,
+ "LUFS": -14.1,
+ "TP": -1.3,
+ "cocok_vo_%": 100,
+ "cocok_ketat_%": 77,
+ "transkrip_15dtk": "Kenal ya, Inika Ayu, floris paling kreatif di kotanya. Rangkayanya cantik, pesanan wisuda dan pernikahan datang terus. Tapi soal mencatat pesanan khusus, skillnya anculok. Warna pita, ucapan kartu, jam antara.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/nw-k0-020.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k0-020.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "(run lama di repo privat)",
+ "waktu": "2026-10-22T03:35+07:00",
+ "catatan_bangun": [
+  "pose \"presentasi\" untuk nw-f tidak ada → pakai nw-f-jempol"
+ ],
+ "directus_id": "61c90e82-cc0c-4041-8970-d27ff316009e",
+ "directus_url": "https://directus.nusawebsite.com/assets/61c90e82-cc0c-4041-8970-d27ff316009e",
+ "directus_poster_id": "4b72551e-2d99-450e-9abc-61c4433ee52e",
+ "directus_poster_url": "https://directus.nusawebsite.com/assets/4b72551e-2d99-450e-9abc-61c4433ee52e"
+}

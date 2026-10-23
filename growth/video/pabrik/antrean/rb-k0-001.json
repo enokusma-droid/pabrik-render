@@ -1,0 +1,179 @@
+{
+ "kode": "rb-k0-001",
+ "brand": "ratu-bawang",
+ "konsep": "K0",
+ "pembuka": "k0-kejadian",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": [
+   "rb-sekar"
+  ]
+ },
+ "judul": "Karung bawang yang selalu kosong di dapur Chef Ayu",
+ "caption": "Jam sebelas resto penuh, keranjang bawang kosong, Mbak Sekar lari ke pasar lagi. Sampai Chef Ayu rutin pesan ke Ratu Bawang tiap sore: tangan pertama, diantar gratis se-Jogja, bayar saat sampai, ecer atau grosir. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #dapurresto #horekajogja",
+ "adegan": [
+  {
+   "teks": "Dua puluh meja terisi, wajan sudah panas, karung bawang Chef Ayu kosong.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "foto-panik",
+    "wajah": [
+     "panik"
+    ],
+    "judul": "Chef Ayu",
+    "sub": "pemilik + koki resto",
+    "stempel": "KOSONG!",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Sambalnya juara, tapi soal stok bawang, selalu lupa.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "SKILL SAMBAL",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "INGAT STOK BAWANG",
+      "dari": 100,
+      "ke": 5,
+      "kata": "lupa"
+     }
+    ],
+    "pose": "masak",
+    "wajah": [
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Mbak Sekar, staf dapurnya, lari ke pasar.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "rb-sekar",
+    "pose": "lari-belanja",
+    "wajah": [
+     "panik"
+    ],
+    "judul": "Mbak Sekar",
+    "sub": "staf dapur",
+    "latar": "rb-latar-pasar-bawang"
+   }
+  },
+  {
+   "teks": "Terpaksa beli eceran dadakan, lebih mahal. Tiap minggu begitu.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "prop": "rb-tumpuk-nota",
+    "kartu": "nota belanja dadakan",
+    "tag": "LEBIH MAHAL",
+    "tokoh": "rb-sekar",
+    "pose": "kupas-nangis",
+    "wajah": [
+     "kaget"
+    ],
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Tahu siapa yang paling menderita?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa yang paling menderita?",
+    "bayangan": "rb-maskot-karung-lelah"
+   }
+  },
+  {
+   "teks": "Iya, aku. Karung bawang di pojok dapur.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "rb-maskot-karung-kaget",
+    "label": "KARUNG BAWANG",
+    "teks": "IYA, AKU."
+   }
+  },
+  {
+   "teks": "Aku kosong terus, cuma diisi kalau dapur sudah panik.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "rb-maskot-karung-lelah",
+    "label": "KARUNG BAWANG",
+    "item": [
+     "KOSONG TERUS",
+     "DIISI SAAT PANIK"
+    ],
+    "prop": [
+     "rb-bawang-merah"
+    ],
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Kapok kehabisan, Chef Ayu cari bawang langsung dari petani: Ratu Bawang.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "KETEMU!",
+    "kiri": "rb-maskot-karung-lega",
+    "label": "KARUNG BAWANG",
+    "pose": "karung-jempol",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp, diantar gratis se-Jogja, bayar saat sampai.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "Pesan ke Ratu Bawang",
+    "item": [
+     "Tangan pertama, murah",
+     "Gratis ongkir Jogja",
+     "Bayar saat sampai",
+     "Ecer & grosir"
+    ],
+    "stempel": "BERES ✓",
+    "pose": "karung-jempol",
+    "wajah": [
+     "senang"
+    ],
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Sekarang aku terisi sebelum dapur panik.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terisi sebelum panik!",
+    "tag": "PENSIUN KOSONG",
+    "maskot": "rb-maskot-karung-senang",
+    "label": "KARUNG BAWANG",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "foto-jempol"
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang. Dua perbaikan kecil. Adegan 8 'langsung dari petani' berlebihan, karena layanannya petani/pengepul; ganti 'dari tangan pertama'. Adegan 10 perlu menutup kebiasaan lupa stok: tambah 'pesan sehari sebelumnya, pagi sudah sampai' agar 'terisi sebelum panik' masuk akal. Mbak Sekar hilang setelah adegan 4; munculkan sekilas di adegan 9 atau 10.",
+  "naskah_hash": "40891600ebf8",
+  "waktu": "2026-10-22T04:25"
+ }
+}

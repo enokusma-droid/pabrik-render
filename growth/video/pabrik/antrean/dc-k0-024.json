@@ -1,0 +1,155 @@
+{
+ "kode": "dc-k0-024",
+ "brand": "dentalcare",
+ "konsep": "K0",
+ "judul": "Kenalin, drg. Sinta (dan odontogram kertas yang menderita)",
+ "caption": "Dokter paling telaten, setiap kunjungan menggambar ulang odontogram di kertas. Yang paling menderita? Kertas odontogramnya. Mau lihat demo DentalCare, tanya lewat whatsapp di profil. #klinikgigi #odontogram #DentalCare",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Kenalin, ini dokter Sinta, dokter gigi paling telaten.",
+   "primitif": "koran",
+   "opsi": {
+    "koran": "WARTA GIGI",
+    "judul": "Kenalin, ini drg. Sinta",
+    "sub": "dokter gigi paling telaten di kota",
+    "foto": "dc-sinta-foto"
+   }
+  },
+  {
+   "teks": "Setiap gigi pasien diperiksa teliti, satu per satu dengan sabar.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "presentasi",
+    "wajah": [
+     "yakin"
+    ],
+    "judul": "drg. Sinta",
+    "stempel": "TELATEN ✓",
+    "prop": "dc-prop-model-gigi"
+   }
+  },
+  {
+   "teks": "Tapi soal menggambar odontogram di kertas, skillnya anjlok.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "SKILL MERAWAT",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "SKILL MENGGAMBAR",
+      "dari": 100,
+      "ke": 5,
+      "kata": "anjlok"
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Setiap kunjungan, tiga puluh dua gigi digambar ulang dari awal.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "GIGI DIGAMBAR",
+    "ke": 32,
+    "format": "angka",
+    "terbang": true,
+    "prop": "dc-prop-clipboard",
+    "pose": "duduk-menulis",
+    "wajah": [
+     "lelah"
+    ]
+   }
+  },
+  {
+   "teks": "Dan kamu tahu siapa yang paling menderita?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa yang paling menderita?",
+    "bayangan": "dc-maskot-odontogram-sedih"
+   }
+  },
+  {
+   "teks": "Iya, aku. Kertas odontogramnya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "dc-maskot-odontogram-kaget",
+    "label": "ODONTOGRAM",
+    "teks": "IYA, AKU."
+   }
+  },
+  {
+   "teks": "Aku dicoret, dihapus, sampai berlubang kena penghapus.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "dc-maskot-odontogram-sedih",
+    "label": "ODONTOGRAM",
+    "item": [
+     "DICORET!",
+     "DIHAPUS",
+     "BERLUBANG"
+    ],
+    "prop": [
+     "dc-prop-bola-kertas"
+    ]
+   }
+  },
+  {
+   "teks": "Sampai suatu hari, klinik ini pindah ke DentalCare.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "AKHIRNYA!",
+    "kiri": "dc-maskot-odontogram-yakin",
+    "label": "ODONTOGRAM",
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Odontogram digital tinggal diklik, riwayat tiap gigi tersimpan rapi.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-odontogram-rapi",
+      "judul": "Odontogram"
+     }
+    ],
+    "stempel": "RAPI ✓",
+    "pose": "tablet",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Aku pun pensiun, tanpa bekas penghapus.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Terima kasih, Dok!",
+    "tag": "PENSIUN TENANG",
+    "maskot": "dc-maskot-odontogram-senang",
+    "label": "ODONTOGRAM"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}
