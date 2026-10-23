@@ -10,6 +10,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import { execFileSync } from "node:child_process";
 
 export const BUTIR_JURI = ["logika", "pembuka", "tokoh", "relevansi", "humor"];
 export const MIN_JURI = 8;
@@ -36,10 +37,32 @@ export function urai(kode) {
 }
 
 // semua spec antrean (hanya revisi tertinggi per kode dasar), urut lama → baru
+// PABRIK_RIWAYAT=git (dipasang cloud.sh periksa/rakit di PC, 23 Okt 2026): riwayat = sumber yang sama dengan CI, yaitu spec antrean di commit HEAD
+// minus publik/tahan.txt (publik.py ekspor), ditambah kode di PABRIK_IKUT (batch yang sedang diperiksa/dikirim, dibaca dari working tree).
+// Draf lokal yang belum dikirim TIDAK dihitung (dulu lolos di PC tapi gagal di CI).
+function sumberRiwayat(DIR) {
+  const dir = path.join(DIR, "antrean");
+  if (process.env.PABRIK_RIWAYAT !== "git") return fs.readdirSync(dir).filter((x) => x.endsWith(".json")).map((f) => () => bacaJSON(path.join(dir, f)));
+  const git = (args, input) => execFileSync("git", args, { cwd: DIR, input, maxBuffer: 1 << 28 });
+  const rel = git(["rev-parse", "--show-prefix"]).toString().trim() + "antrean/";
+  let tahan = new Set();
+  try { tahan = new Set(fs.readFileSync(path.join(DIR, "publik", "tahan.txt"), "utf8").split(/\r?\n/).map((x) => x.trim()).filter((x) => x && !x.startsWith("#"))); } catch {}
+  const ikut = new Set(String(process.env.PABRIK_IKUT || "").split(/[,\s]+/).filter(Boolean));
+  const nama = git(["ls-tree", "--full-tree", "--name-only", "HEAD", rel]).toString().split("\n").map((p) => path.posix.basename(p)).filter((f) => f.endsWith(".json") && !tahan.has(f.slice(0, -5)) && !ikut.has(f.slice(0, -5)));
+  const out = git(["cat-file", "--batch"], nama.map((f) => `HEAD:${rel}${f}`).join("\n") + "\n");
+  const isi = []; let i = 0;
+  while (i < out.length) {
+    const nl = out.indexOf(10, i); const kepala = out.slice(i, nl).toString().split(" "); i = nl + 1;
+    if (kepala[1] !== "blob") continue; const n = +kepala[2];
+    const b = out.slice(i, i + n).toString("utf8"); i += n + 1; isi.push(() => JSON.parse(b));
+  }
+  for (const k of ikut) { const f = path.join(dir, `${k}.json`); if (fs.existsSync(f)) isi.push(() => bacaJSON(f)); }
+  return isi;
+}
 export function muatRiwayat(DIR) {
-  const dir = path.join(DIR, "antrean"); const per = {};
-  for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json"))) {
-    let s; try { s = bacaJSON(path.join(dir, f)); } catch { continue; }
+  const per = {};
+  for (const baca of sumberRiwayat(DIR)) {
+    let s; try { s = baca(); } catch { continue; }
     if (!s.kode || !s.brand || !Array.isArray(s.adegan) || !s.adegan.length) continue;
     const u = urai(s.kode); const lama = per[u.dasar];
     if (!lama || u.rev > lama.rev) per[u.dasar] = { ...u, kode: s.kode, spec: s };
