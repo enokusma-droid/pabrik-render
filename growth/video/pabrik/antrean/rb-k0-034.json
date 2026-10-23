@@ -1,0 +1,191 @@
+{
+ "kode": "rb-k0-034",
+ "brand": "ratu-bawang",
+ "konsep": "K0",
+ "judul": "Chef Ayu hafal bau bawang, kecuali bau karung kosong",
+ "pembuka": "k0-pujian-terbalik",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": [
+   "rb-sekar"
+  ]
+ },
+ "caption": "Hidung paling peka di dapur pun bisa kecolongan stok bawang di siang paling sibuk. Yang paling menderita? Karungnya. Ratu Bawang: tangan pertama, ecer pun boleh, gratis antar Jogja, bayar saat sampai. Pesan lewat WhatsApp di profil. #bawangjogja #dapurresto #RatuBawang",
+ "adegan": [
+  {
+   "teks": "Chef Ayu bisa membedakan bawang Brebes dan Bantul dari baunya.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "masak",
+    "wajah": [
+     "yakin"
+    ],
+    "judul": "Chef Ayu",
+    "sub": "pemilik + kepala koki resto",
+    "bubble": "hidung juara",
+    "stempel": "PEKA",
+    "prop": "rb-bawang-merah"
+   }
+  },
+  {
+   "teks": "Sayangnya, karung kosong tidak ada baunya.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "foto-panik",
+    "wajah": [
+     "bingung"
+    ],
+    "bubble": "kok sepi?",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Jumat siang, lima puluh nasi kotak, karung bawang kosong.",
+   "primitif": "hitung",
+   "opsi": {
+    "pose": "keranjang-kosong",
+    "wajah": [
+     "panik"
+    ],
+    "judul": "NASI KOTAK",
+    "dari": 0,
+    "ke": 50,
+    "format": "angka",
+    "bubble": "bawangnya?!",
+    "latar": "rb-latar-dapur-resto",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Mbak Sekar, staf dapurnya, lari ke pasar bercelemek.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "rb-sekar",
+    "pose": "lari-belanja",
+    "wajah": [
+     "panik"
+    ],
+    "judul": "Mbak Sekar",
+    "sub": "staf dapur resto Chef Ayu",
+    "bubble": "ke pasar!",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Lapak langganan tutup. Ia pulang membawa keringat.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "rb-sekar",
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "bubble": "tutup...",
+    "stempel": "NIHIL",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Siapa yang paling menderita siang itu?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa paling menderita?",
+    "bayangan": "rb-maskot-karung-kaget"
+   }
+  },
+  {
+   "teks": "Iya, aku. Karung bawangnya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "rb-maskot-karung-kaget",
+    "label": "KARUNG",
+    "teks": "IYA, AKU!"
+   }
+  },
+  {
+   "teks": "Aku dibalik, digoyang, dikorek, berharap masih ada sebutir.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "rb-maskot-karung-lelah",
+    "label": "KARUNG",
+    "item": [
+     "DIBALIK",
+     "DIGOYANG",
+     "DIKOREK"
+    ],
+    "prop": [
+     "rb-karung-bawang"
+    ],
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Besoknya Chef Ayu pesan ke Ratu Bawang sebelum karungku habis.",
+   "primitif": "logo",
+   "opsi": {
+    "pose": "foto-lega-hp",
+    "wajah": [
+     "lega"
+    ],
+    "stempel": "PESAN DULU"
+   }
+  },
+  {
+   "teks": "Ecer pun boleh, diantar gratis se-Jogja, bayar saat sampai.",
+   "primitif": "daftar",
+   "opsi": {
+    "pose": "karung-jempol",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "RATU BAWANG",
+    "item": [
+     "tangan pertama",
+     "ecer pun boleh",
+     "gratis antar Jogja",
+     "bayar saat sampai"
+    ],
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Kini aku pensiun dikorek; isiku datang duluan.",
+   "primitif": "haru",
+   "opsi": {
+    "pose": "karung-jempol",
+    "wajah": [
+     "lega"
+    ],
+    "kartu": "isi datang duluan",
+    "tag": "PENSIUN DIKOREK",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Pesan bawang lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "karung-jempol",
+    "wajah": [
+     "senang"
+    ],
+    "ajakan": "Ecer dulu,\ngrosir nanti"
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang. Sebab-akibat runtut (karung kosong, pasar tutup, pesan ke Ratu Bawang). Pembuka tidak mirip 10 pembuka lama. Saran kecil: adegan 5 tambah satu kalimat bahwa Chef Ayu lupa menghitung stok, supaya sebab karung kosong jelas.",
+  "naskah_hash": "5bc68930cb5c",
+  "waktu": "2026-10-22T23:53",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-2"
+ }
+}

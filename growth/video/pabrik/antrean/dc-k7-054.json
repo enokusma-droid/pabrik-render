@@ -1,0 +1,202 @@
+{
+ "kode": "dc-k7-054",
+ "brand": "dentalcare",
+ "konsep": "K7",
+ "judul": "Tutorial bikin jadwal klinik bentrok ala Dokter Sinta",
+ "pembuka": "k7-sapaan-host",
+ "pemeran": {
+  "utama": "dc-sinta",
+  "pendukung": [
+   "dc-rina"
+  ]
+ },
+ "caption": "Membalas chat pasien sendiri memang cepat. Masalahnya, resepsionis tidak tahu jam itu sudah terisi. Tutorial ini sengaja gagal. Mau lihat demo jadwal DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #jadwalpasien #DentalCare",
+ "musik": "ceria2",
+ "adegan": [
+  {
+   "teks": "Selamat datang di kelas Dokter Sinta: bikin dua pasien rebutan kursi.",
+   "primitif": "tutorial-hook",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Cara bikin pasien",
+    "kunci": "REBUTAN",
+    "jumlah": 3
+   }
+  },
+  {
+   "teks": "Satu, balas sendiri chat Bu Lina: besok jam empat, bisa.",
+   "primitif": "langkah",
+   "opsi": {
+    "pose": "yakin",
+    "wajah": [
+     "yakin"
+    ],
+    "no": 1,
+    "total": 3,
+    "judul": "Balas chat\nDARI HP PRIBADI",
+    "prop": "dc-prop-ponsel",
+    "bubble": "jam 4 bisa, Bu"
+   }
+  },
+  {
+   "teks": "Dua, jangan kabari Mbak Rina, resepsionis pemegang jadwal.",
+   "primitif": "langkah",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ],
+    "no": 2,
+    "total": 3,
+    "judul": "Jangan kabari\nRESEPSIONIS",
+    "prop": "dc-prop-buku-antrean",
+    "bubble": "nanti saja"
+   }
+  },
+  {
+   "teks": "Tiga, lupakan. Toh sudah dibalas.",
+   "primitif": "langkah",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "tertawa"
+    ],
+    "no": 3,
+    "total": 3,
+    "judul": "LUPAKAN",
+    "prop": "dc-prop-sticky-note",
+    "bubble": "beres!",
+    "cap": "BERHASIL ✓"
+   }
+  },
+  {
+   "teks": "Padahal jam itu sudah diisi Mbak Rina untuk Bu Ani.",
+   "primitif": "bentrok",
+   "opsi": {
+    "tokoh": "dc-rina",
+    "pose": "panik",
+    "wajah": [
+     "kaget"
+    ],
+    "kiri": [
+     "16.00",
+     "Bu Lina"
+    ],
+    "kanan": [
+     "16.00",
+     "Bu Ani"
+    ],
+    "stempel": "BENTROK",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Dua pasien datang bersamaan, satu kursi.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "pusing",
+    "wajah": [
+     "kaget"
+    ],
+    "bubble": "duluan siapa?",
+    "stempel": "DUA PASIEN",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Bu Lina menunggu sejam. Ngilunya hilang, sabarnya juga.",
+   "primitif": "hitung",
+   "opsi": {
+    "pose": "bingung",
+    "wajah": [
+     "sedih"
+    ],
+    "judul": "BU LINA MENUNGGU",
+    "dari": 0,
+    "ke": 60,
+    "format": "menit",
+    "bubble": "maaf, Bu...",
+    "latar": "dc-latar-ruang-tunggu",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Bonus: catat janji langsung di jadwal DentalCare.",
+   "primitif": "langkah",
+   "opsi": {
+    "pose": "tablet",
+    "wajah": [
+     "yakin"
+    ],
+    "no": 4,
+    "total": 3,
+    "judul": "Catat di\nJADWAL DENTALCARE",
+    "bonus": true
+   }
+  },
+  {
+   "teks": "Kini janjiku langsung terlihat di layar Mbak Rina.",
+   "primitif": "layar",
+   "opsi": {
+    "tokoh": "dc-rina",
+    "pose": "buku",
+    "wajah": [
+     "lega"
+    ],
+    "stempel": "RAPI ✓",
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jadwal"
+     },
+     {
+      "ui": "dc-ui-antrean-rapi",
+      "judul": "Antrean"
+     }
+    ],
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Tutorial gagal, klinik tenang.",
+   "primitif": "haru",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ],
+    "kartu": "Terima kasih, Dok!",
+    "tag": "TUTORIAL GAGAL",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang. Langkah salah berujung bentrok jadwal, lalu solusi jadwal DentalCare, nyambung dan nyata di klinik. Pembuka beda dari 10 lama. Saran kecil: adegan 10 Tutorial gagal, klinik tenang bisa dipertajam dengan satu detail Mbak Rina.",
+  "naskah_hash": "f192d92bf390",
+  "waktu": "2026-10-22T23:53",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-2"
+ }
+}
