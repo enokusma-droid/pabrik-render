@@ -1,0 +1,28 @@
+{
+ "kode": "rb-k0-034-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K0",
+ "judul": "Mbak Sekar lari ke pasar, karung bawang yang paling menderita",
+ "durasi": 40.77,
+ "LUFS": -14.2,
+ "TP": -1.5,
+ "cocok_vo_%": 97,
+ "cocok_ketat_%": 83,
+ "transkrip_15dtk": "Jumat siang, 50 nasi kotak, karun bawang kosong, sekar panik. Staff Dapur Chef Ayu ini paling gesit. Sayang, selalu setelah bawang habis, ia lari ke pasar, lapak tinggal menyesakkan bawang busuk. Siapa yang paling menderitas ya?",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/rb-k0-034-r2.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k0-034-r2.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/39899399449",
+ "waktu": "2026-10-23T11:38+07:00",
+ "catatan_bangun": [
+  "pose \"presentasi\" untuk rb-sekar tidak ada → pakai rb-sekar-lari-belanja"
+ ],
+ "phash_awal": [
+  "bc7c7c78ec88e8e8",
+  "bc7c7c38ec88e8e8",
+  "bc7c7c78ec88e8e8"
+ ],
+ "mirip_awal": []
+}

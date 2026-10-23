@@ -1,0 +1,26 @@
+{
+ "kode": "dc-k7-054-r2",
+ "brand": "dentalcare",
+ "konsep": "K7",
+ "judul": "Tutorial bikin jadwal klinik bentrok ala Mbak Tari",
+ "durasi": 40.9,
+ "LUFS": -14.1,
+ "TP": -1.6,
+ "cocok_vo_%": 93,
+ "cocok_ketat_%": 73,
+ "transkrip_15dtk": "Mau dua pasien rebutan satu kursi? Ikuti tiga langkah batari perawat gigi. Satu, balas cat bulina besok jam 4 bisa. Dua, jangan kabarin bak Rina, receptionist pemegang cadual. Tiga, lupakan.",
+ "lulus_qc": true,
+ "musik": "ceria2",
+ "g3": "konten/pabrik/hasil/dc-k7-054-r2.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/dc-k7-054-r2.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/39899399449",
+ "waktu": "2026-10-23T11:38+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "700a0dcc0d979771",
+  "704c4ccc0f969771",
+  "700a0ccc0f969771"
+ ],
+ "mirip_awal": []
+}
