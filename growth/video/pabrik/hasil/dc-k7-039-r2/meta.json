@@ -1,0 +1,26 @@
+{
+ "kode": "dc-k7-039-r2",
+ "brand": "dentalcare",
+ "konsep": "K7",
+ "judul": "Tutorial: rekor empat catatan pasien hilang sehari",
+ "durasi": 48.83,
+ "LUFS": -14.1,
+ "TP": -1.4,
+ "cocok_vo_%": 100,
+ "cocok_ketat_%": 93,
+ "transkrip_15dtk": "Tiga tahun latihan. Rekorbu, empat catatan pasien hilang sehari. Aku tarih perawat gigi. Langkah satu, catat tindakan di sticky note. Kecil, kuning, praktis. Langkah dua, pakai singkatan.",
+ "lulus_qc": true,
+ "musik": "ceria2",
+ "g3": "konten/pabrik/hasil/dc-k7-039-r2.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/dc-k7-039-r2.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40068177507",
+ "waktu": "2026-10-24T13:11+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "7c56646860360ccc",
+  "7c56646874340ccc",
+  "7c55696c71230ccc"
+ ],
+ "mirip_awal": []
+}
