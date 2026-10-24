@@ -1,0 +1,139 @@
+{
+ "kode": "rb-k5-028",
+ "brand": "ratu-bawang",
+ "konsep": "K5",
+ "pembuka": "k5-akhir-dulu",
+ "pemeran": {
+  "utama": "detektif",
+  "pendukung": [
+   "rb-sekar"
+  ]
+ },
+ "judul": "Kasus dua puluh anak tangga dan ongkir yang terus tumbuh",
+ "caption": "Kafe di lantai dua, masuk gang sempit: kurir pemasok lama selalu minta tambahan. Detektif Ana menemukan pelakunya. Mbak Sekar pindah ke Ratu Bawang: gratis ongkir se-Jogja, bayar saat sampai, tangan pertama, ecer atau grosir. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Kasus ini ditutup dalam satu kalimat. Tapi sebelumnya, dua puluh anak tangga.",
+   "primitif": "poster",
+   "opsi": {
+    "judul": "DITUTUP",
+    "gambar": "rb-karung-bawang",
+    "label": "KASUS TANGGA",
+    "keterangan": "20 anak tangga",
+    "stempel": "SELESAI",
+    "tag": "tapi sebelumnya..."
+   }
+  },
+  {
+   "teks": "Aku Detektif Ana. Klienku Mbak Sekar, staf dapur kafe lantai dua.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "LANTAI 2",
+    "jumlah": 2,
+    "sub": "klien: Sekar",
+    "pita": "PENYELIDIKAN",
+    "pose": "kaca-pembesar"
+   }
+  },
+  {
+   "teks": "Tiap antar, kurir pemasok lama minta uang gang sempit dan uang tangga.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Kurir Pemasok",
+    "sub": "di bawah",
+    "pesan": [
+     {
+      "teks": "Bawang sudah di gang"
+     },
+     {
+      "teks": "Gangnya sempit, nambah ya",
+      "sorot": true
+     },
+     {
+      "teks": "Naik tangga juga nambah"
+     },
+     {
+      "teks": "Lho, lagi?",
+      "keluar": true
+     }
+    ],
+    "tokoh": "rb-sekar",
+    "pose": "bingung",
+    "wajah": [
+     "kaget"
+    ],
+    "stempel": "NAMBAH"
+   }
+  },
+  {
+   "teks": "Tersangka pertama, gang: aku memang sempit, tapi motor masih muat.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "rb-motor-antar",
+    "label": "GANG SEMPIT",
+    "catatan": "sempit, tapi motor muat",
+    "stempel": [
+     "ALIBI"
+    ],
+    "detektif": true
+   }
+  },
+  {
+   "teks": "Kedua, tangga: Mbak Sekar menaikiku tiap hari, tak pernah menagih.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "rb-karung-bawang",
+    "label": "TANGGA",
+    "catatan": "Sekar naik tiap hari, gratis",
+    "stempel": [
+     "ALIBI KUAT"
+    ]
+   }
+  },
+  {
+   "teks": "Pelakunya: ongkir yang tumbuh di tiap belokan.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "rb-nota",
+    "label": "PELAKU",
+    "stempel": "ONGKIR TAMBAHAN"
+   }
+  },
+  {
+   "teks": "Mbak Sekar pindah pesan ke Ratu Bawang: gratis ongkir se-Jogja, tanpa uang tangga.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "tokoh": "rb-sekar",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Tangganya masih dua puluh. Bedanya, kini tak ada yang menagihnya.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "UANG TANGGA",
+    "dari": 2,
+    "ke": 0,
+    "format": "angka",
+    "kata": "tangga tetap 20",
+    "prop": "rb-karung-bawang",
+    "tokoh": "rb-sekar",
+    "pose": "jempol"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Gang sempit?\nTetap gratis ongkir",
+    "pose": "tunjuk"
+   }
+  }
+ ]
+}

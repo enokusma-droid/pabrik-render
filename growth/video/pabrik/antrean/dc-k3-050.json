@@ -1,0 +1,111 @@
+{
+ "kode": "dc-k3-050",
+ "brand": "dentalcare",
+ "konsep": "K3",
+ "pembuka": "k3-angka",
+ "pemeran": {
+  "utama": "dc-tari",
+  "pendukung": [
+   "reporter"
+  ]
+ },
+ "judul": "Tiga bulan, satu kawat behel, nol yang ingat",
+ "caption": "Jadwal kontrol behel hanya ditulis di kartu pasien. Reporter Mega melaporkan. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "adegan": [
+  {
+   "teks": "Tiga bulan, satu kawat behel, nol yang ingat. Reporter Mega melaporkan.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "dc-reporter-mic",
+    "judul": "Behel 3 bulan tanpa kontrol",
+    "label": "BERITA TERKINI",
+    "nama": "Reporter Mega",
+    "jabatan": "Langsung dari studio"
+   }
+  },
+  {
+   "teks": "Mbak Tari, perawat klinik tempat behel itu dipasang: jadwal kontrolnya ditulis di kartu pasien.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "dc-tari-foto",
+    "nama": "Mbak Tari",
+    "ket": "Perawat, narasumber klinik",
+    "kutipan": "Jadwalnya di kartu pasien",
+    "stempel": "NARASUMBER"
+   }
+  },
+  {
+   "teks": "Pasiennya sendiri menemukan kartu itu di dompet, terjepit struk belanja.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "judul": "Kartu jadwal",
+    "sub": "terjepit struk belanja",
+    "stempel": "DITEMUKAN"
+   }
+  },
+  {
+   "teks": "Kami mencoba mewawancarai struk belanjanya. Ia menolak berkomentar.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "um-kertas-remas",
+    "nama": "Struk belanja",
+    "ket": "saksi di dompet",
+    "kutipan": "...",
+    "stempel": "NO COMMENT"
+   }
+  },
+  {
+   "teks": "Jadwal hanya di kertas itu. Klinik tak punya salinan.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "dc-reporter-tunjuk",
+    "judul": "Klinik tak punya salinan",
+    "label": "FAKTA",
+    "nama": "Reporter Mega",
+    "jabatan": "Langsung dari studio"
+   }
+  },
+  {
+   "teks": "Update: Tari memindahkan jadwal kontrol pasien behel ke DentalCare.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "dc-reporter-mic",
+    "judul": "Jadwal kontrol ke DentalCare",
+    "label": "UPDATE",
+    "nama": "Reporter Mega",
+    "jabatan": "Langsung dari studio"
+   }
+  },
+  {
+   "teks": "Pagi ini, nama pasien itu muncul di daftar jatuh tempo. Tari menelepon, besok dia kontrol.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jatuh Tempo"
+     }
+    ],
+    "stempel": "BESOK ✓",
+    "pose": "tunjuk-papan",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

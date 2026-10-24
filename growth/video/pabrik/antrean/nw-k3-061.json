@@ -10,22 +10,22 @@
   ]
  },
  "judul": "Laporan langsung: roti bakar meja 9 nyasar ke meja 5 saat nobar",
- "caption": "Malam nonton bareng, dua belas meja penuh dan pesanan ditulis di tisu. Satu tetesan es, roti bakar pun nyasar ke meja lain. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "caption": "Malam nonton bareng, dua belas meja penuh dan buku pesanan habis, jadi pesanan ditulis di tisu. Satu tetesan es, roti bakar pun nyasar ke meja lain. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
  "ticker": "NOBAR MALAM INI: 12 MEJA PENUH • TISU MEJA 9 LUNTUR KENA ES • ROTI BAKAR NYASAR KE MEJA 5",
  "adegan": [
   {
-   "teks": "Kami melaporkan langsung dari kedai kopi Laras, sehelai tisu jadi saksi kunci.",
+   "teks": "Kami melaporkan langsung dari kedai kopi, saksi kuncinya sehelai tisu.",
    "primitif": "wawancara",
    "opsi": {
     "saksi": "um-kertas-remas",
     "nama": "Tisu Meja Sembilan",
-    "ket": "Saksi kunci, kedai kopi Laras",
+    "ket": "Diwawancarai Reporter Mega",
     "kutipan": "Saya tahu ke mana roti itu",
     "stempel": "SAKSI"
    }
   },
   {
-   "teks": "Reporter Mega mencatat dua belas meja penuh.",
+   "teks": "Reporter Mega di sini. Malam nobar, dua belas meja penuh.",
    "primitif": "studio",
    "opsi": {
     "reporter": "um-reporter-mic",
@@ -36,7 +36,7 @@
    }
   },
   {
-   "teks": "Buku pesanan habis, pesanan ditulis di tisu.",
+   "teks": "Laras, pemilik kedai, kehabisan buku pesanan dan mencatat di tisu.",
    "primitif": "tumpuk",
    "opsi": {
     "prop": "um-kertas-remas",
@@ -60,12 +60,12 @@
    }
   },
   {
-   "teks": "Roti bakar meja sembilan pun mendarat di meja lima.",
+   "teks": "Roti bakar pun diantar ke meja lima. Dikira bonus, langsung dimakan.",
    "primitif": "bentrok",
    "opsi": {
     "kiri": [
      "Meja 5",
-     "Dapat roti"
+     "Kira bonus"
     ],
     "kanan": [
      "Meja 9",
@@ -94,10 +94,10 @@
    }
   },
   {
-   "teks": "Besoknya, Laras memesan aplikasi pesanan per nomor meja.",
+   "teks": "Kapok, besoknya Laras memesan aplikasi pesanan per nomor meja.",
    "primitif": "logo",
    "opsi": {
-    "stempel": "PINDAH!",
+    "stempel": "APLIKASI!",
     "label": "PESANAN MEJA",
     "pose": "lega",
     "wajah": [
@@ -106,7 +106,7 @@
    }
   },
   {
-   "teks": "Nobar pekan berikutnya, pesanan tercatat per nomor meja.",
+   "teks": "Nobar pekan berikutnya, pesanan tercatat per meja.",
    "primitif": "layar",
    "opsi": {
     "app": {
@@ -138,17 +138,6 @@
    }
   },
   {
-   "teks": "Reporter Mega melaporkan: roti tiba sebelum gol.",
-   "primitif": "studio",
-   "opsi": {
-    "reporter": "um-reporter-tunjuk",
-    "judul": "Roti tiba sebelum gol",
-    "label": "UPDATE",
-    "nama": "Mega",
-    "jabatan": "Reporter"
-   }
-  },
-  {
    "teks": "Tisu kembali bertugas mengelap meja.",
    "primitif": "wawancara",
    "opsi": {
@@ -169,5 +158,18 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 9,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang. Adegan 1-2 tidak konsisten: di adegan 1 Mega melapor 'langsung dari kedai', tetapi adegan 2 terjadi di studio. Pindahkan adegan 2 ke kedai, atau ubah VO 1 jadi 'Studio menerima laporan...'. Nama Mega baru disebut di adegan 2, jadi pindahkan 'Reporter Mega' ke VO adegan 1. Adegan 5: 'dikira bonus' masih lemah, tambahkan 'pelayan bilang dari dapur' agar wajar. Adegan 7: tambahkan satu kalimat bahwa pesanan langsung masuk ke dapur per nomor meja.",
+  "naskah_hash": "46eef79aae9c",
+  "waktu": "2026-10-22T12:27"
+ }
 }

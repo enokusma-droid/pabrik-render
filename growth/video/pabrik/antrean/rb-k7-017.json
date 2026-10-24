@@ -1,0 +1,195 @@
+{
+ "kode": "rb-k7-017",
+ "brand": "ratu-bawang",
+ "konsep": "K7",
+ "pembuka": "k7-langkah-langsung",
+ "pemeran": {
+  "utama": "rb-wening",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Tutorial salah: cara bikin pesanan bawangmu ditolak pemasok",
+ "caption": "Pesan dua kilo merah, sekilo putih, sekilo bombay ke pemasok grosir, lalu terima jawaban minimal sekarung. Chef Ayu sudah praktik, sampai bombaynya bertunas di gudang. Di Ratu Bawang, ecer semua jenis dilayani, gratis ongkir Jogja, bayar saat sampai, langsung tangan pertama. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Langkah pertama supaya pesananmu ditolak: pesan campur, sedikit-sedikit.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "total": 2,
+    "judul": "Pesan CAMPUR sedikit",
+    "prop": "rb-keranjang-bawang",
+    "pose": "cek-hp",
+    "wajah": [
+     "senang"
+    ],
+    "bubble": "dijamin ditolak!"
+   }
+  },
+  {
+   "teks": "Aku Wening, kurir Ratu Bawang. Contohnya: Chef Ayu, pemilik resto.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "lambai",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Mbak Wening",
+    "sub": "kurir Ratu Bawang",
+    "stempel": "TUTORIAL"
+   }
+  },
+  {
+   "teks": "Ia pesan dua kilo merah, sekilo putih, sekilo bombay.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "yakin"
+    ],
+    "judul": "Chef Ayu",
+    "sub": "pemilik resto",
+    "bubble": "2+1+1 kilo",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Balasan pemasok grosir: minimal sekarung tiap jenis.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok Lama",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "2 merah, 1 putih, 1 bombay",
+      "keluar": true
+     },
+     {
+      "teks": "Minimal sekarung per jenis",
+      "sorot": true
+     },
+     {
+      "teks": "Tidak bisa campur, Bu"
+     }
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "bingung",
+    "wajah": [
+     "kaget"
+    ],
+    "stempel": "DITOLAK"
+   }
+  },
+  {
+   "teks": "Langkah kedua: menyerah, beli sekarung merah, putih, dan bombay.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "total": 2,
+    "judul": "Beli SEKARUNG tiap jenis",
+    "prop": "rb-karung-bawang",
+    "tokoh": "rb-ayu",
+    "pose": "karung-jempol",
+    "wajah": [
+     "senang",
+     "lelah"
+    ],
+    "cap": "BERHASIL"
+   }
+  },
+  {
+   "teks": "Sebulan kemudian, separuh bombaynya bertunas di gudang.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "prop": "rb-bawang-bombay",
+    "kartu": "separuh bertunas",
+    "tag": "BOMBAY SEKARUNG",
+    "tokoh": "rb-ayu",
+    "pose": "foto-nangis",
+    "wajah": [
+     "kesal"
+    ],
+    "latar": "rb-latar-gudang-bawang"
+   }
+  },
+  {
+   "teks": "Kesal, Chef Ayu pesan campuran kecil ke Ratu Bawang.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PESAN!",
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "kesal"
+    ],
+    "kata": "campuran kecil"
+   }
+  },
+  {
+   "teks": "Langkah bonus: ecer semua jenis, diantar gratis.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "bonus": true,
+    "judul": "BONUS: ecer semua jenis",
+    "prop": "rb-motor-antar",
+    "pose": "pikul-karung",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Kurirnya aku, membawa persis empat kilo campuran.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "serah-karung",
+    "wajah": [
+     "senang"
+    ],
+    "prop": "rb-keranjang-bawang",
+    "bubble": "pas 4 kilo!",
+    "stempel": "DIANTAR",
+    "suasana": "solusi",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Esoknya pemasok lama menawari sekarung; kini Chef Ayu yang menolak.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok Lama",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Bu, ambil sekarung lagi?"
+     },
+     {
+      "teks": "Maaf, tidak bisa, Pak",
+      "keluar": true,
+      "sorot": true
+     }
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "foto-jempol",
+    "wajah": [
+     "yakin"
+    ],
+    "stempel": "DITOLAK"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Pesan campur sedikit?\nKami antar",
+    "pose": "lambai",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

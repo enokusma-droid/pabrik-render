@@ -1,0 +1,183 @@
+{
+ "kode": "rb-k7-025",
+ "brand": "ratu-bawang",
+ "konsep": "K7",
+ "pembuka": "k7-resep",
+ "pemeran": {
+  "utama": "rb-sekar",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Resep kekacauan dapur: toples kosong saat malam Minggu",
+ "caption": "Bahannya satu toples kosong, satu Mbak Sekar, satu malam Minggu. Resep ini gagal sejak Chef Ayu pindah ke Ratu Bawang: ecer pun diantar, gratis ongkir Jogja, bayar saat sampai, langsung tangan pertama. Jadi pesan sekilo sebelum toples habis itu ringan. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Bahan kekacauan: toples kosong, Mbak Sekar, malam Minggu.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "BAHAN KEKACAUAN",
+    "item": [
+     "Toples bawang kosong",
+     "Mbak Sekar",
+     "Malam Minggu"
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Mbak Sekar, staf dapur Chef Ayu, tukang belanja.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Mbak Sekar",
+    "sub": "staf dapur Chef Ayu",
+    "prop": "rb-keranjang-bawang",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Langkah satu: jangan pesan sebelum toples benar-benar kosong.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "total": 3,
+    "judul": "Tunggu toples KOSONG",
+    "prop": "rb-keranjang-bawang",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ],
+    "bubble": "masih ada kok"
+   }
+  },
+  {
+   "teks": "Soalnya pemasok lama cuma terima sekarung, jadi tunggu habis sekalian.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok Lama",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Pesan sekilo dulu, Pak",
+      "keluar": true
+     },
+     {
+      "teks": "Minimal sekarung, Mbak",
+      "sorot": true
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "stempel": "TUNGGU HABIS"
+   }
+  },
+  {
+   "teks": "Langkah dua: toples kosong pas malam Minggu ramai.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "total": 3,
+    "judul": "Kosong pas MALAM MINGGU",
+    "prop": "rb-bawang-merah",
+    "pose": "kupas-nangis",
+    "wajah": [
+     "senang"
+    ],
+    "bubble": "meja penuh!"
+   }
+  },
+  {
+   "teks": "Langkah tiga: sekarung belum datang, Sekar lari ke warung tutup.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "total": 3,
+    "judul": "Lari ke WARUNG TUTUP",
+    "prop": "rb-keranjang-bawang",
+    "pose": "lari-belanja",
+    "wajah": [
+     "senang",
+     "panik"
+    ],
+    "ganti": "tutup",
+    "cap": "BERHASIL",
+    "suasana": "malam"
+   }
+  },
+  {
+   "teks": "Sajikan: pesanan tertahan, tamu menunggu.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "bingung",
+    "wajah": [
+     "panik"
+    ],
+    "bubble": "bawangnya mana?",
+    "stempel": "TERTAHAN",
+    "suasana": "malam"
+   }
+  },
+  {
+   "teks": "Senin, Chef Ayu pindah ke Ratu Bawang: ecer diantar gratis.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "yakin"
+    ],
+    "kata": "ecer diantar gratis"
+   }
+  },
+  {
+   "teks": "Resep baru: toples tinggal separuh, Sekar pesan sekilo.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "bonus": true,
+    "judul": "RESEP BARU: separuh, pesan",
+    "prop": "rb-motor-antar",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Resep kekacauan gagal: toples kosong tak pernah ada lagi.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ],
+    "prop": "rb-keranjang-bawang",
+    "stempel": "RESEP GAGAL",
+    "bubble": "selalu terisi",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Pesan sekilo\nsebelum habis",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

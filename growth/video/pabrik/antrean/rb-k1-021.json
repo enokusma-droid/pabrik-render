@@ -1,0 +1,186 @@
+{
+ "kode": "rb-k1-021",
+ "brand": "ratu-bawang",
+ "konsep": "K1",
+ "pembuka": "k1-awal-bulan",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": [
+   "rb-sekar"
+  ]
+ },
+ "judul": "Tanggal satu, tagihan bawang naik lagi. Menu paling laris jadi korban?",
+ "caption": "Tiap awal bulan tagihan bawang naik lagi, karena bawangnya lewat tiga tangan dulu. Chef Ayu pindah ke Ratu Bawang: tangan pertama dari petani dan pengepul, jadi lebih murah, dicek dulu baru dibayar, gratis ongkir se-Jogja. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Tanggal satu, Mbak Sekar, staf dapur, menyodorkan tagihan bawang: naik lagi.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "07.00",
+    "tokoh": "rb-sekar",
+    "pose": "bingung",
+    "wajah": [
+     "kaget"
+    ],
+    "judul": "Mbak Sekar",
+    "sub": "staf dapur",
+    "stempel": "NAIK LAGI",
+    "prop": "rb-nota",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Kata pemasok, bawangnya lewat pedagang dan pengepul dulu: tiga tangan.",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "07.30",
+    "judul": "Pemasok Langganan",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Kok naik lagi, Pak?",
+      "keluar": true
+     },
+     {
+      "teks": "Pedagangnya naik, Bu"
+     },
+     {
+      "teks": "Dia ambil dari pengepul",
+      "sorot": true
+     }
+    ],
+    "pose": "telepon",
+    "wajah": [
+     "kesal"
+    ],
+    "stempel": "TIGA TANGAN"
+   }
+  },
+  {
+   "teks": "Jam sepuluh, Chef Ayu, pemilik resto, menghitung ulang dua puluh empat menu.",
+   "primitif": "hitung",
+   "opsi": {
+    "jam": "10.00",
+    "judul": "MENU DIHITUNG",
+    "dari": 0,
+    "ke": 24,
+    "format": "angka",
+    "prop": "rb-tumpuk-nota",
+    "terbang": true,
+    "pose": "foto-nangis",
+    "wajah": [
+     "lelah"
+    ],
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Ternyata menu paling laris, nasi goreng bawang, paling tipis untungnya.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "13.00",
+    "pose": "foto-tunjuk",
+    "wajah": [
+     "kaget"
+    ],
+    "bubble": "laris tapi tipis",
+    "stempel": "NASI GORENG",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Mbak Sekar bertanya: dicoret, atau porsinya dikecilkan?",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "14.00",
+    "tokoh": "rb-sekar",
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "bubble": "porsi dikecilin?",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Sorenya ia pindah ke Ratu Bawang: tangan pertama, lebih murah.",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "16.00",
+    "judul": "Ratu Bawang",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Ambil dari mana, Mbak?",
+      "keluar": true
+     },
+     {
+      "teks": "Langsung petani & pengepul",
+      "sorot": true
+     },
+     {
+      "teks": "Jadi lebih murah, Bu"
+     }
+    ],
+    "pose": "foto-lega-hp",
+    "wajah": [
+     "lega"
+    ],
+    "stempel": "PINDAH"
+   }
+  },
+  {
+   "teks": "Tanggal dua.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "07.00",
+    "logo": true,
+    "dari": "TGL 1",
+    "ke": "TGL 2"
+   }
+  },
+  {
+   "teks": "Nota pagi ini lebih ringan, dicek dulu baru dibayar.",
+   "primitif": "daftar",
+   "opsi": {
+    "jam": "07.15",
+    "judul": "Nota tanggal dua",
+    "item": [
+     "Lebih ringan",
+     "Dicek dulu",
+     "Baru dibayar"
+    ],
+    "stempel": "LEBIH MURAH",
+    "pose": "karung-jempol",
+    "wajah": [
+     "senang"
+    ],
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Nasi goreng bawang tetap, porsi tetap; yang dicoret cuma pemasoknya.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "12.00",
+    "pose": "foto-jempol",
+    "wajah": [
+     "yakin"
+    ],
+    "bubble": "porsi tetap!",
+    "stempel": "GANTI PEMASOK",
+    "suasana": "solusi",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Tangan pertama,\nlebih murah",
+    "pose": "foto-jempol"
+   }
+  }
+ ]
+}

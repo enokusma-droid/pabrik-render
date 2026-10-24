@@ -1,0 +1,165 @@
+{
+ "kode": "rb-k8-027",
+ "brand": "ratu-bawang",
+ "konsep": "K8",
+ "pembuka": "k8-ketukan",
+ "pemeran": {
+  "utama": "rb-wening",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Ketukan setelah resto tutup, dan bayangan besar berpunuk di pintu",
+ "caption": "Resto Chef Ayu dapat pesanan katering hotel tiga ratus porsi, tapi pemasok lama cuma sanggup antar dua karung. Chef Ayu pesan grosir ke Ratu Bawang, gratis ongkir sampai dapur, dan yang mengetuk malam itu ternyata Mbak Wening. Bayar saat sampai, langsung dari tangan pertama. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Tok. Tok. Ada yang mengetuk pintu dapur setelah resto tutup.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "SETELAH TUTUP",
+     "TOK... TOK..."
+    ],
+    "latar": "um-latar-pintu-gelap"
+   }
+  },
+  {
+   "teks": "Chef Ayu, pemilik resto, mengintip bayangan besar berpunuk.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "BAYANGAN BESAR",
+     "BERPUNUK"
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "foto-panik",
+    "wajah": [
+     "kaget"
+    ],
+    "latar": "um-latar-pintu-gelap"
+   }
+  },
+  {
+   "teks": "Minggu itu resto dapat pesanan katering hotel, tiga ratus porsi.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "KATERING HOTEL",
+     "300 PORSI"
+    ],
+    "latar": "rb-latar-dapur-hotel"
+   }
+  },
+  {
+   "teks": "Pemasok lama cuma sanggup antar dua karung, sisanya disuruh jemput.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "CUMA 2 KARUNG",
+     "SISANYA JEMPUT"
+    ],
+    "gambar": "rb-karung-bawang",
+    "tokoh": "rb-ayu",
+    "pose": "foto-nangis",
+    "wajah": [
+     "bingung"
+    ]
+   }
+  },
+  {
+   "teks": "Chef Ayu pesan grosir ke Ratu Bawang, gratis ongkir sampai dapur.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "GROSIR!",
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Ia memegang wajan, lalu membuka pintu.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "WAJAN SIAP",
+     "BUKA PINTU"
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "masak",
+    "wajah": [
+     "panik"
+    ],
+    "latar": "um-latar-pintu-gelap"
+   }
+  },
+  {
+   "teks": "Punuknya ternyata karung bawang.",
+   "primitif": "kejut",
+   "opsi": {
+    "subjek": "rb-karung-bawang",
+    "teks": "...karung bawang",
+    "stempel": "PUNUK?"
+   }
+  },
+  {
+   "teks": "Mbak Wening, kurir Ratu Bawang, mengantar setelah tutup sesuai pesan Chef.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "pikul-karung",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Mbak Wening",
+    "sub": "kurir Ratu Bawang",
+    "bubble": "Pesanan grosir!",
+    "latar": "rb-latar-dapur-resto",
+    "suasana": "hangat"
+   }
+  },
+  {
+   "teks": "Dicek dulu, baru dibayar. Tiga ratus porsi aman.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "Pesanan katering",
+    "item": [
+     "Grosir sampai dapur",
+     "Dicek dulu",
+     "Bayar saat sampai"
+    ],
+    "stempel": "AMAN",
+    "pose": "serah-karung",
+    "wajah": [
+     "lega"
+    ],
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Wajannya tetap terpakai, untuk menumis bawang katering.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Wajan tetap terpakai",
+    "tag": "300 PORSI AMAN",
+    "tokoh": "rb-ayu",
+    "pose": "masak",
+    "wajah": [
+     "senang"
+    ],
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Butuh grosir\nuntuk acara?",
+    "pose": "lambai",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

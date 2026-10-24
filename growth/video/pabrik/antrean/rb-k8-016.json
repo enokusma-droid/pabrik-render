@@ -1,0 +1,153 @@
+{
+ "kode": "rb-k8-016",
+ "brand": "ratu-bawang",
+ "konsep": "K8",
+ "pembuka": "k8-telepon-malam",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": [
+   "rb-sekar"
+  ]
+ },
+ "judul": "Chat tengah malam dari pemasok lama, lalu bunyi gedebuk di gudang",
+ "caption": "Pemasok lama hanya mau kirim kalau ditransfer di muka, dan menagihnya tengah malam. Karung yang datang ternyata cuma setengah, dan yang menagih malah tak membalas. Chef Ayu pindah ke Ratu Bawang: bawang dicek dulu di dapur, baru dibayar saat sampai. Gratis ongkir se-Jogja, ecer atau grosir. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Jam sebelas malam, chat pemasok lama masuk: transfer dulu, Chef, baru dikirim.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok lama",
+    "sub": "online 23.00",
+    "pesan": [
+     {
+      "teks": "Chef, transfer dulu ya"
+     },
+     {
+      "teks": "Baru bawangnya dikirim",
+      "sorot": true
+     }
+    ],
+    "pose": "telepon",
+    "wajah": [
+     "lelah"
+    ],
+    "stempel": "23.00",
+    "suasana": "malam"
+   }
+  },
+  {
+   "teks": "Chef Ayu, pemilik resto, transfer sambil setengah tidur.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "CHEF AYU",
+     "SETENGAH TIDUR"
+    ],
+    "pose": "foto-lega-hp",
+    "wajah": [
+     "lelah"
+    ]
+   }
+  },
+  {
+   "teks": "Esok malam, saat dapur tutup, gudang berbunyi gedebuk.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "GUDANG",
+     "GEDEBUK!"
+    ],
+    "latar": "rb-latar-gudang-bawang"
+   }
+  },
+  {
+   "teks": "Mbak Sekar, staf dapur, menyalakan lampu sambil mengacungkan sapu.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "MBAK SEKAR",
+     "NYALAKAN LAMPU"
+    ],
+    "tokoh": "rb-sekar",
+    "pose": "bingung",
+    "wajah": [
+     "panik"
+    ],
+    "latar": "rb-latar-gudang-bawang"
+   }
+  },
+  {
+   "teks": "Ternyata karung kiriman kemarin, isinya cuma setengah, roboh sendiri.",
+   "primitif": "kejut",
+   "opsi": {
+    "subjek": "rb-maskot-karung-lelah",
+    "teks": "...karung kempis",
+    "stempel": "SETENGAH!"
+   }
+  },
+  {
+   "teks": "Yang menagih tengah malam itu, kini tak membalas chat.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "DIBAYAR DI MUKA",
+     "CHAT TAK DIBALAS"
+    ],
+    "pose": "foto-panik",
+    "wajah": [
+     "kesal"
+    ]
+   }
+  },
+  {
+   "teks": "Chef Ayu memutuskan pindah ke Ratu Bawang.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "pose": "foto-lega-hp",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Bawang dicek dulu di dapur, baru dibayar saat sampai.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "Ratu Bawang",
+    "item": [
+     "Dicek dulu di dapur",
+     "Bayar saat sampai",
+     "Gratis ongkir Jogja"
+    ],
+    "stempel": "AMAN",
+    "pose": "karung-jempol",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Jam sebelas malam kini cuma ada satu bunyi: dengkuran Chef Ayu.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Jam 11 malam: hening",
+    "tag": "TIDUR NYENYAK",
+    "pose": "foto-jempol",
+    "wajah": [
+     "lega"
+    ],
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Cek dulu,\nbaru bayar",
+    "pose": "karung-jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

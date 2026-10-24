@@ -2,161 +2,141 @@
  "kode": "nw-k5-052",
  "brand": "nusawebsite",
  "konsep": "K5",
- "pembuka": "k5-akhir-dulu",
+ "pembuka": "k5-laporan",
  "pemeran": {
   "utama": "detektif",
   "pendukung": [
    "nw-laras"
   ]
  },
- "judul": "Kasus dua puluh kopi rapat yang terlupa di kedai Laras",
- "caption": "Kantor sebelah memesan dua puluh kopi untuk rapat jam sembilan, kopinya tak pernah dibuat. Detektif Ana menemukan buktinya di bawah tumpukan nampan kedai Laras. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "judul": "Kasus roti pisang yang dikira paling laku",
+ "caption": "Tiap sore dua belas roti pisang tersisa di kedai Laras. Detektif Ana merekap nota seminggu dan menemukan pembeli paling setianya. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
  "adegan": [
   {
-   "teks": "Kasus kopi rapat ditutup. Pelakunya tak punya kaki.",
-   "primitif": "poster",
+   "teks": "Tiap sore, Laras melapor kasus yang sama: dua belas roti pisang tersisa.",
+   "primitif": "hitung",
    "opsi": {
-    "judul": "TERUNGKAP",
-    "gambar": "nw-mug-kopi",
-    "label": "KASUS KOPI",
-    "keterangan": "rapat jam 09.00",
-    "stempel": "DITUTUP",
-    "tag": "pelaku tanpa kaki"
-   }
-  },
-  {
-   "teks": "Kantor menelepon Laras, pemilik kedai kopi: kopi rapat mana?",
-   "primitif": "tokoh",
-   "opsi": {
+    "judul": "SISA ROTI PISANG",
+    "dari": 0,
+    "ke": 12,
+    "format": "angka",
+    "kata": "kedai kopi Laras",
     "tokoh": "nw-laras",
     "pose": "cemas-hp",
     "wajah": [
-     "panik"
+     "bingung"
     ],
-    "judul": "Laras",
-    "sub": "pemilik kedai kopi",
-    "bubble": "20 kopi mana?",
-    "latar": "nw-latar-kafe"
+    "latar": "nw-latar-kafe",
+    "suasana": "masalah"
    }
   },
   {
-   "teks": "Laras memanggilku, Detektif Ana.",
+   "teks": "Laras, pemilik kedai kopi, memanggilku, Detektif Ana: pisang kan terlaris?",
    "primitif": "penyelidikan",
    "opsi": {
-    "catatan": "KASUS #052",
-    "jumlah": 20,
-    "sub": "kopi terlupa",
+    "catatan": "SISA 12",
+    "jumlah": 12,
+    "sub": "roti pisang",
     "pita": "PENYELIDIKAN",
     "pose": "kaca-pembesar"
    }
   },
   {
-   "teks": "Tersangka satu, buku pesanan: alibinya kuat, di laci.",
+   "teks": "Tersangka pertama, tumpukan nota: aku ditulis, tak pernah dijumlah.",
    "primitif": "tersangka",
    "opsi": {
     "no": 1,
-    "gambar": "nw-buku-coretan",
-    "label": "BUKU PESANAN",
-    "catatan": "di laci, alibi kuat",
+    "gambar": "nw-tumpukan-nota",
+    "label": "TUMPUKAN NOTA",
+    "catatan": "ditulis, tak pernah dijumlah",
+    "stempel": [
+     "CURIGA"
+    ],
+    "detektif": true
+   }
+  },
+  {
+   "teks": "Tersangka kedua, kalkulator: aku cuma menghitung kembalian.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "um-kalkulator-jadul",
+    "label": "KALKULATOR",
+    "catatan": "cuma hitung kembalian",
     "stempel": [
      "ALIBI KUAT"
     ]
    }
   },
   {
-   "teks": "Tersangka dua, nampan, kuinterogasi sampai berkeringat.",
-   "primitif": "tersangka",
-   "opsi": {
-    "no": 2,
-    "gambar": "nw-laras-baki",
-    "label": "NAMPAN",
-    "catatan": "berkeringat, bungkam",
-    "stempel": [
-     "BUNGKAM"
-    ]
-   }
-  },
-  {
-   "teks": "Kuangkat nampannya. Terselip kertas dua puluh kopi.",
-   "primitif": "tersangka",
-   "opsi": {
-    "no": 3,
-    "gambar": "um-sticky-kusut",
-    "label": "BAWAH NAMPAN",
-    "catatan": "20 kopi, kantor, jam 9",
-    "stempel": [
-     "BUKTI"
-    ]
-   }
-  },
-  {
-   "teks": "Telepon masuk, buku di laci, dicatat di kertas lepas, lalu tertimpa.",
+   "teks": "Kurekap nota seminggu: pisang laku tiga, cokelat selalu habis.",
    "primitif": "modus",
    "opsi": {
-    "judul": "KRONOLOGI",
+    "judul": "REKAP NOTA",
     "panel": [
      {
-      "teks": "Telepon masuk",
-      "kata": "telepon"
+      "teks": "Seminggu",
+      "kata": "seminggu"
      },
      {
-      "teks": "Kertas lepas",
-      "kata": "lepas"
+      "teks": "Pisang: 3",
+      "kata": "tiga"
      },
      {
-      "teks": "Nampan menimpa",
-      "kata": "tertimpa"
+      "teks": "Cokelat: habis",
+      "kata": "habis"
      }
     ]
    }
   },
   {
-   "teks": "Pelakunya: kertas lepas.",
-   "primitif": "pelaku",
+   "teks": "Tiga nota roti pisang itu, pembelinya Laras sendiri.",
+   "primitif": "tokoh",
    "opsi": {
-    "gambar": "um-sticky-kusut",
-    "label": "PELAKU",
-    "stempel": "KERTAS LEPAS"
+    "tokoh": "nw-laras",
+    "pose": "catat",
+    "wajah": [
+     "kaget"
+    ],
+    "judul": "Laras",
+    "sub": "nota: 1 pisang, Laras",
+    "bubble": "ketahuan..."
    }
   },
   {
-   "teks": "Laras pindah ke aplikasi pesanan berpengingat jam antar.",
+   "teks": "Pelakunya: nota yang tak pernah dijumlah.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "nw-tumpukan-nota",
+    "label": "PELAKU",
+    "stempel": "TAK DIJUMLAH"
+   }
+  },
+  {
+   "teks": "Kapok, Laras pindah ke aplikasi kasir: menu terlaris muncul di laporan.",
    "primitif": "vonis",
    "opsi": {
-    "vonis": "PESANAN",
-    "judul": "Pesanan Kedai",
-    "cari": "kantor",
+    "vonis": "LAPORAN",
+    "judul": "Laporan Kedai",
+    "cari": "terlaris",
     "detik": 2,
-    "ok": "DIINGATKAN",
+    "ok": "KETEMU",
     "app": {
-     "judul": "Pesanan Kedai Laras",
+     "judul": "Laporan Kedai Laras",
      "lencana": "Pekan ini",
      "baris": [
       [
-       "Kantor sebelah",
-       "20 kopi",
-       "Antar 09.00"
+       "Roti cokelat",
+       "41 terjual",
+       "Terlaris"
       ],
       [
-       "Pengingat",
-       "Jam 08.00",
-       "Aktif"
+       "Roti pisang",
+       "3 terjual",
+       "Sepi"
       ]
      ]
     }
-   }
-  },
-  {
-   "teks": "Kini pengingat bunyi jam delapan, kopi siap tepat waktu.",
-   "primitif": "haru",
-   "opsi": {
-    "kartu": "Pengingat 08.00 bunyi",
-    "tag": "KASUS DITUTUP",
-    "tokoh": "nw-laras",
-    "pose": "lega",
-    "wajah": [
-     "lega"
-    ]
    }
   },
   {
@@ -164,7 +144,7 @@
    "primitif": "cta",
    "opsi": {
     "tokoh": "nw-laras",
-    "pose": "baki",
+    "pose": "lega",
     "wajah": [
      "senang"
     ]

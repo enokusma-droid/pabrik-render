@@ -1,0 +1,320 @@
+{
+ "kode": "nw-k4-063",
+ "brand": "nusawebsite",
+ "konsep": "K4",
+ "pembuka": "k4-pasti-salah-satu",
+ "pemeran": {
+  "utama": "nw-f",
+  "pendukung": []
+ },
+ "judul": "4 tipe pemilik percetakan saat pelanggan bilang: file yang mana?",
+ "caption": "Pelanggan kirim tiga versi desain di chat, mana yang final? Ada si gulir, si unduh semua, si tebak, dan si aplikasi. Sari mengaku dulu tipe tebak, sampai spanduk ulang tahun Bu Ratna membuatnya lima tahun lebih tua. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "musik": "ceria",
+ "adegan": [
+  {
+   "teks": "Umur di spanduk salah? Pasti salah satu tipe ini.",
+   "primitif": "tipe-hook",
+   "opsi": {
+    "jumlah": 4,
+    "judul": "PERCETAKAN",
+    "sub": "umur di spanduk salah",
+    "tanya": "Temanmu yang mana?"
+   }
+  },
+  {
+   "teks": "Tipe satu, si gulir, menggali chat lama.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Gulir",
+    "rarity": "COMMON",
+    "foto": "nw-hp-chat-banjir",
+    "stat": [
+     [
+      "SABAR",
+      95
+     ],
+     [
+      "JEMPOL KUAT",
+      99
+     ],
+     [
+      "KETEMU",
+      15
+     ],
+     [
+      "WAKTU",
+      10
+     ]
+    ],
+    "skill": "hafal letak chat bulan lalu",
+    "lemah": "filenya ketimbun stiker",
+    "gag": {
+     "jenis": "chat",
+     "item": [
+      "[desain_v1.jpg]",
+      "[stiker]",
+      "Kak, revisi ya",
+      "[desain_v2.jpg]",
+      "Pagi kak",
+      "[desain_v3.jpg]",
+      "yang terakhir ya",
+      "[stiker]"
+     ],
+     "kata": "lama"
+    }
+   }
+  },
+  {
+   "teks": "Tipe dua, si unduh semua, galerinya penuh.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Unduh Semua",
+    "rarity": "RARE",
+    "foto": "um-tumpukan-map",
+    "stat": [
+     [
+      "RAJIN",
+      95
+     ],
+     [
+      "FILE TERSIMPAN",
+      99
+     ],
+     [
+      "MEMORI HP",
+      2
+     ],
+     [
+      "RAPI",
+      10
+     ]
+    ],
+    "skill": "semua file diunduh",
+    "lemah": "brosur orang lain ikut",
+    "gag": {
+     "jenis": "galat",
+     "teks": "Memori penuh. Hapus foto?",
+     "kata": "penuh"
+    }
+   }
+  },
+  {
+   "teks": "Tipe tiga, si tebak, cetak file paling atas di chat.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Tebak",
+    "rarity": "EPIC",
+    "foto": "um-kertas-remas",
+    "stat": [
+     [
+      "PERCAYA DIRI",
+      99
+     ],
+     [
+      "CEPAT CETAK",
+      95
+     ],
+     [
+      "VERSI BENAR",
+      20
+     ],
+     [
+      "CETAK ULANG",
+      90
+     ]
+    ],
+    "skill": "cetak file paling atas",
+    "lemah": "paling atas = versi 1",
+    "gag": {
+     "jenis": "lupa",
+     "item": [
+      "versi 1?",
+      "versi 2?",
+      "final?",
+      "final banget?"
+     ],
+     "kata": "atas"
+    }
+   }
+  },
+  {
+   "teks": "Tipe empat, si aplikasi, file per pesanan.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Si Aplikasi",
+    "rarity": "LEGENDARY",
+    "foto": "nw-ui-pesanan",
+    "stat": [
+     [
+      "FILE RAPI",
+      100
+     ],
+     [
+      "VERSI BENAR",
+      100
+     ],
+     [
+      "CEPAT CARI",
+      100
+     ],
+     [
+      "TIDUR NYENYAK",
+      100
+     ]
+    ],
+    "skill": "file tersimpan per pesanan",
+    "lemah": "tidak ada (sejauh ini)",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "Pesanan: spanduk ultah",
+      "Revisi 3 = final",
+      "Siap cetak"
+     ],
+     "stempel": "AMAN",
+     "kata": "pesanan"
+    }
+   }
+  },
+  {
+   "teks": "Sari, pemilik percetakan, dulu tipe tiga.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "yakin",
+    "wajah": [
+     "yakin"
+    ],
+    "judul": "Sari",
+    "sub": "pemilik percetakan",
+    "bubble": "ini pasti final",
+    "stempel": "TIPE 3"
+   }
+  },
+  {
+   "teks": "Bu Ratna kirim tiga versi spanduk.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Bu Ratna",
+    "sub": "pelanggan percetakan",
+    "pesan": [
+     {
+      "teks": "[spanduk_ultah.jpg]"
+     },
+     {
+      "teks": "eh umurnya salah, ini revisi"
+     },
+     {
+      "teks": "yang ini final ya Kak",
+      "sorot": true
+     }
+    ],
+    "pose": "ketik-hp",
+    "wajah": [
+     "senang"
+    ],
+    "stempel": "3 VERSI"
+   }
+  },
+  {
+   "teks": "Spanduk tercetak, tamu mengucapkan selamat ulang tahun keempat puluh lima.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Bu Ratna",
+    "sub": "pelanggan percetakan",
+    "pesan": [
+     {
+      "teks": "tamu bilang selamat ke-45!"
+     },
+     {
+      "teks": "umur saya 40, Kak!",
+      "sorot": true
+     }
+    ],
+    "stempel": "TUA 5 TAHUN",
+    "pose": "panik",
+    "wajah": [
+     "kaget"
+    ]
+   }
+  },
+  {
+   "teks": "Sari lalu minta aplikasi, tiap revisi diunggah ke pesanan.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "kiri": "nw-hp-chat-banjir",
+    "label": "FILE DI CHAT",
+    "pose": "lega",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Kini versi final paling atas.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Pesanan Cetak Sari",
+     "lencana": "3 aktif",
+     "baris": [
+      [
+       "Bu Ratna",
+       "Spanduk ultah, revisi 3",
+       "Final"
+      ],
+      [
+       "Toko Hana",
+       "Brosur, revisi 1",
+       "Cek ulang"
+      ],
+      [
+       "Mbak Dini",
+       "Stiker label",
+       "Siap cetak"
+      ]
+     ]
+    },
+    "stempel": "VERSI FINAL",
+    "pose": "jempol",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Kamu tipe berapa?",
+   "primitif": "tipe-pilih",
+   "opsi": {
+    "komentar": "@teman tipe nomor ..."
+   }
+  },
+  {
+   "teks": "Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jalan-laptop",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Layak tayang. Rantai v1 salah umur→Sari tipe 3 cetak file teratas→tamu ucap ke-45→aplikasi revisi per pesanan sudah nyambung. Perbaiki kecil: adegan 1 teks layar tambah 'file yang mana?' agar selaras judul; adegan 9 'PINDAH!/FILE DI CHAT' kabur→'FILE CHAT → PESANAN'; adegan 7 tulis 'versi 1: umur 45' agar sebab salah cetak jelas; adegan 5 kelemahan 'tidak ada (sejauh ini)' boleh diganti 'harus unggah tiap revisi'.",
+  "naskah_hash": "76d0020f446f",
+  "waktu": "2026-10-22T12:40"
+ }
+}

@@ -2,125 +2,115 @@
  "kode": "nw-k2-035",
  "brand": "nusawebsite",
  "konsep": "K2",
- "pembuka": "k2-kutipan",
+ "pembuka": "k2-tebak",
  "pemeran": {
   "utama": "nw-f",
   "pendukung": []
  },
- "judul": "Sari tahun lalu vs Sari hari ini: menjawab pertanyaan resi",
- "caption": "Pembeli menagih resi sampai chat ketiga. Sari tahun lalu mencari di buku lalu di galeri, Sari hari ini cukup mengetik nama. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "judul": "Sari tahun lalu vs Sari hari ini: satu kebaya dipesan dua wisudawati",
+ "caption": "Ayu dan Lia memesan kebaya hijau untuk Sabtu. Sari tahun lalu mencatat keduanya di buku, Sari hari ini langsung tahu tanggalnya sudah terisi. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
  "musik": "ceria2",
  "adegan": [
   {
-   "teks": "\"Kak, resiku mana? Ini chat ketiga.\" Chat ketiga cuma untuk Sari tahun lalu, pemilik toko baju online.",
+   "teks": "Dua wisudawati, satu kebaya hijau, satu Sabtu. Tebak, Sari mana yang selamat?",
    "primitif": "chat",
    "opsi": {
-    "judul": "Pembeli",
-    "sub": "tahun lalu",
+    "judul": "Sewa Kebaya Sari",
+    "sub": "pesanan masuk",
     "pesan": [
      {
-      "teks": "Kak, resiku mana?"
+      "teks": "Ayu: kebaya hijau, Sabtu"
      },
      {
-      "teks": "Kak??"
-     },
-     {
-      "teks": "Ini chat ketiga ya",
+      "teks": "Lia: kebaya hijau, Sabtu",
       "sorot": true
      }
     ],
-    "pose": "pusing-hp",
+    "pose": "bingung",
     "wajah": [
-     "cemas"
+     "mikir"
     ],
-    "stempel": "CHAT KETIGA"
+    "stempel": "SABTU x2"
    }
   },
   {
-   "teks": "Sari tahun lalu mencari tanggal kirim di buku, lalu di galeri.",
+   "teks": "Ayu dan Lia, pelanggan Sari, memesan kebaya hijau untuk Sabtu.",
    "primitif": "banding",
    "opsi": {
     "kiri": {
-     "pose": "duduk-catat",
-     "wajah": [
-      "bingung"
-     ],
-     "prop": "nw-buku-coretan",
-     "stempel": "CARI TANGGAL",
-     "bubble": "galeri, mana ya?"
-    },
-    "kanan": {
-     "pose": "duduk-laptop",
-     "wajah": [
-      "tenang"
-     ]
-    },
-    "label_kiri": "TAHUN LALU",
-    "label_kanan": "HARI INI"
-   }
-  },
-  {
-   "teks": "Sari hari ini mengetik nama, resi yang dicatat saat kirim muncul.",
-   "primitif": "banding",
-   "opsi": {
-    "kiri": {
-     "pose": "pusing-hp",
-     "wajah": [
-      "bingung"
-     ]
-    },
-    "kanan": {
-     "pose": "jempol",
+     "pose": "ketik-hp",
      "wajah": [
       "senang"
      ],
-     "stempel": "KETEMU"
-    }
-   }
-  },
-  {
-   "teks": "Foto resi Sari tahun lalu buram, jempolnya malah lebih jelas.",
-   "primitif": "banding",
-   "opsi": {
-    "kiri": {
-     "pose": "bingung",
-     "wajah": [
-      "kaget"
-     ],
-     "stempel": "JEMPOL JELAS",
-     "bubble": "resinya mana?"
+     "bubble": "siap, Kak!"
     },
     "kanan": {
      "pose": "ketik-hp",
      "wajah": [
       "senang"
      ],
-     "bubble": "resi terkirim"
-    }
+     "bubble": "sebentar, Kak"
+    },
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "HARI INI"
    }
   },
   {
-   "teks": "Sari hari ini sudah mengemas pesanan berikutnya.",
+   "teks": "Sari tahun lalu, pemilik sewa kebaya, mencatat keduanya di buku.",
    "primitif": "banding",
    "opsi": {
     "kiri": {
-     "pose": "lelah",
-     "wajah": [
-      "lelah"
-     ],
-     "stempel": "MASIH CARI"
-    },
-    "kanan": {
-     "pose": "bawa-paket",
+     "pose": "duduk-catat",
      "wajah": [
       "senang"
      ],
-     "stempel": "DIKEMAS"
+     "prop": "nw-buku-coretan",
+     "stempel": "DUA CATATAN",
+     "bubble": "dua-duanya oke"
+    },
+    "kanan": {
+     "pose": "duduk-laptop",
+     "wajah": [
+      "mikir"
+     ],
+     "stempel": "SABTU: AYU"
     }
    }
   },
   {
-   "teks": "Pembeli Sari tahun lalu kesal, batal order ulang.",
+   "teks": "Sari hari ini langsung tahu Sabtu terisi, menawarkan kebaya biru.",
+   "primitif": "layar",
+   "opsi": {
+    "app": {
+     "judul": "Sewa Kebaya Sari",
+     "lencana": "Sabtu",
+     "baris": [
+      [
+       "Kebaya hijau",
+       "Ayu",
+       "Terisi"
+      ],
+      [
+       "Kebaya biru",
+       "Lia",
+       "Terisi"
+      ],
+      [
+       "Kebaya krem",
+       "Kosong",
+       "Tersedia"
+      ]
+     ]
+    },
+    "stempel": "TERISI",
+    "pose": "duduk-laptop",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Sabtu pagi, keduanya datang ke Sari tahun lalu.",
    "primitif": "banding",
    "opsi": {
     "kiri": {
@@ -128,61 +118,79 @@
      "wajah": [
       "kaget"
      ],
-     "stempel": "BATAL ORDER"
+     "stempel": "KEBAYA 1",
+     "bubble": "lho, berdua?"
     },
     "kanan": {
-     "pose": "jalan-laptop",
+     "pose": "bawa-paket",
      "wajah": [
       "senang"
-     ]
+     ],
+     "stempel": "HIJAU & BIRU",
+     "bubble": "selamat wisuda!"
     }
    }
   },
   {
-   "teks": "Itulah kenapa Sari beralih ke aplikasi pesanan.",
-   "primitif": "tokoh",
+   "teks": "Sari tahun lalu menawarkan jalan tengah: kebayanya gantian per jam.",
+   "primitif": "banding",
    "opsi": {
-    "pose": "lega",
-    "wajah": [
-     "yakin"
-    ],
-    "judul": "Sari",
-    "sub": "pemilik toko baju online",
-    "stempel": "BERALIH",
-    "bintang": true,
-    "suasana": "solusi"
+    "kiri": {
+     "pose": "yakin",
+     "wajah": [
+      "yakin"
+     ],
+     "stempel": "GANTIAN?",
+     "bubble": "satu jam satu"
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "SIAP FOTO"
+    }
    }
   },
   {
-   "teks": "Kini resinya tercatat, tanpa bonus jempol.",
-   "primitif": "layar",
+   "teks": "Lia menolak, batal, lalu menulis ulasan bintang satu.",
+   "primitif": "banding",
    "opsi": {
-    "app": {
-     "judul": "Resi Toko Sari",
-     "lencana": "Cari nama",
-     "baris": [
-      [
-       "Bu Ratna",
-       "Gamis biru",
-       "JNT 8812"
-      ],
-      [
-       "Mbak Lia",
-       "Kemeja putih",
-       "SiCepat 41"
-      ],
-      [
-       "Kak Dita",
-       "Rok plisket",
-       "Dikemas"
-      ]
-     ]
+    "kiri": {
+     "pose": "lelah",
+     "wajah": [
+      "lelah"
+     ],
+     "stempel": "BINTANG 1",
+     "bubble": "maaf, Kak Lia"
     },
-    "stempel": "TANPA JEMPOL",
-    "pose": "duduk-laptop",
-    "wajah": [
-     "senang"
-    ]
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "LIA: BIRU"
+    }
+   }
+  },
+  {
+   "teks": "Ulasan Sari hari ini: bintang lima, dari Ayu dan Lia.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "lelah",
+     "wajah": [
+      "sedih"
+     ],
+     "stempel": "BINTANG 1"
+    },
+    "kanan": {
+     "pose": "lega",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "BINTANG 5"
+    }
    }
   },
   {

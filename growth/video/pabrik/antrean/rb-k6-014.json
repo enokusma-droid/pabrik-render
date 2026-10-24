@@ -1,0 +1,149 @@
+{
+ "kode": "rb-k6-014",
+ "brand": "ratu-bawang",
+ "konsep": "K6",
+ "pembuka": "k6-angka",
+ "pemeran": {
+  "utama": "rb-wening",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Surat dari keranjang belanja Chef Ayu untuk Mbak Wening",
+ "caption": "Pemasok kota menolak naik ke Kaliurang kecuali ongkir dobel, jadi Chef Ayu turun gunung sendiri sampai sambalnya gosong. Sekarang Ratu Bawang mengantar gratis ongkir se-Jogja, Kaliurang juga, dibayar saat sampai, langsung dari tangan pertama. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Empat puluh kali aku turun gunung bersama Chef Ayu, pemilik resto Kaliurang.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "TURUN GUNUNG",
+    "dari": 0,
+    "ke": 40,
+    "format": "angka",
+    "prop": "rb-keranjang-bawang",
+    "bubble": "lagi?!",
+    "tokoh": "rb-ayu",
+    "pose": "keranjang-kosong",
+    "wajah": [
+     "lelah"
+    ],
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Aku keranjang belanjanya. Surat ini untuk Mbak Wening, kurir Ratu Bawang.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "judul": "Surat Terbuka",
+    "untuk": "Mbak Wening, kurir",
+    "dari": "Keranjang Chef Ayu",
+    "maskot": "rb-keranjang-bawang"
+   }
+  },
+  {
+   "teks": "Pemasok kota menolak naik: jauh, kecuali ongkirnya dobel.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok Kota",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Antar ke Kaliurang bisa?",
+      "keluar": true
+     },
+     {
+      "teks": "Jauh, Bu"
+     },
+     {
+      "teks": "Ongkirnya dobel ya",
+      "sorot": true
+     }
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "kesal"
+    ],
+    "stempel": "DOBEL"
+   }
+  },
+  {
+   "teks": "Jadi kami turun sendiri: sejam turun, sejam naik.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "sejam turun ke pasar",
+     "sejam naik lagi"
+    ],
+    "gambar": "rb-keranjang-bawang",
+    "stempel": "2 JAM",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Suatu siang sambal gosong, kokinya sedang di pasar bersamaku.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "rb-ayu",
+    "pose": "keranjang-kosong",
+    "wajah": [
+     "panik"
+    ],
+    "judul": "Chef Ayu",
+    "sub": "pemilik resto Kaliurang",
+    "bubble": "sambalku!",
+    "stempel": "GOSONG",
+    "latar": "rb-latar-pasar-bawang"
+   }
+  },
+  {
+   "teks": "Malam itu Chef Ayu pesan ke Ratu Bawang: gratis ongkir se-Jogja, Kaliurang juga.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "GRATIS!",
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "lega"
+    ],
+    "kata": "gratis"
+   }
+  },
+  {
+   "teks": "Lalu kamu datang menanjak, Mbak Wening, bawang dibayar saat sampai.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "serah-karung",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Mbak Wening",
+    "sub": "kurir Ratu Bawang",
+    "bubble": "sampai, Chef!",
+    "latar": "rb-latar-dapur-resto",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Terima kasih, Mbak. Aku pensiun di paku dapur; kokinya tetap di kompor.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Terima kasih,",
+    "ttd": "Keranjang Chef Ayu",
+    "maskot": "rb-keranjang-bawang",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Kaliurang pun\ndiantar gratis",
+    "pose": "lambai",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

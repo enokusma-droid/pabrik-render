@@ -1,0 +1,223 @@
+{
+ "kode": "rb-k4-024",
+ "brand": "ratu-bawang",
+ "konsep": "K4",
+ "pembuka": "k4-pengakuan",
+ "pemeran": {
+  "utama": "rb-wening",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Kurir bawang mengaku: empat tipe pemilik dapur saat bawang datang",
+ "caption": "Mbak Wening, kurir Ratu Bawang, dulu sebal kalau bawang dicek satu-satu, sampai tahu banyak pemilik dapur pernah rugi bayar di muka. Di Ratu Bawang ecer dan grosir dicek dulu, dibayar saat sampai, gratis ongkir se-Jogja. Kamu tipe berapa? Tulis di komentar, dan silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Jujur, dulu aku tipe kurir yang sebal kalau bawang dicek satu-satu.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "pikul-karung",
+    "wajah": [
+     "kaget"
+    ],
+    "bubble": "dicek lagi?",
+    "latar": "rb-latar-dapur-resto",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Aku Wening, kurir Ratu Bawang. Ternyata, banyak yang pernah rugi bayar di muka.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "cek-hp",
+    "wajah": [
+     "kaget"
+    ],
+    "judul": "Mbak Wening",
+    "sub": "kurir Ratu Bawang",
+    "stempel": "RUGI DI MUKA",
+    "latar": "rb-latar-gudang-bawang"
+   }
+  },
+  {
+   "teks": "Di sini bayar saat sampai. Ini empat tipe yang kutemui.",
+   "primitif": "tipe-hook",
+   "opsi": {
+    "jumlah": 4,
+    "judul": "BAYAR SAAT SAMPAI",
+    "sub": "tipe pemilik dapur",
+    "tanya": "Kamu yang mana?"
+   }
+  },
+  {
+   "teks": "Tipe satu, si cek satu-satu: dompet dibuka setelah siung terakhir.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Cek Satu-satu",
+    "rarity": "COMMON",
+    "foto": "rb-bawang-merah",
+    "stat": [
+     [
+      "TELITI",
+      99
+     ],
+     [
+      "HAFAL SIUNG",
+      90
+     ],
+     [
+      "CEPAT",
+      20
+     ],
+     [
+      "WASPADA",
+      95
+     ]
+    ],
+    "skill": "tiap siung diperiksa",
+    "lemah": "kurir menunggu lama",
+    "gag": {
+     "turun": 2,
+     "ke": 5,
+     "kata": "terakhir"
+    }
+   }
+  },
+  {
+   "teks": "Tipe dua, si timbang ulang: dulu kurang dua kilo, padahal lunas.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Timbang Ulang",
+    "rarity": "RARE",
+    "foto": "rb-timbangan",
+    "stat": [
+     [
+      "AKURAT",
+      99
+     ],
+     [
+      "BAWA TIMBANGAN",
+      100
+     ],
+     [
+      "PERCAYA",
+      25
+     ],
+     [
+      "INGAT RUGI",
+      95
+     ]
+    ],
+    "skill": "timbangan sendiri dari dapur",
+    "lemah": "dulu kurang dua kilo",
+    "gag": {
+     "turun": 2,
+     "ke": 5,
+     "kata": "lunas"
+    }
+   }
+  },
+  {
+   "teks": "Tipe tiga, si coba sekilo: ecer dulu, minggu depan grosir.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Coba Sekilo",
+    "rarity": "EPIC",
+    "foto": "rb-keranjang-bawang",
+    "stat": [
+     [
+      "HATI-HATI",
+      90
+     ],
+     [
+      "ECER",
+      100
+     ],
+     [
+      "GROSIR",
+      100
+     ],
+     [
+      "NEKAT",
+      10
+     ]
+    ],
+    "skill": "uji pakai ecer dulu",
+    "lemah": "takut ditolak karena sedikit",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "Pesanan ecer 1 kilo",
+      "Minggu depan: grosir",
+      "Bayar saat sampai"
+     ],
+     "stempel": "NAIK LEVEL",
+     "kata": "grosir"
+    }
+   }
+  },
+  {
+   "teks": "Tipe empat, Chef Ayu, pemilik resto: pindah ke kami setelah pemasok lamanya kabur.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Chef Ayu",
+    "rarity": "LEGENDARY",
+    "foto": "rb-ayu-foto",
+    "stat": [
+     [
+      "MASAK",
+      100
+     ],
+     [
+      "WASPADA",
+      95
+     ],
+     [
+      "PERCAYA",
+      60
+     ],
+     [
+      "LANGGANAN",
+      100
+     ]
+    ],
+    "skill": "pesan rutin, bayar saat sampai",
+    "lemah": "pernah bayar di muka",
+    "gag": {
+     "turun": 2,
+     "ke": 0,
+     "kata": "kabur"
+    }
+   }
+  },
+  {
+   "teks": "Sekarang, aku yang menyodorkan bawangnya satu-satu.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "serah-karung",
+    "wajah": [
+     "senang"
+    ],
+    "bubble": "silakan dicek",
+    "stempel": "SATU-SATU",
+    "latar": "rb-latar-dapur-resto",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Dicek dulu,\nbaru dibayar",
+    "pose": "lambai",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

@@ -7,17 +7,17 @@
   "utama": "nw-f",
   "pendukung": []
  },
- "judul": "Sehari di grosir sembako Sari: buku bilang dua belas, gudang tiga",
- "caption": "Catatan stok di tutup kardus, di telapak tangan, lalu tercuci. Sehari di grosir sembako Sari sebelum dan sesudah stok tercatat sendiri. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "judul": "Sehari di grosir sembako Sari: spidol yang menulis di mana saja",
+ "caption": "Catatan stok di tutup kardus, lalu di telapak tangan, lalu tercuci. Sehari di grosir sembako Sari sebelum dan sesudah stok tercatat sendiri. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
  "adegan": [
   {
-   "teks": "Buku stok grosir Sari dibuka paling pagi, paling akhir tahu kebenaran.",
+   "teks": "Hari ini, spidol Sari menulis di mana saja.",
    "primitif": "tumpuk",
    "opsi": {
     "jam": "07.00",
-    "prop": "nw-buku-coretan",
-    "kartu": "MINYAK GORENG: 12 dus",
-    "tag": "BUKU STOK",
+    "prop": "nw-kardus-tumpuk",
+    "kartu": "buku stok: minyak 12 dus",
+    "tag": "SPIDOL STOK",
     "pose": "duduk-catat",
     "wajah": [
      "senang"
@@ -25,7 +25,7 @@
    }
   },
   {
-   "teks": "Jam sembilan, lima dus keluar, dicatat di tutup kardus.",
+   "teks": "Jam sembilan, lima dus dicatat di tutup kardus.",
    "primitif": "tokoh",
    "opsi": {
     "jam": "09.00",
@@ -35,7 +35,7 @@
     ],
     "judul": "Sari",
     "sub": "pemilik grosir sembako",
-    "prop": "nw-kardus-label",
+    "prop": "nw-kardus-tumpuk",
     "bubble": "tulis di tutup",
     "stempel": "-5 DUS"
    }
@@ -46,15 +46,15 @@
    "opsi": {
     "jam": "09.10",
     "judul": "DICARI",
-    "gambar": "nw-kardus-label",
+    "gambar": "nw-kardus-tumpuk",
     "label": "TUTUP KARDUS",
-    "keterangan": "catatan 5 dus minyak",
+    "keterangan": "tulisan: minyak 5 dus",
     "stempel": "HILANG",
     "tag": "dibawa pulang reseller"
    }
   },
   {
-   "teks": "Jam satu, empat dus, dicatat di tangan.",
+   "teks": "Jam satu, empat dus dicatat di tangan.",
    "primitif": "hitung",
    "opsi": {
     "jam": "13.00",
@@ -70,7 +70,7 @@
    }
   },
   {
-   "teks": "Lalu Sari cuci tangan.",
+   "teks": "Cuci tangan, Sari bangga: sudah dicatat.",
    "primitif": "meter",
    "opsi": {
     "jam": "13.30",
@@ -79,18 +79,24 @@
       "judul": "CATATAN DI TANGAN",
       "dari": 100,
       "ke": 0,
-      "kata": "luntur"
+      "kata": "cuci"
+     },
+     {
+      "judul": "RASA BANGGA",
+      "dari": 60,
+      "ke": 100,
+      "kata": "bangga"
      }
     ],
-    "pose": "bingung",
+    "pose": "yakin",
     "wajah": [
-     "kaget"
+     "senang"
     ],
     "tanya": true
    }
   },
   {
-   "teks": "Jam empat, reseller terbesar pesan sepuluh dus.",
+   "teks": "Jam empat, reseller minta sepuluh; di buku, dua belas.",
    "primitif": "chat",
    "opsi": {
     "jam": "16.00",
@@ -116,20 +122,19 @@
    }
   },
   {
-   "teks": "Buku bilang dua belas, gudang tiga; reseller batal.",
+   "teks": "Di gudang, ternyata cuma tiga.",
    "primitif": "bentrok",
    "opsi": {
     "jam": "16.10",
-    "latar": "nw-latar-gudang",
     "kiri": [
-     "BUKU",
+     "CATAT",
      "12 dus"
     ],
     "kanan": [
      "GUDANG",
      "3 dus"
     ],
-    "stempel": "BATAL",
+    "stempel": "KURANG 9",
     "pose": "panik",
     "wajah": [
      "kaget"
@@ -137,7 +142,21 @@
    }
   },
   {
-   "teks": "Malu, malamnya Sari memesan aplikasi stok.",
+   "teks": "Sari berharap dusnya beranak. Reseller batal.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "16.20",
+    "latar": "nw-latar-gudang",
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "bubble": "ayo beranak!",
+    "stempel": "BATAL"
+   }
+  },
+  {
+   "teks": "Malamnya Sari pesan aplikasi stok.",
    "primitif": "tokoh",
    "opsi": {
     "jam": "20.00",
@@ -151,19 +170,19 @@
    }
   },
   {
-   "teks": "Beberapa minggu kemudian: hari kedua.",
+   "teks": "Beberapa hari kemudian aplikasinya jadi; hari kedua.",
    "primitif": "kalender",
    "opsi": {
     "dari": "HARI 1",
     "ke": "HARI 2",
     "logo": true,
-    "kata": "beberapa minggu",
+    "kata": "aplikasinya jadi",
     "hari": 2,
     "jam": "07.00"
    }
   },
   {
-   "teks": "Tiap dus keluar, Sari ketik di ponsel, sisanya langsung terhitung.",
+   "teks": "Dus keluar diketik, sisanya terhitung.",
    "primitif": "layar",
    "opsi": {
     "jam": "13.00",
@@ -172,7 +191,7 @@
      "lencana": "Minyak",
      "baris": [
       [
-       "07.00 Stok awal",
+       "07.00 Kiriman",
        "Minyak goreng",
        "12 dus"
       ],
@@ -196,23 +215,21 @@
    }
   },
   {
-   "teks": "Sisa tiga, Sari restok; sore, sepuluh dus siap.",
+   "teks": "Sisa tiga, Sari pesan ke pemasok.",
    "primitif": "daftar",
    "opsi": {
-    "jam": "16.00",
-    "judul": "Hari 2, Sore Ini",
+    "jam": "13.10",
+    "judul": "Hari 2, Minyak Goreng",
     "item": [
      {
-      "teks": "13.10 Restok: +10 dus",
-      "kata": "restok"
+      "teks": "13.10 Pemasok: +10 dus",
+      "kata": "pemasok"
      },
      {
-      "teks": "16.00 Reseller: 10 dus",
-      "kata": "sepuluh"
+      "teks": "15.00 Minyak datang"
      },
      {
-      "teks": "Sisa di aplikasi: 3 dus",
-      "kata": "siap"
+      "teks": "16.00 Reseller: 10 dus"
      }
     ],
     "stempel": "PAS",
@@ -220,6 +237,19 @@
     "wajah": [
      "lega"
     ]
+   }
+  },
+  {
+   "teks": "Kini spidolnya libur.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "16.30",
+    "pose": "lega",
+    "wajah": [
+     "tertawa"
+    ],
+    "bubble": "spidol libur!",
+    "stempel": "LIBUR"
    }
   },
   {
@@ -232,5 +262,18 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.4,
+  "catatan": "Alur sebab-akibat jelas (12-5-4=3, kurang 9). Adegan 10: VO 'aplikasinya jadi; hari kedua' membingungkan, ganti 'Beberapa hari kemudian aplikasinya jadi. Hari kedua dimulai.' Adegan 5: lelucon kurang tajam, tegaskan ironinya: 'Cuci tangan, catatannya ikut luntur; Sari tetap bangga.' Adegan 3: tambah alasan singkat kenapa tutup kardus ikut terbawa, misalnya 'kardusnya ikut diangkut'.",
+  "naskah_hash": "061ad7fa259f",
+  "waktu": "2026-10-22T12:32"
+ }
 }

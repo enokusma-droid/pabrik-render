@@ -1,0 +1,193 @@
+{
+ "kode": "rb-k2-023",
+ "brand": "ratu-bawang",
+ "konsep": "K2",
+ "pembuka": "k2-akhir-dulu",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": []
+ },
+ "judul": "Bombaynya mana? Chef Ayu tahun lalu vs hari ini",
+ "caption": "Pemasok lama menolak pesanan campur kecil, jadi Ayu tahun lalu keliling pasar dan toko, lalu bombay terlupa dan harus keluar lagi. Ayu hari ini cukup satu pesanan campur ke Ratu Bawang: ecer dilayani, tangan pertama, gratis ongkir Jogja, bayar saat sampai. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Ayu hari ini sudah menumis. Ayu tahun lalu masih di tempat ketiga.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "HARI INI",
+    "kiri": {
+     "pose": "keranjang-kosong",
+     "wajah": [
+      "lelah"
+     ],
+     "stempel": "TEMPAT 3"
+    },
+    "kanan": {
+     "pose": "masak",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "MENUMIS"
+    }
+   }
+  },
+  {
+   "teks": "Putar ulang. Chef Ayu, pemilik resto, butuh tiga bawang, sedikit-sedikit.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "HARI INI",
+    "kiri": {
+     "pose": "telepon",
+     "wajah": [
+      "yakin"
+     ],
+     "bubble": "sedikit-sedikit"
+    },
+    "kanan": {
+     "pose": "telepon",
+     "wajah": [
+      "yakin"
+     ],
+     "bubble": "sedikit-sedikit"
+    }
+   }
+  },
+  {
+   "teks": "Ayu tahun lalu pesan campur ke pemasok lama: ditolak, minimal sekarung.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok Lama",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Merah 2, putih 1, bombay 1",
+      "keluar": true
+     },
+     {
+      "teks": "Maaf, minimal sekarung",
+      "sorot": true
+     },
+     {
+      "teks": "Campur boleh?",
+      "keluar": true
+     },
+     {
+      "teks": "Sekarung per jenis, Bu"
+     }
+    ],
+    "pose": "telepon",
+    "wajah": [
+     "kesal"
+    ],
+    "stempel": "DITOLAK"
+   }
+  },
+  {
+   "teks": "Jadi ia keliling: merah di pasar, putih di toko, bombay habis.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "HARI INI",
+    "kiri": {
+     "pose": "keranjang-kosong",
+     "wajah": [
+      "lelah"
+     ],
+     "prop": "rb-bawang-merah",
+     "stempel": "BOMBAY HABIS"
+    },
+    "kanan": {
+     "pose": "masak",
+     "wajah": [
+      "yakin"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Ayu hari ini: satu pesanan campur ke Ratu Bawang, ecer, gratis ongkir.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "HARI INI",
+    "kiri": {
+     "pose": "keranjang-kosong",
+     "wajah": [
+      "lelah"
+     ]
+    },
+    "kanan": {
+     "pose": "karung-jempol",
+     "wajah": [
+      "senang"
+     ],
+     "prop": "rb-keranjang-bawang",
+     "stempel": "1 PESANAN"
+    }
+   }
+  },
+  {
+   "teks": "Ayu tahun lalu sampai dapur, sup pesanan menunggu bombay.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "HARI INI",
+    "kiri": {
+     "pose": "foto-panik",
+     "wajah": [
+      "kaget"
+     ],
+     "bubble": "menunggu bombay"
+    },
+    "kanan": {
+     "pose": "masak",
+     "wajah": [
+      "senang"
+     ],
+     "prop": "rb-bawang-bombay"
+    }
+   }
+  },
+  {
+   "teks": "Keluar lagi ke swalayan, tempat ketiga, demi dua butir bombay.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "HARI INI",
+    "kiri": {
+     "pose": "keranjang-kosong",
+     "wajah": [
+      "lelah"
+     ],
+     "stempel": "2 BUTIR",
+     "prop": "rb-bawang-bombay"
+    },
+    "kanan": {
+     "pose": "masak",
+     "wajah": [
+      "senang"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Sejak dua butir itu, Ayu pindah ke Ratu Bawang.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "pose": "foto-lega-hp",
+    "kata": "pindah"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Ecer campur\ndilayani",
+    "pose": "foto-jempol"
+   }
+  }
+ ]
+}

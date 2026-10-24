@@ -1,0 +1,159 @@
+{
+ "kode": "rb-k0-018",
+ "brand": "ratu-bawang",
+ "konsep": "K0",
+ "pembuka": "k0-pujian-terbalik",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": []
+ },
+ "judul": "Chef Ayu menakar garam per butir, kecuali pemasok yang minta transfer dulu",
+ "caption": "Chef Ayu menakar garam sampai sejumput, tapi karung bawang dari pemasok lama langsung dibayar tanpa ditimbang. Yang paling menderita? Timbangan dapurnya. Di Ratu Bawang bawang dicek dulu di dapur, baru dibayar saat sampai. Tangan pertama, ecer dan grosir, gratis ongkir se-Jogja. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Chef Ayu menakar garam per butir. Kecuali satu hal: pemasok yang minta transfer dulu.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "TAKAR GARAM",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "CURIGA PEMASOK",
+      "dari": 100,
+      "ke": 5,
+      "kata": "kecuali"
+     }
+    ],
+    "pose": "masak",
+    "wajah": [
+     "yakin",
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Uang dikirim dulu, karungnya datang belakangan.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "telepon",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Chef Ayu",
+    "sub": "pemilik resto",
+    "bubble": "transfer dulu",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Ditimbang, kurang tiga ons. Protes, dibalas: timbangan Chef rusak.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "KURANG (ONS)",
+    "dari": 0,
+    "ke": 3,
+    "format": "angka",
+    "prop": "rb-timbangan",
+    "pose": "foto-panik",
+    "wajah": [
+     "kaget"
+    ],
+    "bubble": "timbangan rusak?",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Tahu siapa paling menderita?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa paling menderita?",
+    "bayangan": "rb-timbangan"
+   }
+  },
+  {
+   "teks": "Iya, aku, timbangan dapur pembawa kabar buruk.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "rb-timbangan",
+    "label": "TIMBANGAN",
+    "teks": "IYA, AKU!"
+   }
+  },
+  {
+   "teks": "Aku menemukan kurangnya, aku dituduh rusak.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "rb-timbangan",
+    "label": "TIMBANGAN",
+    "item": [
+     "KURANG 3 ONS",
+     "DITUDUH RUSAK",
+     "DIKETUK-KETUK"
+    ]
+   }
+  },
+  {
+   "teks": "Chef Ayu beli timbangan baru. Tetap kurang tiga ons.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "foto-karung",
+    "wajah": [
+     "kesal"
+    ],
+    "prop": "rb-timbangan",
+    "stempel": "TETAP KURANG",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Barulah ia pindah ke Ratu Bawang, bayar saat barang sampai.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "pose": "foto-lega-hp",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Bawang tangan pertama, dicek dulu di dapur, baru dibayar.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "RATU BAWANG",
+    "item": [
+     "bayar saat sampai",
+     "cek dulu sebelum bayar",
+     "tangan pertama"
+    ],
+    "stempel": "PAS",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Aku pensiun dari tuduhan. Kurang? Ketahuan sebelum bayar.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "ketahuan sebelum bayar",
+    "tag": "BEBAS TUDUHAN",
+    "maskot": "rb-timbangan",
+    "label": "TIMBANGAN"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Dicek dulu,\nbaru dibayar",
+    "pose": "foto-jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

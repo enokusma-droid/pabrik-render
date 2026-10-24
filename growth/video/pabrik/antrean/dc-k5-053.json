@@ -1,0 +1,119 @@
+{
+ "kode": "dc-k5-053",
+ "brand": "dentalcare",
+ "konsep": "K5",
+ "pembuka": "k5-akhir-dulu",
+ "pemeran": {
+  "utama": "detektif",
+  "pendukung": [
+   "dc-rina"
+  ]
+ },
+ "judul": "Detektif: formulir alergi jadi alas gelas teh",
+ "caption": "Pasien sudah menulis alerginya di formulir, tapi formulir itu tak pernah masuk ruang praktik. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "adegan": [
+  {
+   "teks": "Kasus ini selesai sebelum resep ditulis. Mundur sebentar.",
+   "primitif": "poster",
+   "opsi": {
+    "judul": "DITUTUP",
+    "gambar": "dc-prop-clipboard",
+    "label": "resep",
+    "keterangan": "nyaris ditulis",
+    "stempel": "NYARIS",
+    "tag": "mundur sebentar..."
+   }
+  },
+  {
+   "teks": "Aku Detektif Ana. Pasien baru mengaku alergi, tapi rekam medisnya bersih.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "ALERGI?",
+    "jumlah": 1,
+    "sub": "rekam bersih",
+    "pita": "PENYELIDIKAN",
+    "pose": "kaca-pembesar",
+    "wajah": [
+     "serius"
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka pertama, map rekam medis: aku tak diberi tahu!",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "dc-maskot-map-kaget",
+    "label": "map rekam medis",
+    "catatan": "\"aku tak diberi tahu!\"",
+    "stempel": [
+     "KOSONG"
+    ]
+   }
+  },
+  {
+   "teks": "Tersangka kedua, Mbak Rina, resepsionis. Formulirnya jadi alas gelas, cincin tehnya tepat di kata alergi.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "dc-rina-foto",
+    "label": "Mbak Rina",
+    "catatan": "cincin teh di ALERGI",
+    "stempel": [
+     "BASAH"
+    ]
+   }
+  },
+  {
+   "teks": "Pasien itu sedang di kursi. Aku lari, pena dokter berhenti.",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "STOP, alergi obat!",
+    "bayangan": "dc-prop-clipboard"
+   }
+  },
+  {
+   "teks": "Pelakunya: formulir yang tak pernah masuk.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "dc-prop-clipboard",
+    "label": "PELAKU",
+    "stempel": "FORMULIR"
+   }
+  },
+  {
+   "teks": "Kini alergi diisi Rina di DentalCare, tampil di ruang praktik.",
+   "primitif": "vonis",
+   "opsi": {
+    "vonis": "PINDAH",
+    "ui": "dc-ui-pasien-detail-rapi",
+    "judul": "Data Pasien",
+    "cari": "alergi",
+    "detik": 2,
+    "ok": "TAMPIL ✓"
+   }
+  },
+  {
+   "teks": "Gelas teh kini pakai tatakan.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Gelas pakai tatakan",
+    "tag": "KASUS DITUTUP",
+    "pose": "lipat-tangan",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "tunjuk",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  }
+ ]
+}

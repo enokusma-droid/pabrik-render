@@ -1,0 +1,32 @@
+{
+ "kode": "rb-k6-022",
+ "brand": "ratu-bawang",
+ "konsep": "K6",
+ "pembuka": "k6-kutipan",
+ "pemeran": {"utama": "rb-sekar", "pendukung": ["rb-ayu"]},
+ "judul": "Surat dari timbangan dapur: bombay pesanan, bawang merah datang",
+ "caption": "Pesan lewat telepon, transfer dulu, yang datang malah salah jenis dan kurang. Sejak pindah ke Ratu Bawang, bawang ditimbang dan dicocokkan dulu saat sampai, baru dibayar. Ecer atau grosir, gratis ongkir se-Jogja, langsung dari tangan pertama. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {"teks": "“Bombay lima kilo ya, Pak,” katamu tiap pesan lewat telepon, Mbak Sekar.", "primitif": "surat",
+   "opsi": {"baris": ["\"Bombay 5 kilo ya, Pak\"", "katamu di telepon"], "gambar": "rb-timbangan", "suasana": "masalah"}},
+  {"teks": "Aku timbangan dapur resto Chef Ayu.", "primitif": "surat-buka",
+   "opsi": {"judul": "Surat Terbuka", "untuk": "Mbak Sekar, staf dapur", "dari": "Timbangan dapur", "maskot": "rb-timbangan"}},
+  {"teks": "Pemasok lama minta transfer dulu, barang datang kemudian.", "primitif": "surat",
+   "opsi": {"baris": ["transfer dulu", "barang datang kemudian"], "gambar": "rb-nota", "stempel": "LUNAS"}},
+  {"teks": "Aku yang menimbang: bawang merah, bukan bombay, kurang dua kilo.", "primitif": "derita",
+   "opsi": {"maskot": "rb-timbangan", "label": "TIMBANGAN", "item": ["BUKAN BOMBAY", "KURANG 2 KILO"], "prop": ["rb-bawang-merah"], "latar": "rb-latar-dapur-resto"}},
+  {"teks": "Kamu protes, pemasok cuma membalas: kan sudah dibayar, Mbak.", "primitif": "chat",
+   "opsi": {"judul": "Pemasok Lama", "sub": "online", "pesan": [{"teks": "Pak, ini bukan bombay", "keluar": true}, {"teks": "Kurang 2 kilo juga", "keluar": true}, {"teks": "Kan sudah dibayar, Mbak", "sorot": true}],
+    "pose": "bingung", "wajah": ["kaget", "panik"], "stempel": "???"}},
+  {"teks": "Hari itu sup bombay terpaksa jadi sup bawang merah.", "primitif": "tokoh",
+   "opsi": {"tokoh": "rb-ayu", "pose": "masak", "wajah": ["kesal"], "judul": "Chef Ayu", "sub": "pemilik resto, bos Sekar", "stempel": "SUP DARURAT", "latar": "rb-latar-dapur-resto"}},
+  {"teks": "Chef Ayu, bosmu, langsung pindah ke Ratu Bawang.", "primitif": "logo",
+   "opsi": {"stempel": "PINDAH!", "tokoh": "rb-ayu", "pose": "telepon", "wajah": ["yakin"], "kata": "pindah"}},
+  {"teks": "Sekarang bawang datang, aku menimbang, kamu mencocokkan, baru dibayar.", "primitif": "surat",
+   "opsi": {"baris": ["bawang datang", "ditimbang, dicocokkan", "baru dibayar"], "gambar": "rb-timbangan", "stempel": "COCOK", "suasana": "solusi"}},
+  {"teks": "Kalimat favoritku sekarang: “Pas lima kilo, ini bayarnya, Mbak.”", "primitif": "surat-tutup",
+   "opsi": {"salam": "Dengan seimbang,", "ttd": "Timbanganmu", "maskot": "rb-timbangan", "stempel": "PAS 5 KILO"}},
+  {"teks": "Pesan lewat WhatsApp di profil.", "primitif": "cta",
+   "opsi": {"ajakan": "Dicek dulu,\nbaru dibayar", "pose": "jempol", "wajah": ["senang"]}}
+ ]
+}

@@ -2,211 +2,111 @@
  "kode": "nw-k2-043",
  "brand": "nusawebsite",
  "konsep": "K2",
- "pembuka": "k2-tebak",
+ "pembuka": "k2-kejadian",
  "pemeran": {
   "utama": "nw-f",
-  "pendukung": []
+  "pendukung": [
+   "pelanggan"
+  ]
  },
- "judul": "Sari tahun lalu vs Sari hari ini: ukuran seragam anak pelanggan",
- "caption": "Pelanggan langganan minta seragam baru untuk anaknya. Sari tahun lalu mencari di buku ukur penuh coretan, Sari hari ini membuka data ukuran per anak lengkap dengan tanggal ukurnya. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "judul": "Sari tahun lalu vs Sari hari ini: baju kondangan Bu Ratna",
+ "caption": "Bu Ratna minta baju kondangannya diantar jam empat. Nota kertas Sari tahun lalu tertimbun, Sari hari ini mencatat cucian di aplikasi yang mengurutkan janji antar. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
  "adegan": [
   {
-   "teks": "Anak pelanggan naik kelas, buku ukur Sari belum. Tebak, siapa menang?",
-   "primitif": "banding",
-   "opsi": {
-    "kiri": {
-     "pose": "bingung",
-     "wajah": [
-      "bingung"
-     ],
-     "bubble": "tahun lalu",
-     "prop": "nw-buku-coretan",
-     "stempel": "KELAS 1"
-    },
-    "kanan": {
-     "pose": "duduk-laptop",
-     "wajah": [
-      "yakin"
-     ],
-     "bubble": "hari ini"
-    },
-    "label_kiri": "DULU",
-    "label_kanan": "SEKARANG"
-   }
-  },
-  {
-   "teks": "Bu Wulan, langganan jahit Sari, pesan seragam Nadia, anaknya.",
-   "primitif": "chat",
-   "opsi": {
-    "judul": "Bu Wulan",
-    "sub": "pelanggan langganan",
-    "pesan": [
-     {
-      "teks": "Sari, jahitkan seragam lagi"
-     },
-     {
-      "teks": "untuk Nadia, ukuran biasa",
-      "sorot": true
-     },
-     {
-      "teks": "Siap Bu, saya cek ukurnya",
-      "keluar": true
-     }
-    ],
-    "pose": "ketik-hp",
-    "wajah": [
-     "senang"
-    ],
-    "stempel": "PESANAN"
-   }
-  },
-  {
-   "teks": "Sari tahun lalu membuka buku ukur.",
-   "primitif": "banding",
-   "opsi": {
-    "kiri": {
-     "pose": "duduk-catat",
-     "wajah": [
-      "bingung"
-     ],
-     "prop": "nw-buku-coretan",
-     "stempel": "CORETAN"
-    },
-    "kanan": {
-     "pose": "duduk-laptop",
-     "wajah": [
-      "tenang"
-     ]
-    }
-   }
-  },
-  {
-   "teks": "Sari hari ini mengetik Nadia, ukurannya muncul.",
+   "teks": "Bu Ratna sudah berdandan lengkap, kurang satu: bajunya.",
    "primitif": "banding",
    "opsi": {
     "kiri": {
      "pose": "pusing-hp",
      "wajah": [
-      "panik"
+      "cemas"
      ],
-     "bubble": "halaman berapa?"
+     "stempel": "BAJU MANA?",
+     "bubble": "bajunya mana?"
     },
     "kanan": {
-     "pose": "jempol",
+     "pose": "bawa-paket",
      "wajah": [
       "senang"
      ],
-     "stempel": "MUNCUL"
-    }
-   }
-  },
-  {
-   "teks": "Sari tahun lalu ketemu di halaman tiga puluh tujuh.",
-   "primitif": "banding",
-   "opsi": {
-    "kiri": {
-     "pose": "lega",
-     "wajah": [
-      "lega"
-     ],
-     "prop": "nw-buku-coretan",
-     "stempel": "KELAS 1",
-     "bubble": "tanggalnya?"
+     "stempel": "DIANTAR",
+     "bubble": "ini, Bu!"
     },
-    "kanan": {
-     "pose": "duduk-laptop",
-     "wajah": [
-      "mikir"
-     ],
-     "stempel": "TGL UKUR"
-    }
+    "label_kiri": "TAHUN LALU",
+    "label_kanan": "HARI INI"
    }
   },
   {
-   "teks": "Sari hari ini melihat tanggal ukurnya, Nadia diukur ulang.",
+   "teks": "Bu Ratna, pelanggan laundry antar Sari, minta diantar jam empat.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Bu Ratna",
+    "sub": "pelanggan laundry",
+    "foto": "nw-pelanggan-online",
+    "pesan": [
+     {
+      "teks": "Sari, baju kondanganku ya"
+     },
+     {
+      "teks": "antar jam empat ya",
+      "sorot": true
+     },
+     {
+      "teks": "Siap, Bu!",
+      "keluar": true
+     }
+    ],
+    "stempel": "JAM 4"
+   }
+  },
+  {
+   "teks": "Sari tahun lalu menulis nota kertas, lalu notanya tertimbun.",
    "primitif": "banding",
    "opsi": {
     "kiri": {
      "pose": "duduk-catat",
      "wajah": [
-      "yakin"
+      "bingung"
      ],
-     "stempel": "POTONG KAIN"
+     "prop": "nw-buku-coretan",
+     "stempel": "TERTIMBUN",
+     "bubble": "nota mana ya?"
     },
     "kanan": {
-     "pose": "telepon",
+     "pose": "duduk-laptop",
      "wajah": [
-      "yakin"
+      "tenang"
      ],
-     "bubble": "ukur ulang ya Bu",
-     "stempel": "UKUR ULANG"
+     "stempel": "DICATAT"
     }
    }
   },
   {
-   "teks": "Seragam Sari tahun lalu sesiku, Sari hari ini pas.",
-   "primitif": "banding",
-   "opsi": {
-    "kiri": {
-     "pose": "panik",
-     "wajah": [
-      "kaget"
-     ],
-     "stempel": "SESIKU",
-     "bubble": "aduh, maaf Bu"
-    },
-    "kanan": {
-     "pose": "jempol",
-     "wajah": [
-      "senang"
-     ],
-     "stempel": "PAS",
-     "bubble": "pas kan, Bu?"
-    }
-   }
-  },
-  {
-   "teks": "Bu Wulan protes, Sari tahun lalu pindah ke aplikasi.",
-   "primitif": "tokoh",
-   "opsi": {
-    "pose": "lega",
-    "wajah": [
-     "lelah",
-     "lega"
-    ],
-    "ganti": "menyeberang",
-    "judul": "pindah juga!",
-    "stempel": "AKHIRNYA",
-    "bintang": true,
-    "suasana": "solusi"
-   }
-  },
-  {
-   "teks": "Ukuran tiap anak tersimpan bertanggal.",
+   "teks": "Aplikasi Sari hari ini mengurutkan cucian dari janji antar paling dekat.",
    "primitif": "layar",
    "opsi": {
     "app": {
-     "judul": "Ukuran Seragam Sari",
-     "lencana": "Pelanggan",
+     "judul": "Laundry Antar Sari",
+     "lencana": "Hari ini",
      "baris": [
       [
-       "Nadia (Bu Wulan)",
-       "Dada 68, lengan 45",
-       "Ukur 20 Okt"
+       "Bu Ratna",
+       "Baju kondangan",
+       "Antar jam 4"
       ],
       [
-       "Salsa (Bu Tini)",
-       "Dada 64, lengan 42",
-       "Ukur 3 Jul"
+       "Bu Ani",
+       "Seprai",
+       "Antar jam 6"
       ],
       [
-       "Kirana (Bu Ani)",
-       "Dada 70, lengan 47",
-       "Ukur 12 Agu"
+       "Mbak Lia",
+       "Seragam",
+       "Besok pagi"
       ]
      ]
     },
-    "stempel": "PAS",
+    "stempel": "URUT JANJI",
     "pose": "duduk-laptop",
     "wajah": [
      "senang"
@@ -214,17 +114,89 @@
    }
   },
   {
-   "teks": "Buku ukurnya? Tetap kelas satu.",
-   "primitif": "tokoh",
+   "teks": "Jam empat, baju Bu Ratna di Sari tahun lalu belum dicuci.",
+   "primitif": "banding",
    "opsi": {
-    "pose": "yakin",
-    "wajah": [
-     "tertawa"
-    ],
-    "prop": "nw-buku-coretan",
-    "judul": "buku ukur",
-    "stempel": "KELAS 1",
-    "suasana": "hangat"
+    "kiri": {
+     "pose": "panik",
+     "wajah": [
+      "kaget"
+     ],
+     "stempel": "BELUM DICUCI",
+     "bubble": "aduh, Bu!"
+    },
+    "kanan": {
+     "pose": "bawa-paket",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "WANGI"
+    }
+   }
+  },
+  {
+   "teks": "Sari tahun lalu panik mengantar baju itu apa adanya.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "panik",
+     "wajah": [
+      "panik"
+     ],
+     "stempel": "APA ADANYA",
+     "bubble": "maaf ya, Bu"
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "SAMPAI",
+     "bubble": "pas jam empat"
+    }
+   }
+  },
+  {
+   "teks": "Bu Ratna mencium bajunya, lalu kondangan memakai baju lebaran tahun lalu.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "lelah",
+     "wajah": [
+      "lelah"
+     ],
+     "stempel": "BAJU LEBARAN",
+     "bubble": "maaf, Bu..."
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "BAJU BARU"
+    }
+   }
+  },
+  {
+   "teks": "Notanya baru ketemu besok, terselip di bawah setrika.",
+   "primitif": "banding",
+   "opsi": {
+    "kiri": {
+     "pose": "bingung",
+     "wajah": [
+      "kesal"
+     ],
+     "prop": "nw-buku-coretan",
+     "stempel": "KETEMU!",
+     "bubble": "baru ketemu..."
+    },
+    "kanan": {
+     "pose": "duduk-laptop",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "TERCATAT"
+    }
    }
   },
   {

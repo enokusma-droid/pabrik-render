@@ -1,0 +1,135 @@
+{
+ "kode": "rb-k6-033",
+ "brand": "ratu-bawang",
+ "konsep": "K6",
+ "pembuka": "k6-sapaan",
+ "pemeran": {
+  "utama": "rb-sekar",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Surat dari karung belanja: ditolak grosir karena cuma butuh dua kilo",
+ "caption": "Resto kecil cuma butuh dua kilo, pemasok grosir minta minimal sekarung. Di Ratu Bawang, ecer pun dilayani: gratis ongkir se-Jogja, bayar saat barang sampai, langsung dari tangan pertama. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Halo Mbak Sekar, tiap pagi kamu bawa aku ke pasar cuma untuk dua kilo.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "judul": "Surat Terbuka",
+    "untuk": "Mbak Sekar, staf dapur",
+    "dari": "Karung belanjamu",
+    "maskot": "rb-maskot-karung-lelah"
+   }
+  },
+  {
+   "teks": "Resto kecil Chef Ayu, tempatmu bekerja, memang cuma butuh segitu sehari.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Resto kita kecil,",
+     "cukup 2 kilo sehari"
+    ],
+    "gambar": "rb-bawang-merah",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Pemasok grosir membalas pesanmu: minimal sekarung, maaf.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok Grosir",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Mau pesan 2 kilo, bisa?",
+      "keluar": true
+     },
+     {
+      "teks": "Minimal sekarung, maaf",
+      "sorot": true
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "stempel": "DITOLAK"
+   }
+  },
+  {
+   "teks": "Jadi kita ke pasar tiap pagi, aku kebesaran, kamu kelelahan.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "lari-belanja",
+    "wajah": [
+     "panik"
+    ],
+    "judul": "Mbak Sekar",
+    "sub": "staf dapur resto",
+    "bubble": "tiap pagi!",
+    "latar": "rb-latar-pasar-bawang"
+   }
+  },
+  {
+   "teks": "Sampai Chef Ayu, pemilik resto, melihatmu datang terengah, lalu pesan ke Ratu Bawang.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PESAN!",
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "yakin"
+    ],
+    "label": "Chef Ayu"
+   }
+  },
+  {
+   "teks": "Dua kilo pun dilayani, diantar gratis ke dapur, dibayar saat sampai.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "2 kilo pun dilayani",
+     "diantar gratis",
+     "dibayar saat sampai"
+    ],
+    "gambar": "rb-motor-antar",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Bawang datang sendiri, aku pensiun terlipat di rak.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Bawang datang sendiri,",
+     "aku terlipat di rak"
+    ],
+    "gambar": "rb-maskot-karung-lega",
+    "stempel": "PENSIUN",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Aku memang karung, tapi ternyata kita tak perlu sekarung.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam hangat,",
+    "ttd": "Karung pensiunanmu",
+    "maskot": "rb-maskot-karung-lega",
+    "stempel": "TERIMA KASIH"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Dua kilo pun\ndiantar",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "kode": "rb-k1-030",
+ "brand": "ratu-bawang",
+ "konsep": "K1",
+ "pembuka": "k1-tanya",
+ "pemeran": {
+  "utama": "rb-sekar",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Antre kasir dua puluh menit, demi tiga butir bombay",
+ "caption": "Menu baru butuh bombay sedikit tiap hari, tapi pemasok cuma jual per karung. Mbak Sekar sampai antre di supermarket tiap pagi. Sekarang bombay ecer dari Ratu Bawang, diantar gratis se-Jogja, dicek dulu baru dibayar. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Pernah penasaran, seperti apa sehari jadi staf dapur resto?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Sehari jadi staf dapur resto?",
+    "bayangan": "rb-bawang-bombay",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Ini Mbak Sekar, staf dapur Chef Ayu.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "06.45",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Mbak Sekar",
+    "sub": "staf dapur Chef Ayu",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Tiap pagi ia ke supermarket, demi bombay untuk menu baru.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "07.00",
+    "pose": "lari-belanja",
+    "wajah": [
+     "panik"
+    ],
+    "bubble": "bombay dulu!",
+    "prop": "rb-bawang-bombay"
+   }
+  },
+  {
+   "teks": "Pemasok bombay cuma jual per karung, padahal butuhnya sedikit.",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "07.10",
+    "judul": "Pemasok Bombay",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Bisa dua kilo saja, Pak?",
+      "keluar": true
+     },
+     {
+      "teks": "Minimal sekarung, Mbak",
+      "sorot": true
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "stempel": "SEKARUNG"
+   }
+  },
+  {
+   "teks": "Antre kasirnya dua puluh menit, demi tiga butir bombay.",
+   "primitif": "hitung",
+   "opsi": {
+    "jam": "08.30",
+    "judul": "ANTRE KASIR",
+    "dari": 0,
+    "ke": 20,
+    "format": "menit",
+    "prop": "rb-bawang-bombay",
+    "bubble": "tiga butir...",
+    "pose": "bingung",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Jam sembilan Sekar baru kembali; Chef Ayu, pemilik resto, mencari pemasok ecer.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "09.00",
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "kesal"
+    ],
+    "judul": "Chef Ayu",
+    "sub": "pemilik resto",
+    "bubble": "cari yang ecer",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Ketemu Ratu Bawang: bombay boleh ecer, diantar gratis se-Jogja.",
+   "primitif": "chat",
+   "opsi": {
+    "jam": "10.00",
+    "judul": "Ratu Bawang",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Bombay dua kilo bisa?",
+      "keluar": true
+     },
+     {
+      "teks": "Bisa, ecer juga diantar",
+      "sorot": true
+     },
+     {
+      "teks": "Gratis ongkir se-Jogja"
+     }
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "foto-lega-hp",
+    "wajah": [
+     "lega"
+    ],
+    "stempel": "ECER"
+   }
+  },
+  {
+   "teks": "Hari kedua.",
+   "primitif": "kalender",
+   "opsi": {
+    "hari": 2,
+    "jam": "06.45",
+    "logo": true,
+    "dari": "HARI 1",
+    "ke": "HARI 2"
+   }
+  },
+  {
+   "teks": "Jam tujuh, bombay sudah diantar ke dapur.",
+   "primitif": "daftar",
+   "opsi": {
+    "jam": "07.00",
+    "judul": "Bombay datang",
+    "item": [
+     "Ecer, dua kilo",
+     "Diantar ke dapur"
+    ],
+    "stempel": "SAMPAI",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ],
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Sekar tetap menangis, tapi karena mengupas bombay, bukan karena antre.",
+   "primitif": "tokoh",
+   "opsi": {
+    "jam": "07.15",
+    "pose": "kupas-nangis",
+    "wajah": [
+     "senang"
+    ],
+    "bubble": "pedih, tapi lega",
+    "stempel": "BUKAN ANTRE",
+    "suasana": "solusi",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Bombay ecer,\ndiantar gratis",
+    "pose": "jempol"
+   }
+  }
+ ]
+}

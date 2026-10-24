@@ -1,0 +1,148 @@
+{
+ "kode": "rb-k3-019",
+ "brand": "ratu-bawang",
+ "konsep": "K3",
+ "pembuka": "k3-angka",
+ "pemeran": {
+  "utama": "rb-sekar",
+  "pendukung": [
+   "reporter"
+  ]
+ },
+ "judul": "Berita: staf dapur dipanggil juragan bawang oleh tukang parkir pasar",
+ "caption": "Pemasok lama tidak mau mengantar grosir, jadi tiap pagi Mbak Sekar menjemput dua puluh lima kilo bawang dari pasar naik motor, sampai tukang parkir memanggilnya juragan. Chef Ayu akhirnya pindah ke Ratu Bawang: grosir diantar gratis se-Jogja, tangan pertama, bayar saat sampai. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Dua puluh lima kilo bawang, satu motor bebek, setiap pagi.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "KILO DI MOTOR",
+    "dari": 0,
+    "ke": 25,
+    "format": "angka",
+    "prop": "rb-karung-bawang",
+    "pose": "lari-belanja",
+    "wajah": [
+     "panik"
+    ],
+    "bubble": "tiap pagi",
+    "latar": "rb-latar-pasar-bawang"
+   }
+  },
+  {
+   "teks": "Reporter Mega menemui Mbak Sekar, staf dapur resto Chef Ayu di Jogja.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-mic",
+    "judul": "Staf dapur jadi kuli bawang",
+    "label": "BERITA TERKINI",
+    "nama": "Reporter Mega",
+    "jabatan": "Jogja"
+   }
+  },
+  {
+   "teks": "Kata Sekar, pemasok lama tidak mau mengantar pesanan grosir.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "rb-sekar-foto",
+    "nama": "Mbak Sekar",
+    "ket": "staf dapur resto Chef Ayu",
+    "kutipan": "Grosir? Ambil sendiri, Mbak.",
+    "stempel": "TAK DIANTAR"
+   }
+  },
+  {
+   "teks": "Jadi tiap pagi, Sekar menjemput sendiri karungnya dari pasar.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "lari-belanja",
+    "wajah": [
+     "panik"
+    ],
+    "prop": "rb-karung-bawang",
+    "bubble": "berat!",
+    "latar": "rb-latar-pasar-bawang",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Saking rutinnya, tukang parkir pasar memanggilnya juragan bawang.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "bingung",
+    "wajah": [
+     "bingung"
+    ],
+    "stempel": "JURAGAN?",
+    "bubble": "saya staf dapur!",
+    "latar": "rb-latar-pasar-bawang"
+   }
+  },
+  {
+   "teks": "Sampai dapur, tenaganya habis, padahal bawang belum dikupas.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "TENAGA SEKAR",
+    "dari": 100,
+    "ke": 5,
+    "format": "persen",
+    "pose": "kupas-nangis",
+    "wajah": [
+     "panik"
+    ],
+    "bubble": "baru mau kupas",
+    "latar": "rb-latar-dapur-resto",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Melihat stafnya loyo sebelum mengupas, Chef Ayu pindah ke Ratu Bawang.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ],
+    "kata": "Ratu Bawang"
+   }
+  },
+  {
+   "teks": "Grosir diantar gratis se-Jogja, tangan pertama, dibayar saat sampai.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "RATU BAWANG",
+    "item": [
+     "Grosir diantar gratis",
+     "Se-Jogja, tangan pertama",
+     "Bayar saat sampai"
+    ],
+    "stempel": "DIANTAR",
+    "pose": "jempol",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Update terbaru: tukang parkir pasar kehilangan juragan bawang favoritnya.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-tunjuk",
+    "judul": "Juragan bawang menghilang",
+    "label": "UPDATE",
+    "nama": "Reporter Mega",
+    "jabatan": "Jogja"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Grosir pun diantar\ngratis se-Jogja",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

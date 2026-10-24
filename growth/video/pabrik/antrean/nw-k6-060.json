@@ -2,51 +2,53 @@
  "kode": "nw-k6-060",
  "brand": "nusawebsite",
  "konsep": "K6",
- "pembuka": "k6-terima-kasih",
+ "pembuka": "k6-pengakuan",
  "pemeran": {
   "utama": "nw-f",
-  "pendukung": []
+  "pendukung": [
+   "admin"
+  ]
  },
- "judul": "Surat pamit file Excel stok: final, FINAL, revisi tiga, sepatu laku dua kali",
- "caption": "Satu file Excel dibuka tiga orang, lahirlah stok_final_FINAL_revisi3. Sepatu putih terakhir pun laku dua kali. Surat pamit dari file Excel stok untuk Kak Sari. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "judul": "Pengakuan file Excel stok: final, FINAL, revisi tiga, sepatu laku dua kali",
+ "caption": "Biar tidak antre, tiap orang simpan salinan sendiri. Lahirlah stok_final_FINAL_revisi3, dan sepatu putih terakhir laku dua kali. Pengakuan file Excel stok untuk Kak Sari. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
  "adegan": [
   {
-   "teks": "Terima kasih, Sari, untuk tiga tahun ini. Aku pamit.",
+   "teks": "Satu sepatu putih, dua pembeli. Itu salahku.",
    "primitif": "haru",
    "opsi": {
-    "kartu": "Terima kasih, Sari",
-    "tag": "AKU PAMIT",
+    "kartu": "1 sepatu, 2 pembeli",
+    "tag": "SALAHKU",
     "label": "stok.xlsx",
-    "maskot": "nw-maskot-excel-senang"
+    "maskot": "nw-maskot-excel-bingung"
    }
   },
   {
-   "teks": "Aku file Excel stok toko sepatu onlinemu.",
+   "teks": "Sari, aku file Excel stok toko sepatumu.",
    "primitif": "surat-buka",
    "opsi": {
-    "judul": "Surat Pamit",
+    "judul": "Pengakuan",
     "untuk": "Sari, pemilik toko sepatu",
     "dari": "file Excel stok",
     "maskot": "nw-maskot-excel-yakin"
    }
   },
   {
-   "teks": "Kamu, admin, gudang, membukaku bergantian.",
+   "teks": "Biar tidak antre membuka file, kamu, admin, dan gudang simpan salinan sendiri.",
    "primitif": "surat",
    "opsi": {
     "baris": [
      "Sari, admin, gudang",
-     "buka bergantian"
+     "tiap orang 1 salinan"
     ],
     "pose": "duduk-laptop",
     "wajah": [
      "senang"
     ],
-    "stempel": "GILIRAN"
+    "stempel": "SALINAN"
    }
   },
   {
-   "teks": "Tiap orang simpan salinan. Namaku final, final, revisi tiga.",
+   "teks": "Lahirlah aku final, final, revisi tiga.",
    "primitif": "surat",
    "opsi": {
     "baris": [
@@ -59,48 +61,46 @@
    }
   },
   {
-   "teks": "Sabtu, admin menjual sepatu putih terakhir.",
-   "primitif": "surat",
+   "teks": "Sabtu, Dini, adminmu, menjual sepatu putih terakhir.",
+   "primitif": "chat",
    "opsi": {
-    "baris": [
-     "Sabtu, salinan admin",
-     "Sepatu putih 38: sisa 1",
-     "terjual, jadi 0"
+    "judul": "Pembeli pertama",
+    "sub": "Sepatu putih 38",
+    "pesan": [
+     {
+      "teks": "Sepatu putih 38 masih ada?"
+     },
+     {
+      "teks": "Ada kak, sisa satu!",
+      "keluar": true,
+      "sorot": true
+     }
     ],
-    "gambar": "nw-kardus-label",
-    "stempel": "TERJUAL"
+    "stempel": "TERJUAL",
+    "foto": "nw-admin-cs"
    }
   },
   {
-   "teks": "Stoknya cuma berkurang di salinan admin.",
-   "primitif": "surat",
+   "teks": "Salinan Dini berkurang, salinanmu tidak. Sorenya kamu menjualnya lagi.",
+   "primitif": "bentrok",
    "opsi": {
-    "baris": [
-     "salinan admin: 0",
-     "salinan Sari: masih 1"
+    "kiri": [
+     "Siang",
+     "Dini jual"
     ],
-    "gambar": "nw-maskot-excel-sedih",
-    "stempel": "BEDA"
-   }
-  },
-  {
-   "teks": "Sorenya kamu menjualnya lagi.",
-   "primitif": "surat",
-   "opsi": {
-    "baris": [
-     "Sore, salinan Sari",
-     "Sepatu putih 38: sisa 1",
-     "terjual lagi"
+    "kanan": [
+     "Sore",
+     "Sari jual"
     ],
-    "pose": "ketik-hp",
+    "stempel": "LAKU 2X",
+    "pose": "duduk-laptop",
     "wajah": [
-     "senang"
-    ],
-    "stempel": "LAKU 2X"
+     "kaget"
+    ]
    }
   },
   {
-   "teks": "Gudang cuma menemukan sepasang. Pembeli kedua dapat maaf, bukan sepatu.",
+   "teks": "Gudang cuma punya sepasang. Pembeli kedua dapat maaf.",
    "primitif": "chat",
    "opsi": {
     "judul": "Pembeli kedua",
@@ -111,6 +111,7 @@
      },
      {
       "teks": "Maaf kak, ternyata habis",
+      "keluar": true,
       "sorot": true
      }
     ],
@@ -123,11 +124,11 @@
    }
   },
   {
-   "teks": "Malamnya kamu putuskan, stok pindah ke aplikasi bersama.",
+   "teks": "Malam itu juga, kamu pindahkan stok ke aplikasi bersama.",
    "primitif": "surat",
    "opsi": {
     "baris": [
-     "mulai Senin:",
+     "malam itu juga:",
      "satu stok, satu aplikasi"
     ],
     "pose": "yakin",
@@ -138,7 +139,7 @@
    }
   },
   {
-   "teks": "Kini kalian bertiga melihat angka yang sama.",
+   "teks": "Kini stok berkurang serentak di semua akun.",
    "primitif": "layar",
    "opsi": {
     "app": {
@@ -147,8 +148,8 @@
      "baris": [
       [
        "Sepatu putih 38",
-       "Stok 0",
-       "Habis"
+       "Dini jual 13.05",
+       "Stok 0"
       ],
       [
        "Sneaker hitam 40",
@@ -170,7 +171,7 @@
    }
   },
   {
-   "teks": "Kini aku pensiun, mengurus jadwal arisan. Versinya satu.",
+   "teks": "Kini aku pensiun mengurus arisan. Versiku satu.",
    "primitif": "surat-tutup",
    "opsi": {
     "salam": "Versiku kini satu,",

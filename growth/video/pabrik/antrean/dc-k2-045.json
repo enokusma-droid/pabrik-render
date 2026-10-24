@@ -1,0 +1,202 @@
+{
+ "kode": "dc-k2-045",
+ "brand": "dentalcare",
+ "konsep": "K2",
+ "pembuka": "k2-akhir-dulu",
+ "pemeran": {
+  "utama": "dc-rina",
+  "pendukung": []
+ },
+ "judul": "Pasien sudah ditangani, Rina kiri masih di gudang",
+ "caption": "Dokter minta riwayat cabut pasien lama. Kiri kardus arsip, kanan DentalCare. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "adegan": [
+  {
+   "teks": "Di kanan, pasien sudah ditangani dokter. Di kiri, Mbak Rina masih di gudang.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "DULU",
+    "label_kanan": "SEKARANG",
+    "kiri": {
+     "pose": "panik",
+     "wajah": [
+      "lelah"
+     ],
+     "prop": "dc-prop-kardus-berkas",
+     "stempel": "DI GUDANG"
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "sudah, Dok"
+    }
+   }
+  },
+  {
+   "teks": "Putar ulang. Pasien lama datang. Dokter minta riwayat cabutnya ke resepsionis.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Dari ruang praktik",
+    "sub": "putar ulang",
+    "pesan": [
+     {
+      "teks": "Mbak, riwayat cabutnya?",
+      "sorot": true
+     },
+     {
+      "teks": "Sebentar, Dok",
+      "keluar": true
+     }
+    ],
+    "pose": "telepon",
+    "wajah": [
+     "kaget"
+    ],
+    "latar": "dc-latar-resepsionis"
+   }
+  },
+  {
+   "teks": "Kiri dan kanan, Mbak Rina yang sama, klinik yang sama.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "DULU",
+    "label_kanan": "SEKARANG",
+    "kiri": {
+     "pose": "buku",
+     "wajah": [
+      "bingung"
+     ],
+     "bubble": "sebentar, Dok"
+    },
+    "kanan": {
+     "pose": "telepon",
+     "wajah": [
+      "yakin"
+     ],
+     "bubble": "sebentar, Dok"
+    }
+   }
+  },
+  {
+   "teks": "Rina kiri membongkar tiga kardus di gudang, bersin tiga kali.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "DULU",
+    "label_kanan": "SEKARANG",
+    "kiri": {
+     "pose": "panik",
+     "wajah": [
+      "lelah"
+     ],
+     "prop": "dc-prop-kardus-berkas",
+     "stempel": "HACHI!"
+    },
+    "kanan": {
+     "pose": "telepon",
+     "wajah": [
+      "yakin"
+     ],
+     "bubble": "ketik nama..."
+    }
+   }
+  },
+  {
+   "teks": "Rina kanan mengetik nama. Cabutan dua tahun lalu langsung tampil di DentalCare.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "DULU",
+    "label_kanan": "SEKARANG",
+    "kiri": {
+     "pose": "buku",
+     "wajah": [
+      "lelah"
+     ],
+     "stempel": "MASIH CARI"
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "TAMPIL ✓"
+    }
+   }
+  },
+  {
+   "teks": "Rina kiri menemukan mapnya. Halamannya dimakan rayap.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "DULU",
+    "label_kanan": "SEKARANG",
+    "kiri": {
+     "pose": "buku",
+     "wajah": [
+      "kaget"
+     ],
+     "stempel": "RAYAP!"
+    },
+    "kanan": {
+     "pose": "telepon",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "sudah beres"
+    }
+   }
+  },
+  {
+   "teks": "Yang paling hafal riwayat pasien itu ternyata rayap.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "panik",
+    "wajah": [
+     "kesal"
+    ],
+    "judul": "PALING HAFAL",
+    "sub": "riwayat pasien: rayap",
+    "stempel": "RAYAP"
+   }
+  },
+  {
+   "teks": "Kiri pun pindah. Dua tahun lagi, yang hafal bukan rayap.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-pasien-detail-rapi",
+      "judul": "Riwayat Pasien"
+     }
+    ],
+    "stempel": "PINDAH ✓",
+    "pose": "jempol",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.4,
+  "catatan": "Layak tayang. Adegan 8 kabur soal nasib riwayat yang dimakan rayap; adegan 3 mengulang premis; teks ketik nama sebaiknya di adegan 5.",
+  "naskah_hash": "1461b9519641",
+  "waktu": "2026-10-22T12:35"
+ }
+}

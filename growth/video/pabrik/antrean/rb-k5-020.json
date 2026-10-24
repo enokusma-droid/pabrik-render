@@ -1,0 +1,151 @@
+{
+ "kode": "rb-k5-020",
+ "brand": "ratu-bawang",
+ "konsep": "K5",
+ "pembuka": "k5-bunyi",
+ "pemeran": {
+  "utama": "detektif",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Kasus dua kilo bawang yang hilang setelah lunas",
+ "caption": "Karung dua puluh lima kilo, ditimbang di dapur tinggal dua puluh tiga, padahal sudah dibayar di muka. Detektif Ana menemukan pelakunya. Di Ratu Bawang, bawang dicek dulu baru dibayar saat sampai, langsung dari tangan pertama, gratis ongkir Jogja. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Ting! Timbangan berbunyi: karung dua puluh lima kilo, isinya dua puluh tiga.",
+   "primitif": "berkas-kasus",
+   "opsi": {
+    "judul": "BERKAS KASUS",
+    "nomor": "KASUS #020 DAPUR AYU",
+    "gambar": "rb-timbangan",
+    "label": "23 KG",
+    "stempel": [
+     "KURANG",
+     "LAGI"
+    ]
+   }
+  },
+  {
+   "teks": "Aku Detektif Ana. Pemasok lama mewajibkan Chef Ayu, pemilik resto, bayar di muka.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "KURANG 2 KG",
+    "jumlah": 4,
+    "sub": "klien: Ayu",
+    "pita": "PENYELIDIKAN",
+    "pose": "kaca-pembesar"
+   }
+  },
+  {
+   "teks": "Kata karung: aku wadah, tak doyan bawang.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "rb-karung-bawang",
+    "label": "KARUNG",
+    "catatan": "cuma wadah, tak doyan bawang",
+    "stempel": [
+     "ALIBI"
+    ],
+    "detektif": true
+   }
+  },
+  {
+   "teks": "Kata timbangan dapur: sekilo gula kutimbang, tetap sekilo.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "rb-timbangan",
+    "label": "TIMBANGAN DAPUR",
+    "catatan": "gula 1 kg tetap 1 kg",
+    "stempel": [
+     "ALIBI KUAT"
+    ]
+   }
+  },
+  {
+   "teks": "Pemasok lama membalas: pas berangkat, Bu, menguap di jalan.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok Lama",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Pas berangkat, Bu"
+     },
+     {
+      "teks": "Menguap di jalan",
+      "sorot": true
+     },
+     {
+      "teks": "Dua kilo menguap?",
+      "keluar": true
+     }
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "kesal"
+    ],
+    "stempel": "MENGELAK"
+   }
+  },
+  {
+   "teks": "Benang merahnya: uang sampai utuh, bawangnya tidak.",
+   "primitif": "benang",
+   "opsi": {
+    "gambar": [
+     "rb-karung-bawang",
+     "rb-timbangan",
+     "rb-nota"
+    ],
+    "tanya": "?",
+    "ganti": "uang utuh?"
+   }
+  },
+  {
+   "teks": "Pelakunya bayar di muka: sudah lunas, yang kurang tak bisa ditolak.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "rb-nota",
+    "label": "PELAKU",
+    "stempel": "BAYAR DI MUKA"
+   }
+  },
+  {
+   "teks": "Chef Ayu pindah ke Ratu Bawang: dicek di depannya, dibayar saat sampai.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "tokoh": "rb-ayu",
+    "pose": "karung-jempol",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Kini timbangan berbunyi sebelum dompet dibuka.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "TIMBANGAN",
+    "dari": 23,
+    "ke": 25,
+    "format": "angka",
+    "kata": "kilo, baru dibayar",
+    "prop": "rb-karung-bawang",
+    "tokoh": "rb-ayu",
+    "pose": "foto-jempol"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Timbang dulu,\nbaru bayar",
+    "pose": "tunjuk"
+   }
+  }
+ ]
+}

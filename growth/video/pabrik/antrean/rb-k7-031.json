@@ -1,0 +1,205 @@
+{
+ "kode": "rb-k7-031",
+ "brand": "ratu-bawang",
+ "konsep": "K7",
+ "pembuka": "k7-angka",
+ "pemeran": {
+  "utama": "rb-wening",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Tutorial bikin delapan kilo bawang hilang: bayar dulu ke pemasok grup",
+ "caption": "Chef Ayu pernah transfer penuh ke pemasok baru dari grup, yang datang cuma separuh lebih sedikit. Sekarang pesan ke Ratu Bawang: barang dicek dulu di dapur, baru dibayar. Gratis ongkir se-Jogja, ecer dan grosir, langsung dari tangan pertama. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Delapan kilo bawang Chef Ayu, pemilik resto, lenyap tanpa sulap.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "KILO HILANG",
+    "dari": 0,
+    "ke": 8,
+    "format": "angka",
+    "bubble": "tanpa sulap",
+    "pose": "keranjang-kosong",
+    "wajah": [
+     "bingung"
+    ],
+    "latar": "rb-latar-dapur-resto",
+    "suasana": "masalah",
+    "tokoh": "rb-ayu"
+   }
+  },
+  {
+   "teks": "Aku Mbak Wening, kurir Ratu Bawang. Kubongkar caranya.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "lambai",
+    "wajah": [
+     "yakin"
+    ],
+    "judul": "Mbak Wening",
+    "sub": "kurir Ratu Bawang",
+    "bubble": "simak ya",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Tutorial hari ini: cara bikin kilo hilang.",
+   "primitif": "tutorial-hook",
+   "opsi": {
+    "judul": "Cara bikin kilo",
+    "kunci": "HILANG",
+    "jumlah": 3,
+    "pose": "lambai",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Satu, ambil pemasok dari grup, yang balas paling cepat.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 1,
+    "total": 3,
+    "judul": "Ambil pemasok\nDARI GRUP",
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "senang"
+    ],
+    "bubble": "balas kilat!"
+   }
+  },
+  {
+   "teks": "Dua, transfer penuh sebelum barang jalan.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 2,
+    "total": 3,
+    "judul": "Transfer penuh\nSEBELUM JALAN",
+    "prop": "rb-nota",
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "yakin"
+    ],
+    "bubble": "beres!"
+   }
+  },
+  {
+   "teks": "Tiga, terima karung tanpa ditimbang, dapur sedang ramai servis.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 3,
+    "total": 3,
+    "judul": "Terima karung\nTANPA DITIMBANG",
+    "prop": "rb-karung-bawang",
+    "tokoh": "rb-ayu",
+    "pose": "karung-jempol",
+    "wajah": [
+     "senang"
+    ],
+    "cap": "BERHASIL ✓",
+    "bubble": "praktis!"
+   }
+  },
+  {
+   "teks": "Malamnya ditimbang, kurang delapan kilo. Pemasoknya keluar grup.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Grup Pemasok",
+    "sub": "Chef Ayu",
+    "pesan": [
+     {
+      "teks": "Kok kurang 8 kilo?",
+      "keluar": true
+     },
+     {
+      "teks": "Pemasok keluar dari grup",
+      "sorot": true
+     }
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "keranjang-kosong",
+    "wajah": [
+     "kesal"
+    ],
+    "stempel": "KABUR",
+    "suasana": "malam"
+   }
+  },
+  {
+   "teks": "Langkah bonus Chef Ayu: Ratu Bawang, bayar saat sampai.",
+   "primitif": "langkah",
+   "opsi": {
+    "no": 4,
+    "total": 3,
+    "judul": "Bayar\nSAAT SAMPAI",
+    "prop": "rb-karung-bawang",
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "lega"
+    ],
+    "bonus": true
+   }
+  },
+  {
+   "teks": "Aku antar gratis, dicek di depan Chef Ayu, baru dibayar.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "serah-karung",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Mbak Wening",
+    "sub": "cek dulu, baru bayar",
+    "prop": "rb-timbangan",
+    "latar": "rb-latar-dapur-resto",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Delapan kilo tadi? Sekarang ikut datang. Tutorialnya gagal.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "KILO HILANG",
+    "dari": 8,
+    "ke": 0,
+    "format": "angka",
+    "bubble": "tutorial gagal",
+    "pose": "lambai",
+    "wajah": [
+     "lega"
+    ],
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Cek dulu,\nbaru bayar",
+    "pose": "pikul-karung",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.4,
+  "catatan": "Layak. Saran: adegan 10 rancu (kilo hilang tak kembali), adegan 7 sebut uang sudah ditransfer, pertajam ironi pembuka.",
+  "naskah_hash": "bee473ce739f",
+  "waktu": "2026-10-22T12:40"
+ }
+}

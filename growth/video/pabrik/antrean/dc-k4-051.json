@@ -1,0 +1,205 @@
+{
+ "kode": "dc-k4-051",
+ "brand": "dentalcare",
+ "konsep": "K4",
+ "pembuka": "k4-pasti-salah-satu",
+ "pemeran": {
+  "utama": "dc-rina",
+  "pendukung": []
+ },
+ "judul": "Tiga jurus resepsionis untuk pasien tanpa janji, semuanya salah",
+ "caption": "Pasien sakit gigi datang tanpa janji. Tiga jurus resepsionis yang salah, dan satu jurus sekarang. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "adegan": [
+  {
+   "teks": "Pasien memegang pipi, masuk tanpa janji. Tiap resepsionis punya satu jurus ini.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "buku",
+    "wajah": [
+     "bingung"
+    ],
+    "judul": "Mbak Rina",
+    "sub": "resepsionis klinik",
+    "bubble": "aduh, gigi...",
+    "latar": "dc-latar-resepsionis"
+   }
+  },
+  {
+   "teks": "Jurus satu, si selip: pasien diselipkan, pasien jam berikutnya ikut cemberut.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Selip",
+    "rarity": "COMMON",
+    "foto": "dc-rina-foto",
+    "stat": [
+     [
+      "CEPAT",
+      90
+     ],
+     [
+      "JADWAL MOLOR",
+      95
+     ],
+     [
+      "NIAT BAIK",
+      95
+     ]
+    ],
+    "skill": "pasien langsung masuk",
+    "lemah": "pasien berikut cemberut",
+    "gag": {
+     "turun": 2,
+     "ke": 5
+    }
+   }
+  },
+  {
+   "teks": "Jurus dua, si tunggu dulu: dua jam kemudian pasien pulang. Sakitnya reda, giginya belum.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Tunggu Dulu",
+    "rarity": "RARE",
+    "foto": "dc-rina-foto",
+    "stat": [
+     [
+      "RAMAH",
+      95
+     ],
+     [
+      "KEPASTIAN",
+      5
+     ],
+     [
+      "SABAR",
+      80
+     ]
+    ],
+    "skill": "senyum menenangkan",
+    "lemah": "pasien pulang, gigi belum",
+    "gag": {
+     "jenis": "lupa",
+     "item": [
+      "sampai kapan?",
+      "pulang saja..."
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Jurus tiga, si penuh terus: bilang penuh, padahal yang batal lupa dicoret.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Penuh Terus",
+    "rarity": "EPIC",
+    "foto": "dc-rina-foto",
+    "stat": [
+     [
+      "TEGAS",
+      90
+     ],
+     [
+      "SLOT TERBUANG",
+      90
+     ],
+     [
+      "DATA",
+      20
+     ]
+    ],
+    "skill": "menolak dengan sopan",
+    "lemah": "yang batal tak dicoret",
+    "gag": {
+     "jenis": "chat",
+     "item": [
+      "penuh, Bu",
+      "(ada yang batal)"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Mbak Rina, resepsionis, mengaku pernah memakai ketiganya.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "buku",
+    "wajah": [
+     "kesal"
+    ],
+    "judul": "Mbak Rina",
+    "sub": "pengakuan",
+    "stempel": "MALU"
+   }
+  },
+  {
+   "teks": "Jurus sekarang: yang batal dicoret di DentalCare, jam kosong terdekat langsung kelihatan.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Rina Sekarang",
+    "rarity": "LEGENDARY",
+    "foto": "dc-rina-foto",
+    "stat": [
+     [
+      "CEPAT",
+      100
+     ],
+     [
+      "KEPASTIAN",
+      100
+     ],
+     [
+      "JAM PASTI",
+      100
+     ]
+    ],
+    "skill": "jadwal di DentalCare",
+    "lemah": "tak ada lagi cemberut",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "Batal: dicoret",
+      "Kosong: 14.00"
+     ],
+     "stempel": "PASTI"
+    }
+   }
+  },
+  {
+   "teks": "Jam dua kosong. Pasien tahu jam pastinya.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-jadwal-rapi",
+      "judul": "Jam Kosong 14.00"
+     }
+    ],
+    "stempel": "JAM PASTI ✓",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Kamu jurus berapa? Tulis di komentar.",
+   "primitif": "tipe-pilih",
+   "opsi": {
+    "komentar": "Aku jurus nomor ..."
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}

@@ -2,85 +2,68 @@
  "kode": "nw-k5-047",
  "brand": "nusawebsite",
  "konsep": "K5",
- "pembuka": "k5-detektif-bicara",
+ "pembuka": "k5-akhir-dulu",
  "pemeran": {
   "utama": "detektif",
   "pendukung": [
    "nw-f"
   ]
  },
- "judul": "Dua kerudung bunga kabur lewat kardus retur",
- "caption": "Buku stok bilang dua puluh kerudung motif bunga, rak cuma delapan belas. Detektif Ana membongkar kardus retur dan chat toko Kak Sari. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
- "musik": "",
+ "judul": "Kasus dua kerudung yang kabur dari rak",
+ "caption": "Buku stok bilang dua puluh, rak cuma delapan belas. Sari menuduh raknya, Detektif Ana menemukan pelaku yang lebih dekat. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
  "adegan": [
   {
-   "teks": "Namaku Detektif Ana. Dua kerudung terjual, padahal buku bilang masih ada.",
+   "teks": "Kasus ini berakhir dengan permintaan maaf pada sebuah rak.",
+   "primitif": "poster",
+   "opsi": {
+    "judul": "DITUTUP",
+    "gambar": "nw-rak-stok",
+    "label": "RAK GUDANG",
+    "keterangan": "tuduhan: 2 kerudung",
+    "stempel": "TERSANGKA",
+    "tag": "BUKU 20 / RAK 18"
+   }
+  },
+  {
+   "teks": "Aku Detektif Ana. Klienku Sari, pemilik toko kerudung, menuduh raknya mencuri.",
    "primitif": "penyelidikan",
    "opsi": {
-    "catatan": "KASUS #047",
+    "catatan": "BUKU 20",
     "jumlah": 2,
-    "sub": "laku tapi ada",
+    "sub": "RAK 18",
     "pita": "PENYELIDIKAN",
-    "pose": "jalan-berkas"
+    "pose": "kaca-pembesar"
    }
   },
   {
-   "teks": "Klienku Sari, toko kerudung online: buku dua puluh, rak delapan belas.",
-   "primitif": "tokoh",
-   "opsi": {
-    "tokoh": "nw-f",
-    "pose": "pusing-hp",
-    "wajah": [
-     "bingung",
-     "panik"
-    ],
-    "judul": "Sari",
-    "sub": "toko kerudung online",
-    "bubble": "buku 20, rak 18",
-    "latar": "nw-latar-gudang"
-   }
-  },
-  {
-   "teks": "Tersangka pertama, rak: aku tak punya tangan.",
+   "teks": "Tersangka pertama, rak: aku tidak punya tangan, Bu.",
    "primitif": "tersangka",
    "opsi": {
     "no": 1,
     "gambar": "nw-rak-stok",
     "label": "RAK GUDANG",
-    "catatan": "aku tak punya tangan",
+    "catatan": "rak: aku tak punya tangan",
     "stempel": [
      "ALIBI KUAT"
-    ]
+    ],
+    "detektif": true
    }
   },
   {
-   "teks": "Tersangka kedua, buku: aku cuma tahu yang ditulis.",
+   "teks": "Tersangka kedua, kardus retur: dua kerudung retur dicatat masuk, tak pernah dicatat keluar.",
    "primitif": "tersangka",
    "opsi": {
     "no": 2,
-    "gambar": "nw-maskot-buku-panik",
-    "label": "BUKU STOK",
-    "catatan": "retur +2 masuk, keluar ?",
-    "stempel": [
-     "ALIBI KUAT"
-    ]
-   }
-  },
-  {
-   "teks": "Tersangka ketiga, kardus retur: dua retur cuma mampir.",
-   "primitif": "tersangka",
-   "opsi": {
-    "no": 3,
     "gambar": "nw-kardus-tumpuk",
     "label": "KARDUS RETUR",
-    "catatan": "tercatat 2, isi 0",
+    "catatan": "kosong; masuk buku, keluar ?",
     "stempel": [
-     "CUMA MAMPIR"
+     "KOSONG"
     ]
    }
   },
   {
-   "teks": "Bukti chat: Sari menjual dua retur, tanpa catatan keluar.",
+   "teks": "Bukti chat: Sari menjual dua retur itu.",
    "primitif": "chat",
    "opsi": {
     "judul": "Chat Toko Sari",
@@ -94,17 +77,14 @@
       "teks": "Kak, motif bunga masih ada?"
      },
      {
-      "teks": "Ada Kak, sisa dua",
+      "teks": "Ada, sisa dua retur",
       "keluar": true
      },
      {
-      "teks": "Aku ambil satu ya"
+      "teks": "Aku ambil dua ya"
      },
      {
-      "teks": "Kak, aku juga satu!"
-     },
-     {
-      "teks": "Siap, dua dikirim hari ini",
+      "teks": "Siap, dikirim hari ini",
       "keluar": true,
       "sorot": true
      }
@@ -114,40 +94,35 @@
    }
   },
   {
-   "teks": "Pelakunya jualan chat tanpa catatan.",
+   "teks": "Pelakunya: catatan manual yang lupa diisi.",
    "primitif": "pelaku",
    "opsi": {
-    "gambar": "nw-hp-chat-banjir",
+    "gambar": "nw-buku-coretan",
     "label": "PELAKU",
-    "stempel": "CHAT TAK DICATAT"
+    "stempel": "CATATAN MANUAL"
    }
   },
   {
-   "teks": "Kini Sari mencatat jualan chat di aplikasi stok.",
+   "teks": "Malu pada rak, Sari pindah ke aplikasi: pesanan chat ia catat, stok berkurang otomatis.",
    "primitif": "vonis",
    "opsi": {
     "vonis": "STOK",
     "judul": "Stok Toko Sari",
     "cari": "kerudung bunga",
-    "detik": 3,
-    "ok": "TERCATAT ✓",
+    "detik": 2,
+    "ok": "STOK -2",
     "app": {
      "judul": "Stok Toko Sari",
      "lencana": "Hari ini",
      "baris": [
       [
-       "Retur bunga",
-       "+2 masuk",
-       "Tercatat"
+       "Pesanan chat",
+       "2 kerudung bunga",
+       "Dicatat"
       ],
       [
-       "Jual via chat",
-       "-2 keluar",
-       "Tercatat"
-      ],
-      [
-       "Kerudung Bunga",
-       "Stok 18",
+       "Stok otomatis",
+       "20 jadi 18",
        "Cocok rak"
       ]
      ]
@@ -155,13 +130,16 @@
    }
   },
   {
-   "teks": "Rak tetap tak punya tangan.",
+   "teks": "Sari minta maaf pada rak.",
    "primitif": "haru",
    "opsi": {
-    "kartu": "Tetap tak punya tangan",
+    "kartu": "Maaf ya, rak",
     "tag": "KASUS DITUTUP",
-    "maskot": "nw-rak-stok",
-    "label": "RAK GUDANG"
+    "tokoh": "nw-f",
+    "pose": "bingung",
+    "wajah": [
+     "tertawa"
+    ]
    }
   },
   {

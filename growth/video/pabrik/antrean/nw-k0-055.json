@@ -2,43 +2,35 @@
  "kode": "nw-k0-055",
  "brand": "nusawebsite",
  "konsep": "K0",
- "pembuka": "k0-benda-bicara",
+ "pembuka": "k0-angka",
  "pemeran": {
   "utama": "nw-f",
   "pendukung": []
  },
- "judul": "Kalkulator yang tombol delapannya botak gara-gara rekap akhir bulan",
- "caption": "Tiap akhir bulan Sari merekap ratusan nota grosir alat sekolahnya, hasilnya tidak pernah cocok dengan gudang. Cerita dari sudut pandang kalkulator di mejanya. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "judul": "Kalkulator yang dituduh gara-gara rekap akhir bulan",
+ "caption": "Rekap akhir bulan grosir alat sekolah Sari selisih lima puluh pak. Tikus dituduh, kalkulator dituduh, padahal pelakunya nota tulisan tangan. Cerita dari sudut pandang kalkulator di mejanya. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
  "adegan": [
   {
-   "teks": "Aku kalkulator Sari. Dia sayang aku, sampai tombolku botak.",
-   "primitif": "reveal",
+   "teks": "Dua ratus nama pelanggan Sari hafal; isi lacinya sendiri, tidak.",
+   "primitif": "hitung",
    "opsi": {
-    "subjek": "nw-maskot-kalkulator-yakin",
-    "label": "KALKULATOR",
-    "teks": "TOMBOL BOTAK",
-    "stempel": "SAYANG?"
-   }
-  },
-  {
-   "teks": "Sari, pemilik grosir perlengkapan sekolah.",
-   "primitif": "tokoh",
-   "opsi": {
+    "judul": "NAMA HAFAL",
+    "dari": 0,
+    "ke": 200,
+    "format": "angka",
+    "bubble": "laci? entah.",
     "pose": "yakin",
     "wajah": [
      "yakin"
-    ],
-    "judul": "Sari",
-    "sub": "grosir alat sekolah",
-    "stempel": "BOS GROSIR"
+    ]
    }
   },
   {
-   "teks": "Tiap akhir bulan, dia merekap ratusan nota.",
+   "teks": "Tiap akhir bulan, pemilik grosir ini merekap ratusan nota.",
    "primitif": "tumpuk",
    "opsi": {
     "prop": "nw-tumpukan-nota",
-    "kartu": "rekap akhir bulan",
+    "kartu": "grosir alat sekolah Sari",
     "tag": "312 NOTA",
     "pose": "duduk-catat",
     "wajah": [
@@ -47,31 +39,28 @@
    }
   },
   {
-   "teks": "Tombol delapanku aus, kadang tidak masuk.",
-   "primitif": "derita",
+   "teks": "Penjumlahnya? Iya, aku. Kalkulatornya.",
+   "primitif": "reveal",
    "opsi": {
-    "maskot": "nw-maskot-kalkulator-bingung",
+    "subjek": "nw-maskot-kalkulator-yakin",
     "label": "KALKULATOR",
-    "item": [
-     "TOMBOL 8 AUS",
-     "KADANG MACET",
-     "ANGKA HILANG"
-    ]
+    "teks": "IYA, AKU.",
+    "stempel": "SI PENJUMLAH"
    }
   },
   {
-   "teks": "Rekap buku tulis selisih lima puluh pak dari gudang.",
+   "teks": "Total nota kalah lima puluh pak dari keluar gudang.",
    "primitif": "bentrok",
    "opsi": {
     "kiri": [
      "430",
-     "Rekap nota"
+     "Total nota"
     ],
     "kanan": [
      "480",
-     "Gudang"
+     "Keluar"
     ],
-    "stempel": "SELISIH 50",
+    "stempel": "KURANG 50",
     "pose": "bingung",
     "wajah": [
      "kaget"
@@ -79,19 +68,32 @@
    }
   },
   {
-   "teks": "Sari malah menuduh tikus gudang.",
+   "teks": "Mula-mula Sari menuduh tikus.",
    "primitif": "tokoh",
    "opsi": {
     "pose": "tunjuk",
     "wajah": [
      "curiga"
     ],
-    "bubble": "Tikus belajar?",
-    "stempel": "TERSANGKA?"
+    "bubble": "Tikus mau ujian?",
+    "stempel": "TERSANGKA 1"
    }
   },
   {
-   "teks": "Tiga malam rekap ulang, hasilnya beda terus.",
+   "teks": "Lalu dia menuduh tombol delapanku.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "nw-maskot-kalkulator-bingung",
+    "label": "KALKULATOR",
+    "item": [
+     "TERSANGKA 2",
+     "TOMBOL 8 AUS",
+     "DIPENCET KERAS"
+    ]
+   }
+  },
+  {
+   "teks": "Tiga malam rekap ulang, tetap selisih.",
    "primitif": "hitung",
    "opsi": {
     "judul": "MALAM REKAP",
@@ -99,7 +101,7 @@
     "ke": 3,
     "format": "angka",
     "prop": "nw-kalkulator-struk",
-    "bubble": "Beda lagi!",
+    "bubble": "Pelan-pelan, 8!",
     "pose": "lelah",
     "wajah": [
      "lelah"
@@ -107,20 +109,32 @@
    }
   },
   {
-   "teks": "Sari memutuskan rekap pindah ke aplikasi.",
+   "teks": "Ternyata tiga nota terselip di laci.",
+   "primitif": "poster",
+   "opsi": {
+    "judul": "KETEMU",
+    "gambar": "nw-tumpukan-nota",
+    "label": "3 NOTA",
+    "keterangan": "terselip di laci",
+    "stempel": "50 PAK",
+    "tag": "pelaku sebenarnya"
+   }
+  },
+  {
+   "teks": "Nota tangan gampang terselip; Sari pindah ke aplikasi.",
    "primitif": "logo",
    "opsi": {
     "stempel": "PINDAH!",
     "kiri": "nw-maskot-kalkulator-kaget",
     "label": "KALKULATOR",
-    "pose": "lega",
+    "pose": "yakin",
     "wajah": [
-     "lega"
+     "yakin"
     ]
    }
   },
   {
-   "teks": "Kini tiap nota dicatat saat jual, terjumlah per barang.",
+   "teks": "Kini penjualan langsung terjumlah per barang.",
    "primitif": "layar",
    "opsi": {
     "app": {
@@ -152,7 +166,7 @@
    }
   },
   {
-   "teks": "Angkanya cocok, tikus pun bebas tuduhan.",
+   "teks": "Tikus dan tombolku bebas tuduhan.",
    "primitif": "tokoh",
    "opsi": {
     "pose": "lega",
@@ -164,7 +178,7 @@
    }
   },
   {
-   "teks": "Aku pensiun, kini menghitung pekerjaan rumah anak Sari.",
+   "teks": "Aku pensiun, menghitung pekerjaan rumah anaknya.",
    "primitif": "haru",
    "opsi": {
     "kartu": "Terima kasih, Sari!",
@@ -183,5 +197,18 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.4,
+  "catatan": "Layak tayang; angkanya cocok (430+50=480) dan laci di adegan 1 terbayar di adegan 8. Kelemahan: twist 'Iya, aku' di adegan 3 terlalu dini, jadi kejutan narator hilang. Saran: tunda pengungkapan ke adegan 6 ('Lalu dia menuduh tombol delapan... Iya, aku. Kalkulatornya.'), adegan 3 cukup 'Penjumlahnya selalu sama.' Adegan 1: VO lebih luwes, mis. 'tapi isi lacinya sendiri? Lupa.'",
+  "naskah_hash": "288282ee4dcf",
+  "waktu": "2026-10-22T12:29"
+ }
 }

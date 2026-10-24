@@ -2,26 +2,31 @@
  "kode": "nw-k5-037",
  "brand": "nusawebsite",
  "konsep": "K5",
- "pembuka": "k5-tanya",
+ "pembuka": "k5-tkp",
  "pemeran": {
   "utama": "detektif",
   "pendukung": [
    "nw-f"
   ]
  },
- "judul": "Kasus kardus siap kirim tanpa nama pembeli",
- "caption": "Satu kardus tanpa label, tiga pembeli gamis beda warna. Detektif Ana menginterogasi tersangka di toko Sari. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
+ "judul": "Kasus dua Bu Ani dan gamis yang tertukar",
+ "caption": "Dua pelanggan bernama Ani, satu halaman buku ukuran. Detektif Ana menyelidiki gamis kebesaran di toko jahit Sari. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
  "adegan": [
   {
-   "teks": "Kardus ini kehilangan nama pembeli. Siapa pelakunya?",
-   "primitif": "kartu-tanya",
+   "teks": "Lokasi: toko jahit Sari. Tersangka: Bu Ani, dikira menyusut.",
+   "primitif": "berkas-kasus",
    "opsi": {
-    "teks": "Kardus ini kehilangan nama. Siapa?",
-    "bayangan": "nw-kardus-label"
+    "judul": "BERKAS KASUS",
+    "nomor": "TOKO JAHIT SARI",
+    "gambar": "nw-buku-coretan",
+    "label": "BUKU UKURAN",
+    "stempel": [
+     "MENYUSUT?"
+    ]
    }
   },
   {
-   "teks": "Sari, pemilik toko gamis: tiga kardus, satu tanpa label.",
+   "teks": "Sari, pemilik usaha jahit, memanggilku, Detektif Ana: gamisnya kebesaran.",
    "primitif": "tokoh",
    "opsi": {
     "tokoh": "nw-f",
@@ -30,114 +35,97 @@
      "bingung"
     ],
     "judul": "Sari",
-    "sub": "toko gamis online",
-    "bubble": "1 tanpa label!"
+    "sub": "pemilik usaha jahit",
+    "bubble": "kok kebesaran?",
+    "latar": "nw-latar-toko-rumahan"
    }
   },
   {
-   "teks": "Detektif Ana cek pesanan: Ratna dongker, Lia merah, Dita hijau.",
-   "primitif": "penyelidikan",
-   "opsi": {
-    "catatan": "3 PEMBELI",
-    "jumlah": 3,
-    "sub": "3 warna gamis",
-    "pita": "PENYELIDIKAN",
-    "pose": "kaca-pembesar"
-   }
-  },
-  {
-   "teks": "HP toko: itu tulisan tangan, bukan aku!",
+   "teks": "Tersangka pertama, HP toko: pesannya cuma, Ani, gamis, seperti biasa.",
    "primitif": "tersangka",
    "opsi": {
     "no": 1,
     "gambar": "nw-hp-chat-banjir",
     "label": "HP TOKO",
-    "catatan": "itu tulisan tangan, bukan aku",
+    "catatan": "\"Ani, gamis, seperti biasa\"",
     "stempel": [
-     "ALIBI KUAT"
-    ]
+     "SAKSI KABUR"
+    ],
+    "detektif": true
    }
   },
   {
-   "teks": "Buku catatan: maaf, sibuk jadi tatakan kopi.",
+   "teks": "Tersangka kedua, buku ukuran: halaman Ani cuma satu, ditimpa.",
    "primitif": "tersangka",
    "opsi": {
     "no": 2,
     "gambar": "nw-buku-coretan",
-    "label": "BUKU CATATAN",
-    "catatan": "sibuk jadi tatakan kopi",
+    "label": "BUKU UKURAN",
+    "catatan": "1 halaman Ani, angka ditimpa",
     "stempel": [
-     "NODA KOPI"
+     "DITIMPA"
     ]
    }
   },
   {
-   "teks": "Timbangan: aku cuma tahu dia gendut.",
-   "primitif": "tersangka",
-   "opsi": {
-    "no": 3,
-    "gambar": "nw-timbangan",
-    "label": "TIMBANGAN",
-    "catatan": "cuma tahu dia gendut",
-    "stempel": [
-     "ALIBI KUAT"
-    ]
-   }
-  },
-  {
-   "teks": "Kertas tempel di lantai: Ratna. Sudut robek: dongker.",
+   "teks": "Ani ternyata dua; ukuran si jangkung menimpa si mungil.",
    "primitif": "benang",
    "opsi": {
     "gambar": [
-     "nw-sticky-tumpuk",
-     "nw-kardus-label",
-     "nw-hp-chat-banjir"
+     "nw-hp-chat-banjir",
+     "nw-buku-coretan",
+     "um-polaroid-foto"
     ],
-    "tanya": "?",
-    "ganti": "Ratna: dongker"
+    "ganti": "ANI ADA DUA"
    }
   },
   {
-   "teks": "Pelakunya: label tempel lepas.",
+   "teks": "Pelakunya: catatan ukuran yang cuma pakai nama.",
    "primitif": "pelaku",
    "opsi": {
-    "gambar": "nw-sticky-tumpuk",
+    "gambar": "nw-buku-coretan",
     "label": "PELAKU",
-    "stempel": "LABEL LEPAS"
+    "stempel": "CUMA NAMA"
    }
   },
   {
-   "teks": "Sari pakai aplikasi: label tercetak dari pesanan, nomor plus nama.",
+   "teks": "Kapok, Sari pindah ke aplikasi: ukuran tersimpan per nomor HP pelanggan.",
    "primitif": "vonis",
    "opsi": {
-    "vonis": "LABEL",
-    "cari": "Ratna",
-    "detik": 3,
-    "ok": "TERCETAK",
+    "vonis": "UKURAN",
+    "judul": "Data Pelanggan",
+    "cari": "Ani",
+    "detik": 2,
+    "ok": "2 ANI",
     "app": {
-     "judul": "Label Pesanan",
+     "judul": "Ukuran Pelanggan",
+     "lencana": "Jahit Sari",
      "baris": [
       [
-       "#12 Ratna",
-       "Gamis dongker",
-       "Dicetak"
+       "Ani, 0812 1111",
+       "Gamis S",
+       "Tersimpan"
+      ],
+      [
+       "Ani, 0857 2222",
+       "Gamis XL",
+       "Tersimpan"
       ]
      ]
     }
    }
   },
   {
-   "teks": "Paket Ratna terkirim tanpa tebak-tebakan.",
-   "primitif": "tokoh",
+   "teks": "Gamis baru Bu Ani pas; ia tak menyusut.",
+   "primitif": "haru",
    "opsi": {
+    "kartu": "Pas! Tidak menyusut",
+    "tag": "KASUS DITUTUP",
     "tokoh": "nw-f",
     "pose": "lega",
     "wajah": [
-     "lega"
-    ],
-    "judul": "Sari",
-    "sub": "paket Ratna terkirim",
-    "bubble": "terkirim!"
+     "tertawa"
+    ]
    }
   },
   {

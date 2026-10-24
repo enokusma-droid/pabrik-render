@@ -2,144 +2,126 @@
  "kode": "nw-k5-042",
  "brand": "nusawebsite",
  "konsep": "K5",
- "pembuka": "k5-bunyi",
+ "pembuka": "k5-tanya",
  "pemeran": {
   "utama": "detektif",
   "pendukung": [
    "nw-f"
   ]
  },
- "judul": "Kasus paket yang diterima orang lain",
- "caption": "Resi bilang paket sudah diterima, Bu Ratna bilang belum. Detektif Ana mencocokkan buku pelanggan dan chat di toko online Sari. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #tokoonline #aplikasicustom",
+ "judul": "Kasus salon yang kehilangan pelanggan karena laris",
+ "caption": "Satu pelanggan pergi karena salon Sari terlalu laris. Detektif Ana menginterogasi kalender dinding dan buku telepon. Mau aplikasi seperti ini untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #aplikasicustom #nusawebsite",
  "adegan": [
   {
-   "teks": "Ting. Gamis Bu Ratna tiba tepat waktu, di rumah yang sudah ia tinggalkan.",
-   "primitif": "chat",
+   "teks": "Kenapa salon yang terlalu laris malah kehilangan pelanggan?",
+   "primitif": "kartu-tanya",
    "opsi": {
-    "judul": "Bu Ratna",
-    "sub": "pelanggan Sari",
-    "pesan": [
-     {
-      "teks": "Kak, gamisnya ke rumah lama!"
-     },
-     {
-      "teks": "saya pindah bulan lalu lho",
-      "sorot": true
-     }
+    "teks": "Laris, tapi pelanggan pergi?",
+    "bayangan": "um-kalender-pad"
+   }
+  },
+  {
+   "teks": "Sari, pemilik salon, memanggilku, Detektif Ana: jam sepuluh, dua pelanggan datang.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "nw-f",
+    "pose": "panik",
+    "wajah": [
+     "panik"
     ],
-    "stempel": "SALAH RUMAH",
-    "suasana": "gelap",
-    "foto": "nw-motor-kurir"
+    "judul": "Sari",
+    "sub": "pemilik salon",
+    "bubble": "kursinya satu!",
+    "latar": "nw-latar-toko-rumahan"
    }
   },
   {
-   "teks": "Sari, pemilik toko online, memanggil Detektif Ana.",
-   "primitif": "penyelidikan",
-   "opsi": {
-    "catatan": "KASUS #042",
-    "jumlah": 1,
-    "sub": "salah terima",
-    "pita": "PENYELIDIKAN",
-    "pose": "kaca-pembesar"
-   }
-  },
-  {
-   "teks": "Ana menginterogasi buku pelanggan: alamat lama.",
+   "teks": "Tersangka pertama, kalender dinding: jam sepuluh, Bu Wina, dari chat.",
    "primitif": "tersangka",
    "opsi": {
     "no": 1,
-    "gambar": "nw-buku-coretan",
-    "label": "BUKU PELANGGAN",
-    "catatan": "diinterogasi: alamat lama",
+    "gambar": "um-kalender-pad",
+    "label": "KALENDER DINDING",
+    "catatan": "10.00 Bu Wina (chat)",
     "stempel": [
-     "KEDALUWARSA"
+     "ALIBI KUAT"
     ],
     "detektif": true
    }
   },
   {
-   "teks": "Bukti kedua, chat: alamat baru sudah dikirim, tertimbun stiker.",
+   "teks": "Tersangka kedua, buku telepon: jam sepuluh, Bu Tika, dicatat sambil keramas.",
    "primitif": "tersangka",
    "opsi": {
     "no": 2,
-    "gambar": "nw-hp-chat-banjir",
-    "label": "CHAT TOKO",
-    "catatan": "alamat baru di bawah stiker",
+    "gambar": "nw-buku-coretan",
+    "label": "BUKU TELEPON",
+    "catatan": "10.00 Bu Tika, ada busa sampo",
     "stempel": [
-     "TERTIMBUN"
+     "ALIBI KUAT"
     ]
    }
   },
   {
-   "teks": "Ana mencocokkan: tak pernah disalin.",
-   "primitif": "benang",
+   "teks": "Dua catatan, tak pernah saling kenal.",
+   "primitif": "bentrok",
    "opsi": {
-    "gambar": [
-     "nw-hp-chat-banjir",
-     "nw-buku-coretan"
+    "kiri": [
+     "10.00",
+     "Bu Wina"
     ],
-    "tanya": "?",
-    "ganti": "tak disalin"
+    "kanan": [
+     "10.00",
+     "Bu Tika"
+    ],
+    "stempel": "BENTROK"
    }
   },
   {
-   "teks": "Pelakunya, buku yang tak diperbarui.",
+   "teks": "Pelakunya: jadwal yang tinggal di dua tempat.",
    "primitif": "pelaku",
    "opsi": {
-    "gambar": "nw-buku-coretan",
+    "gambar": "um-kalender-pad",
     "label": "PELAKU",
-    "stempel": "TAK DIPERBARUI"
+    "stempel": "JADWAL GANDA"
    }
   },
   {
-   "teks": "Sari menjemputnya di rumah lama, mengantar ke Bu Ratna.",
+   "teks": "Bu Tika pamit ke salon sebelah.",
    "primitif": "tokoh",
    "opsi": {
     "tokoh": "nw-f",
-    "pose": "bawa-paket",
+    "pose": "lelah",
     "wajah": [
-     "yakin"
+     "sedih"
     ],
     "judul": "Sari",
-    "sub": "pemilik toko online",
-    "bubble": "ke Bu Ratna!"
+    "sub": "Bu Tika pamit",
+    "bubble": "yah..."
    }
   },
   {
-   "teks": "Masih tersegel. Kata penghuni baru: ini paket ketiga, lho.",
-   "primitif": "haru",
-   "opsi": {
-    "kartu": "Tersegel, paket ketiga",
-    "tag": "PAKET SELAMAT",
-    "tokoh": "nw-f",
-    "pose": "lega",
-    "wajah": [
-     "tertawa"
-    ]
-   }
-  },
-  {
-   "teks": "Sari pindah ke aplikasi: alamat diubah sekali, label resi ikut.",
+   "teks": "Kapok, Sari pindah ke aplikasi: semua janji masuk satu jadwal, jam terisi tertutup.",
    "primitif": "vonis",
    "opsi": {
-    "vonis": "ALAMAT",
-    "judul": "Data Pelanggan",
-    "cari": "Ratna",
+    "vonis": "JADWAL",
+    "judul": "Jadwal Salon",
+    "cari": "10.00",
     "detik": 2,
-    "ok": "DITUTUP",
+    "ok": "TERISI",
     "app": {
-     "judul": "Pelanggan Toko Sari",
-     "lencana": "1 diubah",
+     "judul": "Jadwal Salon Sari",
+     "lencana": "Hari ini",
      "baris": [
       [
-       "Bu Ratna",
-       "Jl. Kenanga Blok C",
-       "Diubah"
+       "10.00",
+       "Bu Wina",
+       "Terisi"
       ],
       [
-       "Label resi",
-       "Jl. Kenanga Blok C",
-       "Ikut"
+       "11.00",
+       "Kosong",
+       "Bisa dipilih"
       ]
      ]
     }

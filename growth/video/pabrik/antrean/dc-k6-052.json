@@ -1,0 +1,129 @@
+{
+ "kode": "dc-k6-052",
+ "brand": "dentalcare",
+ "konsep": "K6",
+ "pembuka": "k6-surat-terbuka",
+ "pemeran": {
+  "utama": "dc-tari",
+  "pendukung": [
+   "dc-sinta"
+  ]
+ },
+ "judul": "Surat dari map W yang tiga hari di laci M",
+ "caption": "Map rekam medis menulis surat untuk Mbak Tari tentang lomba lari tiap pergantian pasien. Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil. #klinikgigi #dokterGigi #DentalCare",
+ "adegan": [
+  {
+   "teks": "Aku map W, Mbak Tari. Tiga hari ini, namaku M.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Aku map W, Mbak Tari.",
+     "tiga hari ini, namaku M"
+    ],
+    "gambar": "dc-maskot-map-kaget"
+   }
+  },
+  {
+   "teks": "Senin, pasien W dipanggil. Kamu lari ke lemari mencariku.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "perawat tercepat,",
+     "lari ke lemari"
+    ],
+    "pose": "bawa-berkas",
+    "wajah": [
+     "panik"
+    ]
+   }
+  },
+  {
+   "teks": "Labelku terpasang terbalik. W terbaca M, aku tidur di laci M.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "label W terbalik",
+     "jadi M, masuk laci M"
+    ],
+    "gambar": "dc-maskot-map-kaget",
+    "stempel": "TERBALIK"
+   }
+  },
+  {
+   "teks": "Kamu mencari di laci W. Pasien di kursi, dokter menunggu, kaca mulut sudah dingin.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "dicari di laci W...",
+     "kaca mulut dingin"
+    ],
+    "gambar": "dc-prop-kursi-dental"
+   }
+  },
+  {
+   "teks": "Tanpa riwayat tambalan lama, dokter tak berani menambal. Pasien pulang.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "riwayat tambalan?",
+     "pasien pulang"
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "lelah"
+    ]
+   }
+  },
+  {
+   "teks": "Tiga hari kemudian aku ketemu. Dokter Sinta bilang: cukup.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "CUKUP!",
+    "kiri": "dc-maskot-map-yakin",
+    "label": "REKAM MEDIS",
+    "tokoh": "dc-sinta",
+    "pose": "yakin",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Rekam medis pindah ke DentalCare. Nama diketik, riwayat langsung muncul.",
+   "primitif": "layar",
+   "opsi": {
+    "layar": [
+     {
+      "ui": "dc-ui-pasien-detail-rapi",
+      "judul": "Rekam Medis"
+     }
+    ],
+    "stempel": "TANPA LACI ✓",
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Aku pensiun dari lomba lari. Salam, map W.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Salam,",
+    "ttd": "map W",
+    "maskot": "dc-maskot-map-terharu",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Mau lihat demo DentalCare? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "sorak",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ]
+}
