@@ -2,7 +2,7 @@
  "kode": "rb-k8-027",
  "brand": "ratu-bawang",
  "konsep": "K8",
- "pembuka": "k8-tenggat",
+ "pembuka": "k8-ketukan",
  "pemeran": {
   "utama": "rb-wening",
   "pendukung": [
@@ -10,10 +10,10 @@
   ]
  },
  "judul": "Gedebuk di pintu belakang saat katering hotel tiga ratus porsi menunggu",
- "caption": "Katering hotel tiga ratus porsi, tapi pemasok lama cuma sanggup dua karung. Chef Ayu pesan lima karung ke Ratu Bawang: gratis ongkir Jogja, bayar saat sampai, langsung dari tangan pertama. Gedebuk di pintu belakang saat listrik padam ternyata Mbak Wening memikul pesanannya. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "caption": "Katering hotel tiga ratus porsi, tapi pemasok lama cuma sanggup dua karung. Chef Ayu pesan lima karung ke Ratu Bawang: gratis ongkir Jogja, bayar saat sampai, langsung dari tangan pertama. Gedebuk di pintu belakang saat listrik padam ternyata Mbak Wening mengantar pesanannya dengan gerobak. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
  "adegan": [
   {
-   "teks": "Katering hotel tiga ratus porsi, tapi Chef Ayu, pemilik resto, cuma punya dua karung.",
+   "teks": "Gedebuk di pintu belakang! Chef Ayu, pemilik resto, sedang menyiapkan katering hotel.",
    "primitif": "hitung",
    "opsi": {
     "judul": "KATERING HOTEL",
@@ -27,12 +27,12 @@
    }
   },
   {
-   "teks": "Pemasok lama tak sanggup menambah, sisanya jemput sendiri.",
+   "teks": "Tiga ratus porsi, bawang cuma dua karung.",
    "primitif": "horor",
    "opsi": {
     "teks": [
      "CUMA 2 KARUNG",
-     "SISANYA JEMPUT"
+     "PEMASOK MENYERAH"
     ],
     "gambar": "rb-karung-bawang",
     "tokoh": "rb-ayu",
@@ -43,7 +43,7 @@
    }
   },
   {
-   "teks": "Chef Ayu pesan lima karung ke Ratu Bawang: gratis ongkir Jogja, bayar saat sampai.",
+   "teks": "Pemasok lama menyerah, Chef Ayu pesan lima karung ke Ratu Bawang: gratis ongkir Jogja.",
    "primitif": "logo",
    "opsi": {
     "stempel": "GROSIR!",
@@ -55,18 +55,18 @@
    }
   },
   {
-   "teks": "Sore itu listrik padam, lalu terdengar gedebuk di pintu belakang.",
+   "teks": "Sore tadi listrik padam, bel pintu belakang ikut mati.",
    "primitif": "horor",
    "opsi": {
     "teks": [
      "LISTRIK PADAM",
-     "GEDEBUK!"
+     "BEL MATI"
     ],
     "latar": "rb-latar-dapur-resto"
    }
   },
   {
-   "teks": "Lupa pesanan datang, Chef Ayu menggenggam wajan, mengintip bayangan berpunuk.",
+   "teks": "Bel mati, Chef Ayu mengira maling dan mengintip bawa wajan.",
    "primitif": "horor",
    "opsi": {
     "teks": [
@@ -82,7 +82,7 @@
    }
   },
   {
-   "teks": "Punuknya ternyata lima karung bawang.",
+   "teks": "Punuknya ternyata lima karung bawang di atas gerobak.",
    "primitif": "kejut",
    "opsi": {
     "subjek": "rb-karung-bawang",
@@ -91,10 +91,10 @@
    }
   },
   {
-   "teks": "Ternyata Mbak Wening, kurir Ratu Bawang, memikul pesanan tadi.",
+   "teks": "Ternyata Mbak Wening, kurir Ratu Bawang, mendorong gerobak itu.",
    "primitif": "tokoh",
    "opsi": {
-    "pose": "pikul-karung",
+    "pose": "serah-karung",
     "wajah": [
      "senang"
     ],
@@ -106,13 +106,13 @@
    }
   },
   {
-   "teks": "Dicek dulu, dibayar saat sampai. Tiga ratus porsi aman.",
+   "teks": "Bayar saat sampai, tiga ratus porsi aman.",
    "primitif": "daftar",
    "opsi": {
     "judul": "Pesanan katering",
     "item": [
      "Grosir sampai dapur",
-     "Dicek dulu",
+     "Gratis ongkir Jogja",
      "Bayar saat sampai"
     ],
     "stempel": "AMAN",
@@ -124,7 +124,7 @@
    }
   },
   {
-   "teks": "Wajan tadi kini menumis bawang katering.",
+   "teks": "Listrik menyala, wajan tadi kini menumis bawang katering.",
    "primitif": "haru",
    "opsi": {
     "kartu": "Wajan tetap terpakai",
@@ -152,16 +152,16 @@
  "juri": {
   "skor": {
    "logika": 6,
-   "pembuka": 8,
-   "tokoh": 8,
+   "pembuka": 7,
+   "tokoh": 7,
    "relevansi": 8,
    "humor": 7
   },
-  "rata": 7.4,
-  "catatan": "Lompatan: 'lupa pesanan datang' kurang masuk akal. Wening memikul 5 karung sendirian tidak realistis, ganti pakai motor/gerobak. Listrik padam lalu wajan menumis di adegan 9 tidak nyambung; tambahkan 'listrik menyala lagi'.",
-  "naskah_hash": "c89d0b83119a",
-  "waktu": "2026-10-30T03:52",
+  "rata": 7,
+  "catatan": "Listrik padam kebetulan; gerobak janggal; Wening tampil sebelum disebut namanya.",
+  "naskah_hash": "7920599ac814",
+  "waktu": "2026-10-30T04:04",
   "model": "claude-sonnet-subagen",
-  "mode": "borongan-8"
+  "mode": "borongan-6"
  }
 }

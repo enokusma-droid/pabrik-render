@@ -2,7 +2,7 @@
  "kode": "rb-k7-025",
  "brand": "ratu-bawang",
  "konsep": "K7",
- "pembuka": "k7-angka",
+ "pembuka": "k7-pengakuan",
  "pemeran": {
   "utama": "rb-sekar",
   "pendukung": [
@@ -13,7 +13,7 @@
  "caption": "Malam Minggu ramai, toples bawang kosong, pemasok lama minta minimal sekarung. Cara ini gagal sejak Chef Ayu pindah ke Ratu Bawang: ecer pun diantar, gratis ongkir Jogja, bayar saat sampai, langsung tangan pertama. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
  "adegan": [
   {
-   "teks": "Dua puluh meja penuh, toples bawang Mbak Sekar, staf dapur, kosong. Begini caranya.",
+   "teks": "Aku Sekar, staf dapur, ahli bikin toples bawang kosong saat meja penuh. Begini caranya.",
    "primitif": "tokoh",
    "opsi": {
     "pose": "bingung",
@@ -101,7 +101,7 @@
    }
   },
   {
-   "teks": "Hasilnya: pesanan tertahan, tamu menunggu.",
+   "teks": "Hasilnya: pesanan tertahan, tamu menunggu, dan Chef Ayu, pemilik resto, kesal.",
    "primitif": "tokoh",
    "opsi": {
     "pose": "bingung",
@@ -114,7 +114,7 @@
    }
   },
   {
-   "teks": "Chef Ayu, pemilik resto, lalu pindah ke Ratu Bawang: ecer diantar gratis.",
+   "teks": "Karena itu Chef Ayu pindah ke Ratu Bawang: ecer pun diantar gratis.",
    "primitif": "logo",
    "opsi": {
     "stempel": "PINDAH!",
@@ -127,7 +127,7 @@
    }
   },
   {
-   "teks": "Cara baru: toples separuh, Sekar pesan sekilo.",
+   "teks": "Cara baru: toples tinggal separuh, Sekar pesan sekilo.",
    "primitif": "langkah",
    "opsi": {
     "no": 4,
@@ -141,7 +141,7 @@
    }
   },
   {
-   "teks": "Cara lama gagal: toples kosong tak ada lagi.",
+   "teks": "Sekilo datang gratis, toples terisi, malam Minggu aman.",
    "primitif": "tokoh",
    "opsi": {
     "pose": "jempol",
@@ -149,8 +149,8 @@
      "senang"
     ],
     "prop": "rb-keranjang-bawang",
-    "stempel": "CARA GAGAL",
-    "bubble": "selalu terisi",
+    "stempel": "MALAM MINGGU",
+    "bubble": "toples terisi!",
     "suasana": "solusi"
    }
   },
@@ -168,17 +168,17 @@
  ],
  "juri": {
   "skor": {
-   "logika": 7,
-   "pembuka": 8,
+   "logika": 8,
+   "pembuka": 3,
    "tokoh": 8,
    "relevansi": 8,
    "humor": 7
   },
-  "rata": 7.6,
-  "catatan": "Adegan 8-9 membingungkan: 'cara lama gagal: toples kosong tak ada lagi' tidak nyambung. Ganti dengan akibat nyata: toples separuh, sekilo datang gratis, malam Minggu aman. Chef Ayu baru muncul di adegan 7 tanpa pengantar.",
-  "naskah_hash": "c8b577ad8e77",
-  "waktu": "2026-10-30T03:52",
+  "rata": 6.8,
+  "catatan": "Pembuka dianggap ada di daftar riwayat (klaim juri). Humor 7.",
+  "naskah_hash": "22a3b0fcc1e8",
+  "waktu": "2026-10-30T04:04",
   "model": "claude-sonnet-subagen",
-  "mode": "borongan-8"
+  "mode": "borongan-6"
  }
 }

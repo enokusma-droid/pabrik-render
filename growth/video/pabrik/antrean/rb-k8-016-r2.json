@@ -1,0 +1,179 @@
+{
+ "kode": "rb-k8-016-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K8",
+ "pembuka": "k8-malam-itu",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": [
+   "rb-sekar"
+  ]
+ },
+ "judul": "Bau asam dari gudang bawang tengah malam, lalu karung yang basah",
+ "caption": "Bau asam tercium dari gudang bawang. Mbak Sekar siap dengan sapu untuk tikus, lalu Chef Ayu menyusul dan menemukan penyebabnya: karung kiriman pemasok lama, bawangnya basah dan lengket, padahal sudah dibayar. Chef Ayu pindah ke Ratu Bawang: bawang dicek dulu di dapur, dibayar saat sampai, gratis ongkir Jogja. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Bau asam di gudang, Mbak Sekar, staf dapur, menyiapkan sapu untuk tikus.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "rb-sekar",
+    "pose": "bingung",
+    "wajah": [
+     "kaget"
+    ],
+    "judul": "Mbak Sekar",
+    "sub": "staf dapur",
+    "bubble": "tikus nih!",
+    "stempel": "BAU ASAM",
+    "latar": "rb-latar-gudang-bawang"
+   }
+  },
+  {
+   "teks": "Ia menyalakan lampu dan mengangkat sapu, tapi tak ada tikus.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "MBAK SEKAR",
+     "SAPU SIAP"
+    ],
+    "tokoh": "rb-sekar",
+    "pose": "bingung",
+    "wajah": [
+     "panik"
+    ],
+    "latar": "rb-latar-gudang-bawang"
+   }
+  },
+  {
+   "teks": "Chef Ayu, pemilik resto, menyusul, bingung dari mana baunya.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "CHEF AYU",
+     "BAU DARI MANA?"
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "foto-panik",
+    "wajah": [
+     "kaget"
+    ],
+    "latar": "rb-latar-gudang-bawang"
+   }
+  },
+  {
+   "teks": "Ternyata bukan tikus: karung pemasok lama, bawang lunas yang basah.",
+   "primitif": "kejut",
+   "opsi": {
+    "subjek": "rb-karung-bawang",
+    "teks": "...bawang basah",
+    "stempel": "LENGKET!"
+   }
+  },
+  {
+   "teks": "Pemasok lama membalas: kemarin masih kering kok, Bu.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok lama",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Bu, bawangnya basah"
+     },
+     {
+      "teks": "Kemarin masih kering kok",
+      "sorot": true
+     }
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "kesal"
+    ],
+    "stempel": "MENGELAK"
+   }
+  },
+  {
+   "teks": "Karena sudah lunas, pemasok lama menolak karung dikembalikan.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "SUDAH DIBAYAR",
+     "TAK BISA BALIK"
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "foto-panik",
+    "wajah": [
+     "kesal"
+    ]
+   }
+  },
+  {
+   "teks": "Rugi bawang busuk, Chef Ayu pindah ke Ratu Bawang.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "tokoh": "rb-ayu",
+    "pose": "foto-lega-hp",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Bayar saat sampai, tangan pertama, gratis ongkir Jogja.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "Ratu Bawang",
+    "item": [
+     "Tangan pertama",
+     "Bayar saat sampai",
+     "Gratis ongkir Jogja"
+    ],
+    "stempel": "AMAN",
+    "tokoh": "rb-ayu",
+    "pose": "karung-jempol",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Kini gudang hanya berbau bawang segar; sapu Sekar boleh istirahat.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "Gudang kini segar",
+    "tag": "SAPU ISTIRAHAT",
+    "tokoh": "rb-ayu",
+    "pose": "foto-jempol",
+    "wajah": [
+     "lega"
+    ],
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Bayar saat\nbawang sampai",
+    "pose": "karung-jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang. Saran kecil adegan 8.",
+  "naskah_hash": "ad9822130fc7",
+  "waktu": "2026-10-30T04:04",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-6"
+ }
+}

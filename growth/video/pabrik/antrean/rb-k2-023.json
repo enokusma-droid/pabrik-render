@@ -7,8 +7,8 @@
   "utama": "rb-ayu",
   "pendukung": []
  },
- "judul": "Dua butir bombay, tiga toko: Chef Ayu tahun lalu vs hari ini",
- "caption": "Dua butir bombay: tahun lalu Chef Ayu keliling tiga toko karena pemasok menolak pesanan campur kecil. Hari ini cukup satu pesanan campur ke Ratu Bawang: ecer dilayani, tangan pertama, gratis ongkir Jogja, bayar saat sampai. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "judul": "Dua butir bombay, tiga toko: Chef Ayu dulu keliling, kini cukup satu pesanan",
+ "caption": "Dua butir bombay: dulu Chef Ayu keliling tiga toko karena pemasok menolak pesanan campur kecil. Hari ini cukup satu pesanan campur ke Ratu Bawang: ecer dilayani, tangan pertama, gratis ongkir Jogja, bayar saat sampai. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
  "adegan": [
   {
    "teks": "Chef Ayu, pemilik resto, keliling tiga toko demi dua butir bombay.",
@@ -29,7 +29,7 @@
    }
   },
   {
-   "teks": "Pemasok lama menolak pesanan campur kecil: minimal sekarung per jenis.",
+   "teks": "Ia memesan campur ke pemasok lama, tapi ditolak: minimal sekarung per jenis.",
    "primitif": "chat",
    "opsi": {
     "judul": "Pemasok Lama",
@@ -136,7 +136,7 @@
    }
   },
   {
-   "teks": "Dulu sup menunggu bombay sampai siang, kini langsung dimasak.",
+   "teks": "Dulu sup menunggu bombay sampai tamu bubar, kini sup menunggu tamu.",
    "primitif": "banding",
    "opsi": {
     "label_kiri": "DULU",
@@ -168,17 +168,17 @@
  ],
  "juri": {
   "skor": {
-   "logika": 8,
+   "logika": 7,
    "pembuka": 8,
-   "tokoh": 9,
+   "tokoh": 8,
    "relevansi": 8,
-   "humor": 7
+   "humor": 8
   },
-  "rata": 8,
-  "catatan": "Judul bilang 'tahun lalu' tapi isi tidak; ubah judul. Beri kalimat sambung di adegan 2. Humor bisa ditambah di adegan 7.",
-  "naskah_hash": "ab9a8327e19b",
-  "waktu": "2026-10-30T03:52",
+  "rata": 7.8,
+  "catatan": "Urutan adegan 1-2 kabur; pakai bombay di tiap toko.",
+  "naskah_hash": "fd7186460168",
+  "waktu": "2026-10-30T04:04",
   "model": "claude-sonnet-subagen",
-  "mode": "borongan-11"
+  "mode": "borongan-7"
  }
 }

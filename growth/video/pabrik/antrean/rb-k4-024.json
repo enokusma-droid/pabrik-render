@@ -2,7 +2,7 @@
  "kode": "rb-k4-024",
  "brand": "ratu-bawang",
  "konsep": "K4",
- "pembuka": "k4-angka-langka",
+ "pembuka": "k4-ada-n-tipe",
  "pemeran": {
   "utama": "rb-wening",
   "pendukung": [
@@ -13,7 +13,7 @@
  "caption": "Aku Wening, kurir Ratu Bawang. Dulu aku sebal kalau bawang dicek satu-satu, sampai tahu banyak pemilik dapur pernah rugi bayar di muka. Di Ratu Bawang ecer dan grosir dicek dulu, dibayar saat sampai, gratis ongkir se-Jogja. Kamu tipe berapa? Tulis di komentar, dan silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
  "adegan": [
   {
-   "teks": "Aku Wening, kurir Ratu Bawang: dari empat tipe pemilik dapur saat bawang datang, cuma satu yang tenang.",
+   "teks": "Ada empat tipe pemilik dapur saat bawang datang, kata Wening, kurir Ratu Bawang; cuma satu yang tenang.",
    "primitif": "tipe-hook",
    "opsi": {
     "jumlah": 4,
@@ -133,7 +133,7 @@
    }
   },
   {
-   "teks": "Tipe empat, Chef Ayu, pemilik resto: cek dulu sampai yakin, baru bayar, lalu masak tenang.",
+   "teks": "Tipe empat, Chef Ayu, pemilik resto: tenang, karena bayarnya nanti, setelah bawang sampai dan cocok.",
    "primitif": "kartu-tipe",
    "opsi": {
     "no": 4,
@@ -146,7 +146,7 @@
       100
      ],
      [
-      "WASPADA",
+      "TENANG",
       95
      ],
      [
@@ -158,8 +158,8 @@
       100
      ]
     ],
-    "skill": "cek dulu, baru bayar",
-    "lemah": "pernah bayar di muka",
+    "skill": "bayar setelah bawang sampai",
+    "lemah": "dulu bayar di muka",
     "gag": {
      "turun": 2,
      "ke": 0,
@@ -183,7 +183,7 @@
    }
   },
   {
-   "teks": "Sekarang aku menyodorkan bawangnya satu-satu, silakan dicek.",
+   "teks": "Kini karung kusodorkan, dicek di depanku, baru dibayar di tempat.",
    "primitif": "tokoh",
    "opsi": {
     "pose": "serah-karung",
@@ -191,7 +191,7 @@
      "senang"
     ],
     "bubble": "silakan dicek",
-    "stempel": "SATU-SATU",
+    "stempel": "DI TEMPAT",
     "latar": "rb-latar-dapur-resto",
     "suasana": "solusi"
    }
@@ -212,15 +212,15 @@
   "skor": {
    "logika": 6,
    "pembuka": 8,
-   "tokoh": 8,
-   "relevansi": 8,
+   "tokoh": 7,
+   "relevansi": 7,
    "humor": 7
   },
-  "rata": 7.4,
-  "catatan": "Tipe 1 hampir sama dengan tipe 4; bedakan tipe 4. Adegan 7 ganjil.",
-  "naskah_hash": "54f20d968f47",
-  "waktu": "2026-10-30T03:52",
+  "rata": 7,
+  "catatan": "Pembeda tipe tidak logis.",
+  "naskah_hash": "fabbc2b001be",
+  "waktu": "2026-10-30T04:04",
   "model": "claude-sonnet-subagen",
-  "mode": "borongan-11"
+  "mode": "borongan-7"
  }
 }

@@ -1,0 +1,149 @@
+{
+ "kode": "rb-k5-035",
+ "brand": "ratu-bawang",
+ "konsep": "K5",
+ "pembuka": "k5-laporan",
+ "pemeran": {
+  "utama": "detektif",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Kasus sambal laris yang untungnya tinggal ampas",
+ "caption": "Bawang makin mahal, sambal Chef Ayu laris tapi untungnya tinggal ampas. Detektif Ana membaca notanya mundur dari dapur ke desa dan menemukan rantai panjang. Kini Chef Ayu ambil di Ratu Bawang, tangan pertama dari petani dan pengepul, ecer atau grosir, gratis ongkir Jogja, bayar saat sampai. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Jam tujuh, Chef Ayu, pemilik resto, melapor: sambal laris, untungnya tinggal ampas.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Chef Ayu",
+    "sub": "ke Detektif Ana",
+    "pesan": [
+     {
+      "teks": "Sambal laris, Detektif"
+     },
+     {
+      "teks": "Untungnya tinggal ampas",
+      "sorot": true
+     },
+     {
+      "teks": "Saya selidiki",
+      "keluar": true
+     }
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "foto-panik",
+    "stempel": "AMPAS"
+   }
+  },
+  {
+   "teks": "Aku Detektif Ana. Kubaca nota karung bawangnya, mundur dari dapur ke desa.",
+   "primitif": "penyelidikan",
+   "opsi": {
+    "catatan": "DAPUR > DESA",
+    "jumlah": 2,
+    "sub": "klien: Ayu",
+    "pita": "PENYELIDIKAN",
+    "pose": "kaca-pembesar"
+   }
+  },
+  {
+   "teks": "Nota pemasok pasar: naik sedikit, buat sewa lapak.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 1,
+    "gambar": "rb-latar-pasar-bawang",
+    "label": "PEMASOK PASAR",
+    "catatan": "naik sedikit: sewa lapak",
+    "stempel": [
+     "ALIBI"
+    ],
+    "detektif": true
+   }
+  },
+  {
+   "teks": "Nota pedagang besar: naik sedikit, buat gudang, truk, dan bensinnya.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 2,
+    "gambar": "rb-latar-gudang-bawang",
+    "label": "PEDAGANG BESAR",
+    "catatan": "gudang, truk, bensin",
+    "stempel": [
+     "ALIBI NAMBAH"
+    ]
+   }
+  },
+  {
+   "teks": "Saksi kunci, pengepul di desa: dariku masih murah, Detektif.",
+   "primitif": "tersangka",
+   "opsi": {
+    "no": 3,
+    "gambar": "rb-karung-bawang",
+    "label": "PENGEPUL DESA",
+    "catatan": "dariku masih murah",
+    "stempel": [
+     "SAKSI KUNCI"
+    ]
+   }
+  },
+  {
+   "teks": "Pelakunya rantai panjang. Sedikit-sedikit, lama-lama jadi bukit.",
+   "primitif": "pelaku",
+   "opsi": {
+    "gambar": "rb-tumpuk-nota",
+    "label": "PELAKU",
+    "stempel": "RANTAI PANJANG"
+   }
+  },
+  {
+   "teks": "Chef Ayu pindah ke Ratu Bawang: tangan pertama, langsung dari petani dan pengepul.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "tokoh": "rb-ayu",
+    "pose": "karung-jempol",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Dua tangan dilewati. Kini yang tinggal ampas cuma kulit bawangnya.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "TANGAN PERANTARA",
+    "dari": 2,
+    "ke": 0,
+    "format": "angka",
+    "kata": "pengepul ke dapur",
+    "prop": "rb-karung-bawang",
+    "tokoh": "rb-ayu",
+    "pose": "foto-jempol"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Bawang tangan\npertama",
+    "pose": "tunjuk"
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Layak tayang. Penelusuran nota dari dapur ke desa runtut, penutup 'yang tinggal ampas cuma kulit bawang' tepat. Hati-hati adegan 7-8: jangan sampai terbaca janji harga lebih murah. Tegaskan yang hilang adalah tangan perantara.",
+  "naskah_hash": "7dece70dd65c",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
+}

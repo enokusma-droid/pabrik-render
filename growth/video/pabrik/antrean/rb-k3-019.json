@@ -10,7 +10,7 @@
   ]
  },
  "judul": "Berita: staf dapur dipanggil juragan bawang oleh tukang parkir pasar",
- "caption": "Pemasok lama tidak mau mengantar grosir, jadi tiap pagi Mbak Sekar menjemput dua puluh lima kilo bawang dari pasar naik motor, sampai tukang parkir memanggilnya juragan. Menu pun terlambat, dan Chef Ayu pindah ke Ratu Bawang: grosir diantar gratis se-Jogja, tangan pertama, bayar saat sampai. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "caption": "Pemasok lama tidak mau mengantar grosir, jadi tiap pagi Mbak Sekar menjemput dua puluh lima kilo bawang dari pasar naik motor, sampai tukang parkir memanggilnya juragan. Menu pun terlambat, dan bos Sekar pindah ke Ratu Bawang: grosir diantar gratis se-Jogja, tangan pertama, bayar saat sampai. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
  "adegan": [
   {
    "teks": "Dua puluh lima kilo bawang, satu motor: tiap pagi Mbak Sekar, staf dapur, menjemputnya sendiri.",
@@ -30,7 +30,7 @@
    }
   },
   {
-   "teks": "Reporter Mega menemui Sekar, staf dapur resto Chef Ayu.",
+   "teks": "Reporter Mega menemui Sekar, staf dapur sebuah resto.",
    "primitif": "studio",
    "opsi": {
     "reporter": "um-reporter-mic",
@@ -46,7 +46,7 @@
    "opsi": {
     "saksi": "rb-sekar-foto",
     "nama": "Mbak Sekar",
-    "ket": "staf dapur resto Chef Ayu",
+    "ket": "staf dapur sebuah resto",
     "kutipan": "Grosir? Ambil sendiri, Mbak.",
     "stempel": "TAK DIANTAR"
    }
@@ -96,7 +96,7 @@
    }
   },
   {
-   "teks": "Menu terlambat, Chef Ayu, pemilik resto, menegur, lalu pindah ke Ratu Bawang.",
+   "teks": "Menu terlambat, bos Sekar pun pindah ke Ratu Bawang.",
    "primitif": "logo",
    "opsi": {
     "stempel": "PINDAH!",
@@ -154,10 +154,10 @@
    "humor": 8
   },
   "rata": 7.8,
-  "catatan": "Chef Ayu muncul di VO adegan 7 sebagai orang ketiga. Pakai 'bos Sekar' tanpa nama.",
-  "naskah_hash": "4060682a2149",
-  "waktu": "2026-10-30T03:52",
+  "catatan": "'bos Sekar' tokoh ketiga kabur; adegan 1 belum berbentuk berita.",
+  "naskah_hash": "519396dbbd8a",
+  "waktu": "2026-10-30T04:04",
   "model": "claude-sonnet-subagen",
-  "mode": "borongan-11"
+  "mode": "borongan-7"
  }
 }

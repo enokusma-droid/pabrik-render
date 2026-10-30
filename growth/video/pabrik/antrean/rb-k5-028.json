@@ -10,10 +10,10 @@
   ]
  },
  "judul": "Kasus dua puluh anak tangga dan uang tangga yang terus ditagih",
- "caption": "Resto lantai dua, masuk gang sempit: kurir pemasok lama selalu minta tambahan. Detektif Ana menemukan pelakunya, lalu Mbak Sekar melapor dan pemilik resto pindah ke Ratu Bawang: gratis ongkir Jogja, bayar saat sampai, tangan pertama, ecer atau grosir. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "caption": "Resto lantai dua, masuk gang sempit: kurir pemasok lama selalu minta tambahan. Detektif Ana menemukan pelakunya: kurir lama yang menagih ongkir tambahan. Mbak Sekar melapor dan bosnya pindah ke Ratu Bawang: gratis ongkir Jogja, bayar saat sampai, tangan pertama, ecer atau grosir. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
  "adegan": [
   {
-   "teks": "Mbak Sekar, staf dapur resto lantai dua, dimintai uang tangga tiap bawang diantar. Lagi.",
+   "teks": "Kurir pemasok lama minta uang tangga lagi pada Mbak Sekar, staf dapur.",
    "primitif": "poster",
    "opsi": {
     "judul": "TANGGA",
@@ -25,7 +25,7 @@
    }
   },
   {
-   "teks": "Aku Detektif Ana. Kuselidiki dari gang sampai tangga.",
+   "teks": "Aku Detektif Ana. Tersangkanya gang, tangga, dan kurir.",
    "primitif": "penyelidikan",
    "opsi": {
     "catatan": "LANTAI 2",
@@ -36,7 +36,7 @@
    }
   },
   {
-   "teks": "Kurir pemasok lama minta uang gang sempit dan uang tangga.",
+   "teks": "Kurir lama minta uang gang dan uang tangga.",
    "primitif": "chat",
    "opsi": {
     "judul": "Kurir Pemasok",
@@ -66,7 +66,7 @@
    }
   },
   {
-   "teks": "Tersangka pertama, gang: sempit, tapi motor masih muat.",
+   "teks": "Tersangka pertama, gang: sempit, tapi motor muat.",
    "primitif": "tersangka",
    "opsi": {
     "no": 1,
@@ -80,29 +80,29 @@
    }
   },
   {
-   "teks": "Kedua, tangga: Sekar menaikinya tiap hari, tak pernah menagih.",
+   "teks": "Kedua, tangga: dua puluh, tapi tak bisa menagih.",
    "primitif": "tersangka",
    "opsi": {
     "no": 2,
     "gambar": "rb-karung-bawang",
     "label": "TANGGA",
-    "catatan": "Sekar naik tiap hari, gratis",
+    "catatan": "dua puluh tangga, diam saja",
     "stempel": [
      "ALIBI KUAT"
     ]
    }
   },
   {
-   "teks": "Pelakunya: ongkir yang tumbuh di tiap belokan.",
+   "teks": "Ketiga, pelakunya: kurir lama, penagih ongkir tambahan.",
    "primitif": "pelaku",
    "opsi": {
-    "gambar": "rb-nota",
-    "label": "PELAKU",
-    "stempel": "ONGKIR TAMBAHAN"
+    "gambar": "rb-motor-antar",
+    "label": "KURIR LAMA",
+    "stempel": "PELAKU"
    }
   },
   {
-   "teks": "Sekar melapor, lalu pemilik resto pindah ke Ratu Bawang: gratis ongkir Jogja, bayar saat sampai.",
+   "teks": "Sekar melapor, bosnya kesal ongkir bertambah, lalu pindah ke Ratu Bawang: gratis ongkir Jogja, bayar saat sampai.",
    "primitif": "logo",
    "opsi": {
     "stempel": "PINDAH!",
@@ -138,17 +138,17 @@
  ],
  "juri": {
   "skor": {
-   "logika": 7,
+   "logika": 8,
    "pembuka": 7,
    "tokoh": 7,
    "relevansi": 8,
-   "humor": 6
+   "humor": 7
   },
-  "rata": 7,
-  "catatan": "Adegan 4-5 membingungkan: tersangka tangga 'tak pernah menagih' padahal yang menagih kurir. Pelaku 'ongkir tumbuh di belokan' abstrak. Chef Ayu tak pernah disebut sebelum 'pemilik resto pindah' (adegan 7). Perjelas kurir lama sebagai pelaku.",
-  "naskah_hash": "dadb7c535133",
-  "waktu": "2026-10-30T03:52",
+  "rata": 7.4,
+  "catatan": "Adegan 7: 'bosnya' tidak disebut nama; sebut 'Chef Ayu, pemilik resto'. Adegan 1: 'uang tangga' tegaskan sebagai ongkir tambahan.",
+  "naskah_hash": "b19923d660f1",
+  "waktu": "2026-10-30T04:04",
   "model": "claude-sonnet-subagen",
-  "mode": "borongan-8"
+  "mode": "borongan-6"
  }
 }

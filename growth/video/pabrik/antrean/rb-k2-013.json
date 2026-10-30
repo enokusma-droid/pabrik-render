@@ -1,0 +1,163 @@
+{
+ "kode": "rb-k2-013",
+ "brand": "ratu-bawang",
+ "konsep": "K2",
+ "pembuka": "k2-ironi",
+ "pemeran": {
+  "utama": "rb-sekar",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Transfer dulu, padahal pemilik resto sedang menggoreng",
+ "caption": "Pemasok lama minta transfer dulu, padahal Chef Ayu sedang menggoreng, jadi bawang tiba setelah resto tutup. Sekar hari ini pesan ke Ratu Bawang: dicek dulu, bayar saat sampai, tangan pertama, ecer atau grosir, gratis ongkir Jogja. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Mbak Sekar, staf dapur, menerima balasan pemasok lama: transfer dulu, padahal Chef Ayu, pemilik resto, sedang menggoreng sambal.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok Lama",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Bawang merah 5 kilo ya",
+      "keluar": true
+     },
+     {
+      "teks": "Transfer dulu, Mbak",
+      "sorot": true
+     },
+     {
+      "teks": "Chef masih menggoreng",
+      "keluar": true
+     },
+     {
+      "teks": "Transfer dulu, Mbak"
+     }
+    ],
+    "stempel": "TRANSFER?",
+    "latar": "rb-latar-dapur-resto",
+    "foto": "rb-sekar-foto"
+   }
+  },
+  {
+   "teks": "Chef Ayu menyambar ponsel untuk transfer, dan sambalnya langsung gosong.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "kaget"
+    ],
+    "stempel": "GOSONG",
+    "bubble": "sambalku!",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Kapok, hari itu juga Chef Ayu pindah ke Ratu Bawang, tangan pertama.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  },
+  {
+   "teks": "Dulu bawang baru datang setelah transfer, kini bawang datang dulu ke dapur Mbak Sekar.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "DULU",
+    "label_kanan": "KINI",
+    "kiri": {
+     "pose": "bingung",
+     "wajah": [
+      "bingung"
+     ],
+     "stempel": "TUNGGU"
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "prop": "rb-motor-antar",
+     "stempel": "DATANG"
+    }
+   }
+  },
+  {
+   "teks": "Dulu karung dibuka setelah dibayar, kini Sekar mengecek dulu.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "DULU",
+    "label_kanan": "KINI",
+    "kiri": {
+     "pose": "lari-belanja",
+     "wajah": [
+      "panik"
+     ],
+     "stempel": "LUNAS DULU"
+    },
+    "kanan": {
+     "pose": "kupas-nangis",
+     "wajah": [
+      "senang"
+     ],
+     "prop": "rb-karung-bawang",
+     "stempel": "DICEK"
+    }
+   }
+  },
+  {
+   "teks": "Dulu sambal gosong karena transfer, kini Chef Ayu tetap menggoreng, bayar saat sampai.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "DULU",
+    "label_kanan": "KINI",
+    "kiri": {
+     "pose": "bingung",
+     "wajah": [
+      "kaget"
+     ],
+     "stempel": "GOSONG"
+    },
+    "kanan": {
+     "pose": "jempol",
+     "wajah": [
+      "senang"
+     ],
+     "bubble": "tanpa ditagih"
+    }
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Dicek dulu,\nbayar saat sampai",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Layak tayang.",
+  "naskah_hash": "067d06be56b0",
+  "waktu": "2026-10-30T04:04",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-7"
+ }
+}

@@ -141,17 +141,17 @@
    }
   },
   {
-   "teks": "Nota pagi ini tanpa tiga tangan, dicek dulu, baru dibayar.",
+   "teks": "Nota tanggal dua lebih tipis, dicek dulu, baru dibayar.",
    "primitif": "daftar",
    "opsi": {
     "jam": "07.15",
     "judul": "Nota tanggal dua",
     "item": [
-     "Tanpa tiga tangan",
+     "Nota lebih tipis",
      "Dicek dulu",
      "Baru dibayar"
     ],
-    "stempel": "DARI SUMBER",
+    "stempel": "LEBIH TIPIS",
     "pose": "karung-jempol",
     "wajah": [
      "senang"
@@ -160,7 +160,7 @@
    }
   },
   {
-   "teks": "Nasi goreng bawang tetap, porsi tetap; yang dicoret cuma pemasok lama.",
+   "teks": "Porsi tetap, untung menebal; yang menipis cuma nota dan alasan pemasok lama.",
    "primitif": "tokoh",
    "opsi": {
     "jam": "12.00",
@@ -185,17 +185,17 @@
  ],
  "juri": {
   "skor": {
-   "logika": 8,
+   "logika": 7,
    "pembuka": 8,
-   "tokoh": 9,
-   "relevansi": 8,
-   "humor": 7
+   "tokoh": 8,
+   "relevansi": 7,
+   "humor": 8
   },
-  "rata": 8,
-  "catatan": "Hari 2 belum menunjukkan hasil nyata; tambah 'nota lebih tipis'. Tambah satu ironi lagi di hari 2.",
-  "naskah_hash": "734c299e4316",
-  "waktu": "2026-10-30T03:52",
+  "rata": 7.6,
+  "catatan": "Nota tanggal dua tidak masuk akal; 'untung menebal' di luar layanan.",
+  "naskah_hash": "7c61988aadfb",
+  "waktu": "2026-10-30T04:04",
   "model": "claude-sonnet-subagen",
-  "mode": "borongan-11"
+  "mode": "borongan-7"
  }
 }
