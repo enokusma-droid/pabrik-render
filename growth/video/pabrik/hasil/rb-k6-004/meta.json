@@ -1,0 +1,26 @@
+{
+ "kode": "rb-k6-004",
+ "brand": "ratu-bawang",
+ "konsep": "K6",
+ "judul": "Surat dari keranjang belanja untuk Mbak Sekar",
+ "durasi": 44.3,
+ "LUFS": -14.1,
+ "TP": -1.3,
+ "cocok_vo_%": 94,
+ "cocok_ketat_%": 87,
+ "transkrip_15dtk": "Bahsekar, aku keranjang belanjamu. Tiap polisi tidur, aku kehilangan tigasium. Pemasuk lama di pasar tak mau mengantar, jadi tiap pagi kita jemput. Kamu menyetir motor, aku dicok. Dapur kurang satu orang.",
+ "lulus_qc": true,
+ "musik": "haru",
+ "g3": "konten/pabrik/hasil/rb-k6-004.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k6-004.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40991442538",
+ "waktu": "2026-10-30T09:34+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "d2a40747a66cd8b6",
+  "f2a40747a668dab4",
+  "b0ac074726c9d2b4"
+ ],
+ "mirip_awal": []
+}
