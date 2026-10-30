@@ -1,0 +1,179 @@
+{
+  "kode": "ea-k0-001",
+  "brand": "elite-apron",
+  "konsep": "K0",
+  "judul": "Apron polos kafe Nadia yang selalu dikira lap",
+  "pembuka": "k0-masalah",
+  "pemeran": {
+    "utama": "ea-nadia",
+    "pendukung": [
+      "ea-tiara"
+    ]
+  },
+  "caption": "Seragam cafe Bali yang rapi bikin tamu langsung tahu siapa stafnya. Elite Apron: custom seragam kafe, resto, hotel, bordir logo sudah termasuk. Tanya lewat WhatsApp 0851-1135-4012.",
+  "adegan": [
+    {
+      "teks": "Pramusaji kafe Nadia di Bali terus dikira tamu.",
+      "primitif": "tokoh",
+      "opsi": {
+        "tokoh": "ea-tiara",
+        "pose": "baki-bingung",
+        "wajah": [
+          "bingung"
+        ],
+        "judul": "Mbak Tiara",
+        "sub": "pramusaji",
+        "bubble": "aku staf, Kak!",
+        "stempel": "DIKIRA TAMU",
+        "latar": "ea-latar-kafe-bali"
+      }
+    },
+    {
+      "teks": "Namanya Mbak Tiara, paling gesit, tapi berkaos hitam.",
+      "primitif": "tokoh",
+      "opsi": {
+        "tokoh": "ea-tiara",
+        "pose": "sodor-kopi",
+        "wajah": [
+          "kesal"
+        ],
+        "bubble": "si paling gesit",
+        "stempel": "KAOS HITAM",
+        "latar": "ea-latar-kafe-bali",
+        "suasana": "masalah"
+      }
+    },
+    {
+      "teks": "Tamu memanggil pelayan, Tiara malah ditanya mau pesan apa.",
+      "primitif": "tokoh",
+      "opsi": {
+        "tokoh": "ea-tiara",
+        "pose": "angkat-bahu",
+        "wajah": [
+          "kaget"
+        ],
+        "bubble": "aku pelayannya!",
+        "latar": "ea-latar-kafe-bali",
+        "suasana": "masalah"
+      }
+    },
+    {
+      "teks": "Nadia, pemiliknya, kehilangan tiga meja hari itu.",
+      "primitif": "hitung",
+      "opsi": {
+        "pose": "panik",
+        "wajah": [
+          "panik"
+        ],
+        "judul": "MEJA PERGI",
+        "dari": 0,
+        "ke": 3,
+        "format": "angka",
+        "bubble": "stafnya mana?",
+        "latar": "ea-latar-kafe-bali",
+        "suasana": "masalah"
+      }
+    },
+    {
+      "teks": "Siapa yang paling menderita?",
+      "primitif": "kartu-tanya",
+      "opsi": {
+        "teks": "Siapa paling menderita?",
+        "bayangan": "ea-maskot-apron-lelah"
+      }
+    },
+    {
+      "teks": "Aku, apron polos yang tak pernah dipakai.",
+      "primitif": "reveal",
+      "opsi": {
+        "subjek": "ea-maskot-apron-kaget",
+        "label": "APRON",
+        "teks": "IYA, AKU!"
+      }
+    },
+    {
+      "teks": "Aku pudar tanpa logo, Tiara enggan memakaiku, staf pun tak bertanda.",
+      "primitif": "derita",
+      "opsi": {
+        "maskot": "ea-maskot-apron-lelah",
+        "label": "APRON",
+        "item": [
+          "PUDAR",
+          "TANPA LOGO",
+          "TAK DIPAKAI"
+        ],
+        "prop": [
+          "ea-kaos-pudar"
+        ],
+        "suasana": "masalah"
+      }
+    },
+    {
+      "teks": "Nadia pesan apron custom berbordir logo kafe di Elite Apron.",
+      "primitif": "daftar",
+      "opsi": {
+        "pose": "cek-hp",
+        "wajah": [
+          "yakin"
+        ],
+        "judul": "ELITE APRON",
+        "item": [
+          "apron berlogo",
+          "seragam barista",
+          "bordir logo termasuk"
+        ],
+        "latar": "ea-latar-konveksi"
+      }
+    },
+    {
+      "teks": "Dua minggu kemudian penggantiku datang, aku pensiun dengan tenang.",
+      "primitif": "haru",
+      "opsi": {
+        "kartu": "penggantiku datang",
+        "tag": "PENSIUN",
+        "maskot": "ea-maskot-apron-yakin",
+        "label": "APRON"
+      }
+    },
+    {
+      "teks": "Kini tamu langsung memanggil Tiara.",
+      "primitif": "tokoh",
+      "opsi": {
+        "tokoh": "ea-tiara",
+        "pose": "apron-jempol",
+        "wajah": [
+          "senang"
+        ],
+        "bubble": "siap, Kak!",
+        "stempel": "TEPAT",
+        "latar": "ea-latar-kafe-bali"
+      }
+    },
+    {
+      "teks": "Mau timmu tampil rapi? Tanya WhatsApp Elite Apron.",
+      "primitif": "cta",
+      "opsi": {
+        "pose": "apron-jempol",
+        "wajah": [
+          "senang"
+        ],
+        "ajakan": "Seragam berlogo\nuntuk timmu?",
+        "tokoh": "ea-tiara"
+      }
+    }
+  ],
+  "juri": {
+    "skor": {
+      "logika": 6,
+      "pembuka": 8,
+      "tokoh": 8,
+      "relevansi": 8,
+      "humor": 6
+    },
+    "rata": 7.2,
+    "catatan": "Skor putaran terakhir juri sub-agen (13 putaran, 30 Okt). Humor & logika tidak pernah >=7; catatan juri berayun antar putaran.",
+    "naskah_hash": "4f61c3017aa7",
+    "waktu": "2026-10-30T02:31",
+    "izin_owner": "2026-10-30 — owner minta render untuk dinilai langsung (juri macet 13 putaran)"
+  }
+}

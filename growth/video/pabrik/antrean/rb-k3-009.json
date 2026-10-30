@@ -1,0 +1,150 @@
+{
+ "kode": "rb-k3-009",
+ "brand": "ratu-bawang",
+ "konsep": "K3",
+ "pembuka": "k3-tanya",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": [
+   "reporter"
+  ]
+ },
+ "judul": "Berita: driver ojek resmi masuk grup WhatsApp dapur",
+ "caption": "Ditolak pemasok grosir karena cuma butuh tiga kilo, Chef Ayu titip beli bawang lewat ojek tiap tiga hari, sampai drivernya masuk grup dapur. Lalu sang driver sendiri menyarankan Ratu Bawang: ecer dilayani, gratis ongkir Jogja, bayar saat sampai, tangan pertama. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Bagaimana seorang driver ojek bisa resmi masuk grup WhatsApp dapur resto?",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-mic",
+    "judul": "Driver ojek masuk grup dapur",
+    "label": "BERITA TERKINI",
+    "nama": "Reporter Mega",
+    "jabatan": "Jogja"
+   }
+  },
+  {
+   "teks": "Reporter Mega menemui Chef Ayu, koki resto kecil yang ditolak pemasok grosir.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "rb-ayu-foto",
+    "nama": "Chef Ayu",
+    "ket": "pemilik resto kecil",
+    "kutipan": "Saya cuma butuh tiga kilo",
+    "stempel": "DITOLAK"
+   }
+  },
+  {
+   "teks": "Tiap tiga hari ia titip beli tiga kilo lewat ojek.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Ojek Daring",
+    "sub": "titip beli",
+    "pesan": [
+     {
+      "teks": "Titip bawang merah 3 kilo",
+      "keluar": true
+     },
+     {
+      "teks": "Siap, ongkir dihitung",
+      "sorot": true
+     }
+    ],
+    "pose": "telepon",
+    "wajah": [
+     "yakin"
+    ]
+   }
+  },
+  {
+   "teks": "Sebulan sepuluh nota ongkir, cukup untuk lima kilo bawang.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "NOTA ONGKIR",
+    "dari": 0,
+    "ke": 10,
+    "format": "angka",
+    "prop": "rb-tumpuk-nota",
+    "pose": "foto-panik",
+    "bubble": "lima kilo?!"
+   }
+  },
+  {
+   "teks": "Drivernya sampai masuk grup dapur, biar gampang dititipi.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "rb-ayu-foto",
+    "nama": "Chef Ayu",
+    "ket": "pemilik resto kecil",
+    "kutipan": "Biar gampang dititipi",
+    "stempel": "AKRAB"
+   }
+  },
+  {
+   "teks": "Di grup itu, sang driver menyarankan Ratu Bawang: ecer pun diantar gratis.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Grup Dapur Ayu",
+    "sub": "5 anggota",
+    "pesan": [
+     {
+      "teks": "Coba Ratu Bawang, Bu",
+      "sorot": true
+     },
+     {
+      "teks": "Ecer pun gratis ongkir"
+     },
+     {
+      "teks": "Lho, serius?",
+      "keluar": true
+     }
+    ],
+    "pose": "foto-lega-hp",
+    "stempel": "IRONIS"
+   }
+  },
+  {
+   "teks": "Update terbaru. Chef Ayu pindah. Dibayar saat sampai, nota ongkir nol.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-tunjuk",
+    "judul": "Nota ongkir bulan ini: 0",
+    "label": "UPDATE",
+    "nama": "Reporter Mega",
+    "jabatan": "Jogja"
+   }
+  },
+  {
+   "teks": "Drivernya masih di grup, kini cuma kirim stiker selamat pagi.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-mic",
+    "judul": "Driver tetap di grup",
+    "label": "UPDATE",
+    "nama": "Reporter Mega",
+    "jabatan": "kirim stiker pagi"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Tiga kilo pun\ndiantar gratis",
+    "pose": "foto-jempol"
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang. Adegan 6: beri alasan singkat kenapa driver menyarankan pesaingnya. Adegan 7: COD terasa ditempel. Adegan 2: sebut pemilik sekaligus kepala koki.",
+  "naskah_hash": "b1b078effdc2",
+  "waktu": "2026-10-22T12:19"
+ }
+}

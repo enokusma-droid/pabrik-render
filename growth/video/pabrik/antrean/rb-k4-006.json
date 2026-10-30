@@ -1,0 +1,263 @@
+{
+ "kode": "rb-k4-006",
+ "brand": "ratu-bawang",
+ "konsep": "K4",
+ "pembuka": "k4-situasi",
+ "pemeran": {
+  "utama": "rb-sekar",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Empat tipe pemasok bawang, versi dapur Chef Ayu",
+ "caption": "Sudah dibayar di muka, karung dibuka, separuh kopong. Si besok-besok, si minimal sekarung, si transfer dulu, dan satu tipe langka. Di Ratu Bawang bawang dicek dulu saat sampai, baru dibayar; ecer atau grosir, gratis ongkir se-Jogja, langsung dari tangan pertama. Pemasokmu tipe berapa? Tulis di komentar, dan silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Karung dibuka Mbak Sekar: separuh kopong, padahal sudah dibayar.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok Lama",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Pak, separuhnya kopong!",
+      "keluar": true
+     },
+     {
+      "teks": "Kan sudah ditransfer, Mbak",
+      "sorot": true
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "kaget",
+     "panik"
+    ],
+    "stempel": "KOPONG",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Sekar, staf dapur Chef Ayu, hafal empat tipe pemasok.",
+   "primitif": "tipe-hook",
+   "opsi": {
+    "jumlah": 4,
+    "judul": "TIPE PEMASOK",
+    "sub": "versi dapur Chef Ayu",
+    "tanya": "Kenal yang mana?"
+   }
+  },
+  {
+   "teks": "Tipe satu, si besok-besok: bawang goreng ditunda sampai besok.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Besok-besok",
+    "rarity": "COMMON",
+    "foto": "um-kalender-lembar-sobek",
+    "stat": [
+     [
+      "RAMAH",
+      90
+     ],
+     [
+      "JANJI",
+      99
+     ],
+     [
+      "DATANG",
+      10
+     ],
+     [
+      "KABAR",
+      20
+     ]
+    ],
+    "skill": "jawab besok dalam satu detik",
+    "lemah": "besoknya tak pernah datang",
+    "gag": {
+     "jenis": "lupa",
+     "item": [
+      "besok ya",
+      "besok pasti",
+      "eh, besok",
+      "lusa deh"
+     ],
+     "kata": "besok"
+    }
+   }
+  },
+  {
+   "teks": "Tipe dua, si minimal sekarung: pesan tiga kilo, ditolak.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Minimal Sekarung",
+    "rarity": "RARE",
+    "foto": "rb-karung-bawang",
+    "stat": [
+     [
+      "STOK",
+      99
+     ],
+     [
+      "KUAT ANGKAT",
+      95
+     ],
+     [
+      "MAU ECER",
+      0
+     ],
+     [
+      "LUWES",
+      15
+     ]
+    ],
+    "skill": "punya gudang penuh karung",
+    "lemah": "resto kecil dianggap tak ada",
+    "gag": {
+     "jenis": "galat",
+     "teks": "Pesanan ditolak: minimal sekarung.",
+     "kata": "ditolak"
+    }
+   }
+  },
+  {
+   "teks": "Tipe tiga, si transfer dulu: bayar di muka, isi karung untung-untungan.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Transfer Dulu",
+    "rarity": "EPIC",
+    "foto": "rb-nota",
+    "stat": [
+     [
+      "CEPAT TAGIH",
+      100
+     ],
+     [
+      "ISI KARUNG",
+      30
+     ],
+     [
+      "LAYAN KOMPLAIN",
+      0
+     ],
+     [
+      "SABAR KITA",
+      20
+     ]
+    ],
+    "skill": "kirim nomor rekening kilat",
+    "lemah": "komplain mental: sudah dibayar",
+    "gag": {
+     "jenis": "galat",
+     "teks": "Komplain ditolak: sudah dibayar.",
+     "kata": "untung-untungan"
+    }
+   }
+  },
+  {
+   "teks": "Tipe empat, Ratu Bawang: karung dicek dulu saat sampai, baru dibayar.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Ratu Bawang",
+    "rarity": "LEGENDARY",
+    "foto": "rb-motor-antar",
+    "stat": [
+     [
+      "DICEK DULU",
+      100
+     ],
+     [
+      "MAU ECER",
+      100
+     ],
+     [
+      "ONGKIR JOGJA",
+      100
+     ],
+     [
+      "TANGAN PERTAMA",
+      100
+     ]
+    ],
+    "skill": "cek dulu saat sampai, baru bayar",
+    "lemah": "tak menyisakan bahan drama",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "Bawang sampai di dapur",
+      "Karung dibuka, dicek",
+      "Baru dibayar"
+     ],
+     "stempel": "COCOK",
+     "kata": "dicek"
+    }
+   }
+  },
+  {
+   "teks": "Chef Ayu, bos Sekar, pindah setelah tiga karung kopong.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "kesal"
+    ],
+    "judul": "Chef Ayu",
+    "sub": "pemilik resto, bos Sekar",
+    "prop": "rb-karung-bawang",
+    "stempel": "3 KARUNG",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Kini Sekar mengetuk tiap bawang di depan kurir, seperti memilih semangka.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "tok tok... isi!",
+    "tag": "CEK DULU",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ],
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Pemasokmu tipe berapa? Tulis di komentar.",
+   "primitif": "tipe-pilih",
+   "opsi": {
+    "komentar": "Pemasokku tipe nomor ..."
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Dicek dulu,\nbaru dibayar",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Layak tayang. Perbaikan kecil: adegan 3 'bawang goreng ditunda' kurang nyambung dengan pemasok bawang mentah, ganti 'bawang merah ditunda'. Adegan 8 mengetuk bawang tiap kurir datang sudah lucu dan menjawab masalah.",
+  "naskah_hash": "43aec6abd224",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
+}

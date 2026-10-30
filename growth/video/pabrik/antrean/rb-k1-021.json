@@ -182,5 +182,20 @@
     "pose": "foto-jempol"
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 7,
+   "tokoh": 8,
+   "relevansi": 7,
+   "humor": 7
+  },
+  "rata": 7.4,
+  "catatan": "Ceritanya runtut. 'Lebih murah' (adegan 6 dan 8) adalah janji harga di luar layanan Ratu Bawang (tangan pertama, COD, gratis ongkir Jogja); ganti jadi 'tanpa tiga tangan' atau 'harga dari sumber'. Pembuka sah tapi datar, tambah angka kenaikan.",
+  "naskah_hash": "a3e36b081a3b",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
 }

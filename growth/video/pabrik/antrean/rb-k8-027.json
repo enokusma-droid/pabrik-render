@@ -161,5 +161,20 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 6,
+   "pembuka": 6,
+   "tokoh": 5,
+   "relevansi": 8,
+   "humor": 6
+  },
+  "rata": 6.2,
+  "catatan": "Wening tampil di adegan 1 padahal baru diperkenalkan di adegan 8. Chef Ayu yang minta antar setelah tutup tapi takut: tidak masuk akal. Adegan 3-4 (katering) adalah kilas balik tanpa penanda. Susun ulang: pesan dulu, lalu ketukan. Premis mirip rb-k8-008.",
+  "naskah_hash": "8eb56151a939",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-8"
+ }
 }

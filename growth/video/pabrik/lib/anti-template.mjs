@@ -189,7 +189,8 @@ export function cekJuri(spec) {
   for (const b of BUTIR_JURI) {
     const v = j.skor[b];
     if (typeof v !== "number" || v < 0 || v > 10) err.push(`juri: skor.${b} wajib angka 0-10`);
-    else if (v < MIN_JURI) err.push(`juri: ${b} = ${v} (< ${MIN_JURI}) → TULIS ULANG naskah sesuai catatan juri lalu nilai ulang. Catatan: ${String(j.catatan || "").slice(0, 300)}`);
+    // 30 Okt 2026: owner boleh meloloskan naskah di bawah ambang untuk dinilai langsung (spec.juri.izin_owner = "<tanggal> — alasan"); skor asli tetap tercatat
+    else if (v < MIN_JURI && !j.izin_owner) err.push(`juri: ${b} = ${v} (< ${MIN_JURI}) → TULIS ULANG naskah sesuai catatan juri lalu nilai ulang. Catatan: ${String(j.catatan || "").slice(0, 300)}`);
   }
   if (j.naskah_hash !== h) err.push(`juri: naskah berubah setelah dinilai (hash ${j.naskah_hash || "-"} ≠ ${h}) → nilai ulang dengan sub-agent juri baru`);
   return { err, hash: h };

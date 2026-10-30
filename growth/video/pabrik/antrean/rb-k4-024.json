@@ -219,5 +219,20 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 7,
+   "pembuka": 7,
+   "tokoh": 7,
+   "relevansi": 8,
+   "humor": 7
+  },
+  "rata": 7.2,
+  "catatan": "Pembuka 'aku tipe kurir...' belum jelas siapa 'aku' sampai adegan 2. Sebut 'Aku Wening, kurir Ratu Bawang' di kalimat pertama. Tipe 3 (coba sekilo) dan tipe 4 (Chef Ayu) bukan perilaku saat bawang datang, hanya cerita pindah pemasok. Ganti dengan kebiasaan nyata.",
+  "naskah_hash": "78802045f862",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
 }

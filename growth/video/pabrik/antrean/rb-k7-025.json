@@ -179,5 +179,20 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 7,
+   "pembuka": 6,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 7
+  },
+  "rata": 7.2,
+  "catatan": "Pembuka berupa daftar bahan, belum langsung jelas masalahnya: mulai 'Malam Minggu, toples bawang kosong, Mbak Sekar'. Adegan 4 tidak nyambung: pemasok minimal sekarung bukan alasan menunggu toples habis. Adegan 8 tambah pemicu pindah selain 'Senin'.",
+  "naskah_hash": "2371b12f1a69",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-8"
+ }
 }

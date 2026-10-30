@@ -185,5 +185,20 @@
     "pose": "jempol"
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 5,
+   "tokoh": 9,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 7.8,
+  "catatan": "Pembuka 'Pernah penasaran, seperti apa sehari jadi staf dapur?' klise dan tidak menyebut masalah. Ganti dengan 'Antre kasir dua puluh menit demi tiga butir bombay' (adegan 5). Sisanya kuat; ending 'menangis karena bombay' lucu.",
+  "naskah_hash": "9a88199a11d2",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
 }

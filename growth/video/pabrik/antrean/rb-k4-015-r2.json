@@ -1,0 +1,236 @@
+{
+ "kode": "rb-k4-015-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K4",
+ "pembuka": "k4-kutipan",
+ "pemeran": {
+  "utama": "rb-sekar",
+  "pendukung": []
+ },
+ "judul": "Empat tipe belanja bawang resto, cuma satu yang langka",
+ "caption": "Si borong sekarung, si eceran warung, si titip ojek, dan tipe langka yang pesan ke Ratu Bawang: tangan pertama, ecer atau grosir, gratis ongkir se-Jogja, bayar saat sampai. Kamu tipe berapa? Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "\"Sekalian sekarung, biar jarang belanja,\" kataku. Aku Sekar, staf dapur Chef Ayu.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Borong Sekarung",
+    "rarity": "COMMON",
+    "foto": "rb-sekar-kupas-nangis",
+    "stat": [
+     [
+      "JARANG BELANJA",
+      95
+     ],
+     [
+      "PERCAYA DIRI",
+      90
+     ],
+     [
+      "DAPUR WANGI",
+      80
+     ],
+     [
+      "KARUNG UTUH",
+      70
+     ]
+    ],
+    "skill": "sekali belanja untuk sebulan",
+    "lemah": "separuh karung busuk"
+   }
+  },
+  {
+   "teks": "Itu tipe pertama. Dua minggu di gudang lembap, separuh karungnya busuk.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "kupas-nangis",
+    "wajah": [
+     "panik"
+    ],
+    "judul": "Mbak Sekar",
+    "sub": "staf dapur resto",
+    "stempel": "BUSUK",
+    "prop": "rb-karung-bawang",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Lalu aku tipe dua: sekilo tiap hari, warung terdekat, lebih mahal.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Eceran Warung",
+    "rarity": "RARE",
+    "foto": "rb-sekar-lari-belanja",
+    "stat": [
+     [
+      "DEKAT",
+      99
+     ],
+     [
+      "CEPAT",
+      85
+     ],
+     [
+      "ISI DOMPET",
+      60
+     ],
+     [
+      "LANGKAH KAKI",
+      90
+     ]
+    ],
+    "skill": "warung sebelah selalu buka",
+    "lemah": "sekilo tiap hari, lebih mahal",
+    "gag": {
+     "turun": 2,
+     "ke": 10,
+     "kata": "mahal"
+    }
+   }
+  },
+  {
+   "teks": "Tipe tiga juga aku: titip ojek, bawangnya sekilo, ongkirnya tiap hari.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Titip Ojek",
+    "rarity": "EPIC",
+    "foto": "rb-sekar-bingung",
+    "stat": [
+     [
+      "TIDAK KE PASAR",
+      100
+     ],
+     [
+      "SABAR MENUNGGU",
+      70
+     ],
+     [
+      "ONGKIR",
+      5
+     ],
+     [
+      "HAFAL DRIVER",
+      95
+     ]
+    ],
+    "skill": "hafal semua driver ojek",
+    "lemah": "ongkir tiap hari",
+    "gag": {
+     "jenis": "chat",
+     "item": [
+      "Titip bawang 1 kilo",
+      "Ongkirnya ya kak",
+      "Titip lagi 1 kilo",
+      "Ongkirnya ya kak",
+      "Besok titip lagi",
+      "Ongkirnya ya kak"
+     ],
+     "kata": "ongkirnya"
+    }
+   }
+  },
+  {
+   "teks": "Tipe empat langka: Ratu Bawang antar sekilo pun gratis. Ojek tak kebagian.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Si Langganan Ratu",
+    "rarity": "LEGENDARY",
+    "foto": "rb-sekar-jempol",
+    "stat": [
+     [
+      "STOK PAS",
+      100
+     ],
+     [
+      "ONGKIR GRATIS",
+      100
+     ],
+     [
+      "TANGAN PERTAMA",
+      100
+     ],
+     [
+      "TENANG",
+      100
+     ]
+    ],
+    "skill": "tangan pertama, ecer diantar",
+    "lemah": "tidak hafal driver lagi",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "Ecer 1 kilo: dilayani",
+      "Ongkir se-Jogja: gratis",
+      "Bayar saat sampai"
+     ],
+     "stempel": "LANGKA",
+     "kata": "gratis"
+    }
+   }
+  },
+  {
+   "teks": "Chef Ayu menyuruhku jadi tipe empat, setelah melihat nota ongkir ojek.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "bingung",
+    "wajah": [
+     "kaget"
+    ],
+    "stempel": "TIPE 4",
+    "prop": "rb-tumpuk-nota",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Kini aku tak pernah ke pasar. Yang kangen cuma driver ojek.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ],
+    "stempel": "DRIVER KANGEN",
+    "prop": "rb-motor-antar",
+    "suasana": "solusi",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Kamu tipe berapa? Tulis di komentar.",
+   "primitif": "tipe-pilih",
+   "opsi": {
+    "komentar": "Aku tipe nomor ..."
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Sekilo pun diantar,\ngratis ongkir",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Layak tayang. Sebab-akibat rapi: borong membusuk, eceran warung mahal, titip ojek ongkir harian, lalu ecer gratis ongkir. Penutup 'Yang kangen cuma driver ojek' kuat. Saran kecil: sebut 'resto' di adegan 1 agar tipe 'langka' langsung terasa.",
+  "naskah_hash": "3b44d93c4ab3",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
+}

@@ -171,5 +171,20 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 6,
+   "tokoh": 8,
+   "relevansi": 9,
+   "humor": 7
+  },
+  "rata": 7.6,
+  "catatan": "Pembuka 'sekarung bawang nangkring' datar dan tidak memancing. Ganti dengan hasil akhir, misalnya 'Tiga minggu, tamu belasan, bawang sekarung bertunas'. Adegan 2 menyebut 'kedai' padahal tokoh dipatok pemilik resto, samakan. Adegan 4 'belasan' perlu angka pembanding.",
+  "naskah_hash": "fca99d1ed62b",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
 }

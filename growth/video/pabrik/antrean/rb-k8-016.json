@@ -149,5 +149,20 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 7,
+   "pembuka": 5,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 7
+  },
+  "rata": 7,
+  "catatan": "Pembuka dan plot mirip video terakhir ('Pemasok bilang: transfer dulu' dan 'Karung dibuka Mbak Sekar: separuh kopong'). Ganti sudut dengan kejutan baru. Adegan 5 karung setengah roboh sendiri kurang meyakinkan: buat Sekar mengangkat karung yang ringan.",
+  "naskah_hash": "828a5ae7548e",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-8"
+ }
 }

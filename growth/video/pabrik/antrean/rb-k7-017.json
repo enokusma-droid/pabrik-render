@@ -191,5 +191,20 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 9,
+   "humor": 7
+  },
+  "rata": 8,
+  "catatan": "Layak dengan perbaikan kecil. Adegan 5 'BERHASIL' setelah menyerah beli sekarung kurang lucu: tambah akibat konyol (merah, putih, bombay sekarung semua). Adegan 8 pasang kalimat bonus yang menegaskan 'ecer, campur, gratis ongkir Jogja'.",
+  "naskah_hash": "007a5d68476d",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-8"
+ }
 }

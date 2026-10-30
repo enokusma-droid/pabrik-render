@@ -189,5 +189,20 @@
     "pose": "foto-jempol"
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 4,
+   "tokoh": 7,
+   "relevansi": 9,
+   "humor": 6
+  },
+  "rata": 6.8,
+  "catatan": "Pembuka 'sudah menumis / masih di tempat ketiga' adalah teka-teki, siapa dan masalahnya tidak jelas dalam 3 detik. Ganti dengan 'Bombay dua butir, tiga toko'. Adegan 1 menyebut 'Ayu' tanpa peran: pakai 'Chef Ayu, pemilik resto'. Humor kurang tajam.",
+  "naskah_hash": "8b9958f60f46",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
 }

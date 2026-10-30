@@ -131,5 +131,20 @@
     "pose": "foto-jempol"
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 7,
+   "pembuka": 6,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 6
+  },
+  "rata": 7,
+  "catatan": "Adegan 1 hanya kutipan tanpa konteks, jadi masalah baru jelas di adegan 2-3. Taruh kejadian di depan: 'Stan festival Chef Ayu nyaris buka tanpa bawang'. Adegan 8 'bayar setelah sambal dicicipi' tidak menyambung ke layanan Ratu Bawang. Ganti dengan punchline soal bawang tiba tepat waktu.",
+  "naskah_hash": "2c32d685d555",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
 }

@@ -145,5 +145,20 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 6,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 7.6,
+  "catatan": "Pembuka 'turun gunung' bersifat kiasan dan baru jelas bahwa 'aku' adalah keranjang di adegan 2. Ubah jadi: 'Aku keranjang Chef Ayu. Empat puluh kali sebulan aku dibawa turun ke pasar'. Adegan 5 'kokinya di pasar' bingung siapa yang masak, sebut stafnya.",
+  "naskah_hash": "ca8a10b59eee",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
 }

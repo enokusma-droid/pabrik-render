@@ -135,5 +135,20 @@
     "pose": "tunjuk"
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 5,
+   "tokoh": 7,
+   "relevansi": 7,
+   "humor": 7
+  },
+  "rata": 6.8,
+  "catatan": "Pembuka 'ditutup dalam satu kalimat, dua puluh anak tangga' adalah teka-teki yang perlu ditafsirkan. Mulai dari masalahnya: 'Kurir minta uang tangga tiap antar bawang ke lantai dua'. Sekar di sini staf kafe, padahal biasanya staf resto Chef Ayu, samakan. Hapus janji 'tanpa uang tangga'.",
+  "naskah_hash": "18c41446e11a",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
 }

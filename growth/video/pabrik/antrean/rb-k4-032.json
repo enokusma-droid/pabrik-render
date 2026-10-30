@@ -219,5 +219,20 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Layak tayang. Pembuka 'siapkan nama teman peminjam bawang' langsung relate. 'Naik tipe' karena resto sebelah menempel tulisan tidak dipinjamkan itu ironi yang masuk akal. Ajakan tag teman di akhir pas.",
+  "naskah_hash": "eac6b611f16c",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
 }

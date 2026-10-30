@@ -155,5 +155,20 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 7,
+   "tokoh": 9,
+   "relevansi": 9,
+   "humor": 7
+  },
+  "rata": 8,
+  "catatan": "Logika dan relevansi bagus: timbangan baru tetap kurang, lalu bayar setelah dicek. Pembuka 'menakar garam per butir' masih kiasan, dan tema 'transfer dulu' sudah dua kali muncul di 10 pembuka terakhir. Saran: buka langsung dengan 'kurang tiga ons' atau tuduhan timbangan rusak.",
+  "naskah_hash": "4dcdca2931ff",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
 }

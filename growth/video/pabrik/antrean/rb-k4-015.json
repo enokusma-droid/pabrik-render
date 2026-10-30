@@ -217,5 +217,20 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Layak tayang. Sebab-akibat rapi: borong membusuk, eceran warung mahal, titip ojek ongkir harian, lalu ecer gratis ongkir. Penutup 'Yang kangen cuma driver ojek' kuat. Saran kecil: sebut 'resto' di adegan 1 agar tipe 'langka' langsung terasa.",
+  "naskah_hash": "3b44d93c4ab3",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
 }

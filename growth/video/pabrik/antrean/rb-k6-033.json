@@ -131,5 +131,20 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 7,
+   "tokoh": 8,
+   "relevansi": 9,
+   "humor": 7
+  },
+  "rata": 7.8,
+  "catatan": "Adegan 1 belum jelas siapa 'aku' sampai teks layar. Adegan 3 (chat grosir) lalu 4 (ke pasar) agak melompat: tulis sekali bahwa Sekar akhirnya beli eceran di pasar. Adegan 8 'tak perlu sekarung' lemah; ganti punchline karung yang lega.",
+  "naskah_hash": "a61a2a79cdbd",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-8"
+ }
 }

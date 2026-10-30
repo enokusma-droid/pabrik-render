@@ -1,0 +1,238 @@
+{
+ "kode": "rb-k4-032-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K4",
+ "pembuka": "k4-tantangan",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": []
+ },
+ "judul": "Empat tipe pemilik resto saat stok bawang menipis",
+ "caption": "Si nekat pinjam, si ganti menu, si lari ke pasar, atau tipe langka yang pesan ecer sebelum habis? Ratu Bawang melayani ecer dan grosir, gratis ongkir se-Jogja, bayar saat barang sampai, langsung dari tangan pertama. Tag teman pemilik restomu, lalu pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Sebelum mulai, siapkan nama teman yang pinjam bawang tak pernah kembali.",
+   "primitif": "tipe-hook",
+   "opsi": {
+    "jumlah": 4,
+    "judul": "STOK MENIPIS",
+    "sub": "pinjam, tak kembali",
+    "tanya": "Siapkan namanya!"
+   }
+  },
+  {
+   "teks": "Aku Chef Ayu, pemilik resto, pernah jadi tiga tipe pertama.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "foto-tunjuk",
+    "wajah": [
+     "yakin"
+    ],
+    "judul": "Chef Ayu",
+    "sub": "pemilik resto",
+    "bubble": "ngaku deh",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Tipe satu, si nekat pinjam. Janji ganti besok, besoknya pinjam lagi.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 1,
+    "nama": "Si Nekat Pinjam",
+    "rarity": "COMMON",
+    "foto": "rb-ayu-telepon",
+    "stat": [
+     [
+      "NEKAT",
+      95
+     ],
+     [
+      "MUKA TEBAL",
+      80
+     ],
+     [
+      "JANJI GANTI",
+      20
+     ],
+     [
+      "STOK SEBELAH",
+      40
+     ]
+    ],
+    "skill": "akrab dengan resto sebelah",
+    "lemah": "janji ganti besok",
+    "gag": {
+     "jenis": "lupa",
+     "item": [
+      "2 kilo merah",
+      "ganti besok",
+      "pinjam lagi"
+     ],
+     "kata": "lagi"
+    }
+   }
+  },
+  {
+   "teks": "Tipe dua, si ganti menu. Bawang goreng diganti kerupuk, pelanggan protes.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 2,
+    "nama": "Si Ganti Menu",
+    "rarity": "RARE",
+    "foto": "rb-ayu-masak",
+    "stat": [
+     [
+      "KREATIF",
+      99
+     ],
+     [
+      "BERANI",
+      85
+     ],
+     [
+      "RASA ASLI",
+      15
+     ],
+     [
+      "SABAR TAMU",
+      30
+     ]
+    ],
+    "skill": "kerupuk untuk semua masalah",
+    "lemah": "pelanggan hafal rasa",
+    "gag": {
+     "jenis": "chat",
+     "item": [
+      "Bawang gorengnya mana?",
+      "Kok kerupuk?",
+      "Chef??"
+     ],
+     "kata": "protes"
+    }
+   }
+  },
+  {
+   "teks": "Tipe tiga, si lari ke pasar. Dapur ditinggal, pesanan menumpuk.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 3,
+    "nama": "Si Lari ke Pasar",
+    "rarity": "EPIC",
+    "foto": "rb-ayu-foto-panik",
+    "stat": [
+     [
+      "KECEPATAN",
+      95
+     ],
+     [
+      "NAPAS",
+      30
+     ],
+     [
+      "DAPUR JALAN",
+      20
+     ],
+     [
+      "PESANAN BERES",
+      60
+     ]
+    ],
+    "skill": "hafal semua lapak bawang",
+    "lemah": "dapur ditinggal kosong",
+    "gag": {
+     "turun": 4,
+     "ke": 5,
+     "kata": "menumpuk"
+    }
+   }
+  },
+  {
+   "teks": "Tipe empat, si pesan duluan: pesan ecer ke Ratu Bawang.",
+   "primitif": "kartu-tipe",
+   "opsi": {
+    "no": 4,
+    "nama": "Si Pesan Duluan",
+    "rarity": "LEGENDARY",
+    "foto": "rb-ayu-foto-lega-hp",
+    "stat": [
+     [
+      "STOK AMAN",
+      100
+     ],
+     [
+      "TAMU PUAS",
+      100
+     ],
+     [
+      "TENANG",
+      100
+     ],
+     [
+      "CEK STOK",
+      90
+     ]
+    ],
+    "skill": "pesan ecer sebelum habis",
+    "lemah": "harus ingat cek stok",
+    "gag": {
+     "jenis": "notif",
+     "item": [
+      "Pesanan ecer diterima",
+      "Diantar gratis se-Jogja",
+      "Bayar saat sampai"
+     ],
+     "stempel": "AMAN",
+     "kata": "gratis"
+    }
+   }
+  },
+  {
+   "teks": "Aku naik tipe sejak resto sebelah menempel tulisan: bawang tidak dipinjamkan.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "foto-lega-hp",
+    "wajah": [
+     "lega"
+    ],
+    "sub": "BAWANG TIDAK DIPINJAMKAN",
+    "stempel": "TIPE EMPAT",
+    "latar": "rb-latar-dapur-resto",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Kamu tipe berapa? Tag teman yang tadi, dia tipe satu.",
+   "primitif": "tipe-pilih",
+   "opsi": {
+    "komentar": "Dia tipe satu!"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Pesan sebelum habis,\necer pun diantar",
+    "pose": "foto-jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Layak tayang. Pembuka 'siapkan nama teman peminjam bawang' langsung relate. 'Naik tipe' karena resto sebelah menempel tulisan tidak dipinjamkan itu ironi yang masuk akal. Ajakan tag teman di akhir pas.",
+  "naskah_hash": "eac6b611f16c",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
+}

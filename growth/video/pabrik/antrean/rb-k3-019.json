@@ -144,5 +144,20 @@
     ]
    }
   }
- ]
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 7,
+   "tokoh": 8,
+   "relevansi": 9,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Gag tukang parkir 'juragan bawang' kuat dan konsisten. Pembuka konkret tapi belum menyebut siapa; tambahkan 'Mbak Sekar' di kalimat pertama. Adegan 7 'melihat stafnya loyo' sebaiknya jadi satu kalimat sebab konkret (mis. Sekar telat mengupas, menu terlambat).",
+  "naskah_hash": "33c2f6b00af1",
+  "waktu": "2026-10-30T02:27",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-9"
+ }
 }
