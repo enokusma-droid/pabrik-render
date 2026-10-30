@@ -1,0 +1,31 @@
+{
+ "kode": "rb-k3-029-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K3",
+ "judul": "Berita: stan festival kuliner nyaris buka tanpa bawang",
+ "durasi": 36.97,
+ "LUFS": -14.1,
+ "TP": -1.5,
+ "cocok_vo_%": 94,
+ "cocok_ketat_%": 85,
+ "transkrip_15dtk": "Berita terkini dari Reporter Mega. Stun festival kuliner Chef Ayu, pemilik resto, nyaris bukatan pabawang. Kata Chef Ayu, pemasuk lama menyuruhnya lunas di depan, lalu ambil sendiri. Undangan festival mendadak, panitia minta 300...",
+ "lulus_qc": true,
+ "musik": "tegang",
+ "g3": "konten/pabrik/hasil/rb-k3-029-r2.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k3-029-r2.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40999991145",
+ "waktu": "2026-10-30T11:14+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "13f0c8e0f0f07c30",
+  "0270c8f0f0f07c30",
+  "1370c8f0f0f07c30"
+ ],
+ "mirip_awal": [
+  {
+   "kode": "rb-k3-009",
+   "jarak": 7.0
+  }
+ ]
+}

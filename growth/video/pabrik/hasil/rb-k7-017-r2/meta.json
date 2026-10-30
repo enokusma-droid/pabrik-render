@@ -1,0 +1,28 @@
+{
+ "kode": "rb-k7-017-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K7",
+ "judul": "Tutorial salah: cara bikin pesanan bawangmu ditolak pemasok",
+ "durasi": 51.1,
+ "LUFS": -14.2,
+ "TP": -1.4,
+ "cocok_vo_%": 87,
+ "cocok_ketat_%": 71,
+ "transkrip_15dtk": "Langkah pertama, supaya pesanan mau ditolak, pesan campur sedikit-sedikit. Aku wending kuri ratu bawang. Contohnya Chef Ayu, Pemilik Resto. Ia pesan 2 kilo mera, 1 kilo putih, 1 kilo bombai.",
+ "lulus_qc": true,
+ "musik": "ceria2",
+ "g3": "konten/pabrik/hasil/rb-k7-017-r2.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k7-017-r2.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40999991145",
+ "waktu": "2026-10-30T11:14+07:00",
+ "catatan_bangun": [
+  "pose \"bingung\" untuk rb-ayu tidak ada → pakai rb-ayu-telepon"
+ ],
+ "phash_awal": [
+  "8261616060719921",
+  "8261616060719921",
+  "90666763733d9921"
+ ],
+ "mirip_awal": []
+}

@@ -1,0 +1,29 @@
+{
+ "kode": "rb-k0-026-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K0",
+ "judul": "Tiga minggu, tamu belasan, sekarung bawang bertunas",
+ "durasi": 45.37,
+ "LUFS": -14.2,
+ "TP": -1.5,
+ "cocok_vo_%": 100,
+ "cocok_ketat_%": 100,
+ "transkrip_15dtk": "Tiga minggu sejak resto Chef Ayu buka, tamunya belasan. Sekarung bawangnya sudah bertunas. Chef Ayu pemilik resto. Juara bawang goreng. Tapi terlalu yakin. Yakin laris, ia ambil sekarung dari grosir.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/rb-k0-026-r2.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k0-026-r2.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40999991145",
+ "waktu": "2026-10-30T11:14+07:00",
+ "catatan_bangun": [
+  "pose \"sorak\" untuk rb-ayu tidak ada → pakai rb-ayu-karung-jempol",
+  "pose \"presentasi\" untuk rb-ayu tidak ada → pakai rb-ayu-masak"
+ ],
+ "phash_awal": [
+  "bc2f7f7edcac90a8",
+  "bc2f7f7edcac90a8",
+  "bc2f7f7edcac90a8"
+ ],
+ "mirip_awal": []
+}

@@ -1,0 +1,35 @@
+{
+ "kode": "rb-k6-033-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K6",
+ "judul": "Surat dari karung belanja: ditolak grosir karena cuma butuh dua kilo",
+ "durasi": 44.97,
+ "LUFS": -14.0,
+ "TP": -1.5,
+ "cocok_vo_%": 86,
+ "cocok_ketat_%": 77,
+ "transkrip_15dtk": "Halo mbak Sekar, aku karung belanja mo, tiap pagi ke pasar cuma demi 2 kilo bawang. Restor kecil Chef Ayu, tempat mo bekerja, memang cuma butuh segitu sehari. Pemasuk grosir membalas pesan mo, minimal sekalipun.",
+ "lulus_qc": true,
+ "musik": "haru",
+ "g3": "konten/pabrik/hasil/rb-k6-033-r2.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k6-033-r2.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40999991145",
+ "waktu": "2026-10-30T11:14+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "d2a44d8e8e6cdbb2",
+  "d2a44d8e8c6d5bb0",
+  "b0e4cd8e0c4d5334"
+ ],
+ "mirip_awal": [
+  {
+   "kode": "dc-k6-036",
+   "jarak": 9.0
+  },
+  {
+   "kode": "rb-k6-022-r2",
+   "jarak": 9.7
+  }
+ ]
+}

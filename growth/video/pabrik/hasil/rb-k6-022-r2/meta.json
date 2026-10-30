@@ -1,0 +1,31 @@
+{
+ "kode": "rb-k6-022-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K6",
+ "judul": "Surat dari timbangan dapur: bombay pesanan, bawang merah datang",
+ "durasi": 40.9,
+ "LUFS": -14.1,
+ "TP": -1.5,
+ "cocok_vo_%": 97,
+ "cocok_ketat_%": 88,
+ "transkrip_15dtk": "Surat terbuka dari timbangan dapur chef Ayu untuk Pak Sekar. Bombai di pesan, merah datang. Katamu di telepon, bombai 5 kilo ya pak? Pemasuk lama mencatat pesananmu di telepon, tanpa nota. Aku menimbang, bukan...",
+ "lulus_qc": true,
+ "musik": "haru",
+ "g3": "konten/pabrik/hasil/rb-k6-022-r2.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k6-022-r2.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40999991145",
+ "waktu": "2026-10-30T11:14+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "d2ac078e8e6cdab2",
+  "f2ac07868e69daa4",
+  "b0ac87860cc9d2a4"
+ ],
+ "mirip_awal": [
+  {
+   "kode": "rb-k6-004",
+   "jarak": 8.3
+  }
+ ]
+}

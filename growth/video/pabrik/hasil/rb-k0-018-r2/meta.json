@@ -1,0 +1,29 @@
+{
+ "kode": "rb-k0-018-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K0",
+ "judul": "Lunas, tapi kurang tiga ons: salah siapa?",
+ "durasi": 41.63,
+ "LUFS": -14.1,
+ "TP": -1.4,
+ "cocok_vo_%": 88,
+ "cocok_ketat_%": 84,
+ "transkrip_15dtk": "bawang lunas, chef ayu pemilik resto kurang 3 oz dan timbangannya dituduh rusak uangnya sudah dikirim sebelum karungnya datang, ditimbang dua kali tetap kurang 3 oz aku timbangan itu dan aku cuba",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/rb-k0-018-r2.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k0-018-r2.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40999991145",
+ "waktu": "2026-10-30T11:14+07:00",
+ "catatan_bangun": [
+  "pose \"sorak\" untuk rb-ayu tidak ada → pakai rb-ayu-karung-jempol",
+  "pose \"presentasi\" untuk rb-ayu tidak ada → pakai rb-ayu-masak"
+ ],
+ "phash_awal": [
+  "92364dcfae6debb6",
+  "92344dce2c6debb6",
+  "b60c4d8e2c838ba6"
+ ],
+ "mirip_awal": []
+}

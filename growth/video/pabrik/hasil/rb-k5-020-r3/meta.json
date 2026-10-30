@@ -1,0 +1,30 @@
+{
+ "kode": "rb-k5-020-r3",
+ "brand": "ratu-bawang",
+ "konsep": "K5",
+ "judul": "Kasus dua kilo bawang yang hilang setelah lunas",
+ "durasi": 40.7,
+ "LUFS": -14.0,
+ "TP": -1.6,
+ "cocok_vo_%": 94,
+ "cocok_ketat_%": 87,
+ "transkrip_15dtk": "Ting! Timbangan berbunyi. Karung 25 kilo, isinya 23. Aku detektif ana. Pemasuk lama mewajibkan chef Ayu, pemilik resto bayar di muka. Kata karung, aku wadah. Tak doyan bawang. Kata timbangan da...",
+ "lulus_qc": true,
+ "musik": "tegang",
+ "g3": "konten/pabrik/hasil/rb-k5-020-r3.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k5-020-r3.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40999991145",
+ "waktu": "2026-10-30T11:14+07:00",
+ "catatan_bangun": [
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-tunjuk",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-jalan-berkas",
+  "kata \"kilo, baru dibayar\" tidak ada di VO adegan 9"
+ ],
+ "phash_awal": [
+  "0040fcbc9aba7a38",
+  "0040fcbe9abafa38",
+  "0000fcbe9abafa38"
+ ],
+ "mirip_awal": []
+}
