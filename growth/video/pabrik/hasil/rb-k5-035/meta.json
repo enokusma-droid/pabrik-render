@@ -1,0 +1,36 @@
+{
+ "kode": "rb-k5-035",
+ "brand": "ratu-bawang",
+ "konsep": "K5",
+ "judul": "Kasus sambal laris yang untungnya tinggal ampas",
+ "durasi": 45.23,
+ "LUFS": -14.1,
+ "TP": -1.6,
+ "cocok_vo_%": 97,
+ "cocok_ketat_%": 79,
+ "transkrip_15dtk": "Jam 7. Chef Ayu Pemilik Resto Melapor. Sambel Laris Untungnya Tinggal Ampas. Aku Detektif Ana. Ku baca nota karung bawangnya mundur dari dapur kedesa. Nota pemasuk pasar naik sedikit.",
+ "lulus_qc": true,
+ "musik": "tegang",
+ "g3": "konten/pabrik/hasil/rb-k5-035.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k5-035.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/41002780786",
+ "waktu": "2026-10-30T11:37+07:00",
+ "catatan_bangun": [
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-tunjuk",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-jalan-berkas",
+  "pose \"lipat-tangan\" untuk detektif tidak ada → pakai um-detektif-kaca-pembesar",
+  "kata \"pengepul ke dapur\" tidak ada di VO adegan 8"
+ ],
+ "phash_awal": [
+  "0020c4acdada7a38",
+  "0060c4acdadafa38",
+  "0060c0aedadafa38"
+ ],
+ "mirip_awal": [
+  {
+   "kode": "rb-k5-020-r3",
+   "jarak": 9.3
+  }
+ ]
+}
