@@ -1,0 +1,26 @@
+{
+ "kode": "rb-k4-006",
+ "brand": "ratu-bawang",
+ "konsep": "K4",
+ "judul": "Empat tipe pemasok bawang, versi dapur Chef Ayu",
+ "durasi": 39.0,
+ "LUFS": -14.1,
+ "TP": -1.4,
+ "cocok_vo_%": 100,
+ "cocok_ketat_%": 92,
+ "transkrip_15dtk": "Karung dibuka mbak Sekar separu kopong, padahal sudah dibayar. Sekar, staff dapur chef Ayu hafal empat tipe pemasok. Tipe satu si besok besok, bawang goreng ditunda sampai besok. Tipe dua si minimal Sekarung, pesan tiga gini.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/rb-k4-006.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k4-006.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40998763123",
+ "waktu": "2026-10-30T10:52+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "bcfc7d3cda9a9ae8",
+  "bcfc7d3cda9a9ae8",
+  "bcfc7d7cda9a9ae8"
+ ],
+ "mirip_awal": []
+}

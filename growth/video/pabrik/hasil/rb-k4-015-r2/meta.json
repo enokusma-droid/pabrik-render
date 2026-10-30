@@ -1,0 +1,26 @@
+{
+ "kode": "rb-k4-015-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K4",
+ "judul": "Empat tipe belanja bawang resto, cuma satu yang langka",
+ "durasi": 41.47,
+ "LUFS": -14.2,
+ "TP": -1.4,
+ "cocok_vo_%": 97,
+ "cocok_ketat_%": 89,
+ "transkrip_15dtk": "Sekalian sekarung biar jarang belanja kataku, aku sekar staf dapur chef ayu. Itu tipe pertama, dua minggu di gudang lembab separu karungnya busuk, lalu aku tipe dua, 1 kilo tiap hari, warung terdekat lebih mahal.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/rb-k4-015-r2.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k4-015-r2.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40998763123",
+ "waktu": "2026-10-30T10:52+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "9b5a6836e8e8e834",
+  "49696076cce8e82c",
+  "24b47076cce8e8ae"
+ ],
+ "mirip_awal": []
+}

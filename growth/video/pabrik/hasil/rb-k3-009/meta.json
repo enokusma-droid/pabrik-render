@@ -1,0 +1,26 @@
+{
+ "kode": "rb-k3-009",
+ "brand": "ratu-bawang",
+ "konsep": "K3",
+ "judul": "Berita: driver ojek resmi masuk grup WhatsApp dapur",
+ "durasi": 39.3,
+ "LUFS": -14.1,
+ "TP": -1.4,
+ "cocok_vo_%": 94,
+ "cocok_ketat_%": 82,
+ "transkrip_15dtk": "Bagaimana seorang driver Ojek bisa resmi masuk grup WhatsApp Dapur Resto? Reporter Mega menemui Chef Ayu, kokir Resto kecil yang ditolak pemasuk rosir. Tiap 3 hari, ia titik beli 3 kilo lewat Ojek. Sebulan...",
+ "lulus_qc": true,
+ "musik": "tegang",
+ "g3": "konten/pabrik/hasil/rb-k3-009.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k3-009.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40998763123",
+ "waktu": "2026-10-30T10:52+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "13f0cce0f0f0ba30",
+  "167048e0f0f0ba30",
+  "167048e0f0f0ba30"
+ ],
+ "mirip_awal": []
+}

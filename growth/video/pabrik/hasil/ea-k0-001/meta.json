@@ -1,0 +1,28 @@
+{
+ "kode": "ea-k0-001",
+ "brand": "elite-apron",
+ "konsep": "K0",
+ "judul": "Apron polos kafe Nadia yang selalu dikira lap",
+ "durasi": 45.7,
+ "LUFS": -14.1,
+ "TP": -1.6,
+ "cocok_vo_%": 100,
+ "cocok_ketat_%": 89,
+ "transkrip_15dtk": "Pramusajikafe Nadia di Bali, terus dikiratamu. Namanya Mbak Tiara, paling gesit, tapi berkawas hitam. Tamu memanggil pelayan, Tiara malah ditanya mau pesan apa? Nadia pemiliknya kehilangan tiga.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/ea-k0-001.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/ea-k0-001.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40998763123",
+ "waktu": "2026-10-30T10:52+07:00",
+ "catatan_bangun": [
+  "pose \"presentasi\" untuk ea-nadia tidak ada → pakai ea-nadia-cek-hp"
+ ],
+ "phash_awal": [
+  "fce9fcfc3c5cfc34",
+  "fcf9fcfc3c5cfc34",
+  "fcf9fcfc3c5cfc30"
+ ],
+ "mirip_awal": []
+}

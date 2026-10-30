@@ -1,0 +1,28 @@
+{
+ "kode": "rb-k4-032-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K4",
+ "judul": "Empat tipe pemilik resto saat stok bawang menipis",
+ "durasi": 40.47,
+ "LUFS": -14.2,
+ "TP": -1.5,
+ "cocok_vo_%": 97,
+ "cocok_ketat_%": 81,
+ "transkrip_15dtk": "Sebelum mulai, siapkan nama teman yang pinjem bawang tak pernah kembali. Aku Chef Ayu, pemilik restoh, pernah jadi tiga tipe pertama. Tipa satu, si nekat pinjem. Jangan di ganti besok, besoknya pinjem lagi. Tipa dua, si ganti.",
+ "lulus_qc": true,
+ "musik": "ceria",
+ "g3": "konten/pabrik/hasil/rb-k4-032-r2.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/rb-k4-032-r2.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/40998763123",
+ "waktu": "2026-10-30T10:52+07:00",
+ "catatan_bangun": [
+  "kata \"gratis\" tidak ada di VO adegan 6"
+ ],
+ "phash_awal": [
+  "b29471f0f0f0a2b2",
+  "b29471f0f0f0a2b2",
+  "b29471f0f0f0a2b2"
+ ],
+ "mirip_awal": []
+}
