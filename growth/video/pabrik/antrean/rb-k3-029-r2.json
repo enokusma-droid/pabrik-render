@@ -1,0 +1,150 @@
+{
+ "kode": "rb-k3-029-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K3",
+ "pembuka": "k3-berita-terkini",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": [
+   "reporter"
+  ]
+ },
+ "judul": "Berita: stan festival kuliner nyaris buka tanpa bawang",
+ "caption": "Diundang festival kuliner mendadak, Chef Ayu butuh grosir bawang, tapi pemasok lama minta lunas di depan dan tidak mau mengantar ke lokasi. Ratu Bawang mengantar grosir gratis ke stan, se-Jogja, dibayar saat sampai. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Berita terkini dari Reporter Mega: stan festival kuliner Chef Ayu, pemilik resto, nyaris buka tanpa bawang.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-mic",
+    "judul": "Stan festival krisis bawang",
+    "label": "BERITA TERKINI",
+    "nama": "Reporter Mega",
+    "jabatan": "festival kuliner Jogja"
+   }
+  },
+  {
+   "teks": "Kata Chef Ayu, pemasok lama menyuruhnya lunas di depan, lalu ambil sendiri.",
+   "primitif": "wawancara",
+   "opsi": {
+    "saksi": "rb-ayu-foto",
+    "nama": "Chef Ayu",
+    "ket": "pemilik & kepala koki resto",
+    "kutipan": "Disuruh lunas, ambil sendiri",
+    "stempel": "DADAKAN"
+   }
+  },
+  {
+   "teks": "Undangan festival mendadak, panitia minta tiga ratus porsi siap.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "PORSI STAN",
+    "dari": 0,
+    "ke": 300,
+    "format": "angka",
+    "pose": "foto-panik",
+    "bubble": "butuh grosir!"
+   }
+  },
+  {
+   "teks": "Pemasok lama minta lunas dulu, dan tidak mau mengantar ke lokasi.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok Lama",
+    "sub": "grosir",
+    "pesan": [
+     {
+      "teks": "Grosir 20 kilo ke festival",
+      "keluar": true
+     },
+     {
+      "teks": "Lunas dulu, ambil di gudang",
+      "sorot": true
+     },
+     {
+      "teks": "Stan nggak bisa ditinggal",
+      "keluar": true
+     }
+    ],
+    "pose": "telepon",
+    "wajah": [
+     "kesal"
+    ],
+    "stempel": "MENTOK"
+   }
+  },
+  {
+   "teks": "Stan harus ditinggal demi bawang untuk stan itu sendiri.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "foto-panik",
+    "wajah": [
+     "panik"
+    ],
+    "bubble": "siapa jaga stan?",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Saat itu juga ia memesan grosir ke Ratu Bawang.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "pose": "foto-lega-hp",
+    "wajah": [
+     "lega"
+    ],
+    "kata": "Ratu Bawang"
+   }
+  },
+  {
+   "teks": "Diantar gratis ke stan, dibayar setelah dicek di tempat.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "RATU BAWANG",
+    "item": [
+     "Grosir 20 kilo",
+     "Diantar gratis ke stan",
+     "Bayar saat sampai"
+    ],
+    "stempel": "SAMPAI",
+    "pose": "foto-jempol",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Update: bawang tiba tepat waktu, stan Chef Ayu pun buka.",
+   "primitif": "studio",
+   "opsi": {
+    "reporter": "um-reporter-tunjuk",
+    "judul": "Bawang tiba tepat",
+    "label": "UPDATE",
+    "nama": "Reporter Mega",
+    "jabatan": "festival kuliner Jogja"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Grosir dadakan pun\ndiantar ke lokasi",
+    "pose": "foto-jempol"
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang. Wawancara adegan 2 mendahului penjelasan masalah adegan 3.",
+  "naskah_hash": "265976a2d92a",
+  "waktu": "2026-10-30T03:52",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-11"
+ }
+}

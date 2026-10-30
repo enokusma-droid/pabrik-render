@@ -1,0 +1,190 @@
+{
+ "kode": "rb-k0-026-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K0",
+ "pembuka": "k0-kejadian",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": []
+ },
+ "judul": "Tiga minggu, tamu belasan, sekarung bawang bertunas",
+ "caption": "Tiga minggu sejak resto Chef Ayu buka, tamunya baru belasan, tapi sekarung bawang dari grosir sudah bertunas. Hampir setengah terbuang. Di Ratu Bawang boleh ecer dulu, grosir nanti: tangan pertama, gratis ongkir se-Jogja, bayar saat sampai. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Tiga minggu sejak resto Chef Ayu buka, tamunya belasan, sekarung bawangnya sudah bertunas.",
+   "primitif": "tumpuk",
+   "opsi": {
+    "prop": "rb-karung-bawang",
+    "kartu": "tiga minggu sejak buka",
+    "tag": "BERTUNAS",
+    "pose": "karung-jempol",
+    "wajah": [
+     "senang"
+    ],
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Chef Ayu, pemilik resto, juara bawang goreng, tapi terlalu yakin.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "foto-jempol",
+    "wajah": [
+     "yakin"
+    ],
+    "judul": "Chef Ayu",
+    "sub": "pemilik resto",
+    "bintang": true,
+    "latar": "rb-latar-dapur-resto",
+    "bubble": "pasti laris!"
+   }
+  },
+  {
+   "teks": "Yakin laris, ia ambil sekarung dari grosir.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "YAKIN LARIS",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "PELANGGAN RESTO",
+      "dari": 0,
+      "ke": 5
+     }
+    ],
+    "pose": "masak",
+    "wajah": [
+     "yakin",
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Harapannya tiga ratus tamu, nyatanya empat belas: selisih dua ratus delapan puluh enam.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "TAMU 3 MINGGU",
+    "dari": 0,
+    "ke": 14,
+    "format": "angka",
+    "pose": "foto-panik",
+    "wajah": [
+     "kaget"
+    ],
+    "bubble": "harusnya ratusan",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Siapa paling menderita?",
+   "primitif": "kartu-tanya",
+   "opsi": {
+    "teks": "Siapa paling menderita?",
+    "bayangan": "rb-maskot-karung-kaget"
+   }
+  },
+  {
+   "teks": "Iya, aku, karung di pojok.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "rb-maskot-karung-kaget",
+    "label": "KARUNG POJOK",
+    "teks": "IYA, AKU!"
+   }
+  },
+  {
+   "teks": "Isiku bertunas, keriput, lalu dibuang.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "rb-maskot-karung-kaget",
+    "label": "KARUNG",
+    "item": [
+     "BERTUNAS",
+     "KERIPUT",
+     "DIBUANG"
+    ],
+    "prop": [
+     "rb-bawang-merah"
+    ]
+   }
+  },
+  {
+   "teks": "Chef Ayu menghitung: hampir setengah karung terbuang.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "foto-nangis",
+    "wajah": [
+     "kesal"
+    ],
+    "stempel": "TERBUANG",
+    "prop": "rb-bawang-merah",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Ia pindah ke Ratu Bawang: ecer dulu, grosir nanti.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "pose": "foto-lega-hp",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Tangan pertama, gratis ongkir Jogja, bayar saat sampai.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "RATU BAWANG",
+    "item": [
+     "ecer dulu, grosir nanti",
+     "tangan pertama",
+     "bayar saat sampai"
+    ],
+    "stempel": "PAS",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Aku pensiun, bawang datang secukupnya.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "bawang datang secukupnya",
+    "tag": "PENSIUN",
+    "maskot": "rb-maskot-karung-lelah",
+    "label": "KARUNG"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Ecer dulu,\ngrosir nanti",
+    "pose": "foto-jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang. Samakan 'sekarung bertunas' dan 'setengah karung terbuang'.",
+  "naskah_hash": "9c8a273b4be4",
+  "waktu": "2026-10-30T03:52",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-11"
+ }
+}

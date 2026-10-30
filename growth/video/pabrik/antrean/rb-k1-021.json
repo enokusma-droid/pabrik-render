@@ -2,18 +2,18 @@
  "kode": "rb-k1-021",
  "brand": "ratu-bawang",
  "konsep": "K1",
- "pembuka": "k1-awal-bulan",
+ "pembuka": "k1-kutipan",
  "pemeran": {
   "utama": "rb-ayu",
   "pendukung": [
    "rb-sekar"
   ]
  },
- "judul": "Tanggal satu, tagihan bawang naik lagi. Menu paling laris jadi korban?",
- "caption": "Tiap awal bulan tagihan bawang naik lagi, karena bawangnya lewat tiga tangan dulu. Chef Ayu pindah ke Ratu Bawang: tangan pertama dari petani dan pengepul, jadi lebih murah, dicek dulu baru dibayar, gratis ongkir se-Jogja. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "judul": "Tanggal satu, tagihan bawang naik tiga bulan berturut-turut",
+ "caption": "Tiga bulan berturut-turut tagihan bawang naik di tanggal satu, karena bawangnya lewat tiga tangan dulu. Chef Ayu pindah ke Ratu Bawang: langsung dari tangan pertama, petani dan pengepul, dicek dulu baru dibayar, gratis ongkir se-Jogja. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
  "adegan": [
   {
-   "teks": "Tanggal satu, Mbak Sekar, staf dapur, menyodorkan tagihan bawang: naik lagi.",
+   "teks": "\"Tagihan bawang naik lagi, Chef.\" Mbak Sekar, staf dapur, melapor tiga bulan berturut-turut.",
    "primitif": "tokoh",
    "opsi": {
     "jam": "07.00",
@@ -30,7 +30,7 @@
    }
   },
   {
-   "teks": "Kata pemasok, bawangnya lewat pedagang dan pengepul dulu: tiga tangan.",
+   "teks": "Kata pemasok, bawangnya lewat pedagang, lalu pengepul: tiga tangan.",
    "primitif": "chat",
    "opsi": {
     "jam": "07.30",
@@ -57,7 +57,7 @@
    }
   },
   {
-   "teks": "Jam sepuluh, Chef Ayu, pemilik resto, menghitung ulang dua puluh empat menu.",
+   "teks": "Chef Ayu, pemilik resto, menghitung ulang dua puluh empat menu.",
    "primitif": "hitung",
    "opsi": {
     "jam": "10.00",
@@ -75,7 +75,7 @@
    }
   },
   {
-   "teks": "Ternyata menu paling laris, nasi goreng bawang, paling tipis untungnya.",
+   "teks": "Menu paling laris, nasi goreng bawang, justru paling tipis untungnya.",
    "primitif": "tokoh",
    "opsi": {
     "jam": "13.00",
@@ -89,7 +89,7 @@
    }
   },
   {
-   "teks": "Mbak Sekar bertanya: dicoret, atau porsinya dikecilkan?",
+   "teks": "Sekar bertanya: porsi dikecilkan, atau pelanggan makan angin?",
    "primitif": "tokoh",
    "opsi": {
     "jam": "14.00",
@@ -103,7 +103,7 @@
    }
   },
   {
-   "teks": "Sorenya ia pindah ke Ratu Bawang: tangan pertama, lebih murah.",
+   "teks": "Sorenya Chef Ayu pindah ke Ratu Bawang: langsung tangan pertama.",
    "primitif": "chat",
    "opsi": {
     "jam": "16.00",
@@ -119,7 +119,7 @@
       "sorot": true
      },
      {
-      "teks": "Jadi lebih murah, Bu"
+      "teks": "Tanpa tiga tangan, Bu"
      }
     ],
     "pose": "foto-lega-hp",
@@ -141,17 +141,17 @@
    }
   },
   {
-   "teks": "Nota pagi ini lebih ringan, dicek dulu baru dibayar.",
+   "teks": "Nota pagi ini tanpa tiga tangan, dicek dulu, baru dibayar.",
    "primitif": "daftar",
    "opsi": {
     "jam": "07.15",
     "judul": "Nota tanggal dua",
     "item": [
-     "Lebih ringan",
+     "Tanpa tiga tangan",
      "Dicek dulu",
      "Baru dibayar"
     ],
-    "stempel": "LEBIH MURAH",
+    "stempel": "DARI SUMBER",
     "pose": "karung-jempol",
     "wajah": [
      "senang"
@@ -160,7 +160,7 @@
    }
   },
   {
-   "teks": "Nasi goreng bawang tetap, porsi tetap; yang dicoret cuma pemasoknya.",
+   "teks": "Nasi goreng bawang tetap, porsi tetap; yang dicoret cuma pemasok lama.",
    "primitif": "tokoh",
    "opsi": {
     "jam": "12.00",
@@ -178,7 +178,7 @@
    "teks": "Pesan lewat WhatsApp di profil.",
    "primitif": "cta",
    "opsi": {
-    "ajakan": "Tangan pertama,\nlebih murah",
+    "ajakan": "Tangan pertama,\ntanpa tiga tangan",
     "pose": "foto-jempol"
    }
   }
@@ -186,16 +186,16 @@
  "juri": {
   "skor": {
    "logika": 8,
-   "pembuka": 7,
-   "tokoh": 8,
-   "relevansi": 7,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 8,
    "humor": 7
   },
-  "rata": 7.4,
-  "catatan": "Ceritanya runtut. 'Lebih murah' (adegan 6 dan 8) adalah janji harga di luar layanan Ratu Bawang (tangan pertama, COD, gratis ongkir Jogja); ganti jadi 'tanpa tiga tangan' atau 'harga dari sumber'. Pembuka sah tapi datar, tambah angka kenaikan.",
-  "naskah_hash": "a3e36b081a3b",
-  "waktu": "2026-10-30T02:27",
+  "rata": 8,
+  "catatan": "Hari 2 belum menunjukkan hasil nyata; tambah 'nota lebih tipis'. Tambah satu ironi lagi di hari 2.",
+  "naskah_hash": "734c299e4316",
+  "waktu": "2026-10-30T03:52",
   "model": "claude-sonnet-subagen",
-  "mode": "borongan-9"
+  "mode": "borongan-11"
  }
 }

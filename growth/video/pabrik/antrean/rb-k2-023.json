@@ -2,60 +2,34 @@
  "kode": "rb-k2-023",
  "brand": "ratu-bawang",
  "konsep": "K2",
- "pembuka": "k2-akhir-dulu",
+ "pembuka": "k2-angka",
  "pemeran": {
   "utama": "rb-ayu",
   "pendukung": []
  },
- "judul": "Bombaynya mana? Chef Ayu tahun lalu vs hari ini",
- "caption": "Pemasok lama menolak pesanan campur kecil, jadi Ayu tahun lalu keliling pasar dan toko, lalu bombay terlupa dan harus keluar lagi. Ayu hari ini cukup satu pesanan campur ke Ratu Bawang: ecer dilayani, tangan pertama, gratis ongkir Jogja, bayar saat sampai. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "judul": "Dua butir bombay, tiga toko: Chef Ayu tahun lalu vs hari ini",
+ "caption": "Dua butir bombay: tahun lalu Chef Ayu keliling tiga toko karena pemasok menolak pesanan campur kecil. Hari ini cukup satu pesanan campur ke Ratu Bawang: ecer dilayani, tangan pertama, gratis ongkir Jogja, bayar saat sampai. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
  "adegan": [
   {
-   "teks": "Ayu hari ini sudah menumis. Ayu tahun lalu masih di tempat ketiga.",
-   "primitif": "banding",
+   "teks": "Chef Ayu, pemilik resto, keliling tiga toko demi dua butir bombay.",
+   "primitif": "hitung",
    "opsi": {
-    "label_kiri": "TAHUN LALU",
-    "label_kanan": "HARI INI",
-    "kiri": {
-     "pose": "keranjang-kosong",
-     "wajah": [
-      "lelah"
-     ],
-     "stempel": "TEMPAT 3"
-    },
-    "kanan": {
-     "pose": "masak",
-     "wajah": [
-      "senang"
-     ],
-     "stempel": "MENUMIS"
-    }
+    "judul": "TOKO DIDATANGI",
+    "dari": 0,
+    "ke": 3,
+    "format": "angka",
+    "kata": "toko, 2 butir bombay",
+    "prop": "rb-bawang-bombay",
+    "tokoh": "rb-ayu",
+    "pose": "keranjang-kosong",
+    "wajah": [
+     "lelah"
+    ],
+    "latar": "rb-latar-dapur-resto"
    }
   },
   {
-   "teks": "Putar ulang. Chef Ayu, pemilik resto, butuh tiga bawang, sedikit-sedikit.",
-   "primitif": "banding",
-   "opsi": {
-    "label_kiri": "TAHUN LALU",
-    "label_kanan": "HARI INI",
-    "kiri": {
-     "pose": "telepon",
-     "wajah": [
-      "yakin"
-     ],
-     "bubble": "sedikit-sedikit"
-    },
-    "kanan": {
-     "pose": "telepon",
-     "wajah": [
-      "yakin"
-     ],
-     "bubble": "sedikit-sedikit"
-    }
-   }
-  },
-  {
-   "teks": "Ayu tahun lalu pesan campur ke pemasok lama: ditolak, minimal sekarung.",
+   "teks": "Pemasok lama menolak pesanan campur kecil: minimal sekarung per jenis.",
    "primitif": "chat",
    "opsi": {
     "judul": "Pemasok Lama",
@@ -85,43 +59,32 @@
    }
   },
   {
-   "teks": "Jadi ia keliling: merah di pasar, putih di toko, bombay habis.",
+   "teks": "Maka Chef Ayu pindah ke Ratu Bawang: ecer campur dilayani, gratis ongkir se-Jogja.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "pose": "foto-lega-hp",
+    "kata": "pindah"
+   }
+  },
+  {
+   "teks": "Toko pertama, pasar: dulu hanya dapat merah, kini merah ikut satu pesanan.",
    "primitif": "banding",
    "opsi": {
-    "label_kiri": "TAHUN LALU",
-    "label_kanan": "HARI INI",
+    "label_kiri": "DULU",
+    "label_kanan": "KINI",
     "kiri": {
      "pose": "keranjang-kosong",
      "wajah": [
       "lelah"
      ],
      "prop": "rb-bawang-merah",
-     "stempel": "BOMBAY HABIS"
+     "stempel": "PASAR"
     },
     "kanan": {
      "pose": "masak",
      "wajah": [
       "yakin"
-     ]
-    }
-   }
-  },
-  {
-   "teks": "Ayu hari ini: satu pesanan campur ke Ratu Bawang, ecer, gratis ongkir.",
-   "primitif": "banding",
-   "opsi": {
-    "label_kiri": "TAHUN LALU",
-    "label_kanan": "HARI INI",
-    "kiri": {
-     "pose": "keranjang-kosong",
-     "wajah": [
-      "lelah"
-     ]
-    },
-    "kanan": {
-     "pose": "karung-jempol",
-     "wajah": [
-      "senang"
      ],
      "prop": "rb-keranjang-bawang",
      "stempel": "1 PESANAN"
@@ -129,20 +92,20 @@
    }
   },
   {
-   "teks": "Ayu tahun lalu sampai dapur, sup pesanan menunggu bombay.",
+   "teks": "Toko kedua: dulu putih ada tapi bombay habis, kini putih dan bombay ikut.",
    "primitif": "banding",
    "opsi": {
-    "label_kiri": "TAHUN LALU",
-    "label_kanan": "HARI INI",
+    "label_kiri": "DULU",
+    "label_kanan": "KINI",
     "kiri": {
-     "pose": "foto-panik",
+     "pose": "keranjang-kosong",
      "wajah": [
-      "kaget"
+      "lelah"
      ],
-     "bubble": "menunggu bombay"
+     "stempel": "BOMBAY HABIS"
     },
     "kanan": {
-     "pose": "masak",
+     "pose": "karung-jempol",
      "wajah": [
       "senang"
      ],
@@ -151,11 +114,11 @@
    }
   },
   {
-   "teks": "Keluar lagi ke swalayan, tempat ketiga, demi dua butir bombay.",
+   "teks": "Toko ketiga, swalayan: dulu dua butir bombay, kini sudah menunggu di dapur.",
    "primitif": "banding",
    "opsi": {
-    "label_kiri": "TAHUN LALU",
-    "label_kanan": "HARI INI",
+    "label_kiri": "DULU",
+    "label_kanan": "KINI",
     "kiri": {
      "pose": "keranjang-kosong",
      "wajah": [
@@ -173,12 +136,25 @@
    }
   },
   {
-   "teks": "Sejak dua butir itu, Ayu pindah ke Ratu Bawang.",
-   "primitif": "logo",
+   "teks": "Dulu sup menunggu bombay sampai siang, kini langsung dimasak.",
+   "primitif": "banding",
    "opsi": {
-    "stempel": "PINDAH!",
-    "pose": "foto-lega-hp",
-    "kata": "pindah"
+    "label_kiri": "DULU",
+    "label_kanan": "KINI",
+    "kiri": {
+     "pose": "foto-panik",
+     "wajah": [
+      "kaget"
+     ],
+     "bubble": "menunggu bombay"
+    },
+    "kanan": {
+     "pose": "masak",
+     "wajah": [
+      "senang"
+     ],
+     "prop": "rb-bawang-bombay"
+    }
    }
   },
   {
@@ -193,16 +169,16 @@
  "juri": {
   "skor": {
    "logika": 8,
-   "pembuka": 4,
-   "tokoh": 7,
-   "relevansi": 9,
-   "humor": 6
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 8,
+   "humor": 7
   },
-  "rata": 6.8,
-  "catatan": "Pembuka 'sudah menumis / masih di tempat ketiga' adalah teka-teki, siapa dan masalahnya tidak jelas dalam 3 detik. Ganti dengan 'Bombay dua butir, tiga toko'. Adegan 1 menyebut 'Ayu' tanpa peran: pakai 'Chef Ayu, pemilik resto'. Humor kurang tajam.",
-  "naskah_hash": "8b9958f60f46",
-  "waktu": "2026-10-30T02:27",
+  "rata": 8,
+  "catatan": "Judul bilang 'tahun lalu' tapi isi tidak; ubah judul. Beri kalimat sambung di adegan 2. Humor bisa ditambah di adegan 7.",
+  "naskah_hash": "ab9a8327e19b",
+  "waktu": "2026-10-30T03:52",
   "model": "claude-sonnet-subagen",
-  "mode": "borongan-9"
+  "mode": "borongan-11"
  }
 }

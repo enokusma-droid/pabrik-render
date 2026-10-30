@@ -218,7 +218,7 @@ export function rubrikJuri(brands) {
   L.push("Nilai HANYA dari naskah. Kamu tidak tahu niat penulis; jangan menebak maksud yang tidak tertulis. Galak tapi adil. Tiap naskah dinilai sendiri-sendiri.");
   L.push("", "RUBRIK (tiap butir 0-10, 8 = layak tayang, < 8 = wajib tulis ulang):");
   L.push("- logika: sebab-akibat tiap adegan nyambung ke adegan berikutnya; tidak ada kejadian acak, kebetulan absurd, atau lompatan; masalah → akibat → solusi masuk akal di dunia nyata.");
-  L.push("- pembuka: kalimat pertama memancing dan TIDAK mirip pembuka video terakhir brand itu (daftar per naskah); bukan klise.");
+  L.push("- pembuka: kalimat pertama memancing dan TIDAK mirip pembuka video terakhir brand itu (daftar per naskah); bukan klise. Riwayat = HANYA daftar \"Pembuka N video terakhir\" milik naskah itu; naskah lain di paket ini BUKAN riwayat (jangan bilang \"sudah dipakai\" bila kalimatnya tidak ada di daftar itu).");
   L.push("  WAJIB langsung jelas dalam 3 detik: penonton paham siapa/apa masalahnya tanpa menafsirkan. Kiasan/teka-teki yang perlu ditafsirkan (mis. \"Kue Sari tidak pernah miring\") = maks 5.");
   L.push("- tokoh: setiap orang yang tampil jelas siapa (nama/peran disebut sebelum/saat muncul), maks 2 tokoh, perannya konsisten dan wajar di tempat itu.");
   L.push("- relevansi: masalahnya NYATA di dunia brand itu; fitur/layanan produk yang ditunjukkan benar-benar menjawab masalah yang diceritakan; tidak menjanjikan hal di luar produk/layanan.");

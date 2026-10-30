@@ -2,49 +2,35 @@
  "kode": "rb-k7-025",
  "brand": "ratu-bawang",
  "konsep": "K7",
- "pembuka": "k7-resep",
+ "pembuka": "k7-angka",
  "pemeran": {
   "utama": "rb-sekar",
   "pendukung": [
    "rb-ayu"
   ]
  },
- "judul": "Resep kekacauan dapur: toples kosong saat malam Minggu",
- "caption": "Bahannya satu toples kosong, satu Mbak Sekar, satu malam Minggu. Resep ini gagal sejak Chef Ayu pindah ke Ratu Bawang: ecer pun diantar, gratis ongkir Jogja, bayar saat sampai, langsung tangan pertama. Jadi pesan sekilo sebelum toples habis itu ringan. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "judul": "Tutorial salah: cara bikin toples bawang kosong saat malam Minggu",
+ "caption": "Malam Minggu ramai, toples bawang kosong, pemasok lama minta minimal sekarung. Cara ini gagal sejak Chef Ayu pindah ke Ratu Bawang: ecer pun diantar, gratis ongkir Jogja, bayar saat sampai, langsung tangan pertama. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
  "adegan": [
   {
-   "teks": "Bahan kekacauan: toples kosong, Mbak Sekar, malam Minggu.",
-   "primitif": "daftar",
+   "teks": "Dua puluh meja penuh, toples bawang Mbak Sekar, staf dapur, kosong. Begini caranya.",
+   "primitif": "tokoh",
    "opsi": {
-    "judul": "BAHAN KEKACAUAN",
-    "item": [
-     "Toples bawang kosong",
-     "Mbak Sekar",
-     "Malam Minggu"
-    ],
     "pose": "bingung",
     "wajah": [
-     "bingung"
+     "panik"
     ],
+    "judul": "Mbak Sekar",
+    "sub": "staf dapur resto",
+    "bubble": "toples kosong!",
+    "stempel": "KOSONG",
+    "prop": "rb-keranjang-bawang",
+    "latar": "rb-latar-dapur-resto",
     "suasana": "masalah"
    }
   },
   {
-   "teks": "Mbak Sekar, staf dapur Chef Ayu, tukang belanja.",
-   "primitif": "tokoh",
-   "opsi": {
-    "pose": "jempol",
-    "wajah": [
-     "senang"
-    ],
-    "judul": "Mbak Sekar",
-    "sub": "staf dapur Chef Ayu",
-    "prop": "rb-keranjang-bawang",
-    "latar": "rb-latar-dapur-resto"
-   }
-  },
-  {
-   "teks": "Langkah satu: jangan pesan sebelum toples benar-benar kosong.",
+   "teks": "Langkah satu: jangan pesan sebelum toples kosong.",
    "primitif": "langkah",
    "opsi": {
     "no": 1,
@@ -59,7 +45,7 @@
    }
   },
   {
-   "teks": "Soalnya pemasok lama cuma terima sekarung, jadi tunggu habis sekalian.",
+   "teks": "Pemasok lama minta minimal sekarung, jadi Sekar menunda, takut layu.",
    "primitif": "chat",
    "opsi": {
     "judul": "Pemasok Lama",
@@ -82,7 +68,7 @@
    }
   },
   {
-   "teks": "Langkah dua: toples kosong pas malam Minggu ramai.",
+   "teks": "Langkah dua: toples kosong saat ramai.",
    "primitif": "langkah",
    "opsi": {
     "no": 2,
@@ -97,7 +83,7 @@
    }
   },
   {
-   "teks": "Langkah tiga: sekarung belum datang, Sekar lari ke warung tutup.",
+   "teks": "Langkah tiga: Sekar lari ke warung yang tutup.",
    "primitif": "langkah",
    "opsi": {
     "no": 3,
@@ -115,7 +101,7 @@
    }
   },
   {
-   "teks": "Sajikan: pesanan tertahan, tamu menunggu.",
+   "teks": "Hasilnya: pesanan tertahan, tamu menunggu.",
    "primitif": "tokoh",
    "opsi": {
     "pose": "bingung",
@@ -128,7 +114,7 @@
    }
   },
   {
-   "teks": "Senin, Chef Ayu pindah ke Ratu Bawang: ecer diantar gratis.",
+   "teks": "Chef Ayu, pemilik resto, lalu pindah ke Ratu Bawang: ecer diantar gratis.",
    "primitif": "logo",
    "opsi": {
     "stempel": "PINDAH!",
@@ -141,12 +127,12 @@
    }
   },
   {
-   "teks": "Resep baru: toples tinggal separuh, Sekar pesan sekilo.",
+   "teks": "Cara baru: toples separuh, Sekar pesan sekilo.",
    "primitif": "langkah",
    "opsi": {
     "no": 4,
     "bonus": true,
-    "judul": "RESEP BARU: separuh, pesan",
+    "judul": "CARA BARU: separuh, pesan",
     "prop": "rb-motor-antar",
     "pose": "jempol",
     "wajah": [
@@ -155,7 +141,7 @@
    }
   },
   {
-   "teks": "Resep kekacauan gagal: toples kosong tak pernah ada lagi.",
+   "teks": "Cara lama gagal: toples kosong tak ada lagi.",
    "primitif": "tokoh",
    "opsi": {
     "pose": "jempol",
@@ -163,7 +149,7 @@
      "senang"
     ],
     "prop": "rb-keranjang-bawang",
-    "stempel": "RESEP GAGAL",
+    "stempel": "CARA GAGAL",
     "bubble": "selalu terisi",
     "suasana": "solusi"
    }
@@ -183,15 +169,15 @@
  "juri": {
   "skor": {
    "logika": 7,
-   "pembuka": 6,
+   "pembuka": 8,
    "tokoh": 8,
    "relevansi": 8,
    "humor": 7
   },
-  "rata": 7.2,
-  "catatan": "Pembuka berupa daftar bahan, belum langsung jelas masalahnya: mulai 'Malam Minggu, toples bawang kosong, Mbak Sekar'. Adegan 4 tidak nyambung: pemasok minimal sekarung bukan alasan menunggu toples habis. Adegan 8 tambah pemicu pindah selain 'Senin'.",
-  "naskah_hash": "2371b12f1a69",
-  "waktu": "2026-10-30T02:27",
+  "rata": 7.6,
+  "catatan": "Adegan 8-9 membingungkan: 'cara lama gagal: toples kosong tak ada lagi' tidak nyambung. Ganti dengan akibat nyata: toples separuh, sekilo datang gratis, malam Minggu aman. Chef Ayu baru muncul di adegan 7 tanpa pengantar.",
+  "naskah_hash": "c8b577ad8e77",
+  "waktu": "2026-10-30T03:52",
   "model": "claude-sonnet-subagen",
   "mode": "borongan-8"
  }

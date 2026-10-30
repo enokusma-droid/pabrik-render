@@ -1,0 +1,172 @@
+{
+ "kode": "rb-k6-022-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K6",
+ "pembuka": "k6-surat-terbuka",
+ "pemeran": {
+  "utama": "rb-sekar",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Surat dari timbangan dapur: bombay pesanan, bawang merah datang",
+ "caption": "Pesan lewat telepon tanpa nota, yang datang malah salah jenis dan kurang. Sejak pindah ke Ratu Bawang, bawang ditimbang dan dicocokkan dulu saat sampai, baru dibayar. Ecer atau grosir, gratis ongkir Jogja, langsung dari tangan pertama. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Surat terbuka dari timbangan dapur Chef Ayu untuk Mbak Sekar: bombay dipesan, merah datang.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "bombay dipesan,",
+     "bawang merah datang"
+    ],
+    "gambar": "rb-timbangan",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Katamu di telepon: bombay lima kilo ya, Pak.",
+   "primitif": "surat-buka",
+   "opsi": {
+    "judul": "Surat Terbuka",
+    "untuk": "Mbak Sekar, staf dapur",
+    "dari": "Timbangan dapur",
+    "maskot": "rb-timbangan"
+   }
+  },
+  {
+   "teks": "Pemasok lama mencatat pesananmu di telepon, tanpa nota.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "dipesan di telepon",
+     "tanpa nota"
+    ],
+    "gambar": "rb-nota",
+    "stempel": "LISAN"
+   }
+  },
+  {
+   "teks": "Aku menimbang: bukan lima kilo bombay, cuma tiga kilo bawang merah.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "rb-timbangan",
+    "label": "TIMBANGAN",
+    "item": [
+     "BUKAN BOMBAY",
+     "CUMA 3 KILO"
+    ],
+    "prop": [
+     "rb-bawang-merah"
+    ],
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Kamu protes, pemasok cuma membalas: perasaan Mbak bilang merah.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok Lama",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Pak, ini bukan bombay",
+      "keluar": true
+     },
+     {
+      "teks": "Cuma 3 kilo juga",
+      "keluar": true
+     },
+     {
+      "teks": "Perasaan Mbak bilang merah",
+      "sorot": true
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "kaget",
+     "panik"
+    ],
+    "stempel": "???"
+   }
+  },
+  {
+   "teks": "Hari itu sup bombay terpaksa jadi sup bawang merah.",
+   "primitif": "tokoh",
+   "opsi": {
+    "tokoh": "rb-ayu",
+    "pose": "masak",
+    "wajah": [
+     "kesal"
+    ],
+    "judul": "Chef Ayu",
+    "sub": "pemilik resto, bos Sekar",
+    "stempel": "SUP DARURAT",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Cukup bagi Chef Ayu, bosmu; ia pindah ke Ratu Bawang.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "yakin"
+    ],
+    "kata": "pindah"
+   }
+  },
+  {
+   "teks": "Kini bawang datang, kutimbang, kamu cocokkan, baru dibayar.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "bawang datang",
+     "ditimbang, dicocokkan",
+     "baru dibayar"
+    ],
+    "gambar": "rb-timbangan",
+    "stempel": "COCOK",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Kini kalimat favoritku: pas lima kilo, Mbak.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Dengan seimbang,",
+    "ttd": "Timbanganmu",
+    "maskot": "rb-timbangan",
+    "stempel": "PAS 5 KILO"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Dicek dulu,\nbaru dibayar",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 8,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8,
+  "catatan": "Layak tayang. Pesanan lisan, nota tak ada, bombay tertukar merah, lalu pindah. Ironi 'perasaan Mbak bilang merah' lucu. Saran: adegan 1 dan 2 sama-sama membuka surat, pangkas salah satunya agar lebih rapat.",
+  "naskah_hash": "a9641233cb3a",
+  "waktu": "2026-10-30T03:52",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-8"
+ }
+}

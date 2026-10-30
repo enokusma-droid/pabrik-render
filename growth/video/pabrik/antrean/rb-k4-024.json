@@ -2,7 +2,7 @@
  "kode": "rb-k4-024",
  "brand": "ratu-bawang",
  "konsep": "K4",
- "pembuka": "k4-pengakuan",
+ "pembuka": "k4-angka-langka",
  "pemeran": {
   "utama": "rb-wening",
   "pendukung": [
@@ -10,42 +10,15 @@
   ]
  },
  "judul": "Kurir bawang mengaku: empat tipe pemilik dapur saat bawang datang",
- "caption": "Mbak Wening, kurir Ratu Bawang, dulu sebal kalau bawang dicek satu-satu, sampai tahu banyak pemilik dapur pernah rugi bayar di muka. Di Ratu Bawang ecer dan grosir dicek dulu, dibayar saat sampai, gratis ongkir se-Jogja. Kamu tipe berapa? Tulis di komentar, dan silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "caption": "Aku Wening, kurir Ratu Bawang. Dulu aku sebal kalau bawang dicek satu-satu, sampai tahu banyak pemilik dapur pernah rugi bayar di muka. Di Ratu Bawang ecer dan grosir dicek dulu, dibayar saat sampai, gratis ongkir se-Jogja. Kamu tipe berapa? Tulis di komentar, dan silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
  "adegan": [
   {
-   "teks": "Jujur, dulu aku tipe kurir yang sebal kalau bawang dicek satu-satu.",
-   "primitif": "tokoh",
-   "opsi": {
-    "pose": "pikul-karung",
-    "wajah": [
-     "kaget"
-    ],
-    "bubble": "dicek lagi?",
-    "latar": "rb-latar-dapur-resto",
-    "suasana": "masalah"
-   }
-  },
-  {
-   "teks": "Aku Wening, kurir Ratu Bawang. Ternyata, banyak yang pernah rugi bayar di muka.",
-   "primitif": "tokoh",
-   "opsi": {
-    "pose": "cek-hp",
-    "wajah": [
-     "kaget"
-    ],
-    "judul": "Mbak Wening",
-    "sub": "kurir Ratu Bawang",
-    "stempel": "RUGI DI MUKA",
-    "latar": "rb-latar-gudang-bawang"
-   }
-  },
-  {
-   "teks": "Di sini bayar saat sampai. Ini empat tipe yang kutemui.",
+   "teks": "Aku Wening, kurir Ratu Bawang: dari empat tipe pemilik dapur saat bawang datang, cuma satu yang tenang.",
    "primitif": "tipe-hook",
    "opsi": {
     "jumlah": 4,
-    "judul": "BAYAR SAAT SAMPAI",
-    "sub": "tipe pemilik dapur",
+    "judul": "EMPAT TIPE",
+    "sub": "saat bawang datang",
     "tanya": "Kamu yang mana?"
    }
   },
@@ -85,7 +58,7 @@
    }
   },
   {
-   "teks": "Tipe dua, si timbang ulang: dulu kurang dua kilo, padahal lunas.",
+   "teks": "Tipe dua, si timbang ulang, membawa timbangan dari dapurnya.",
    "primitif": "kartu-tipe",
    "opsi": {
     "no": 2,
@@ -110,8 +83,8 @@
       95
      ]
     ],
-    "skill": "timbangan sendiri dari dapur",
-    "lemah": "dulu kurang dua kilo",
+    "skill": "timbangan dari dapur",
+    "lemah": "pernah kurang dua kilo",
     "gag": {
      "turun": 2,
      "ke": 5,
@@ -120,47 +93,47 @@
    }
   },
   {
-   "teks": "Tipe tiga, si coba sekilo: ecer dulu, minggu depan grosir.",
+   "teks": "Tipe tiga, si foto dulu, memotret tiap karung sebelum dibuka.",
    "primitif": "kartu-tipe",
    "opsi": {
     "no": 3,
-    "nama": "Si Coba Sekilo",
+    "nama": "Si Foto Dulu",
     "rarity": "EPIC",
-    "foto": "rb-keranjang-bawang",
+    "foto": "rb-karung-bawang",
     "stat": [
      [
-      "HATI-HATI",
-      90
-     ],
-     [
-      "ECER",
+      "BUKTI",
       100
      ],
      [
-      "GROSIR",
-      100
+      "KAMERA",
+      95
      ],
      [
-      "NEKAT",
-      10
+      "SABAR",
+      40
+     ],
+     [
+      "PERCAYA",
+      30
      ]
     ],
-    "skill": "uji pakai ecer dulu",
-    "lemah": "takut ditolak karena sedikit",
+    "skill": "foto tiap karung",
+    "lemah": "kurir menunggu",
     "gag": {
      "jenis": "notif",
      "item": [
-      "Pesanan ecer 1 kilo",
-      "Minggu depan: grosir",
+      "Foto karung terkirim",
+      "Bukti aman",
       "Bayar saat sampai"
      ],
-     "stempel": "NAIK LEVEL",
-     "kata": "grosir"
+     "stempel": "AMAN",
+     "kata": "foto"
     }
    }
   },
   {
-   "teks": "Tipe empat, Chef Ayu, pemilik resto: pindah ke kami setelah pemasok lamanya kabur.",
+   "teks": "Tipe empat, Chef Ayu, pemilik resto: cek dulu sampai yakin, baru bayar, lalu masak tenang.",
    "primitif": "kartu-tipe",
    "opsi": {
     "no": 4,
@@ -185,17 +158,32 @@
       100
      ]
     ],
-    "skill": "pesan rutin, bayar saat sampai",
+    "skill": "cek dulu, baru bayar",
     "lemah": "pernah bayar di muka",
     "gag": {
      "turun": 2,
      "ke": 0,
-     "kata": "kabur"
+     "kata": "langsung"
     }
    }
   },
   {
-   "teks": "Sekarang, aku yang menyodorkan bawangnya satu-satu.",
+   "teks": "Pemenangnya Chef Ayu: bayar saat sampai membuat ia tenang mengecek.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "cek-hp",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Mbak Wening",
+    "sub": "kurir Ratu Bawang",
+    "stempel": "PEMENANG",
+    "latar": "rb-latar-gudang-bawang",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Sekarang aku menyodorkan bawangnya satu-satu, silakan dicek.",
    "primitif": "tokoh",
    "opsi": {
     "pose": "serah-karung",
@@ -222,17 +210,17 @@
  ],
  "juri": {
   "skor": {
-   "logika": 7,
-   "pembuka": 7,
-   "tokoh": 7,
+   "logika": 6,
+   "pembuka": 8,
+   "tokoh": 8,
    "relevansi": 8,
    "humor": 7
   },
-  "rata": 7.2,
-  "catatan": "Pembuka 'aku tipe kurir...' belum jelas siapa 'aku' sampai adegan 2. Sebut 'Aku Wening, kurir Ratu Bawang' di kalimat pertama. Tipe 3 (coba sekilo) dan tipe 4 (Chef Ayu) bukan perilaku saat bawang datang, hanya cerita pindah pemasok. Ganti dengan kebiasaan nyata.",
-  "naskah_hash": "78802045f862",
-  "waktu": "2026-10-30T02:27",
+  "rata": 7.4,
+  "catatan": "Tipe 1 hampir sama dengan tipe 4; bedakan tipe 4. Adegan 7 ganjil.",
+  "naskah_hash": "54f20d968f47",
+  "waktu": "2026-10-30T03:52",
   "model": "claude-sonnet-subagen",
-  "mode": "borongan-9"
+  "mode": "borongan-11"
  }
 }

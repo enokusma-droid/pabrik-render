@@ -10,10 +10,10 @@
   ]
  },
  "judul": "Berita: staf dapur dipanggil juragan bawang oleh tukang parkir pasar",
- "caption": "Pemasok lama tidak mau mengantar grosir, jadi tiap pagi Mbak Sekar menjemput dua puluh lima kilo bawang dari pasar naik motor, sampai tukang parkir memanggilnya juragan. Chef Ayu akhirnya pindah ke Ratu Bawang: grosir diantar gratis se-Jogja, tangan pertama, bayar saat sampai. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "caption": "Pemasok lama tidak mau mengantar grosir, jadi tiap pagi Mbak Sekar menjemput dua puluh lima kilo bawang dari pasar naik motor, sampai tukang parkir memanggilnya juragan. Menu pun terlambat, dan Chef Ayu pindah ke Ratu Bawang: grosir diantar gratis se-Jogja, tangan pertama, bayar saat sampai. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
  "adegan": [
   {
-   "teks": "Dua puluh lima kilo bawang, satu motor bebek, setiap pagi.",
+   "teks": "Dua puluh lima kilo bawang, satu motor: tiap pagi Mbak Sekar, staf dapur, menjemputnya sendiri.",
    "primitif": "hitung",
    "opsi": {
     "judul": "KILO DI MOTOR",
@@ -30,7 +30,7 @@
    }
   },
   {
-   "teks": "Reporter Mega menemui Mbak Sekar, staf dapur resto Chef Ayu di Jogja.",
+   "teks": "Reporter Mega menemui Sekar, staf dapur resto Chef Ayu.",
    "primitif": "studio",
    "opsi": {
     "reporter": "um-reporter-mic",
@@ -52,7 +52,7 @@
    }
   },
   {
-   "teks": "Jadi tiap pagi, Sekar menjemput sendiri karungnya dari pasar.",
+   "teks": "Jadi ia menjemput sendiri karungnya tiap pagi.",
    "primitif": "tokoh",
    "opsi": {
     "pose": "lari-belanja",
@@ -79,7 +79,7 @@
    }
   },
   {
-   "teks": "Sampai dapur, tenaganya habis, padahal bawang belum dikupas.",
+   "teks": "Sampai dapur, tenaga habis, bawang belum dikupas.",
    "primitif": "hitung",
    "opsi": {
     "judul": "TENAGA SEKAR",
@@ -96,7 +96,7 @@
    }
   },
   {
-   "teks": "Melihat stafnya loyo sebelum mengupas, Chef Ayu pindah ke Ratu Bawang.",
+   "teks": "Menu terlambat, Chef Ayu, pemilik resto, menegur, lalu pindah ke Ratu Bawang.",
    "primitif": "logo",
    "opsi": {
     "stempel": "PINDAH!",
@@ -108,7 +108,7 @@
    }
   },
   {
-   "teks": "Grosir diantar gratis se-Jogja, tangan pertama, dibayar saat sampai.",
+   "teks": "Grosir diantar gratis se-Jogja, dibayar saat sampai.",
    "primitif": "daftar",
    "opsi": {
     "judul": "RATU BAWANG",
@@ -123,7 +123,7 @@
    }
   },
   {
-   "teks": "Update terbaru: tukang parkir pasar kehilangan juragan bawang favoritnya.",
+   "teks": "Update: tukang parkir pasar kehilangan juragan bawang favoritnya.",
    "primitif": "studio",
    "opsi": {
     "reporter": "um-reporter-tunjuk",
@@ -148,16 +148,16 @@
  "juri": {
   "skor": {
    "logika": 8,
-   "pembuka": 7,
-   "tokoh": 8,
-   "relevansi": 9,
+   "pembuka": 8,
+   "tokoh": 7,
+   "relevansi": 8,
    "humor": 8
   },
-  "rata": 8,
-  "catatan": "Gag tukang parkir 'juragan bawang' kuat dan konsisten. Pembuka konkret tapi belum menyebut siapa; tambahkan 'Mbak Sekar' di kalimat pertama. Adegan 7 'melihat stafnya loyo' sebaiknya jadi satu kalimat sebab konkret (mis. Sekar telat mengupas, menu terlambat).",
-  "naskah_hash": "33c2f6b00af1",
-  "waktu": "2026-10-30T02:27",
+  "rata": 7.8,
+  "catatan": "Chef Ayu muncul di VO adegan 7 sebagai orang ketiga. Pakai 'bos Sekar' tanpa nama.",
+  "naskah_hash": "4060682a2149",
+  "waktu": "2026-10-30T03:52",
   "model": "claude-sonnet-subagen",
-  "mode": "borongan-9"
+  "mode": "borongan-11"
  }
 }

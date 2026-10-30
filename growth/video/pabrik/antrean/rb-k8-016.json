@@ -2,71 +2,39 @@
  "kode": "rb-k8-016",
  "brand": "ratu-bawang",
  "konsep": "K8",
- "pembuka": "k8-telepon-malam",
+ "pembuka": "k8-malam-itu",
  "pemeran": {
   "utama": "rb-ayu",
   "pendukung": [
    "rb-sekar"
   ]
  },
- "judul": "Chat tengah malam dari pemasok lama, lalu bunyi gedebuk di gudang",
- "caption": "Pemasok lama hanya mau kirim kalau ditransfer di muka, dan menagihnya tengah malam. Karung yang datang ternyata cuma setengah, dan yang menagih malah tak membalas. Chef Ayu pindah ke Ratu Bawang: bawang dicek dulu di dapur, baru dibayar saat sampai. Gratis ongkir se-Jogja, ecer atau grosir. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "judul": "Bau asam dari gudang bawang tengah malam, lalu karung yang basah",
+ "caption": "Malam itu, sehabis resto tutup, bau asam tercium dari gudang bawang. Mbak Sekar maju bersenjata sapu, lalu Chef Ayu menyusul dan menemukan penyebabnya: karung kiriman pemasok lama, bawangnya basah dan lengket, padahal sudah dibayar. Chef Ayu pindah ke Ratu Bawang: bawang dicek dulu di dapur, dibayar saat sampai, gratis ongkir Jogja. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
  "adegan": [
   {
-   "teks": "Jam sebelas malam, chat pemasok lama masuk: transfer dulu, Chef, baru dikirim.",
-   "primitif": "chat",
+   "teks": "Malam itu, sehabis resto tutup, Mbak Sekar, staf dapur, mencium bau asam dari gudang.",
+   "primitif": "tokoh",
    "opsi": {
-    "judul": "Pemasok lama",
-    "sub": "online 23.00",
-    "pesan": [
-     {
-      "teks": "Chef, transfer dulu ya"
-     },
-     {
-      "teks": "Baru bawangnya dikirim",
-      "sorot": true
-     }
-    ],
-    "pose": "telepon",
+    "tokoh": "rb-sekar",
+    "pose": "bingung",
     "wajah": [
-     "lelah"
+     "kaget"
     ],
-    "stempel": "23.00",
-    "suasana": "malam"
-   }
-  },
-  {
-   "teks": "Chef Ayu, pemilik resto, transfer sambil setengah tidur.",
-   "primitif": "horor",
-   "opsi": {
-    "teks": [
-     "CHEF AYU",
-     "SETENGAH TIDUR"
-    ],
-    "pose": "foto-lega-hp",
-    "wajah": [
-     "lelah"
-    ]
-   }
-  },
-  {
-   "teks": "Esok malam, saat dapur tutup, gudang berbunyi gedebuk.",
-   "primitif": "horor",
-   "opsi": {
-    "teks": [
-     "GUDANG",
-     "GEDEBUK!"
-    ],
+    "judul": "Mbak Sekar",
+    "sub": "staf dapur",
+    "bubble": "bau apa ini?",
+    "stempel": "BAU ASAM",
     "latar": "rb-latar-gudang-bawang"
    }
   },
   {
-   "teks": "Mbak Sekar, staf dapur, menyalakan lampu sambil mengacungkan sapu.",
+   "teks": "Ia menyalakan lampu, menggenggam sapu, siap mengusir tikus.",
    "primitif": "horor",
    "opsi": {
     "teks": [
      "MBAK SEKAR",
-     "NYALAKAN LAMPU"
+     "SAPU SIAP"
     ],
     "tokoh": "rb-sekar",
     "pose": "bingung",
@@ -77,22 +45,62 @@
    }
   },
   {
-   "teks": "Ternyata karung kiriman kemarin, isinya cuma setengah, roboh sendiri.",
-   "primitif": "kejut",
-   "opsi": {
-    "subjek": "rb-maskot-karung-lelah",
-    "teks": "...karung kempis",
-    "stempel": "SETENGAH!"
-   }
-  },
-  {
-   "teks": "Yang menagih tengah malam itu, kini tak membalas chat.",
+   "teks": "Chef Ayu, pemilik resto, menyusul, bingung dari mana asal baunya.",
    "primitif": "horor",
    "opsi": {
     "teks": [
-     "DIBAYAR DI MUKA",
-     "CHAT TAK DIBALAS"
+     "CHEF AYU",
+     "BAU DARI MANA?"
     ],
+    "tokoh": "rb-ayu",
+    "pose": "foto-panik",
+    "wajah": [
+     "kaget"
+    ],
+    "latar": "rb-latar-gudang-bawang"
+   }
+  },
+  {
+   "teks": "Karung kiriman pemasok lama dibuka: bawang merahnya basah dan lengket.",
+   "primitif": "kejut",
+   "opsi": {
+    "subjek": "rb-karung-bawang",
+    "teks": "...bawang basah",
+    "stempel": "LENGKET!"
+   }
+  },
+  {
+   "teks": "Pemasok lama membalas: kemarin masih kering kok, Bu.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok lama",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Bu, bawangnya basah"
+     },
+     {
+      "teks": "Kemarin masih kering kok",
+      "sorot": true
+     }
+    ],
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "kesal"
+    ],
+    "stempel": "MENGELAK"
+   }
+  },
+  {
+   "teks": "Sudah dibayar, karung tak bisa dikembalikan.",
+   "primitif": "horor",
+   "opsi": {
+    "teks": [
+     "SUDAH DIBAYAR",
+     "TAK BISA BALIK"
+    ],
+    "tokoh": "rb-ayu",
     "pose": "foto-panik",
     "wajah": [
      "kesal"
@@ -100,10 +108,11 @@
    }
   },
   {
-   "teks": "Chef Ayu memutuskan pindah ke Ratu Bawang.",
+   "teks": "Rugi bawang busuk, Chef Ayu pindah ke Ratu Bawang.",
    "primitif": "logo",
    "opsi": {
     "stempel": "PINDAH!",
+    "tokoh": "rb-ayu",
     "pose": "foto-lega-hp",
     "wajah": [
      "yakin"
@@ -111,7 +120,7 @@
    }
   },
   {
-   "teks": "Bawang dicek dulu di dapur, baru dibayar saat sampai.",
+   "teks": "Bawang dicek dulu, dibayar saat sampai, ongkir gratis Jogja.",
    "primitif": "daftar",
    "opsi": {
     "judul": "Ratu Bawang",
@@ -121,16 +130,18 @@
      "Gratis ongkir Jogja"
     ],
     "stempel": "AMAN",
+    "tokoh": "rb-ayu",
     "pose": "karung-jempol",
     "suasana": "solusi"
    }
   },
   {
-   "teks": "Jam sebelas malam kini cuma ada satu bunyi: dengkuran Chef Ayu.",
+   "teks": "Kini gudang hanya berbau bawang segar; sapu Sekar boleh istirahat.",
    "primitif": "haru",
    "opsi": {
-    "kartu": "Jam 11 malam: hening",
-    "tag": "TIDUR NYENYAK",
+    "kartu": "Gudang kini segar",
+    "tag": "SAPU ISTIRAHAT",
+    "tokoh": "rb-ayu",
     "pose": "foto-jempol",
     "wajah": [
      "lega"
@@ -152,16 +163,16 @@
  ],
  "juri": {
   "skor": {
-   "logika": 7,
-   "pembuka": 5,
+   "logika": 8,
+   "pembuka": 7,
    "tokoh": 8,
    "relevansi": 8,
    "humor": 7
   },
-  "rata": 7,
-  "catatan": "Pembuka dan plot mirip video terakhir ('Pemasok bilang: transfer dulu' dan 'Karung dibuka Mbak Sekar: separuh kopong'). Ganti sudut dengan kejutan baru. Adegan 5 karung setengah roboh sendiri kurang meyakinkan: buat Sekar mengangkat karung yang ringan.",
-  "naskah_hash": "828a5ae7548e",
-  "waktu": "2026-10-30T02:27",
+  "rata": 7.6,
+  "catatan": "Pembuka 'Malam itu...' tanpa konteks, tidak memancing. Ganti dengan 'Bau asam di gudang, Mbak Sekar menyiapkan sapu untuk tikus. Ternyata bawang lunas yang basah.' Adegan 6 ('tak bisa dikembalikan') perlu satu kalimat sebab.",
+  "naskah_hash": "3bc1640c0972",
+  "waktu": "2026-10-30T03:52",
   "model": "claude-sonnet-subagen",
   "mode": "borongan-8"
  }

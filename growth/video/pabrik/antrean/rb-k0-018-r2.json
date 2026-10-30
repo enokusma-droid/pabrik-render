@@ -1,0 +1,166 @@
+{
+ "kode": "rb-k0-018-r2",
+ "brand": "ratu-bawang",
+ "konsep": "K0",
+ "pembuka": "k0-masalah",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": []
+ },
+ "judul": "Lunas, tapi kurang tiga ons: salah siapa?",
+ "caption": "Bawang sudah lunas, tapi ditimbang kurang tiga ons, dan pemasok bilang timbangan Chef Ayu yang rusak. Timbangan baru pun sama saja. Di Ratu Bawang bawang dicek dulu, baru dibayar saat sampai. Tangan pertama, ecer dan grosir, gratis ongkir se-Jogja. Silakan pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Bawang lunas Chef Ayu, pemilik resto, kurang tiga ons, dan timbangannya dituduh rusak.",
+   "primitif": "meter",
+   "opsi": {
+    "meter": [
+     {
+      "judul": "BERAT DIJANJIKAN",
+      "dari": 0,
+      "ke": 100
+     },
+     {
+      "judul": "BERAT SAMPAI",
+      "dari": 100,
+      "ke": 88,
+      "kata": "kurang"
+     }
+    ],
+    "pose": "masak",
+    "wajah": [
+     "yakin",
+     "bingung"
+    ],
+    "tanya": true
+   }
+  },
+  {
+   "teks": "Uangnya sudah dikirim sebelum karungnya datang.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "telepon",
+    "wajah": [
+     "senang"
+    ],
+    "judul": "Chef Ayu",
+    "sub": "pemilik resto",
+    "bubble": "transfer dulu",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Ditimbang dua kali, tetap kurang tiga ons.",
+   "primitif": "hitung",
+   "opsi": {
+    "judul": "KURANG (ONS)",
+    "dari": 0,
+    "ke": 3,
+    "format": "angka",
+    "prop": "rb-timbangan",
+    "pose": "foto-panik",
+    "wajah": [
+     "kaget"
+    ],
+    "bubble": "timbangan rusak?",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Aku timbangan itu, dan aku cuma menemukan kurangnya.",
+   "primitif": "reveal",
+   "opsi": {
+    "subjek": "rb-timbangan",
+    "label": "TIMBANGAN",
+    "teks": "IYA, AKU!"
+   }
+  },
+  {
+   "teks": "Aku diketuk-ketuk dan dibilang rusak, padahal bukan salahku.",
+   "primitif": "derita",
+   "opsi": {
+    "maskot": "rb-timbangan",
+    "label": "TIMBANGAN",
+    "item": [
+     "KURANG 3 ONS",
+     "DITUDUH RUSAK",
+     "DIKETUK-KETUK"
+    ]
+   }
+  },
+  {
+   "teks": "Chef Ayu beli timbangan baru, hasilnya tetap kurang.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "foto-karung",
+    "wajah": [
+     "kesal"
+    ],
+    "prop": "rb-timbangan",
+    "stempel": "TETAP KURANG",
+    "latar": "rb-latar-dapur-resto"
+   }
+  },
+  {
+   "teks": "Jadi bukan salah timbangan, Chef Ayu pindah ke Ratu Bawang.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "pose": "foto-lega-hp",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Bawang tangan pertama dicek dulu di dapur, dibayar saat sampai.",
+   "primitif": "daftar",
+   "opsi": {
+    "judul": "RATU BAWANG",
+    "item": [
+     "bayar saat sampai",
+     "cek dulu sebelum bayar",
+     "tangan pertama"
+    ],
+    "stempel": "PAS",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Kini kurangnya ketahuan sebelum dibayar, aku bebas tuduhan.",
+   "primitif": "haru",
+   "opsi": {
+    "kartu": "ketahuan sebelum bayar",
+    "tag": "BEBAS TUDUHAN",
+    "maskot": "rb-timbangan",
+    "label": "TIMBANGAN"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Dicek dulu,\nbaru dibayar",
+    "pose": "foto-jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang. Saran kecil: adegan 6 (timbangan baru tetap kurang) sudah membuktikan bukan salah timbangan, jadi adegan 7 cukup satu kalimat.",
+  "naskah_hash": "458d4c3f8ef1",
+  "waktu": "2026-10-30T03:52",
+  "model": "claude-sonnet-subagen",
+  "mode": "borongan-11"
+ }
+}
