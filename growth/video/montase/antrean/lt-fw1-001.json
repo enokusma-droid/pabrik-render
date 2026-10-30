@@ -1,0 +1,102 @@
+{
+ "kode": "lt-fw1-001",
+ "brand": "lava-tour-merapi",
+ "vo": {
+  "voice": "Laomedeia",
+  "gaya": "Energetic, cheerful travel vlogger voiceover speaking natural Bahasa Indonesia, adventurous and fun, clear and not rushed"
+ },
+ "warna": {
+  "aksen": "#FF7A1A",
+  "gelap": "#141414"
+ },
+ "kartu": {
+  "baris": [
+   "LAVA TOUR",
+   "MERAPI"
+  ],
+  "sub": "Jeep Tour Merapi · Paket Wisata Jogja",
+  "cta": "wisatamerapi.com"
+ },
+ "kunci": "merapi,jeep,sungai,seru,jogja,lava,bunker,kaliadem,maridjan,wisatamerapi.com,offroad,erupsi,byur",
+ "framework": "FW1-rute",
+ "musik": "kandidat/upbeat/upbeat-mountain.mp3",
+ "judul": [
+  "LAVA TOUR",
+  "MERAPI"
+ ],
+ "naskah": "Mau lihat Merapi dari dekat, dengan cara paling seru?\n\nNaik jeep terbuka menyusuri lereng gunung. Menerabas sungai sampai basah kuyup. Lalu mampir ke petilasan Mbah Maridjan dan Bunker Kaliadem, saksi bisu erupsi Merapi.\n\nSeru buat keluarga, teman kantor, atau rombongan.\n\nLiburan ke Jogja? Pesan Lava Tour Merapi, atau sekalian paket wisata Jogja, di {wisatamerapi titik com|wisatamerapi.com}.",
+ "shot": [
+  {
+   "kata": "mau",
+   "aset": "VDR0015",
+   "ss": 2.0
+  },
+  {
+   "kata": "dengan",
+   "aset": "VDM0057",
+   "ss": 1.6
+  },
+  {
+   "kata": "naik",
+   "aset": "VDR0037",
+   "ss": 5.5
+  },
+  {
+   "kata": "menyusuri",
+   "aset": "VDM0033",
+   "ss": 1.5
+  },
+  {
+   "kata": "menerabas",
+   "aset": "VDR0026",
+   "ss": 10.7
+  },
+  {
+   "kata": "basah",
+   "aset": "VDM0052",
+   "ss": 1.4
+  },
+  {
+   "kata": "lalu",
+   "aset": "VDM0013",
+   "ss": 0.6,
+   "label": "Petilasan Mbah Maridjan"
+  },
+  {
+   "kata": "bunker",
+   "aset": "VDM0046",
+   "ss": 0.4,
+   "label": "Bunker Kaliadem"
+  },
+  {
+   "kata": "saksi",
+   "aset": "VDM0018",
+   "ss": 0.1
+  },
+  {
+   "kata": "seru",
+   "aset": "VDR0035",
+   "ss": 0.4
+  },
+  {
+   "kata": "teman",
+   "aset": "VDM0030",
+   "ss": 1.4
+  },
+  {
+   "kata": "rombongan",
+   "aset": "VDR0032",
+   "ss": 4.0
+  },
+  {
+   "kata": "liburan",
+   "aset": "VDM0003",
+   "ss": 1.0
+  },
+  {
+   "kata": "pesan",
+   "aset": "VDR0006",
+   "ss": 4.0
+  }
+ ]
+}

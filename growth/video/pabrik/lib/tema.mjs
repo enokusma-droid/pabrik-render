@@ -25,9 +25,9 @@ const KREM = ["#EFE6D6", "#D9C3A0", "#E3EEF0", "#F1E9DA", "#E8D9BF", "#DCE6EE"];
 const PASTEL = ["#FFE45C", "#FFB5D3", "#9EF0D0", "#B5D8FF", "#FFD0A8", "#D9C2FF"];
 const GLOW = ["rgba(108,60,225,.55)", "rgba(33,163,102,.5)", "rgba(155,89,182,.55)", "rgba(26,188,156,.5)", "rgba(255,179,0,.55)", "rgba(255,106,26,.5)"];
 // warna "solusi" per brand (adegan opsi.suasana = "solusi")
-export const SOLUSI = { dentalcare: "#DCEFEC", nusawebsite: "#FFEBDC", "ratu-bawang": "#F3E6CC" };
-export const AKSEN = { dentalcare: "#0D9488", nusawebsite: "#FF6A1A", "ratu-bawang": "#780F1B" };
-const POP_SOLUSI = { dentalcare: "#9EF0D0", nusawebsite: "#FFD0A8", "ratu-bawang": "#F0D9A8" };
+export const SOLUSI = { dentalcare: "#DCEFEC", nusawebsite: "#FFEBDC", "ratu-bawang": "#F3E6CC", "elite-apron": "#F4F1EA" };
+export const AKSEN = { dentalcare: "#0D9488", nusawebsite: "#FF6A1A", "ratu-bawang": "#780F1B", "elite-apron": "#111111" };
+const POP_SOLUSI = { dentalcare: "#9EF0D0", nusawebsite: "#FFD0A8", "ratu-bawang": "#F0D9A8", "elite-apron": "#E9DFC8" };
 
 // latar adegan: varian = indeks adegan; suasana: "masalah" (default) | "solusi" | "malam" | "gelap" | "hangat"
 export function latar(V, konsep, id, bi, { suasana, aset, varian } = {}) {
@@ -80,8 +80,8 @@ export const FONT_KONSEP = { K0: ["SerifB"], K1: ["SerifB"], K5: ["SerifB"], K6:
 // ---------- HUD lintas adegan ----------
 // K1: jam pojok dari opsi.jam tiap adegan ("07.15"); adegan pertama ber-jam tampil besar di tengah lalu menyusut ke pojok.
 export function hudJam(V, adegan) {
-  const seq = []; let hari = 1;
-  adegan.forEach((a, bi) => { const o = a.opsi || {}; if (o.hari) hari = +o.hari; if (o.jam) seq.push({ t: bi === 0 ? 0 : f2(V.W.blok[bi].s + 0.3 - 0.05), v: String(o.jam), hari, bi }); });
+  const seq = []; let hari = 1, label2 = "HARI 2"; // 30 Okt (ea-k1-001): opsi hari_label (<=8 huruf, mis. "3 MINGGU") mengganti teks "HARI 2" bila lompatan waktu bukan sehari
+  adegan.forEach((a, bi) => { const o = a.opsi || {}; if (o.hari) hari = +o.hari; if (o.hari_label) label2 = String(o.hari_label).slice(0, 8).toUpperCase(); if (o.jam) seq.push({ t: bi === 0 ? 0 : f2(V.W.blok[bi].s + 0.3 - 0.05), v: String(o.jam), hari, bi }); });
   if (seq.length < 2) return;
   const jamKe = (v) => { const [h, m] = v.split(/[.:]/).map(Number); return Math.max(0.02, Math.min(1, (h + (m || 0) / 60 - 7) / 16)); };
   const akhir = seq.at(-1).bi, hEnd = f2(V.bE[Math.min(V.N - 1, akhir)] + 0.3);
@@ -89,7 +89,7 @@ export function hudJam(V, adegan) {
   const aks = AKSEN[V.brand] || "#FF6A1A";
   V.html += `\n<div id="hud" class="clip full" data-start="0" data-duration="${hEnd}" data-track-index="7" style="z-index:800;pointer-events:none"><div id="hudw" class="it" style="left:690px;top:56px;width:350px;height:230px;transform-origin:50% 50%">` +
     `<div class="b b-j"><div class="pp white ppH" style="border-radius:22px"></div>` +
-    `<div class="tx" id="hd1" style="position:absolute;left:28px;top:22px;font:900 34px/1 'Spartan';color:#C62828;letter-spacing:2px">HARI 1</div><div class="tx" id="hd2" style="position:absolute;left:28px;top:22px;font:900 34px/1 'Spartan';color:${aks};letter-spacing:2px;opacity:0">HARI 2</div>` +
+    `<div class="tx" id="hd1" style="position:absolute;left:28px;top:22px;font:900 34px/1 'Spartan';color:#C62828;letter-spacing:2px">HARI 1</div><div class="tx" id="hd2" style="position:absolute;left:28px;top:22px;font:900 34px/1 'Spartan';color:${aks};letter-spacing:2px;opacity:0">${label2}</div>` +
     `<div style="position:absolute;right:26px;top:16px;width:44px;height:44px;border:6px solid #1B2A4A;border-radius:50%"><div id="hjarum" style="position:absolute;left:14px;top:3px;width:5px;height:16px;background:#1B2A4A;transform-origin:50% 100%"></div></div>` +
     `${vals}<div style="position:absolute;left:28px;right:28px;top:186px;height:20px;border-radius:10px;background:#E8E1D5;overflow:hidden"><div id="hbar" style="position:absolute;left:0;top:0;bottom:0;width:100%;background:#FFB300;transform-origin:0 50%"></div></div></div></div></div>`;
   const K = V.K;

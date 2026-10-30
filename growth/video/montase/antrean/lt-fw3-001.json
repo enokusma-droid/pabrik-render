@@ -1,0 +1,88 @@
+{
+ "kode": "lt-fw3-001",
+ "brand": "lava-tour-merapi",
+ "vo": {
+  "voice": "Laomedeia",
+  "gaya": "Energetic, cheerful travel vlogger voiceover speaking natural Bahasa Indonesia, adventurous and fun, clear and not rushed"
+ },
+ "warna": {
+  "aksen": "#FF7A1A",
+  "gelap": "#141414"
+ },
+ "kartu": {
+  "baris": [
+   "LAVA TOUR",
+   "MERAPI"
+  ],
+  "sub": "Jeep Tour Merapi · Paket Wisata Jogja",
+  "cta": "wisatamerapi.com"
+ },
+ "kunci": "merapi,jeep,sungai,seru,jogja,lava,bunker,kaliadem,maridjan,wisatamerapi.com,offroad,erupsi,byur",
+ "framework": "FW3-alasan",
+ "musik": "kandidat/upbeat/upbeat-atlas.mp3",
+ "judul": [
+  "3 ALASAN",
+  "KE MERAPI"
+ ],
+ "naskah": "Tiga alasan Lava Tour Merapi wajib masuk itinerary Jogja kamu.\n\nSatu, sensasi offroad. Jeep terbuka menerabas sungai dan jalur berbatu.\n\nDua, sejarahnya nyata. Kamu melihat langsung jejak erupsi Merapi di petilasan Mbah Maridjan dan Bunker Kaliadem.\n\nTiga, cocok untuk semua. Keluarga, teman kantor, sampai rombongan besar.\n\nPesan sekarang di {wisatamerapi titik com|wisatamerapi.com}.",
+ "shot": [
+  {
+   "kata": "tiga",
+   "aset": "VDR0037",
+   "ss": 2.0
+  },
+  {
+   "kata": "satu",
+   "aset": "VDR0026",
+   "ss": 10.7,
+   "angka": "1",
+   "label": "Sensasi offroad"
+  },
+  {
+   "kata": "jalur",
+   "aset": "VDM0033",
+   "ss": 1.0
+  },
+  {
+   "kata": "dua",
+   "aset": "VDM0013",
+   "ss": 0.6,
+   "angka": "2",
+   "label": "Jejak erupsi nyata"
+  },
+  {
+   "kata": "petilasan",
+   "aset": "VDM0018",
+   "ss": 0.1,
+   "label": "Petilasan Mbah Maridjan"
+  },
+  {
+   "kata": "bunker",
+   "aset": "VDM0046",
+   "ss": 0.4,
+   "label": "Bunker Kaliadem"
+  },
+  {
+   "kata": "tiga",
+   "aset": "VDR0035",
+   "ss": 0.3,
+   "angka": "3",
+   "label": "Cocok untuk semua"
+  },
+  {
+   "kata": "teman",
+   "aset": "VDM0030",
+   "ss": 1.4
+  },
+  {
+   "kata": "rombongan",
+   "aset": "VDR0034",
+   "ss": 2.0
+  },
+  {
+   "kata": "pesan",
+   "aset": "VDR0032",
+   "ss": 4.0
+  }
+ ]
+}

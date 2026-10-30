@@ -14,12 +14,13 @@ import { execFileSync } from "node:child_process";
 
 export const BUTIR_JURI = ["logika", "pembuka", "tokoh", "relevansi", "humor"];
 export const MIN_JURI = 8;
-export const UTAMA_DEFAULT = { dentalcare: "dc-sinta", nusawebsite: "nw-f", "ratu-bawang": "rb-ayu" };
+export const UTAMA_DEFAULT = { dentalcare: "dc-sinta", nusawebsite: "nw-f", "ratu-bawang": "rb-ayu", "elite-apron": "ea-nadia" };
 // deskripsi produk + dunia masalah per brand (untuk juri)
 export const BRAND_JURI = {
   dentalcare: { nama: "DentalCare (aplikasi klinik gigi: rekam medis, odontogram, jadwal, antrean, data pasien, invoice, obat)", dunia: "klinik gigi" },
   nusawebsite: { nama: "Nusawebsite (jasa aplikasi custom untuk UMKM: pesanan, stok, laporan, dll.)", dunia: "UMKM Indonesia" },
   "ratu-bawang": { nama: "Ratu Bawang (pemasok bawang merah, bawang putih, bawang bombay di Jogja untuk hotel/resto/kafe: tangan pertama dari petani/pengepul, ecer & grosir, bayar saat barang sampai (COD), gratis ongkir Jogja; bukan aplikasi)", dunia: "dapur hotel/resto/kafe (HOREKA) di Jogja" },
+  "elite-apron": { nama: "Elite Apron (konveksi custom seragam HORECA: apron, baju/jaket chef, seragam waiter/barista/hotel, polo; bordir logo usaha sudah termasuk; produksi 1-4 minggu tergantung DP; pesan lewat WhatsApp; bukan aplikasi)", dunia: "kafe, resto, hotel, villa di Bali/Jakarta (pemilik/manajer usaha F&B dan hospitality)" },
 };
 const JENIS_ORANG = ["tokoh-badan", "wajah", "tokoh-pendukung"];
 

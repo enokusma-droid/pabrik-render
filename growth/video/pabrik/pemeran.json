@@ -34,5 +34,10 @@
   {"id": "rb-wening", "nama": "Mbak Wening", "peran": "kurir Ratu Bawang (hijab hitam, polo marun)", "kunci": ["wening", "kurir"], "utama": true, "pose": "pikul-karung serah-karung cek-hp lambai"},
   {"id": "reporter", "nama": "Reporter Mega", "peran": "reporter berita (khusus K3)", "kunci": ["reporter", "mega", "melaporkan", "berita"], "utama": false, "konsep": ["K3"]}
  ],
+ "elite-apron": [
+  {"id": "ea-nadia", "nama": "Nadia", "peran": "pemilik kafe di Bali (rambut hitam bergelombang disanggul longgar, kemeja linen krem)", "kunci": ["nadia"], "utama": true, "pose": "panik kaos-pudar cek-hp apron-jempol"},
+  {"id": "ea-tiara", "nama": "Mbak Tiara", "peran": "barista kafe Nadia (rambut bob berponi, kaos hitam; setelah seragam: apron hitam bordir emas)", "kunci": ["tiara", "barista"], "utama": true, "pose": "baki-bingung angkat-bahu sodor-kopi apron-jempol"},
+  {"id": "reporter", "nama": "Reporter Mega", "peran": "reporter berita (khusus K3)", "kunci": ["reporter", "mega", "melaporkan", "berita"], "utama": false, "konsep": ["K3"]}
+ ],
  "bukan_pemeran": "Tokoh katalog lama yang TIDAK boleh dipakai lagi (wajah beda dari pemeran tetap): resepsionis (dc-resepsionis-foto, dc-foto-resepsionis-telepon, dc-kartun-resepsionis-telepon → pakai dc-rina), perawat (dc-kartun-perawat-papan → pakai dc-tari), staf (dc-foto-staf-pulang), penunggu (um-wanita-hijab-kesal), pemilik-toko-pria, bapak."
 }

@@ -1,0 +1,140 @@
+{
+ "kode": "rb-k6-004",
+ "brand": "ratu-bawang",
+ "konsep": "K6",
+ "pembuka": "k6-pengakuan",
+ "pemeran": {
+  "utama": "rb-sekar",
+  "pendukung": [
+   "rb-ayu"
+  ]
+ },
+ "judul": "Surat dari keranjang belanja untuk Mbak Sekar",
+ "caption": "Tiap pagi Mbak Sekar menjemput bawang ke lapak pemasok karena pemasok lama tidak mau mengantar, dan dapur kurang satu orang. Sejak Chef Ayu pesan sehari sebelumnya ke Ratu Bawang, bawang sudah di dapur: gratis ongkir Jogja, bayar saat sampai, ecer atau grosir, langsung dari tangan pertama. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Mbak Sekar, aku keranjang belanjamu. Tiap polisi tidur, aku kehilangan tiga siung.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Untuk Mbak Sekar,",
+     "tiap polisi tidur...",
+     "aku kehilangan 3 siung"
+    ],
+    "gambar": "rb-keranjang-bawang",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Pemasok lama di pasar tak mau mengantar, jadi tiap pagi kita jemput.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Pemasok di pasar tak antar",
+     "tiap pagi kita jemput"
+    ],
+    "gambar": "rb-keranjang-bawang",
+    "stempel": "JEMPUT"
+   }
+  },
+  {
+   "teks": "Kamu menyetir motor, aku di jok. Dapur kurang satu orang, bawang kurang tiga siung.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "lari-belanja",
+    "wajah": [
+     "panik"
+    ],
+    "judul": "Mbak Sekar",
+    "sub": "staf dapur resto",
+    "bubble": "pegangan!",
+    "latar": "rb-latar-pasar-bawang"
+   }
+  },
+  {
+   "teks": "Suatu pagi macet, Chef Ayu, bosmu, menagih: tamu pertama sudah datang.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Chef Ayu",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Sekar, tamu sudah datang"
+     },
+     {
+      "teks": "Bawangnya mana?",
+      "sorot": true
+     },
+     {
+      "teks": "Masih macet, Chef!",
+      "keluar": true
+     }
+    ],
+    "pose": "bingung",
+    "wajah": [
+     "panik"
+    ],
+    "stempel": "TELAT"
+   }
+  },
+  {
+   "teks": "Siang itu Chef Ayu pesan ke Ratu Bawang, tangan pertama, diantar gratis.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PESAN!",
+    "tokoh": "rb-ayu",
+    "pose": "telepon",
+    "wajah": [
+     "lega"
+    ]
+   }
+  },
+  {
+   "teks": "Sekarang bawang diantar ke dapur, dibayar saat sampai, tak kenal polisi tidur.",
+   "primitif": "surat",
+   "opsi": {
+    "baris": [
+     "Bawang diantar ke dapur",
+     "dibayar saat sampai",
+     "siungnya utuh"
+    ],
+    "gambar": "rb-motor-antar",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Aku pensiun di paku dekat pintu, menjaga kunci motor yang jarang dipakai.",
+   "primitif": "surat-tutup",
+   "opsi": {
+    "salam": "Selamat bekerja,",
+    "ttd": "Keranjangmu",
+    "maskot": "rb-keranjang-bawang",
+    "stempel": "PENSIUN"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Bawang diantar\nke dapurmu?",
+    "pose": "jempol",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 9,
+   "tokoh": 9,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.4,
+  "catatan": "Layak tayang. Saran: dampak 3 siung terasa remeh; alasan memilih Ratu Bawang bisa dipertegas; tambah kalimat haru untuk Sekar.",
+  "naskah_hash": "4b7a244c7b60",
+  "waktu": "2026-10-22T12:23"
+ }
+}

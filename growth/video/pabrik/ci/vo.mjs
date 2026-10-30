@@ -20,7 +20,10 @@ const blok = spec.adegan.map((a, i) => ({ id: "b" + i, teks: String(a.teks).trim
 fs.writeFileSync(path.join(kerja, "naskah.json"), JSON.stringify(blok, null, 1));
 const teks = blok.map((b) => b.teks).join(" ");
 if (/tanpa (maksa|paksa)|tidak (maksa|paksa)|[—–]|rp\s?\d|harga|biaya|cicilan|kredit/i.test(teks)) { console.error("GERBANG: naskah melanggar larangan brand"); process.exit(1); }
-const hash = crypto.createHash("sha1").update(teks + "|Fola").digest("hex").slice(0, 16);
+// suara per brand (30 Okt 2026): Elite Apron DIKUNCI owner = Nika + gaya hotel ad (brands/konveksi/elite-apron/brand.json vo); brand lain Fola.
+const SUARA = { "elite-apron": { voice: "Nika", gaya: "Warm, friendly, professional commercial voiceover speaking natural Bahasa Indonesia, upbeat but elegant, like a hotel brand ad" } };
+const VOX = SUARA[spec.brand] || { voice: "Fola", gaya: "" };
+const hash = crypto.createHash("sha1").update(teks + "|" + VOX.voice + (VOX.gaya ? "|" + VOX.gaya : "")).digest("hex").slice(0, 16);
 const G = (...a) => execFileSync(PY, [path.join(HERE, "g3.py"), ...a], { encoding: "utf8", stdio: ["ignore", "pipe", "inherit"] });
 const ada = (k) => { try { G("ada", k); return true; } catch { return false; } };
 const KEY = `pabrik/kerja/${spec.kode}`, wav = path.join(kerja, "vo.wav");
@@ -38,7 +41,7 @@ if (ada(`${KEY}/vo.job`)) {
   if (j.hash === hash) { try { const s = await api("/api/tts/" + j.id); if (!["gagal", "failed"].includes(s.status) && s.error !== "not found") id = j.id; } catch {} }
 }
 if (!id) {
-  const s = await api("/api/tts", { method: "POST", body: JSON.stringify({ teks, nama: `pabrik-${spec.kode}`, voice: "Fola", gaya: "", potong: 0 }) });
+  const s = await api("/api/tts", { method: "POST", body: JSON.stringify({ teks, nama: `pabrik-${spec.kode}`, voice: VOX.voice, gaya: VOX.gaya, potong: 0 }) });
   if (!s.id) { console.error("TTS POST gagal:", JSON.stringify(s).slice(0, 300)); process.exit(1); }
   id = s.id; fs.writeFileSync(path.join(kerja, "vo.job"), JSON.stringify({ id, hash })); G("unggah", path.join(kerja, "vo.job"), `${KEY}/vo.job`, "application/json");
   console.log("job TTS baru", id);
@@ -50,7 +53,7 @@ while (!s.url && !["gagal", "failed"].includes(s.status)) {
   if (!s.url && !["gagal", "failed"].includes(s.status)) { if (n++ % 12 === 0) console.log(`menunggu TTS ${id}: ${s.status || "?"} (${Math.round((Date.now() - t0) / 60e3)} mnt)`); await sleep(10000); }
 }
 if (!s.url) { console.error("TTS gagal:", s.status, s.error || ""); process.exit(1); }
-if (s.suara && s.suara.toLowerCase() !== "fola") { console.error("suara salah:", s.suara); process.exit(1); }
+if (s.suara && s.suara.toLowerCase() !== VOX.voice.toLowerCase()) { console.error("suara salah:", s.suara); process.exit(1); }
 const url = /^https?:/.test(s.url) ? s.url : "https://imgq.nusawebsite.com" + s.url;
 const mentah = path.join(kerja, "vo.mentah.wav");
 fs.writeFileSync(mentah, Buffer.from(await (await fetch(url)).arrayBuffer()));

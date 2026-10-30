@@ -1,0 +1,685 @@
+[
+ {
+  "id": "ea-nadia-panik",
+  "brand": "elite-apron",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik",
+   "kafe",
+   "panik",
+   "ramai",
+   "masalah"
+  ],
+  "ket": "Nadia pemilik kafe Bali kartun panik dua tangan di kepala",
+  "pose": "panik",
+  "tokoh": "ea-nadia",
+  "w": 438,
+  "h": 924,
+  "g3": "pabrik/aset/elite-apron/tokoh-badan/ea-nadia-panik.png",
+  "kepala": {
+   "x": 108,
+   "y": 11,
+   "w": 148,
+   "h": 186
+  }
+ },
+ {
+  "id": "ea-nadia-kaos-pudar",
+  "brand": "elite-apron",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik",
+   "kafe",
+   "kaos",
+   "pudar",
+   "seragam",
+   "polos",
+   "kesal",
+   "masalah"
+  ],
+  "ket": "Nadia pemilik kafe Bali kartun mengangkat kaos abu pudar mengkerut, kecewa",
+  "pose": "kaos-pudar",
+  "tokoh": "ea-nadia",
+  "w": 406,
+  "h": 929,
+  "g3": "pabrik/aset/elite-apron/tokoh-badan/ea-nadia-kaos-pudar.png",
+  "kepala": {
+   "x": 123,
+   "y": 11,
+   "w": 150,
+   "h": 153
+  }
+ },
+ {
+  "id": "ea-nadia-cek-hp",
+  "brand": "elite-apron",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik",
+   "kafe",
+   "hp",
+   "ulasan",
+   "kaget",
+   "chat"
+  ],
+  "ket": "Nadia pemilik kafe Bali kartun kaget membaca HP, tangan di pipi",
+  "pose": "cek-hp",
+  "tokoh": "ea-nadia",
+  "w": 364,
+  "h": 924,
+  "g3": "pabrik/aset/elite-apron/tokoh-badan/ea-nadia-cek-hp.png",
+  "kepala": {
+   "x": 64,
+   "y": 11,
+   "w": 157,
+   "h": 165
+  }
+ },
+ {
+  "id": "ea-nadia-apron-jempol",
+  "brand": "elite-apron",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "pemilik",
+   "kafe",
+   "apron",
+   "jempol",
+   "senang",
+   "solusi",
+   "yakin",
+   "cta"
+  ],
+  "ket": "Nadia pemilik kafe Bali kartun membawa apron hitam bordir emas sambil acungkan jempol",
+  "pose": "apron-jempol",
+  "tokoh": "ea-nadia",
+  "w": 351,
+  "h": 935,
+  "g3": "pabrik/aset/elite-apron/tokoh-badan/ea-nadia-apron-jempol.png",
+  "kepala": {
+   "x": 86,
+   "y": 11,
+   "w": 148,
+   "h": 168
+  }
+ },
+ {
+  "id": "ea-nadia-wajah-senang",
+  "brand": "elite-apron",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik",
+   "senang",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Nadia pemilik kafe Bali ekspresi senang (stiker bingkai putih)",
+  "ekspresi": "senang",
+  "tokoh": "ea-nadia",
+  "w": 333,
+  "h": 336,
+  "g3": "pabrik/aset/elite-apron/wajah/ea-nadia-wajah-senang.png"
+ },
+ {
+  "id": "ea-nadia-wajah-kaget",
+  "brand": "elite-apron",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik",
+   "kaget",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Nadia pemilik kafe Bali ekspresi kaget (stiker bingkai putih)",
+  "ekspresi": "kaget",
+  "tokoh": "ea-nadia",
+  "w": 329,
+  "h": 335,
+  "g3": "pabrik/aset/elite-apron/wajah/ea-nadia-wajah-kaget.png"
+ },
+ {
+  "id": "ea-nadia-wajah-panik",
+  "brand": "elite-apron",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik",
+   "panik",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Nadia pemilik kafe Bali ekspresi panik (stiker bingkai putih)",
+  "ekspresi": "panik",
+  "tokoh": "ea-nadia",
+  "w": 337,
+  "h": 341,
+  "g3": "pabrik/aset/elite-apron/wajah/ea-nadia-wajah-panik.png"
+ },
+ {
+  "id": "ea-nadia-wajah-bingung",
+  "brand": "elite-apron",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik",
+   "bingung",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Nadia pemilik kafe Bali ekspresi bingung (stiker bingkai putih)",
+  "ekspresi": "bingung",
+  "tokoh": "ea-nadia",
+  "w": 343,
+  "h": 338,
+  "g3": "pabrik/aset/elite-apron/wajah/ea-nadia-wajah-bingung.png"
+ },
+ {
+  "id": "ea-nadia-wajah-lega",
+  "brand": "elite-apron",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik",
+   "lega",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Nadia pemilik kafe Bali ekspresi lega (stiker bingkai putih)",
+  "ekspresi": "lega",
+  "tokoh": "ea-nadia",
+  "w": 310,
+  "h": 324,
+  "g3": "pabrik/aset/elite-apron/wajah/ea-nadia-wajah-lega.png"
+ },
+ {
+  "id": "ea-nadia-wajah-kesal",
+  "brand": "elite-apron",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik",
+   "kesal",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Nadia pemilik kafe Bali ekspresi kesal (stiker bingkai putih)",
+  "ekspresi": "kesal",
+  "tokoh": "ea-nadia",
+  "w": 295,
+  "h": 324,
+  "g3": "pabrik/aset/elite-apron/wajah/ea-nadia-wajah-kesal.png"
+ },
+ {
+  "id": "ea-nadia-wajah-lelah",
+  "brand": "elite-apron",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik",
+   "lelah",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Nadia pemilik kafe Bali ekspresi lelah (stiker bingkai putih)",
+  "ekspresi": "lelah",
+  "tokoh": "ea-nadia",
+  "w": 310,
+  "h": 335,
+  "g3": "pabrik/aset/elite-apron/wajah/ea-nadia-wajah-lelah.png"
+ },
+ {
+  "id": "ea-nadia-wajah-yakin",
+  "brand": "elite-apron",
+  "jenis": "wajah",
+  "tag": [
+   "pemilik",
+   "yakin",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Nadia pemilik kafe Bali ekspresi yakin (stiker bingkai putih)",
+  "ekspresi": "yakin",
+  "tokoh": "ea-nadia",
+  "w": 316,
+  "h": 332,
+  "g3": "pabrik/aset/elite-apron/wajah/ea-nadia-wajah-yakin.png"
+ },
+ {
+  "id": "ea-nadia-foto",
+  "brand": "elite-apron",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto-utama",
+   "potret",
+   "pemilik"
+  ],
+  "ket": "Foto potret setengah badan Nadia pemilik kafe Bali (latar studio abu) untuk koran/polaroid/kartu",
+  "tokoh": "ea-nadia",
+  "w": 768,
+  "h": 1024,
+  "g3": "pabrik/aset/elite-apron/tokoh-pendukung/ea-nadia-foto.jpg"
+ },
+ {
+  "id": "ea-tiara-baki-bingung",
+  "brand": "elite-apron",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "barista",
+   "kafe",
+   "baki",
+   "kopi",
+   "bingung",
+   "masalah"
+  ],
+  "ket": "Mbak Tiara barista kartun berkaos hitam membawa baki dua cangkir kopi, bingung",
+  "pose": "baki-bingung",
+  "tokoh": "ea-tiara",
+  "w": 419,
+  "h": 978,
+  "g3": "pabrik/aset/elite-apron/tokoh-badan/ea-tiara-baki-bingung.png",
+  "kepala": {
+   "x": 195,
+   "y": 19,
+   "w": 140,
+   "h": 120
+  }
+ },
+ {
+  "id": "ea-tiara-angkat-bahu",
+  "brand": "elite-apron",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "barista",
+   "kafe",
+   "angkat-bahu",
+   "bingung",
+   "kesal",
+   "masalah"
+  ],
+  "ket": "Mbak Tiara barista kartun berkaos hitam mengangkat bahu, telapak terbuka",
+  "pose": "angkat-bahu",
+  "tokoh": "ea-tiara",
+  "w": 448,
+  "h": 981,
+  "g3": "pabrik/aset/elite-apron/tokoh-badan/ea-tiara-angkat-bahu.png",
+  "kepala": {
+   "x": 134,
+   "y": 19,
+   "w": 127,
+   "h": 120
+  }
+ },
+ {
+  "id": "ea-tiara-sodor-kopi",
+  "brand": "elite-apron",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "barista",
+   "kafe",
+   "kopi",
+   "latte",
+   "sajikan"
+  ],
+  "ket": "Mbak Tiara barista kartun berkaos hitam menyodorkan cangkir latte",
+  "pose": "sodor-kopi",
+  "tokoh": "ea-tiara",
+  "w": 353,
+  "h": 982,
+  "g3": "pabrik/aset/elite-apron/tokoh-badan/ea-tiara-sodor-kopi.png",
+  "kepala": {
+   "x": 55,
+   "y": 18,
+   "w": 139,
+   "h": 300
+  }
+ },
+ {
+  "id": "ea-tiara-apron-jempol",
+  "brand": "elite-apron",
+  "jenis": "tokoh-badan",
+  "tag": [
+   "barista",
+   "kafe",
+   "apron",
+   "seragam",
+   "jempol",
+   "senang",
+   "solusi"
+  ],
+  "ket": "Mbak Tiara barista kartun berseragam apron hitam bordir emas, acungkan jempol",
+  "pose": "apron-jempol",
+  "tokoh": "ea-tiara",
+  "w": 379,
+  "h": 994,
+  "g3": "pabrik/aset/elite-apron/tokoh-badan/ea-tiara-apron-jempol.png",
+  "kepala": {
+   "x": 116,
+   "y": 18,
+   "w": 132,
+   "h": 187
+  }
+ },
+ {
+  "id": "ea-tiara-wajah-senang",
+  "brand": "elite-apron",
+  "jenis": "wajah",
+  "tag": [
+   "barista",
+   "senang",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Tiara barista ekspresi senang (stiker bingkai putih)",
+  "ekspresi": "senang",
+  "tokoh": "ea-tiara",
+  "w": 341,
+  "h": 330,
+  "g3": "pabrik/aset/elite-apron/wajah/ea-tiara-wajah-senang.png"
+ },
+ {
+  "id": "ea-tiara-wajah-kaget",
+  "brand": "elite-apron",
+  "jenis": "wajah",
+  "tag": [
+   "barista",
+   "kaget",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Tiara barista ekspresi kaget (stiker bingkai putih)",
+  "ekspresi": "kaget",
+  "tokoh": "ea-tiara",
+  "w": 344,
+  "h": 329,
+  "g3": "pabrik/aset/elite-apron/wajah/ea-tiara-wajah-kaget.png"
+ },
+ {
+  "id": "ea-tiara-wajah-bingung",
+  "brand": "elite-apron",
+  "jenis": "wajah",
+  "tag": [
+   "barista",
+   "bingung",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Tiara barista ekspresi bingung (stiker bingkai putih)",
+  "ekspresi": "bingung",
+  "tokoh": "ea-tiara",
+  "w": 351,
+  "h": 336,
+  "g3": "pabrik/aset/elite-apron/wajah/ea-tiara-wajah-bingung.png"
+ },
+ {
+  "id": "ea-tiara-wajah-kesal",
+  "brand": "elite-apron",
+  "jenis": "wajah",
+  "tag": [
+   "barista",
+   "kesal",
+   "foto",
+   "stiker"
+  ],
+  "ket": "Wajah foto Mbak Tiara barista ekspresi kesal (stiker bingkai putih)",
+  "ekspresi": "kesal",
+  "tokoh": "ea-tiara",
+  "w": 350,
+  "h": 338,
+  "g3": "pabrik/aset/elite-apron/wajah/ea-tiara-wajah-kesal.png"
+ },
+ {
+  "id": "ea-tiara-foto",
+  "brand": "elite-apron",
+  "jenis": "tokoh-pendukung",
+  "tag": [
+   "foto-utama",
+   "potret",
+   "barista"
+  ],
+  "ket": "Foto potret setengah badan Mbak Tiara barista (latar studio abu) untuk koran/polaroid/kartu",
+  "tokoh": "ea-tiara",
+  "w": 768,
+  "h": 1024,
+  "g3": "pabrik/aset/elite-apron/tokoh-pendukung/ea-tiara-foto.jpg"
+ },
+ {
+  "id": "ea-maskot-apron-lelah",
+  "brand": "elite-apron",
+  "jenis": "maskot",
+  "tag": [
+   "apron",
+   "seragam",
+   "K0",
+   "K6",
+   "lelah",
+   "lusuh",
+   "pudar",
+   "lama"
+  ],
+  "ket": "Maskot apron: apron lama pudar bernoda, lesu",
+  "ekspresi": "lelah",
+  "tokoh": "apron",
+  "w": 308,
+  "h": 658,
+  "g3": "pabrik/aset/elite-apron/maskot/ea-maskot-apron-lelah.png"
+ },
+ {
+  "id": "ea-maskot-apron-kaget",
+  "brand": "elite-apron",
+  "jenis": "maskot",
+  "tag": [
+   "apron",
+   "seragam",
+   "K0",
+   "K6",
+   "kaget",
+   "lusuh",
+   "pudar",
+   "lama"
+  ],
+  "ket": "Maskot apron: apron lama pudar, kaget",
+  "ekspresi": "kaget",
+  "tokoh": "apron",
+  "w": 313,
+  "h": 663,
+  "g3": "pabrik/aset/elite-apron/maskot/ea-maskot-apron-kaget.png"
+ },
+ {
+  "id": "ea-maskot-apron-yakin",
+  "brand": "elite-apron",
+  "jenis": "maskot",
+  "tag": [
+   "apron",
+   "seragam",
+   "K0",
+   "K6",
+   "yakin",
+   "baru",
+   "bordir",
+   "rapi"
+  ],
+  "ket": "Maskot apron: apron baru hitam bordir emas, bangga tangan di pinggang",
+  "ekspresi": "yakin",
+  "tokoh": "apron",
+  "w": 351,
+  "h": 662,
+  "g3": "pabrik/aset/elite-apron/maskot/ea-maskot-apron-yakin.png"
+ },
+ {
+  "id": "ea-maskot-apron-lega",
+  "brand": "elite-apron",
+  "jenis": "maskot",
+  "tag": [
+   "apron",
+   "seragam",
+   "K0",
+   "K6",
+   "lega",
+   "baru",
+   "bordir",
+   "rapi"
+  ],
+  "ket": "Maskot apron: apron baru hitam, lega merentangkan tangan",
+  "ekspresi": "lega",
+  "tokoh": "apron",
+  "w": 453,
+  "h": 662,
+  "g3": "pabrik/aset/elite-apron/maskot/ea-maskot-apron-lega.png"
+ },
+ {
+  "id": "ea-kaos-pudar",
+  "brand": "elite-apron",
+  "jenis": "props",
+  "tag": [
+   "kaos",
+   "pudar",
+   "polos",
+   "lusuh",
+   "masalah"
+  ],
+  "ket": "Kaos abu polos pudar mengkerut bernoda",
+  "w": 470,
+  "h": 422,
+  "g3": "pabrik/aset/elite-apron/props/ea-kaos-pudar.png"
+ },
+ {
+  "id": "ea-apron-bordir",
+  "brand": "elite-apron",
+  "jenis": "props",
+  "tag": [
+   "apron",
+   "bordir",
+   "logo",
+   "seragam",
+   "solusi"
+  ],
+  "ket": "Apron hitam bertali kulit dengan emblem bordir emas",
+  "w": 372,
+  "h": 522,
+  "g3": "pabrik/aset/elite-apron/props/ea-apron-bordir.png"
+ },
+ {
+  "id": "ea-jaket-chef",
+  "brand": "elite-apron",
+  "jenis": "props",
+  "tag": [
+   "jaket",
+   "chef",
+   "seragam",
+   "koki"
+  ],
+  "ket": "Jaket chef krem kancing hitam",
+  "w": 490,
+  "h": 456,
+  "g3": "pabrik/aset/elite-apron/props/ea-jaket-chef.png"
+ },
+ {
+  "id": "ea-mesin-bordir",
+  "brand": "elite-apron",
+  "jenis": "props",
+  "tag": [
+   "mesin",
+   "bordir",
+   "logo",
+   "konveksi",
+   "produksi"
+  ],
+  "ket": "Mesin bordir industri sedang membordir benang emas",
+  "w": 477,
+  "h": 485,
+  "g3": "pabrik/aset/elite-apron/props/ea-mesin-bordir.png"
+ },
+ {
+  "id": "ea-benang",
+  "brand": "elite-apron",
+  "jenis": "props",
+  "tag": [
+   "benang",
+   "bordir",
+   "warna"
+  ],
+  "ket": "Gulungan benang emas, hitam, krem",
+  "w": 384,
+  "h": 349,
+  "g3": "pabrik/aset/elite-apron/props/ea-benang.png"
+ },
+ {
+  "id": "ea-paket-seragam",
+  "brand": "elite-apron",
+  "jenis": "props",
+  "tag": [
+   "paket",
+   "kirim",
+   "seragam",
+   "tiba"
+  ],
+  "ket": "Kardus paket diikat tali berisi seragam hitam",
+  "w": 529,
+  "h": 447,
+  "g3": "pabrik/aset/elite-apron/props/ea-paket-seragam.png"
+ },
+ {
+  "id": "ea-latar-kafe-bali",
+  "brand": "elite-apron",
+  "jenis": "latar",
+  "tag": [
+   "kafe",
+   "bali",
+   "siang"
+  ],
+  "ket": "Diorama kafe tropis Bali, kursi rotan, bar kopi, lantai tengah kosong",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/elite-apron/latar/ea-latar-kafe-bali.jpg"
+ },
+ {
+  "id": "ea-latar-lobi-villa",
+  "brand": "elite-apron",
+  "jenis": "latar",
+  "tag": [
+   "lobi",
+   "hotel",
+   "villa",
+   "bali"
+  ],
+  "ket": "Diorama lobi villa/hotel butik Bali, meja resepsionis kayu ukir",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/elite-apron/latar/ea-latar-lobi-villa.jpg"
+ },
+ {
+  "id": "ea-latar-konveksi",
+  "brand": "elite-apron",
+  "jenis": "latar",
+  "tag": [
+   "konveksi",
+   "bordir",
+   "produksi",
+   "workshop"
+  ],
+  "ket": "Diorama bengkel seragam & bordir rapi, rak apron dan jaket chef",
+  "w": 1080,
+  "h": 1920,
+  "g3": "pabrik/aset/elite-apron/latar/ea-latar-konveksi.jpg"
+ },
+ {
+  "id": "ea-logo",
+  "brand": "elite-apron",
+  "jenis": "ui",
+  "tag": [
+   "logo"
+  ],
+  "ket": "Logo Elite Apron mendatar hitam (transparan, taruh di pelat krim #F4F1EA)",
+  "w": 1400,
+  "h": 468,
+  "g3": "pabrik/aset/elite-apron/ui/ea-logo.png"
+ },
+ {
+  "id": "ea-logo-ikon",
+  "brand": "elite-apron",
+  "jenis": "ui",
+  "tag": [
+   "logo",
+   "ikon",
+   "watermark"
+  ],
+  "ket": "Monogram EA hitam (transparan) untuk watermark lingkaran krim",
+  "w": 600,
+  "h": 440,
+  "g3": "pabrik/aset/elite-apron/ui/ea-logo-ikon.png"
+ }
+]

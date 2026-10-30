@@ -14,7 +14,7 @@ export const LARANGAN = [
 export const KATA_MIN = 80, KATA_MAX = 90;
 export const jumlahKata = (spec) => spec.adegan.reduce((n, a) => n + String(a.teks || "").trim().split(/\s+/).filter(Boolean).length, 0);
 
-const UTAMA = { dentalcare: "dc-sinta", nusawebsite: "nw-f", "ratu-bawang": "rb-ayu" };
+const UTAMA = { dentalcare: "dc-sinta", nusawebsite: "nw-f", "ratu-bawang": "rb-ayu", "elite-apron": "ea-nadia" };
 
 // 23 Okt (audit boros token): kata yang sulit dibaca TTS Fola di VO → ditolak SEBELUM juri, bukan ketahuan setelah render (cocok VO < 80%)
 export const LAFAL = [
@@ -92,7 +92,7 @@ export function periksa(spec, katalog) {
     if (!P) { err.push(`${ctx}: primitif tidak dikenal (lihat PRIMITIF.md)`); return; }
     if (P.konsep && !P.konsep.includes(spec.konsep)) err.push(`${ctx}: primitif ${a.primitif} hanya untuk konsep ${P.konsep.join(",")}`);
     const o = a.opsi || {};
-    for (const k of Object.keys(o)) if (!(k in P.kolom) && !["jam", "hari", "suasana", "latar", "kata"].includes(k)) warn.push(`${ctx}: opsi.${k} tidak dipakai primitif ini`);
+    for (const k of Object.keys(o)) if (!(k in P.kolom) && !["jam", "hari", "hari_label", "suasana", "latar", "kata"].includes(k)) warn.push(`${ctx}: opsi.${k} tidak dipakai primitif ini`);
     for (const [k, dsl] of Object.entries(P.kolom)) cekKolom(k, dsl, o[k], ctx, err);
     semuaString(o).forEach((t) => cekLarangan(t, `${ctx} opsi`, err));
     if (o.latar) ctx.aset.push(["latar", o.latar]);

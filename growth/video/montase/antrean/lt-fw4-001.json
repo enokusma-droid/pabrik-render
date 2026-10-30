@@ -1,0 +1,82 @@
+{
+ "kode": "lt-fw4-001",
+ "brand": "lava-tour-merapi",
+ "vo": {
+  "voice": "Laomedeia",
+  "gaya": "Warm, calm storytelling travel documentary voiceover speaking natural Bahasa Indonesia, slightly slower, respectful"
+ },
+ "warna": {
+  "aksen": "#FF7A1A",
+  "gelap": "#141414"
+ },
+ "kartu": {
+  "baris": [
+   "LAVA TOUR",
+   "MERAPI"
+  ],
+  "sub": "Jeep Tour Merapi · Paket Wisata Jogja",
+  "cta": "wisatamerapi.com"
+ },
+ "kunci": "merapi,jeep,sungai,seru,jogja,lava,bunker,kaliadem,maridjan,wisatamerapi.com,offroad,erupsi,byur",
+ "framework": "FW4-jejak-erupsi",
+ "musik": "kandidat/haru/emotional-piano-atlas.mp3",
+ "judul": [
+  "JEJAK",
+  "ERUPSI 2010"
+ ],
+ "naskah": "Tahun {dua ribu sepuluh|2010}, Merapi meletus hebat. Awan panas menyapu desa-desa di lerengnya.\n\nDi Kinahrejo, juru kunci Merapi, Mbah Maridjan, ikut menjadi korban. Rumahnya kini menjadi petilasan, menyimpan perabot yang masih berselimut abu.\n\nTak jauh dari sana, Bunker Kaliadem berdiri sebagai saksi.\n\nSekarang, jejak itu bisa kamu datangi dengan jeep Lava Tour Merapi. Pesan di {wisatamerapi titik com|wisatamerapi.com}.",
+ "shot": [
+  {
+   "kata": "tahun",
+   "aset": "VDR0015",
+   "ss": 4.0
+  },
+  {
+   "kata": "awan",
+   "aset": "VDR0008",
+   "ss": 0.5
+  },
+  {
+   "kata": "kinahrejo",
+   "aset": "VDM0013",
+   "ss": 0.3,
+   "label": "Kinahrejo"
+  },
+  {
+   "kata": "mbah",
+   "aset": "VDM0023",
+   "ss": 0.3
+  },
+  {
+   "kata": "rumahnya",
+   "aset": "VDM0019",
+   "ss": 0.1
+  },
+  {
+   "kata": "perabot",
+   "aset": "VDM0018",
+   "ss": 0.1
+  },
+  {
+   "kata": "tak",
+   "aset": "VDR0014",
+   "ss": 2.0,
+   "label": "Bunker Kaliadem"
+  },
+  {
+   "kata": "saksi",
+   "aset": "VDM0046",
+   "ss": 0.4
+  },
+  {
+   "kata": "sekarang",
+   "aset": "VDR0026",
+   "ss": 10.7
+  },
+  {
+   "kata": "pesan",
+   "aset": "VDM0003",
+   "ss": 1.0
+  }
+ ]
+}

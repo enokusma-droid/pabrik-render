@@ -339,7 +339,7 @@ export const UMUM = {
     kolom: { ajakan: "teks<=40", maskot: "aset", label: "teks<=14", pose: "pose", wajah: "wajah[]<=1", tokoh: "teks<=40" },
     bangun(V, c) {
       const o = c.o, sid = c.sid, dc = V.brand === "dentalcare";
-      const aj = o.ajakan ? H(o.ajakan) : dc ? `Mau lihat demo<br><span style='color:${V.aksen}'>DentalCare?</span>` : V.brand === "ratu-bawang" ? `Bawang untuk dapurmu?<br><span style='color:${V.aksen}'>Ratu Bawang</span>` : `Mau aplikasi seperti ini<br><span style='color:${V.aksen}'>untuk bisnismu?</span>`;
+      const aj = o.ajakan ? H(o.ajakan) : dc ? `Mau lihat demo<br><span style='color:${V.aksen}'>DentalCare?</span>` : V.brand === "ratu-bawang" ? `Bawang untuk dapurmu?<br><span style='color:${V.aksen}'>Ratu Bawang</span>` : V.brand === "elite-apron" ? `Seragam berlogo untuk timmu?<br><span style='color:#B08D57'>Elite Apron</span>` : `Mau aplikasi seperti ini<br><span style='color:${V.aksen}'>untuk bisnismu?</span>`;
       let mid = "";
       if (o.maskot) mid = V.gambar(`${sid}x`, o.maskot, { x: 120, y: 1160, h: 520, label: o.label });
       else { const tk = tokoh(V, c, { pose: o.pose ?? "jempol", wajah: o.wajah ?? ["senang"] }); mid = V.orang(`${sid}x`, tk.pose, tk.wajah, { x: 640, y: 1150, h: 560 }); }

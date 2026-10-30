@@ -1,0 +1,75 @@
+{
+ "kode": "lt-fw2-001",
+ "brand": "lava-tour-merapi",
+ "vo": {
+  "voice": "Laomedeia",
+  "gaya": "Energetic, cheerful travel vlogger voiceover speaking natural Bahasa Indonesia, adventurous and fun, clear and not rushed"
+ },
+ "warna": {
+  "aksen": "#FF7A1A",
+  "gelap": "#141414"
+ },
+ "kartu": {
+  "baris": [
+   "LAVA TOUR",
+   "MERAPI"
+  ],
+  "sub": "Jeep Tour Merapi · Paket Wisata Jogja",
+  "cta": "wisatamerapi.com"
+ },
+ "kunci": "merapi,jeep,sungai,seru,jogja,lava,bunker,kaliadem,maridjan,wisatamerapi.com,offroad,erupsi,byur",
+ "framework": "FW2-pov",
+ "musik": "promo-ticklish.mp3",
+ "judul": [
+  "POV",
+  "JEEP MERAPI"
+ ],
+ "naskah": "POV: kamu lagi liburan ke Jogja, dan memilih naik jeep ke lereng Merapi.\n\nUdara gunung langsung menyambut. Jeep menanjak di antara batu besar. Lalu, byur! Air sungai menyiram seisi jeep.\n\nSemua teriak, semua tertawa. Pulangnya, kamu cuma bilang satu hal: harus balik lagi.\n\nPesan Lava Tour Merapi di {wisatamerapi titik com|wisatamerapi.com}.",
+ "shot": [
+  {
+   "kata": "pov",
+   "aset": "VDR0015",
+   "ss": 3.0
+  },
+  {
+   "kata": "memilih",
+   "aset": "VDM0003",
+   "ss": 0.3
+  },
+  {
+   "kata": "udara",
+   "aset": "VDR0009",
+   "ss": 3.0
+  },
+  {
+   "kata": "menanjak",
+   "aset": "VDM0033",
+   "ss": 0.5
+  },
+  {
+   "kata": "lalu",
+   "aset": "VDM0057",
+   "ss": 1.4
+  },
+  {
+   "kata": "byur",
+   "aset": "VDM0052",
+   "ss": 1.8
+  },
+  {
+   "kata": "semua",
+   "aset": "VDR0035",
+   "ss": 0.3
+  },
+  {
+   "kata": "pulangnya",
+   "aset": "VDM0030",
+   "ss": 1.4
+  },
+  {
+   "kata": "pesan",
+   "aset": "VDR0006",
+   "ss": 4.0
+  }
+ ]
+}

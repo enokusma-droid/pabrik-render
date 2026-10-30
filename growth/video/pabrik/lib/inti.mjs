@@ -10,6 +10,8 @@ export const BRAND = {
   dentalcare: { logo: "dc-logo", cue: "DentalCare", wa: "Tanya lewat WhatsApp di profil" },
   nusawebsite: { logo: "nw-logo", cue: "aplikasi", wa: "Tanya lewat WhatsApp di profil" },
   "ratu-bawang": { logo: "rb-logo", cue: "Ratu", wa: "Pesan lewat WhatsApp di profil", plat: "#FAF9F5", ikon: "rb-logo-ikon" },
+  // 30 Okt 2026: brand ke-4 Elite Apron (konveksi seragam HORECA). Logo hitam transparan di pelat krim, ikon monogram EA di lingkaran krim, WA bersama Konveksi.
+  "elite-apron": { logo: "ea-logo", cue: "Elite", wa: "WhatsApp 0851-1135-4012", plat: "#F4F1EA", ikon: "ea-logo-ikon" },
 };
 export const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\n/g, "<br>");
 

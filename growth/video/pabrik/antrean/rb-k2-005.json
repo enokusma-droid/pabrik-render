@@ -1,0 +1,199 @@
+{
+ "kode": "rb-k2-005",
+ "brand": "ratu-bawang",
+ "konsep": "K2",
+ "pembuka": "k2-angka",
+ "pemeran": {
+  "utama": "rb-ayu",
+  "pendukung": []
+ },
+ "judul": "Dua Chef Ayu, dua karung bawang, satu kurang dua kilo",
+ "caption": "Ayu kiri transfer dulu, karungnya kurang dua kilo dan kekurangannya dijanjikan besok terus. Ayu kanan pesan ke Ratu Bawang: ditimbang dulu, pas, baru dibayar saat sampai. Tangan pertama, ecer atau grosir, gratis ongkir Jogja. Pesan lewat WhatsApp di profil. #ratubawang #bawangjogja #supplierbawang #horekajogja",
+ "adegan": [
+  {
+   "teks": "Dua Chef Ayu, dua karung, bayarnya sama. Satu dapat bonus stiker jempol.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TRANSFER",
+    "label_kanan": "COD",
+    "kiri": {
+     "pose": "telepon",
+     "wajah": [
+      "yakin"
+     ],
+     "prop": "rb-karung-bawang",
+     "bubble": "yang mana?"
+    },
+    "kanan": {
+     "pose": "foto-lega-hp",
+     "prop": "rb-karung-bawang"
+    }
+   }
+  },
+  {
+   "teks": "Ayu kiri transfer dulu. Ayu kanan pesan ke Ratu Bawang, bayar saat sampai.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TRANSFER",
+    "label_kanan": "COD",
+    "kiri": {
+     "pose": "telepon",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "LUNAS"
+    },
+    "kanan": {
+     "pose": "masak",
+     "wajah": [
+      "yakin"
+     ],
+     "stempel": "NANTI"
+    }
+   }
+  },
+  {
+   "teks": "Sore, karung datang. Ayu kiri menimbang: kurang dua kilo, padahal lunas.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TRANSFER",
+    "label_kanan": "COD",
+    "kiri": {
+     "pose": "keranjang-kosong",
+     "wajah": [
+      "kaget"
+     ],
+     "prop": "rb-timbangan",
+     "stempel": "-2 KILO",
+     "bubble": "kok kurang?"
+    },
+    "kanan": {
+     "pose": "masak",
+     "wajah": [
+      "senang"
+     ],
+     "prop": "rb-karung-bawang"
+    }
+   }
+  },
+  {
+   "teks": "Ayu kanan menimbang dulu. Pas. Baru dibayar.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TRANSFER",
+    "label_kanan": "COD",
+    "kiri": {
+     "pose": "keranjang-kosong",
+     "wajah": [
+      "kesal"
+     ]
+    },
+    "kanan": {
+     "pose": "karung-jempol",
+     "wajah": [
+      "yakin"
+     ],
+     "prop": "rb-timbangan",
+     "stempel": "PAS"
+    }
+   }
+  },
+  {
+   "teks": "Ayu kiri menagih, dibalas stiker jempol saja.",
+   "primitif": "chat",
+   "opsi": {
+    "judul": "Pemasok Lama",
+    "sub": "online",
+    "pesan": [
+     {
+      "teks": "Kurang 2 kilo, Pak",
+      "keluar": true
+     },
+     {
+      "teks": "[stiker jempol]",
+      "sorot": true
+     },
+     {
+      "teks": "Bawangnya mana, Pak?",
+      "keluar": true
+     }
+    ],
+    "pose": "telepon",
+    "wajah": [
+     "kesal"
+    ],
+    "stempel": "JEMPOL?"
+   }
+  },
+  {
+   "teks": "Malam Minggu ramai, stok kiri pas-pasan. Kurang dua kilo, sambal goreng dicoret.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TRANSFER",
+    "label_kanan": "COD",
+    "kiri": {
+     "pose": "foto-nangis",
+     "stempel": "PER SIUNG"
+    },
+    "kanan": {
+     "pose": "masak",
+     "wajah": [
+      "yakin"
+     ],
+     "bubble": "masih ada"
+    }
+   }
+  },
+  {
+   "teks": "Ayu kanan menuang segenggam penuh, lalu kirim stiker jempol ke kurirnya.",
+   "primitif": "banding",
+   "opsi": {
+    "label_kiri": "TRANSFER",
+    "label_kanan": "COD",
+    "kiri": {
+     "pose": "keranjang-kosong",
+     "wajah": [
+      "lelah"
+     ]
+    },
+    "kanan": {
+     "pose": "masak",
+     "wajah": [
+      "senang"
+     ],
+     "stempel": "SEGENGGAM"
+    }
+   }
+  },
+  {
+   "teks": "Senin, Ayu kiri kapok, pindah ke Ratu Bawang: dicek, baru dibayar.",
+   "primitif": "logo",
+   "opsi": {
+    "stempel": "PINDAH!",
+    "pose": "foto-lega-hp",
+    "kata": "Ratu"
+   }
+  },
+  {
+   "teks": "Pesan lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "ajakan": "Cek dulu,\nbayar saat sampai",
+    "pose": "foto-jempol"
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Layak tayang; alur transfer kurang 2 kg vs COD ditimbang dulu runtut. Saran kecil: label sisi kiri/kanan di adegan 6, adegan 8 tampilkan kurir.",
+  "naskah_hash": "1abe73959f36",
+  "waktu": "2026-10-22T12:33"
+ }
+}
