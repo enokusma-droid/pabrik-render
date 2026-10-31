@@ -299,7 +299,7 @@ export function perbandingan(p, c) {
 // ---------- 11. kutipan-sorot (kata muncul mengikuti VO) ----------
 export function kutipanSorot(p, c) {
   const html = sec(c, `
-  <div id="${c.id}-q" class="H" style="position:absolute;left:120px;top:150px;font-size:340px;color:#FFD3BD;line-height:1">“</div>
+  <div id="${c.id}-q" class="H" data-layout-allow-overlap style="position:absolute;left:120px;top:150px;font-size:340px;color:#FFD3BD;line-height:1">“</div>
   <div style="position:absolute;left:240px;top:330px;width:1440px">
     <div class="H mk" id="${c.id}-h" style="font-size:${p.ukuran || 84}px;line-height:1.15">${kata(p.teks)}</div>
     ${p.atribusi ? `<div id="${c.id}-a" style="margin-top:44px;display:flex;align-items:center;gap:18px;font-size:32px;font-weight:700;color:#475569"><span style="width:60px;height:5px;background:#FF8040;display:block"></span>${esc(p.atribusi)}</div>` : ""}

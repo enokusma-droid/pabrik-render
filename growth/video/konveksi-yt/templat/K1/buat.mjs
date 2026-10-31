@@ -172,7 +172,7 @@ function dasar(ID) {
   const o = path.join(A, `_samar-${ID}.jpg`);
   if (!fs.existsSync(o)) {
     let fc = "[0]split=" + (kotak.length + 1) + "[v0]" + kotak.map((_, i) => `[c${i}]`).join("") + ";";
-    kotak.forEach(([x0, y0, x1, y1], i) => { fc += `[c${i}]crop=iw*${x1 - x0}:ih*${y1 - y0}:iw*${x0}:ih*${y0},boxblur=28:6[b${i}];`; });
+    kotak.forEach(([x0, y0, x1, y1], i) => { fc += `[c${i}]crop=iw*${x1 - x0}:ih*${y1 - y0}:iw*${x0}:ih*${y0},boxblur=lr='min(w,h)/4':lp=5:cr='min(cw,ch)/4':cp=5[b${i}];`; });
     let cur = "v0";
     kotak.forEach(([x0, y0], i) => { fc += `[${cur}][b${i}]overlay=W*${x0}:H*${y0}${i === kotak.length - 1 ? "" : `[o${i}]`};`; cur = `o${i}`; });
     execFileSync("ffmpeg", ["-v", "error", "-y", "-i", src, "-filter_complex", fc.replace(/;$/, ""), "-q:v", "3", o]);
