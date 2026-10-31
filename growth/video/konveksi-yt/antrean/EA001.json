@@ -3,455 +3,163 @@
  "naskah": {
   "meta": {
    "keyword": "apron",
-   "judul": "Apron untuk Usaha: 7 Langkah Memilih Apron Kafe & Resto yang Tepat",
-   "hook_pola": "1 pelajari sebelum",
-   "sumber": "E:/WP-Project/garmenindonesia.com/konten/rds/apron/article.md (QA PASS 88) + brands/konveksi/elite-apron/brand.json (min order)",
+   "judul": "Apron Berlogo untuk Kafe dan Resto: Tim Terlihat Profesional",
+   "hook_pola": "jual-solusi: masalah bisnis",
+   "sumber": "brands/konveksi/elite-apron/brand.json (bordir logo termasuk, min order, bahan), DNA-BISNIS.md §3-4 (masalah pembeli, waktu produksi, kirim seluruh Indonesia, konsultasi gratis), konten/rds/apron/article.md QA PASS (pekerjaan staf, contoh desain, bordir vs sablon, berbulan-bulan)",
    "tag": [
     "apron custom",
     "apron kafe",
-    "apron bordir",
-    "celemek kerja",
-    "apron pinggang",
-    "apron chef"
+    "apron bordir logo",
+    "seragam kafe",
+    "apron resto",
+    "celemek kerja"
    ],
+   "samar": {
+    "GA2057": [
+     [
+      0.42,
+      0.47,
+      0.61,
+      0.53
+     ]
+    ],
+    "GA2055": [
+     [
+      0.62,
+      0.39,
+      0.86,
+      0.49
+     ]
+    ]
+   },
    "thumb": {
-    "l1": "7 langkah memilih",
-    "sorot": "APRON",
-    "l2": "untuk kafe & resto",
-    "stiker": "JANGAN|SALAH|PILIH",
-    "foto": "GA1443",
-    "posisi": "50% 22%",
-    "inset": "GA1632:0.3,0.42,0.8,0.82",
-    "label_inset": "Bordir logo",
+    "l1": "Tim terlihat",
+    "sorot": "PROFESIONAL",
+    "l2": "dengan apron berlogo",
+    "stiker": "BORDIR|LOGO|TERMASUK",
+    "foto": "GA1592",
+    "posisi": "50% 35%",
+    "label_foto": "Sesudah",
+    "inset": "GA1435:0.1,0.08,0.9,0.5",
+    "label_inset": "Sebelum",
+    "uk_sorot": 104,
+    "lebar": 740,
     "ix": 636,
     "iy": 452
    }
   },
   "blok": [
    {
-    "teks": "Pelajari tujuh langkah ini sebelum memesan apron untuk usaha Anda. Apron yang tepat membuat tim nyaman bekerja dan usaha tampil rapi di depan tamu.",
+    "teks": "Apron tim yang kusam dan tidak seragam membuat kafe Anda terlihat kurang profesional. Padahal tamu menilai usaha dari hal yang paling sering mereka lihat, yaitu tim Anda.",
     "anim": "hook",
     "param": {
      "pill": "apron",
-     "judul": "Pelajari *7 langkah* ini sebelum memesan apron.",
-     "sub": "Tim nyaman, usaha tampil *rapi* di depan tamu.",
-     "foto": "GA1479",
-     "foto2": "GA1592",
-     "posisi": "50% 40%"
+     "judul": "Apron kusam bikin kafe terlihat *kurang profesional*.",
+     "sub": "Tamu menilai usaha dari *tim Anda*.",
+     "foto": "GA1443",
+     "foto2": "GA1590",
+     "posisi": "50% 25%"
     }
    },
    {
-    "teks": "Banyak pemilik kafe langsung memilih warna dan logo. Hasilnya, apron jarang dipakai karena tidak nyaman.",
+    "teks": "Apron beli jadi biasanya tanpa logo, warnanya cepat pudar, dan ukurannya tidak pas untuk semua staf.",
     "anim": "kartu-coret",
     "param": {
-     "kicker": "Kesalahan umum",
-     "judul": "Langsung pilih *warna dan logo*",
+     "kicker": "Masalah umum",
+     "judul": "Apron *beli jadi*",
      "kartu": [
       {
-       "ikon": "pena",
-       "judul": "Warna dulu",
-       "ket": "Asal terlihat bagus"
+       "ikon": "x",
+       "judul": "Tanpa logo",
+       "ket": "Tim sulit dikenali"
       },
       {
-       "ikon": "bintang",
-       "judul": "Logo dulu",
-       "ket": "Lupa siapa pemakainya"
+       "ikon": "jam",
+       "judul": "Cepat pudar",
+       "ket": "Terlihat lusuh"
+      },
+      {
+       "ikon": "user",
+       "judul": "Ukuran tidak pas",
+       "ket": "Staf enggan memakai"
       }
      ],
-     "coret": "hasilnya",
-     "akibat": [
-      "Jarang dipakai",
-      "Tidak nyaman"
+     "coret": "tanpa"
+    }
+   },
+   {
+    "teks": "Akibatnya, tim sulit dikenali tamu, foto pelanggan di media sosial terlihat berantakan, dan citra usaha yang sudah Anda bangun ikut turun.",
+    "anim": "ikon-masalah",
+    "param": {
+     "kicker": "Akibatnya",
+     "judul": "Citra usaha ikut turun",
+     "masalah": [
+      {
+       "ikon": "user",
+       "teks": "Tim sulit dikenali"
+      },
+      {
+       "ikon": "layar",
+       "teks": "Foto tamu berantakan"
+      },
+      {
+       "ikon": "grafik",
+       "teks": "Citra usaha turun"
+      }
      ]
     }
    },
    {
-    "teks": "Di Elite Apron, kami selalu mulai dari satu hal, yaitu pekerjaan staf Anda.",
-    "anim": "kutipan-sorot",
+    "teks": "Belum lagi kalau vendor molor saat Anda mau buka cabang, atau hasil bordirnya berbeda dengan contoh.",
+    "anim": "foto",
     "param": {
-     "teks": "Mulai dari *pekerjaan staf* Anda.",
-     "atribusi": "Elite Apron"
+     "sisi": "kiri",
+     "kicker": "Belum lagi",
+     "judul": "Vendor molor, hasil *beda contoh*",
+     "poin": [
+      "*Molor* saat buka cabang",
+      "Bordir *berbeda* dengan contoh"
+     ],
+     "foto": "GA1435",
+     "posisi": "50% 30%"
     }
    },
    {
-    "teks": "Langkah pertama, catat pekerjaan tiap posisi. Koki terkena panas dan cipratan minyak, barista terkena susu dan kopi, pelayan sering membungkuk sambil membawa nampan.",
+    "teks": "Elite Apron hadir untuk membereskan masalah itu, dari konsultasi sampai seragam tiba di usaha Anda.",
+    "anim": "foto-lebar",
+    "param": {
+     "foto": "FC0089",
+     "kicker": "Elite Apron",
+     "judul": "Dari konsultasi sampai seragam *tiba*",
+     "posisi": "50% 45%"
+    }
+   },
+   {
+    "teks": "Pertama, kami dengarkan pekerjaan tim Anda, barista, pelayan, atau koki, supaya model apron benar-benar nyaman dipakai seharian.",
     "anim": "foto",
     "param": {
      "nomor": "1",
-     "kicker": "Langkah 1",
-     "judul": "Catat pekerjaan tiap posisi",
+     "kicker": "Konsultasi",
+     "judul": "Sesuai pekerjaan tim",
      "poin": [
-      "*Koki*: panas dan minyak",
-      "*Barista*: susu dan kopi",
-      "*Pelayan*: membawa nampan"
+      "*Barista*",
+      "*Pelayan*",
+      "*Koki*"
      ],
      "foto": "GA1417",
      "posisi": "55% 40%"
     }
    },
    {
-    "teks": "Cukup buat daftar sederhana berisi nama posisi, jumlah orang, dan kegiatan utama.",
-    "anim": "tabel",
-    "param": {
-     "kicker": "Contoh daftar",
-     "judul": "Daftar sederhana per posisi",
-     "kolom": [
-      "Posisi",
-      "Jumlah orang",
-      "Kegiatan utama"
-     ],
-     "baris": [
-      [
-       "Barista",
-       "3",
-       "Kopi dan susu"
-      ],
-      [
-       "Pelayan",
-       "4",
-       "Membawa nampan"
-      ],
-      [
-       "Koki",
-       "2",
-       "Panas dan minyak"
-      ]
-     ],
-     "kata": [
-      "nama",
-      "jumlah",
-      "kegiatan"
-     ]
-    }
-   },
-   {
-    "teks": "Langkah kedua, pilih model apron. Ada dua model dasar, apron pinggang dan apron dada.",
-    "anim": "foto-grid",
-    "param": {
-     "kicker": "Langkah 2",
-     "judul": "Pilih model apron",
-     "foto": [
-      {
-       "id": "GA1592",
-       "label": "Apron pinggang",
-       "posisi": "50% 60%"
-      },
-      {
-       "id": "GA1630",
-       "label": "Apron dada",
-       "posisi": "50% 35%"
-      }
-     ]
-    }
-   },
-   {
-    "teks": "Apron pinggang menutup dari pinggang ke bawah. Ringan dan gerak bebas, cocok untuk barista, pelayan, dan staf toko.",
-    "anim": "foto",
-    "param": {
-     "judul": "Apron pinggang",
-     "poin": [
-      "*Ringan*, gerak bebas",
-      "Barista dan pelayan",
-      "Staf toko"
-     ],
-     "foto": "GA1477",
-     "label": "Apron pinggang",
-     "posisi": "50% 60%",
-     "fokus": [
-      50,
-      70
-     ]
-    }
-   },
-   {
-    "teks": "Apron dada melindungi tubuh bagian atas juga, jadi cocok untuk koki dan kru dapur.",
-    "anim": "foto",
-    "param": {
-     "sisi": "kiri",
-     "judul": "Apron dada",
-     "poin": [
-      "Perlindungan *penuh*",
-      "Koki dan kru dapur"
-     ],
-     "foto": "GA1630",
-     "label": "Apron dada",
-     "posisi": "50% 30%"
-    }
-   },
-   {
-    "teks": "Dari dua model ini lahir variasi, seperti apron tali silang yang menyebar beban ke bahu, dan apron kombinasi batik yang memberi karakter nusantara.",
-    "anim": "foto-grid",
-    "param": {
-     "kicker": "Variasi",
-     "judul": "Variasi yang sering dipilih",
-     "foto": [
-      {
-       "id": "GA1612",
-       "label": "Tali silang",
-       "posisi": "50% 20%"
-      },
-      {
-       "id": "GA1420",
-       "label": "Kombinasi batik",
-       "posisi": "50% 70%"
-      }
-     ]
-    }
-   },
-   {
-    "teks": "Langkah ketiga, pilih bahan yang kuat dicuci berulang, tidak mudah kusut, dan nyaman di ruangan hangat.",
-    "anim": "daftar-centang",
-    "param": {
-     "kicker": "Langkah 3",
-     "judul": "Pilih bahan yang tepat",
-     "item": [
-      "Kuat dicuci berulang",
-      "Tidak mudah kusut",
-      "Nyaman di ruangan hangat"
-     ],
-     "gambar": true
-    }
-   },
-   {
-    "teks": "Drill grade A kokoh dan rapi untuk kafe dan restoran. Polimicro lebih ringan dan jatuh rapi, cocok untuk apron chef.",
-    "anim": "fitur-grid",
-    "param": {
-     "kicker": "Bahan andalan",
-     "judul": "Dua bahan yang paling sering dipakai",
-     "fitur": [
-      {
-       "ikon": "layer",
-       "teks": "Drill grade A",
-       "ket": "Kokoh dan rapi, untuk kafe dan resto"
-      },
-      {
-       "ikon": "bintang",
-       "teks": "Polimicro",
-       "ket": "Ringan, cocok untuk apron chef"
-      }
-     ]
-    }
-   },
-   {
-    "teks": "Untuk area basah, bahan berlapis anti air bisa dipilih, meski terasa lebih panas dipakai.",
-    "anim": "foto",
-    "param": {
-     "sisi": "kiri",
-     "kicker": "Area basah",
-     "judul": "Bahan anti air",
-     "ket": "Melindungi dari cipratan, tapi terasa *lebih panas*.",
-     "foto": "GA1726",
-     "posisi": "50% 50%"
-    }
-   },
-   {
-    "teks": "Langkah keempat, tentukan ukuran dan saku. Apron yang terlalu pendek tidak melindungi paha, yang terlalu panjang bisa tersangkut.",
-    "anim": "ikon-masalah",
-    "param": {
-     "kicker": "Langkah 4",
-     "judul": "Ukuran yang salah",
-     "sub": "Pilih yang menutup tanpa *mengganggu gerak*.",
-     "ikon": "alert",
-     "masalah": [
-      {
-       "ikon": "x",
-       "teks": "Terlalu pendek"
-      },
-      {
-       "ikon": "alert",
-       "teks": "Terlalu panjang"
-      }
-     ]
-    }
-   },
-   {
-    "teks": "Siapkan satu saku besar untuk lap, dan satu saku kecil untuk pulpen atau alat ukur.",
-    "anim": "foto",
-    "param": {
-     "judul": "Saku yang mudah dijangkau",
-     "poin": [
-      "Saku *besar*: lap",
-      "Saku *kecil*: pulpen"
-     ],
-     "foto": "GA1721",
-     "posisi": "50% 45%",
-     "fokus": [
-      50,
-      40
-     ]
-    }
-   },
-   {
-    "teks": "Saran kami, coba contoh apron pada dua staf dengan tinggi berbeda, lalu cek panjang talinya.",
-    "anim": "foto-lebar",
-    "param": {
-     "foto": "GA1590",
-     "kicker": "Saran kami",
-     "judul": "Coba pada dua staf dengan *tinggi berbeda*",
-     "posisi": "50% 40%"
-    }
-   },
-   {
-    "teks": "Tali leher yang pendek membuat leher pegal. Pilihan kecil ini terasa besar bagi staf yang memakainya delapan jam sehari.",
-    "anim": "angka-besar",
-    "param": {
-     "angka": 8,
-     "kicker": "Detail kecil",
-     "label": "jam sehari",
-     "ket": "Tali yang pas, staf *tidak pegal*."
-    }
-   },
-   {
-    "teks": "Langkah kelima, tentukan letak logo. Pada apron dada, logo biasanya di dada kiri atau tengah dada. Pada apron pinggang, di sisi pinggang.",
-    "anim": "foto",
-    "param": {
-     "nomor": "5",
-     "kicker": "Langkah 5",
-     "judul": "Letak logo",
-     "poin": [
-      "Apron dada: *dada kiri* atau tengah",
-      "Apron pinggang: *sisi pinggang*"
-     ],
-     "foto": "GA1612",
-     "posisi": "50% 25%",
-     "fokus": [
-      45,
-      20
-     ],
-     "zoom": 1.14
-    }
-   },
-   {
-    "teks": "Pilih bordir, karena lebih awet daripada sablon untuk apron yang sering dicuci.",
-    "anim": "perbandingan",
-    "param": {
-     "kiri": {
-      "judul": "Sablon",
-      "item": [
-       "Bisa retak",
-       "Bisa mengelupas"
-      ]
-     },
-     "kanan": {
-      "judul": "Bordir",
-      "item": [
-       "Awet dicuci berulang",
-       "Logo timbul dan rapi"
-      ]
-     },
-     "pemicu": "awet"
-    }
-   },
-   {
-    "teks": "Gunakan logo sederhana dengan sedikit warna, karena benang tidak bisa meniru gradasi. Pastikan juga warna benang kontras dengan kain.",
-    "anim": "foto",
-    "param": {
-     "sisi": "kiri",
-     "kicker": "Logo siap bordir",
-     "judul": "Sederhana dan kontras",
-     "poin": [
-      "Logo *sederhana*",
-      "Sedikit warna",
-      "Benang *kontras* dengan kain"
-     ],
-     "foto": "GA1428",
-     "posisi": "50% 40%"
-    }
-   },
-   {
-    "teks": "Di Elite Apron, bordir logo usaha sudah termasuk, jadi tim Anda langsung mudah dikenali tamu.",
-    "anim": "foto",
-    "param": {
-     "kicker": "Elite Apron",
-     "judul": "Bordir logo *sudah termasuk*",
-     "ket": "Tim langsung mudah *dikenali tamu*.",
-     "foto": "GA1409",
-     "label": "Bordir logo",
-     "posisi": "50% 45%"
-    }
-   },
-   {
-    "teks": "Langkah keenam, hitung jumlahnya. Siapkan dua sampai tiga apron untuk setiap staf.",
-    "anim": "angka-besar",
-    "param": {
-     "angka": 3,
-     "kicker": "Langkah 6",
-     "label": "apron per staf",
-     "ket": "Dua sampai tiga, *ditambah cadangan*."
-    }
-   },
-   {
-    "teks": "Satu dipakai, satu dicuci, dan satu cadangan. Dapur yang cepat kotor biasanya butuh lebih banyak.",
+    "teks": "Kirim logo usaha lewat WhatsApp, tim kami menyiapkan contoh desain bordirnya. Produksi baru dimulai setelah Anda setuju.",
     "anim": "diagram-alur",
     "param": {
-     "kicker": "Rotasi apron",
-     "judul": "Satu staf, tiga apron",
-     "langkah": [
-      {
-       "ikon": "user",
-       "teks": "Dipakai"
-      },
-      {
-       "ikon": "sync",
-       "teks": "Dicuci"
-      },
-      {
-       "ikon": "stok",
-       "teks": "Cadangan"
-      }
-     ]
-    }
-   },
-   {
-    "teks": "Pemesanan bisa mulai dari jumlah kecil. Apron chef mulai satu potong, apron pinggang mulai enam potong.",
-    "anim": "tabel",
-    "param": {
-     "kicker": "Minimal pesan",
-     "judul": "Bisa mulai dari *jumlah kecil*",
-     "kolom": [
-      "Produk",
-      "Minimal pesan"
-     ],
-     "baris": [
-      [
-       "Apron chef",
-       "1 potong"
-      ],
-      [
-       "Apron pinggang",
-       "6 potong"
-      ]
-     ],
-     "kata": [
-      "chef",
-      "pinggang"
-     ]
-    }
-   },
-   {
-    "teks": "Ingat juga, Peraturan Menteri Kesehatan tahun dua ribu sebelas mencantumkan apron, tutup rambut, dan sepatu kedap air sebagai pelindung makanan dari pencemaran.",
-    "anim": "daftar-centang",
-    "param": {
-     "kicker": "Permenkes 1096 Tahun 2011",
-     "judul": "Pelindung makanan dari *pencemaran*",
-     "item": [
-      "Celemek atau apron",
-      "Tutup rambut",
-      "Sepatu kedap air"
-     ],
-     "gambar": true
-    }
-   },
-   {
-    "teks": "Langkah ketujuh, kirim logo, jumlah, model, bahan, dan warna lewat WhatsApp. Tim kami menyiapkan contoh desain, lalu produksi dimulai setelah Anda setuju.",
-    "anim": "diagram-alur",
-    "param": {
-     "kicker": "Langkah 7",
-     "judul": "Cara memesan apron custom",
+     "kicker": "Cara kerja",
+     "judul": "Lihat contoh desain dulu",
      "langkah": [
       {
        "ikon": "chat",
-       "teks": "Kirim logo dan jumlah"
+       "teks": "Kirim logo"
       },
       {
        "ikon": "pena",
@@ -469,7 +177,84 @@
     }
    },
    {
-    "teks": "Estimasi waktu produksi disampaikan sejak awal, dan pesanan dikirim ke seluruh Indonesia.",
+    "teks": "Bordir logo usaha sudah termasuk di setiap apron, jadi tim langsung tampil dengan identitas usaha Anda.",
+    "anim": "foto",
+    "param": {
+     "kicker": "Elite Apron",
+     "judul": "Bordir logo *sudah termasuk*",
+     "ket": "Tim tampil dengan *identitas usaha* Anda.",
+     "foto": "GA1420",
+     "label": "Bordir logo",
+     "posisi": "50% 65%"
+    }
+   },
+   {
+    "teks": "Bordir lebih awet daripada sablon untuk apron yang dicuci setiap hari, jadi logo tetap rapi berbulan-bulan.",
+    "anim": "perbandingan",
+    "param": {
+     "judul": "Kenapa bordir",
+     "kiri": {
+      "judul": "Sablon",
+      "item": [
+       "Bisa retak",
+       "Bisa mengelupas"
+      ]
+     },
+     "kanan": {
+      "judul": "Bordir",
+      "item": [
+       "Awet dicuci",
+       "Rapi berbulan-bulan"
+      ]
+     },
+     "pemicu": "awet"
+    }
+   },
+   {
+    "teks": "Bahannya drill grade A yang kokoh dan rapi untuk kafe dan restoran, atau polimicro yang ringan untuk apron chef.",
+    "anim": "fitur-grid",
+    "param": {
+     "kicker": "Bahan",
+     "judul": "Bahan yang tahan kerja harian",
+     "fitur": [
+      {
+       "ikon": "layer",
+       "teks": "Drill grade A",
+       "ket": "Kokoh dan rapi, untuk kafe dan resto"
+      },
+      {
+       "ikon": "bintang",
+       "teks": "Polimicro",
+       "ket": "Ringan, untuk apron chef"
+      }
+     ]
+    }
+   },
+   {
+    "teks": "Ingin mulai dari tim kecil dulu? Pemesanan bisa dari jumlah kecil, apron chef bahkan mulai satu potong.",
+    "anim": "angka-besar",
+    "param": {
+     "angka": 1,
+     "kicker": "Mulai kecil",
+     "label": "potong apron chef",
+     "ket": "Apron pinggang mulai *enam potong*."
+    }
+   },
+   {
+    "teks": "Estimasi waktu produksi disampaikan sejak awal, jadi Anda bisa menyesuaikan dengan jadwal pembukaan cabang.",
+    "anim": "daftar-centang",
+    "param": {
+     "kicker": "Tanpa tebak-tebakan",
+     "judul": "Waktu produksi *jelas di awal*",
+     "item": [
+      "Estimasi disampaikan sejak awal",
+      "Sesuaikan dengan jadwal buka cabang"
+     ],
+     "gambar": true
+    }
+   },
+   {
+    "teks": "Kafe di Bali atau resto di Jakarta, pesanan dikirim ke seluruh Indonesia.",
     "anim": "chip-niche",
     "param": {
      "kicker": "Pengiriman",
@@ -490,10 +275,6 @@
        "teks": "Surabaya"
       },
       {
-       "ikon": "rumah",
-       "teks": "Bandung"
-      },
-      {
        "ikon": "truk",
        "teks": "Seluruh Indonesia"
       }
@@ -501,2961 +282,1572 @@
     }
    },
    {
-    "teks": "Setelah apron datang, rawat dengan benar. Cuci setelah satu shift, rendam noda minyak dengan sabun cuci piring, lalu jemur di tempat teduh.",
-    "anim": "foto",
+    "teks": "Ini apron hasil produksi yang sudah dipakai tim kafe dan resto. Rapi, logonya jelas, dan tim terlihat kompak.",
+    "anim": "foto-grid",
     "param": {
-     "kicker": "Perawatan",
-     "judul": "Rawat apron dengan benar",
-     "poin": [
-      "*Cuci* setelah satu shift",
-      "*Rendam* noda minyak",
-      "*Jemur* di tempat teduh"
-     ],
-     "foto": "GA1706",
-     "posisi": "50% 40%"
-    }
-   },
-   {
-    "teks": "Balik sisi bordir saat mencuci, dan setrika dari bagian belakang bordir supaya logo tetap timbul.",
-    "anim": "daftar-centang",
-    "param": {
-     "kicker": "Perawatan bordir",
-     "judul": "Jaga logo tetap *timbul*",
-     "item": [
-      "Balik sisi bordir saat mencuci",
-      "Setrika dari belakang bordir"
-     ],
-     "gambar": true
-    }
-   },
-   {
-    "teks": "Terakhir, hindari tiga kesalahan ini. Warna putih untuk dapur penuh saus, satu ukuran untuk semua staf, dan logo terlalu detail yang hilang saat dibordir.",
-    "anim": "ikon-masalah",
-    "param": {
-     "kicker": "Hindari",
-     "judul": "Tiga kesalahan saat memesan",
-     "ikon": "alert",
-     "masalah": [
+     "kicker": "Hasil produksi",
+     "judul": "Sudah dipakai tim kafe dan resto",
+     "foto": [
       {
-       "ikon": "x",
-       "teks": "Putih untuk dapur"
+       "id": "GA1592",
+       "label": "Apron pinggang",
+       "posisi": "50% 60%"
       },
       {
-       "ikon": "user",
-       "teks": "Satu ukuran semua"
+       "id": "GA1630",
+       "label": "Apron dada",
+       "posisi": "50% 35%"
       },
       {
-       "ikon": "pena",
-       "teks": "Logo terlalu detail"
+       "id": "GA1612",
+       "label": "Tali silang",
+       "posisi": "50% 25%"
       }
      ]
     }
    },
    {
-    "teks": "Kesalahan kecil ini membuat apron cepat lusuh, dan staf jadi enggan memakainya.",
+    "teks": "Logonya dibordir dengan mesin bordir komputer, sehingga setiap potong tampak sama.",
     "anim": "foto",
     "param": {
      "sisi": "kiri",
-     "judul": "Cepat lusuh, staf *enggan memakai*",
-     "foto": "GA1435",
-     "posisi": "50% 30%"
+     "kicker": "Proses nyata",
+     "judul": "Dibordir mesin, *sama* di setiap potong",
+     "foto": "FC0104:0,0,1,0.62",
+     "posisi": "50% 50%"
     }
    },
    {
-    "teks": "Apron yang tepat membuat staf nyaman, dan usaha Anda tampil rapi di setiap foto tamu.",
+    "teks": "Hasilnya, tim Anda terlihat profesional dan mudah dikenali di setiap foto tamu.",
     "anim": "foto-lebar",
     "param": {
-     "foto": "FC0089",
+     "foto": "GA1590",
      "kicker": "Hasilnya",
-     "judul": "Staf nyaman, usaha tampil *rapi*",
-     "posisi": "50% 45%"
+     "judul": "Tim terlihat *profesional*",
+     "posisi": "50% 40%"
     }
    },
    {
-    "teks": "Konsultasi desain gratis bersama Elite Apron. Kirim logo usaha Anda lewat WhatsApp, link ada di deskripsi.",
+    "teks": "Kirim logo usaha Anda lewat WhatsApp, kami siapkan contoh desain apronnya. Konsultasi gratis bersama Elite Apron, link ada di deskripsi.",
     "anim": "cta",
     "param": {
      "kicker": "Elite Apron",
-     "judul": "Konsultasi desain *gratis*",
-     "sub": "Kirim logo usaha Anda lewat WhatsApp.",
+     "judul": "Kirim logo, dapat *contoh desain*",
+     "sub": "Konsultasi gratis lewat WhatsApp.",
      "tombol": "Chat WhatsApp",
-     "catatan": "Link ada di deskripsi"
+     "catatan": "Link ada di deskripsi",
+     "ukuran": 96
     }
    }
   ]
  },
  "waktu": {
-  "durasi": 244.44,
+  "durasi": 120.32,
   "blok": [
    {
     "mulai": 0.0,
-    "selesai": 10.66
+    "selesai": 10.88
    },
    {
-    "mulai": 10.66,
-    "selesai": 18.16
+    "mulai": 10.88,
+    "selesai": 17.8
    },
    {
-    "mulai": 18.16,
-    "selesai": 24.1
+    "mulai": 17.8,
+    "selesai": 27.22
    },
    {
-    "mulai": 24.1,
-    "selesai": 36.28
+    "mulai": 27.22,
+    "selesai": 33.12
    },
    {
-    "mulai": 36.28,
-    "selesai": 42.26
+    "mulai": 33.12,
+    "selesai": 39.62
    },
    {
-    "mulai": 42.26,
-    "selesai": 49.54
+    "mulai": 39.62,
+    "selesai": 48.5
    },
    {
-    "mulai": 49.54,
-    "selesai": 57.72
+    "mulai": 48.5,
+    "selesai": 56.44
    },
    {
-    "mulai": 57.72,
-    "selesai": 64.2
+    "mulai": 56.44,
+    "selesai": 62.86
    },
    {
-    "mulai": 64.2,
-    "selesai": 73.42
+    "mulai": 62.86,
+    "selesai": 69.52
    },
    {
-    "mulai": 73.42,
-    "selesai": 81.14
+    "mulai": 69.52,
+    "selesai": 76.58
    },
    {
-    "mulai": 81.14,
-    "selesai": 89.8
+    "mulai": 76.58,
+    "selesai": 83.08
    },
    {
-    "mulai": 89.8,
-    "selesai": 96.6
+    "mulai": 83.08,
+    "selesai": 89.09
    },
    {
-    "mulai": 96.6,
-    "selesai": 105.36
+    "mulai": 89.09,
+    "selesai": 94.34
    },
    {
-    "mulai": 105.36,
-    "selesai": 111.24
+    "mulai": 94.34,
+    "selesai": 101.6
    },
    {
-    "mulai": 111.24,
-    "selesai": 117.46
+    "mulai": 101.6,
+    "selesai": 106.56
    },
    {
-    "mulai": 117.46,
-    "selesai": 125.66
+    "mulai": 106.56,
+    "selesai": 111.82
    },
    {
-    "mulai": 125.66,
-    "selesai": 135.8
-   },
-   {
-    "mulai": 135.8,
-    "selesai": 140.28
-   },
-   {
-    "mulai": 140.28,
-    "selesai": 148.92
-   },
-   {
-    "mulai": 148.92,
-    "selesai": 155.6
-   },
-   {
-    "mulai": 155.6,
-    "selesai": 161.54
-   },
-   {
-    "mulai": 161.54,
-    "selesai": 168.08
-   },
-   {
-    "mulai": 168.08,
-    "selesai": 174.9
-   },
-   {
-    "mulai": 174.9,
-    "selesai": 184.72
-   },
-   {
-    "mulai": 184.72,
-    "selesai": 195.92
-   },
-   {
-    "mulai": 195.92,
-    "selesai": 201.54
-   },
-   {
-    "mulai": 201.54,
-    "selesai": 209.92
-   },
-   {
-    "mulai": 209.92,
-    "selesai": 216.5
-   },
-   {
-    "mulai": 216.5,
-    "selesai": 227.04
-   },
-   {
-    "mulai": 227.04,
-    "selesai": 231.84
-   },
-   {
-    "mulai": 231.84,
-    "selesai": 237.22
-   },
-   {
-    "mulai": 237.22,
-    "selesai": 244.44
+    "mulai": 111.82,
+    "selesai": 120.32
    }
   ],
   "kata": [
    {
-    "w": "Pelajari",
+    "w": "Apron",
     "b": 0,
     "t": 0.0
    },
    {
-    "w": "tujuh",
+    "w": "tim",
     "b": 0,
-    "t": 0.7
+    "t": 0.66
    },
    {
-    "w": "langkah",
+    "w": "yang",
     "b": 0,
-    "t": 1.0
+    "t": 0.86
    },
    {
-    "w": "ini",
+    "w": "kusam",
     "b": 0,
-    "t": 1.24
+    "t": 1.04
    },
    {
-    "w": "sebelum",
+    "w": "dan",
     "b": 0,
     "t": 1.56
    },
    {
-    "w": "memesan",
+    "w": "tidak",
     "b": 0,
-    "t": 2.3
+    "t": 1.74
    },
    {
-    "w": "apron",
+    "w": "seragam",
     "b": 0,
-    "t": 2.68
+    "t": 1.98
    },
    {
-    "w": "untuk",
+    "w": "membuat",
     "b": 0,
-    "t": 3.1
+    "t": 2.52
    },
    {
-    "w": "usaha",
+    "w": "kafe",
     "b": 0,
-    "t": 3.48
+    "t": 2.91
    },
    {
-    "w": "Anda.",
+    "w": "Anda",
     "b": 0,
-    "t": 3.82
+    "t": 3.3
    },
    {
-    "w": "Apron",
+    "w": "terlihat",
     "b": 0,
-    "t": 4.74
+    "t": 3.56
    },
    {
-    "w": "yang",
+    "w": "kurang",
     "b": 0,
-    "t": 5.3
+    "t": 4.08
    },
    {
-    "w": "tepat",
+    "w": "profesional.",
+    "b": 0,
+    "t": 4.4
+   },
+   {
+    "w": "Padahal",
     "b": 0,
     "t": 5.42
    },
    {
-    "w": "membuat",
+    "w": "tamu",
     "b": 0,
-    "t": 5.78
+    "t": 6.16
    },
    {
-    "w": "tim",
+    "w": "menilai",
     "b": 0,
-    "t": 6.3
-   },
-   {
-    "w": "nyaman",
-    "b": 0,
-    "t": 6.58
-   },
-   {
-    "w": "bekerja",
-    "b": 0,
-    "t": 7.04
-   },
-   {
-    "w": "dan",
-    "b": 0,
-    "t": 7.62
+    "t": 6.32
    },
    {
     "w": "usaha",
     "b": 0,
-    "t": 8.1
+    "t": 6.62
    },
    {
-    "w": "tampil",
+    "w": "dari",
     "b": 0,
-    "t": 8.5
+    "t": 6.94
    },
    {
-    "w": "rapi",
+    "w": "hal",
     "b": 0,
-    "t": 8.88
+    "t": 7.22
    },
    {
-    "w": "di",
+    "w": "yang",
     "b": 0,
-    "t": 9.22
+    "t": 7.44
    },
    {
-    "w": "depan",
+    "w": "paling",
     "b": 0,
-    "t": 9.36
+    "t": 7.66
    },
    {
-    "w": "tamu.",
+    "w": "sering",
     "b": 0,
-    "t": 9.58
+    "t": 8.04
    },
    {
-    "w": "Banyak",
-    "b": 1,
-    "t": 10.86
+    "w": "mereka",
+    "b": 0,
+    "t": 8.32
    },
    {
-    "w": "pemilik",
-    "b": 1,
-    "t": 11.22
+    "w": "lihat,",
+    "b": 0,
+    "t": 8.46
    },
    {
-    "w": "kafe",
-    "b": 1,
-    "t": 11.58
+    "w": "yaitu",
+    "b": 0,
+    "t": 9.24
    },
    {
-    "w": "langsung",
-    "b": 1,
-    "t": 11.94
+    "w": "tim",
+    "b": 0,
+    "t": 9.74
    },
    {
-    "w": "memilih",
-    "b": 1,
-    "t": 12.36
+    "w": "Anda.",
+    "b": 0,
+    "t": 10.08
    },
    {
-    "w": "warna",
+    "w": "Apron",
     "b": 1,
-    "t": 12.76
+    "t": 11.08
+   },
+   {
+    "w": "beli",
+    "b": 1,
+    "t": 11.52
+   },
+   {
+    "w": "jadi",
+    "b": 1,
+    "t": 11.74
+   },
+   {
+    "w": "biasanya",
+    "b": 1,
+    "t": 12.08
+   },
+   {
+    "w": "tanpa",
+    "b": 1,
+    "t": 12.62
+   },
+   {
+    "w": "logo,",
+    "b": 1,
+    "t": 12.96
+   },
+   {
+    "w": "warnanya",
+    "b": 1,
+    "t": 13.74
+   },
+   {
+    "w": "cepat",
+    "b": 1,
+    "t": 14.26
+   },
+   {
+    "w": "pudar,",
+    "b": 1,
+    "t": 14.6
    },
    {
     "w": "dan",
-    "b": 1,
-    "t": 13.12
-   },
-   {
-    "w": "logo.",
-    "b": 1,
-    "t": 13.28
-   },
-   {
-    "w": "Hasilnya,",
-    "b": 1,
-    "t": 14.2
-   },
-   {
-    "w": "apron",
-    "b": 1,
-    "t": 15.16
-   },
-   {
-    "w": "jarang",
     "b": 1,
     "t": 15.5
    },
    {
-    "w": "dipakai",
+    "w": "ukurannya",
     "b": 1,
-    "t": 15.86
-   },
-   {
-    "w": "karena",
-    "b": 1,
-    "t": 16.44
+    "t": 15.52
    },
    {
     "w": "tidak",
     "b": 1,
-    "t": 16.82
+    "t": 16.02
    },
    {
-    "w": "nyaman.",
+    "w": "pas",
     "b": 1,
-    "t": 17.06
+    "t": 16.24
    },
    {
-    "w": "Di",
+    "w": "untuk",
+    "b": 1,
+    "t": 16.5
+   },
+   {
+    "w": "semua",
+    "b": 1,
+    "t": 16.78
+   },
+   {
+    "w": "staf.",
+    "b": 1,
+    "t": 17.39
+   },
+   {
+    "w": "Akibatnya,",
     "b": 2,
-    "t": 18.36
+    "t": 18.0
    },
    {
-    "w": "Elite",
+    "w": "tim",
     "b": 2,
-    "t": 18.6
+    "t": 19.14
    },
    {
-    "w": "Apron,",
+    "w": "sulit",
     "b": 2,
-    "t": 18.84
+    "t": 19.34
    },
    {
-    "w": "kami",
+    "w": "dikenali",
     "b": 2,
-    "t": 19.66
+    "t": 19.74
    },
    {
-    "w": "selalu",
+    "w": "tamu,",
     "b": 2,
-    "t": 19.88
+    "t": 20.1
    },
    {
-    "w": "mulai",
+    "w": "foto",
     "b": 2,
-    "t": 20.2
+    "t": 21.0
    },
    {
-    "w": "dari",
+    "w": "pelanggan",
     "b": 2,
-    "t": 20.54
+    "t": 21.24
    },
    {
-    "w": "satu",
+    "w": "di",
     "b": 2,
-    "t": 20.72
+    "t": 21.74
    },
    {
-    "w": "hal,",
+    "w": "media",
     "b": 2,
-    "t": 21.06
+    "t": 21.9
    },
    {
-    "w": "yaitu",
+    "w": "sosial",
     "b": 2,
-    "t": 21.88
+    "t": 22.06
    },
    {
-    "w": "pekerjaan",
+    "w": "terlihat",
     "b": 2,
-    "t": 22.3
+    "t": 22.54
    },
    {
-    "w": "staf",
+    "w": "berantakan,",
     "b": 2,
-    "t": 22.74
-   },
-   {
-    "w": "Anda.",
-    "b": 2,
-    "t": 23.18
-   },
-   {
-    "w": "Langkah",
-    "b": 3,
-    "t": 24.3
-   },
-   {
-    "w": "pertama,",
-    "b": 3,
-    "t": 24.88
-   },
-   {
-    "w": "catat",
-    "b": 3,
-    "t": 25.78
-   },
-   {
-    "w": "pekerjaan",
-    "b": 3,
-    "t": 26.02
-   },
-   {
-    "w": "tiap",
-    "b": 3,
-    "t": 26.66
-   },
-   {
-    "w": "posisi.",
-    "b": 3,
-    "t": 26.92
-   },
-   {
-    "w": "Koki",
-    "b": 3,
-    "t": 27.32
-   },
-   {
-    "w": "terkena",
-    "b": 3,
-    "t": 28.42
-   },
-   {
-    "w": "panas",
-    "b": 3,
-    "t": 28.86
+    "t": 22.98
    },
    {
     "w": "dan",
-    "b": 3,
-    "t": 29.32
+    "b": 2,
+    "t": 23.9
    },
    {
-    "w": "cipratan",
+    "w": "citra",
+    "b": 2,
+    "t": 24.22
+   },
+   {
+    "w": "usaha",
+    "b": 2,
+    "t": 24.6
+   },
+   {
+    "w": "yang",
+    "b": 2,
+    "t": 24.92
+   },
+   {
+    "w": "sudah",
+    "b": 2,
+    "t": 25.12
+   },
+   {
+    "w": "Anda",
+    "b": 2,
+    "t": 25.32
+   },
+   {
+    "w": "bangun",
+    "b": 2,
+    "t": 25.6
+   },
+   {
+    "w": "ikut",
+    "b": 2,
+    "t": 26.04
+   },
+   {
+    "w": "turun.",
+    "b": 2,
+    "t": 26.52
+   },
+   {
+    "w": "Belum",
+    "b": 3,
+    "t": 27.42
+   },
+   {
+    "w": "lagi",
+    "b": 3,
+    "t": 27.78
+   },
+   {
+    "w": "kalau",
+    "b": 3,
+    "t": 28.02
+   },
+   {
+    "w": "vendor",
+    "b": 3,
+    "t": 28.24
+   },
+   {
+    "w": "molor",
+    "b": 3,
+    "t": 28.52
+   },
+   {
+    "w": "saat",
+    "b": 3,
+    "t": 28.98
+   },
+   {
+    "w": "Anda",
+    "b": 3,
+    "t": 29.18
+   },
+   {
+    "w": "mau",
     "b": 3,
     "t": 29.5
    },
    {
-    "w": "minyak,",
+    "w": "buka",
     "b": 3,
-    "t": 29.92
+    "t": 29.62
    },
    {
-    "w": "barista",
+    "w": "cabang,",
     "b": 3,
-    "t": 30.82
+    "t": 29.82
    },
    {
-    "w": "terkena",
+    "w": "atau",
     "b": 3,
-    "t": 31.28
+    "t": 30.44
    },
    {
-    "w": "susu",
+    "w": "hasil",
     "b": 3,
-    "t": 31.82
+    "t": 30.78
    },
    {
-    "w": "dan",
+    "w": "bordirnya",
     "b": 3,
-    "t": 32.18
+    "t": 31.22
    },
    {
-    "w": "kopi,",
+    "w": "berbeda",
     "b": 3,
-    "t": 32.34
+    "t": 31.78
    },
    {
-    "w": "pelayan",
+    "w": "dengan",
     "b": 3,
+    "t": 32.26
+   },
+   {
+    "w": "contoh.",
+    "b": 3,
+    "t": 32.44
+   },
+   {
+    "w": "Elite",
+    "b": 4,
     "t": 33.32
    },
    {
-    "w": "sering",
-    "b": 3,
-    "t": 33.62
-   },
-   {
-    "w": "membungkuk",
-    "b": 3,
-    "t": 33.98
-   },
-   {
-    "w": "sambil",
-    "b": 3,
-    "t": 34.5
-   },
-   {
-    "w": "membawa",
-    "b": 3,
-    "t": 34.9
-   },
-   {
-    "w": "nampan.",
-    "b": 3,
-    "t": 35.18
-   },
-   {
-    "w": "Cukup",
+    "w": "Apron",
     "b": 4,
-    "t": 36.48
+    "t": 33.66
    },
    {
-    "w": "buat",
+    "w": "hadir",
     "b": 4,
-    "t": 36.88
+    "t": 34.06
    },
    {
-    "w": "daftar",
+    "w": "untuk",
     "b": 4,
-    "t": 37.12
+    "t": 34.54
    },
    {
-    "w": "sederhana",
+    "w": "membereskan",
     "b": 4,
-    "t": 37.5
+    "t": 34.94
    },
    {
-    "w": "berisi",
+    "w": "masalah",
     "b": 4,
-    "t": 37.98
+    "t": 35.34
    },
    {
-    "w": "nama",
+    "w": "itu,",
     "b": 4,
-    "t": 38.48
+    "t": 35.66
    },
    {
-    "w": "posisi,",
+    "w": "dari",
     "b": 4,
-    "t": 38.72
+    "t": 36.32
    },
    {
-    "w": "jumlah",
+    "w": "konsultasi",
     "b": 4,
-    "t": 39.62
+    "t": 36.56
    },
    {
-    "w": "orang,",
+    "w": "sampai",
     "b": 4,
-    "t": 39.9
+    "t": 37.28
    },
    {
-    "w": "dan",
+    "w": "seragam",
     "b": 4,
-    "t": 40.72
+    "t": 37.6
    },
    {
-    "w": "kegiatan",
+    "w": "tiba",
     "b": 4,
-    "t": 40.76
+    "t": 38.16
    },
    {
-    "w": "utama.",
+    "w": "di",
     "b": 4,
-    "t": 41.24
+    "t": 38.5
    },
    {
-    "w": "Langkah",
+    "w": "usaha",
+    "b": 4,
+    "t": 38.64
+   },
+   {
+    "w": "Anda.",
+    "b": 4,
+    "t": 38.88
+   },
+   {
+    "w": "Pertama,",
     "b": 5,
-    "t": 42.46
+    "t": 39.82
    },
    {
-    "w": "kedua,",
+    "w": "kami",
     "b": 5,
-    "t": 42.98
+    "t": 40.84
    },
    {
-    "w": "pilih",
+    "w": "dengarkan",
+    "b": 5,
+    "t": 41.0
+   },
+   {
+    "w": "pekerjaan",
+    "b": 5,
+    "t": 41.4
+   },
+   {
+    "w": "tim",
+    "b": 5,
+    "t": 41.98
+   },
+   {
+    "w": "Anda,",
+    "b": 5,
+    "t": 42.08
+   },
+   {
+    "w": "barista,",
+    "b": 5,
+    "t": 42.84
+   },
+   {
+    "w": "pelayan,",
     "b": 5,
     "t": 43.78
    },
    {
+    "w": "atau",
+    "b": 5,
+    "t": 44.52
+   },
+   {
+    "w": "koki,",
+    "b": 5,
+    "t": 44.62
+   },
+   {
+    "w": "supaya",
+    "b": 5,
+    "t": 45.34
+   },
+   {
     "w": "model",
-    "b": 5,
-    "t": 44.14
-   },
-   {
-    "w": "apron.",
-    "b": 5,
-    "t": 44.34
-   },
-   {
-    "w": "Ada",
-    "b": 5,
-    "t": 45.32
-   },
-   {
-    "w": "dua",
     "b": 5,
     "t": 45.68
    },
    {
-    "w": "model",
-    "b": 5,
-    "t": 45.88
-   },
-   {
-    "w": "dasar,",
-    "b": 5,
-    "t": 46.14
-   },
-   {
     "w": "apron",
     "b": 5,
-    "t": 47.0
+    "t": 45.92
    },
    {
-    "w": "pinggang",
+    "w": "benar-benar",
     "b": 5,
-    "t": 47.34
-   },
-   {
-    "w": "dan",
-    "b": 5,
-    "t": 47.72
-   },
-   {
-    "w": "apron",
-    "b": 5,
-    "t": 48.14
-   },
-   {
-    "w": "dada.",
-    "b": 5,
-    "t": 48.58
-   },
-   {
-    "w": "Apron",
-    "b": 6,
-    "t": 49.74
-   },
-   {
-    "w": "pinggang",
-    "b": 6,
-    "t": 50.12
-   },
-   {
-    "w": "menutup",
-    "b": 6,
-    "t": 50.46
-   },
-   {
-    "w": "dari",
-    "b": 6,
-    "t": 50.96
-   },
-   {
-    "w": "pinggang",
-    "b": 6,
-    "t": 51.12
-   },
-   {
-    "w": "ke",
-    "b": 6,
-    "t": 51.54
-   },
-   {
-    "w": "bawah.",
-    "b": 6,
-    "t": 51.7
-   },
-   {
-    "w": "Ringan",
-    "b": 6,
-    "t": 52.46
-   },
-   {
-    "w": "dan",
-    "b": 6,
-    "t": 53.0
-   },
-   {
-    "w": "gerak",
-    "b": 6,
-    "t": 53.14
-   },
-   {
-    "w": "bebas,",
-    "b": 6,
-    "t": 53.38
-   },
-   {
-    "w": "cocok",
-    "b": 6,
-    "t": 54.18
-   },
-   {
-    "w": "untuk",
-    "b": 6,
-    "t": 54.48
-   },
-   {
-    "w": "barista,",
-    "b": 6,
-    "t": 54.68
-   },
-   {
-    "w": "pelayan,",
-    "b": 6,
-    "t": 55.66
-   },
-   {
-    "w": "dan",
-    "b": 6,
-    "t": 56.54
-   },
-   {
-    "w": "staf",
-    "b": 6,
-    "t": 56.68
-   },
-   {
-    "w": "toko.",
-    "b": 6,
-    "t": 56.82
-   },
-   {
-    "w": "Apron",
-    "b": 7,
-    "t": 57.92
-   },
-   {
-    "w": "dada",
-    "b": 7,
-    "t": 58.46
-   },
-   {
-    "w": "melindungi",
-    "b": 7,
-    "t": 58.74
-   },
-   {
-    "w": "tubuh",
-    "b": 7,
-    "t": 59.28
-   },
-   {
-    "w": "bagian",
-    "b": 7,
-    "t": 59.56
-   },
-   {
-    "w": "atas",
-    "b": 7,
-    "t": 59.88
-   },
-   {
-    "w": "juga,",
-    "b": 7,
-    "t": 60.16
-   },
-   {
-    "w": "jadi",
-    "b": 7,
-    "t": 60.84
-   },
-   {
-    "w": "cocok",
-    "b": 7,
-    "t": 61.36
-   },
-   {
-    "w": "untuk",
-    "b": 7,
-    "t": 61.84
-   },
-   {
-    "w": "koki",
-    "b": 7,
-    "t": 62.04
-   },
-   {
-    "w": "dan",
-    "b": 7,
-    "t": 62.42
-   },
-   {
-    "w": "kru",
-    "b": 7,
-    "t": 62.8
-   },
-   {
-    "w": "dapur.",
-    "b": 7,
-    "t": 63.0
-   },
-   {
-    "w": "Dari",
-    "b": 8,
-    "t": 64.4
-   },
-   {
-    "w": "dua",
-    "b": 8,
-    "t": 64.7
-   },
-   {
-    "w": "model",
-    "b": 8,
-    "t": 64.88
-   },
-   {
-    "w": "ini",
-    "b": 8,
-    "t": 65.16
-   },
-   {
-    "w": "lahir",
-    "b": 8,
-    "t": 65.5
-   },
-   {
-    "w": "variasi,",
-    "b": 8,
-    "t": 66.12
-   },
-   {
-    "w": "seperti",
-    "b": 8,
-    "t": 67.08
-   },
-   {
-    "w": "apron",
-    "b": 8,
-    "t": 67.34
-   },
-   {
-    "w": "tali",
-    "b": 8,
-    "t": 67.9
-   },
-   {
-    "w": "silang",
-    "b": 8,
-    "t": 68.14
-   },
-   {
-    "w": "yang",
-    "b": 8,
-    "t": 68.52
-   },
-   {
-    "w": "menyebar",
-    "b": 8,
-    "t": 68.86
-   },
-   {
-    "w": "beban",
-    "b": 8,
-    "t": 69.24
-   },
-   {
-    "w": "ke",
-    "b": 8,
-    "t": 69.607
-   },
-   {
-    "w": "bahu,",
-    "b": 8,
-    "t": 69.973
-   },
-   {
-    "w": "dan",
-    "b": 8,
-    "t": 70.34
-   },
-   {
-    "w": "apron",
-    "b": 8,
-    "t": 70.62
-   },
-   {
-    "w": "kombinasi",
-    "b": 8,
-    "t": 71.16
-   },
-   {
-    "w": "batik",
-    "b": 8,
-    "t": 71.6
-   },
-   {
-    "w": "yang",
-    "b": 8,
-    "t": 72.08
-   },
-   {
-    "w": "memberi",
-    "b": 8,
-    "t": 72.34
-   },
-   {
-    "w": "karakter",
-    "b": 8,
-    "t": 72.66
-   },
-   {
-    "w": "nusantara.",
-    "b": 8,
-    "t": 72.94
-   },
-   {
-    "w": "Langkah",
-    "b": 9,
-    "t": 73.62
-   },
-   {
-    "w": "ketiga,",
-    "b": 9,
-    "t": 74.84
-   },
-   {
-    "w": "pilih",
-    "b": 9,
-    "t": 75.78
-   },
-   {
-    "w": "bahan",
-    "b": 9,
-    "t": 76.08
-   },
-   {
-    "w": "yang",
-    "b": 9,
-    "t": 76.42
-   },
-   {
-    "w": "kuat",
-    "b": 9,
-    "t": 76.56
-   },
-   {
-    "w": "dicuci",
-    "b": 9,
-    "t": 76.96
-   },
-   {
-    "w": "berulang,",
-    "b": 9,
-    "t": 77.36
-   },
-   {
-    "w": "tidak",
-    "b": 9,
-    "t": 78.06
-   },
-   {
-    "w": "mudah",
-    "b": 9,
-    "t": 78.37
-   },
-   {
-    "w": "kusut,",
-    "b": 9,
-    "t": 78.68
-   },
-   {
-    "w": "dan",
-    "b": 9,
-    "t": 79.3
+    "t": 46.39
    },
    {
     "w": "nyaman",
-    "b": 9,
-    "t": 79.54
+    "b": 5,
+    "t": 46.86
    },
    {
-    "w": "di",
-    "b": 9,
-    "t": 79.88
+    "w": "dipakai",
+    "b": 5,
+    "t": 47.18
    },
    {
-    "w": "ruangan",
-    "b": 9,
-    "t": 80.08
-   },
-   {
-    "w": "hangat.",
-    "b": 9,
-    "t": 80.32
-   },
-   {
-    "w": "Drill",
-    "b": 10,
-    "t": 81.34
-   },
-   {
-    "w": "grade",
-    "b": 10,
-    "t": 81.86
-   },
-   {
-    "w": "A",
-    "b": 10,
-    "t": 82.08
-   },
-   {
-    "w": "kokoh",
-    "b": 10,
-    "t": 82.38
-   },
-   {
-    "w": "dan",
-    "b": 10,
-    "t": 83.0
-   },
-   {
-    "w": "rapi",
-    "b": 10,
-    "t": 83.18
-   },
-   {
-    "w": "untuk",
-    "b": 10,
-    "t": 83.56
-   },
-   {
-    "w": "kafe",
-    "b": 10,
-    "t": 83.83
-   },
-   {
-    "w": "dan",
-    "b": 10,
-    "t": 84.1
-   },
-   {
-    "w": "restoran.",
-    "b": 10,
-    "t": 84.32
-   },
-   {
-    "w": "Polimicro",
-    "b": 10,
-    "t": 85.4
-   },
-   {
-    "w": "lebih",
-    "b": 10,
-    "t": 86.48
-   },
-   {
-    "w": "ringan",
-    "b": 10,
-    "t": 86.6
-   },
-   {
-    "w": "dan",
-    "b": 10,
-    "t": 86.98
-   },
-   {
-    "w": "jatuh",
-    "b": 10,
-    "t": 87.16
-   },
-   {
-    "w": "rapi,",
-    "b": 10,
-    "t": 87.44
-   },
-   {
-    "w": "cocok",
-    "b": 10,
-    "t": 88.24
-   },
-   {
-    "w": "untuk",
-    "b": 10,
-    "t": 88.64
-   },
-   {
-    "w": "apron",
-    "b": 10,
-    "t": 88.84
-   },
-   {
-    "w": "chef.",
-    "b": 10,
-    "t": 89.2
-   },
-   {
-    "w": "Untuk",
-    "b": 11,
-    "t": 90.0
-   },
-   {
-    "w": "area",
-    "b": 11,
-    "t": 90.58
-   },
-   {
-    "w": "basah,",
-    "b": 11,
-    "t": 90.76
-   },
-   {
-    "w": "bahan",
-    "b": 11,
-    "t": 91.56
-   },
-   {
-    "w": "berlapis",
-    "b": 11,
-    "t": 91.92
-   },
-   {
-    "w": "anti",
-    "b": 11,
-    "t": 92.42
-   },
-   {
-    "w": "air",
-    "b": 11,
-    "t": 92.68
-   },
-   {
-    "w": "bisa",
-    "b": 11,
-    "t": 92.96
-   },
-   {
-    "w": "dipilih,",
-    "b": 11,
-    "t": 93.34
-   },
-   {
-    "w": "meski",
-    "b": 11,
-    "t": 94.18
-   },
-   {
-    "w": "terasa",
-    "b": 11,
-    "t": 94.58
-   },
-   {
-    "w": "lebih",
-    "b": 11,
-    "t": 94.88
-   },
-   {
-    "w": "panas",
-    "b": 11,
-    "t": 95.12
-   },
-   {
-    "w": "dipakai.",
-    "b": 11,
-    "t": 95.46
-   },
-   {
-    "w": "Langkah",
-    "b": 12,
-    "t": 96.8
-   },
-   {
-    "w": "keempat,",
-    "b": 12,
-    "t": 97.32
-   },
-   {
-    "w": "tentukan",
-    "b": 12,
-    "t": 98.18
-   },
-   {
-    "w": "ukuran",
-    "b": 12,
-    "t": 98.52
-   },
-   {
-    "w": "dan",
-    "b": 12,
-    "t": 98.96
-   },
-   {
-    "w": "saku.",
-    "b": 12,
-    "t": 99.2
-   },
-   {
-    "w": "Apron",
-    "b": 12,
-    "t": 99.6
-   },
-   {
-    "w": "yang",
-    "b": 12,
-    "t": 100.64
-   },
-   {
-    "w": "terlalu",
-    "b": 12,
-    "t": 100.76
-   },
-   {
-    "w": "pendek",
-    "b": 12,
-    "t": 101.04
-   },
-   {
-    "w": "tidak",
-    "b": 12,
-    "t": 101.42
-   },
-   {
-    "w": "melindungi",
-    "b": 12,
-    "t": 101.82
-   },
-   {
-    "w": "paha,",
-    "b": 12,
-    "t": 102.32
-   },
-   {
-    "w": "yang",
-    "b": 12,
-    "t": 102.98
-   },
-   {
-    "w": "terlalu",
-    "b": 12,
-    "t": 103.4
-   },
-   {
-    "w": "panjang",
-    "b": 12,
-    "t": 103.72
-   },
-   {
-    "w": "bisa",
-    "b": 12,
-    "t": 104.12
-   },
-   {
-    "w": "tersangkut.",
-    "b": 12,
-    "t": 104.48
-   },
-   {
-    "w": "Siapkan",
-    "b": 13,
-    "t": 105.56
-   },
-   {
-    "w": "satu",
-    "b": 13,
-    "t": 106.16
-   },
-   {
-    "w": "saku",
-    "b": 13,
-    "t": 106.52
-   },
-   {
-    "w": "besar",
-    "b": 13,
-    "t": 106.78
-   },
-   {
-    "w": "untuk",
-    "b": 13,
-    "t": 107.04
-   },
-   {
-    "w": "lap,",
-    "b": 13,
-    "t": 107.38
-   },
-   {
-    "w": "dan",
-    "b": 13,
-    "t": 107.66
-   },
-   {
-    "w": "satu",
-    "b": 13,
-    "t": 108.14
-   },
-   {
-    "w": "saku",
-    "b": 13,
-    "t": 108.48
-   },
-   {
-    "w": "kecil",
-    "b": 13,
-    "t": 108.7
-   },
-   {
-    "w": "untuk",
-    "b": 13,
-    "t": 109.06
-   },
-   {
-    "w": "pulpen",
-    "b": 13,
-    "t": 109.34
-   },
-   {
-    "w": "atau",
-    "b": 13,
-    "t": 109.8
-   },
-   {
-    "w": "alat",
-    "b": 13,
-    "t": 110.16
-   },
-   {
-    "w": "ukur.",
-    "b": 13,
-    "t": 110.44
-   },
-   {
-    "w": "Saran",
-    "b": 14,
-    "t": 111.44
-   },
-   {
-    "w": "kami,",
-    "b": 14,
-    "t": 111.82
-   },
-   {
-    "w": "coba",
-    "b": 14,
-    "t": 112.56
-   },
-   {
-    "w": "contoh",
-    "b": 14,
-    "t": 112.84
-   },
-   {
-    "w": "apron",
-    "b": 14,
-    "t": 113.14
-   },
-   {
-    "w": "pada",
-    "b": 14,
-    "t": 113.52
-   },
-   {
-    "w": "dua",
-    "b": 14,
-    "t": 113.7
-   },
-   {
-    "w": "staf",
-    "b": 14,
-    "t": 113.94
-   },
-   {
-    "w": "dengan",
-    "b": 14,
-    "t": 114.18
-   },
-   {
-    "w": "tinggi",
-    "b": 14,
-    "t": 114.48
-   },
-   {
-    "w": "berbeda,",
-    "b": 14,
-    "t": 114.84
-   },
-   {
-    "w": "lalu",
-    "b": 14,
-    "t": 115.66
-   },
-   {
-    "w": "cek",
-    "b": 14,
-    "t": 116.0
-   },
-   {
-    "w": "panjang",
-    "b": 14,
-    "t": 116.26
-   },
-   {
-    "w": "talinya.",
-    "b": 14,
-    "t": 116.62
-   },
-   {
-    "w": "Tali",
-    "b": 15,
-    "t": 117.66
-   },
-   {
-    "w": "leher",
-    "b": 15,
-    "t": 118.12
-   },
-   {
-    "w": "yang",
-    "b": 15,
-    "t": 118.38
-   },
-   {
-    "w": "pendek",
-    "b": 15,
-    "t": 118.54
-   },
-   {
-    "w": "membuat",
-    "b": 15,
-    "t": 119.12
-   },
-   {
-    "w": "leher",
-    "b": 15,
-    "t": 119.52
-   },
-   {
-    "w": "pegal.",
-    "b": 15,
-    "t": 119.82
-   },
-   {
-    "w": "Pilihan",
-    "b": 15,
-    "t": 120.88
-   },
-   {
-    "w": "kecil",
-    "b": 15,
-    "t": 121.32
-   },
-   {
-    "w": "ini",
-    "b": 15,
-    "t": 121.6
-   },
-   {
-    "w": "terasa",
-    "b": 15,
-    "t": 121.8
-   },
-   {
-    "w": "besar",
-    "b": 15,
-    "t": 122.12
-   },
-   {
-    "w": "bagi",
-    "b": 15,
-    "t": 122.46
-   },
-   {
-    "w": "staf",
-    "b": 15,
-    "t": 122.78
-   },
-   {
-    "w": "yang",
-    "b": 15,
-    "t": 123.1
-   },
-   {
-    "w": "memakainya",
-    "b": 15,
-    "t": 123.32
-   },
-   {
-    "w": "delapan",
-    "b": 15,
-    "t": 123.92
-   },
-   {
-    "w": "jam",
-    "b": 15,
-    "t": 124.36
-   },
-   {
-    "w": "sehari.",
-    "b": 15,
-    "t": 124.66
-   },
-   {
-    "w": "Langkah",
-    "b": 16,
-    "t": 125.86
-   },
-   {
-    "w": "kelima,",
-    "b": 16,
-    "t": 126.28
-   },
-   {
-    "w": "tentukan",
-    "b": 16,
-    "t": 127.12
-   },
-   {
-    "w": "letak",
-    "b": 16,
-    "t": 127.48
-   },
-   {
-    "w": "logo.",
-    "b": 16,
-    "t": 127.9
-   },
-   {
-    "w": "Pada",
-    "b": 16,
-    "t": 128.2
-   },
-   {
-    "w": "apron",
-    "b": 16,
-    "t": 129.14
-   },
-   {
-    "w": "dada,",
-    "b": 16,
-    "t": 129.42
-   },
-   {
-    "w": "logo",
-    "b": 16,
-    "t": 130.1
-   },
-   {
-    "w": "biasanya",
-    "b": 16,
-    "t": 130.36
-   },
-   {
-    "w": "di",
-    "b": 16,
-    "t": 130.88
-   },
-   {
-    "w": "dada",
-    "b": 16,
-    "t": 131.06
-   },
-   {
-    "w": "kiri",
-    "b": 16,
-    "t": 131.26
-   },
-   {
-    "w": "atau",
-    "b": 16,
-    "t": 131.58
-   },
-   {
-    "w": "tengah",
-    "b": 16,
-    "t": 131.96
-   },
-   {
-    "w": "dada.",
-    "b": 16,
-    "t": 132.3
-   },
-   {
-    "w": "Pada",
-    "b": 16,
-    "t": 133.16
-   },
-   {
-    "w": "apron",
-    "b": 16,
-    "t": 133.46
-   },
-   {
-    "w": "pinggang,",
-    "b": 16,
-    "t": 133.78
-   },
-   {
-    "w": "di",
-    "b": 16,
-    "t": 134.133
-   },
-   {
-    "w": "sisi",
-    "b": 16,
-    "t": 134.487
-   },
-   {
-    "w": "pinggang.",
-    "b": 16,
-    "t": 134.84
-   },
-   {
-    "w": "Pilih",
-    "b": 17,
-    "t": 136.0
-   },
-   {
-    "w": "bordir,",
-    "b": 17,
-    "t": 136.32
-   },
-   {
-    "w": "karena",
-    "b": 17,
-    "t": 136.72
-   },
-   {
-    "w": "lebih",
-    "b": 17,
-    "t": 137.06
-   },
-   {
-    "w": "awet",
-    "b": 17,
-    "t": 137.28
-   },
-   {
-    "w": "daripada",
-    "b": 17,
-    "t": 137.6
-   },
-   {
-    "w": "sablon",
-    "b": 17,
-    "t": 137.92
-   },
-   {
-    "w": "untuk",
-    "b": 17,
-    "t": 138.36
-   },
-   {
-    "w": "apron",
-    "b": 17,
-    "t": 138.76
-   },
-   {
-    "w": "yang",
-    "b": 17,
-    "t": 139.14
-   },
-   {
-    "w": "sering",
-    "b": 17,
-    "t": 139.26
-   },
-   {
-    "w": "dicuci.",
-    "b": 17,
-    "t": 139.58
-   },
-   {
-    "w": "Gunakan",
-    "b": 18,
-    "t": 140.48
-   },
-   {
-    "w": "logo",
-    "b": 18,
-    "t": 140.94
-   },
-   {
-    "w": "sederhana",
-    "b": 18,
-    "t": 141.26
-   },
-   {
-    "w": "dengan",
-    "b": 18,
-    "t": 141.82
-   },
-   {
-    "w": "sedikit",
-    "b": 18,
-    "t": 142.3
-   },
-   {
-    "w": "warna,",
-    "b": 18,
-    "t": 142.68
-   },
-   {
-    "w": "karena",
-    "b": 18,
-    "t": 143.34
-   },
-   {
-    "w": "benang",
-    "b": 18,
-    "t": 143.74
-   },
-   {
-    "w": "tidak",
-    "b": 18,
-    "t": 144.16
-   },
-   {
-    "w": "bisa",
-    "b": 18,
-    "t": 144.42
-   },
-   {
-    "w": "meniru",
-    "b": 18,
-    "t": 144.76
-   },
-   {
-    "w": "gradasi.",
-    "b": 18,
-    "t": 145.08
-   },
-   {
-    "w": "Pastikan",
-    "b": 18,
-    "t": 146.04
-   },
-   {
-    "w": "juga",
-    "b": 18,
-    "t": 146.4
-   },
-   {
-    "w": "warna",
-    "b": 18,
-    "t": 146.68
-   },
-   {
-    "w": "benang",
-    "b": 18,
-    "t": 147.1
-   },
-   {
-    "w": "kontras",
-    "b": 18,
-    "t": 147.48
-   },
-   {
-    "w": "dengan",
-    "b": 18,
-    "t": 147.98
-   },
-   {
-    "w": "kain.",
-    "b": 18,
-    "t": 148.24
-   },
-   {
-    "w": "Di",
-    "b": 19,
-    "t": 149.12
-   },
-   {
-    "w": "Elite",
-    "b": 19,
-    "t": 149.4
-   },
-   {
-    "w": "Apron,",
-    "b": 19,
-    "t": 149.58
-   },
-   {
-    "w": "bordir",
-    "b": 19,
-    "t": 150.36
-   },
-   {
-    "w": "logo",
-    "b": 19,
-    "t": 150.72
-   },
-   {
-    "w": "usaha",
-    "b": 19,
-    "t": 150.94
-   },
-   {
-    "w": "sudah",
-    "b": 19,
-    "t": 151.32
-   },
-   {
-    "w": "termasuk,",
-    "b": 19,
-    "t": 151.54
-   },
-   {
-    "w": "jadi",
-    "b": 19,
-    "t": 152.13
-   },
-   {
-    "w": "tim",
-    "b": 19,
-    "t": 152.72
-   },
-   {
-    "w": "Anda",
-    "b": 19,
-    "t": 152.94
-   },
-   {
-    "w": "langsung",
-    "b": 19,
-    "t": 153.22
-   },
-   {
-    "w": "mudah",
-    "b": 19,
-    "t": 153.78
-   },
-   {
-    "w": "dikenali",
-    "b": 19,
-    "t": 154.08
-   },
-   {
-    "w": "tamu.",
-    "b": 19,
-    "t": 154.42
-   },
-   {
-    "w": "Langkah",
-    "b": 20,
-    "t": 155.8
-   },
-   {
-    "w": "keenam,",
-    "b": 20,
-    "t": 156.35
-   },
-   {
-    "w": "hitung",
-    "b": 20,
-    "t": 156.9
-   },
-   {
-    "w": "jumlahnya.",
-    "b": 20,
-    "t": 157.18
-   },
-   {
-    "w": "Siapkan",
-    "b": 20,
-    "t": 158.38
-   },
-   {
-    "w": "dua",
-    "b": 20,
-    "t": 158.96
-   },
-   {
-    "w": "sampai",
-    "b": 20,
-    "t": 159.28
-   },
-   {
-    "w": "tiga",
-    "b": 20,
-    "t": 159.58
-   },
-   {
-    "w": "apron",
-    "b": 20,
-    "t": 159.86
-   },
-   {
-    "w": "untuk",
-    "b": 20,
-    "t": 160.26
-   },
-   {
-    "w": "setiap",
-    "b": 20,
-    "t": 160.6
-   },
-   {
-    "w": "staf.",
-    "b": 20,
-    "t": 161.17
-   },
-   {
-    "w": "Satu",
-    "b": 21,
-    "t": 161.74
-   },
-   {
-    "w": "dipakai,",
-    "b": 21,
-    "t": 162.12
-   },
-   {
-    "w": "satu",
-    "b": 21,
-    "t": 162.88
-   },
-   {
-    "w": "dicuci,",
-    "b": 21,
-    "t": 163.16
-   },
-   {
-    "w": "dan",
-    "b": 21,
-    "t": 163.88
-   },
-   {
-    "w": "satu",
-    "b": 21,
-    "t": 163.96
-   },
-   {
-    "w": "cadangan.",
-    "b": 21,
-    "t": 164.3
-   },
-   {
-    "w": "Dapur",
-    "b": 21,
-    "t": 165.3
-   },
-   {
-    "w": "yang",
-    "b": 21,
-    "t": 165.58
-   },
-   {
-    "w": "cepat",
-    "b": 21,
-    "t": 165.7
-   },
-   {
-    "w": "kotor",
-    "b": 21,
-    "t": 165.96
-   },
-   {
-    "w": "biasanya",
-    "b": 21,
-    "t": 166.44
-   },
-   {
-    "w": "butuh",
-    "b": 21,
-    "t": 166.86
-   },
-   {
-    "w": "lebih",
-    "b": 21,
-    "t": 167.14
-   },
-   {
-    "w": "banyak.",
-    "b": 21,
-    "t": 167.32
-   },
-   {
-    "w": "Pemesanan",
-    "b": 22,
-    "t": 168.28
-   },
-   {
-    "w": "bisa",
-    "b": 22,
-    "t": 168.86
-   },
-   {
-    "w": "mulai",
-    "b": 22,
-    "t": 169.26
-   },
-   {
-    "w": "dari",
-    "b": 22,
-    "t": 169.6
-   },
-   {
-    "w": "jumlah",
-    "b": 22,
-    "t": 169.74
-   },
-   {
-    "w": "kecil.",
-    "b": 22,
-    "t": 170.04
-   },
-   {
-    "w": "Apron",
-    "b": 22,
-    "t": 170.82
-   },
-   {
-    "w": "chef",
-    "b": 22,
-    "t": 171.22
-   },
-   {
-    "w": "mulai",
-    "b": 22,
-    "t": 171.44
-   },
-   {
-    "w": "satu",
-    "b": 22,
-    "t": 171.82
-   },
-   {
-    "w": "potong,",
-    "b": 22,
-    "t": 172.04
-   },
-   {
-    "w": "apron",
-    "b": 22,
-    "t": 172.82
-   },
-   {
-    "w": "pinggang",
-    "b": 22,
-    "t": 173.22
-   },
-   {
-    "w": "mulai",
-    "b": 22,
-    "t": 173.62
-   },
-   {
-    "w": "enam",
-    "b": 22,
-    "t": 174.06
-   },
-   {
-    "w": "potong.",
-    "b": 22,
-    "t": 174.24
-   },
-   {
-    "w": "Ingat",
-    "b": 23,
-    "t": 175.1
-   },
-   {
-    "w": "juga,",
-    "b": 23,
-    "t": 175.42
-   },
-   {
-    "w": "Peraturan",
-    "b": 23,
-    "t": 176.1
-   },
-   {
-    "w": "Menteri",
-    "b": 23,
-    "t": 176.46
-   },
-   {
-    "w": "Kesehatan",
-    "b": 23,
-    "t": 176.8
-   },
-   {
-    "w": "tahun",
-    "b": 23,
-    "t": 177.38
-   },
-   {
-    "w": "dua",
-    "b": 23,
-    "t": 177.64
-   },
-   {
-    "w": "ribu",
-    "b": 23,
-    "t": 177.9
-   },
-   {
-    "w": "sebelas",
-    "b": 23,
-    "t": 178.16
-   },
-   {
-    "w": "mencantumkan",
-    "b": 23,
-    "t": 178.42
-   },
-   {
-    "w": "apron,",
-    "b": 23,
-    "t": 179.18
-   },
-   {
-    "w": "tutup",
-    "b": 23,
-    "t": 180.06
-   },
-   {
-    "w": "rambut,",
-    "b": 23,
-    "t": 180.3
-   },
-   {
-    "w": "dan",
-    "b": 23,
-    "t": 180.88
-   },
-   {
-    "w": "sepatu",
-    "b": 23,
-    "t": 180.94
-   },
-   {
-    "w": "kedap",
-    "b": 23,
-    "t": 181.38
-   },
-   {
-    "w": "air",
-    "b": 23,
-    "t": 181.56
-   },
-   {
-    "w": "sebagai",
-    "b": 23,
-    "t": 181.84
-   },
-   {
-    "w": "pelindung",
-    "b": 23,
-    "t": 182.2
-   },
-   {
-    "w": "makanan",
-    "b": 23,
-    "t": 182.9
-   },
-   {
-    "w": "dari",
-    "b": 23,
-    "t": 183.38
-   },
-   {
-    "w": "pencemaran.",
-    "b": 23,
-    "t": 183.7
-   },
-   {
-    "w": "Langkah",
-    "b": 24,
-    "t": 184.92
-   },
-   {
-    "w": "ketujuh,",
-    "b": 24,
-    "t": 185.66
-   },
-   {
-    "w": "kirim",
-    "b": 24,
-    "t": 186.4
-   },
-   {
-    "w": "logo,",
-    "b": 24,
-    "t": 186.76
-   },
-   {
-    "w": "jumlah,",
-    "b": 24,
-    "t": 187.5
-   },
-   {
-    "w": "model,",
-    "b": 24,
-    "t": 188.36
-   },
-   {
-    "w": "bahan,",
-    "b": 24,
-    "t": 189.06
-   },
-   {
-    "w": "dan",
-    "b": 24,
-    "t": 189.58
-   },
-   {
-    "w": "warna",
-    "b": 24,
-    "t": 189.72
-   },
-   {
-    "w": "lewat",
-    "b": 24,
-    "t": 190.12
-   },
-   {
-    "w": "WhatsApp.",
-    "b": 24,
-    "t": 190.46
-   },
-   {
-    "w": "Tim",
-    "b": 24,
-    "t": 191.32
-   },
-   {
-    "w": "kami",
-    "b": 24,
-    "t": 191.54
-   },
-   {
-    "w": "menyiapkan",
-    "b": 24,
-    "t": 191.82
-   },
-   {
-    "w": "contoh",
-    "b": 24,
-    "t": 192.38
-   },
-   {
-    "w": "desain,",
-    "b": 24,
-    "t": 192.83
-   },
-   {
-    "w": "lalu",
-    "b": 24,
-    "t": 193.28
-   },
-   {
-    "w": "produksi",
-    "b": 24,
-    "t": 193.64
-   },
-   {
-    "w": "dimulai",
-    "b": 24,
-    "t": 194.0
-   },
-   {
-    "w": "setelah",
-    "b": 24,
-    "t": 194.52
-   },
-   {
-    "w": "Anda",
-    "b": 24,
-    "t": 194.9
-   },
-   {
-    "w": "setuju.",
-    "b": 24,
-    "t": 195.12
-   },
-   {
-    "w": "Estimasi",
-    "b": 25,
-    "t": 196.12
-   },
-   {
-    "w": "waktu",
-    "b": 25,
-    "t": 196.62
-   },
-   {
-    "w": "produksi",
-    "b": 25,
-    "t": 196.8
-   },
-   {
-    "w": "disampaikan",
-    "b": 25,
-    "t": 197.3
-   },
-   {
-    "w": "sejak",
-    "b": 25,
-    "t": 197.92
-   },
-   {
-    "w": "awal,",
-    "b": 25,
-    "t": 198.26
-   },
-   {
-    "w": "dan",
-    "b": 25,
-    "t": 198.74
-   },
-   {
-    "w": "pesanan",
-    "b": 25,
-    "t": 199.16
-   },
-   {
-    "w": "dikirim",
-    "b": 25,
-    "t": 199.52
-   },
-   {
-    "w": "ke",
-    "b": 25,
-    "t": 199.96
-   },
-   {
-    "w": "seluruh",
-    "b": 25,
-    "t": 200.16
-   },
-   {
-    "w": "Indonesia.",
-    "b": 25,
-    "t": 200.6
-   },
-   {
-    "w": "Setelah",
-    "b": 26,
-    "t": 201.74
-   },
-   {
-    "w": "apron",
-    "b": 26,
-    "t": 202.42
-   },
-   {
-    "w": "datang,",
-    "b": 26,
-    "t": 202.7
-   },
-   {
-    "w": "rawat",
-    "b": 26,
-    "t": 203.54
-   },
-   {
-    "w": "dengan",
-    "b": 26,
-    "t": 203.86
-   },
-   {
-    "w": "benar.",
-    "b": 26,
-    "t": 204.06
-   },
-   {
-    "w": "Cuci",
-    "b": 26,
-    "t": 204.9
-   },
-   {
-    "w": "setelah",
-    "b": 26,
-    "t": 205.22
-   },
-   {
-    "w": "satu",
-    "b": 26,
-    "t": 205.58
-   },
-   {
-    "w": "shift,",
-    "b": 26,
-    "t": 205.8
-   },
-   {
-    "w": "rendam",
-    "b": 26,
-    "t": 206.22
-   },
-   {
-    "w": "noda",
-    "b": 26,
-    "t": 206.64
-   },
-   {
-    "w": "minyak",
-    "b": 26,
-    "t": 207.06
-   },
-   {
-    "w": "dengan",
-    "b": 26,
-    "t": 207.4
-   },
-   {
-    "w": "sabun",
-    "b": 26,
-    "t": 207.6
-   },
-   {
-    "w": "cuci",
-    "b": 26,
-    "t": 207.88
-   },
-   {
-    "w": "piring,",
-    "b": 26,
-    "t": 208.1
-   },
-   {
-    "w": "lalu",
-    "b": 26,
-    "t": 208.74
-   },
-   {
-    "w": "jemur",
-    "b": 26,
-    "t": 209.09
-   },
-   {
-    "w": "di",
-    "b": 26,
-    "t": 209.44
-   },
-   {
-    "w": "tempat",
-    "b": 26,
-    "t": 209.58
-   },
-   {
-    "w": "teduh.",
-    "b": 26,
-    "t": 209.84
-   },
-   {
-    "w": "Balik",
-    "b": 27,
-    "t": 210.12
-   },
-   {
-    "w": "sisi",
-    "b": 27,
-    "t": 210.92
-   },
-   {
-    "w": "bordir",
-    "b": 27,
-    "t": 211.14
-   },
-   {
-    "w": "saat",
-    "b": 27,
-    "t": 211.52
-   },
-   {
-    "w": "mencuci,",
-    "b": 27,
-    "t": 211.68
-   },
-   {
-    "w": "dan",
-    "b": 27,
-    "t": 212.42
-   },
-   {
-    "w": "setrika",
-    "b": 27,
-    "t": 212.68
-   },
-   {
-    "w": "dari",
-    "b": 27,
-    "t": 213.14
-   },
-   {
-    "w": "bagian",
-    "b": 27,
-    "t": 213.46
-   },
-   {
-    "w": "belakang",
-    "b": 27,
-    "t": 213.78
-   },
-   {
-    "w": "bordir",
-    "b": 27,
-    "t": 214.02
-   },
-   {
-    "w": "supaya",
-    "b": 27,
-    "t": 214.64
-   },
-   {
-    "w": "logo",
-    "b": 27,
-    "t": 214.98
-   },
-   {
-    "w": "tetap",
-    "b": 27,
-    "t": 215.26
-   },
-   {
-    "w": "timbul.",
-    "b": 27,
-    "t": 215.7
-   },
-   {
-    "w": "Terakhir,",
-    "b": 28,
-    "t": 216.7
-   },
-   {
-    "w": "hindari",
-    "b": 28,
-    "t": 217.66
-   },
-   {
-    "w": "tiga",
-    "b": 28,
-    "t": 217.98
-   },
-   {
-    "w": "kesalahan",
-    "b": 28,
-    "t": 218.34
-   },
-   {
-    "w": "ini.",
-    "b": 28,
-    "t": 218.82
-   },
-   {
-    "w": "Warna",
-    "b": 28,
-    "t": 219.74
-   },
-   {
-    "w": "putih",
-    "b": 28,
-    "t": 220.08
-   },
-   {
-    "w": "untuk",
-    "b": 28,
-    "t": 220.42
-   },
-   {
-    "w": "dapur",
-    "b": 28,
-    "t": 220.62
-   },
-   {
-    "w": "penuh",
-    "b": 28,
-    "t": 221.133
-   },
-   {
-    "w": "saus,",
-    "b": 28,
-    "t": 221.647
-   },
-   {
-    "w": "satu",
-    "b": 28,
-    "t": 222.16
-   },
-   {
-    "w": "ukuran",
-    "b": 28,
-    "t": 222.44
-   },
-   {
-    "w": "untuk",
-    "b": 28,
-    "t": 222.78
-   },
-   {
-    "w": "semua",
-    "b": 28,
-    "t": 223.12
-   },
-   {
-    "w": "staf,",
-    "b": 28,
-    "t": 223.38
-   },
-   {
-    "w": "dan",
-    "b": 28,
-    "t": 224.14
-   },
-   {
-    "w": "logo",
-    "b": 28,
-    "t": 224.3
-   },
-   {
-    "w": "terlalu",
-    "b": 28,
-    "t": 224.68
-   },
-   {
-    "w": "detail",
-    "b": 28,
-    "t": 225.06
-   },
-   {
-    "w": "yang",
-    "b": 28,
-    "t": 225.36
-   },
-   {
-    "w": "hilang",
-    "b": 28,
-    "t": 225.66
-   },
-   {
-    "w": "saat",
-    "b": 28,
-    "t": 226.06
-   },
-   {
-    "w": "dibordir.",
-    "b": 28,
-    "t": 226.26
-   },
-   {
-    "w": "Kesalahan",
-    "b": 29,
-    "t": 227.24
-   },
-   {
-    "w": "kecil",
-    "b": 29,
-    "t": 227.74
-   },
-   {
-    "w": "ini",
-    "b": 29,
-    "t": 228.0
-   },
-   {
-    "w": "membuat",
-    "b": 29,
-    "t": 228.26
-   },
-   {
-    "w": "apron",
-    "b": 29,
-    "t": 228.68
-   },
-   {
-    "w": "cepat",
-    "b": 29,
-    "t": 229.06
-   },
-   {
-    "w": "lusuh,",
-    "b": 29,
-    "t": 229.3
-   },
-   {
-    "w": "dan",
-    "b": 29,
-    "t": 229.88
-   },
-   {
-    "w": "staf",
-    "b": 29,
-    "t": 230.08
-   },
-   {
-    "w": "jadi",
-    "b": 29,
-    "t": 230.4
-   },
-   {
-    "w": "enggan",
-    "b": 29,
-    "t": 230.62
-   },
-   {
-    "w": "memakainya.",
-    "b": 29,
-    "t": 230.94
-   },
-   {
-    "w": "Apron",
-    "b": 30,
-    "t": 232.04
-   },
-   {
-    "w": "yang",
-    "b": 30,
-    "t": 232.68
-   },
-   {
-    "w": "tepat",
-    "b": 30,
-    "t": 232.8
-   },
-   {
-    "w": "membuat",
-    "b": 30,
-    "t": 233.22
-   },
-   {
-    "w": "staf",
-    "b": 30,
-    "t": 233.68
-   },
-   {
-    "w": "nyaman,",
-    "b": 30,
-    "t": 234.02
-   },
-   {
-    "w": "dan",
-    "b": 30,
-    "t": 234.72
-   },
-   {
-    "w": "usaha",
-    "b": 30,
-    "t": 234.88
-   },
-   {
-    "w": "Anda",
-    "b": 30,
-    "t": 235.24
-   },
-   {
-    "w": "tampil",
-    "b": 30,
-    "t": 235.62
-   },
-   {
-    "w": "rapi",
-    "b": 30,
-    "t": 236.06
-   },
-   {
-    "w": "di",
-    "b": 30,
-    "t": 236.4
-   },
-   {
-    "w": "setiap",
-    "b": 30,
-    "t": 236.52
-   },
-   {
-    "w": "foto",
-    "b": 30,
-    "t": 236.82
-   },
-   {
-    "w": "tamu.",
-    "b": 30,
-    "t": 237.12
-   },
-   {
-    "w": "Konsultasi",
-    "b": 31,
-    "t": 237.42
-   },
-   {
-    "w": "desain",
-    "b": 31,
-    "t": 238.58
-   },
-   {
-    "w": "gratis",
-    "b": 31,
-    "t": 238.86
-   },
-   {
-    "w": "bersama",
-    "b": 31,
-    "t": 239.32
-   },
-   {
-    "w": "Elite",
-    "b": 31,
-    "t": 239.74
-   },
-   {
-    "w": "Apron.",
-    "b": 31,
-    "t": 240.04
+    "w": "seharian.",
+    "b": 5,
+    "t": 47.6
    },
    {
     "w": "Kirim",
-    "b": 31,
-    "t": 240.74
+    "b": 6,
+    "t": 48.7
    },
    {
     "w": "logo",
-    "b": 31,
-    "t": 241.18
+    "b": 6,
+    "t": 49.06
    },
    {
     "w": "usaha",
-    "b": 31,
-    "t": 241.32
-   },
-   {
-    "w": "Anda",
-    "b": 31,
-    "t": 241.7
+    "b": 6,
+    "t": 49.26
    },
    {
     "w": "lewat",
-    "b": 31,
-    "t": 241.98
+    "b": 6,
+    "t": 49.66
    },
    {
     "w": "WhatsApp,",
-    "b": 31,
-    "t": 242.34
+    "b": 6,
+    "t": 49.96
    },
    {
-    "w": "link",
-    "b": 31,
-    "t": 243.02
+    "w": "tim",
+    "b": 6,
+    "t": 50.78
    },
    {
-    "w": "ada",
-    "b": 31,
-    "t": 243.2
+    "w": "kami",
+    "b": 6,
+    "t": 50.94
+   },
+   {
+    "w": "menyiapkan",
+    "b": 6,
+    "t": 51.22
+   },
+   {
+    "w": "contoh",
+    "b": 6,
+    "t": 51.72
+   },
+   {
+    "w": "desain",
+    "b": 6,
+    "t": 52.1
+   },
+   {
+    "w": "bordirnya.",
+    "b": 6,
+    "t": 52.42
+   },
+   {
+    "w": "Produksi",
+    "b": 6,
+    "t": 53.4
+   },
+   {
+    "w": "baru",
+    "b": 6,
+    "t": 53.86
+   },
+   {
+    "w": "dimulai",
+    "b": 6,
+    "t": 54.16
+   },
+   {
+    "w": "setelah",
+    "b": 6,
+    "t": 54.64
+   },
+   {
+    "w": "Anda",
+    "b": 6,
+    "t": 55.08
+   },
+   {
+    "w": "setuju.",
+    "b": 6,
+    "t": 55.46
+   },
+   {
+    "w": "Bordir",
+    "b": 7,
+    "t": 56.64
+   },
+   {
+    "w": "logo",
+    "b": 7,
+    "t": 57.14
+   },
+   {
+    "w": "usaha",
+    "b": 7,
+    "t": 57.34
+   },
+   {
+    "w": "sudah",
+    "b": 7,
+    "t": 57.74
+   },
+   {
+    "w": "termasuk",
+    "b": 7,
+    "t": 58.02
    },
    {
     "w": "di",
-    "b": 31,
-    "t": 243.5
+    "b": 7,
+    "t": 58.48
+   },
+   {
+    "w": "setiap",
+    "b": 7,
+    "t": 58.62
+   },
+   {
+    "w": "apron,",
+    "b": 7,
+    "t": 58.92
+   },
+   {
+    "w": "jadi",
+    "b": 7,
+    "t": 59.44
+   },
+   {
+    "w": "tim",
+    "b": 7,
+    "t": 59.92
+   },
+   {
+    "w": "langsung",
+    "b": 7,
+    "t": 60.3
+   },
+   {
+    "w": "tampil",
+    "b": 7,
+    "t": 60.74
+   },
+   {
+    "w": "dengan",
+    "b": 7,
+    "t": 61.16
+   },
+   {
+    "w": "identitas",
+    "b": 7,
+    "t": 61.38
+   },
+   {
+    "w": "usaha",
+    "b": 7,
+    "t": 61.94
+   },
+   {
+    "w": "Anda.",
+    "b": 7,
+    "t": 62.22
+   },
+   {
+    "w": "Bordir",
+    "b": 8,
+    "t": 63.06
+   },
+   {
+    "w": "lebih",
+    "b": 8,
+    "t": 63.6
+   },
+   {
+    "w": "awet",
+    "b": 8,
+    "t": 63.86
+   },
+   {
+    "w": "daripada",
+    "b": 8,
+    "t": 64.18
+   },
+   {
+    "w": "sablon",
+    "b": 8,
+    "t": 64.5
+   },
+   {
+    "w": "untuk",
+    "b": 8,
+    "t": 64.9
+   },
+   {
+    "w": "apron",
+    "b": 8,
+    "t": 65.2
+   },
+   {
+    "w": "yang",
+    "b": 8,
+    "t": 65.66
+   },
+   {
+    "w": "dicuci",
+    "b": 8,
+    "t": 65.78
+   },
+   {
+    "w": "setiap",
+    "b": 8,
+    "t": 66.06
+   },
+   {
+    "w": "hari,",
+    "b": 8,
+    "t": 66.5
+   },
+   {
+    "w": "jadi",
+    "b": 8,
+    "t": 67.04
+   },
+   {
+    "w": "logo",
+    "b": 8,
+    "t": 67.36
+   },
+   {
+    "w": "tetap",
+    "b": 8,
+    "t": 67.7
+   },
+   {
+    "w": "rapi",
+    "b": 8,
+    "t": 68.06
+   },
+   {
+    "w": "berbulan-bulan.",
+    "b": 8,
+    "t": 68.89
+   },
+   {
+    "w": "Bahannya",
+    "b": 9,
+    "t": 69.72
+   },
+   {
+    "w": "drill",
+    "b": 9,
+    "t": 70.26
+   },
+   {
+    "w": "grade",
+    "b": 9,
+    "t": 70.64
+   },
+   {
+    "w": "A",
+    "b": 9,
+    "t": 70.88
+   },
+   {
+    "w": "yang",
+    "b": 9,
+    "t": 71.12
+   },
+   {
+    "w": "kokoh",
+    "b": 9,
+    "t": 71.3
+   },
+   {
+    "w": "dan",
+    "b": 9,
+    "t": 71.74
+   },
+   {
+    "w": "rapi",
+    "b": 9,
+    "t": 71.96
+   },
+   {
+    "w": "untuk",
+    "b": 9,
+    "t": 72.34
+   },
+   {
+    "w": "kafe",
+    "b": 9,
+    "t": 72.6
+   },
+   {
+    "w": "dan",
+    "b": 9,
+    "t": 72.86
+   },
+   {
+    "w": "restoran,",
+    "b": 9,
+    "t": 73.08
+   },
+   {
+    "w": "atau",
+    "b": 9,
+    "t": 73.82
+   },
+   {
+    "w": "polimicro",
+    "b": 9,
+    "t": 74.3
+   },
+   {
+    "w": "yang",
+    "b": 9,
+    "t": 74.78
+   },
+   {
+    "w": "ringan",
+    "b": 9,
+    "t": 74.96
+   },
+   {
+    "w": "untuk",
+    "b": 9,
+    "t": 75.34
+   },
+   {
+    "w": "apron",
+    "b": 9,
+    "t": 75.58
+   },
+   {
+    "w": "chef.",
+    "b": 9,
+    "t": 75.92
+   },
+   {
+    "w": "Ingin",
+    "b": 10,
+    "t": 76.78
+   },
+   {
+    "w": "mulai",
+    "b": 10,
+    "t": 77.14
+   },
+   {
+    "w": "dari",
+    "b": 10,
+    "t": 77.46
+   },
+   {
+    "w": "tim",
+    "b": 10,
+    "t": 77.62
+   },
+   {
+    "w": "kecil",
+    "b": 10,
+    "t": 77.82
+   },
+   {
+    "w": "dulu?",
+    "b": 10,
+    "t": 78.1
+   },
+   {
+    "w": "Pemesanan",
+    "b": 10,
+    "t": 78.8
+   },
+   {
+    "w": "bisa",
+    "b": 10,
+    "t": 79.24
+   },
+   {
+    "w": "dari",
+    "b": 10,
+    "t": 79.56
+   },
+   {
+    "w": "jumlah",
+    "b": 10,
+    "t": 79.84
+   },
+   {
+    "w": "kecil,",
+    "b": 10,
+    "t": 80.08
+   },
+   {
+    "w": "apron",
+    "b": 10,
+    "t": 80.76
+   },
+   {
+    "w": "chef",
+    "b": 10,
+    "t": 81.08
+   },
+   {
+    "w": "bahkan",
+    "b": 10,
+    "t": 81.32
+   },
+   {
+    "w": "mulai",
+    "b": 10,
+    "t": 81.76
+   },
+   {
+    "w": "satu",
+    "b": 10,
+    "t": 82.06
+   },
+   {
+    "w": "potong.",
+    "b": 10,
+    "t": 82.28
+   },
+   {
+    "w": "Estimasi",
+    "b": 11,
+    "t": 83.28
+   },
+   {
+    "w": "waktu",
+    "b": 11,
+    "t": 83.74
+   },
+   {
+    "w": "produksi",
+    "b": 11,
+    "t": 83.96
+   },
+   {
+    "w": "disampaikan",
+    "b": 11,
+    "t": 84.42
+   },
+   {
+    "w": "sejak",
+    "b": 11,
+    "t": 84.98
+   },
+   {
+    "w": "awal,",
+    "b": 11,
+    "t": 85.32
+   },
+   {
+    "w": "jadi",
+    "b": 11,
+    "t": 85.78
+   },
+   {
+    "w": "Anda",
+    "b": 11,
+    "t": 86.26
+   },
+   {
+    "w": "bisa",
+    "b": 11,
+    "t": 86.64
+   },
+   {
+    "w": "menyesuaikan",
+    "b": 11,
+    "t": 86.88
+   },
+   {
+    "w": "dengan",
+    "b": 11,
+    "t": 87.48
+   },
+   {
+    "w": "jadwal",
+    "b": 11,
+    "t": 87.82
+   },
+   {
+    "w": "pembukaan",
+    "b": 11,
+    "t": 88.16
+   },
+   {
+    "w": "cabang.",
+    "b": 11,
+    "t": 88.7
+   },
+   {
+    "w": "Kafe",
+    "b": 12,
+    "t": 89.29
+   },
+   {
+    "w": "di",
+    "b": 12,
+    "t": 89.88
+   },
+   {
+    "w": "Bali",
+    "b": 12,
+    "t": 90.06
+   },
+   {
+    "w": "atau",
+    "b": 12,
+    "t": 90.64
+   },
+   {
+    "w": "resto",
+    "b": 12,
+    "t": 90.8
+   },
+   {
+    "w": "di",
+    "b": 12,
+    "t": 91.0
+   },
+   {
+    "w": "Jakarta,",
+    "b": 12,
+    "t": 91.18
+   },
+   {
+    "w": "pesanan",
+    "b": 12,
+    "t": 91.98
+   },
+   {
+    "w": "dikirim",
+    "b": 12,
+    "t": 92.3
+   },
+   {
+    "w": "ke",
+    "b": 12,
+    "t": 92.72
+   },
+   {
+    "w": "seluruh",
+    "b": 12,
+    "t": 92.92
+   },
+   {
+    "w": "Indonesia.",
+    "b": 12,
+    "t": 93.32
+   },
+   {
+    "w": "Ini",
+    "b": 13,
+    "t": 94.54
+   },
+   {
+    "w": "apron",
+    "b": 13,
+    "t": 94.88
+   },
+   {
+    "w": "hasil",
+    "b": 13,
+    "t": 95.3
+   },
+   {
+    "w": "produksi",
+    "b": 13,
+    "t": 95.58
+   },
+   {
+    "w": "yang",
+    "b": 13,
+    "t": 96.0
+   },
+   {
+    "w": "sudah",
+    "b": 13,
+    "t": 96.18
+   },
+   {
+    "w": "dipakai",
+    "b": 13,
+    "t": 96.36
+   },
+   {
+    "w": "tim",
+    "b": 13,
+    "t": 96.76
+   },
+   {
+    "w": "kafe",
+    "b": 13,
+    "t": 97.01
+   },
+   {
+    "w": "dan",
+    "b": 13,
+    "t": 97.26
+   },
+   {
+    "w": "resto.",
+    "b": 13,
+    "t": 97.54
+   },
+   {
+    "w": "Rapi,",
+    "b": 13,
+    "t": 98.3
+   },
+   {
+    "w": "logonya",
+    "b": 13,
+    "t": 99.02
+   },
+   {
+    "w": "jelas,",
+    "b": 13,
+    "t": 99.34
+   },
+   {
+    "w": "dan",
+    "b": 13,
+    "t": 100.08
+   },
+   {
+    "w": "tim",
+    "b": 13,
+    "t": 100.16
+   },
+   {
+    "w": "terlihat",
+    "b": 13,
+    "t": 100.44
+   },
+   {
+    "w": "kompak.",
+    "b": 13,
+    "t": 100.9
+   },
+   {
+    "w": "Logonya",
+    "b": 14,
+    "t": 101.8
+   },
+   {
+    "w": "dibordir",
+    "b": 14,
+    "t": 102.24
+   },
+   {
+    "w": "dengan",
+    "b": 14,
+    "t": 102.78
+   },
+   {
+    "w": "mesin",
+    "b": 14,
+    "t": 102.96
+   },
+   {
+    "w": "bordir",
+    "b": 14,
+    "t": 103.26
+   },
+   {
+    "w": "komputer,",
+    "b": 14,
+    "t": 103.54
+   },
+   {
+    "w": "sehingga",
+    "b": 14,
+    "t": 104.28
+   },
+   {
+    "w": "setiap",
+    "b": 14,
+    "t": 104.74
+   },
+   {
+    "w": "potong",
+    "b": 14,
+    "t": 105.16
+   },
+   {
+    "w": "tampak",
+    "b": 14,
+    "t": 105.5
+   },
+   {
+    "w": "sama.",
+    "b": 14,
+    "t": 105.86
+   },
+   {
+    "w": "Hasilnya,",
+    "b": 15,
+    "t": 106.76
+   },
+   {
+    "w": "tim",
+    "b": 15,
+    "t": 107.74
+   },
+   {
+    "w": "Anda",
+    "b": 15,
+    "t": 107.88
+   },
+   {
+    "w": "terlihat",
+    "b": 15,
+    "t": 108.16
+   },
+   {
+    "w": "profesional",
+    "b": 15,
+    "t": 108.54
+   },
+   {
+    "w": "dan",
+    "b": 15,
+    "t": 109.04
+   },
+   {
+    "w": "mudah",
+    "b": 15,
+    "t": 109.42
+   },
+   {
+    "w": "dikenali",
+    "b": 15,
+    "t": 109.76
+   },
+   {
+    "w": "di",
+    "b": 15,
+    "t": 110.2
+   },
+   {
+    "w": "setiap",
+    "b": 15,
+    "t": 110.4
+   },
+   {
+    "w": "foto",
+    "b": 15,
+    "t": 110.8
+   },
+   {
+    "w": "tamu.",
+    "b": 15,
+    "t": 110.94
+   },
+   {
+    "w": "Kirim",
+    "b": 16,
+    "t": 112.02
+   },
+   {
+    "w": "logo",
+    "b": 16,
+    "t": 112.34
+   },
+   {
+    "w": "usaha",
+    "b": 16,
+    "t": 112.5
+   },
+   {
+    "w": "Anda",
+    "b": 16,
+    "t": 112.88
+   },
+   {
+    "w": "lewat",
+    "b": 16,
+    "t": 113.16
+   },
+   {
+    "w": "WhatsApp,",
+    "b": 16,
+    "t": 113.44
+   },
+   {
+    "w": "kami",
+    "b": 16,
+    "t": 114.08
+   },
+   {
+    "w": "siapkan",
+    "b": 16,
+    "t": 114.3
+   },
+   {
+    "w": "contoh",
+    "b": 16,
+    "t": 114.72
+   },
+   {
+    "w": "desain",
+    "b": 16,
+    "t": 115.12
+   },
+   {
+    "w": "apronnya.",
+    "b": 16,
+    "t": 115.68
+   },
+   {
+    "w": "Konsultasi",
+    "b": 16,
+    "t": 116.24
+   },
+   {
+    "w": "gratis",
+    "b": 16,
+    "t": 116.82
+   },
+   {
+    "w": "bersama",
+    "b": 16,
+    "t": 117.28
+   },
+   {
+    "w": "Elite",
+    "b": 16,
+    "t": 117.72
+   },
+   {
+    "w": "Apron,",
+    "b": 16,
+    "t": 118.04
+   },
+   {
+    "w": "link",
+    "b": 16,
+    "t": 118.82
+   },
+   {
+    "w": "ada",
+    "b": 16,
+    "t": 119.06
+   },
+   {
+    "w": "di",
+    "b": 16,
+    "t": 119.32
    },
    {
     "w": "deskripsi.",
-    "b": 31,
-    "t": 243.64
+    "b": 16,
+    "t": 119.46
    }
   ],
   "sumber": "whisper"
  },
  "foto": [
   "FC0089",
-  "GA1409",
+  "FC0104",
   "GA1417",
   "GA1420",
-  "GA1428",
   "GA1435",
-  "GA1477",
-  "GA1479",
+  "GA1443",
   "GA1590",
   "GA1592",
   "GA1612",
-  "GA1630",
-  "GA1706",
-  "GA1721",
-  "GA1726"
+  "GA1630"
  ],
- "dibuat": "2026-10-31T14:21:16"
+ "dibuat": "2026-10-31T15:23:48"
 }
