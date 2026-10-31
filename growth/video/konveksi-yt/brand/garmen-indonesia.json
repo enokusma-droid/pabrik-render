@@ -1,0 +1,30 @@
+{
+ "_comment": "Konfigurasi channel YouTube Garmen Indonesia untuk templat K1 (31 Okt 2026). Sumber: E:/WP-Project/garmenindonesia.com/DNA-BISNIS.md (§1 kontak, §5 voice, §7 visual). Kode video GI<no keyword>. Suara VO belum dikunci owner: sementara Fola (default pabrik untuk brand selain Elite Apron).",
+ "kode": "GI",
+ "slug": "garmen-indonesia",
+ "nama": "Garmen Indonesia",
+ "channel": "@GarmenIndonesia",
+ "keyword_csv": "seo/keyword-60-garmen-indonesia.csv",
+ "logo": "logo-gi.png",
+ "font_judul": "spartan.woff2",
+ "font_isi": "inter.woff2",
+ "vo": { "voice": "Fola", "gaya": "" },
+ "wa": "0851-1135-4012",
+ "wa_link": "https://wa.me/6285111354012?text=Halo%2C%20saya%20dari%20Garmen%20Indonesia",
+ "web": "garmenindonesia.com",
+ "latar": ["#FFFFFF", "#F8F7F5", "#F3F0EC"],
+ "blob": "rgba(239,68,68,",
+ "warna": {
+  "#E8590C": "#A81E22", "#D9480F": "#931A1D", "#FF8040": "#EF4444",
+  "#FFF1E8": "#FDECEC", "#FFE1D1": "#FBD5D5", "#FFD3BD": "#F8C4C4", "#FFC9AE": "#F5B5B5",
+  "rgba(255,128,64,": "rgba(239,68,68,", "rgba(232,89,12,": "rgba(168,30,34,",
+  "#0F172A": "#1F2937", "rgba(15,23,42,": "rgba(31,41,55,"
+ },
+ "wm": { "warna": "0x1F2937@0.62", "tepi": "white@0.6" },
+ "deskripsi_brand": "Garmen Indonesia, jasa konveksi custom untuk usaha, kantor, komunitas, dan instansi: seragam, kaos, polo, jaket, apron, sampai merchandise, dengan bordir atau sablon logo. Melayani seluruh Indonesia.",
+ "deskripsi_kenapa": "Garmen Indonesia mengerjakan konveksi custom dengan proses pesan yang jelas lewat WhatsApp: kirim logo, pilih model dan bahan, setujui contoh desain, lalu produksi berjalan. Waktu produksi disampaikan di awal dan pesanan dikirim ke seluruh Indonesia.",
+ "cta_wa": "Konsultasi desain gratis dan kirim logo usaha Anda lewat WhatsApp",
+ "tag_inti": ["garmen indonesia", "konveksi custom", "seragam custom", "bordir logo", "konveksi seragam", "polo custom", "seragam kantor", "jasa konveksi"],
+ "hashtag": ["#garmenindonesia", "#konveksi", "#bordirkomputer", "#seragamcustom"],
+ "playlist": "Panduan Konveksi"
+}

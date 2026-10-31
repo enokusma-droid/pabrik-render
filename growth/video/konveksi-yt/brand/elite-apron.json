@@ -1,0 +1,31 @@
+{
+ "_comment": "Konfigurasi channel YouTube Elite Apron untuk templat K1 (31 Okt 2026). Sumber: brands/konveksi/elite-apron/brand.json + KEPUTUSAN.md. Kode video EA<no keyword>.",
+ "kode": "EA",
+ "slug": "elite-apron",
+ "nama": "Elite Apron",
+ "channel": "@EliteApron",
+ "keyword_csv": "seo/keyword-60-elite-apron.csv",
+ "logo": "logo-ea.png",
+ "font_judul": "cormorant.woff2",
+ "font_isi": "montserrat.woff2",
+ "vo": { "voice": "Nika", "gaya": "Warm, friendly, professional commercial voiceover speaking natural Bahasa Indonesia, upbeat but elegant, like a hotel brand ad" },
+ "wa": "0851-1135-4012",
+ "wa_link": "https://wa.me/6285111354012?text=Halo%2C%20saya%20dari%20Elite%20Apron",
+ "web": "garmenindonesia.com",
+ "ig": "@elite.apron",
+ "latar": ["#FBF9F4", "#F4EFE4", "#EEE6D6"],
+ "blob": "rgba(201,162,90,",
+ "warna": {
+  "#E8590C": "#8C6A2F", "#D9480F": "#7A5A24", "#FF8040": "#C9A25A",
+  "#FFF1E8": "#F3EBDD", "#FFE1D1": "#EADBBE", "#FFD3BD": "#E3D0A8", "#FFC9AE": "#DCC79B",
+  "rgba(255,128,64,": "rgba(201,162,90,", "rgba(232,89,12,": "rgba(140,106,47,",
+  "#0F172A": "#111111", "rgba(15,23,42,": "rgba(17,17,17,"
+ },
+ "wm": { "warna": "0x111111@0.62", "tepi": "white@0.6" },
+ "deskripsi_brand": "Elite Apron, spesialis custom seragam HORECA untuk kafe, resto, hotel, dan villa: apron, baju chef, seragam waiter, barista, dan housekeeping. Bordir logo usaha sudah termasuk, melayani seluruh Indonesia.",
+ "deskripsi_kenapa": "Elite Apron membantu pemilik kafe, resto, dan hotel menyiapkan seragam tim yang rapi dan seragam: pilih model dan bahan sesuai pekerjaan staf, kirim logo lewat WhatsApp, setujui contoh desain bordir, lalu produksi berjalan. Pemesanan bisa mulai dari jumlah kecil dan dikirim ke seluruh Indonesia.",
+ "cta_wa": "Konsultasi desain gratis dan kirim logo usaha Anda lewat WhatsApp",
+ "tag_inti": ["elite apron", "seragam horeca", "apron custom", "seragam kafe", "seragam resto", "seragam hotel", "baju chef", "bordir logo", "seragam custom"],
+ "hashtag": ["#eliteapron", "#seragamhoreca", "#apron", "#seragamkafe"],
+ "playlist": "Panduan Seragam HORECA"
+}

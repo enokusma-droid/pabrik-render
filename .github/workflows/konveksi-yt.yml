@@ -1,0 +1,96 @@
+# VIDEO YOUTUBE KONVEKSI (Elite Apron / Garmen Indonesia, templat K1), repo publik pabrik-render (31 Okt 2026).
+# Spec masuk ke growth/video/konveksi-yt/antrean/<KODE>.json (dikirim dari PC: growth/video/konveksi-yt/ci/kirim.py: naskah + waktu kata;
+# vo.wav + foto asli ada di G3 konten/konveksi-yt/<KODE>/). Workflow merender spec yang belum punya growth/video/konveksi-yt/hasil/<KODE>/meta.json:
+# render HyperFrames -> watermark -> frame QC -> unggah G3 konten/konveksi-yt/hasil/<KODE>.mp4, lalu commit balik meta.json + qc.jpg.
+# Secret: S3_ENDPOINT, S3_ACCESS_KEY, S3_SECRET, S3_REGION. Log repo ini PUBLIK: jangan echo secret/URL presigned.
+# Tidak ada pemicu pull_request: kode dari fork tidak pernah dijalankan dan tidak pernah melihat secret.
+name: konveksi-yt
+on:
+  push:
+    branches: [main]
+    paths: ["growth/video/konveksi-yt/antrean/*.json"]
+  workflow_dispatch:
+    inputs:
+      kode: { description: "KODE dipisah koma (kosong = semua spec antrean yang belum punya hasil)", required: false, default: "" }
+permissions:
+  contents: write
+concurrency:
+  group: konveksi-yt-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  siapkan:
+    runs-on: ubuntu-latest
+    outputs: { matrix: "${{ steps.m.outputs.matrix }}", daftar: "${{ steps.m.outputs.daftar }}" }
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: "${{ github.ref_name }}" }
+      - id: m
+        env: { MINTA: "${{ inputs.kode }}" }
+        run: |
+          python3 - <<'PY'
+          import glob, json, os
+          minta = [k.strip().upper() for k in os.environ.get("MINTA", "").split(",") if k.strip()]
+          ada = lambda k: os.path.exists(f"growth/video/konveksi-yt/hasil/{k}/meta.json")
+          semua = sorted(os.path.basename(f)[:-5] for f in glob.glob("growth/video/konveksi-yt/antrean/*.json"))
+          kode = ([k for k in semua if k in minta] if minta else [k for k in semua if not ada(k)])[:20]
+          print("diproses:", kode)
+          with open(os.environ["GITHUB_OUTPUT"], "a") as o:
+              o.write(f"matrix={json.dumps(kode)}\n"); o.write(f"daftar={','.join(kode)}\n")
+          PY
+  video:
+    needs: siapkan
+    if: needs.siapkan.outputs.daftar != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix: { kode: "${{ fromJson(needs.siapkan.outputs.matrix) }}" }
+    env:
+      S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+      S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
+      S3_SECRET: ${{ secrets.S3_SECRET }}
+      S3_REGION: ${{ secrets.S3_REGION }}
+      PY: python3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Pasang alat
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-core > /dev/null
+          npm i -g hyperframes@0.8.20 > /dev/null
+          hyperframes browser ensure
+          pip install -q boto3
+      - name: Produksi ${{ matrix.kode }}
+        run: bash growth/video/konveksi-yt/ci/proses.sh "${{ matrix.kode }}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hasil-${{ matrix.kode }}
+          path: |
+            growth/video/konveksi-yt/hasil/${{ matrix.kode }}/
+            growth/video/konveksi-yt/produksi/${{ matrix.kode }}/hasil.mp4
+            growth/video/konveksi-yt/produksi/${{ matrix.kode }}/check.log
+          retention-days: 7
+          if-no-files-found: warn
+  balik:
+    needs: [siapkan, video]
+    if: always() && needs.video.result != 'skipped'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: "${{ github.ref_name }}" }
+      - uses: actions/download-artifact@v4
+        with: { pattern: "hasil-*", path: /tmp/hasil }
+      - name: Commit hasil
+        run: |
+          for d in /tmp/hasil/hasil-*/; do k=$(basename "$d"); k=${k#hasil-}; m=$(find "$d" -path "*hasil/$k/meta.json" | head -1); [ -n "$m" ] || continue
+            mkdir -p "growth/video/konveksi-yt/hasil/$k"; cp "$m" "$(dirname "$m")/qc.jpg" "growth/video/konveksi-yt/hasil/$k/" 2>/dev/null || true; done
+          git add growth/video/konveksi-yt/hasil || true
+          git diff --cached --quiet && { echo "tidak ada hasil baru"; exit 0; }
+          git -c user.name=pabrik-render -c user.email=pabrik-render@users.noreply.github.com commit -qm "konveksi-yt: hasil ${{ needs.siapkan.outputs.daftar }}"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin "${{ github.ref_name }}" && git push -q origin HEAD:"${{ github.ref_name }}" && exit 0; sleep $((i*5)); done
+          exit 1
