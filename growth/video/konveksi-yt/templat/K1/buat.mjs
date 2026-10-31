@@ -91,7 +91,7 @@ for (const id of fotoId) {
   fotoInfo.push({ id, directus_id: a.directus_id, logo_terlihat: a.logo_terlihat || "", deskripsi: a.deskripsi });
 }
 if (salah.length) { console.error("GERBANG NASKAH GAGAL:\n- " + salah.join("\n- ")); process.exit(1); }
-if (nk < 300 || nk > 580) console.warn(`PERINGATAN: ${nk} kata (target 320-560 = ±2-4 menit)`);
+if (nk < 260 || nk > 420) console.warn(`PERINGATAN: ${nk} kata (target 280-400 = ±2-3 menit, owner 31 Okt)`);
 const berlogo = fotoInfo.filter((x) => x.logo_terlihat && !/^(tidak ada|tidak terbaca|-)?$/i.test(x.logo_terlihat.trim()));
 if (berlogo.length) console.warn("CATATAN foto dengan logo klien terlihat (pastikan kecil/tidak terbaca):\n  " + berlogo.map((x) => `${x.id}: ${x.logo_terlihat}`).join("\n  "));
 
@@ -162,10 +162,26 @@ fs.rmSync(A, { recursive: true, force: true });
 fs.mkdirSync(A, { recursive: true });
 for (const f of [B.font_judul, B.font_isi, B.logo]) fs.copyFileSync(path.join(T, "assets", f), path.join(A, f));
 fs.copyFileSync(wav, path.join(A, "vo.wav"));
-function foto(spec) {
-  const [id, crop] = String(spec).split(":"); const ID = id.toUpperCase();
+// owner 31 Okt: logo klien yang terbaca DISAMARKAN di video & thumbnail -> naskah meta.samar = { "GA1428": [[x0,y0,x1,y1], ...] } (pecahan foto asli)
+const SAMAR = N.meta?.samar || {};
+function dasar(ID) {
   const src = path.join(FD, ID + ".jpg");
   if (!fs.existsSync(src)) throw new Error(`foto ${ID} tidak ada (${src})`);
+  const kotak = SAMAR[ID];
+  if (!kotak || !kotak.length) return src;
+  const o = path.join(A, `_samar-${ID}.jpg`);
+  if (!fs.existsSync(o)) {
+    let fc = "[0]split=" + (kotak.length + 1) + "[v0]" + kotak.map((_, i) => `[c${i}]`).join("") + ";";
+    kotak.forEach(([x0, y0, x1, y1], i) => { fc += `[c${i}]crop=iw*${x1 - x0}:ih*${y1 - y0}:iw*${x0}:ih*${y0},boxblur=28:6[b${i}];`; });
+    let cur = "v0";
+    kotak.forEach(([x0, y0], i) => { fc += `[${cur}][b${i}]overlay=W*${x0}:H*${y0}${i === kotak.length - 1 ? "" : `[o${i}]`};`; cur = `o${i}`; });
+    execFileSync("ffmpeg", ["-v", "error", "-y", "-i", src, "-filter_complex", fc.replace(/;$/, ""), "-q:v", "3", o]);
+  }
+  return o;
+}
+function foto(spec) {
+  const [id, crop] = String(spec).split(":"); const ID = id.toUpperCase();
+  const src = dasar(ID);
   if (!crop) { const o = `foto-${ID}.jpg`; if (!fs.existsSync(path.join(A, o))) fs.copyFileSync(src, path.join(A, o)); return "assets/" + o; }
   const [x0, y0, x1, y1] = crop.split(",").map(Number);
   const o = `foto-${ID}-${crypto.createHash("md5").update(crop).digest("hex").slice(0, 6)}.jpg`;
