@@ -1,0 +1,183 @@
+{
+ "kode": "nw-k8-064",
+ "brand": "nusawebsite",
+ "konsep": "K8",
+ "judul": "Bunyi kresek tengah malam di papan pesanan kedai",
+ "pembuka": "k8-ketukan",
+ "pemeran": {
+  "utama": "nw-laras",
+  "pendukung": []
+ },
+ "caption": "Tengah malam, CCTV kedai merekam bunyi kresek di papan pesanan. Pelakunya ternyata kucing kedai, dan dua puluh pesanan ambil pagi di sticky jadi robek. Sejak itu Mbak Laras mencatat pesanan di aplikasi, lengkap dengan nama, menu, dan jam ambil. Mau aplikasi pesanan untuk usahamu? Tanya lewat WhatsApp di profil. #umkm #kedaikopi #aplikasibisnis",
+ "musik": "horor",
+ "adegan": [
+  {
+   "teks": "Tengah malam, CCTV kedai Mbak Laras merekam bunyi kresek.",
+   "primitif": "tokoh",
+   "opsi": {
+    "pose": "cemas-hp",
+    "wajah": [
+     "kaget"
+    ],
+    "judul": "Mbak Laras",
+    "sub": "pemilik kedai kopi",
+    "bubble": "KRESEK...",
+    "suasana": "malam"
+   }
+  },
+  {
+   "teks": "Di papan, pemilik kedai kopi ini menempel dua puluh pesanan.",
+   "primitif": "daftar",
+   "opsi": {
+    "pose": "catat",
+    "judul": "PESANAN PAGI",
+    "item": [
+     "20 sticky",
+     "ambil 07.00"
+    ]
+   }
+  },
+  {
+   "teks": "Di sudut gelap, ada yang bergerak di balik kardus.",
+   "primitif": "horor",
+   "opsi": {
+    "pose": "cemas-hp",
+    "teks": [
+     "SUDUT GELAP",
+     "ada yang gerak"
+    ],
+    "gambar": "nw-kardus-tumpuk",
+    "suasana": "malam"
+   }
+  },
+  {
+   "teks": "Sepasang mata menyala!",
+   "primitif": "kejut",
+   "opsi": {
+    "subjek": "um-kucing-hitam",
+    "teks": "...ternyata",
+    "stempel": "AAAA",
+    "suasana": "gelap"
+   }
+  },
+  {
+   "teks": "Ternyata Si Hitam, kucing kedai, sedang main sticky.",
+   "primitif": "horor",
+   "opsi": {
+    "pose": "cemas-hp",
+    "teks": [
+     "cuma Si Hitam",
+     "main sticky"
+    ],
+    "gambar": "nw-sticky-tumpuk",
+    "suasana": "malam"
+   }
+  },
+  {
+   "teks": "Paginya, Mbak Laras mendapati semua sticky robek, tak terbaca.",
+   "primitif": "horor",
+   "opsi": {
+    "pose": "cemas-hp",
+    "wajah": [
+     "kesal"
+    ],
+    "teks": [
+     "PAGI"
+    ],
+    "gambar": "nw-sticky-tumpuk",
+    "latar": "um-latar-kertas-surat",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Pemesan berdatangan, semua kopi dibuat dari nol.",
+   "primitif": "horor",
+   "opsi": {
+    "pose": "cemas-hp",
+    "wajah": [
+     "panik"
+    ],
+    "teks": [
+     "DARI NOL",
+     "antre panjang"
+    ],
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Lima orang pergi, takut telat masuk kantor.",
+   "primitif": "hitung",
+   "opsi": {
+    "pose": "cemas-hp",
+    "wajah": [
+     "lelah"
+    ],
+    "judul": "PEMESAN",
+    "dari": 20,
+    "ke": 15,
+    "format": "angka",
+    "suasana": "masalah"
+   }
+  },
+  {
+   "teks": "Laras memutuskan pakai aplikasi pesanan buatan Nusawebsite, karena kertas kalah sama kucing.",
+   "primitif": "layar",
+   "opsi": {
+    "pose": "catat",
+    "wajah": [
+     "yakin"
+    ],
+    "stempel": "TERSIMPAN",
+    "app": {
+     "judul": "Pesanan Pagi",
+     "baris": [
+      [
+       "Rina",
+       "aren",
+       "07.00"
+      ]
+     ]
+    },
+    "latar": "nw-latar-lembur-malam"
+   }
+  },
+  {
+   "teks": "Si Hitam masih ronda, tapi pesanan tak bisa digigit.",
+   "primitif": "haru",
+   "opsi": {
+    "pose": "lega",
+    "wajah": [
+     "lega"
+    ],
+    "kartu": "ronda malam",
+    "tag": "AMAN",
+    "suasana": "solusi"
+   }
+  },
+  {
+   "teks": "Mau juga? Tanya lewat WhatsApp di profil.",
+   "primitif": "cta",
+   "opsi": {
+    "pose": "baki",
+    "wajah": [
+     "senang"
+    ]
+   }
+  }
+ ],
+ "juri": {
+  "skor": {
+   "logika": 8,
+   "pembuka": 8,
+   "tokoh": 9,
+   "relevansi": 8,
+   "humor": 8
+  },
+  "rata": 8.2,
+  "catatan": "Catatan putaran 1 sudah diperbaiki. Celah kecil tidak wajib: adegan 7 kenapa kopi dibuat dari nol.",
+  "naskah_hash": "3e374b2af105",
+  "waktu": "2026-10-31T08:05",
+  "model": "juri-naskah-sonnet-kalibrasi",
+  "mode": "borongan-1"
+ }
+}
