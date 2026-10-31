@@ -1,0 +1,26 @@
+{
+ "kode": "nw-k8-064",
+ "brand": "nusawebsite",
+ "konsep": "K8",
+ "judul": "Bunyi kresek tengah malam di papan pesanan kedai",
+ "durasi": 39.87,
+ "LUFS": -14.1,
+ "TP": -1.3,
+ "cocok_vo_%": 88,
+ "cocok_ketat_%": 69,
+ "transkrip_15dtk": "Tengah malam, sisi TV kedaimba laras merekam bunyi kresek. Dipapan, pemilih kedaikopi ini menempel 20 pesanan. Di sudut gelap, ada yang bergerak di balik kardus. Semua pasang mata menyalah. Ternyata sih hitam.",
+ "lulus_qc": true,
+ "musik": "horor",
+ "g3": "konten/pabrik/hasil/nw-k8-064.mp4",
+ "md_video": "/media/g3/konten/pabrik/hasil/nw-k8-064.mp4",
+ "galeri": "https://md.nusawebsite.com/d/pabrik-reels",
+ "run": "https://github.com/enokusma-droid/pabrik-render/actions/runs/41183165031",
+ "waktu": "2026-10-31T15:13+07:00",
+ "catatan_bangun": [],
+ "phash_awal": [
+  "8000c8606060389a",
+  "8000c06060403c9a",
+  "800040606060389a"
+ ],
+ "mirip_awal": []
+}
