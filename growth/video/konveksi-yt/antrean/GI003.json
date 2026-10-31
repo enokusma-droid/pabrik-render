@@ -1,0 +1,2747 @@
+{
+ "kode": "GI003",
+ "naskah": {
+  "meta": {
+   "keyword": "bordir komputer",
+   "judul": "Bordir Komputer: Cara Kerja dan Persiapan Logo untuk Seragam Usaha",
+   "hook_pola": "9 rahasia di balik",
+   "sumber": "E:/WP-Project/garmenindonesia.com/konten/rds/bordir-komputer-adalah/article.md (QA PASS 90, fakta.json) + DNA-BISNIS.md",
+   "tag": [
+    "bordir logo",
+    "jasa bordir",
+    "bordir komputer adalah",
+    "cara kerja bordir komputer",
+    "bordir seragam",
+    "file dst"
+   ],
+   "thumb": {
+    "l1": "Sebelum pesan",
+    "sorot": "BORDIR KOMPUTER",
+    "l2": "wajib tahu ini",
+    "stiker": "4 HAL|PENTING",
+    "foto": "GA2057",
+    "posisi": "50% 22%",
+    "inset": "GA1632:0.3,0.42,0.8,0.82",
+    "uk_sorot": 96,
+    "lebar": 760,
+    "ix": 700,
+    "iy": 470,
+    "label_inset": "Bordir logo",
+    "samar": [
+     [
+      0.42,
+      0.47,
+      0.61,
+      0.53
+     ]
+    ]
+   }
+  },
+  "blok": [
+   {
+    "teks": "Ini yang jarang dijelaskan sebelum memesan bordir komputer untuk logo usaha. Persiapan yang tepat membuat logo Anda rapi, awet, dan sama di setiap seragam.",
+    "anim": "hook",
+    "param": {
+     "pill": "bordir komputer",
+     "judul": "Yang *jarang dijelaskan* sebelum memesan bordir komputer",
+     "sub": "Logo rapi, awet, dan *sama* di setiap seragam.",
+     "foto": "GA2057",
+     "foto2": "GA1409",
+     "posisi": "50% 30%",
+     "ukuran": 84
+    }
+   },
+   {
+    "teks": "Bordir komputer adalah teknik menyulam logo atau tulisan pada kain, memakai mesin yang dikendalikan komputer berdasarkan file desain digital.",
+    "anim": "foto",
+    "param": {
+     "kicker": "Pengertian",
+     "judul": "Bordir komputer, singkatnya",
+     "poin": [
+      "Menyulam *logo* dan tulisan",
+      "*Mesin* dikendalikan komputer",
+      "Mengikuti *file* desain"
+     ],
+     "foto": "FC0104:0,0,1,0.62",
+     "posisi": "50% 50%"
+    }
+   },
+   {
+    "teks": "Bedanya dengan bordir manual ada pada konsistensi. Mesin mengulang desain yang sama persis, jadi seratus seragam tampak identik.",
+    "anim": "perbandingan",
+    "param": {
+     "kiri": {
+      "judul": "Bordir manual",
+      "item": [
+       "Digerakkan tangan",
+       "Cocok untuk karya satuan"
+      ]
+     },
+     "kanan": {
+      "judul": "Bordir komputer",
+      "item": [
+       "Diulang oleh mesin",
+       "Seratus seragam identik"
+      ]
+     },
+     "pemicu": "mesin"
+    }
+   },
+   {
+    "teks": "Menurut Wikipedia, sebagian besar mesin bordir modern memang dikendalikan komputer, dan banyak dipakai untuk branding serta seragam.",
+    "anim": "kutipan-sorot",
+    "param": {
+     "teks": "Sebagian besar mesin bordir modern *dikendalikan komputer*.",
+     "atribusi": "Wikipedia, Machine embroidery"
+    }
+   },
+   {
+    "teks": "Satu hal yang jarang diketahui, mesin bordir tidak membaca gambar biasa seperti JPG.",
+    "anim": "kartu-coret",
+    "param": {
+     "kicker": "Jarang diketahui",
+     "judul": "Mesin tidak membaca *gambar biasa*",
+     "kartu": [
+      {
+       "ikon": "kertas",
+       "judul": "Gambar JPG",
+       "ket": "Tidak bisa langsung dibordir"
+      },
+      {
+       "ikon": "layar",
+       "judul": "Foto logo",
+       "ket": "Tidak bisa langsung dibordir"
+      }
+     ],
+     "coret": "tidak"
+    }
+   },
+   {
+    "teks": "Logo Anda diubah dulu oleh operator menjadi file jahitan, yaitu perintah ke mana jarum bergerak dan kapan benang berganti.",
+    "anim": "diagram-alur",
+    "param": {
+     "kicker": "Di balik layar",
+     "judul": "Dari logo menjadi file jahitan",
+     "langkah": [
+      {
+       "ikon": "pena",
+       "teks": "Logo Anda"
+      },
+      {
+       "ikon": "user",
+       "teks": "Operator"
+      },
+      {
+       "ikon": "kode",
+       "teks": "File jahitan"
+      }
+     ]
+    }
+   },
+   {
+    "teks": "Salah satu format yang paling umum adalah DST dari Tajima. Menariknya, file DST tidak berisi warna.",
+    "anim": "fitur-grid",
+    "param": {
+     "kicker": "Format file",
+     "judul": "Mengenal format *DST*",
+     "fitur": [
+      {
+       "ikon": "kertas",
+       "teks": "Format paling umum",
+       "ket": "Berasal dari Tajima"
+      },
+      {
+       "ikon": "x",
+       "teks": "Tidak berisi warna",
+       "ket": "Warna disampaikan terpisah"
+      }
+     ]
+    }
+   },
+   {
+    "teks": "Jadi, warna benang harus Anda sampaikan terpisah. Kirim kode warna logo, atau contoh warnanya.",
+    "anim": "foto",
+    "param": {
+     "sisi": "kiri",
+     "kicker": "Penting",
+     "judul": "Sampaikan *warna benang*",
+     "poin": [
+      "*Kode* warna logo",
+      "Atau *contoh* warnanya"
+     ],
+     "foto": "FC0104:0,0,0.62,0.42",
+     "posisi": "50% 50%"
+    }
+   },
+   {
+    "teks": "Jahitan pada bordir komputer umumnya ada tiga. Jahitan lurus untuk garis tipis, satin untuk huruf, dan isian untuk area yang lebih luas.",
+    "anim": "tabel",
+    "param": {
+     "kicker": "Jenis jahitan",
+     "judul": "Tiga jahitan yang paling umum",
+     "kolom": [
+      "Jahitan",
+      "Dipakai untuk",
+      "Kesan"
+     ],
+     "baris": [
+      [
+       "Lurus",
+       "Garis tipis, kontur",
+       "Ringan"
+      ],
+      [
+       "Satin",
+       "Huruf, bentuk sempit",
+       "Mengilap, halus"
+      ],
+      [
+       "Isian",
+       "Area luas",
+       "Padat, timbul"
+      ]
+     ],
+     "kata": [
+      "lurus",
+      "satin",
+      "isian"
+     ]
+    }
+   },
+   {
+    "teks": "Kelebihan utamanya dibanding sablon, bordir tahan dicuci, tidak retak atau mengelupas, dan logonya timbul sehingga terlihat resmi.",
+    "anim": "perbandingan",
+    "param": {
+     "judul": "Bordir dibanding sablon",
+     "kiri": {
+      "judul": "Sablon",
+      "item": [
+       "Bisa retak",
+       "Bisa mengelupas"
+      ]
+     },
+     "kanan": {
+      "judul": "Bordir",
+      "item": [
+       "Tahan dicuci",
+       "Logo timbul, resmi"
+      ]
+     },
+     "pemicu": "tahan"
+    }
+   },
+   {
+    "teks": "Sablon tetap unggul untuk gambar penuh warna. Tapi garis yang sangat tipis dan gradasi halus memang sulit dibordir.",
+    "anim": "ikon-masalah",
+    "param": {
+     "kicker": "Keterbatasan",
+     "judul": "Yang sulit dibordir",
+     "sub": "Desain sering perlu *disederhanakan*.",
+     "ikon": "alert",
+     "masalah": [
+      {
+       "ikon": "pena",
+       "teks": "Garis sangat tipis"
+      },
+      {
+       "ikon": "layer",
+       "teks": "Gradasi halus"
+      }
+     ]
+    }
+   },
+   {
+    "teks": "Misalnya, logo kafe dengan tulisan tipis di dalam lingkaran biasanya perlu diperbesar sedikit, supaya tulisannya tidak tenggelam di benang.",
+    "anim": "foto",
+    "param": {
+     "kicker": "Contoh",
+     "judul": "Tulisan tipis perlu *diperbesar*",
+     "ket": "Supaya tidak tenggelam di benang.",
+     "foto": "GA1428",
+     "posisi": "50% 40%",
+     "fokus": [
+      45,
+      35
+     ],
+     "zoom": 1.16
+    }
+   },
+   {
+    "teks": "Sebelum memesan, siapkan empat hal berikut.",
+    "anim": "angka-besar",
+    "param": {
+     "angka": 4,
+     "kicker": "Sebelum memesan",
+     "label": "hal yang perlu disiapkan"
+    }
+   },
+   {
+    "teks": "Pertama, file logo asli, misalnya vektor atau gambar beresolusi tinggi, bukan tangkapan layar.",
+    "anim": "foto",
+    "param": {
+     "nomor": "1",
+     "judul": "File logo asli",
+     "poin": [
+      "*Vektor* atau resolusi tinggi",
+      "Bukan *tangkapan layar*"
+     ],
+     "foto": "GA1632",
+     "posisi": "50% 45%"
+    }
+   },
+   {
+    "teks": "Kedua, posisi logo, misalnya dada kiri, lengan, punggung, atau topi.",
+    "anim": "foto-grid",
+    "param": {
+     "kicker": "Kedua",
+     "judul": "Tentukan posisi logo",
+     "foto": [
+      {
+       "id": "GA2057",
+       "label": "Dada kiri",
+       "posisi": "50% 35%"
+      },
+      {
+       "id": "SD0024",
+       "label": "Lengan",
+       "posisi": "50% 45%"
+      },
+      {
+       "id": "PK0031",
+       "label": "Punggung",
+       "posisi": "50% 40%"
+      }
+     ]
+    }
+   },
+   {
+    "teks": "Ketiga, ukuran dalam sentimeter, misalnya sembilan sentimeter untuk dada kiri. Keempat, warna benang yang diinginkan.",
+    "anim": "angka-besar",
+    "param": {
+     "angka": 9,
+     "kicker": "Ketiga dan keempat",
+     "label": "cm untuk dada kiri",
+     "ket": "Lalu sebutkan *warna benang*.",
+     "item": [
+      "Ukuran dalam cm",
+      "Warna benang"
+     ]
+    }
+   },
+   {
+    "teks": "Lalu, minta dan periksa contoh desain sebelum produksi dimulai.",
+    "anim": "daftar-centang",
+    "param": {
+     "kicker": "Checklist",
+     "judul": "Siap memesan bordir",
+     "item": [
+      "File logo asli",
+      "Posisi logo",
+      "Ukuran dalam cm",
+      "Warna benang",
+      "Cek *contoh desain*"
+     ]
+    }
+   },
+   {
+    "teks": "Bordir komputer biasa dipakai pada polo, kemeja kerja, jaket, apron, topi, sampai seragam medis.",
+    "anim": "chip-niche",
+    "param": {
+     "kicker": "Pemakaian",
+     "judul": "Bisa di banyak jenis pakaian",
+     "pusat": "Bordir",
+     "ikonPusat": "pena",
+     "chip": [
+      {
+       "ikon": "user",
+       "teks": "Polo"
+      },
+      {
+       "ikon": "kertas",
+       "teks": "Kemeja kerja"
+      },
+      {
+       "ikon": "layer",
+       "teks": "Jaket"
+      },
+      {
+       "ikon": "resto",
+       "teks": "Apron"
+      },
+      {
+       "ikon": "bintang",
+       "teks": "Topi"
+      },
+      {
+       "ikon": "klinik",
+       "teks": "Seragam medis"
+      }
+     ]
+    }
+   },
+   {
+    "teks": "Kafe dan restoran memakainya di apron dan seragam pramusaji. Kantor dan toko di dada kiri polo, sedangkan komunitas di jaket.",
+    "anim": "foto-grid",
+    "param": {
+     "kicker": "Contoh pemakaian",
+     "judul": "Siapa yang memakai bordir logo",
+     "foto": [
+      {
+       "id": "GA1420",
+       "label": "Kafe dan restoran",
+       "posisi": "50% 60%"
+      },
+      {
+       "id": "GA2055",
+       "label": "Kantor dan toko",
+       "posisi": "50% 35%"
+      },
+      {
+       "id": "FC0048",
+       "label": "Komunitas",
+       "posisi": "50% 40%"
+      }
+     ]
+    }
+   },
+   {
+    "teks": "Kesalahan yang paling sering adalah logo buram, tulisan terlalu kecil, dan lupa menyebut warna benang.",
+    "anim": "ikon-masalah",
+    "param": {
+     "kicker": "Hindari",
+     "judul": "Kesalahan yang paling sering",
+     "ikon": "alert",
+     "masalah": [
+      {
+       "ikon": "cari",
+       "teks": "Logo buram"
+      },
+      {
+       "ikon": "pena",
+       "teks": "Tulisan terlalu kecil"
+      },
+      {
+       "ikon": "x",
+       "teks": "Lupa warna benang"
+      }
+     ]
+    }
+   },
+   {
+    "teks": "Tulisan setinggi satu sentimeter, misalnya, sulit terbaca setelah dibordir.",
+    "anim": "angka-besar",
+    "param": {
+     "angka": 1,
+     "kicker": "Terlalu kecil",
+     "label": "cm tinggi tulisan",
+     "ket": "Sulit *terbaca* setelah dibordir."
+    }
+   },
+   {
+    "teks": "Kabar baiknya, file jahitan disimpan. Saat staf bertambah, pesanan berikutnya sama persis dengan pesanan pertama.",
+    "anim": "foto",
+    "param": {
+     "sisi": "kiri",
+     "kicker": "Kabar baik",
+     "judul": "File jahitan *disimpan*",
+     "poin": [
+      "*Staf* bertambah",
+      "Pesanan ulang *sama persis*"
+     ],
+     "foto": "GA1977",
+     "posisi": "50% 40%"
+    }
+   },
+   {
+    "teks": "Di Garmen Indonesia, prosesnya dimulai dari persiapan logo, pembuatan file jahitan, uji pada kain contoh, persetujuan Anda, lalu produksi.",
+    "anim": "diagram-alur",
+    "param": {
+     "kicker": "Proses kami",
+     "judul": "Alur bordir di Garmen Indonesia",
+     "langkah": [
+      {
+       "ikon": "pena",
+       "teks": "Persiapan logo"
+      },
+      {
+       "ikon": "kode",
+       "teks": "File jahitan"
+      },
+      {
+       "ikon": "cari",
+       "teks": "Uji kain contoh"
+      },
+      {
+       "ikon": "cek",
+       "teks": "Persetujuan Anda"
+      },
+      {
+       "ikon": "gear",
+       "teks": "Produksi"
+      }
+     ]
+    }
+   },
+   {
+    "teks": "Untuk polo dan seragam HORECA, bordir logo sudah termasuk. Waktu produksi disampaikan sejak awal, dan pesanan dikirim ke seluruh Indonesia.",
+    "anim": "foto",
+    "param": {
+     "kicker": "Garmen Indonesia",
+     "judul": "Bordir logo *sudah termasuk*",
+     "poin": [
+      "Polo dan seragam HORECA",
+      "Waktu produksi jelas di awal",
+      "Kirim ke *seluruh Indonesia*"
+     ],
+     "foto": "GA2055",
+     "posisi": "50% 35%"
+    }
+   },
+   {
+    "teks": "Bordir komputer membuat logo usaha tampil sama di setiap potong, tahan dicuci, dan terlihat profesional di depan pelanggan.",
+    "anim": "foto",
+    "param": {
+     "foto": "GA1981",
+     "kicker": "Hasilnya",
+     "judul": "Logo sama, terlihat *profesional*",
+     "posisi": "50% 40%",
+     "sisi": "kanan",
+     "poin": [
+      "*Sama* di setiap potong",
+      "*Tahan* dicuci",
+      "Di depan *pelanggan*"
+     ]
+    }
+   },
+   {
+    "teks": "Kirim logo usaha Anda lewat WhatsApp, tim Garmen Indonesia bantu siapkan contoh desainnya. Konsultasi gratis, link ada di deskripsi.",
+    "anim": "cta",
+    "param": {
+     "kicker": "Garmen Indonesia",
+     "judul": "Kirim logo, kami siapkan *contoh desain*",
+     "sub": "Konsultasi gratis lewat WhatsApp.",
+     "tombol": "Chat WhatsApp",
+     "catatan": "Link ada di deskripsi",
+     "ukuran": 96
+    }
+   }
+  ]
+ },
+ "waktu": {
+  "durasi": 186.44,
+  "blok": [
+   {
+    "mulai": 0.0,
+    "selesai": 9.56
+   },
+   {
+    "mulai": 9.56,
+    "selesai": 18.1
+   },
+   {
+    "mulai": 18.1,
+    "selesai": 26.32
+   },
+   {
+    "mulai": 26.32,
+    "selesai": 34.32
+   },
+   {
+    "mulai": 34.32,
+    "selesai": 40.08
+   },
+   {
+    "mulai": 40.08,
+    "selesai": 47.82
+   },
+   {
+    "mulai": 47.82,
+    "selesai": 54.1
+   },
+   {
+    "mulai": 54.1,
+    "selesai": 60.52
+   },
+   {
+    "mulai": 60.52,
+    "selesai": 69.48
+   },
+   {
+    "mulai": 69.48,
+    "selesai": 77.6
+   },
+   {
+    "mulai": 77.6,
+    "selesai": 84.08
+   },
+   {
+    "mulai": 84.08,
+    "selesai": 92.14
+   },
+   {
+    "mulai": 92.14,
+    "selesai": 95.0
+   },
+   {
+    "mulai": 95.0,
+    "selesai": 101.38
+   },
+   {
+    "mulai": 101.38,
+    "selesai": 106.9
+   },
+   {
+    "mulai": 106.9,
+    "selesai": 115.14
+   },
+   {
+    "mulai": 115.14,
+    "selesai": 119.28
+   },
+   {
+    "mulai": 119.28,
+    "selesai": 126.0
+   },
+   {
+    "mulai": 126.0,
+    "selesai": 135.58
+   },
+   {
+    "mulai": 135.58,
+    "selesai": 141.66
+   },
+   {
+    "mulai": 141.66,
+    "selesai": 146.3
+   },
+   {
+    "mulai": 146.3,
+    "selesai": 153.74
+   },
+   {
+    "mulai": 153.74,
+    "selesai": 162.52
+   },
+   {
+    "mulai": 162.52,
+    "selesai": 171.06
+   },
+   {
+    "mulai": 171.06,
+    "selesai": 177.78
+   },
+   {
+    "mulai": 177.78,
+    "selesai": 186.44
+   }
+  ],
+  "kata": [
+   {
+    "w": "Ini",
+    "b": 0,
+    "t": 0.0
+   },
+   {
+    "w": "yang",
+    "b": 0,
+    "t": 0.38
+   },
+   {
+    "w": "jarang",
+    "b": 0,
+    "t": 0.62
+   },
+   {
+    "w": "dijelaskan",
+    "b": 0,
+    "t": 0.86
+   },
+   {
+    "w": "sebelum",
+    "b": 0,
+    "t": 1.5
+   },
+   {
+    "w": "memesan",
+    "b": 0,
+    "t": 1.86
+   },
+   {
+    "w": "bordir",
+    "b": 0,
+    "t": 2.26
+   },
+   {
+    "w": "komputer",
+    "b": 0,
+    "t": 2.56
+   },
+   {
+    "w": "untuk",
+    "b": 0,
+    "t": 2.98
+   },
+   {
+    "w": "logo",
+    "b": 0,
+    "t": 3.3
+   },
+   {
+    "w": "usaha.",
+    "b": 0,
+    "t": 3.52
+   },
+   {
+    "w": "Persiapan",
+    "b": 0,
+    "t": 4.62
+   },
+   {
+    "w": "yang",
+    "b": 0,
+    "t": 5.02
+   },
+   {
+    "w": "tepat",
+    "b": 0,
+    "t": 5.2
+   },
+   {
+    "w": "membuat",
+    "b": 0,
+    "t": 5.54
+   },
+   {
+    "w": "logo",
+    "b": 0,
+    "t": 5.96
+   },
+   {
+    "w": "Anda",
+    "b": 0,
+    "t": 6.2
+   },
+   {
+    "w": "rapi,",
+    "b": 0,
+    "t": 6.44
+   },
+   {
+    "w": "awet,",
+    "b": 0,
+    "t": 7.2
+   },
+   {
+    "w": "dan",
+    "b": 0,
+    "t": 7.52
+   },
+   {
+    "w": "sama",
+    "b": 0,
+    "t": 7.82
+   },
+   {
+    "w": "di",
+    "b": 0,
+    "t": 8.18
+   },
+   {
+    "w": "setiap",
+    "b": 0,
+    "t": 8.34
+   },
+   {
+    "w": "seragam.",
+    "b": 0,
+    "t": 8.54
+   },
+   {
+    "w": "Bordir",
+    "b": 1,
+    "t": 9.76
+   },
+   {
+    "w": "komputer",
+    "b": 1,
+    "t": 10.48
+   },
+   {
+    "w": "adalah",
+    "b": 1,
+    "t": 10.9
+   },
+   {
+    "w": "teknik",
+    "b": 1,
+    "t": 11.24
+   },
+   {
+    "w": "menyulam",
+    "b": 1,
+    "t": 11.7
+   },
+   {
+    "w": "logo",
+    "b": 1,
+    "t": 12.14
+   },
+   {
+    "w": "atau",
+    "b": 1,
+    "t": 12.44
+   },
+   {
+    "w": "tulisan",
+    "b": 1,
+    "t": 12.76
+   },
+   {
+    "w": "pada",
+    "b": 1,
+    "t": 13.16
+   },
+   {
+    "w": "kain,",
+    "b": 1,
+    "t": 13.38
+   },
+   {
+    "w": "memakai",
+    "b": 1,
+    "t": 13.74
+   },
+   {
+    "w": "mesin",
+    "b": 1,
+    "t": 14.36
+   },
+   {
+    "w": "yang",
+    "b": 1,
+    "t": 14.66
+   },
+   {
+    "w": "dikendalikan",
+    "b": 1,
+    "t": 14.8
+   },
+   {
+    "w": "komputer",
+    "b": 1,
+    "t": 15.22
+   },
+   {
+    "w": "berdasarkan",
+    "b": 1,
+    "t": 15.72
+   },
+   {
+    "w": "file",
+    "b": 1,
+    "t": 16.42
+   },
+   {
+    "w": "desain",
+    "b": 1,
+    "t": 16.72
+   },
+   {
+    "w": "digital.",
+    "b": 1,
+    "t": 16.96
+   },
+   {
+    "w": "Bedanya",
+    "b": 2,
+    "t": 18.3
+   },
+   {
+    "w": "dengan",
+    "b": 2,
+    "t": 18.74
+   },
+   {
+    "w": "bordir",
+    "b": 2,
+    "t": 18.96
+   },
+   {
+    "w": "manual",
+    "b": 2,
+    "t": 19.34
+   },
+   {
+    "w": "ada",
+    "b": 2,
+    "t": 19.7
+   },
+   {
+    "w": "pada",
+    "b": 2,
+    "t": 20.18
+   },
+   {
+    "w": "konsistensi.",
+    "b": 2,
+    "t": 20.38
+   },
+   {
+    "w": "Mesin",
+    "b": 2,
+    "t": 21.72
+   },
+   {
+    "w": "mengulang",
+    "b": 2,
+    "t": 22.12
+   },
+   {
+    "w": "desain",
+    "b": 2,
+    "t": 22.52
+   },
+   {
+    "w": "yang",
+    "b": 2,
+    "t": 22.86
+   },
+   {
+    "w": "sama",
+    "b": 2,
+    "t": 23.0
+   },
+   {
+    "w": "persis,",
+    "b": 2,
+    "t": 23.26
+   },
+   {
+    "w": "jadi",
+    "b": 2,
+    "t": 23.76
+   },
+   {
+    "w": "seratus",
+    "b": 2,
+    "t": 24.12
+   },
+   {
+    "w": "seragam",
+    "b": 2,
+    "t": 24.48
+   },
+   {
+    "w": "tampak",
+    "b": 2,
+    "t": 24.92
+   },
+   {
+    "w": "identik.",
+    "b": 2,
+    "t": 25.3
+   },
+   {
+    "w": "Menurut",
+    "b": 3,
+    "t": 26.52
+   },
+   {
+    "w": "Wikipedia,",
+    "b": 3,
+    "t": 27.24
+   },
+   {
+    "w": "sebagian",
+    "b": 3,
+    "t": 28.14
+   },
+   {
+    "w": "besar",
+    "b": 3,
+    "t": 28.48
+   },
+   {
+    "w": "mesin",
+    "b": 3,
+    "t": 28.72
+   },
+   {
+    "w": "bordir",
+    "b": 3,
+    "t": 29.04
+   },
+   {
+    "w": "modern",
+    "b": 3,
+    "t": 29.38
+   },
+   {
+    "w": "memang",
+    "b": 3,
+    "t": 29.76
+   },
+   {
+    "w": "dikendalikan",
+    "b": 3,
+    "t": 30.02
+   },
+   {
+    "w": "komputer,",
+    "b": 3,
+    "t": 30.48
+   },
+   {
+    "w": "dan",
+    "b": 3,
+    "t": 30.94
+   },
+   {
+    "w": "banyak",
+    "b": 3,
+    "t": 31.58
+   },
+   {
+    "w": "dipakai",
+    "b": 3,
+    "t": 31.84
+   },
+   {
+    "w": "untuk",
+    "b": 3,
+    "t": 32.22
+   },
+   {
+    "w": "branding",
+    "b": 3,
+    "t": 32.38
+   },
+   {
+    "w": "serta",
+    "b": 3,
+    "t": 32.8
+   },
+   {
+    "w": "seragam.",
+    "b": 3,
+    "t": 33.16
+   },
+   {
+    "w": "Satu",
+    "b": 4,
+    "t": 34.52
+   },
+   {
+    "w": "hal",
+    "b": 4,
+    "t": 35.18
+   },
+   {
+    "w": "yang",
+    "b": 4,
+    "t": 35.36
+   },
+   {
+    "w": "jarang",
+    "b": 4,
+    "t": 35.46
+   },
+   {
+    "w": "diketahui,",
+    "b": 4,
+    "t": 35.68
+   },
+   {
+    "w": "mesin",
+    "b": 4,
+    "t": 36.6
+   },
+   {
+    "w": "bordir",
+    "b": 4,
+    "t": 36.94
+   },
+   {
+    "w": "tidak",
+    "b": 4,
+    "t": 37.38
+   },
+   {
+    "w": "membaca",
+    "b": 4,
+    "t": 37.66
+   },
+   {
+    "w": "gambar",
+    "b": 4,
+    "t": 38.06
+   },
+   {
+    "w": "biasa",
+    "b": 4,
+    "t": 38.3
+   },
+   {
+    "w": "seperti",
+    "b": 4,
+    "t": 38.7
+   },
+   {
+    "w": "JPG.",
+    "b": 4,
+    "t": 39.12
+   },
+   {
+    "w": "Logo",
+    "b": 5,
+    "t": 40.28
+   },
+   {
+    "w": "Anda",
+    "b": 5,
+    "t": 40.76
+   },
+   {
+    "w": "diubah",
+    "b": 5,
+    "t": 40.96
+   },
+   {
+    "w": "dulu",
+    "b": 5,
+    "t": 41.38
+   },
+   {
+    "w": "oleh",
+    "b": 5,
+    "t": 41.62
+   },
+   {
+    "w": "operator",
+    "b": 5,
+    "t": 41.82
+   },
+   {
+    "w": "menjadi",
+    "b": 5,
+    "t": 42.26
+   },
+   {
+    "w": "file",
+    "b": 5,
+    "t": 42.58
+   },
+   {
+    "w": "jahitan,",
+    "b": 5,
+    "t": 42.86
+   },
+   {
+    "w": "yaitu",
+    "b": 5,
+    "t": 43.7
+   },
+   {
+    "w": "perintah",
+    "b": 5,
+    "t": 44.2
+   },
+   {
+    "w": "ke",
+    "b": 5,
+    "t": 44.44
+   },
+   {
+    "w": "mana",
+    "b": 5,
+    "t": 44.68
+   },
+   {
+    "w": "jarum",
+    "b": 5,
+    "t": 44.92
+   },
+   {
+    "w": "bergerak",
+    "b": 5,
+    "t": 45.22
+   },
+   {
+    "w": "dan",
+    "b": 5,
+    "t": 45.64
+   },
+   {
+    "w": "kapan",
+    "b": 5,
+    "t": 45.98
+   },
+   {
+    "w": "benang",
+    "b": 5,
+    "t": 46.28
+   },
+   {
+    "w": "berganti.",
+    "b": 5,
+    "t": 46.52
+   },
+   {
+    "w": "Salah",
+    "b": 6,
+    "t": 48.02
+   },
+   {
+    "w": "satu",
+    "b": 6,
+    "t": 48.4
+   },
+   {
+    "w": "format",
+    "b": 6,
+    "t": 48.58
+   },
+   {
+    "w": "yang",
+    "b": 6,
+    "t": 48.8
+   },
+   {
+    "w": "paling",
+    "b": 6,
+    "t": 48.98
+   },
+   {
+    "w": "umum",
+    "b": 6,
+    "t": 49.18
+   },
+   {
+    "w": "adalah",
+    "b": 6,
+    "t": 49.5
+   },
+   {
+    "w": "DST",
+    "b": 6,
+    "t": 49.8
+   },
+   {
+    "w": "dari",
+    "b": 6,
+    "t": 50.28
+   },
+   {
+    "w": "Tajima.",
+    "b": 6,
+    "t": 50.52
+   },
+   {
+    "w": "Menariknya,",
+    "b": 6,
+    "t": 51.58
+   },
+   {
+    "w": "file",
+    "b": 6,
+    "t": 52.44
+   },
+   {
+    "w": "DST",
+    "b": 6,
+    "t": 52.58
+   },
+   {
+    "w": "tidak",
+    "b": 6,
+    "t": 52.96
+   },
+   {
+    "w": "berisi",
+    "b": 6,
+    "t": 53.18
+   },
+   {
+    "w": "warna.",
+    "b": 6,
+    "t": 53.4
+   },
+   {
+    "w": "Jadi,",
+    "b": 7,
+    "t": 54.3
+   },
+   {
+    "w": "warna",
+    "b": 7,
+    "t": 54.92
+   },
+   {
+    "w": "benang",
+    "b": 7,
+    "t": 55.14
+   },
+   {
+    "w": "harus",
+    "b": 7,
+    "t": 55.42
+   },
+   {
+    "w": "Anda",
+    "b": 7,
+    "t": 55.62
+   },
+   {
+    "w": "sampaikan",
+    "b": 7,
+    "t": 55.84
+   },
+   {
+    "w": "terpisah.",
+    "b": 7,
+    "t": 56.16
+   },
+   {
+    "w": "Kirim",
+    "b": 7,
+    "t": 57.14
+   },
+   {
+    "w": "kode",
+    "b": 7,
+    "t": 57.66
+   },
+   {
+    "w": "warna",
+    "b": 7,
+    "t": 57.82
+   },
+   {
+    "w": "logo,",
+    "b": 7,
+    "t": 58.12
+   },
+   {
+    "w": "atau",
+    "b": 7,
+    "t": 58.4
+   },
+   {
+    "w": "contoh",
+    "b": 7,
+    "t": 58.8
+   },
+   {
+    "w": "warnanya.",
+    "b": 7,
+    "t": 59.18
+   },
+   {
+    "w": "Jahitan",
+    "b": 8,
+    "t": 60.72
+   },
+   {
+    "w": "pada",
+    "b": 8,
+    "t": 61.32
+   },
+   {
+    "w": "bordir",
+    "b": 8,
+    "t": 61.58
+   },
+   {
+    "w": "komputer",
+    "b": 8,
+    "t": 61.88
+   },
+   {
+    "w": "umumnya",
+    "b": 8,
+    "t": 62.24
+   },
+   {
+    "w": "ada",
+    "b": 8,
+    "t": 62.76
+   },
+   {
+    "w": "tiga.",
+    "b": 8,
+    "t": 62.88
+   },
+   {
+    "w": "Jahitan",
+    "b": 8,
+    "t": 63.58
+   },
+   {
+    "w": "lurus",
+    "b": 8,
+    "t": 63.92
+   },
+   {
+    "w": "untuk",
+    "b": 8,
+    "t": 64.36
+   },
+   {
+    "w": "garis",
+    "b": 8,
+    "t": 64.56
+   },
+   {
+    "w": "tipis,",
+    "b": 8,
+    "t": 64.84
+   },
+   {
+    "w": "satin",
+    "b": 8,
+    "t": 65.58
+   },
+   {
+    "w": "untuk",
+    "b": 8,
+    "t": 66.04
+   },
+   {
+    "w": "huruf,",
+    "b": 8,
+    "t": 66.24
+   },
+   {
+    "w": "dan",
+    "b": 8,
+    "t": 67.16
+   },
+   {
+    "w": "isian",
+    "b": 8,
+    "t": 67.2
+   },
+   {
+    "w": "untuk",
+    "b": 8,
+    "t": 67.56
+   },
+   {
+    "w": "area",
+    "b": 8,
+    "t": 67.86
+   },
+   {
+    "w": "yang",
+    "b": 8,
+    "t": 68.08
+   },
+   {
+    "w": "lebih",
+    "b": 8,
+    "t": 68.28
+   },
+   {
+    "w": "luas.",
+    "b": 8,
+    "t": 68.44
+   },
+   {
+    "w": "Kelebihan",
+    "b": 9,
+    "t": 69.68
+   },
+   {
+    "w": "utamanya",
+    "b": 9,
+    "t": 70.26
+   },
+   {
+    "w": "dibanding",
+    "b": 9,
+    "t": 70.7
+   },
+   {
+    "w": "sablon,",
+    "b": 9,
+    "t": 71.04
+   },
+   {
+    "w": "bordir",
+    "b": 9,
+    "t": 71.88
+   },
+   {
+    "w": "tahan",
+    "b": 9,
+    "t": 72.3
+   },
+   {
+    "w": "dicuci,",
+    "b": 9,
+    "t": 72.82
+   },
+   {
+    "w": "tidak",
+    "b": 9,
+    "t": 73.34
+   },
+   {
+    "w": "retak",
+    "b": 9,
+    "t": 73.48
+   },
+   {
+    "w": "atau",
+    "b": 9,
+    "t": 73.8
+   },
+   {
+    "w": "mengelupas,",
+    "b": 9,
+    "t": 73.98
+   },
+   {
+    "w": "dan",
+    "b": 9,
+    "t": 74.88
+   },
+   {
+    "w": "logonya",
+    "b": 9,
+    "t": 74.98
+   },
+   {
+    "w": "timbul",
+    "b": 9,
+    "t": 75.38
+   },
+   {
+    "w": "sehingga",
+    "b": 9,
+    "t": 75.78
+   },
+   {
+    "w": "terlihat",
+    "b": 9,
+    "t": 76.22
+   },
+   {
+    "w": "resmi.",
+    "b": 9,
+    "t": 76.52
+   },
+   {
+    "w": "Sablon",
+    "b": 10,
+    "t": 77.8
+   },
+   {
+    "w": "tetap",
+    "b": 10,
+    "t": 78.46
+   },
+   {
+    "w": "unggul",
+    "b": 10,
+    "t": 78.82
+   },
+   {
+    "w": "untuk",
+    "b": 10,
+    "t": 79.12
+   },
+   {
+    "w": "gambar",
+    "b": 10,
+    "t": 79.3
+   },
+   {
+    "w": "penuh",
+    "b": 10,
+    "t": 79.58
+   },
+   {
+    "w": "warna.",
+    "b": 10,
+    "t": 79.8
+   },
+   {
+    "w": "Tapi",
+    "b": 10,
+    "t": 80.38
+   },
+   {
+    "w": "garis",
+    "b": 10,
+    "t": 80.82
+   },
+   {
+    "w": "yang",
+    "b": 10,
+    "t": 81.1
+   },
+   {
+    "w": "sangat",
+    "b": 10,
+    "t": 81.22
+   },
+   {
+    "w": "tipis",
+    "b": 10,
+    "t": 81.42
+   },
+   {
+    "w": "dan",
+    "b": 10,
+    "t": 81.84
+   },
+   {
+    "w": "gradasi",
+    "b": 10,
+    "t": 82.02
+   },
+   {
+    "w": "halus",
+    "b": 10,
+    "t": 82.42
+   },
+   {
+    "w": "memang",
+    "b": 10,
+    "t": 82.76
+   },
+   {
+    "w": "sulit",
+    "b": 10,
+    "t": 83.267
+   },
+   {
+    "w": "dibordir.",
+    "b": 10,
+    "t": 83.773
+   },
+   {
+    "w": "Misalnya,",
+    "b": 11,
+    "t": 84.28
+   },
+   {
+    "w": "logo",
+    "b": 11,
+    "t": 85.04
+   },
+   {
+    "w": "kafe",
+    "b": 11,
+    "t": 85.14
+   },
+   {
+    "w": "dengan",
+    "b": 11,
+    "t": 85.56
+   },
+   {
+    "w": "tulisan",
+    "b": 11,
+    "t": 85.78
+   },
+   {
+    "w": "tipis",
+    "b": 11,
+    "t": 86.1
+   },
+   {
+    "w": "di",
+    "b": 11,
+    "t": 86.5
+   },
+   {
+    "w": "dalam",
+    "b": 11,
+    "t": 86.64
+   },
+   {
+    "w": "lingkaran",
+    "b": 11,
+    "t": 86.82
+   },
+   {
+    "w": "biasanya",
+    "b": 11,
+    "t": 87.3
+   },
+   {
+    "w": "perlu",
+    "b": 11,
+    "t": 88.1
+   },
+   {
+    "w": "diperbesar",
+    "b": 11,
+    "t": 88.38
+   },
+   {
+    "w": "sedikit,",
+    "b": 11,
+    "t": 88.84
+   },
+   {
+    "w": "supaya",
+    "b": 11,
+    "t": 89.18
+   },
+   {
+    "w": "tulisannya",
+    "b": 11,
+    "t": 89.86
+   },
+   {
+    "w": "tidak",
+    "b": 11,
+    "t": 90.28
+   },
+   {
+    "w": "tenggelam",
+    "b": 11,
+    "t": 90.46
+   },
+   {
+    "w": "di",
+    "b": 11,
+    "t": 90.82
+   },
+   {
+    "w": "benang.",
+    "b": 11,
+    "t": 90.94
+   },
+   {
+    "w": "Sebelum",
+    "b": 12,
+    "t": 92.34
+   },
+   {
+    "w": "memesan,",
+    "b": 12,
+    "t": 92.95
+   },
+   {
+    "w": "siapkan",
+    "b": 12,
+    "t": 93.56
+   },
+   {
+    "w": "empat",
+    "b": 12,
+    "t": 93.88
+   },
+   {
+    "w": "hal",
+    "b": 12,
+    "t": 94.16
+   },
+   {
+    "w": "berikut.",
+    "b": 12,
+    "t": 94.34
+   },
+   {
+    "w": "Pertama,",
+    "b": 13,
+    "t": 95.2
+   },
+   {
+    "w": "file",
+    "b": 13,
+    "t": 96.02
+   },
+   {
+    "w": "logo",
+    "b": 13,
+    "t": 96.18
+   },
+   {
+    "w": "asli,",
+    "b": 13,
+    "t": 96.42
+   },
+   {
+    "w": "misalnya",
+    "b": 13,
+    "t": 97.2
+   },
+   {
+    "w": "vektor",
+    "b": 13,
+    "t": 97.66
+   },
+   {
+    "w": "atau",
+    "b": 13,
+    "t": 98.12
+   },
+   {
+    "w": "gambar",
+    "b": 13,
+    "t": 98.32
+   },
+   {
+    "w": "beresolusi",
+    "b": 13,
+    "t": 98.76
+   },
+   {
+    "w": "tinggi,",
+    "b": 13,
+    "t": 99.2
+   },
+   {
+    "w": "bukan",
+    "b": 13,
+    "t": 99.84
+   },
+   {
+    "w": "tangkapan",
+    "b": 13,
+    "t": 100.08
+   },
+   {
+    "w": "layar.",
+    "b": 13,
+    "t": 100.38
+   },
+   {
+    "w": "Kedua,",
+    "b": 14,
+    "t": 101.58
+   },
+   {
+    "w": "posisi",
+    "b": 14,
+    "t": 102.3
+   },
+   {
+    "w": "logo,",
+    "b": 14,
+    "t": 102.6
+   },
+   {
+    "w": "misalnya",
+    "b": 14,
+    "t": 103.24
+   },
+   {
+    "w": "dada",
+    "b": 14,
+    "t": 103.54
+   },
+   {
+    "w": "kiri,",
+    "b": 14,
+    "t": 103.9
+   },
+   {
+    "w": "lengan,",
+    "b": 14,
+    "t": 104.68
+   },
+   {
+    "w": "punggung,",
+    "b": 14,
+    "t": 105.28
+   },
+   {
+    "w": "atau",
+    "b": 14,
+    "t": 105.68
+   },
+   {
+    "w": "topi.",
+    "b": 14,
+    "t": 106.0
+   },
+   {
+    "w": "Ketiga,",
+    "b": 15,
+    "t": 107.1
+   },
+   {
+    "w": "ukuran",
+    "b": 15,
+    "t": 108.06
+   },
+   {
+    "w": "dalam",
+    "b": 15,
+    "t": 108.34
+   },
+   {
+    "w": "sentimeter,",
+    "b": 15,
+    "t": 108.94
+   },
+   {
+    "w": "misalnya",
+    "b": 15,
+    "t": 109.54
+   },
+   {
+    "w": "sembilan",
+    "b": 15,
+    "t": 109.953
+   },
+   {
+    "w": "sentimeter",
+    "b": 15,
+    "t": 110.367
+   },
+   {
+    "w": "untuk",
+    "b": 15,
+    "t": 110.78
+   },
+   {
+    "w": "dada",
+    "b": 15,
+    "t": 111.08
+   },
+   {
+    "w": "kiri.",
+    "b": 15,
+    "t": 111.28
+   },
+   {
+    "w": "Keempat,",
+    "b": 15,
+    "t": 112.66
+   },
+   {
+    "w": "warna",
+    "b": 15,
+    "t": 113.3
+   },
+   {
+    "w": "benang",
+    "b": 15,
+    "t": 113.68
+   },
+   {
+    "w": "yang",
+    "b": 15,
+    "t": 113.96
+   },
+   {
+    "w": "diinginkan.",
+    "b": 15,
+    "t": 114.08
+   },
+   {
+    "w": "Lalu,",
+    "b": 16,
+    "t": 115.34
+   },
+   {
+    "w": "minta",
+    "b": 16,
+    "t": 115.9
+   },
+   {
+    "w": "dan",
+    "b": 16,
+    "t": 116.32
+   },
+   {
+    "w": "periksa",
+    "b": 16,
+    "t": 116.52
+   },
+   {
+    "w": "contoh",
+    "b": 16,
+    "t": 116.94
+   },
+   {
+    "w": "desain",
+    "b": 16,
+    "t": 117.28
+   },
+   {
+    "w": "sebelum",
+    "b": 16,
+    "t": 117.62
+   },
+   {
+    "w": "produksi",
+    "b": 16,
+    "t": 117.9
+   },
+   {
+    "w": "dimulai.",
+    "b": 16,
+    "t": 118.2
+   },
+   {
+    "w": "Bordir",
+    "b": 17,
+    "t": 119.48
+   },
+   {
+    "w": "komputer",
+    "b": 17,
+    "t": 119.84
+   },
+   {
+    "w": "biasa",
+    "b": 17,
+    "t": 120.2
+   },
+   {
+    "w": "dipakai",
+    "b": 17,
+    "t": 120.56
+   },
+   {
+    "w": "pada",
+    "b": 17,
+    "t": 120.94
+   },
+   {
+    "w": "polo,",
+    "b": 17,
+    "t": 121.1
+   },
+   {
+    "w": "kemeja",
+    "b": 17,
+    "t": 121.86
+   },
+   {
+    "w": "kerja,",
+    "b": 17,
+    "t": 122.14
+   },
+   {
+    "w": "jaket,",
+    "b": 17,
+    "t": 123.08
+   },
+   {
+    "w": "apron,",
+    "b": 17,
+    "t": 123.92
+   },
+   {
+    "w": "topi,",
+    "b": 17,
+    "t": 124.64
+   },
+   {
+    "w": "sampai",
+    "b": 17,
+    "t": 125.36
+   },
+   {
+    "w": "seragam",
+    "b": 17,
+    "t": 125.54
+   },
+   {
+    "w": "medis.",
+    "b": 17,
+    "t": 125.86
+   },
+   {
+    "w": "Kafe",
+    "b": 18,
+    "t": 126.2
+   },
+   {
+    "w": "dan",
+    "b": 18,
+    "t": 127.18
+   },
+   {
+    "w": "restoran",
+    "b": 18,
+    "t": 127.38
+   },
+   {
+    "w": "memakainya",
+    "b": 18,
+    "t": 127.9
+   },
+   {
+    "w": "di",
+    "b": 18,
+    "t": 128.46
+   },
+   {
+    "w": "apron",
+    "b": 18,
+    "t": 128.6
+   },
+   {
+    "w": "dan",
+    "b": 18,
+    "t": 128.96
+   },
+   {
+    "w": "seragam",
+    "b": 18,
+    "t": 129.28
+   },
+   {
+    "w": "pramusaji.",
+    "b": 18,
+    "t": 129.78
+   },
+   {
+    "w": "Kantor",
+    "b": 18,
+    "t": 130.84
+   },
+   {
+    "w": "dan",
+    "b": 18,
+    "t": 131.28
+   },
+   {
+    "w": "toko",
+    "b": 18,
+    "t": 131.42
+   },
+   {
+    "w": "di",
+    "b": 18,
+    "t": 132.0
+   },
+   {
+    "w": "dada",
+    "b": 18,
+    "t": 132.26
+   },
+   {
+    "w": "kiri",
+    "b": 18,
+    "t": 132.47
+   },
+   {
+    "w": "polo,",
+    "b": 18,
+    "t": 132.68
+   },
+   {
+    "w": "sedangkan",
+    "b": 18,
+    "t": 133.44
+   },
+   {
+    "w": "komunitas",
+    "b": 18,
+    "t": 133.88
+   },
+   {
+    "w": "di",
+    "b": 18,
+    "t": 134.42
+   },
+   {
+    "w": "jaket.",
+    "b": 18,
+    "t": 134.76
+   },
+   {
+    "w": "Kesalahan",
+    "b": 19,
+    "t": 135.78
+   },
+   {
+    "w": "yang",
+    "b": 19,
+    "t": 136.32
+   },
+   {
+    "w": "paling",
+    "b": 19,
+    "t": 136.36
+   },
+   {
+    "w": "sering",
+    "b": 19,
+    "t": 136.56
+   },
+   {
+    "w": "adalah",
+    "b": 19,
+    "t": 136.86
+   },
+   {
+    "w": "logo",
+    "b": 19,
+    "t": 137.22
+   },
+   {
+    "w": "buram,",
+    "b": 19,
+    "t": 137.64
+   },
+   {
+    "w": "tulisan",
+    "b": 19,
+    "t": 138.4
+   },
+   {
+    "w": "terlalu",
+    "b": 19,
+    "t": 138.68
+   },
+   {
+    "w": "kecil,",
+    "b": 19,
+    "t": 138.98
+   },
+   {
+    "w": "dan",
+    "b": 19,
+    "t": 139.3
+   },
+   {
+    "w": "lupa",
+    "b": 19,
+    "t": 139.88
+   },
+   {
+    "w": "menyebut",
+    "b": 19,
+    "t": 140.3
+   },
+   {
+    "w": "warna",
+    "b": 19,
+    "t": 140.66
+   },
+   {
+    "w": "benang.",
+    "b": 19,
+    "t": 141.02
+   },
+   {
+    "w": "Tulisan",
+    "b": 20,
+    "t": 141.86
+   },
+   {
+    "w": "setinggi",
+    "b": 20,
+    "t": 142.38
+   },
+   {
+    "w": "satu",
+    "b": 20,
+    "t": 142.793
+   },
+   {
+    "w": "sentimeter,",
+    "b": 20,
+    "t": 143.207
+   },
+   {
+    "w": "misalnya,",
+    "b": 20,
+    "t": 143.62
+   },
+   {
+    "w": "sulit",
+    "b": 20,
+    "t": 144.32
+   },
+   {
+    "w": "terbaca",
+    "b": 20,
+    "t": 144.64
+   },
+   {
+    "w": "setelah",
+    "b": 20,
+    "t": 145.02
+   },
+   {
+    "w": "dibordir.",
+    "b": 20,
+    "t": 145.44
+   },
+   {
+    "w": "Kabar",
+    "b": 21,
+    "t": 146.5
+   },
+   {
+    "w": "baiknya,",
+    "b": 21,
+    "t": 146.86
+   },
+   {
+    "w": "file",
+    "b": 21,
+    "t": 147.68
+   },
+   {
+    "w": "jahitan",
+    "b": 21,
+    "t": 147.86
+   },
+   {
+    "w": "disimpan.",
+    "b": 21,
+    "t": 148.18
+   },
+   {
+    "w": "Saat",
+    "b": 21,
+    "t": 149.14
+   },
+   {
+    "w": "staf",
+    "b": 21,
+    "t": 149.4
+   },
+   {
+    "w": "bertambah,",
+    "b": 21,
+    "t": 149.62
+   },
+   {
+    "w": "pesanan",
+    "b": 21,
+    "t": 150.5
+   },
+   {
+    "w": "berikutnya",
+    "b": 21,
+    "t": 150.74
+   },
+   {
+    "w": "sama",
+    "b": 21,
+    "t": 151.28
+   },
+   {
+    "w": "persis",
+    "b": 21,
+    "t": 151.74
+   },
+   {
+    "w": "dengan",
+    "b": 21,
+    "t": 152.2
+   },
+   {
+    "w": "pesanan",
+    "b": 21,
+    "t": 152.42
+   },
+   {
+    "w": "pertama.",
+    "b": 21,
+    "t": 152.78
+   },
+   {
+    "w": "Di",
+    "b": 22,
+    "t": 153.94
+   },
+   {
+    "w": "Garmen",
+    "b": 22,
+    "t": 154.24
+   },
+   {
+    "w": "Indonesia,",
+    "b": 22,
+    "t": 154.54
+   },
+   {
+    "w": "prosesnya",
+    "b": 22,
+    "t": 155.3
+   },
+   {
+    "w": "dimulai",
+    "b": 22,
+    "t": 155.86
+   },
+   {
+    "w": "dari",
+    "b": 22,
+    "t": 156.22
+   },
+   {
+    "w": "persiapan",
+    "b": 22,
+    "t": 156.38
+   },
+   {
+    "w": "logo,",
+    "b": 22,
+    "t": 156.82
+   },
+   {
+    "w": "pembuatan",
+    "b": 22,
+    "t": 157.46
+   },
+   {
+    "w": "file",
+    "b": 22,
+    "t": 157.8
+   },
+   {
+    "w": "jahitan,",
+    "b": 22,
+    "t": 158.08
+   },
+   {
+    "w": "uji",
+    "b": 22,
+    "t": 158.96
+   },
+   {
+    "w": "pada",
+    "b": 22,
+    "t": 159.2
+   },
+   {
+    "w": "kain",
+    "b": 22,
+    "t": 159.36
+   },
+   {
+    "w": "contoh,",
+    "b": 22,
+    "t": 159.6
+   },
+   {
+    "w": "persetujuan",
+    "b": 22,
+    "t": 160.36
+   },
+   {
+    "w": "Anda,",
+    "b": 22,
+    "t": 160.82
+   },
+   {
+    "w": "lalu",
+    "b": 22,
+    "t": 161.56
+   },
+   {
+    "w": "produksi.",
+    "b": 22,
+    "t": 161.76
+   },
+   {
+    "w": "Untuk",
+    "b": 23,
+    "t": 162.72
+   },
+   {
+    "w": "polo",
+    "b": 23,
+    "t": 163.1
+   },
+   {
+    "w": "dan",
+    "b": 23,
+    "t": 163.5
+   },
+   {
+    "w": "seragam",
+    "b": 23,
+    "t": 163.66
+   },
+   {
+    "w": "HORECA,",
+    "b": 23,
+    "t": 164.25
+   },
+   {
+    "w": "bordir",
+    "b": 23,
+    "t": 164.84
+   },
+   {
+    "w": "logo",
+    "b": 23,
+    "t": 165.1
+   },
+   {
+    "w": "sudah",
+    "b": 23,
+    "t": 165.38
+   },
+   {
+    "w": "termasuk.",
+    "b": 23,
+    "t": 165.58
+   },
+   {
+    "w": "Waktu",
+    "b": 23,
+    "t": 166.42
+   },
+   {
+    "w": "produksi",
+    "b": 23,
+    "t": 166.72
+   },
+   {
+    "w": "disampaikan",
+    "b": 23,
+    "t": 167.12
+   },
+   {
+    "w": "sejak",
+    "b": 23,
+    "t": 167.62
+   },
+   {
+    "w": "awal,",
+    "b": 23,
+    "t": 167.92
+   },
+   {
+    "w": "dan",
+    "b": 23,
+    "t": 168.44
+   },
+   {
+    "w": "pesanan",
+    "b": 23,
+    "t": 168.64
+   },
+   {
+    "w": "dikirim",
+    "b": 23,
+    "t": 169.02
+   },
+   {
+    "w": "ke",
+    "b": 23,
+    "t": 169.6
+   },
+   {
+    "w": "seluruh",
+    "b": 23,
+    "t": 169.78
+   },
+   {
+    "w": "Indonesia.",
+    "b": 23,
+    "t": 170.16
+   },
+   {
+    "w": "Bordir",
+    "b": 24,
+    "t": 171.26
+   },
+   {
+    "w": "komputer",
+    "b": 24,
+    "t": 171.98
+   },
+   {
+    "w": "membuat",
+    "b": 24,
+    "t": 172.36
+   },
+   {
+    "w": "logo",
+    "b": 24,
+    "t": 172.78
+   },
+   {
+    "w": "usaha",
+    "b": 24,
+    "t": 172.98
+   },
+   {
+    "w": "tampil",
+    "b": 24,
+    "t": 173.34
+   },
+   {
+    "w": "sama",
+    "b": 24,
+    "t": 173.86
+   },
+   {
+    "w": "di",
+    "b": 24,
+    "t": 174.2
+   },
+   {
+    "w": "setiap",
+    "b": 24,
+    "t": 174.42
+   },
+   {
+    "w": "potong,",
+    "b": 24,
+    "t": 174.7
+   },
+   {
+    "w": "tahan",
+    "b": 24,
+    "t": 175.28
+   },
+   {
+    "w": "dicuci,",
+    "b": 24,
+    "t": 175.74
+   },
+   {
+    "w": "dan",
+    "b": 24,
+    "t": 176.2
+   },
+   {
+    "w": "terlihat",
+    "b": 24,
+    "t": 176.24
+   },
+   {
+    "w": "profesional",
+    "b": 24,
+    "t": 176.68
+   },
+   {
+    "w": "di",
+    "b": 24,
+    "t": 177.1
+   },
+   {
+    "w": "depan",
+    "b": 24,
+    "t": 177.4
+   },
+   {
+    "w": "pelanggan.",
+    "b": 24,
+    "t": 177.58
+   },
+   {
+    "w": "Kirim",
+    "b": 25,
+    "t": 177.98
+   },
+   {
+    "w": "logo",
+    "b": 25,
+    "t": 179.02
+   },
+   {
+    "w": "usaha",
+    "b": 25,
+    "t": 179.2
+   },
+   {
+    "w": "Anda",
+    "b": 25,
+    "t": 179.6
+   },
+   {
+    "w": "lewat",
+    "b": 25,
+    "t": 179.84
+   },
+   {
+    "w": "WhatsApp,",
+    "b": 25,
+    "t": 180.12
+   },
+   {
+    "w": "tim",
+    "b": 25,
+    "t": 180.76
+   },
+   {
+    "w": "Garmen",
+    "b": 25,
+    "t": 181.02
+   },
+   {
+    "w": "Indonesia",
+    "b": 25,
+    "t": 181.28
+   },
+   {
+    "w": "bantu",
+    "b": 25,
+    "t": 181.66
+   },
+   {
+    "w": "siapkan",
+    "b": 25,
+    "t": 182.06
+   },
+   {
+    "w": "contoh",
+    "b": 25,
+    "t": 182.44
+   },
+   {
+    "w": "desainnya.",
+    "b": 25,
+    "t": 182.72
+   },
+   {
+    "w": "Konsultasi",
+    "b": 25,
+    "t": 183.48
+   },
+   {
+    "w": "gratis,",
+    "b": 25,
+    "t": 184.12
+   },
+   {
+    "w": "link",
+    "b": 25,
+    "t": 184.82
+   },
+   {
+    "w": "ada",
+    "b": 25,
+    "t": 185.1
+   },
+   {
+    "w": "di",
+    "b": 25,
+    "t": 185.5
+   },
+   {
+    "w": "deskripsi.",
+    "b": 25,
+    "t": 185.66
+   }
+  ],
+  "sumber": "whisper"
+ },
+ "foto": [
+  "FC0048",
+  "FC0104",
+  "GA1409",
+  "GA1420",
+  "GA1428",
+  "GA1632",
+  "GA1977",
+  "GA1981",
+  "GA2055",
+  "GA2057",
+  "PK0031",
+  "SD0024"
+ ],
+ "dibuat": "2026-10-31T14:21:16"
+}
